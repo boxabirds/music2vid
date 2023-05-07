@@ -16,7 +16,7 @@ import librosa
 
 parser = argparse.ArgumentParser()
 KEY_FRAME_FPS = 4 # how many key frames are generated per second
-MODEL_SIZE = "base" # from openai-whisper: tiny, base, small, medium, large https://github.com/openai/whisper
+MODEL_SIZE = "medium" # from openai-whisper: tiny, base, small, medium, large https://github.com/openai/whisper
 
 # function for transcribing audio file
 
@@ -71,7 +71,7 @@ input_path = Path(args.input)
 if input_path.is_file():
     input_files = [str(input_path)]
 elif input_path.is_dir():
-    input_files = [str(file) for file in input_path.glob("*") if file.is_file()]
+    input_files = [str(file) for file in input_path.glob("*.mp3") if file.is_file()]
 else:
     raise ValueError(f"Invalid input path: {input_path}")
 

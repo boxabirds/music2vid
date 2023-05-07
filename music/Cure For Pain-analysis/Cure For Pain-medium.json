@@ -1,0 +1,1173 @@
+{
+  "text": " Where is the ritual? And tell me where, where is the taste? Where is the sacrifice? And tell me where, where is the faith? Someday, there'll be a cure for pain That's the day I throw my drugs away Find the cure for pain Where is the cave? Where the wise woman went? And tell me where, where's all that money that I've spent? I propose a toast To my self-control You see it crawling helpless on the floor Someday, there'll be a cure for pain That's the day I throw my drugs away Find the cure for pain Find the cure for pain Find the cure, find the cure for pain",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 18.95,
+      "end": 24.23,
+      "text": " Where is the ritual?",
+      "tokens": [
+        50364,
+        2305,
+        307,
+        264,
+        13792,
+        30,
+        50664
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.20800549983978273,
+      "compression_ratio": 1.605263157894737,
+      "no_speech_prob": 0.29449018836021423,
+      "confidence": 0.717,
+      "words": [
+        {
+          "text": "Where",
+          "start": 18.95,
+          "end": 21.51,
+          "confidence": 0.351
+        },
+        {
+          "text": "is",
+          "start": 22.25,
+          "end": 22.97,
+          "confidence": 0.951
+        },
+        {
+          "text": "the",
+          "start": 22.97,
+          "end": 23.25,
+          "confidence": 0.979
+        },
+        {
+          "text": "ritual?",
+          "start": 23.25,
+          "end": 24.23,
+          "confidence": 0.761
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 26.94,
+      "end": 33.18,
+      "text": " And tell me where, where is the taste?",
+      "tokens": [
+        50664,
+        400,
+        980,
+        385,
+        689,
+        11,
+        689,
+        307,
+        264,
+        3939,
+        30,
+        51014
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.20800549983978273,
+      "compression_ratio": 1.605263157894737,
+      "no_speech_prob": 0.29449018836021423,
+      "confidence": 0.703,
+      "words": [
+        {
+          "text": "And",
+          "start": 26.94,
+          "end": 27.3,
+          "confidence": 0.208
+        },
+        {
+          "text": "tell",
+          "start": 27.3,
+          "end": 27.7,
+          "confidence": 0.975
+        },
+        {
+          "text": "me",
+          "start": 27.7,
+          "end": 27.94,
+          "confidence": 0.995
+        },
+        {
+          "text": "where,",
+          "start": 27.94,
+          "end": 30.54,
+          "confidence": 0.61
+        },
+        {
+          "text": "where",
+          "start": 31.18,
+          "end": 31.68,
+          "confidence": 0.884
+        },
+        {
+          "text": "is",
+          "start": 31.68,
+          "end": 32.0,
+          "confidence": 0.957
+        },
+        {
+          "text": "the",
+          "start": 32.0,
+          "end": 32.26,
+          "confidence": 0.941
+        },
+        {
+          "text": "taste?",
+          "start": 32.26,
+          "end": 33.18,
+          "confidence": 0.703
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 36.77,
+      "end": 42.43,
+      "text": " Where is the sacrifice?",
+      "tokens": [
+        51014,
+        2305,
+        307,
+        264,
+        11521,
+        30,
+        51364
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.20800549983978273,
+      "compression_ratio": 1.605263157894737,
+      "no_speech_prob": 0.29449018836021423,
+      "confidence": 0.733,
+      "words": [
+        {
+          "text": "Where",
+          "start": 36.77,
+          "end": 39.95,
+          "confidence": 0.394
+        },
+        {
+          "text": "is",
+          "start": 39.95,
+          "end": 40.75,
+          "confidence": 0.953
+        },
+        {
+          "text": "the",
+          "start": 40.75,
+          "end": 41.03,
+          "confidence": 0.985
+        },
+        {
+          "text": "sacrifice?",
+          "start": 41.03,
+          "end": 42.43,
+          "confidence": 0.755
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 44.68,
+      "end": 50.5,
+      "text": " And tell me where, where is the faith?",
+      "tokens": [
+        51364,
+        400,
+        980,
+        385,
+        689,
+        11,
+        689,
+        307,
+        264,
+        4522,
+        30,
+        51714
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.20800549983978273,
+      "compression_ratio": 1.605263157894737,
+      "no_speech_prob": 0.29449018836021423,
+      "confidence": 0.551,
+      "words": [
+        {
+          "text": "And",
+          "start": 44.68,
+          "end": 45.02,
+          "confidence": 0.374
+        },
+        {
+          "text": "tell",
+          "start": 45.02,
+          "end": 45.4,
+          "confidence": 0.976
+        },
+        {
+          "text": "me",
+          "start": 45.4,
+          "end": 45.78,
+          "confidence": 0.995
+        },
+        {
+          "text": "where,",
+          "start": 45.78,
+          "end": 48.56,
+          "confidence": 0.548
+        },
+        {
+          "text": "where",
+          "start": 48.78,
+          "end": 49.26,
+          "confidence": 0.916
+        },
+        {
+          "text": "is",
+          "start": 49.26,
+          "end": 49.6,
+          "confidence": 0.982
+        },
+        {
+          "text": "the",
+          "start": 49.6,
+          "end": 50.02,
+          "confidence": 0.833
+        },
+        {
+          "text": "faith?",
+          "start": 50.02,
+          "end": 50.5,
+          "confidence": 0.178
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "seek": 2700,
+      "start": 54.89,
+      "end": 64.03,
+      "text": " Someday, there'll be a cure for pain",
+      "tokens": [
+        50364,
+        12297,
+        16826,
+        11,
+        456,
+        603,
+        312,
+        257,
+        13698,
+        337,
+        1822,
+        50814
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.1939172160868742,
+      "compression_ratio": 1.3148148148148149,
+      "no_speech_prob": 0.05820068344473839,
+      "confidence": 0.708,
+      "words": [
+        {
+          "text": "Someday,",
+          "start": 54.89,
+          "end": 59.61,
+          "confidence": 0.412
+        },
+        {
+          "text": "there'll",
+          "start": 61.19,
+          "end": 61.65,
+          "confidence": 0.695
+        },
+        {
+          "text": "be",
+          "start": 61.65,
+          "end": 61.91,
+          "confidence": 0.996
+        },
+        {
+          "text": "a",
+          "start": 61.91,
+          "end": 62.19,
+          "confidence": 0.982
+        },
+        {
+          "text": "cure",
+          "start": 62.19,
+          "end": 62.61,
+          "confidence": 0.99
+        },
+        {
+          "text": "for",
+          "start": 62.61,
+          "end": 63.15,
+          "confidence": 0.995
+        },
+        {
+          "text": "pain",
+          "start": 63.15,
+          "end": 64.03,
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "seek": 2700,
+      "start": 73.2,
+      "end": 76.92,
+      "text": " That's the day",
+      "tokens": [
+        50814,
+        663,
+        311,
+        264,
+        786,
+        51064
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.1939172160868742,
+      "compression_ratio": 1.3148148148148149,
+      "no_speech_prob": 0.05820068344473839,
+      "confidence": 0.752,
+      "words": [
+        {
+          "text": "That's",
+          "start": 73.2,
+          "end": 73.96,
+          "confidence": 0.661
+        },
+        {
+          "text": "the",
+          "start": 73.96,
+          "end": 74.2,
+          "confidence": 0.928
+        },
+        {
+          "text": "day",
+          "start": 74.2,
+          "end": 76.92,
+          "confidence": 0.788
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "seek": 2700,
+      "start": 78.98,
+      "end": 81.42,
+      "text": " I throw my drugs away",
+      "tokens": [
+        51064,
+        286,
+        3507,
+        452,
+        7766,
+        1314,
+        51264
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.1939172160868742,
+      "compression_ratio": 1.3148148148148149,
+      "no_speech_prob": 0.05820068344473839,
+      "confidence": 0.803,
+      "words": [
+        {
+          "text": "I",
+          "start": 78.98,
+          "end": 79.02,
+          "confidence": 0.467
+        },
+        {
+          "text": "throw",
+          "start": 79.02,
+          "end": 79.32,
+          "confidence": 0.833
+        },
+        {
+          "text": "my",
+          "start": 79.32,
+          "end": 79.7,
+          "confidence": 0.986
+        },
+        {
+          "text": "drugs",
+          "start": 79.7,
+          "end": 80.24,
+          "confidence": 0.975
+        },
+        {
+          "text": "away",
+          "start": 80.24,
+          "end": 81.42,
+          "confidence": 0.892
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "seek": 2700,
+      "start": 84.06,
+      "end": 85.76,
+      "text": " Find the cure for pain",
+      "tokens": [
+        51264,
+        11809,
+        264,
+        13698,
+        337,
+        1822,
+        51414
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.1939172160868742,
+      "compression_ratio": 1.3148148148148149,
+      "no_speech_prob": 0.05820068344473839,
+      "confidence": 0.12,
+      "words": [
+        {
+          "text": "Find",
+          "start": 84.06,
+          "end": 84.42,
+          "confidence": 0.008
+        },
+        {
+          "text": "the",
+          "start": 84.42,
+          "end": 84.6,
+          "confidence": 0.465
+        },
+        {
+          "text": "cure",
+          "start": 84.6,
+          "end": 85.0,
+          "confidence": 0.199
+        },
+        {
+          "text": "for",
+          "start": 85.0,
+          "end": 85.2,
+          "confidence": 0.158
+        },
+        {
+          "text": "pain",
+          "start": 85.2,
+          "end": 85.76,
+          "confidence": 0.22
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "seek": 2700,
+      "start": 107.03,
+      "end": 112.01,
+      "text": " Where is the cave?",
+      "tokens": [
+        51414,
+        2305,
+        307,
+        264,
+        11730,
+        30,
+        51664
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.1939172160868742,
+      "compression_ratio": 1.3148148148148149,
+      "no_speech_prob": 0.05820068344473839,
+      "confidence": 0.309,
+      "words": [
+        {
+          "text": "Where",
+          "start": 107.03,
+          "end": 109.59,
+          "confidence": 0.119
+        },
+        {
+          "text": "is",
+          "start": 110.23,
+          "end": 111.23,
+          "confidence": 0.849
+        },
+        {
+          "text": "the",
+          "start": 111.23,
+          "end": 111.43,
+          "confidence": 0.302
+        },
+        {
+          "text": "cave?",
+          "start": 111.43,
+          "end": 112.01,
+          "confidence": 0.303
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "seek": 2700,
+      "start": 112.01,
+      "end": 114.57,
+      "text": " Where the wise woman went?",
+      "tokens": [
+        51664,
+        2305,
+        264,
+        10829,
+        3059,
+        1437,
+        30,
+        51814
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.1939172160868742,
+      "compression_ratio": 1.3148148148148149,
+      "no_speech_prob": 0.05820068344473839,
+      "confidence": 0.234,
+      "words": [
+        {
+          "text": "Where",
+          "start": 112.01,
+          "end": 112.43,
+          "confidence": 0.141
+        },
+        {
+          "text": "the",
+          "start": 112.43,
+          "end": 112.73,
+          "confidence": 0.957
+        },
+        {
+          "text": "wise",
+          "start": 112.73,
+          "end": 113.17,
+          "confidence": 0.946
+        },
+        {
+          "text": "woman",
+          "start": 113.17,
+          "end": 113.63,
+          "confidence": 0.963
+        },
+        {
+          "text": "went?",
+          "start": 113.63,
+          "end": 114.57,
+          "confidence": 0.037
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "seek": 5600,
+      "start": 115.05,
+      "end": 120.73,
+      "text": " And tell me where, where's all that money that I've spent?",
+      "tokens": [
+        50364,
+        400,
+        980,
+        385,
+        689,
+        11,
+        689,
+        311,
+        439,
+        300,
+        1460,
+        300,
+        286,
+        600,
+        4418,
+        30,
+        50664
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.1399182743496365,
+      "compression_ratio": 1.2985074626865671,
+      "no_speech_prob": 0.008636708371341228,
+      "confidence": 0.633,
+      "words": [
+        {
+          "text": "And",
+          "start": 115.05,
+          "end": 115.33,
+          "confidence": 0.19
+        },
+        {
+          "text": "tell",
+          "start": 115.33,
+          "end": 115.67,
+          "confidence": 0.809
+        },
+        {
+          "text": "me",
+          "start": 115.67,
+          "end": 116.03,
+          "confidence": 0.481
+        },
+        {
+          "text": "where,",
+          "start": 116.03,
+          "end": 117.19,
+          "confidence": 0.238
+        },
+        {
+          "text": "where's",
+          "start": 118.29,
+          "end": 118.71,
+          "confidence": 0.888
+        },
+        {
+          "text": "all",
+          "start": 118.71,
+          "end": 118.87,
+          "confidence": 0.988
+        },
+        {
+          "text": "that",
+          "start": 118.87,
+          "end": 119.09,
+          "confidence": 0.938
+        },
+        {
+          "text": "money",
+          "start": 119.09,
+          "end": 119.43,
+          "confidence": 0.99
+        },
+        {
+          "text": "that",
+          "start": 119.43,
+          "end": 119.71,
+          "confidence": 0.932
+        },
+        {
+          "text": "I've",
+          "start": 119.71,
+          "end": 120.21,
+          "confidence": 0.862
+        },
+        {
+          "text": "spent?",
+          "start": 120.21,
+          "end": 120.73,
+          "confidence": 0.71
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "seek": 5600,
+      "start": 124.94,
+      "end": 127.18,
+      "text": " I propose a toast",
+      "tokens": [
+        50664,
+        286,
+        17421,
+        257,
+        15354,
+        50814
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.1399182743496365,
+      "compression_ratio": 1.2985074626865671,
+      "no_speech_prob": 0.008636708371341228,
+      "confidence": 0.418,
+      "words": [
+        {
+          "text": "I",
+          "start": 124.94,
+          "end": 125.46,
+          "confidence": 0.057
+        },
+        {
+          "text": "propose",
+          "start": 125.46,
+          "end": 126.28,
+          "confidence": 0.789
+        },
+        {
+          "text": "a",
+          "start": 126.28,
+          "end": 126.64,
+          "confidence": 0.681
+        },
+        {
+          "text": "toast",
+          "start": 126.64,
+          "end": 127.18,
+          "confidence": 0.991
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "seek": 5600,
+      "start": 129.08,
+      "end": 131.72,
+      "text": " To my self-control",
+      "tokens": [
+        50814,
+        1407,
+        452,
+        2698,
+        12,
+        40905,
+        51014
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.1399182743496365,
+      "compression_ratio": 1.2985074626865671,
+      "no_speech_prob": 0.008636708371341228,
+      "confidence": 0.543,
+      "words": [
+        {
+          "text": "To",
+          "start": 129.08,
+          "end": 129.72,
+          "confidence": 0.23
+        },
+        {
+          "text": "my",
+          "start": 129.72,
+          "end": 130.16,
+          "confidence": 0.801
+        },
+        {
+          "text": "self-control",
+          "start": 130.16,
+          "end": 131.72,
+          "confidence": 0.635
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "seek": 5600,
+      "start": 132.97,
+      "end": 138.46,
+      "text": " You see it crawling helpless on the floor",
+      "tokens": [
+        51014,
+        509,
+        536,
+        309,
+        32979,
+        27596,
+        322,
+        264,
+        4123,
+        51314
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.1399182743496365,
+      "compression_ratio": 1.2985074626865671,
+      "no_speech_prob": 0.008636708371341228,
+      "confidence": 0.188,
+      "words": [
+        {
+          "text": "You",
+          "start": 132.97,
+          "end": 133.7,
+          "confidence": 0.265
+        },
+        {
+          "text": "see",
+          "start": 133.7,
+          "end": 134.26,
+          "confidence": 0.922
+        },
+        {
+          "text": "it",
+          "start": 134.26,
+          "end": 134.4,
+          "confidence": 0.921
+        },
+        {
+          "text": "crawling",
+          "start": 134.4,
+          "end": 135.12,
+          "confidence": 0.053
+        },
+        {
+          "text": "helpless",
+          "start": 135.12,
+          "end": 135.98,
+          "confidence": 0.0
+        },
+        {
+          "text": "on",
+          "start": 135.98,
+          "end": 137.12,
+          "confidence": 0.627
+        },
+        {
+          "text": "the",
+          "start": 137.12,
+          "end": 137.7,
+          "confidence": 0.811
+        },
+        {
+          "text": "floor",
+          "start": 137.7,
+          "end": 138.46,
+          "confidence": 0.979
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "seek": 5600,
+      "start": 143.61,
+      "end": 151.64,
+      "text": " Someday, there'll be a cure for pain",
+      "tokens": [
+        51314,
+        12297,
+        16826,
+        11,
+        456,
+        603,
+        312,
+        257,
+        13698,
+        337,
+        1822,
+        51764
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.1399182743496365,
+      "compression_ratio": 1.2985074626865671,
+      "no_speech_prob": 0.008636708371341228,
+      "confidence": 0.731,
+      "words": [
+        {
+          "text": "Someday,",
+          "start": 143.61,
+          "end": 147.23,
+          "confidence": 0.452
+        },
+        {
+          "text": "there'll",
+          "start": 148.92,
+          "end": 149.24,
+          "confidence": 0.775
+        },
+        {
+          "text": "be",
+          "start": 149.24,
+          "end": 149.48,
+          "confidence": 0.997
+        },
+        {
+          "text": "a",
+          "start": 149.48,
+          "end": 149.76,
+          "confidence": 0.977
+        },
+        {
+          "text": "cure",
+          "start": 149.76,
+          "end": 150.18,
+          "confidence": 0.997
+        },
+        {
+          "text": "for",
+          "start": 150.18,
+          "end": 150.72,
+          "confidence": 0.994
+        },
+        {
+          "text": "pain",
+          "start": 150.72,
+          "end": 151.64,
+          "confidence": 0.821
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "seek": 8400,
+      "start": 160.82,
+      "end": 163.96,
+      "text": " That's the day",
+      "tokens": [
+        50364,
+        663,
+        311,
+        264,
+        786,
+        50614
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.14389329078869942,
+      "compression_ratio": 1.7391304347826086,
+      "no_speech_prob": 0.020713362842798233,
+      "confidence": 0.717,
+      "words": [
+        {
+          "text": "That's",
+          "start": 160.82,
+          "end": 161.34,
+          "confidence": 0.67
+        },
+        {
+          "text": "the",
+          "start": 161.34,
+          "end": 161.78,
+          "confidence": 0.936
+        },
+        {
+          "text": "day",
+          "start": 161.78,
+          "end": 163.96,
+          "confidence": 0.63
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "seek": 8400,
+      "start": 166.44,
+      "end": 168.86,
+      "text": " I throw my drugs away",
+      "tokens": [
+        50614,
+        286,
+        3507,
+        452,
+        7766,
+        1314,
+        50764
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.14389329078869942,
+      "compression_ratio": 1.7391304347826086,
+      "no_speech_prob": 0.020713362842798233,
+      "confidence": 0.753,
+      "words": [
+        {
+          "text": "I",
+          "start": 166.44,
+          "end": 166.64,
+          "confidence": 0.442
+        },
+        {
+          "text": "throw",
+          "start": 166.64,
+          "end": 166.82,
+          "confidence": 0.67
+        },
+        {
+          "text": "my",
+          "start": 166.82,
+          "end": 167.16,
+          "confidence": 0.984
+        },
+        {
+          "text": "drugs",
+          "start": 167.16,
+          "end": 167.7,
+          "confidence": 0.902
+        },
+        {
+          "text": "away",
+          "start": 167.7,
+          "end": 168.86,
+          "confidence": 0.921
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "seek": 8400,
+      "start": 170.89,
+      "end": 173.42,
+      "text": " Find the cure for pain",
+      "tokens": [
+        50764,
+        11809,
+        264,
+        13698,
+        337,
+        1822,
+        50964
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.14389329078869942,
+      "compression_ratio": 1.7391304347826086,
+      "no_speech_prob": 0.020713362842798233,
+      "confidence": 0.021,
+      "words": [
+        {
+          "text": "Find",
+          "start": 170.89,
+          "end": 171.82,
+          "confidence": 0.0
+        },
+        {
+          "text": "the",
+          "start": 171.82,
+          "end": 172.18,
+          "confidence": 0.109
+        },
+        {
+          "text": "cure",
+          "start": 172.18,
+          "end": 172.46,
+          "confidence": 0.603
+        },
+        {
+          "text": "for",
+          "start": 172.46,
+          "end": 172.86,
+          "confidence": 0.074
+        },
+        {
+          "text": "pain",
+          "start": 172.86,
+          "end": 173.42,
+          "confidence": 0.017
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "seek": 8400,
+      "start": 175.65,
+      "end": 177.27,
+      "text": " Find the cure for pain",
+      "tokens": [
+        50964,
+        11809,
+        264,
+        13698,
+        337,
+        1822,
+        51114
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.14389329078869942,
+      "compression_ratio": 1.7391304347826086,
+      "no_speech_prob": 0.020713362842798233,
+      "confidence": 0.014,
+      "words": [
+        {
+          "text": "Find",
+          "start": 175.65,
+          "end": 176.19,
+          "confidence": 0.0
+        },
+        {
+          "text": "the",
+          "start": 176.19,
+          "end": 176.33,
+          "confidence": 0.132
+        },
+        {
+          "text": "cure",
+          "start": 176.33,
+          "end": 176.61,
+          "confidence": 0.013
+        },
+        {
+          "text": "for",
+          "start": 176.61,
+          "end": 176.81,
+          "confidence": 0.586
+        },
+        {
+          "text": "pain",
+          "start": 176.81,
+          "end": 177.27,
+          "confidence": 0.004
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "seek": 8400,
+      "start": 178.83,
+      "end": 181.93,
+      "text": " Find the cure, find the cure for pain",
+      "tokens": [
+        51114,
+        11809,
+        264,
+        13698,
+        11,
+        915,
+        264,
+        13698,
+        337,
+        1822,
+        51364
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.14389329078869942,
+      "compression_ratio": 1.7391304347826086,
+      "no_speech_prob": 0.020713362842798233,
+      "confidence": 0.12,
+      "words": [
+        {
+          "text": "Find",
+          "start": 178.83,
+          "end": 179.45,
+          "confidence": 0.0
+        },
+        {
+          "text": "the",
+          "start": 179.45,
+          "end": 179.67,
+          "confidence": 0.092
+        },
+        {
+          "text": "cure,",
+          "start": 179.67,
+          "end": 180.05,
+          "confidence": 0.316
+        },
+        {
+          "text": "find",
+          "start": 180.31,
+          "end": 180.59,
+          "confidence": 0.854
+        },
+        {
+          "text": "the",
+          "start": 180.59,
+          "end": 180.83,
+          "confidence": 0.985
+        },
+        {
+          "text": "cure",
+          "start": 180.83,
+          "end": 181.29,
+          "confidence": 0.999
+        },
+        {
+          "text": "for",
+          "start": 181.29,
+          "end": 181.31,
+          "confidence": 0.006
+        },
+        {
+          "text": "pain",
+          "start": 181.31,
+          "end": 181.93,
+          "confidence": 0.246
+        }
+      ]
+    }
+  ],
+  "language": "en"
+}
