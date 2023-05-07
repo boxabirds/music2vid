@@ -1,10 +1,16 @@
+
 import os
+from typing import Dict
+from tqdm import tqdm
 import whisper_timestamped as whisper
 import argparse
 import demucs.api
 import demucs.audio
 import json
 from pathlib import Path
+import csv
+import librosa
+
 
 #import soundfile as sf
 
@@ -14,33 +20,38 @@ MODEL_SIZE = "base" # from openai-whisper: tiny, base, small, medium, large http
 
 # function for transcribing audio file
 
-def stem_path_from_source_path(source_audio_path: Path, stem: str) -> Path:
-    return Path(source_audio_path.stem + "_" + stem + ".mp3")
+def stem_path_from_source_path(audio_file_path: Path, output_folder: Path, stem: str) -> Path:
+    return Path(output_folder) / Path(audio_file_path.stem + "-" + stem + ".mp3")
 
-def separate_vocals(audio_file:str) -> Path: 
-    # don't do it again if the stems already exist
-    source_audio_path = Path(audio_file)
-    vocal_stem = stem_path_from_source_path(source_audio_path, "vocals")
+def stems_dict_from_source_path(audio_file_path: Path, output_folder: Path) -> Dict[str, Path]:
+    stems_dict = {}
+    for stem in ["vocals", "drums", "bass", "other"]:
+        stems_dict[stem] = stem_path_from_source_path(audio_file_path, output_folder, stem)
+    return stems_dict
 
-    if os.path.exists(vocal_stem):
-        print(f"Stems already exist for '{vocal_stem}' so no stem separation will be performed -- delete the stems if you want to re-run the separation")
-        return vocal_stem
+
+def separate_stems(audio_file_path: Path, output_folder:Path) -> Dict[str,Path]: 
     
-    stem_paths = {}
+    stems = stems_dict_from_source_path(audio_file_path, output_folder)
+    if os.path.exists(stems["vocals"]):
+        print(f"Stems already exist for '{stems['vocals']}' so no stem separation will be performed -- delete the stems if you want to re-run the separation")
+        return stems
+    else:
+        print(f"Stems file '{stems['vocals']}' does not exist so stem separation will be performed")
+    
     separator = demucs.api.Separator()
+    print(f"Loading model")
     separator.load_model(model='mdx_extra')
-    separator.load_audios_to_model(source_audio_path)
+    print(f"Loading audio into model")
+    separator.load_audios_to_model(audio_file_path)
+    print(f"Separating audio into stems")
     separated = separator.separate_loaded_audio()
     for file, sources in separated:
-        print(f"Saving file '{file}'")
         for stem, source in sources.items():
-            stem_path = source_audio_path.stem + "_" + stem + ".mp3"
-            stem_paths[stem] = stem_path
-            print(f"Saving stem file '{stem_path}'")
-            demucs.audio.save_audio(source, stem_path, samplerate=separator._samplerate)
+            print(f"Saving stem file '{stems[stem]}'")
+            demucs.audio.save_audio(source, stems[stem], samplerate=separator._samplerate)
     
-    # TODO fix this because random folder
-    return stem_paths["vocals"]
+    return stems
 
 def transcribe_audio(audio_file):
     audio = whisper.load_audio(audio_file)
@@ -51,76 +62,92 @@ def transcribe_audio(audio_file):
     return result
 
 
-
-# use argparse take input from user from parameter "--input" and output to optional parameter "--output"
-
-
 # Add the input argument
-parser.add_argument("--input", help="Input file path", required=True)
+parser.add_argument("--input", help="Input file or folder", required=True)
 
 # Parse the arguments
 args = parser.parse_args()
+input_path = Path(args.input)
+if input_path.is_file():
+    input_files = [str(input_path)]
+elif input_path.is_dir():
+    input_files = [str(file) for file in input_path.glob("*") if file.is_file()]
+else:
+    raise ValueError(f"Invalid input path: {input_path}")
 
-input_filename = args.input
+# show progress using tqdm
+for input_filename in tqdm(input_files, desc="Processing music files"):
+    file_path = Path(input_filename)
 
-# librosa's vocal stemming has so many artefacts that transcription quality is actually worse
-# but we'll probably use librosa for beat detection
-# y, sr = librosa.load(args.input)
+    # filepath.stem is the filename without the extension not the audio stem :)
+    output_folder = file_path.parent / (file_path.stem + "-analysis")
+    plain_transcript_filename = Path(output_folder) / (file_path.stem +  "-plain-" + MODEL_SIZE + ".txt")
+    # Skip processing if the analysis folder is not empty
+    if os.path.exists(output_folder):
+        if os.path.exists(plain_transcript_filename):
+            tqdm.write(f"Skipping {file_path.name} because {plain_transcript_filename} already exists.")
+            continue
+    else:
+        os.mkdir(output_folder)
 
-# # Get harmonic component
-# y_harmonic = librosa.effects.harmonic(y)
+    
+    # tqdm_instance = tqdm(total=1, desc=f"Processing {input_filename}", leave=False)
+    print(f"separating stems for '{file_path.name}'")
+    stems = separate_stems(file_path, output_folder)
 
-# librosa POC: write harmonic component to WAV file
-# harmony_component_filename = args.input + "-harmonic.wav"
-# sf.write(harmony_component_filename, y_harmonic, sr)
-#subprocess.call(['ffmpeg', '-i', harmony_component_filename, 'your_file_harmonic.mp3'])
+    # Calculate tempo using librosa.beat.tempo
+    print(f"detecting tempo '{input_filename}'")
+    y, sr = librosa.load(stems["drums"])
+    onset_env = librosa.onset.onset_strength(y=y, sr=sr)
+    tempo = librosa.feature.tempo(onset_envelope=onset_env, sr=sr)
 
-vocal_stem = separate_vocals(input_filename)
-result = transcribe_audio(vocal_stem)
+    # Store tempo in metadata.json
+    metadata = {"tempo": tempo[0]}
+    metadata_filepath = os.path.join(output_folder, "metadata.json")
+    with open(metadata_filepath, "w") as metadata_file:
+        json.dump(metadata, metadata_file)
 
+    print(f"transcribing '{stems['vocals'].name}'")
+    result = transcribe_audio(stems["vocals"])
 
-# if output is not specified, use the input file name with .json extension
+    print(f"writing transcription files '{file_path.name}'")
+    # Update all the output file paths to use the output_folder
+    full_transcript_filename = Path(output_folder) / (file_path.stem + "-" + MODEL_SIZE + ".json")
+    # write the result to the output file
+    with open(full_transcript_filename, "w") as f:
+        f.write(json.dumps(result, indent = 2, ensure_ascii = False))
 
-full_transcript_filename = args.input + "-" + MODEL_SIZE + ".json"
-# write the result to the output file
-with open(full_transcript_filename, "w") as f:
-    f.write(json.dumps(result, indent = 2, ensure_ascii = False))
+    segment_transcript_filename = Path(output_folder) / (file_path.stem + "-" + MODEL_SIZE + "-segments.json")
+    # take the result and create a new object with just the segments with their start and end times
+    result_segments = {
+        "segments": [
+            {
+                "start": segment["start"],
+                "end": segment["end"],
+                "text": segment["text"]
+            }
+            for segment in result["segments"]
+        ]
+    }
+    with open(segment_transcript_filename, "w") as f:
+        f.write(json.dumps(result_segments, indent = 2, ensure_ascii = False))
 
+    csv_filename = Path(output_folder) / (file_path.stem + "-" + MODEL_SIZE + "-segments.csv")
+    with open(csv_filename, "w") as f:
+        writer = csv.writer(f)
+        for segment in result_segments["segments"]:
+            writer.writerow([segment["text"], segment["start"], segment["end"]])
 
-# take the result and create a new object with just the segments with their start and end times
-result_segments = {
-    "segments": [
-        {
-            "start": segment["start"],
-            "end": segment["end"],
-            "text": segment["text"]
-        }
-        for segment in result["segments"]
-    ]
-}
+    ap_filename = Path(output_folder) / (file_path.stem +  "-animation-prompts-" + MODEL_SIZE + ".txt")
+    with open(ap_filename, "w") as f:
+        for segment in result_segments["segments"]:
+            frame_num = round(segment["start"] * KEY_FRAME_FPS)
+            f.write(str(frame_num) + ": \"" + segment["text"] + "\"," + "\n")
 
-segment_transcript_filename = args.input + "-" + MODEL_SIZE + "-segments.json"
-with open(segment_transcript_filename, "w") as f:
-    f.write(json.dumps(result_segments, indent = 2, ensure_ascii = False))
-
-# write result_segments into a CSV file
-
-import csv
-
-csv_filename = args.input + "-" + MODEL_SIZE + "-segments.csv"
-with open(csv_filename, "w") as f:
-    writer = csv.writer(f)
-    for segment in result_segments["segments"]:
-        writer.writerow([segment["text"], segment["start"], segment["end"]])
-
-# write the result as animation prompts
-ap_filename = args.input +  "-animation-prompts-" + MODEL_SIZE + ".txt"
-with open(ap_filename, "w") as f:
-    for segment in result_segments["segments"]:
-        frame_num = round(segment["start"] * KEY_FRAME_FPS)
-        f.write(str(frame_num) + ": \"" + segment["text"] + "\"," + "\n")
-
-
-# finally print out all the segments as one transcription
-for segment in result_segments["segments"]:
-    print(segment["text"])
+    # finally the segments as one plain text transcription
+    
+    with open(plain_transcript_filename, "w") as f:
+        for segment in result_segments["segments"]:
+            f.write(segment["text"] + "\n")
+    # tqdm_instance.update(1)
+    # tqdm_instance.close()
