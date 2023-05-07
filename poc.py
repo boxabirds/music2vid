@@ -45,6 +45,8 @@ def separate_vocals(audio_file:str) -> Path:
 def transcribe_audio(audio_file):
     audio = whisper.load_audio(audio_file)
     model = whisper.load_model(MODEL_SIZE, device="cpu")
+
+    # the vad, beam size, best of, temperature parameters are recommended to improve transcription quality
     result = whisper.transcribe_timestamped(model, audio, language="en", vad=True, beam_size=5, best_of=5, temperature=(0.0, 0.2, 0.4, 0.6, 0.8, 1.0))
     return result
 
@@ -60,9 +62,6 @@ parser.add_argument("--input", help="Input file path", required=True)
 args = parser.parse_args()
 
 input_filename = args.input
-
-# TODO add this in when demucs has rudimentary API support https://github.com/facebookresearch/demucs/pull/474
-#demucs.separate.main(["--mp3", "--two-stems", "vocals", "-n", "mdx_extra", "track with space.mp3"])
 
 # librosa's vocal stemming has so many artefacts that transcription quality is actually worse
 # but we'll probably use librosa for beat detection
