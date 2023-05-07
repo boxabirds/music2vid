@@ -1,0 +1,1119 @@
+{
+  "text": " Driving down to the South Coast, thinking of the waves. Watching the rolling green landscapes against the gray skies, braving the cold wind to get some fresh air. Maybe it'll help us wake from winter-brain fall. Therefore, we step gingerly over a stir. Pick Nick Mouth, threatening to escape with the tug-of-en-visitable hands. Back in the office, back to cardboard loyalties, a rainbow-coloured furniture, free-coffee antique. I'm too wait if I water-cooler into a messy, we work out to play hard. We're a family. Public transport helped together with duct tape and patched, returning home to electric bills like these and taxes. Is this really how it turns out to be? Is this life for me?",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.92,
+      "end": 13.76,
+      "text": " Driving down to the South Coast, thinking of the waves.",
+      "tokens": [
+        50364,
+        44028,
+        760,
+        281,
+        264,
+        4242,
+        14960,
+        11,
+        1953,
+        295,
+        264,
+        9417,
+        13,
+        51174
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.4923518787730824,
+      "compression_ratio": 1.2636363636363637,
+      "no_speech_prob": 0.27444130182266235,
+      "confidence": 0.746,
+      "words": [
+        {
+          "text": "Driving",
+          "start": 0.92,
+          "end": 8.56,
+          "confidence": 0.183
+        },
+        {
+          "text": "down",
+          "start": 8.56,
+          "end": 9.76,
+          "confidence": 0.985
+        },
+        {
+          "text": "to",
+          "start": 9.76,
+          "end": 9.98,
+          "confidence": 0.974
+        },
+        {
+          "text": "the",
+          "start": 9.98,
+          "end": 10.12,
+          "confidence": 0.968
+        },
+        {
+          "text": "South",
+          "start": 10.12,
+          "end": 10.48,
+          "confidence": 0.437
+        },
+        {
+          "text": "Coast,",
+          "start": 10.48,
+          "end": 10.94,
+          "confidence": 0.832
+        },
+        {
+          "text": "thinking",
+          "start": 11.02,
+          "end": 11.58,
+          "confidence": 0.928
+        },
+        {
+          "text": "of",
+          "start": 11.58,
+          "end": 11.9,
+          "confidence": 0.983
+        },
+        {
+          "text": "the",
+          "start": 11.9,
+          "end": 12.16,
+          "confidence": 0.979
+        },
+        {
+          "text": "waves.",
+          "start": 12.16,
+          "end": 13.76,
+          "confidence": 0.971
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 16.0,
+      "end": 26.4,
+      "text": " Watching the rolling green landscapes against the gray skies, braving the cold wind",
+      "tokens": [
+        51174,
+        28482,
+        264,
+        9439,
+        3092,
+        29822,
+        1970,
+        264,
+        10855,
+        25861,
+        11,
+        1548,
+        798,
+        264,
+        3554,
+        2468,
+        51700
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.4923518787730824,
+      "compression_ratio": 1.2636363636363637,
+      "no_speech_prob": 0.27444130182266235,
+      "confidence": 0.669,
+      "words": [
+        {
+          "text": "Watching",
+          "start": 16.0,
+          "end": 16.7,
+          "confidence": 0.922
+        },
+        {
+          "text": "the",
+          "start": 16.7,
+          "end": 17.04,
+          "confidence": 0.992
+        },
+        {
+          "text": "rolling",
+          "start": 17.04,
+          "end": 17.64,
+          "confidence": 0.947
+        },
+        {
+          "text": "green",
+          "start": 17.64,
+          "end": 18.08,
+          "confidence": 0.909
+        },
+        {
+          "text": "landscapes",
+          "start": 18.08,
+          "end": 18.66,
+          "confidence": 0.686
+        },
+        {
+          "text": "against",
+          "start": 18.66,
+          "end": 19.48,
+          "confidence": 0.709
+        },
+        {
+          "text": "the",
+          "start": 19.48,
+          "end": 19.78,
+          "confidence": 0.705
+        },
+        {
+          "text": "gray",
+          "start": 19.78,
+          "end": 20.22,
+          "confidence": 0.213
+        },
+        {
+          "text": "skies,",
+          "start": 20.22,
+          "end": 22.6,
+          "confidence": 0.883
+        },
+        {
+          "text": "braving",
+          "start": 24.04,
+          "end": 24.72,
+          "confidence": 0.365
+        },
+        {
+          "text": "the",
+          "start": 24.72,
+          "end": 25.0,
+          "confidence": 0.975
+        },
+        {
+          "text": "cold",
+          "start": 25.0,
+          "end": 25.42,
+          "confidence": 0.986
+        },
+        {
+          "text": "wind",
+          "start": 25.42,
+          "end": 26.4,
+          "confidence": 0.555
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "seek": 2672,
+      "start": 26.72,
+      "end": 29.3,
+      "text": " to get some fresh air.",
+      "tokens": [
+        50364,
+        281,
+        483,
+        512,
+        4451,
+        1988,
+        13,
+        50614
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.4782920012602935,
+      "compression_ratio": 1.12,
+      "no_speech_prob": 0.06885358691215515,
+      "confidence": 0.906,
+      "words": [
+        {
+          "text": "to",
+          "start": 26.72,
+          "end": 26.98,
+          "confidence": 0.853
+        },
+        {
+          "text": "get",
+          "start": 26.98,
+          "end": 27.32,
+          "confidence": 0.995
+        },
+        {
+          "text": "some",
+          "start": 27.32,
+          "end": 27.72,
+          "confidence": 0.992
+        },
+        {
+          "text": "fresh",
+          "start": 27.72,
+          "end": 28.08,
+          "confidence": 0.997
+        },
+        {
+          "text": "air.",
+          "start": 28.08,
+          "end": 29.3,
+          "confidence": 0.726
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "seek": 2672,
+      "start": 31.92,
+      "end": 38.34,
+      "text": " Maybe it'll help us wake from winter-brain fall.",
+      "tokens": [
+        50614,
+        2704,
+        309,
+        603,
+        854,
+        505,
+        6634,
+        490,
+        6355,
+        12,
+        6198,
+        259,
+        2100,
+        13,
+        51026
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.4782920012602935,
+      "compression_ratio": 1.12,
+      "no_speech_prob": 0.06885358691215515,
+      "confidence": 0.76,
+      "words": [
+        {
+          "text": "Maybe",
+          "start": 31.92,
+          "end": 32.42,
+          "confidence": 0.956
+        },
+        {
+          "text": "it'll",
+          "start": 32.42,
+          "end": 33.12,
+          "confidence": 0.933
+        },
+        {
+          "text": "help",
+          "start": 33.12,
+          "end": 33.42,
+          "confidence": 0.989
+        },
+        {
+          "text": "us",
+          "start": 33.42,
+          "end": 33.88,
+          "confidence": 0.996
+        },
+        {
+          "text": "wake",
+          "start": 33.88,
+          "end": 34.34,
+          "confidence": 0.968
+        },
+        {
+          "text": "from",
+          "start": 34.34,
+          "end": 35.08,
+          "confidence": 0.96
+        },
+        {
+          "text": "winter-brain",
+          "start": 35.08,
+          "end": 36.32,
+          "confidence": 0.594
+        },
+        {
+          "text": "fall.",
+          "start": 36.32,
+          "end": 38.34,
+          "confidence": 0.39
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "seek": 2672,
+      "start": 40.02,
+      "end": 44.82,
+      "text": " Therefore, we step gingerly over a stir.",
+      "tokens": [
+        51026,
+        7504,
+        11,
+        321,
+        1823,
+        14966,
+        356,
+        670,
+        257,
+        8946,
+        13,
+        51428
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.4782920012602935,
+      "compression_ratio": 1.12,
+      "no_speech_prob": 0.06885358691215515,
+      "confidence": 0.667,
+      "words": [
+        {
+          "text": "Therefore,",
+          "start": 40.02,
+          "end": 40.5,
+          "confidence": 0.834
+        },
+        {
+          "text": "we",
+          "start": 40.72,
+          "end": 40.88,
+          "confidence": 0.89
+        },
+        {
+          "text": "step",
+          "start": 40.88,
+          "end": 41.4,
+          "confidence": 0.702
+        },
+        {
+          "text": "gingerly",
+          "start": 41.4,
+          "end": 42.86,
+          "confidence": 0.78
+        },
+        {
+          "text": "over",
+          "start": 42.86,
+          "end": 43.68,
+          "confidence": 0.815
+        },
+        {
+          "text": "a",
+          "start": 43.68,
+          "end": 44.2,
+          "confidence": 0.424
+        },
+        {
+          "text": "stir.",
+          "start": 44.2,
+          "end": 44.82,
+          "confidence": 0.359
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "seek": 4800,
+      "start": 48.04,
+      "end": 54.98,
+      "text": " Pick Nick Mouth, threatening to escape with the tug-of-en-visitable hands.",
+      "tokens": [
+        50364,
+        14129,
+        9449,
+        376,
+        2178,
+        11,
+        20768,
+        281,
+        7615,
+        365,
+        264,
+        33543,
+        12,
+        2670,
+        12,
+        268,
+        12,
+        4938,
+        270,
+        712,
+        2377,
+        13,
+        50884
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.5721304757254464,
+      "compression_ratio": 1.3736842105263158,
+      "no_speech_prob": 0.18296322226524353,
+      "confidence": 0.524,
+      "words": [
+        {
+          "text": "Pick",
+          "start": 48.04,
+          "end": 48.4,
+          "confidence": 0.462
+        },
+        {
+          "text": "Nick",
+          "start": 48.4,
+          "end": 48.68,
+          "confidence": 0.309
+        },
+        {
+          "text": "Mouth,",
+          "start": 48.68,
+          "end": 49.12,
+          "confidence": 0.2
+        },
+        {
+          "text": "threatening",
+          "start": 49.32,
+          "end": 49.64,
+          "confidence": 0.762
+        },
+        {
+          "text": "to",
+          "start": 49.64,
+          "end": 50.02,
+          "confidence": 0.968
+        },
+        {
+          "text": "escape",
+          "start": 50.02,
+          "end": 50.58,
+          "confidence": 0.996
+        },
+        {
+          "text": "with",
+          "start": 50.58,
+          "end": 51.02,
+          "confidence": 0.867
+        },
+        {
+          "text": "the",
+          "start": 51.02,
+          "end": 51.24,
+          "confidence": 0.824
+        },
+        {
+          "text": "tug-of-en-visitable",
+          "start": 51.24,
+          "end": 53.18,
+          "confidence": 0.493
+        },
+        {
+          "text": "hands.",
+          "start": 53.18,
+          "end": 54.98,
+          "confidence": 0.908
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "seek": 4800,
+      "start": 58.3,
+      "end": 64.44,
+      "text": " Back in the office, back to cardboard loyalties, a rainbow-coloured furniture, free-coffee",
+      "tokens": [
+        50884,
+        5833,
+        294,
+        264,
+        3398,
+        11,
+        646,
+        281,
+        22248,
+        450,
+        88,
+        26471,
+        11,
+        257,
+        18526,
+        12,
+        8768,
+        16439,
+        15671,
+        11,
+        1737,
+        12,
+        1291,
+        4617,
+        51197
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.5721304757254464,
+      "compression_ratio": 1.3736842105263158,
+      "no_speech_prob": 0.18296322226524353,
+      "confidence": 0.746,
+      "words": [
+        {
+          "text": "Back",
+          "start": 58.3,
+          "end": 58.62,
+          "confidence": 0.988
+        },
+        {
+          "text": "in",
+          "start": 58.62,
+          "end": 58.84,
+          "confidence": 0.982
+        },
+        {
+          "text": "the",
+          "start": 58.84,
+          "end": 59.1,
+          "confidence": 0.995
+        },
+        {
+          "text": "office,",
+          "start": 59.1,
+          "end": 59.46,
+          "confidence": 0.817
+        },
+        {
+          "text": "back",
+          "start": 59.62,
+          "end": 59.76,
+          "confidence": 0.948
+        },
+        {
+          "text": "to",
+          "start": 59.76,
+          "end": 60.02,
+          "confidence": 0.996
+        },
+        {
+          "text": "cardboard",
+          "start": 60.02,
+          "end": 60.4,
+          "confidence": 0.641
+        },
+        {
+          "text": "loyalties,",
+          "start": 60.4,
+          "end": 61.54,
+          "confidence": 0.84
+        },
+        {
+          "text": "a",
+          "start": 62.0,
+          "end": 62.12,
+          "confidence": 0.669
+        },
+        {
+          "text": "rainbow-coloured",
+          "start": 62.12,
+          "end": 63.0,
+          "confidence": 0.634
+        },
+        {
+          "text": "furniture,",
+          "start": 63.0,
+          "end": 63.54,
+          "confidence": 0.979
+        },
+        {
+          "text": "free-coffee",
+          "start": 63.78,
+          "end": 64.44,
+          "confidence": 0.555
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "seek": 4800,
+      "start": 64.44,
+      "end": 65.28,
+      "text": " antique.",
+      "tokens": [
+        51197,
+        41220,
+        13,
+        51247
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.5721304757254464,
+      "compression_ratio": 1.3736842105263158,
+      "no_speech_prob": 0.18296322226524353,
+      "confidence": 0.205,
+      "words": [
+        {
+          "text": "antique.",
+          "start": 64.44,
+          "end": 65.28,
+          "confidence": 0.205
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "seek": 4800,
+      "start": 66.14,
+      "end": 71.74,
+      "text": " I'm too wait if I water-cooler into a messy, we work out to play hard.",
+      "tokens": [
+        51247,
+        286,
+        478,
+        886,
+        1699,
+        498,
+        286,
+        1281,
+        12,
+        28155,
+        260,
+        666,
+        257,
+        16191,
+        11,
+        321,
+        589,
+        484,
+        281,
+        862,
+        1152,
+        13,
+        51596
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.5721304757254464,
+      "compression_ratio": 1.3736842105263158,
+      "no_speech_prob": 0.18296322226524353,
+      "confidence": 0.622,
+      "words": [
+        {
+          "text": "I'm",
+          "start": 66.14,
+          "end": 66.56,
+          "confidence": 0.449
+        },
+        {
+          "text": "too",
+          "start": 66.56,
+          "end": 66.92,
+          "confidence": 0.473
+        },
+        {
+          "text": "wait",
+          "start": 66.92,
+          "end": 67.26,
+          "confidence": 0.657
+        },
+        {
+          "text": "if",
+          "start": 67.26,
+          "end": 67.52,
+          "confidence": 0.784
+        },
+        {
+          "text": "I",
+          "start": 67.52,
+          "end": 67.76,
+          "confidence": 0.993
+        },
+        {
+          "text": "water-cooler",
+          "start": 67.76,
+          "end": 68.54,
+          "confidence": 0.687
+        },
+        {
+          "text": "into",
+          "start": 68.54,
+          "end": 68.84,
+          "confidence": 0.746
+        },
+        {
+          "text": "a",
+          "start": 68.84,
+          "end": 69.12,
+          "confidence": 0.221
+        },
+        {
+          "text": "messy,",
+          "start": 69.12,
+          "end": 69.4,
+          "confidence": 0.209
+        },
+        {
+          "text": "we",
+          "start": 69.82,
+          "end": 70.06,
+          "confidence": 0.702
+        },
+        {
+          "text": "work",
+          "start": 70.06,
+          "end": 70.44,
+          "confidence": 0.879
+        },
+        {
+          "text": "out",
+          "start": 70.44,
+          "end": 70.78,
+          "confidence": 0.76
+        },
+        {
+          "text": "to",
+          "start": 70.78,
+          "end": 71.0,
+          "confidence": 0.922
+        },
+        {
+          "text": "play",
+          "start": 71.0,
+          "end": 71.3,
+          "confidence": 0.961
+        },
+        {
+          "text": "hard.",
+          "start": 71.3,
+          "end": 71.74,
+          "confidence": 0.769
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "seek": 4800,
+      "start": 72.5,
+      "end": 73.5,
+      "text": " We're a family.",
+      "tokens": [
+        51596,
+        492,
+        434,
+        257,
+        1605,
+        13,
+        51682
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.5721304757254464,
+      "compression_ratio": 1.3736842105263158,
+      "no_speech_prob": 0.18296322226524353,
+      "confidence": 0.937,
+      "words": [
+        {
+          "text": "We're",
+          "start": 72.5,
+          "end": 72.82,
+          "confidence": 0.892
+        },
+        {
+          "text": "a",
+          "start": 72.82,
+          "end": 73.04,
+          "confidence": 0.976
+        },
+        {
+          "text": "family.",
+          "start": 73.04,
+          "end": 73.5,
+          "confidence": 0.995
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "seek": 7436,
+      "start": 74.36,
+      "end": 79.76,
+      "text": " Public transport helped together with duct tape and patched, returning home to electric bills",
+      "tokens": [
+        50364,
+        9489,
+        5495,
+        4254,
+        1214,
+        365,
+        25954,
+        7314,
+        293,
+        9972,
+        292,
+        11,
+        12678,
+        1280,
+        281,
+        5210,
+        12433,
+        50632
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.49592731309973676,
+      "compression_ratio": 1.3358778625954197,
+      "no_speech_prob": 0.1817067414522171,
+      "confidence": 0.704,
+      "words": [
+        {
+          "text": "Public",
+          "start": 74.36,
+          "end": 74.64,
+          "confidence": 0.525
+        },
+        {
+          "text": "transport",
+          "start": 74.64,
+          "end": 75.2,
+          "confidence": 0.972
+        },
+        {
+          "text": "helped",
+          "start": 75.2,
+          "end": 75.78,
+          "confidence": 0.286
+        },
+        {
+          "text": "together",
+          "start": 75.78,
+          "end": 76.2,
+          "confidence": 0.637
+        },
+        {
+          "text": "with",
+          "start": 76.2,
+          "end": 76.42,
+          "confidence": 0.979
+        },
+        {
+          "text": "duct",
+          "start": 76.42,
+          "end": 76.72,
+          "confidence": 0.949
+        },
+        {
+          "text": "tape",
+          "start": 76.72,
+          "end": 76.98,
+          "confidence": 0.962
+        },
+        {
+          "text": "and",
+          "start": 76.98,
+          "end": 77.16,
+          "confidence": 0.979
+        },
+        {
+          "text": "patched,",
+          "start": 77.16,
+          "end": 77.84,
+          "confidence": 0.413
+        },
+        {
+          "text": "returning",
+          "start": 77.88,
+          "end": 78.4,
+          "confidence": 0.98
+        },
+        {
+          "text": "home",
+          "start": 78.4,
+          "end": 78.84,
+          "confidence": 0.996
+        },
+        {
+          "text": "to",
+          "start": 78.84,
+          "end": 78.98,
+          "confidence": 0.809
+        },
+        {
+          "text": "electric",
+          "start": 78.98,
+          "end": 79.36,
+          "confidence": 0.976
+        },
+        {
+          "text": "bills",
+          "start": 79.36,
+          "end": 79.76,
+          "confidence": 0.49
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "seek": 7436,
+      "start": 79.8,
+      "end": 81.46,
+      "text": " like these and taxes.",
+      "tokens": [
+        50632,
+        411,
+        613,
+        293,
+        10041,
+        13,
+        50760
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.49592731309973676,
+      "compression_ratio": 1.3358778625954197,
+      "no_speech_prob": 0.1817067414522171,
+      "confidence": 0.499,
+      "words": [
+        {
+          "text": "like",
+          "start": 79.8,
+          "end": 80.12,
+          "confidence": 0.984
+        },
+        {
+          "text": "these",
+          "start": 80.12,
+          "end": 80.44,
+          "confidence": 0.29
+        },
+        {
+          "text": "and",
+          "start": 80.44,
+          "end": 80.7,
+          "confidence": 0.404
+        },
+        {
+          "text": "taxes.",
+          "start": 80.7,
+          "end": 81.46,
+          "confidence": 0.538
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "seek": 7436,
+      "start": 82.22,
+      "end": 85.82,
+      "text": " Is this really how it turns out to be?",
+      "tokens": [
+        50760,
+        1119,
+        341,
+        534,
+        577,
+        309,
+        4523,
+        484,
+        281,
+        312,
+        30,
+        50956
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.49592731309973676,
+      "compression_ratio": 1.3358778625954197,
+      "no_speech_prob": 0.1817067414522171,
+      "confidence": 0.906,
+      "words": [
+        {
+          "text": "Is",
+          "start": 82.22,
+          "end": 82.52,
+          "confidence": 0.92
+        },
+        {
+          "text": "this",
+          "start": 82.52,
+          "end": 82.78,
+          "confidence": 0.515
+        },
+        {
+          "text": "really",
+          "start": 82.78,
+          "end": 83.32,
+          "confidence": 0.898
+        },
+        {
+          "text": "how",
+          "start": 83.32,
+          "end": 83.62,
+          "confidence": 0.996
+        },
+        {
+          "text": "it",
+          "start": 83.62,
+          "end": 83.76,
+          "confidence": 0.997
+        },
+        {
+          "text": "turns",
+          "start": 83.76,
+          "end": 84.12,
+          "confidence": 0.985
+        },
+        {
+          "text": "out",
+          "start": 84.12,
+          "end": 84.5,
+          "confidence": 0.998
+        },
+        {
+          "text": "to",
+          "start": 84.5,
+          "end": 84.8,
+          "confidence": 0.991
+        },
+        {
+          "text": "be?",
+          "start": 84.8,
+          "end": 85.82,
+          "confidence": 0.998
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "seek": 7436,
+      "start": 86.04,
+      "end": 88.98,
+      "text": " Is this life for me?",
+      "tokens": [
+        50956,
+        1119,
+        341,
+        993,
+        337,
+        385,
+        30,
+        51142
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.49592731309973676,
+      "compression_ratio": 1.3358778625954197,
+      "no_speech_prob": 0.1817067414522171,
+      "confidence": 0.975,
+      "words": [
+        {
+          "text": "Is",
+          "start": 86.04,
+          "end": 86.34,
+          "confidence": 0.957
+        },
+        {
+          "text": "this",
+          "start": 86.34,
+          "end": 86.76,
+          "confidence": 0.985
+        },
+        {
+          "text": "life",
+          "start": 86.76,
+          "end": 87.24,
+          "confidence": 0.971
+        },
+        {
+          "text": "for",
+          "start": 87.24,
+          "end": 87.76,
+          "confidence": 0.978
+        },
+        {
+          "text": "me?",
+          "start": 87.76,
+          "end": 88.98,
+          "confidence": 0.984
+        }
+      ]
+    }
+  ],
+  "language": "en"
+}
