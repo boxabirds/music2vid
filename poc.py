@@ -15,7 +15,7 @@ import librosa
 #import soundfile as sf
 
 parser = argparse.ArgumentParser()
-KEY_FRAME_FPS = 4 # how many key frames are generated per second
+KEY_FRAME_FPS = 3 # how many key frames are generated per second
 MODEL_SIZE = "medium" # from openai-whisper: tiny, base, small, medium, large https://github.com/openai/whisper
 
 # function for transcribing audio file
@@ -64,6 +64,8 @@ def transcribe_audio(audio_file):
 
 # Add the input argument
 parser.add_argument("--input", help="Input file or folder", required=True)
+
+# add an option to recalculate frames from timestamps -- important when we've changed the number of keyframes per second
 
 # Parse the arguments
 args = parser.parse_args()
@@ -138,7 +140,7 @@ for input_filename in tqdm(input_files, desc="Processing music files"):
         for segment in result_segments["segments"]:
             writer.writerow([segment["text"], segment["start"], segment["end"]])
 
-    ap_filename = Path(output_folder) / (file_path.stem +  "-animation-prompts-" + MODEL_SIZE + ".txt")
+    ap_filename = Path(output_folder) / (file_path.stem +  "-lyrics-" + MODEL_SIZE + ".txt")
     with open(ap_filename, "w") as f:
         for segment in result_segments["segments"]:
             frame_num = round(segment["start"] * KEY_FRAME_FPS)

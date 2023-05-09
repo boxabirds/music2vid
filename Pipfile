@@ -12,6 +12,9 @@ moviepy = "*"
 demucs = {git = "https://github.com/CarlGao4/demucs"}
 tdqm = "*"
 librosa = "*"
+openai = "*"
+pydub = "*"
+soundfile = "*"
 
 [dev-packages]
 
