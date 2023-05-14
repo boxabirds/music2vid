@@ -3,3 +3,4 @@
 *.wav
 *.avi
 .DS_Store
+*.ckpt
