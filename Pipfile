@@ -4,20 +4,8 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-urllib3 = "==1.26.15"
-onnxruntime = "*"
-whisper-timestamped = {git = "https://github.com/linto-ai/whisper-timestamped"}
-whisper = "*"
-moviepy = "*"
-demucs = {git = "https://github.com/CarlGao4/demucs"}
-tdqm = "*"
-librosa = "*"
-openai = "*"
-pydub = "*"
-soundfile = "*"
 
 [dev-packages]
 
 [requires]
-python_version = "3.9"
-python_full_version = "3.9.6"
+python_version = "3.9.16"
