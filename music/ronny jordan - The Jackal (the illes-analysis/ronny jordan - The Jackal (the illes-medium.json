@@ -1,0 +1,3100 @@
+{
+  "text": " Did I ever tell you about that man who changed my life? The one I thought, oh my lord, when I saw him walking back to that bar, all tall and lean with them broad shoulders, sweet lips. I knew that I had died and gone to chocolate heaven. I had a real deep voice, white, really deep, and this shoe was always shining. Long, slender fingers manicured perfectly. The man wore $800 Italian suits straight from, I don't know, what would they call it, Milan, Rome, some place like that. What was the logo? I said, I got to get next to that man, and I haven't seen him in a long time. I mean, he was so fine. He could get any good girl into trouble. You guys heard him say what? Well, the jackal. The jackal. He sure was fine. Jackal, jackal, jackal. He was fat, black, cat-cooled, like a Friday afternoon martini, chatting at a quarter after five. Twist of lime, coke on the side. The brother loved to highlight. Had a Ph.D. in street strut. They called him the jackal. He was big mac daddy, super black style, and a diamonds in the back Cadillac. Fur line boards, white wall wheels, cruise control, built for speed, rum on everything. And the stereophonic speakers, though he really didn't need them, when they called him the jackal. Jackal, jackal, jackal. Fly boy was in the buttermilk, hard, living fast, living large, six foot four, not an ounce of fat. When women ask, is you a frown cat? He said, I did, I'm one in that. And in case you hadn't known, they called me the jackal. Served an 18-year bid for Rikers Island, and they hid him in the state penitentiary. Said the charge was grand loss. That was 1975. And today, if he's still alive, he'll be living in the park. The brother who claimed the fame was that they called him the jackal. The jackal. The jackal.",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 10.29,
+      "end": 14.15,
+      "text": " Did I ever tell you about that man who changed my life?",
+      "tokens": [
+        50364,
+        2589,
+        286,
+        1562,
+        980,
+        291,
+        466,
+        300,
+        587,
+        567,
+        3105,
+        452,
+        993,
+        30,
+        50564
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.2661414290919448,
+      "compression_ratio": 1.4107142857142858,
+      "no_speech_prob": 0.18681614100933075,
+      "confidence": 0.918,
+      "words": [
+        {
+          "text": "Did",
+          "start": 10.29,
+          "end": 10.49,
+          "confidence": 0.588
+        },
+        {
+          "text": "I",
+          "start": 10.49,
+          "end": 10.61,
+          "confidence": 0.971
+        },
+        {
+          "text": "ever",
+          "start": 10.61,
+          "end": 10.77,
+          "confidence": 0.995
+        },
+        {
+          "text": "tell",
+          "start": 10.77,
+          "end": 11.03,
+          "confidence": 0.993
+        },
+        {
+          "text": "you",
+          "start": 11.03,
+          "end": 11.23,
+          "confidence": 0.993
+        },
+        {
+          "text": "about",
+          "start": 11.23,
+          "end": 11.49,
+          "confidence": 0.97
+        },
+        {
+          "text": "that",
+          "start": 11.49,
+          "end": 11.73,
+          "confidence": 0.93
+        },
+        {
+          "text": "man",
+          "start": 11.73,
+          "end": 12.17,
+          "confidence": 0.99
+        },
+        {
+          "text": "who",
+          "start": 12.17,
+          "end": 12.69,
+          "confidence": 0.936
+        },
+        {
+          "text": "changed",
+          "start": 12.69,
+          "end": 13.31,
+          "confidence": 0.955
+        },
+        {
+          "text": "my",
+          "start": 13.31,
+          "end": 13.63,
+          "confidence": 0.994
+        },
+        {
+          "text": "life?",
+          "start": 13.63,
+          "end": 14.15,
+          "confidence": 0.858
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 14.15,
+      "end": 18.56,
+      "text": " The one I thought, oh my lord, when I saw him walking back to that bar,",
+      "tokens": [
+        50564,
+        440,
+        472,
+        286,
+        1194,
+        11,
+        1954,
+        452,
+        15448,
+        11,
+        562,
+        286,
+        1866,
+        796,
+        4494,
+        646,
+        281,
+        300,
+        2159,
+        11,
+        50814
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.2661414290919448,
+      "compression_ratio": 1.4107142857142858,
+      "no_speech_prob": 0.18681614100933075,
+      "confidence": 0.675,
+      "words": [
+        {
+          "text": "The",
+          "start": 14.15,
+          "end": 14.39,
+          "confidence": 0.226
+        },
+        {
+          "text": "one",
+          "start": 14.39,
+          "end": 14.61,
+          "confidence": 0.981
+        },
+        {
+          "text": "I",
+          "start": 14.61,
+          "end": 14.75,
+          "confidence": 0.912
+        },
+        {
+          "text": "thought,",
+          "start": 14.75,
+          "end": 15.05,
+          "confidence": 0.643
+        },
+        {
+          "text": "oh",
+          "start": 15.27,
+          "end": 15.69,
+          "confidence": 0.222
+        },
+        {
+          "text": "my",
+          "start": 15.69,
+          "end": 15.95,
+          "confidence": 0.795
+        },
+        {
+          "text": "lord,",
+          "start": 16.22,
+          "end": 16.44,
+          "confidence": 0.523
+        },
+        {
+          "text": "when",
+          "start": 16.52,
+          "end": 16.68,
+          "confidence": 0.803
+        },
+        {
+          "text": "I",
+          "start": 16.68,
+          "end": 16.82,
+          "confidence": 0.987
+        },
+        {
+          "text": "saw",
+          "start": 16.82,
+          "end": 16.94,
+          "confidence": 0.987
+        },
+        {
+          "text": "him",
+          "start": 16.94,
+          "end": 17.14,
+          "confidence": 0.91
+        },
+        {
+          "text": "walking",
+          "start": 17.14,
+          "end": 17.44,
+          "confidence": 0.676
+        },
+        {
+          "text": "back",
+          "start": 17.44,
+          "end": 17.8,
+          "confidence": 0.964
+        },
+        {
+          "text": "to",
+          "start": 17.8,
+          "end": 18.0,
+          "confidence": 0.736
+        },
+        {
+          "text": "that",
+          "start": 18.0,
+          "end": 18.18,
+          "confidence": 0.945
+        },
+        {
+          "text": "bar,",
+          "start": 18.18,
+          "end": 18.56,
+          "confidence": 0.658
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 19.2,
+      "end": 25.08,
+      "text": " all tall and lean with them broad shoulders, sweet lips.",
+      "tokens": [
+        50814,
+        439,
+        6764,
+        293,
+        11659,
+        365,
+        552,
+        4152,
+        10245,
+        11,
+        3844,
+        10118,
+        13,
+        51114
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.2661414290919448,
+      "compression_ratio": 1.4107142857142858,
+      "no_speech_prob": 0.18681614100933075,
+      "confidence": 0.603,
+      "words": [
+        {
+          "text": "all",
+          "start": 19.2,
+          "end": 19.64,
+          "confidence": 0.206
+        },
+        {
+          "text": "tall",
+          "start": 19.64,
+          "end": 20.28,
+          "confidence": 0.99
+        },
+        {
+          "text": "and",
+          "start": 20.28,
+          "end": 20.64,
+          "confidence": 0.977
+        },
+        {
+          "text": "lean",
+          "start": 20.64,
+          "end": 20.98,
+          "confidence": 0.981
+        },
+        {
+          "text": "with",
+          "start": 20.98,
+          "end": 21.2,
+          "confidence": 0.813
+        },
+        {
+          "text": "them",
+          "start": 21.2,
+          "end": 21.6,
+          "confidence": 0.844
+        },
+        {
+          "text": "broad",
+          "start": 21.6,
+          "end": 22.38,
+          "confidence": 0.961
+        },
+        {
+          "text": "shoulders,",
+          "start": 22.38,
+          "end": 23.08,
+          "confidence": 0.263
+        },
+        {
+          "text": "sweet",
+          "start": 24.18,
+          "end": 24.24,
+          "confidence": 0.616
+        },
+        {
+          "text": "lips.",
+          "start": 24.24,
+          "end": 25.08,
+          "confidence": 0.648
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 25.08,
+      "end": 32.74,
+      "text": " I knew that I had died and gone to chocolate heaven.",
+      "tokens": [
+        51114,
+        286,
+        2586,
+        300,
+        286,
+        632,
+        4539,
+        293,
+        2780,
+        281,
+        6215,
+        7162,
+        13,
+        51514
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.2661414290919448,
+      "compression_ratio": 1.4107142857142858,
+      "no_speech_prob": 0.18681614100933075,
+      "confidence": 0.748,
+      "words": [
+        {
+          "text": "I",
+          "start": 25.08,
+          "end": 26.0,
+          "confidence": 0.846
+        },
+        {
+          "text": "knew",
+          "start": 26.0,
+          "end": 27.06,
+          "confidence": 0.78
+        },
+        {
+          "text": "that",
+          "start": 27.06,
+          "end": 27.64,
+          "confidence": 0.248
+        },
+        {
+          "text": "I",
+          "start": 27.64,
+          "end": 28.76,
+          "confidence": 0.982
+        },
+        {
+          "text": "had",
+          "start": 28.76,
+          "end": 28.92,
+          "confidence": 0.968
+        },
+        {
+          "text": "died",
+          "start": 28.92,
+          "end": 29.8,
+          "confidence": 0.652
+        },
+        {
+          "text": "and",
+          "start": 29.8,
+          "end": 30.12,
+          "confidence": 0.481
+        },
+        {
+          "text": "gone",
+          "start": 30.12,
+          "end": 30.9,
+          "confidence": 0.952
+        },
+        {
+          "text": "to",
+          "start": 30.9,
+          "end": 31.8,
+          "confidence": 0.986
+        },
+        {
+          "text": "chocolate",
+          "start": 31.8,
+          "end": 32.3,
+          "confidence": 0.875
+        },
+        {
+          "text": "heaven.",
+          "start": 32.3,
+          "end": 32.74,
+          "confidence": 0.877
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "seek": 2300,
+      "start": 32.74,
+      "end": 52.08,
+      "text": " I had a real deep voice, white, really deep, and this shoe was always shining.",
+      "tokens": [
+        50364,
+        286,
+        632,
+        257,
+        957,
+        2452,
+        3177,
+        11,
+        2418,
+        11,
+        534,
+        2452,
+        11,
+        293,
+        341,
+        12796,
+        390,
+        1009,
+        18269,
+        13,
+        51114
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.2613587234959458,
+      "compression_ratio": 1.3519553072625698,
+      "no_speech_prob": 0.04962265491485596,
+      "confidence": 0.463,
+      "words": [
+        {
+          "text": "I",
+          "start": 32.74,
+          "end": 38.04,
+          "confidence": 0.02
+        },
+        {
+          "text": "had",
+          "start": 42.93,
+          "end": 43.78,
+          "confidence": 0.656
+        },
+        {
+          "text": "a",
+          "start": 43.78,
+          "end": 44.08,
+          "confidence": 0.987
+        },
+        {
+          "text": "real",
+          "start": 44.08,
+          "end": 45.0,
+          "confidence": 0.871
+        },
+        {
+          "text": "deep",
+          "start": 45.0,
+          "end": 45.72,
+          "confidence": 0.964
+        },
+        {
+          "text": "voice,",
+          "start": 45.72,
+          "end": 46.78,
+          "confidence": 0.634
+        },
+        {
+          "text": "white,",
+          "start": 47.32,
+          "end": 47.76,
+          "confidence": 0.243
+        },
+        {
+          "text": "really",
+          "start": 47.9,
+          "end": 48.2,
+          "confidence": 0.416
+        },
+        {
+          "text": "deep,",
+          "start": 48.2,
+          "end": 48.66,
+          "confidence": 0.563
+        },
+        {
+          "text": "and",
+          "start": 49.04,
+          "end": 49.26,
+          "confidence": 0.55
+        },
+        {
+          "text": "this",
+          "start": 49.26,
+          "end": 49.42,
+          "confidence": 0.087
+        },
+        {
+          "text": "shoe",
+          "start": 49.42,
+          "end": 49.62,
+          "confidence": 0.653
+        },
+        {
+          "text": "was",
+          "start": 49.62,
+          "end": 50.16,
+          "confidence": 0.936
+        },
+        {
+          "text": "always",
+          "start": 50.16,
+          "end": 50.92,
+          "confidence": 0.974
+        },
+        {
+          "text": "shining.",
+          "start": 50.92,
+          "end": 52.08,
+          "confidence": 0.684
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "seek": 2300,
+      "start": 53.0,
+      "end": 56.32,
+      "text": " Long, slender fingers manicured perfectly.",
+      "tokens": [
+        51114,
+        8282,
+        11,
+        1061,
+        3216,
+        7350,
+        48139,
+        3831,
+        6239,
+        13,
+        51314
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.2613587234959458,
+      "compression_ratio": 1.3519553072625698,
+      "no_speech_prob": 0.04962265491485596,
+      "confidence": 0.485,
+      "words": [
+        {
+          "text": "Long,",
+          "start": 53.0,
+          "end": 53.72,
+          "confidence": 0.228
+        },
+        {
+          "text": "slender",
+          "start": 53.92,
+          "end": 54.26,
+          "confidence": 0.968
+        },
+        {
+          "text": "fingers",
+          "start": 54.26,
+          "end": 54.84,
+          "confidence": 0.979
+        },
+        {
+          "text": "manicured",
+          "start": 54.84,
+          "end": 55.68,
+          "confidence": 0.624
+        },
+        {
+          "text": "perfectly.",
+          "start": 55.68,
+          "end": 56.32,
+          "confidence": 0.283
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "seek": 2300,
+      "start": 56.32,
+      "end": 66.24,
+      "text": " The man wore $800 Italian suits straight from, I don't know, what would they call it, Milan, Rome, some place like that.",
+      "tokens": [
+        51314,
+        440,
+        587,
+        13857,
+        1848,
+        14423,
+        10003,
+        15278,
+        2997,
+        490,
+        11,
+        286,
+        500,
+        380,
+        458,
+        11,
+        437,
+        576,
+        436,
+        818,
+        309,
+        11,
+        32874,
+        11,
+        12043,
+        11,
+        512,
+        1081,
+        411,
+        300,
+        13,
+        51814
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.2613587234959458,
+      "compression_ratio": 1.3519553072625698,
+      "no_speech_prob": 0.04962265491485596,
+      "confidence": 0.662,
+      "words": [
+        {
+          "text": "The",
+          "start": 56.32,
+          "end": 56.66,
+          "confidence": 0.111
+        },
+        {
+          "text": "man",
+          "start": 56.66,
+          "end": 56.86,
+          "confidence": 0.868
+        },
+        {
+          "text": "wore $800",
+          "start": 56.86,
+          "end": 58.36,
+          "confidence": 0.869
+        },
+        {
+          "text": "Italian",
+          "start": 58.36,
+          "end": 59.2,
+          "confidence": 0.776
+        },
+        {
+          "text": "suits",
+          "start": 59.2,
+          "end": 59.72,
+          "confidence": 0.893
+        },
+        {
+          "text": "straight",
+          "start": 59.72,
+          "end": 60.54,
+          "confidence": 0.751
+        },
+        {
+          "text": "from,",
+          "start": 60.54,
+          "end": 60.96,
+          "confidence": 0.594
+        },
+        {
+          "text": "I",
+          "start": 60.96,
+          "end": 61.6,
+          "confidence": 0.736
+        },
+        {
+          "text": "don't",
+          "start": 61.6,
+          "end": 61.76,
+          "confidence": 0.954
+        },
+        {
+          "text": "know,",
+          "start": 61.76,
+          "end": 61.9,
+          "confidence": 0.85
+        },
+        {
+          "text": "what",
+          "start": 62.06,
+          "end": 62.12,
+          "confidence": 0.884
+        },
+        {
+          "text": "would",
+          "start": 62.12,
+          "end": 62.24,
+          "confidence": 0.747
+        },
+        {
+          "text": "they",
+          "start": 62.24,
+          "end": 62.38,
+          "confidence": 0.959
+        },
+        {
+          "text": "call",
+          "start": 62.38,
+          "end": 62.56,
+          "confidence": 0.991
+        },
+        {
+          "text": "it,",
+          "start": 62.56,
+          "end": 62.82,
+          "confidence": 0.487
+        },
+        {
+          "text": "Milan,",
+          "start": 63.1,
+          "end": 63.66,
+          "confidence": 0.493
+        },
+        {
+          "text": "Rome,",
+          "start": 64.22,
+          "end": 65.04,
+          "confidence": 0.439
+        },
+        {
+          "text": "some",
+          "start": 65.24,
+          "end": 65.44,
+          "confidence": 0.268
+        },
+        {
+          "text": "place",
+          "start": 65.44,
+          "end": 65.68,
+          "confidence": 0.967
+        },
+        {
+          "text": "like",
+          "start": 65.68,
+          "end": 66.04,
+          "confidence": 0.991
+        },
+        {
+          "text": "that.",
+          "start": 66.04,
+          "end": 66.24,
+          "confidence": 0.653
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "seek": 5200,
+      "start": 66.38,
+      "end": 67.6,
+      "text": " What was the logo?",
+      "tokens": [
+        50364,
+        708,
+        390,
+        264,
+        9699,
+        30,
+        50464
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.197022340236566,
+      "compression_ratio": 1.4102564102564104,
+      "no_speech_prob": 0.03247851878404617,
+      "confidence": 0.248,
+      "words": [
+        {
+          "text": "What",
+          "start": 66.38,
+          "end": 66.64,
+          "confidence": 0.01
+        },
+        {
+          "text": "was",
+          "start": 66.64,
+          "end": 66.92,
+          "confidence": 0.921
+        },
+        {
+          "text": "the",
+          "start": 66.92,
+          "end": 67.1,
+          "confidence": 0.776
+        },
+        {
+          "text": "logo?",
+          "start": 67.1,
+          "end": 67.6,
+          "confidence": 0.361
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "seek": 5200,
+      "start": 69.0,
+      "end": 75.21,
+      "text": " I said, I got to get next to that man, and I haven't seen him in a long time.",
+      "tokens": [
+        50464,
+        286,
+        848,
+        11,
+        286,
+        658,
+        281,
+        483,
+        958,
+        281,
+        300,
+        587,
+        11,
+        293,
+        286,
+        2378,
+        380,
+        1612,
+        796,
+        294,
+        257,
+        938,
+        565,
+        13,
+        50814
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.197022340236566,
+      "compression_ratio": 1.4102564102564104,
+      "no_speech_prob": 0.03247851878404617,
+      "confidence": 0.662,
+      "words": [
+        {
+          "text": "I",
+          "start": 69.0,
+          "end": 69.16,
+          "confidence": 0.672
+        },
+        {
+          "text": "said,",
+          "start": 69.16,
+          "end": 69.3,
+          "confidence": 0.476
+        },
+        {
+          "text": "I",
+          "start": 69.34,
+          "end": 69.38,
+          "confidence": 0.321
+        },
+        {
+          "text": "got",
+          "start": 69.38,
+          "end": 69.58,
+          "confidence": 0.69
+        },
+        {
+          "text": "to",
+          "start": 69.58,
+          "end": 69.7,
+          "confidence": 0.995
+        },
+        {
+          "text": "get",
+          "start": 69.7,
+          "end": 69.86,
+          "confidence": 0.984
+        },
+        {
+          "text": "next",
+          "start": 69.86,
+          "end": 70.24,
+          "confidence": 0.572
+        },
+        {
+          "text": "to",
+          "start": 70.24,
+          "end": 70.44,
+          "confidence": 0.995
+        },
+        {
+          "text": "that",
+          "start": 70.44,
+          "end": 70.6,
+          "confidence": 0.61
+        },
+        {
+          "text": "man,",
+          "start": 70.6,
+          "end": 70.92,
+          "confidence": 0.14
+        },
+        {
+          "text": "and",
+          "start": 72.23,
+          "end": 72.71,
+          "confidence": 0.597
+        },
+        {
+          "text": "I",
+          "start": 72.71,
+          "end": 72.83,
+          "confidence": 0.979
+        },
+        {
+          "text": "haven't",
+          "start": 72.83,
+          "end": 73.07,
+          "confidence": 0.985
+        },
+        {
+          "text": "seen",
+          "start": 73.07,
+          "end": 73.33,
+          "confidence": 0.988
+        },
+        {
+          "text": "him",
+          "start": 73.33,
+          "end": 73.53,
+          "confidence": 0.992
+        },
+        {
+          "text": "in",
+          "start": 73.53,
+          "end": 73.77,
+          "confidence": 0.986
+        },
+        {
+          "text": "a",
+          "start": 73.77,
+          "end": 73.93,
+          "confidence": 0.99
+        },
+        {
+          "text": "long",
+          "start": 73.93,
+          "end": 74.55,
+          "confidence": 0.926
+        },
+        {
+          "text": "time.",
+          "start": 74.55,
+          "end": 75.21,
+          "confidence": 0.827
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "seek": 5200,
+      "start": 76.9,
+      "end": 79.0,
+      "text": " I mean, he was so fine.",
+      "tokens": [
+        50814,
+        286,
+        914,
+        11,
+        415,
+        390,
+        370,
+        2489,
+        13,
+        50964
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.197022340236566,
+      "compression_ratio": 1.4102564102564104,
+      "no_speech_prob": 0.03247851878404617,
+      "confidence": 0.345,
+      "words": [
+        {
+          "text": "I",
+          "start": 76.9,
+          "end": 77.12,
+          "confidence": 0.296
+        },
+        {
+          "text": "mean,",
+          "start": 77.12,
+          "end": 77.36,
+          "confidence": 0.302
+        },
+        {
+          "text": "he",
+          "start": 77.64,
+          "end": 77.7,
+          "confidence": 0.025
+        },
+        {
+          "text": "was",
+          "start": 77.7,
+          "end": 77.72,
+          "confidence": 0.975
+        },
+        {
+          "text": "so",
+          "start": 77.72,
+          "end": 78.24,
+          "confidence": 0.988
+        },
+        {
+          "text": "fine.",
+          "start": 78.24,
+          "end": 79.0,
+          "confidence": 0.548
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "seek": 5200,
+      "start": 80.02,
+      "end": 82.2,
+      "text": " He could get any good girl into trouble.",
+      "tokens": [
+        50964,
+        634,
+        727,
+        483,
+        604,
+        665,
+        2013,
+        666,
+        5253,
+        13,
+        51114
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.197022340236566,
+      "compression_ratio": 1.4102564102564104,
+      "no_speech_prob": 0.03247851878404617,
+      "confidence": 0.71,
+      "words": [
+        {
+          "text": "He",
+          "start": 80.02,
+          "end": 80.24,
+          "confidence": 0.603
+        },
+        {
+          "text": "could",
+          "start": 80.24,
+          "end": 80.4,
+          "confidence": 0.94
+        },
+        {
+          "text": "get",
+          "start": 80.4,
+          "end": 80.64,
+          "confidence": 0.948
+        },
+        {
+          "text": "any",
+          "start": 80.64,
+          "end": 81.0,
+          "confidence": 0.958
+        },
+        {
+          "text": "good",
+          "start": 81.0,
+          "end": 81.22,
+          "confidence": 0.126
+        },
+        {
+          "text": "girl",
+          "start": 81.22,
+          "end": 81.44,
+          "confidence": 0.905
+        },
+        {
+          "text": "into",
+          "start": 81.44,
+          "end": 81.76,
+          "confidence": 0.896
+        },
+        {
+          "text": "trouble.",
+          "start": 81.76,
+          "end": 82.2,
+          "confidence": 0.935
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "seek": 5200,
+      "start": 84.62,
+      "end": 85.98,
+      "text": " You guys heard him say what?",
+      "tokens": [
+        51114,
+        509,
+        1074,
+        2198,
+        796,
+        584,
+        437,
+        30,
+        51264
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.197022340236566,
+      "compression_ratio": 1.4102564102564104,
+      "no_speech_prob": 0.03247851878404617,
+      "confidence": 0.434,
+      "words": [
+        {
+          "text": "You",
+          "start": 84.62,
+          "end": 84.94,
+          "confidence": 0.069
+        },
+        {
+          "text": "guys",
+          "start": 84.94,
+          "end": 85.1,
+          "confidence": 0.974
+        },
+        {
+          "text": "heard",
+          "start": 85.1,
+          "end": 85.26,
+          "confidence": 0.128
+        },
+        {
+          "text": "him",
+          "start": 85.26,
+          "end": 85.36,
+          "confidence": 0.597
+        },
+        {
+          "text": "say",
+          "start": 85.36,
+          "end": 85.54,
+          "confidence": 0.972
+        },
+        {
+          "text": "what?",
+          "start": 85.54,
+          "end": 85.98,
+          "confidence": 0.761
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "seek": 5200,
+      "start": 87.89,
+      "end": 90.95,
+      "text": " Well, the jackal.",
+      "tokens": [
+        51264,
+        1042,
+        11,
+        264,
+        7109,
+        304,
+        13,
+        51564
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.197022340236566,
+      "compression_ratio": 1.4102564102564104,
+      "no_speech_prob": 0.03247851878404617,
+      "confidence": 0.496,
+      "words": [
+        {
+          "text": "Well,",
+          "start": 87.89,
+          "end": 88.55,
+          "confidence": 0.345
+        },
+        {
+          "text": "the",
+          "start": 89.77,
+          "end": 90.03,
+          "confidence": 0.644
+        },
+        {
+          "text": "jackal.",
+          "start": 90.03,
+          "end": 90.95,
+          "confidence": 0.578
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "seek": 5200,
+      "start": 95.31,
+      "end": 96.17,
+      "text": " The jackal.",
+      "tokens": [
+        51564,
+        440,
+        7109,
+        304,
+        13,
+        51714
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.197022340236566,
+      "compression_ratio": 1.4102564102564104,
+      "no_speech_prob": 0.03247851878404617,
+      "confidence": 0.044,
+      "words": [
+        {
+          "text": "The",
+          "start": 95.31,
+          "end": 95.47,
+          "confidence": 0.094
+        },
+        {
+          "text": "jackal.",
+          "start": 95.47,
+          "end": 96.17,
+          "confidence": 0.034
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "seek": 7900,
+      "start": 101.87,
+      "end": 104.85,
+      "text": " He sure was fine.",
+      "tokens": [
+        50364,
+        634,
+        988,
+        390,
+        2489,
+        13,
+        50614
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.22138153422962537,
+      "compression_ratio": 1.4829545454545454,
+      "no_speech_prob": 0.06786339730024338,
+      "confidence": 0.282,
+      "words": [
+        {
+          "text": "He",
+          "start": 101.87,
+          "end": 102.41,
+          "confidence": 0.544
+        },
+        {
+          "text": "sure",
+          "start": 102.41,
+          "end": 103.09,
+          "confidence": 0.689
+        },
+        {
+          "text": "was",
+          "start": 103.09,
+          "end": 103.79,
+          "confidence": 0.96
+        },
+        {
+          "text": "fine.",
+          "start": 103.79,
+          "end": 104.85,
+          "confidence": 0.07
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "seek": 7900,
+      "start": 130.84,
+      "end": 156.9,
+      "text": " Jackal, jackal, jackal.",
+      "tokens": [
+        50614,
+        4718,
+        304,
+        11,
+        7109,
+        304,
+        11,
+        7109,
+        304,
+        13,
+        50864
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.22138153422962537,
+      "compression_ratio": 1.4829545454545454,
+      "no_speech_prob": 0.06786339730024338,
+      "confidence": 0.194,
+      "words": [
+        {
+          "text": "Jackal,",
+          "start": 130.84,
+          "end": 131.6,
+          "confidence": 0.038
+        },
+        {
+          "text": "jackal,",
+          "start": 153.41,
+          "end": 154.21,
+          "confidence": 0.365
+        },
+        {
+          "text": "jackal.",
+          "start": 155.9,
+          "end": 156.9,
+          "confidence": 0.527
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "seek": 7900,
+      "start": 158.09,
+      "end": 168.51,
+      "text": " He was fat, black, cat-cooled, like a Friday afternoon martini, chatting at a quarter after five.",
+      "tokens": [
+        50864,
+        634,
+        390,
+        4046,
+        11,
+        2211,
+        11,
+        3857,
+        12,
+        28155,
+        292,
+        11,
+        411,
+        257,
+        6984,
+        6499,
+        12396,
+        3812,
+        11,
+        24654,
+        412,
+        257,
+        6555,
+        934,
+        1732,
+        13,
+        51264
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.22138153422962537,
+      "compression_ratio": 1.4829545454545454,
+      "no_speech_prob": 0.06786339730024338,
+      "confidence": 0.484,
+      "words": [
+        {
+          "text": "He",
+          "start": 158.09,
+          "end": 158.9,
+          "confidence": 0.228
+        },
+        {
+          "text": "was",
+          "start": 161.55,
+          "end": 162.01,
+          "confidence": 0.977
+        },
+        {
+          "text": "fat,",
+          "start": 162.01,
+          "end": 162.57,
+          "confidence": 0.498
+        },
+        {
+          "text": "black,",
+          "start": 162.71,
+          "end": 162.95,
+          "confidence": 0.539
+        },
+        {
+          "text": "cat-cooled,",
+          "start": 163.29,
+          "end": 164.03,
+          "confidence": 0.557
+        },
+        {
+          "text": "like",
+          "start": 164.09,
+          "end": 164.21,
+          "confidence": 0.858
+        },
+        {
+          "text": "a",
+          "start": 164.21,
+          "end": 164.43,
+          "confidence": 0.97
+        },
+        {
+          "text": "Friday",
+          "start": 164.43,
+          "end": 164.69,
+          "confidence": 0.846
+        },
+        {
+          "text": "afternoon",
+          "start": 164.69,
+          "end": 165.39,
+          "confidence": 0.773
+        },
+        {
+          "text": "martini,",
+          "start": 165.39,
+          "end": 166.27,
+          "confidence": 0.417
+        },
+        {
+          "text": "chatting",
+          "start": 166.45,
+          "end": 166.75,
+          "confidence": 0.011
+        },
+        {
+          "text": "at",
+          "start": 166.75,
+          "end": 167.09,
+          "confidence": 0.594
+        },
+        {
+          "text": "a",
+          "start": 167.09,
+          "end": 167.31,
+          "confidence": 0.885
+        },
+        {
+          "text": "quarter",
+          "start": 167.31,
+          "end": 167.49,
+          "confidence": 0.974
+        },
+        {
+          "text": "after",
+          "start": 167.49,
+          "end": 167.91,
+          "confidence": 0.925
+        },
+        {
+          "text": "five.",
+          "start": 167.91,
+          "end": 168.51,
+          "confidence": 0.269
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "seek": 7900,
+      "start": 168.59,
+      "end": 170.77,
+      "text": " Twist of lime, coke on the side.",
+      "tokens": [
+        51264,
+        47016,
+        295,
+        22035,
+        11,
+        33659,
+        322,
+        264,
+        1252,
+        13,
+        51364
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.22138153422962537,
+      "compression_ratio": 1.4829545454545454,
+      "no_speech_prob": 0.06786339730024338,
+      "confidence": 0.462,
+      "words": [
+        {
+          "text": "Twist",
+          "start": 168.59,
+          "end": 168.95,
+          "confidence": 0.324
+        },
+        {
+          "text": "of",
+          "start": 168.95,
+          "end": 169.23,
+          "confidence": 0.567
+        },
+        {
+          "text": "lime,",
+          "start": 169.23,
+          "end": 169.59,
+          "confidence": 0.187
+        },
+        {
+          "text": "coke",
+          "start": 169.91,
+          "end": 170.03,
+          "confidence": 0.35
+        },
+        {
+          "text": "on",
+          "start": 170.03,
+          "end": 170.35,
+          "confidence": 0.995
+        },
+        {
+          "text": "the",
+          "start": 170.35,
+          "end": 170.57,
+          "confidence": 0.992
+        },
+        {
+          "text": "side.",
+          "start": 170.57,
+          "end": 170.77,
+          "confidence": 0.662
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "seek": 7900,
+      "start": 170.91,
+      "end": 173.25,
+      "text": " The brother loved to highlight.",
+      "tokens": [
+        51364,
+        440,
+        3708,
+        4333,
+        281,
+        5078,
+        13,
+        51514
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.22138153422962537,
+      "compression_ratio": 1.4829545454545454,
+      "no_speech_prob": 0.06786339730024338,
+      "confidence": 0.043,
+      "words": [
+        {
+          "text": "The",
+          "start": 170.91,
+          "end": 171.17,
+          "confidence": 0.452
+        },
+        {
+          "text": "brother",
+          "start": 171.17,
+          "end": 171.49,
+          "confidence": 0.001
+        },
+        {
+          "text": "loved",
+          "start": 171.49,
+          "end": 171.81,
+          "confidence": 0.002
+        },
+        {
+          "text": "to",
+          "start": 171.81,
+          "end": 172.43,
+          "confidence": 0.29
+        },
+        {
+          "text": "highlight.",
+          "start": 172.43,
+          "end": 173.25,
+          "confidence": 0.234
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "seek": 7900,
+      "start": 173.91,
+      "end": 176.05,
+      "text": " Had a Ph.D. in street strut.",
+      "tokens": [
+        51514,
+        12298,
+        257,
+        2623,
+        13,
+        35,
+        13,
+        294,
+        4838,
+        1056,
+        325,
+        13,
+        51614
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.22138153422962537,
+      "compression_ratio": 1.4829545454545454,
+      "no_speech_prob": 0.06786339730024338,
+      "confidence": 0.596,
+      "words": [
+        {
+          "text": "Had",
+          "start": 173.91,
+          "end": 174.15,
+          "confidence": 0.241
+        },
+        {
+          "text": "a",
+          "start": 174.15,
+          "end": 174.47,
+          "confidence": 0.99
+        },
+        {
+          "text": "Ph.D.",
+          "start": 174.47,
+          "end": 175.19,
+          "confidence": 0.671
+        },
+        {
+          "text": "in",
+          "start": 175.25,
+          "end": 175.39,
+          "confidence": 0.958
+        },
+        {
+          "text": "street",
+          "start": 175.39,
+          "end": 175.69,
+          "confidence": 0.603
+        },
+        {
+          "text": "strut.",
+          "start": 175.69,
+          "end": 176.05,
+          "confidence": 0.493
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "seek": 7900,
+      "start": 176.05,
+      "end": 178.83,
+      "text": " They called him the jackal.",
+      "tokens": [
+        51614,
+        814,
+        1219,
+        796,
+        264,
+        7109,
+        304,
+        13,
+        51814
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.22138153422962537,
+      "compression_ratio": 1.4829545454545454,
+      "no_speech_prob": 0.06786339730024338,
+      "confidence": 0.634,
+      "words": [
+        {
+          "text": "They",
+          "start": 176.05,
+          "end": 176.33,
+          "confidence": 0.714
+        },
+        {
+          "text": "called",
+          "start": 176.33,
+          "end": 176.73,
+          "confidence": 0.988
+        },
+        {
+          "text": "him",
+          "start": 176.73,
+          "end": 177.47,
+          "confidence": 0.994
+        },
+        {
+          "text": "the",
+          "start": 177.47,
+          "end": 178.01,
+          "confidence": 0.419
+        },
+        {
+          "text": "jackal.",
+          "start": 178.01,
+          "end": 178.83,
+          "confidence": 0.519
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "seek": 10800,
+      "start": 180.86,
+      "end": 186.14,
+      "text": " He was big mac daddy, super black style, and a diamonds in the back Cadillac.",
+      "tokens": [
+        50364,
+        634,
+        390,
+        955,
+        7912,
+        16785,
+        11,
+        1687,
+        2211,
+        3758,
+        11,
+        293,
+        257,
+        22612,
+        294,
+        264,
+        646,
+        22323,
+        373,
+        326,
+        13,
+        50614
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.19320853097098215,
+      "compression_ratio": 1.427027027027027,
+      "no_speech_prob": 0.0454503558576107,
+      "confidence": 0.667,
+      "words": [
+        {
+          "text": "He",
+          "start": 180.86,
+          "end": 181.06,
+          "confidence": 0.367
+        },
+        {
+          "text": "was",
+          "start": 181.06,
+          "end": 181.4,
+          "confidence": 0.894
+        },
+        {
+          "text": "big",
+          "start": 181.4,
+          "end": 181.84,
+          "confidence": 0.336
+        },
+        {
+          "text": "mac",
+          "start": 181.84,
+          "end": 182.26,
+          "confidence": 0.695
+        },
+        {
+          "text": "daddy,",
+          "start": 182.26,
+          "end": 182.62,
+          "confidence": 0.685
+        },
+        {
+          "text": "super",
+          "start": 183.0,
+          "end": 183.22,
+          "confidence": 0.863
+        },
+        {
+          "text": "black",
+          "start": 183.22,
+          "end": 183.56,
+          "confidence": 0.939
+        },
+        {
+          "text": "style,",
+          "start": 183.56,
+          "end": 184.02,
+          "confidence": 0.569
+        },
+        {
+          "text": "and",
+          "start": 184.22,
+          "end": 184.28,
+          "confidence": 0.529
+        },
+        {
+          "text": "a",
+          "start": 184.28,
+          "end": 184.48,
+          "confidence": 0.437
+        },
+        {
+          "text": "diamonds",
+          "start": 184.48,
+          "end": 184.74,
+          "confidence": 0.731
+        },
+        {
+          "text": "in",
+          "start": 184.74,
+          "end": 185.04,
+          "confidence": 0.897
+        },
+        {
+          "text": "the",
+          "start": 185.04,
+          "end": 185.18,
+          "confidence": 0.978
+        },
+        {
+          "text": "back",
+          "start": 185.18,
+          "end": 185.44,
+          "confidence": 0.96
+        },
+        {
+          "text": "Cadillac.",
+          "start": 185.44,
+          "end": 186.14,
+          "confidence": 0.688
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "seek": 10800,
+      "start": 186.14,
+      "end": 192.44,
+      "text": " Fur line boards, white wall wheels, cruise control, built for speed, rum on everything.",
+      "tokens": [
+        50614,
+        11705,
+        1622,
+        13293,
+        11,
+        2418,
+        2929,
+        10046,
+        11,
+        17754,
+        1969,
+        11,
+        3094,
+        337,
+        3073,
+        11,
+        8347,
+        322,
+        1203,
+        13,
+        50964
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.19320853097098215,
+      "compression_ratio": 1.427027027027027,
+      "no_speech_prob": 0.0454503558576107,
+      "confidence": 0.688,
+      "words": [
+        {
+          "text": "Fur",
+          "start": 186.14,
+          "end": 186.5,
+          "confidence": 0.468
+        },
+        {
+          "text": "line",
+          "start": 186.5,
+          "end": 186.84,
+          "confidence": 0.292
+        },
+        {
+          "text": "boards,",
+          "start": 186.84,
+          "end": 187.4,
+          "confidence": 0.918
+        },
+        {
+          "text": "white",
+          "start": 187.64,
+          "end": 187.88,
+          "confidence": 0.894
+        },
+        {
+          "text": "wall",
+          "start": 187.88,
+          "end": 188.16,
+          "confidence": 0.777
+        },
+        {
+          "text": "wheels,",
+          "start": 188.16,
+          "end": 188.66,
+          "confidence": 0.911
+        },
+        {
+          "text": "cruise",
+          "start": 188.82,
+          "end": 189.26,
+          "confidence": 0.931
+        },
+        {
+          "text": "control,",
+          "start": 189.26,
+          "end": 189.84,
+          "confidence": 0.819
+        },
+        {
+          "text": "built",
+          "start": 190.06,
+          "end": 190.22,
+          "confidence": 0.777
+        },
+        {
+          "text": "for",
+          "start": 190.22,
+          "end": 190.48,
+          "confidence": 0.969
+        },
+        {
+          "text": "speed,",
+          "start": 190.48,
+          "end": 190.84,
+          "confidence": 0.693
+        },
+        {
+          "text": "rum",
+          "start": 191.08,
+          "end": 191.28,
+          "confidence": 0.15
+        },
+        {
+          "text": "on",
+          "start": 191.28,
+          "end": 191.56,
+          "confidence": 0.732
+        },
+        {
+          "text": "everything.",
+          "start": 191.56,
+          "end": 192.44,
+          "confidence": 0.706
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "seek": 10800,
+      "start": 192.44,
+      "end": 201.5,
+      "text": " And the stereophonic speakers, though he really didn't need them, when they called him the jackal.",
+      "tokens": [
+        50964,
+        400,
+        264,
+        12730,
+        5317,
+        11630,
+        9518,
+        11,
+        1673,
+        415,
+        534,
+        994,
+        380,
+        643,
+        552,
+        11,
+        562,
+        436,
+        1219,
+        796,
+        264,
+        7109,
+        304,
+        13,
+        51414
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.19320853097098215,
+      "compression_ratio": 1.427027027027027,
+      "no_speech_prob": 0.0454503558576107,
+      "confidence": 0.632,
+      "words": [
+        {
+          "text": "And",
+          "start": 192.44,
+          "end": 193.6,
+          "confidence": 0.091
+        },
+        {
+          "text": "the",
+          "start": 193.6,
+          "end": 193.84,
+          "confidence": 0.921
+        },
+        {
+          "text": "stereophonic",
+          "start": 193.84,
+          "end": 194.54,
+          "confidence": 0.872
+        },
+        {
+          "text": "speakers,",
+          "start": 194.54,
+          "end": 195.48,
+          "confidence": 0.652
+        },
+        {
+          "text": "though",
+          "start": 196.02,
+          "end": 196.24,
+          "confidence": 0.771
+        },
+        {
+          "text": "he",
+          "start": 196.24,
+          "end": 196.4,
+          "confidence": 0.979
+        },
+        {
+          "text": "really",
+          "start": 196.4,
+          "end": 196.7,
+          "confidence": 0.344
+        },
+        {
+          "text": "didn't",
+          "start": 196.7,
+          "end": 197.18,
+          "confidence": 0.571
+        },
+        {
+          "text": "need",
+          "start": 197.18,
+          "end": 197.48,
+          "confidence": 0.911
+        },
+        {
+          "text": "them,",
+          "start": 197.48,
+          "end": 198.08,
+          "confidence": 0.732
+        },
+        {
+          "text": "when",
+          "start": 198.82,
+          "end": 198.96,
+          "confidence": 0.581
+        },
+        {
+          "text": "they",
+          "start": 198.96,
+          "end": 199.24,
+          "confidence": 0.986
+        },
+        {
+          "text": "called",
+          "start": 199.24,
+          "end": 199.48,
+          "confidence": 0.964
+        },
+        {
+          "text": "him",
+          "start": 199.48,
+          "end": 200.28,
+          "confidence": 0.901
+        },
+        {
+          "text": "the",
+          "start": 200.28,
+          "end": 200.74,
+          "confidence": 0.588
+        },
+        {
+          "text": "jackal.",
+          "start": 200.74,
+          "end": 201.5,
+          "confidence": 0.453
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "seek": 12900,
+      "start": 201.5,
+      "end": 244.9,
+      "text": " Jackal, jackal, jackal.",
+      "tokens": [
+        50364,
+        4718,
+        304,
+        11,
+        7109,
+        304,
+        11,
+        7109,
+        304,
+        13,
+        51164
+      ],
+      "temperature": 0.2,
+      "avg_logprob": -0.2224530265444801,
+      "compression_ratio": 1.2424242424242424,
+      "no_speech_prob": 0.37665075063705444,
+      "confidence": 0.206,
+      "words": [
+        {
+          "text": "Jackal,",
+          "start": 201.5,
+          "end": 201.75,
+          "confidence": 0.037
+        },
+        {
+          "text": "jackal,",
+          "start": 240.94,
+          "end": 241.84,
+          "confidence": 0.499
+        },
+        {
+          "text": "jackal.",
+          "start": 243.56,
+          "end": 244.9,
+          "confidence": 0.474
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "seek": 12900,
+      "start": 265.11,
+      "end": 276.98,
+      "text": " Fly boy was in the buttermilk, hard, living fast, living large, six foot four, not an ounce of fat.",
+      "tokens": [
+        51164,
+        25294,
+        3237,
+        390,
+        294,
+        264,
+        5517,
+        28674,
+        74,
+        11,
+        1152,
+        11,
+        2647,
+        2370,
+        11,
+        2647,
+        2416,
+        11,
+        2309,
+        2671,
+        1451,
+        11,
+        406,
+        364,
+        29860,
+        295,
+        4046,
+        13,
+        51714
+      ],
+      "temperature": 0.2,
+      "avg_logprob": -0.2224530265444801,
+      "compression_ratio": 1.2424242424242424,
+      "no_speech_prob": 0.37665075063705444,
+      "confidence": 0.601,
+      "words": [
+        {
+          "text": "Fly",
+          "start": 265.11,
+          "end": 266.71,
+          "confidence": 0.045
+        },
+        {
+          "text": "boy",
+          "start": 267.97,
+          "end": 268.91,
+          "confidence": 0.398
+        },
+        {
+          "text": "was",
+          "start": 268.91,
+          "end": 269.35,
+          "confidence": 0.734
+        },
+        {
+          "text": "in",
+          "start": 269.35,
+          "end": 269.63,
+          "confidence": 0.969
+        },
+        {
+          "text": "the",
+          "start": 269.63,
+          "end": 269.91,
+          "confidence": 0.989
+        },
+        {
+          "text": "buttermilk,",
+          "start": 269.91,
+          "end": 271.01,
+          "confidence": 0.727
+        },
+        {
+          "text": "hard,",
+          "start": 271.57,
+          "end": 271.91,
+          "confidence": 0.362
+        },
+        {
+          "text": "living",
+          "start": 272.23,
+          "end": 272.41,
+          "confidence": 0.863
+        },
+        {
+          "text": "fast,",
+          "start": 272.41,
+          "end": 273.19,
+          "confidence": 0.92
+        },
+        {
+          "text": "living",
+          "start": 273.43,
+          "end": 273.75,
+          "confidence": 0.76
+        },
+        {
+          "text": "large,",
+          "start": 273.75,
+          "end": 274.43,
+          "confidence": 0.846
+        },
+        {
+          "text": "six",
+          "start": 274.77,
+          "end": 274.97,
+          "confidence": 0.551
+        },
+        {
+          "text": "foot",
+          "start": 274.97,
+          "end": 275.33,
+          "confidence": 0.886
+        },
+        {
+          "text": "four,",
+          "start": 275.33,
+          "end": 275.61,
+          "confidence": 0.337
+        },
+        {
+          "text": "not",
+          "start": 275.67,
+          "end": 275.97,
+          "confidence": 0.728
+        },
+        {
+          "text": "an",
+          "start": 275.97,
+          "end": 276.19,
+          "confidence": 0.969
+        },
+        {
+          "text": "ounce",
+          "start": 276.19,
+          "end": 276.37,
+          "confidence": 0.282
+        },
+        {
+          "text": "of",
+          "start": 276.37,
+          "end": 276.63,
+          "confidence": 0.96
+        },
+        {
+          "text": "fat.",
+          "start": 276.63,
+          "end": 276.98,
+          "confidence": 0.73
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "seek": 15600,
+      "start": 277.91,
+      "end": 280.53,
+      "text": " When women ask, is you a frown cat?",
+      "tokens": [
+        50364,
+        1133,
+        2266,
+        1029,
+        11,
+        307,
+        291,
+        257,
+        431,
+        648,
+        3857,
+        30,
+        50514
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.29100162226979326,
+      "compression_ratio": 1.3988439306358382,
+      "no_speech_prob": 0.6101652979850769,
+      "confidence": 0.7,
+      "words": [
+        {
+          "text": "When",
+          "start": 277.91,
+          "end": 278.09,
+          "confidence": 0.569
+        },
+        {
+          "text": "women",
+          "start": 278.09,
+          "end": 278.37,
+          "confidence": 0.952
+        },
+        {
+          "text": "ask,",
+          "start": 278.37,
+          "end": 278.81,
+          "confidence": 0.657
+        },
+        {
+          "text": "is",
+          "start": 279.15,
+          "end": 279.31,
+          "confidence": 0.297
+        },
+        {
+          "text": "you",
+          "start": 279.31,
+          "end": 279.49,
+          "confidence": 0.983
+        },
+        {
+          "text": "a",
+          "start": 279.49,
+          "end": 279.79,
+          "confidence": 0.984
+        },
+        {
+          "text": "frown",
+          "start": 279.79,
+          "end": 280.11,
+          "confidence": 0.608
+        },
+        {
+          "text": "cat?",
+          "start": 280.11,
+          "end": 280.53,
+          "confidence": 0.89
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "seek": 15600,
+      "start": 280.71,
+      "end": 283.25,
+      "text": " He said, I did, I'm one in that.",
+      "tokens": [
+        50514,
+        634,
+        848,
+        11,
+        286,
+        630,
+        11,
+        286,
+        478,
+        472,
+        294,
+        300,
+        13,
+        50764
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.29100162226979326,
+      "compression_ratio": 1.3988439306358382,
+      "no_speech_prob": 0.6101652979850769,
+      "confidence": 0.465,
+      "words": [
+        {
+          "text": "He",
+          "start": 280.71,
+          "end": 281.01,
+          "confidence": 0.623
+        },
+        {
+          "text": "said,",
+          "start": 281.01,
+          "end": 281.37,
+          "confidence": 0.669
+        },
+        {
+          "text": "I",
+          "start": 281.87,
+          "end": 282.01,
+          "confidence": 0.305
+        },
+        {
+          "text": "did,",
+          "start": 282.01,
+          "end": 282.21,
+          "confidence": 0.415
+        },
+        {
+          "text": "I'm",
+          "start": 282.45,
+          "end": 282.55,
+          "confidence": 0.789
+        },
+        {
+          "text": "one",
+          "start": 282.55,
+          "end": 282.79,
+          "confidence": 0.086
+        },
+        {
+          "text": "in",
+          "start": 282.79,
+          "end": 283.07,
+          "confidence": 0.221
+        },
+        {
+          "text": "that.",
+          "start": 283.07,
+          "end": 283.25,
+          "confidence": 0.772
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "seek": 15600,
+      "start": 284.94,
+      "end": 296.53,
+      "text": " And in case you hadn't known, they called me the jackal.",
+      "tokens": [
+        50764,
+        400,
+        294,
+        1389,
+        291,
+        8782,
+        380,
+        2570,
+        11,
+        436,
+        1219,
+        385,
+        264,
+        7109,
+        304,
+        13,
+        51114
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.29100162226979326,
+      "compression_ratio": 1.3988439306358382,
+      "no_speech_prob": 0.6101652979850769,
+      "confidence": 0.173,
+      "words": [
+        {
+          "text": "And",
+          "start": 284.94,
+          "end": 285.59,
+          "confidence": 0.503
+        },
+        {
+          "text": "in",
+          "start": 285.59,
+          "end": 285.87,
+          "confidence": 0.907
+        },
+        {
+          "text": "case",
+          "start": 285.87,
+          "end": 286.13,
+          "confidence": 0.988
+        },
+        {
+          "text": "you",
+          "start": 286.13,
+          "end": 286.75,
+          "confidence": 0.992
+        },
+        {
+          "text": "hadn't",
+          "start": 286.75,
+          "end": 287.39,
+          "confidence": 0.503
+        },
+        {
+          "text": "known,",
+          "start": 287.39,
+          "end": 288.11,
+          "confidence": 0.578
+        },
+        {
+          "text": "they",
+          "start": 289.52,
+          "end": 289.68,
+          "confidence": 0.017
+        },
+        {
+          "text": "called",
+          "start": 289.68,
+          "end": 289.88,
+          "confidence": 0.532
+        },
+        {
+          "text": "me",
+          "start": 289.88,
+          "end": 290.12,
+          "confidence": 0.995
+        },
+        {
+          "text": "the",
+          "start": 290.12,
+          "end": 290.58,
+          "confidence": 0.002
+        },
+        {
+          "text": "jackal.",
+          "start": 296.3,
+          "end": 296.53,
+          "confidence": 0.02
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "seek": 15600,
+      "start": 299.46,
+      "end": 307.16,
+      "text": " Served an 18-year bid for Rikers Island, and they hid him in the state penitentiary.",
+      "tokens": [
+        51114,
+        4210,
+        937,
+        364,
+        2443,
+        12,
+        5294,
+        12957,
+        337,
+        497,
+        1035,
+        433,
+        7637,
+        11,
+        293,
+        436,
+        16253,
+        796,
+        294,
+        264,
+        1785,
+        3435,
+        270,
+        23012,
+        822,
+        13,
+        51514
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.29100162226979326,
+      "compression_ratio": 1.3988439306358382,
+      "no_speech_prob": 0.6101652979850769,
+      "confidence": 0.621,
+      "words": [
+        {
+          "text": "Served",
+          "start": 299.46,
+          "end": 300.32,
+          "confidence": 0.086
+        },
+        {
+          "text": "an",
+          "start": 300.32,
+          "end": 300.6,
+          "confidence": 0.699
+        },
+        {
+          "text": "18-year",
+          "start": 300.6,
+          "end": 301.72,
+          "confidence": 0.593
+        },
+        {
+          "text": "bid",
+          "start": 301.72,
+          "end": 302.32,
+          "confidence": 0.761
+        },
+        {
+          "text": "for",
+          "start": 302.32,
+          "end": 302.78,
+          "confidence": 0.275
+        },
+        {
+          "text": "Rikers",
+          "start": 302.78,
+          "end": 303.32,
+          "confidence": 0.865
+        },
+        {
+          "text": "Island,",
+          "start": 303.32,
+          "end": 303.92,
+          "confidence": 0.589
+        },
+        {
+          "text": "and",
+          "start": 304.06,
+          "end": 304.22,
+          "confidence": 0.556
+        },
+        {
+          "text": "they",
+          "start": 304.22,
+          "end": 304.46,
+          "confidence": 0.916
+        },
+        {
+          "text": "hid",
+          "start": 304.46,
+          "end": 304.72,
+          "confidence": 0.478
+        },
+        {
+          "text": "him",
+          "start": 304.72,
+          "end": 305.08,
+          "confidence": 0.987
+        },
+        {
+          "text": "in",
+          "start": 305.08,
+          "end": 305.38,
+          "confidence": 0.96
+        },
+        {
+          "text": "the",
+          "start": 305.38,
+          "end": 305.62,
+          "confidence": 0.969
+        },
+        {
+          "text": "state",
+          "start": 305.62,
+          "end": 305.92,
+          "confidence": 0.8
+        },
+        {
+          "text": "penitentiary.",
+          "start": 305.92,
+          "end": 307.16,
+          "confidence": 0.938
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "seek": 15600,
+      "start": 307.4,
+      "end": 309.32,
+      "text": " Said the charge was grand loss.",
+      "tokens": [
+        51514,
+        26490,
+        264,
+        4602,
+        390,
+        2697,
+        4470,
+        13,
+        51614
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.29100162226979326,
+      "compression_ratio": 1.3988439306358382,
+      "no_speech_prob": 0.6101652979850769,
+      "confidence": 0.691,
+      "words": [
+        {
+          "text": "Said",
+          "start": 307.4,
+          "end": 307.64,
+          "confidence": 0.418
+        },
+        {
+          "text": "the",
+          "start": 307.64,
+          "end": 307.92,
+          "confidence": 0.972
+        },
+        {
+          "text": "charge",
+          "start": 307.92,
+          "end": 308.26,
+          "confidence": 0.857
+        },
+        {
+          "text": "was",
+          "start": 308.26,
+          "end": 308.52,
+          "confidence": 0.993
+        },
+        {
+          "text": "grand",
+          "start": 308.52,
+          "end": 309.0,
+          "confidence": 0.988
+        },
+        {
+          "text": "loss.",
+          "start": 309.0,
+          "end": 309.32,
+          "confidence": 0.469
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "seek": 18100,
+      "start": 309.32,
+      "end": 312.06,
+      "text": " That was 1975.",
+      "tokens": [
+        50364,
+        663,
+        390,
+        32454,
+        13,
+        50514
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.23998401641845704,
+      "compression_ratio": 1.2661290322580645,
+      "no_speech_prob": 0.874312162399292,
+      "confidence": 0.809,
+      "words": [
+        {
+          "text": "That",
+          "start": 309.32,
+          "end": 309.68,
+          "confidence": 0.608
+        },
+        {
+          "text": "was",
+          "start": 309.68,
+          "end": 310.34,
+          "confidence": 0.988
+        },
+        {
+          "text": "1975.",
+          "start": 310.34,
+          "end": 312.06,
+          "confidence": 0.845
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "seek": 18100,
+      "start": 312.06,
+      "end": 316.54,
+      "text": " And today, if he's still alive, he'll be living in the park.",
+      "tokens": [
+        50514,
+        400,
+        965,
+        11,
+        498,
+        415,
+        311,
+        920,
+        5465,
+        11,
+        415,
+        603,
+        312,
+        2647,
+        294,
+        264,
+        3884,
+        13,
+        50764
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.23998401641845704,
+      "compression_ratio": 1.2661290322580645,
+      "no_speech_prob": 0.874312162399292,
+      "confidence": 0.761,
+      "words": [
+        {
+          "text": "And",
+          "start": 312.06,
+          "end": 312.74,
+          "confidence": 0.39
+        },
+        {
+          "text": "today,",
+          "start": 312.74,
+          "end": 313.28,
+          "confidence": 0.758
+        },
+        {
+          "text": "if",
+          "start": 313.48,
+          "end": 313.58,
+          "confidence": 0.984
+        },
+        {
+          "text": "he's",
+          "start": 313.58,
+          "end": 313.82,
+          "confidence": 0.966
+        },
+        {
+          "text": "still",
+          "start": 313.82,
+          "end": 314.14,
+          "confidence": 0.991
+        },
+        {
+          "text": "alive,",
+          "start": 314.14,
+          "end": 314.58,
+          "confidence": 0.949
+        },
+        {
+          "text": "he'll",
+          "start": 314.86,
+          "end": 314.98,
+          "confidence": 0.31
+        },
+        {
+          "text": "be",
+          "start": 314.98,
+          "end": 315.1,
+          "confidence": 0.98
+        },
+        {
+          "text": "living",
+          "start": 315.1,
+          "end": 315.36,
+          "confidence": 0.913
+        },
+        {
+          "text": "in",
+          "start": 315.36,
+          "end": 315.68,
+          "confidence": 0.986
+        },
+        {
+          "text": "the",
+          "start": 315.68,
+          "end": 316.0,
+          "confidence": 0.982
+        },
+        {
+          "text": "park.",
+          "start": 316.0,
+          "end": 316.54,
+          "confidence": 0.79
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "seek": 18100,
+      "start": 317.53,
+      "end": 322.13,
+      "text": " The brother who claimed the fame was that they called him the jackal.",
+      "tokens": [
+        50764,
+        440,
+        3708,
+        567,
+        12941,
+        264,
+        16874,
+        390,
+        300,
+        436,
+        1219,
+        796,
+        264,
+        7109,
+        304,
+        13,
+        51014
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.23998401641845704,
+      "compression_ratio": 1.2661290322580645,
+      "no_speech_prob": 0.874312162399292,
+      "confidence": 0.634,
+      "words": [
+        {
+          "text": "The",
+          "start": 317.53,
+          "end": 318.23,
+          "confidence": 0.45
+        },
+        {
+          "text": "brother",
+          "start": 318.23,
+          "end": 318.55,
+          "confidence": 0.93
+        },
+        {
+          "text": "who",
+          "start": 318.55,
+          "end": 318.97,
+          "confidence": 0.97
+        },
+        {
+          "text": "claimed",
+          "start": 318.97,
+          "end": 319.31,
+          "confidence": 0.989
+        },
+        {
+          "text": "the",
+          "start": 319.31,
+          "end": 319.59,
+          "confidence": 0.68
+        },
+        {
+          "text": "fame",
+          "start": 319.59,
+          "end": 319.81,
+          "confidence": 0.96
+        },
+        {
+          "text": "was",
+          "start": 319.81,
+          "end": 320.09,
+          "confidence": 0.904
+        },
+        {
+          "text": "that",
+          "start": 320.09,
+          "end": 320.25,
+          "confidence": 0.621
+        },
+        {
+          "text": "they",
+          "start": 320.25,
+          "end": 320.49,
+          "confidence": 0.937
+        },
+        {
+          "text": "called",
+          "start": 320.49,
+          "end": 320.93,
+          "confidence": 0.835
+        },
+        {
+          "text": "him",
+          "start": 320.93,
+          "end": 321.41,
+          "confidence": 0.823
+        },
+        {
+          "text": "the",
+          "start": 321.41,
+          "end": 321.57,
+          "confidence": 0.041
+        },
+        {
+          "text": "jackal.",
+          "start": 321.57,
+          "end": 322.13,
+          "confidence": 0.656
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "seek": 18100,
+      "start": 323.75,
+      "end": 324.57,
+      "text": " The jackal.",
+      "tokens": [
+        51014,
+        440,
+        7109,
+        304,
+        13,
+        51114
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.23998401641845704,
+      "compression_ratio": 1.2661290322580645,
+      "no_speech_prob": 0.874312162399292,
+      "confidence": 0.062,
+      "words": [
+        {
+          "text": "The",
+          "start": 323.75,
+          "end": 323.91,
+          "confidence": 0.292
+        },
+        {
+          "text": "jackal.",
+          "start": 323.91,
+          "end": 324.57,
+          "confidence": 0.037
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "seek": 19600,
+      "start": 389.79,
+      "end": 408.18,
+      "text": " The jackal.",
+      "tokens": [
+        50364,
+        440,
+        7109,
+        304,
+        13,
+        51514
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.361208404813494,
+      "compression_ratio": 0.5789473684210527,
+      "no_speech_prob": 0.7812728881835938,
+      "confidence": 0.023,
+      "words": [
+        {
+          "text": "The",
+          "start": 389.79,
+          "end": 390.23,
+          "confidence": 0.061
+        },
+        {
+          "text": "jackal.",
+          "start": 405.39,
+          "end": 408.18,
+          "confidence": 0.017
+        }
+      ]
+    }
+  ],
+  "language": "en"
+}

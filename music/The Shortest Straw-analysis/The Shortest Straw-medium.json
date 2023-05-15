@@ -1,0 +1,2863 @@
+{
+  "text": " Suspicion is your name, your honesty to pay, Predictability to say, it's not her. We touch modern day, Determination, decay, The place, disarray, disfigure. The public eyes, despise, define, commonplace, Unanity, faith, or taste, unanity. Dappening, painstaking, reckoning, This will echo in the spring. Shortest straw, talents, liberty, down by law, Living infamy, rapure, law. We jump right in through shortest straw, This shortest straw has been pulled for you. Pulled for you. Pulled for you. Pulled for you. Shortest straw has been pulled for you. Deaccusations lie, discrimination lie, Your inner self do die, intruding. Doubt sunk itself in you, it's to the talents though, No living guess to do deluding. A mass hysteria, a manualvania, Reveal dementia, free me all. Secretly, silently, certainly, Inverted though you will be. Shortest straw, talents, liberty, down by law, Living infamy, rapure, law. We jump right in through shortest straw, This shortest straw has been pulled for you. Pulled for you. Pulled for you. Pulled for you. Shortest straw has been pulled for you. Shortest straw. Pulled for you. Shortest straw. Pulled for you. Pulled for you. Shortest straw has been pulled for you. Behind you hands are tied, don't be ostracized. No hell is multiplied, avenging. The fall has begun, oppression damaged done. No money turned to none, to nothing. The origin yours not there, viewers disappear. The liars crystal clear, deep in the egg. Channels red, one word said. Blacklist dead, when for that y'all make you dead. Shortest straw. Talents liberty, done by law. Living infamy, rubbed you raw. We jump right in through shortest Shortest straw. This shortest straw has been pulled for you. Pulled for you.",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 66.04,
+      "end": 71.8,
+      "text": " Suspicion is your name, your honesty to pay, Predictability to say, it's not her.",
+      "tokens": [
+        50364,
+        9545,
+        79,
+        18899,
+        307,
+        428,
+        1315,
+        11,
+        428,
+        26839,
+        281,
+        1689,
+        11,
+        430,
+        24945,
+        2310,
+        281,
+        584,
+        11,
+        309,
+        311,
+        406,
+        720,
+        13,
+        50714
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.5479699159279848,
+      "compression_ratio": 1.460122699386503,
+      "no_speech_prob": 0.5604534149169922,
+      "confidence": 0.478,
+      "words": [
+        {
+          "text": "Suspicion",
+          "start": 66.04,
+          "end": 66.62,
+          "confidence": 0.747
+        },
+        {
+          "text": "is",
+          "start": 66.62,
+          "end": 67.02,
+          "confidence": 0.967
+        },
+        {
+          "text": "your",
+          "start": 67.02,
+          "end": 67.34,
+          "confidence": 0.975
+        },
+        {
+          "text": "name,",
+          "start": 67.34,
+          "end": 67.6,
+          "confidence": 0.63
+        },
+        {
+          "text": "your",
+          "start": 67.88,
+          "end": 68.04,
+          "confidence": 0.827
+        },
+        {
+          "text": "honesty",
+          "start": 68.04,
+          "end": 68.54,
+          "confidence": 0.966
+        },
+        {
+          "text": "to",
+          "start": 68.54,
+          "end": 68.96,
+          "confidence": 0.278
+        },
+        {
+          "text": "pay,",
+          "start": 68.96,
+          "end": 69.22,
+          "confidence": 0.322
+        },
+        {
+          "text": "Predictability",
+          "start": 69.48,
+          "end": 70.22,
+          "confidence": 0.235
+        },
+        {
+          "text": "to",
+          "start": 70.22,
+          "end": 70.64,
+          "confidence": 0.81
+        },
+        {
+          "text": "say,",
+          "start": 70.64,
+          "end": 70.94,
+          "confidence": 0.479
+        },
+        {
+          "text": "it's",
+          "start": 71.1,
+          "end": 71.34,
+          "confidence": 0.47
+        },
+        {
+          "text": "not",
+          "start": 71.34,
+          "end": 71.44,
+          "confidence": 0.414
+        },
+        {
+          "text": "her.",
+          "start": 71.44,
+          "end": 71.8,
+          "confidence": 0.232
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 72.58,
+      "end": 78.16,
+      "text": " We touch modern day, Determination, decay, The place, disarray, disfigure.",
+      "tokens": [
+        50714,
+        492,
+        2557,
+        4363,
+        786,
+        11,
+        4237,
+        966,
+        2486,
+        11,
+        21039,
+        11,
+        440,
+        1081,
+        11,
+        717,
+        2284,
+        320,
+        11,
+        717,
+        20646,
+        540,
+        13,
+        51014
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.5479699159279848,
+      "compression_ratio": 1.460122699386503,
+      "no_speech_prob": 0.5604534149169922,
+      "confidence": 0.289,
+      "words": [
+        {
+          "text": "We",
+          "start": 72.58,
+          "end": 72.82,
+          "confidence": 0.211
+        },
+        {
+          "text": "touch",
+          "start": 72.82,
+          "end": 73.12,
+          "confidence": 0.168
+        },
+        {
+          "text": "modern",
+          "start": 73.12,
+          "end": 73.8,
+          "confidence": 0.857
+        },
+        {
+          "text": "day,",
+          "start": 73.8,
+          "end": 74.2,
+          "confidence": 0.583
+        },
+        {
+          "text": "Determination,",
+          "start": 74.32,
+          "end": 75.24,
+          "confidence": 0.115
+        },
+        {
+          "text": "decay,",
+          "start": 75.74,
+          "end": 75.82,
+          "confidence": 0.305
+        },
+        {
+          "text": "The",
+          "start": 75.98,
+          "end": 76.14,
+          "confidence": 0.124
+        },
+        {
+          "text": "place,",
+          "start": 76.14,
+          "end": 76.42,
+          "confidence": 0.103
+        },
+        {
+          "text": "disarray,",
+          "start": 76.54,
+          "end": 77.46,
+          "confidence": 0.888
+        },
+        {
+          "text": "disfigure.",
+          "start": 77.58,
+          "end": 78.16,
+          "confidence": 0.319
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 79.06,
+      "end": 84.96,
+      "text": " The public eyes, despise, define, commonplace, Unanity, faith, or taste, unanity.",
+      "tokens": [
+        51014,
+        440,
+        1908,
+        2575,
+        11,
+        4887,
+        908,
+        11,
+        6964,
+        11,
+        2689,
+        6742,
+        11,
+        1156,
+        282,
+        507,
+        11,
+        4522,
+        11,
+        420,
+        3939,
+        11,
+        517,
+        282,
+        507,
+        13,
+        51364
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.5479699159279848,
+      "compression_ratio": 1.460122699386503,
+      "no_speech_prob": 0.5604534149169922,
+      "confidence": 0.309,
+      "words": [
+        {
+          "text": "The",
+          "start": 79.06,
+          "end": 79.28,
+          "confidence": 0.407
+        },
+        {
+          "text": "public",
+          "start": 79.28,
+          "end": 79.7,
+          "confidence": 0.975
+        },
+        {
+          "text": "eyes,",
+          "start": 79.7,
+          "end": 80.1,
+          "confidence": 0.195
+        },
+        {
+          "text": "despise,",
+          "start": 80.12,
+          "end": 80.72,
+          "confidence": 0.33
+        },
+        {
+          "text": "define,",
+          "start": 80.98,
+          "end": 81.28,
+          "confidence": 0.097
+        },
+        {
+          "text": "commonplace,",
+          "start": 81.84,
+          "end": 82.32,
+          "confidence": 0.29
+        },
+        {
+          "text": "Unanity,",
+          "start": 82.64,
+          "end": 82.98,
+          "confidence": 0.112
+        },
+        {
+          "text": "faith,",
+          "start": 82.98,
+          "end": 83.4,
+          "confidence": 0.621
+        },
+        {
+          "text": "or",
+          "start": 83.4,
+          "end": 83.68,
+          "confidence": 0.77
+        },
+        {
+          "text": "taste,",
+          "start": 83.68,
+          "end": 83.92,
+          "confidence": 0.773
+        },
+        {
+          "text": "unanity.",
+          "start": 84.2,
+          "end": 84.96,
+          "confidence": 0.478
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "seek": 2000,
+      "start": 85.94,
+      "end": 92.48,
+      "text": " Dappening, painstaking, reckoning, This will echo in the spring.",
+      "tokens": [
+        50364,
+        413,
+        1746,
+        4559,
+        11,
+        1822,
+        372,
+        2456,
+        11,
+        16374,
+        16638,
+        11,
+        639,
+        486,
+        14300,
+        294,
+        264,
+        5587,
+        13,
+        50714
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.45530232787132263,
+      "compression_ratio": 1.480263157894737,
+      "no_speech_prob": 0.48477837443351746,
+      "confidence": 0.172,
+      "words": [
+        {
+          "text": "Dappening,",
+          "start": 85.94,
+          "end": 87.72,
+          "confidence": 0.025
+        },
+        {
+          "text": "painstaking,",
+          "start": 88.06,
+          "end": 89.26,
+          "confidence": 0.758
+        },
+        {
+          "text": "reckoning,",
+          "start": 89.7,
+          "end": 90.5,
+          "confidence": 0.399
+        },
+        {
+          "text": "This",
+          "start": 90.64,
+          "end": 90.84,
+          "confidence": 0.007
+        },
+        {
+          "text": "will",
+          "start": 90.84,
+          "end": 91.1,
+          "confidence": 0.164
+        },
+        {
+          "text": "echo",
+          "start": 91.1,
+          "end": 91.48,
+          "confidence": 0.045
+        },
+        {
+          "text": "in",
+          "start": 91.48,
+          "end": 91.82,
+          "confidence": 0.359
+        },
+        {
+          "text": "the",
+          "start": 91.82,
+          "end": 91.98,
+          "confidence": 0.921
+        },
+        {
+          "text": "spring.",
+          "start": 91.98,
+          "end": 92.48,
+          "confidence": 0.348
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "seek": 2000,
+      "start": 106.73,
+      "end": 115.09,
+      "text": " Shortest straw, talents, liberty, down by law, Living infamy, rapure, law.",
+      "tokens": [
+        50714,
+        16881,
+        377,
+        10099,
+        11,
+        19933,
+        11,
+        22849,
+        11,
+        760,
+        538,
+        2101,
+        11,
+        18824,
+        1536,
+        7804,
+        11,
+        5099,
+        540,
+        11,
+        2101,
+        13,
+        51164
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.45530232787132263,
+      "compression_ratio": 1.480263157894737,
+      "no_speech_prob": 0.48477837443351746,
+      "confidence": 0.23,
+      "words": [
+        {
+          "text": "Shortest",
+          "start": 106.73,
+          "end": 107.71,
+          "confidence": 0.039
+        },
+        {
+          "text": "straw,",
+          "start": 107.71,
+          "end": 108.53,
+          "confidence": 0.031
+        },
+        {
+          "text": "talents,",
+          "start": 108.99,
+          "end": 109.37,
+          "confidence": 0.395
+        },
+        {
+          "text": "liberty,",
+          "start": 109.47,
+          "end": 110.45,
+          "confidence": 0.28
+        },
+        {
+          "text": "down",
+          "start": 110.71,
+          "end": 110.79,
+          "confidence": 0.484
+        },
+        {
+          "text": "by",
+          "start": 110.79,
+          "end": 111.01,
+          "confidence": 0.921
+        },
+        {
+          "text": "law,",
+          "start": 111.01,
+          "end": 111.83,
+          "confidence": 0.671
+        },
+        {
+          "text": "Living",
+          "start": 112.43,
+          "end": 112.81,
+          "confidence": 0.087
+        },
+        {
+          "text": "infamy,",
+          "start": 112.81,
+          "end": 113.95,
+          "confidence": 0.573
+        },
+        {
+          "text": "rapure,",
+          "start": 114.07,
+          "end": 114.67,
+          "confidence": 0.215
+        },
+        {
+          "text": "law.",
+          "start": 114.83,
+          "end": 115.09,
+          "confidence": 0.261
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "seek": 2000,
+      "start": 115.67,
+      "end": 122.07,
+      "text": " We jump right in through shortest straw, This shortest straw has been pulled for you.",
+      "tokens": [
+        51164,
+        492,
+        3012,
+        558,
+        294,
+        807,
+        31875,
+        10099,
+        11,
+        639,
+        31875,
+        10099,
+        575,
+        668,
+        7373,
+        337,
+        291,
+        13,
+        51514
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.45530232787132263,
+      "compression_ratio": 1.480263157894737,
+      "no_speech_prob": 0.48477837443351746,
+      "confidence": 0.352,
+      "words": [
+        {
+          "text": "We",
+          "start": 115.67,
+          "end": 115.97,
+          "confidence": 0.348
+        },
+        {
+          "text": "jump",
+          "start": 115.97,
+          "end": 116.27,
+          "confidence": 0.019
+        },
+        {
+          "text": "right",
+          "start": 116.27,
+          "end": 116.83,
+          "confidence": 0.379
+        },
+        {
+          "text": "in",
+          "start": 116.83,
+          "end": 117.09,
+          "confidence": 0.543
+        },
+        {
+          "text": "through",
+          "start": 117.09,
+          "end": 117.43,
+          "confidence": 0.914
+        },
+        {
+          "text": "shortest",
+          "start": 117.43,
+          "end": 117.87,
+          "confidence": 0.022
+        },
+        {
+          "text": "straw,",
+          "start": 117.87,
+          "end": 118.45,
+          "confidence": 0.255
+        },
+        {
+          "text": "This",
+          "start": 119.05,
+          "end": 119.21,
+          "confidence": 0.068
+        },
+        {
+          "text": "shortest",
+          "start": 119.21,
+          "end": 119.61,
+          "confidence": 0.982
+        },
+        {
+          "text": "straw",
+          "start": 119.61,
+          "end": 119.99,
+          "confidence": 0.994
+        },
+        {
+          "text": "has",
+          "start": 119.99,
+          "end": 120.29,
+          "confidence": 0.911
+        },
+        {
+          "text": "been",
+          "start": 120.29,
+          "end": 120.69,
+          "confidence": 0.997
+        },
+        {
+          "text": "pulled",
+          "start": 120.69,
+          "end": 121.15,
+          "confidence": 0.912
+        },
+        {
+          "text": "for",
+          "start": 121.15,
+          "end": 121.61,
+          "confidence": 0.984
+        },
+        {
+          "text": "you.",
+          "start": 121.61,
+          "end": 122.07,
+          "confidence": 0.46
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "seek": 4300,
+      "start": 124.13,
+      "end": 125.89,
+      "text": " Pulled for you.",
+      "tokens": [
+        50414,
+        15074,
+        292,
+        337,
+        291,
+        13,
+        50564
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3519436273819361,
+      "compression_ratio": 1.6357615894039734,
+      "no_speech_prob": 0.5249100923538208,
+      "confidence": 0.092,
+      "words": [
+        {
+          "text": "Pulled",
+          "start": 124.13,
+          "end": 125.13,
+          "confidence": 0.013
+        },
+        {
+          "text": "for",
+          "start": 125.13,
+          "end": 125.41,
+          "confidence": 0.67
+        },
+        {
+          "text": "you.",
+          "start": 125.41,
+          "end": 125.89,
+          "confidence": 0.244
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "seek": 4300,
+      "start": 127.5,
+      "end": 129.3,
+      "text": " Pulled for you.",
+      "tokens": [
+        50564,
+        15074,
+        292,
+        337,
+        291,
+        13,
+        50714
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3519436273819361,
+      "compression_ratio": 1.6357615894039734,
+      "no_speech_prob": 0.5249100923538208,
+      "confidence": 0.051,
+      "words": [
+        {
+          "text": "Pulled",
+          "start": 127.5,
+          "end": 128.68,
+          "confidence": 0.006
+        },
+        {
+          "text": "for",
+          "start": 128.68,
+          "end": 128.88,
+          "confidence": 0.107
+        },
+        {
+          "text": "you.",
+          "start": 128.88,
+          "end": 129.3,
+          "confidence": 0.3
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "seek": 4300,
+      "start": 130.93,
+      "end": 132.59,
+      "text": " Pulled for you.",
+      "tokens": [
+        50714,
+        15074,
+        292,
+        337,
+        291,
+        13,
+        50864
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3519436273819361,
+      "compression_ratio": 1.6357615894039734,
+      "no_speech_prob": 0.5249100923538208,
+      "confidence": 0.034,
+      "words": [
+        {
+          "text": "Pulled",
+          "start": 130.93,
+          "end": 132.13,
+          "confidence": 0.002
+        },
+        {
+          "text": "for",
+          "start": 132.13,
+          "end": 132.31,
+          "confidence": 0.053
+        },
+        {
+          "text": "you.",
+          "start": 132.31,
+          "end": 132.59,
+          "confidence": 0.393
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "seek": 4300,
+      "start": 132.95,
+      "end": 136.79,
+      "text": " Shortest straw has been pulled for you.",
+      "tokens": [
+        50864,
+        16881,
+        377,
+        10099,
+        575,
+        668,
+        7373,
+        337,
+        291,
+        13,
+        51064
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3519436273819361,
+      "compression_ratio": 1.6357615894039734,
+      "no_speech_prob": 0.5249100923538208,
+      "confidence": 0.225,
+      "words": [
+        {
+          "text": "Shortest",
+          "start": 132.95,
+          "end": 134.51,
+          "confidence": 0.044
+        },
+        {
+          "text": "straw",
+          "start": 134.51,
+          "end": 134.69,
+          "confidence": 0.117
+        },
+        {
+          "text": "has",
+          "start": 134.69,
+          "end": 135.07,
+          "confidence": 0.049
+        },
+        {
+          "text": "been",
+          "start": 135.07,
+          "end": 135.47,
+          "confidence": 0.989
+        },
+        {
+          "text": "pulled",
+          "start": 135.47,
+          "end": 135.77,
+          "confidence": 0.939
+        },
+        {
+          "text": "for",
+          "start": 135.77,
+          "end": 136.23,
+          "confidence": 0.97
+        },
+        {
+          "text": "you.",
+          "start": 136.23,
+          "end": 136.79,
+          "confidence": 0.386
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "seek": 4300,
+      "start": 149.23,
+      "end": 155.31,
+      "text": " Deaccusations lie, discrimination lie, Your inner self do die, intruding.",
+      "tokens": [
+        51064,
+        1346,
+        326,
+        1149,
+        763,
+        4544,
+        11,
+        15973,
+        4544,
+        11,
+        2260,
+        7284,
+        2698,
+        360,
+        978,
+        11,
+        17467,
+        33703,
+        13,
+        51364
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3519436273819361,
+      "compression_ratio": 1.6357615894039734,
+      "no_speech_prob": 0.5249100923538208,
+      "confidence": 0.316,
+      "words": [
+        {
+          "text": "Deaccusations",
+          "start": 149.23,
+          "end": 150.91,
+          "confidence": 0.189
+        },
+        {
+          "text": "lie,",
+          "start": 150.91,
+          "end": 151.35,
+          "confidence": 0.157
+        },
+        {
+          "text": "discrimination",
+          "start": 151.55,
+          "end": 152.49,
+          "confidence": 0.435
+        },
+        {
+          "text": "lie,",
+          "start": 152.49,
+          "end": 152.89,
+          "confidence": 0.468
+        },
+        {
+          "text": "Your",
+          "start": 153.11,
+          "end": 153.27,
+          "confidence": 0.103
+        },
+        {
+          "text": "inner",
+          "start": 153.27,
+          "end": 153.51,
+          "confidence": 0.92
+        },
+        {
+          "text": "self",
+          "start": 153.51,
+          "end": 153.85,
+          "confidence": 0.947
+        },
+        {
+          "text": "do",
+          "start": 153.85,
+          "end": 154.19,
+          "confidence": 0.357
+        },
+        {
+          "text": "die,",
+          "start": 154.19,
+          "end": 154.61,
+          "confidence": 0.759
+        },
+        {
+          "text": "intruding.",
+          "start": 154.71,
+          "end": 155.31,
+          "confidence": 0.259
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "seek": 4300,
+      "start": 156.21,
+      "end": 161.67,
+      "text": " Doubt sunk itself in you, it's to the talents though, No living guess to do deluding.",
+      "tokens": [
+        51364,
+        13200,
+        4517,
+        40564,
+        2564,
+        294,
+        291,
+        11,
+        309,
+        311,
+        281,
+        264,
+        19933,
+        1673,
+        11,
+        883,
+        2647,
+        2041,
+        281,
+        360,
+        1103,
+        33703,
+        13,
+        51714
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3519436273819361,
+      "compression_ratio": 1.6357615894039734,
+      "no_speech_prob": 0.5249100923538208,
+      "confidence": 0.209,
+      "words": [
+        {
+          "text": "Doubt",
+          "start": 156.21,
+          "end": 156.51,
+          "confidence": 0.139
+        },
+        {
+          "text": "sunk",
+          "start": 156.51,
+          "end": 156.71,
+          "confidence": 0.0
+        },
+        {
+          "text": "itself",
+          "start": 156.71,
+          "end": 157.21,
+          "confidence": 0.184
+        },
+        {
+          "text": "in",
+          "start": 157.21,
+          "end": 157.55,
+          "confidence": 0.916
+        },
+        {
+          "text": "you,",
+          "start": 157.55,
+          "end": 157.83,
+          "confidence": 0.544
+        },
+        {
+          "text": "it's",
+          "start": 158.03,
+          "end": 158.19,
+          "confidence": 0.761
+        },
+        {
+          "text": "to",
+          "start": 158.19,
+          "end": 158.31,
+          "confidence": 0.237
+        },
+        {
+          "text": "the",
+          "start": 158.31,
+          "end": 158.57,
+          "confidence": 0.935
+        },
+        {
+          "text": "talents",
+          "start": 158.57,
+          "end": 159.05,
+          "confidence": 0.588
+        },
+        {
+          "text": "though,",
+          "start": 159.05,
+          "end": 159.41,
+          "confidence": 0.36
+        },
+        {
+          "text": "No",
+          "start": 159.61,
+          "end": 159.77,
+          "confidence": 0.023
+        },
+        {
+          "text": "living",
+          "start": 159.77,
+          "end": 160.07,
+          "confidence": 0.802
+        },
+        {
+          "text": "guess",
+          "start": 160.07,
+          "end": 160.53,
+          "confidence": 0.649
+        },
+        {
+          "text": "to",
+          "start": 160.53,
+          "end": 160.77,
+          "confidence": 0.278
+        },
+        {
+          "text": "do",
+          "start": 160.77,
+          "end": 161.13,
+          "confidence": 0.092
+        },
+        {
+          "text": "deluding.",
+          "start": 161.13,
+          "end": 161.67,
+          "confidence": 0.112
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "seek": 7000,
+      "start": 161.67,
+      "end": 168.61,
+      "text": " A mass hysteria, a manualvania, Reveal dementia, free me all.",
+      "tokens": [
+        50364,
+        316,
+        2758,
+        35915,
+        654,
+        11,
+        257,
+        9688,
+        47542,
+        11,
+        1300,
+        303,
+        304,
+        31734,
+        11,
+        1737,
+        385,
+        439,
+        13,
+        50714
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.2389414740390465,
+      "compression_ratio": 1.3611111111111112,
+      "no_speech_prob": 0.08366073668003082,
+      "confidence": 0.26,
+      "words": [
+        {
+          "text": "A",
+          "start": 161.67,
+          "end": 163.03,
+          "confidence": 0.05
+        },
+        {
+          "text": "mass",
+          "start": 163.03,
+          "end": 163.33,
+          "confidence": 0.532
+        },
+        {
+          "text": "hysteria,",
+          "start": 163.33,
+          "end": 164.37,
+          "confidence": 0.805
+        },
+        {
+          "text": "a",
+          "start": 164.63,
+          "end": 164.73,
+          "confidence": 0.901
+        },
+        {
+          "text": "manualvania,",
+          "start": 164.73,
+          "end": 165.91,
+          "confidence": 0.119
+        },
+        {
+          "text": "Reveal",
+          "start": 166.19,
+          "end": 166.49,
+          "confidence": 0.17
+        },
+        {
+          "text": "dementia,",
+          "start": 166.49,
+          "end": 167.45,
+          "confidence": 0.59
+        },
+        {
+          "text": "free",
+          "start": 167.73,
+          "end": 167.99,
+          "confidence": 0.037
+        },
+        {
+          "text": "me",
+          "start": 167.99,
+          "end": 168.25,
+          "confidence": 0.092
+        },
+        {
+          "text": "all.",
+          "start": 168.25,
+          "end": 168.61,
+          "confidence": 0.499
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "seek": 7000,
+      "start": 169.85,
+      "end": 176.25,
+      "text": " Secretly, silently, certainly, Inverted though you will be.",
+      "tokens": [
+        50714,
+        7400,
+        356,
+        11,
+        40087,
+        11,
+        3297,
+        11,
+        682,
+        18537,
+        1673,
+        291,
+        486,
+        312,
+        13,
+        51064
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.2389414740390465,
+      "compression_ratio": 1.3611111111111112,
+      "no_speech_prob": 0.08366073668003082,
+      "confidence": 0.573,
+      "words": [
+        {
+          "text": "Secretly,",
+          "start": 169.85,
+          "end": 171.25,
+          "confidence": 0.664
+        },
+        {
+          "text": "silently,",
+          "start": 171.71,
+          "end": 172.57,
+          "confidence": 0.839
+        },
+        {
+          "text": "certainly,",
+          "start": 173.29,
+          "end": 174.13,
+          "confidence": 0.668
+        },
+        {
+          "text": "Inverted",
+          "start": 174.47,
+          "end": 174.85,
+          "confidence": 0.153
+        },
+        {
+          "text": "though",
+          "start": 174.85,
+          "end": 175.15,
+          "confidence": 0.688
+        },
+        {
+          "text": "you",
+          "start": 175.15,
+          "end": 175.45,
+          "confidence": 0.99
+        },
+        {
+          "text": "will",
+          "start": 175.45,
+          "end": 175.73,
+          "confidence": 0.974
+        },
+        {
+          "text": "be.",
+          "start": 175.73,
+          "end": 176.25,
+          "confidence": 0.538
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "seek": 7000,
+      "start": 190.53,
+      "end": 198.83,
+      "text": " Shortest straw, talents, liberty, down by law, Living infamy, rapure, law.",
+      "tokens": [
+        51064,
+        16881,
+        377,
+        10099,
+        11,
+        19933,
+        11,
+        22849,
+        11,
+        760,
+        538,
+        2101,
+        11,
+        18824,
+        1536,
+        7804,
+        11,
+        5099,
+        540,
+        11,
+        2101,
+        13,
+        51514
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.2389414740390465,
+      "compression_ratio": 1.3611111111111112,
+      "no_speech_prob": 0.08366073668003082,
+      "confidence": 0.133,
+      "words": [
+        {
+          "text": "Shortest",
+          "start": 190.53,
+          "end": 191.45,
+          "confidence": 0.03
+        },
+        {
+          "text": "straw,",
+          "start": 191.45,
+          "end": 192.29,
+          "confidence": 0.055
+        },
+        {
+          "text": "talents,",
+          "start": 192.69,
+          "end": 193.09,
+          "confidence": 0.335
+        },
+        {
+          "text": "liberty,",
+          "start": 193.27,
+          "end": 194.07,
+          "confidence": 0.614
+        },
+        {
+          "text": "down",
+          "start": 194.41,
+          "end": 194.47,
+          "confidence": 0.36
+        },
+        {
+          "text": "by",
+          "start": 194.47,
+          "end": 194.71,
+          "confidence": 0.914
+        },
+        {
+          "text": "law,",
+          "start": 194.71,
+          "end": 195.57,
+          "confidence": 0.706
+        },
+        {
+          "text": "Living",
+          "start": 196.13,
+          "end": 196.47,
+          "confidence": 0.082
+        },
+        {
+          "text": "infamy,",
+          "start": 196.47,
+          "end": 197.59,
+          "confidence": 0.216
+        },
+        {
+          "text": "rapure,",
+          "start": 197.77,
+          "end": 198.35,
+          "confidence": 0.015
+        },
+        {
+          "text": "law.",
+          "start": 198.55,
+          "end": 198.83,
+          "confidence": 0.091
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "seek": 9300,
+      "start": 199.37,
+      "end": 205.87,
+      "text": " We jump right in through shortest straw, This shortest straw has been pulled for you.",
+      "tokens": [
+        50364,
+        492,
+        3012,
+        558,
+        294,
+        807,
+        31875,
+        10099,
+        11,
+        639,
+        31875,
+        10099,
+        575,
+        668,
+        7373,
+        337,
+        291,
+        13,
+        50714
+      ],
+      "temperature": 0.8,
+      "avg_logprob": -0.11466639896608749,
+      "compression_ratio": 2.0352941176470587,
+      "no_speech_prob": 0.2606484591960907,
+      "confidence": 0.184,
+      "words": [
+        {
+          "text": "We",
+          "start": 199.37,
+          "end": 199.63,
+          "confidence": 0.553
+        },
+        {
+          "text": "jump",
+          "start": 199.63,
+          "end": 199.99,
+          "confidence": 0.0
+        },
+        {
+          "text": "right",
+          "start": 199.99,
+          "end": 200.53,
+          "confidence": 0.353
+        },
+        {
+          "text": "in",
+          "start": 200.53,
+          "end": 200.77,
+          "confidence": 0.566
+        },
+        {
+          "text": "through",
+          "start": 200.77,
+          "end": 201.13,
+          "confidence": 0.869
+        },
+        {
+          "text": "shortest",
+          "start": 201.13,
+          "end": 201.59,
+          "confidence": 0.001
+        },
+        {
+          "text": "straw,",
+          "start": 201.59,
+          "end": 202.23,
+          "confidence": 0.052
+        },
+        {
+          "text": "This",
+          "start": 202.73,
+          "end": 202.91,
+          "confidence": 0.051
+        },
+        {
+          "text": "shortest",
+          "start": 202.91,
+          "end": 203.23,
+          "confidence": 0.955
+        },
+        {
+          "text": "straw",
+          "start": 203.23,
+          "end": 203.69,
+          "confidence": 0.873
+        },
+        {
+          "text": "has",
+          "start": 203.69,
+          "end": 204.05,
+          "confidence": 0.789
+        },
+        {
+          "text": "been",
+          "start": 204.05,
+          "end": 204.37,
+          "confidence": 0.989
+        },
+        {
+          "text": "pulled",
+          "start": 204.37,
+          "end": 204.87,
+          "confidence": 0.951
+        },
+        {
+          "text": "for",
+          "start": 204.87,
+          "end": 205.31,
+          "confidence": 0.983
+        },
+        {
+          "text": "you.",
+          "start": 205.31,
+          "end": 205.87,
+          "confidence": 0.487
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "seek": 9300,
+      "start": 207.81,
+      "end": 209.55,
+      "text": " Pulled for you.",
+      "tokens": [
+        50714,
+        15074,
+        292,
+        337,
+        291,
+        13,
+        50914
+      ],
+      "temperature": 0.8,
+      "avg_logprob": -0.11466639896608749,
+      "compression_ratio": 2.0352941176470587,
+      "no_speech_prob": 0.2606484591960907,
+      "confidence": 0.091,
+      "words": [
+        {
+          "text": "Pulled",
+          "start": 207.81,
+          "end": 208.87,
+          "confidence": 0.01
+        },
+        {
+          "text": "for",
+          "start": 208.87,
+          "end": 209.13,
+          "confidence": 0.564
+        },
+        {
+          "text": "you.",
+          "start": 209.13,
+          "end": 209.55,
+          "confidence": 0.316
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "seek": 9300,
+      "start": 211.21,
+      "end": 212.97,
+      "text": " Pulled for you.",
+      "tokens": [
+        50914,
+        15074,
+        292,
+        337,
+        291,
+        13,
+        51064
+      ],
+      "temperature": 0.8,
+      "avg_logprob": -0.11466639896608749,
+      "compression_ratio": 2.0352941176470587,
+      "no_speech_prob": 0.2606484591960907,
+      "confidence": 0.091,
+      "words": [
+        {
+          "text": "Pulled",
+          "start": 211.21,
+          "end": 212.39,
+          "confidence": 0.019
+        },
+        {
+          "text": "for",
+          "start": 212.39,
+          "end": 212.53,
+          "confidence": 0.157
+        },
+        {
+          "text": "you.",
+          "start": 212.53,
+          "end": 212.97,
+          "confidence": 0.339
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "seek": 9300,
+      "start": 214.64,
+      "end": 216.25,
+      "text": " Pulled for you.",
+      "tokens": [
+        51064,
+        15074,
+        292,
+        337,
+        291,
+        13,
+        51214
+      ],
+      "temperature": 0.8,
+      "avg_logprob": -0.11466639896608749,
+      "compression_ratio": 2.0352941176470587,
+      "no_speech_prob": 0.2606484591960907,
+      "confidence": 0.013,
+      "words": [
+        {
+          "text": "Pulled",
+          "start": 214.64,
+          "end": 215.65,
+          "confidence": 0.002
+        },
+        {
+          "text": "for",
+          "start": 215.65,
+          "end": 216.23,
+          "confidence": 0.005
+        },
+        {
+          "text": "you.",
+          "start": 216.23,
+          "end": 216.25,
+          "confidence": 0.135
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "seek": 9300,
+      "start": 217.45,
+      "end": 220.47,
+      "text": " Shortest straw has been pulled for you.",
+      "tokens": [
+        51214,
+        16881,
+        377,
+        10099,
+        575,
+        668,
+        7373,
+        337,
+        291,
+        13,
+        51414
+      ],
+      "temperature": 0.8,
+      "avg_logprob": -0.11466639896608749,
+      "compression_ratio": 2.0352941176470587,
+      "no_speech_prob": 0.2606484591960907,
+      "confidence": 0.577,
+      "words": [
+        {
+          "text": "Shortest",
+          "start": 217.45,
+          "end": 218.11,
+          "confidence": 0.293
+        },
+        {
+          "text": "straw",
+          "start": 218.11,
+          "end": 218.37,
+          "confidence": 0.76
+        },
+        {
+          "text": "has",
+          "start": 218.37,
+          "end": 218.71,
+          "confidence": 0.866
+        },
+        {
+          "text": "been",
+          "start": 218.71,
+          "end": 219.05,
+          "confidence": 0.995
+        },
+        {
+          "text": "pulled",
+          "start": 219.05,
+          "end": 219.45,
+          "confidence": 0.876
+        },
+        {
+          "text": "for",
+          "start": 219.45,
+          "end": 219.91,
+          "confidence": 0.984
+        },
+        {
+          "text": "you.",
+          "start": 219.91,
+          "end": 220.47,
+          "confidence": 0.382
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "seek": 11400,
+      "start": 281.3,
+      "end": 282.72,
+      "text": " Shortest straw.",
+      "tokens": [
+        50364,
+        16881,
+        377,
+        10099,
+        13,
+        50464
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.23545226230416247,
+      "compression_ratio": 1.7625,
+      "no_speech_prob": 0.22289875149726868,
+      "confidence": 0.01,
+      "words": [
+        {
+          "text": "Shortest",
+          "start": 281.3,
+          "end": 282.24,
+          "confidence": 0.011
+        },
+        {
+          "text": "straw.",
+          "start": 282.24,
+          "end": 282.72,
+          "confidence": 0.01
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "seek": 11400,
+      "start": 284.08,
+      "end": 285.34,
+      "text": " Pulled for you.",
+      "tokens": [
+        50464,
+        15074,
+        292,
+        337,
+        291,
+        13,
+        50564
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.23545226230416247,
+      "compression_ratio": 1.7625,
+      "no_speech_prob": 0.22289875149726868,
+      "confidence": 0.156,
+      "words": [
+        {
+          "text": "Pulled",
+          "start": 284.08,
+          "end": 284.86,
+          "confidence": 0.042
+        },
+        {
+          "text": "for",
+          "start": 284.86,
+          "end": 285.14,
+          "confidence": 0.538
+        },
+        {
+          "text": "you.",
+          "start": 285.14,
+          "end": 285.34,
+          "confidence": 0.308
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "seek": 11400,
+      "start": 285.34,
+      "end": 286.34,
+      "text": " Shortest straw.",
+      "tokens": [
+        50564,
+        16881,
+        377,
+        10099,
+        13,
+        50664
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.23545226230416247,
+      "compression_ratio": 1.7625,
+      "no_speech_prob": 0.22289875149726868,
+      "confidence": 0.001,
+      "words": [
+        {
+          "text": "Shortest",
+          "start": 285.34,
+          "end": 286.32,
+          "confidence": 0.0
+        },
+        {
+          "text": "straw.",
+          "start": 286.32,
+          "end": 286.34,
+          "confidence": 0.002
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "seek": 11400,
+      "start": 287.75,
+      "end": 288.69,
+      "text": " Pulled for you.",
+      "tokens": [
+        50664,
+        15074,
+        292,
+        337,
+        291,
+        13,
+        50764
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.23545226230416247,
+      "compression_ratio": 1.7625,
+      "no_speech_prob": 0.22289875149726868,
+      "confidence": 0.018,
+      "words": [
+        {
+          "text": "Pulled",
+          "start": 287.75,
+          "end": 288.37,
+          "confidence": 0.003
+        },
+        {
+          "text": "for",
+          "start": 288.37,
+          "end": 288.45,
+          "confidence": 0.008
+        },
+        {
+          "text": "you.",
+          "start": 288.45,
+          "end": 288.69,
+          "confidence": 0.145
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "seek": 11400,
+      "start": 290.67,
+      "end": 292.21,
+      "text": " Pulled for you.",
+      "tokens": [
+        50764,
+        15074,
+        292,
+        337,
+        291,
+        13,
+        50864
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.23545226230416247,
+      "compression_ratio": 1.7625,
+      "no_speech_prob": 0.22289875149726868,
+      "confidence": 0.095,
+      "words": [
+        {
+          "text": "Pulled",
+          "start": 290.67,
+          "end": 291.77,
+          "confidence": 0.02
+        },
+        {
+          "text": "for",
+          "start": 291.77,
+          "end": 291.93,
+          "confidence": 0.225
+        },
+        {
+          "text": "you.",
+          "start": 291.93,
+          "end": 292.21,
+          "confidence": 0.294
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "seek": 11400,
+      "start": 292.27,
+      "end": 296.53,
+      "text": " Shortest straw has been pulled for you.",
+      "tokens": [
+        50864,
+        16881,
+        377,
+        10099,
+        575,
+        668,
+        7373,
+        337,
+        291,
+        13,
+        51064
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.23545226230416247,
+      "compression_ratio": 1.7625,
+      "no_speech_prob": 0.22289875149726868,
+      "confidence": 0.234,
+      "words": [
+        {
+          "text": "Shortest",
+          "start": 292.27,
+          "end": 294.11,
+          "confidence": 0.007
+        },
+        {
+          "text": "straw",
+          "start": 294.11,
+          "end": 294.37,
+          "confidence": 0.468
+        },
+        {
+          "text": "has",
+          "start": 294.37,
+          "end": 294.69,
+          "confidence": 0.598
+        },
+        {
+          "text": "been",
+          "start": 294.69,
+          "end": 295.07,
+          "confidence": 0.995
+        },
+        {
+          "text": "pulled",
+          "start": 295.07,
+          "end": 295.53,
+          "confidence": 0.943
+        },
+        {
+          "text": "for",
+          "start": 295.53,
+          "end": 296.07,
+          "confidence": 0.989
+        },
+        {
+          "text": "you.",
+          "start": 296.07,
+          "end": 296.53,
+          "confidence": 0.433
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "seek": 11400,
+      "start": 312.1,
+      "end": 315.44,
+      "text": " Behind you hands are tied, don't be ostracized.",
+      "tokens": [
+        51064,
+        20475,
+        291,
+        2377,
+        366,
+        9601,
+        11,
+        500,
+        380,
+        312,
+        44024,
+        326,
+        1602,
+        13,
+        51264
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.23545226230416247,
+      "compression_ratio": 1.7625,
+      "no_speech_prob": 0.22289875149726868,
+      "confidence": 0.453,
+      "words": [
+        {
+          "text": "Behind",
+          "start": 312.1,
+          "end": 312.7,
+          "confidence": 0.092
+        },
+        {
+          "text": "you",
+          "start": 312.7,
+          "end": 312.98,
+          "confidence": 0.729
+        },
+        {
+          "text": "hands",
+          "start": 312.98,
+          "end": 313.3,
+          "confidence": 0.654
+        },
+        {
+          "text": "are",
+          "start": 313.3,
+          "end": 313.66,
+          "confidence": 0.283
+        },
+        {
+          "text": "tied,",
+          "start": 313.66,
+          "end": 313.94,
+          "confidence": 0.695
+        },
+        {
+          "text": "don't",
+          "start": 314.14,
+          "end": 314.36,
+          "confidence": 0.172
+        },
+        {
+          "text": "be",
+          "start": 314.36,
+          "end": 314.62,
+          "confidence": 0.919
+        },
+        {
+          "text": "ostracized.",
+          "start": 314.62,
+          "end": 315.44,
+          "confidence": 0.674
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "seek": 11400,
+      "start": 315.54,
+      "end": 317.78,
+      "text": " No hell is multiplied, avenging.",
+      "tokens": [
+        51264,
+        883,
+        4921,
+        307,
+        17207,
+        11,
+        18469,
+        3249,
+        13,
+        51414
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.23545226230416247,
+      "compression_ratio": 1.7625,
+      "no_speech_prob": 0.22289875149726868,
+      "confidence": 0.154,
+      "words": [
+        {
+          "text": "No",
+          "start": 315.54,
+          "end": 315.86,
+          "confidence": 0.038
+        },
+        {
+          "text": "hell",
+          "start": 315.86,
+          "end": 316.04,
+          "confidence": 0.212
+        },
+        {
+          "text": "is",
+          "start": 316.04,
+          "end": 316.22,
+          "confidence": 0.157
+        },
+        {
+          "text": "multiplied,",
+          "start": 316.22,
+          "end": 317.12,
+          "confidence": 0.271
+        },
+        {
+          "text": "avenging.",
+          "start": 317.38,
+          "end": 317.78,
+          "confidence": 0.151
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "seek": 11400,
+      "start": 318.76,
+      "end": 321.46,
+      "text": " The fall has begun, oppression damaged done.",
+      "tokens": [
+        51414,
+        440,
+        2100,
+        575,
+        16009,
+        11,
+        27337,
+        14080,
+        1096,
+        13,
+        51564
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.23545226230416247,
+      "compression_ratio": 1.7625,
+      "no_speech_prob": 0.22289875149726868,
+      "confidence": 0.058,
+      "words": [
+        {
+          "text": "The",
+          "start": 318.76,
+          "end": 319.0,
+          "confidence": 0.376
+        },
+        {
+          "text": "fall",
+          "start": 319.0,
+          "end": 319.34,
+          "confidence": 0.438
+        },
+        {
+          "text": "has",
+          "start": 319.34,
+          "end": 319.64,
+          "confidence": 0.006
+        },
+        {
+          "text": "begun,",
+          "start": 319.64,
+          "end": 320.36,
+          "confidence": 0.594
+        },
+        {
+          "text": "oppression",
+          "start": 320.62,
+          "end": 320.96,
+          "confidence": 0.234
+        },
+        {
+          "text": "damaged",
+          "start": 320.96,
+          "end": 321.44,
+          "confidence": 0.054
+        },
+        {
+          "text": "done.",
+          "start": 321.44,
+          "end": 321.46,
+          "confidence": 0.001
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "seek": 11400,
+      "start": 321.46,
+      "end": 324.3,
+      "text": " No money turned to none, to nothing.",
+      "tokens": [
+        51564,
+        883,
+        1460,
+        3574,
+        281,
+        6022,
+        11,
+        281,
+        1825,
+        13,
+        51714
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.23545226230416247,
+      "compression_ratio": 1.7625,
+      "no_speech_prob": 0.22289875149726868,
+      "confidence": 0.117,
+      "words": [
+        {
+          "text": "No",
+          "start": 321.46,
+          "end": 322.2,
+          "confidence": 0.008
+        },
+        {
+          "text": "money",
+          "start": 322.2,
+          "end": 322.54,
+          "confidence": 0.84
+        },
+        {
+          "text": "turned",
+          "start": 322.54,
+          "end": 322.92,
+          "confidence": 0.0
+        },
+        {
+          "text": "to",
+          "start": 322.92,
+          "end": 323.3,
+          "confidence": 0.85
+        },
+        {
+          "text": "none,",
+          "start": 323.3,
+          "end": 323.58,
+          "confidence": 0.122
+        },
+        {
+          "text": "to",
+          "start": 323.82,
+          "end": 323.9,
+          "confidence": 0.901
+        },
+        {
+          "text": "nothing.",
+          "start": 323.9,
+          "end": 324.3,
+          "confidence": 0.419
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "seek": 14100,
+      "start": 325.28,
+      "end": 328.42,
+      "text": " The origin yours not there, viewers disappear.",
+      "tokens": [
+        50364,
+        440,
+        4957,
+        6342,
+        406,
+        456,
+        11,
+        8499,
+        11596,
+        13,
+        50564
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.39591590033637153,
+      "compression_ratio": 1.4666666666666666,
+      "no_speech_prob": 0.08295002579689026,
+      "confidence": 0.112,
+      "words": [
+        {
+          "text": "The",
+          "start": 325.28,
+          "end": 325.68,
+          "confidence": 0.068
+        },
+        {
+          "text": "origin",
+          "start": 325.68,
+          "end": 325.98,
+          "confidence": 0.071
+        },
+        {
+          "text": "yours",
+          "start": 325.98,
+          "end": 326.3,
+          "confidence": 0.075
+        },
+        {
+          "text": "not",
+          "start": 326.3,
+          "end": 326.64,
+          "confidence": 0.31
+        },
+        {
+          "text": "there,",
+          "start": 326.64,
+          "end": 327.0,
+          "confidence": 0.488
+        },
+        {
+          "text": "viewers",
+          "start": 327.14,
+          "end": 327.48,
+          "confidence": 0.001
+        },
+        {
+          "text": "disappear.",
+          "start": 327.48,
+          "end": 328.42,
+          "confidence": 0.36
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "seek": 14100,
+      "start": 328.68,
+      "end": 331.2,
+      "text": " The liars crystal clear, deep in the egg.",
+      "tokens": [
+        50564,
+        440,
+        375,
+        685,
+        13662,
+        1850,
+        11,
+        2452,
+        294,
+        264,
+        3777,
+        13,
+        50714
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.39591590033637153,
+      "compression_ratio": 1.4666666666666666,
+      "no_speech_prob": 0.08295002579689026,
+      "confidence": 0.282,
+      "words": [
+        {
+          "text": "The",
+          "start": 328.68,
+          "end": 328.96,
+          "confidence": 0.044
+        },
+        {
+          "text": "liars",
+          "start": 328.96,
+          "end": 329.32,
+          "confidence": 0.34
+        },
+        {
+          "text": "crystal",
+          "start": 329.32,
+          "end": 329.78,
+          "confidence": 0.874
+        },
+        {
+          "text": "clear,",
+          "start": 329.78,
+          "end": 330.2,
+          "confidence": 0.567
+        },
+        {
+          "text": "deep",
+          "start": 330.4,
+          "end": 330.6,
+          "confidence": 0.682
+        },
+        {
+          "text": "in",
+          "start": 330.6,
+          "end": 330.9,
+          "confidence": 0.621
+        },
+        {
+          "text": "the",
+          "start": 330.9,
+          "end": 331.06,
+          "confidence": 0.144
+        },
+        {
+          "text": "egg.",
+          "start": 331.06,
+          "end": 331.2,
+          "confidence": 0.102
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "seek": 14100,
+      "start": 332.43,
+      "end": 334.71,
+      "text": " Channels red, one word said.",
+      "tokens": [
+        50714,
+        761,
+        969,
+        1625,
+        2182,
+        11,
+        472,
+        1349,
+        848,
+        13,
+        50864
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.39591590033637153,
+      "compression_ratio": 1.4666666666666666,
+      "no_speech_prob": 0.08295002579689026,
+      "confidence": 0.254,
+      "words": [
+        {
+          "text": "Channels",
+          "start": 332.43,
+          "end": 333.11,
+          "confidence": 0.399
+        },
+        {
+          "text": "red,",
+          "start": 333.11,
+          "end": 333.73,
+          "confidence": 0.511
+        },
+        {
+          "text": "one",
+          "start": 334.27,
+          "end": 334.49,
+          "confidence": 0.604
+        },
+        {
+          "text": "word",
+          "start": 334.49,
+          "end": 334.69,
+          "confidence": 0.045
+        },
+        {
+          "text": "said.",
+          "start": 334.69,
+          "end": 334.71,
+          "confidence": 0.099
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "seek": 14100,
+      "start": 334.71,
+      "end": 338.67,
+      "text": " Blacklist dead, when for that y'all make you dead.",
+      "tokens": [
+        50864,
+        4076,
+        8264,
+        3116,
+        11,
+        562,
+        337,
+        300,
+        288,
+        6,
+        336,
+        652,
+        291,
+        3116,
+        13,
+        51064
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.39591590033637153,
+      "compression_ratio": 1.4666666666666666,
+      "no_speech_prob": 0.08295002579689026,
+      "confidence": 0.31,
+      "words": [
+        {
+          "text": "Blacklist",
+          "start": 334.71,
+          "end": 336.41,
+          "confidence": 0.413
+        },
+        {
+          "text": "dead,",
+          "start": 336.41,
+          "end": 336.75,
+          "confidence": 0.504
+        },
+        {
+          "text": "when",
+          "start": 336.91,
+          "end": 337.07,
+          "confidence": 0.183
+        },
+        {
+          "text": "for",
+          "start": 337.07,
+          "end": 337.25,
+          "confidence": 0.002
+        },
+        {
+          "text": "that",
+          "start": 337.25,
+          "end": 337.45,
+          "confidence": 0.132
+        },
+        {
+          "text": "y'all",
+          "start": 337.45,
+          "end": 337.77,
+          "confidence": 0.674
+        },
+        {
+          "text": "make",
+          "start": 337.77,
+          "end": 337.99,
+          "confidence": 0.791
+        },
+        {
+          "text": "you",
+          "start": 337.99,
+          "end": 338.29,
+          "confidence": 0.884
+        },
+        {
+          "text": "dead.",
+          "start": 338.29,
+          "end": 338.67,
+          "confidence": 0.398
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "seek": 14100,
+      "start": 352.93,
+      "end": 353.97,
+      "text": " Shortest straw.",
+      "tokens": [
+        51064,
+        16881,
+        377,
+        10099,
+        13,
+        51164
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.39591590033637153,
+      "compression_ratio": 1.4666666666666666,
+      "no_speech_prob": 0.08295002579689026,
+      "confidence": 0.005,
+      "words": [
+        {
+          "text": "Shortest",
+          "start": 352.93,
+          "end": 353.87,
+          "confidence": 0.003
+        },
+        {
+          "text": "straw.",
+          "start": 353.87,
+          "end": 353.97,
+          "confidence": 0.008
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "seek": 14100,
+      "start": 354.95,
+      "end": 357.91,
+      "text": " Talents liberty, done by law.",
+      "tokens": [
+        51164,
+        10516,
+        791,
+        22849,
+        11,
+        1096,
+        538,
+        2101,
+        13,
+        51364
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.39591590033637153,
+      "compression_ratio": 1.4666666666666666,
+      "no_speech_prob": 0.08295002579689026,
+      "confidence": 0.234,
+      "words": [
+        {
+          "text": "Talents",
+          "start": 354.95,
+          "end": 355.69,
+          "confidence": 0.052
+        },
+        {
+          "text": "liberty,",
+          "start": 355.69,
+          "end": 356.51,
+          "confidence": 0.189
+        },
+        {
+          "text": "done",
+          "start": 356.73,
+          "end": 357.05,
+          "confidence": 0.559
+        },
+        {
+          "text": "by",
+          "start": 357.05,
+          "end": 357.27,
+          "confidence": 0.992
+        },
+        {
+          "text": "law.",
+          "start": 357.27,
+          "end": 357.91,
+          "confidence": 0.406
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "seek": 14100,
+      "start": 358.45,
+      "end": 360.97,
+      "text": " Living infamy, rubbed you raw.",
+      "tokens": [
+        51364,
+        18824,
+        1536,
+        7804,
+        11,
+        5915,
+        2883,
+        291,
+        8936,
+        13,
+        51514
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.39591590033637153,
+      "compression_ratio": 1.4666666666666666,
+      "no_speech_prob": 0.08295002579689026,
+      "confidence": 0.126,
+      "words": [
+        {
+          "text": "Living",
+          "start": 358.45,
+          "end": 359.03,
+          "confidence": 0.157
+        },
+        {
+          "text": "infamy,",
+          "start": 359.03,
+          "end": 360.23,
+          "confidence": 0.065
+        },
+        {
+          "text": "rubbed",
+          "start": 360.35,
+          "end": 360.69,
+          "confidence": 0.042
+        },
+        {
+          "text": "you",
+          "start": 360.69,
+          "end": 360.83,
+          "confidence": 0.661
+        },
+        {
+          "text": "raw.",
+          "start": 360.83,
+          "end": 360.97,
+          "confidence": 0.393
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "seek": 14100,
+      "start": 360.97,
+      "end": 363.97,
+      "text": " We jump right in through shortest",
+      "tokens": [
+        51514,
+        492,
+        3012,
+        558,
+        294,
+        807,
+        31875,
+        10099,
+        13,
+        51664
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.39591590033637153,
+      "compression_ratio": 1.4666666666666666,
+      "no_speech_prob": 0.08295002579689026,
+      "confidence": 0.025,
+      "words": [
+        {
+          "text": "We",
+          "start": 360.97,
+          "end": 362.15,
+          "confidence": 0.127
+        },
+        {
+          "text": "jump",
+          "start": 362.15,
+          "end": 362.49,
+          "confidence": 0.001
+        },
+        {
+          "text": "right",
+          "start": 362.49,
+          "end": 363.07,
+          "confidence": 0.483
+        },
+        {
+          "text": "in",
+          "start": 363.07,
+          "end": 363.33,
+          "confidence": 0.252
+        },
+        {
+          "text": "through",
+          "start": 363.33,
+          "end": 363.65,
+          "confidence": 0.634
+        },
+        {
+          "text": "shortest",
+          "start": 363.65,
+          "end": 363.97,
+          "confidence": 0.002
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "seek": 16700,
+      "start": 364.07,
+      "end": 364.75,
+      "text": " Shortest straw.",
+      "tokens": [
+        50364,
+        16881,
+        377,
+        10099,
+        13,
+        50464
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.17562994003295898,
+      "compression_ratio": 1.2459016393442623,
+      "no_speech_prob": 0.2343432903289795,
+      "confidence": 0.005,
+      "words": [
+        {
+          "text": "Shortest",
+          "start": 364.07,
+          "end": 364.49,
+          "confidence": 0.001
+        },
+        {
+          "text": "straw.",
+          "start": 364.49,
+          "end": 364.75,
+          "confidence": 0.02
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "seek": 16700,
+      "start": 365.13,
+      "end": 368.43,
+      "text": " This shortest straw has been pulled for you.",
+      "tokens": [
+        50464,
+        639,
+        31875,
+        10099,
+        575,
+        668,
+        7373,
+        337,
+        291,
+        13,
+        50664
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.17562994003295898,
+      "compression_ratio": 1.2459016393442623,
+      "no_speech_prob": 0.2343432903289795,
+      "confidence": 0.445,
+      "words": [
+        {
+          "text": "This",
+          "start": 365.13,
+          "end": 365.49,
+          "confidence": 0.587
+        },
+        {
+          "text": "shortest",
+          "start": 365.49,
+          "end": 365.85,
+          "confidence": 0.013
+        },
+        {
+          "text": "straw",
+          "start": 365.85,
+          "end": 366.23,
+          "confidence": 0.903
+        },
+        {
+          "text": "has",
+          "start": 366.23,
+          "end": 366.53,
+          "confidence": 0.957
+        },
+        {
+          "text": "been",
+          "start": 366.53,
+          "end": 366.87,
+          "confidence": 0.998
+        },
+        {
+          "text": "pulled",
+          "start": 366.87,
+          "end": 367.39,
+          "confidence": 0.863
+        },
+        {
+          "text": "for",
+          "start": 367.39,
+          "end": 367.87,
+          "confidence": 0.871
+        },
+        {
+          "text": "you.",
+          "start": 367.87,
+          "end": 368.43,
+          "confidence": 0.377
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "seek": 16700,
+      "start": 369.86,
+      "end": 370.96,
+      "text": " Pulled for you.",
+      "tokens": [
+        50664,
+        15074,
+        292,
+        337,
+        291,
+        13,
+        50764
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.17562994003295898,
+      "compression_ratio": 1.2459016393442623,
+      "no_speech_prob": 0.2343432903289795,
+      "confidence": 0.08,
+      "words": [
+        {
+          "text": "Pulled",
+          "start": 369.86,
+          "end": 370.4,
+          "confidence": 0.022
+        },
+        {
+          "text": "for",
+          "start": 370.4,
+          "end": 370.6,
+          "confidence": 0.082
+        },
+        {
+          "text": "you.",
+          "start": 370.6,
+          "end": 370.96,
+          "confidence": 0.285
+        }
+      ]
+    }
+  ],
+  "language": "en"
+}

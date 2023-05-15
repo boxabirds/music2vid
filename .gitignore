@@ -4,3 +4,22 @@
 *.avi
 .DS_Store
 *.ckpt
+*.png
+
+*.pyc
+*.pyo
+*.pyd
+
+# exclude pytorch models
+*.pth
+
+# exclude tensorflow models
+*.pb
+
+.DS_Store
+*.log
+._*
+
+.vscode/*
+
+outputs/*

@@ -1,0 +1,1216 @@
+{
+  "text": " Working in Paris. Pick me up. I'm gonna rise this evening And say to this heart That living is easy When you're living alone It's so cold, it's so cold Waiting for your favorite ride It's so cold, it's so cold Wait until you get in size It's so cold, it's so cold When I play your favorite part It's all gone, oh it's all gone Baby then I break your... Working in Paris. Pick me up. Oui c'est ça. I'm gonna rise this evening Now we say our goodbyes That pretending was easy When you're late with a line Pick me up. Tonight. Pick me up.",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 16.78,
+      "end": 17.82,
+      "text": " Working in Paris.",
+      "tokens": [
+        50364,
+        18337,
+        294,
+        8380,
+        13,
+        50464
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.41014783041817804,
+      "compression_ratio": 1.1,
+      "no_speech_prob": 0.1126306802034378,
+      "confidence": 0.636,
+      "words": [
+        {
+          "text": "Working",
+          "start": 16.78,
+          "end": 17.16,
+          "confidence": 0.326
+        },
+        {
+          "text": "in",
+          "start": 17.16,
+          "end": 17.52,
+          "confidence": 0.993
+        },
+        {
+          "text": "Paris.",
+          "start": 17.52,
+          "end": 17.82,
+          "confidence": 0.711
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 22.69,
+      "end": 23.65,
+      "text": " Pick me up.",
+      "tokens": [
+        50564,
+        14129,
+        385,
+        493,
+        13,
+        50664
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.41014783041817804,
+      "compression_ratio": 1.1,
+      "no_speech_prob": 0.1126306802034378,
+      "confidence": 0.658,
+      "words": [
+        {
+          "text": "Pick",
+          "start": 22.69,
+          "end": 22.97,
+          "confidence": 0.551
+        },
+        {
+          "text": "me",
+          "start": 22.97,
+          "end": 23.23,
+          "confidence": 0.958
+        },
+        {
+          "text": "up.",
+          "start": 23.23,
+          "end": 23.65,
+          "confidence": 0.596
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 41.13,
+      "end": 45.41,
+      "text": " I'm gonna rise this evening",
+      "tokens": [
+        50814,
+        286,
+        478,
+        799,
+        6272,
+        341,
+        5634,
+        51064
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.41014783041817804,
+      "compression_ratio": 1.1,
+      "no_speech_prob": 0.1126306802034378,
+      "confidence": 0.791,
+      "words": [
+        {
+          "text": "I'm",
+          "start": 41.13,
+          "end": 43.45,
+          "confidence": 0.539
+        },
+        {
+          "text": "gonna",
+          "start": 43.45,
+          "end": 43.73,
+          "confidence": 0.906
+        },
+        {
+          "text": "rise",
+          "start": 43.73,
+          "end": 44.17,
+          "confidence": 0.977
+        },
+        {
+          "text": "this",
+          "start": 44.17,
+          "end": 44.75,
+          "confidence": 0.988
+        },
+        {
+          "text": "evening",
+          "start": 44.75,
+          "end": 45.41,
+          "confidence": 0.967
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 47.19,
+      "end": 51.03,
+      "text": " And say to this heart",
+      "tokens": [
+        51064,
+        400,
+        584,
+        281,
+        341,
+        1917,
+        51314
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.41014783041817804,
+      "compression_ratio": 1.1,
+      "no_speech_prob": 0.1126306802034378,
+      "confidence": 0.653,
+      "words": [
+        {
+          "text": "And",
+          "start": 47.19,
+          "end": 48.03,
+          "confidence": 0.346
+        },
+        {
+          "text": "say",
+          "start": 48.03,
+          "end": 48.85,
+          "confidence": 0.936
+        },
+        {
+          "text": "to",
+          "start": 48.85,
+          "end": 49.45,
+          "confidence": 0.971
+        },
+        {
+          "text": "this",
+          "start": 49.45,
+          "end": 50.01,
+          "confidence": 0.943
+        },
+        {
+          "text": "heart",
+          "start": 50.01,
+          "end": 51.03,
+          "confidence": 0.401
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 53.52,
+      "end": 58.02,
+      "text": " That living is easy",
+      "tokens": [
+        51314,
+        663,
+        2647,
+        307,
+        1858,
+        51614
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.41014783041817804,
+      "compression_ratio": 1.1,
+      "no_speech_prob": 0.1126306802034378,
+      "confidence": 0.59,
+      "words": [
+        {
+          "text": "That",
+          "start": 53.52,
+          "end": 54.32,
+          "confidence": 0.238
+        },
+        {
+          "text": "living",
+          "start": 54.32,
+          "end": 55.08,
+          "confidence": 0.537
+        },
+        {
+          "text": "is",
+          "start": 55.08,
+          "end": 56.08,
+          "confidence": 0.974
+        },
+        {
+          "text": "easy",
+          "start": 56.08,
+          "end": 58.02,
+          "confidence": 0.975
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "seek": 2500,
+      "start": 59.42,
+      "end": 63.08,
+      "text": " When you're living alone",
+      "tokens": [
+        50364,
+        1133,
+        291,
+        434,
+        2647,
+        3312,
+        50614
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.11198021570841471,
+      "compression_ratio": 1.8620689655172413,
+      "no_speech_prob": 0.017062142491340637,
+      "confidence": 0.638,
+      "words": [
+        {
+          "text": "When",
+          "start": 59.42,
+          "end": 59.88,
+          "confidence": 0.319
+        },
+        {
+          "text": "you're",
+          "start": 59.88,
+          "end": 60.62,
+          "confidence": 0.948
+        },
+        {
+          "text": "living",
+          "start": 60.62,
+          "end": 61.12,
+          "confidence": 0.741
+        },
+        {
+          "text": "alone",
+          "start": 61.12,
+          "end": 63.08,
+          "confidence": 0.499
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "seek": 2500,
+      "start": 66.32,
+      "end": 69.24,
+      "text": " It's so cold, it's so cold",
+      "tokens": [
+        50614,
+        467,
+        311,
+        370,
+        3554,
+        11,
+        309,
+        311,
+        370,
+        3554,
+        50764
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.11198021570841471,
+      "compression_ratio": 1.8620689655172413,
+      "no_speech_prob": 0.017062142491340637,
+      "confidence": 0.771,
+      "words": [
+        {
+          "text": "It's",
+          "start": 66.32,
+          "end": 66.86,
+          "confidence": 0.509
+        },
+        {
+          "text": "so",
+          "start": 66.86,
+          "end": 67.2,
+          "confidence": 0.971
+        },
+        {
+          "text": "cold,",
+          "start": 67.2,
+          "end": 67.6,
+          "confidence": 0.697
+        },
+        {
+          "text": "it's",
+          "start": 68.0,
+          "end": 68.36,
+          "confidence": 0.915
+        },
+        {
+          "text": "so",
+          "start": 68.36,
+          "end": 68.66,
+          "confidence": 0.996
+        },
+        {
+          "text": "cold",
+          "start": 68.66,
+          "end": 69.24,
+          "confidence": 0.949
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "seek": 2500,
+      "start": 69.24,
+      "end": 71.54,
+      "text": " Waiting for your favorite ride",
+      "tokens": [
+        50764,
+        37291,
+        337,
+        428,
+        2954,
+        5077,
+        50914
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.11198021570841471,
+      "compression_ratio": 1.8620689655172413,
+      "no_speech_prob": 0.017062142491340637,
+      "confidence": 0.749,
+      "words": [
+        {
+          "text": "Waiting",
+          "start": 69.24,
+          "end": 69.62,
+          "confidence": 0.298
+        },
+        {
+          "text": "for",
+          "start": 69.62,
+          "end": 69.88,
+          "confidence": 0.991
+        },
+        {
+          "text": "your",
+          "start": 69.88,
+          "end": 70.06,
+          "confidence": 0.946
+        },
+        {
+          "text": "favorite",
+          "start": 70.06,
+          "end": 70.7,
+          "confidence": 0.902
+        },
+        {
+          "text": "ride",
+          "start": 70.7,
+          "end": 71.54,
+          "confidence": 0.939
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "seek": 2500,
+      "start": 72.28,
+      "end": 75.08,
+      "text": " It's so cold, it's so cold",
+      "tokens": [
+        50914,
+        467,
+        311,
+        370,
+        3554,
+        11,
+        309,
+        311,
+        370,
+        3554,
+        51064
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.11198021570841471,
+      "compression_ratio": 1.8620689655172413,
+      "no_speech_prob": 0.017062142491340637,
+      "confidence": 0.818,
+      "words": [
+        {
+          "text": "It's",
+          "start": 72.28,
+          "end": 72.76,
+          "confidence": 0.621
+        },
+        {
+          "text": "so",
+          "start": 72.76,
+          "end": 73.04,
+          "confidence": 0.982
+        },
+        {
+          "text": "cold,",
+          "start": 73.04,
+          "end": 73.56,
+          "confidence": 0.702
+        },
+        {
+          "text": "it's",
+          "start": 73.92,
+          "end": 74.34,
+          "confidence": 0.949
+        },
+        {
+          "text": "so",
+          "start": 74.34,
+          "end": 74.6,
+          "confidence": 0.997
+        },
+        {
+          "text": "cold",
+          "start": 74.6,
+          "end": 75.08,
+          "confidence": 0.981
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "seek": 2500,
+      "start": 75.26,
+      "end": 77.48,
+      "text": " Wait until you get in size",
+      "tokens": [
+        51064,
+        3802,
+        1826,
+        291,
+        483,
+        294,
+        2744,
+        51214
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.11198021570841471,
+      "compression_ratio": 1.8620689655172413,
+      "no_speech_prob": 0.017062142491340637,
+      "confidence": 0.669,
+      "words": [
+        {
+          "text": "Wait",
+          "start": 75.26,
+          "end": 75.56,
+          "confidence": 0.61
+        },
+        {
+          "text": "until",
+          "start": 75.56,
+          "end": 75.84,
+          "confidence": 0.966
+        },
+        {
+          "text": "you",
+          "start": 75.84,
+          "end": 76.34,
+          "confidence": 0.99
+        },
+        {
+          "text": "get",
+          "start": 76.34,
+          "end": 76.58,
+          "confidence": 0.964
+        },
+        {
+          "text": "in",
+          "start": 76.58,
+          "end": 76.9,
+          "confidence": 0.379
+        },
+        {
+          "text": "size",
+          "start": 76.9,
+          "end": 77.48,
+          "confidence": 0.42
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "seek": 2500,
+      "start": 77.68,
+      "end": 81.22,
+      "text": " It's so cold, it's so cold",
+      "tokens": [
+        51214,
+        467,
+        311,
+        370,
+        3554,
+        11,
+        309,
+        311,
+        370,
+        3554,
+        51364
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.11198021570841471,
+      "compression_ratio": 1.8620689655172413,
+      "no_speech_prob": 0.017062142491340637,
+      "confidence": 0.492,
+      "words": [
+        {
+          "text": "It's",
+          "start": 77.68,
+          "end": 78.92,
+          "confidence": 0.637
+        },
+        {
+          "text": "so",
+          "start": 78.92,
+          "end": 79.14,
+          "confidence": 0.847
+        },
+        {
+          "text": "cold,",
+          "start": 79.14,
+          "end": 79.62,
+          "confidence": 0.077
+        },
+        {
+          "text": "it's",
+          "start": 79.96,
+          "end": 80.4,
+          "confidence": 0.921
+        },
+        {
+          "text": "so",
+          "start": 80.4,
+          "end": 80.68,
+          "confidence": 0.993
+        },
+        {
+          "text": "cold",
+          "start": 80.68,
+          "end": 81.22,
+          "confidence": 0.979
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "seek": 2500,
+      "start": 81.26,
+      "end": 83.5,
+      "text": " When I play your favorite part",
+      "tokens": [
+        51364,
+        1133,
+        286,
+        862,
+        428,
+        2954,
+        644,
+        51514
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.11198021570841471,
+      "compression_ratio": 1.8620689655172413,
+      "no_speech_prob": 0.017062142491340637,
+      "confidence": 0.594,
+      "words": [
+        {
+          "text": "When",
+          "start": 81.26,
+          "end": 81.58,
+          "confidence": 0.08
+        },
+        {
+          "text": "I",
+          "start": 81.58,
+          "end": 81.72,
+          "confidence": 0.977
+        },
+        {
+          "text": "play",
+          "start": 81.72,
+          "end": 81.9,
+          "confidence": 0.847
+        },
+        {
+          "text": "your",
+          "start": 81.9,
+          "end": 82.1,
+          "confidence": 0.93
+        },
+        {
+          "text": "favorite",
+          "start": 82.1,
+          "end": 82.68,
+          "confidence": 0.825
+        },
+        {
+          "text": "part",
+          "start": 82.68,
+          "end": 83.5,
+          "confidence": 0.862
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "seek": 2500,
+      "start": 84.3,
+      "end": 87.14,
+      "text": " It's all gone, oh it's all gone",
+      "tokens": [
+        51514,
+        467,
+        311,
+        439,
+        2780,
+        11,
+        1954,
+        309,
+        311,
+        439,
+        2780,
+        51664
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.11198021570841471,
+      "compression_ratio": 1.8620689655172413,
+      "no_speech_prob": 0.017062142491340637,
+      "confidence": 0.777,
+      "words": [
+        {
+          "text": "It's",
+          "start": 84.3,
+          "end": 84.88,
+          "confidence": 0.557
+        },
+        {
+          "text": "all",
+          "start": 84.88,
+          "end": 85.08,
+          "confidence": 0.932
+        },
+        {
+          "text": "gone,",
+          "start": 85.08,
+          "end": 85.44,
+          "confidence": 0.805
+        },
+        {
+          "text": "oh",
+          "start": 85.74,
+          "end": 85.9,
+          "confidence": 0.601
+        },
+        {
+          "text": "it's",
+          "start": 85.9,
+          "end": 86.38,
+          "confidence": 0.846
+        },
+        {
+          "text": "all",
+          "start": 86.38,
+          "end": 86.6,
+          "confidence": 0.997
+        },
+        {
+          "text": "gone",
+          "start": 86.6,
+          "end": 87.14,
+          "confidence": 0.999
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "seek": 2500,
+      "start": 87.2,
+      "end": 88.66,
+      "text": " Baby then I break your...",
+      "tokens": [
+        51664,
+        9425,
+        550,
+        286,
+        1821,
+        428,
+        485,
+        51714
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.11198021570841471,
+      "compression_ratio": 1.8620689655172413,
+      "no_speech_prob": 0.017062142491340637,
+      "confidence": 0.498,
+      "words": [
+        {
+          "text": "Baby",
+          "start": 87.2,
+          "end": 87.56,
+          "confidence": 0.366
+        },
+        {
+          "text": "then",
+          "start": 87.56,
+          "end": 87.86,
+          "confidence": 0.49
+        },
+        {
+          "text": "I",
+          "start": 87.86,
+          "end": 88.12,
+          "confidence": 0.972
+        },
+        {
+          "text": "break",
+          "start": 88.12,
+          "end": 88.4,
+          "confidence": 0.772
+        },
+        {
+          "text": "your...",
+          "start": 88.4,
+          "end": 88.66,
+          "confidence": 0.337
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "seek": 2500,
+      "start": 88.78,
+      "end": 89.82,
+      "text": " Working in Paris.",
+      "tokens": [
+        51714,
+        18337,
+        294,
+        8380,
+        13,
+        51814
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.11198021570841471,
+      "compression_ratio": 1.8620689655172413,
+      "no_speech_prob": 0.017062142491340637,
+      "confidence": 0.622,
+      "words": [
+        {
+          "text": "Working",
+          "start": 88.78,
+          "end": 89.16,
+          "confidence": 0.406
+        },
+        {
+          "text": "in",
+          "start": 89.16,
+          "end": 89.52,
+          "confidence": 0.985
+        },
+        {
+          "text": "Paris.",
+          "start": 89.52,
+          "end": 89.82,
+          "confidence": 0.612
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "seek": 5500,
+      "start": 94.22,
+      "end": 95.63,
+      "text": " Pick me up.",
+      "tokens": [
+        50414,
+        14129,
+        385,
+        493,
+        13,
+        50514
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.1681165390826286,
+      "compression_ratio": 1.1478260869565218,
+      "no_speech_prob": 0.009848756715655327,
+      "confidence": 0.649,
+      "words": [
+        {
+          "text": "Pick",
+          "start": 94.22,
+          "end": 94.95,
+          "confidence": 0.663
+        },
+        {
+          "text": "me",
+          "start": 94.95,
+          "end": 95.27,
+          "confidence": 0.963
+        },
+        {
+          "text": "up.",
+          "start": 95.27,
+          "end": 95.63,
+          "confidence": 0.528
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "seek": 5500,
+      "start": 100.78,
+      "end": 101.56,
+      "text": " Oui c'est ça.",
+      "tokens": [
+        50514,
+        14005,
+        269,
+        6,
+        377,
+        2788,
+        13,
+        50614
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.1681165390826286,
+      "compression_ratio": 1.1478260869565218,
+      "no_speech_prob": 0.009848756715655327,
+      "confidence": 0.505,
+      "words": [
+        {
+          "text": "Oui",
+          "start": 100.78,
+          "end": 101.08,
+          "confidence": 0.133
+        },
+        {
+          "text": "c'est",
+          "start": 101.08,
+          "end": 101.44,
+          "confidence": 0.788
+        },
+        {
+          "text": "ça.",
+          "start": 101.44,
+          "end": 101.56,
+          "confidence": 0.504
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "seek": 5500,
+      "start": 113.04,
+      "end": 117.74,
+      "text": " I'm gonna rise this evening",
+      "tokens": [
+        50714,
+        286,
+        478,
+        799,
+        6272,
+        341,
+        5634,
+        51014
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.1681165390826286,
+      "compression_ratio": 1.1478260869565218,
+      "no_speech_prob": 0.009848756715655327,
+      "confidence": 0.227,
+      "words": [
+        {
+          "text": "I'm",
+          "start": 113.04,
+          "end": 115.52,
+          "confidence": 0.419
+        },
+        {
+          "text": "gonna",
+          "start": 115.52,
+          "end": 115.78,
+          "confidence": 0.001
+        },
+        {
+          "text": "rise",
+          "start": 115.78,
+          "end": 116.2,
+          "confidence": 0.87
+        },
+        {
+          "text": "this",
+          "start": 116.2,
+          "end": 116.72,
+          "confidence": 0.963
+        },
+        {
+          "text": "evening",
+          "start": 116.72,
+          "end": 117.74,
+          "confidence": 0.913
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "seek": 5500,
+      "start": 119.48,
+      "end": 124.08,
+      "text": " Now we say our goodbyes",
+      "tokens": [
+        51014,
+        823,
+        321,
+        584,
+        527,
+        665,
+        2322,
+        279,
+        51264
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.1681165390826286,
+      "compression_ratio": 1.1478260869565218,
+      "no_speech_prob": 0.009848756715655327,
+      "confidence": 0.891,
+      "words": [
+        {
+          "text": "Now",
+          "start": 119.48,
+          "end": 120.02,
+          "confidence": 0.557
+        },
+        {
+          "text": "we",
+          "start": 120.02,
+          "end": 120.42,
+          "confidence": 0.955
+        },
+        {
+          "text": "say",
+          "start": 120.42,
+          "end": 120.98,
+          "confidence": 0.989
+        },
+        {
+          "text": "our",
+          "start": 120.98,
+          "end": 121.48,
+          "confidence": 0.958
+        },
+        {
+          "text": "goodbyes",
+          "start": 121.48,
+          "end": 124.08,
+          "confidence": 0.961
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "seek": 5500,
+      "start": 125.48,
+      "end": 129.6,
+      "text": " That pretending was easy",
+      "tokens": [
+        51264,
+        663,
+        22106,
+        390,
+        1858,
+        51564
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.1681165390826286,
+      "compression_ratio": 1.1478260869565218,
+      "no_speech_prob": 0.009848756715655327,
+      "confidence": 0.212,
+      "words": [
+        {
+          "text": "That",
+          "start": 125.48,
+          "end": 126.06,
+          "confidence": 0.185
+        },
+        {
+          "text": "pretending",
+          "start": 126.06,
+          "end": 127.02,
+          "confidence": 0.981
+        },
+        {
+          "text": "was",
+          "start": 127.02,
+          "end": 127.86,
+          "confidence": 0.945
+        },
+        {
+          "text": "easy",
+          "start": 127.86,
+          "end": 129.6,
+          "confidence": 0.012
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "seek": 5500,
+      "start": 131.51,
+      "end": 135.33,
+      "text": " When you're late with a line",
+      "tokens": [
+        51564,
+        1133,
+        291,
+        434,
+        3469,
+        365,
+        257,
+        1622,
+        51814
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.1681165390826286,
+      "compression_ratio": 1.1478260869565218,
+      "no_speech_prob": 0.009848756715655327,
+      "confidence": 0.653,
+      "words": [
+        {
+          "text": "When",
+          "start": 131.51,
+          "end": 131.91,
+          "confidence": 0.291
+        },
+        {
+          "text": "you're",
+          "start": 131.91,
+          "end": 132.61,
+          "confidence": 0.913
+        },
+        {
+          "text": "late",
+          "start": 132.61,
+          "end": 132.89,
+          "confidence": 0.877
+        },
+        {
+          "text": "with",
+          "start": 132.89,
+          "end": 133.47,
+          "confidence": 0.945
+        },
+        {
+          "text": "a",
+          "start": 133.47,
+          "end": 134.05,
+          "confidence": 0.698
+        },
+        {
+          "text": "line",
+          "start": 134.05,
+          "end": 135.33,
+          "confidence": 0.362
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "seek": 8500,
+      "start": 178.77,
+      "end": 180.15,
+      "text": " Pick me up.",
+      "tokens": [
+        50414,
+        14129,
+        385,
+        493,
+        13,
+        50514
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.21811503522536335,
+      "compression_ratio": 1.0,
+      "no_speech_prob": 0.05628674477338791,
+      "confidence": 0.579,
+      "words": [
+        {
+          "text": "Pick",
+          "start": 178.77,
+          "end": 178.99,
+          "confidence": 0.576
+        },
+        {
+          "text": "me",
+          "start": 178.99,
+          "end": 179.23,
+          "confidence": 0.952
+        },
+        {
+          "text": "up.",
+          "start": 179.23,
+          "end": 180.15,
+          "confidence": 0.452
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "seek": 8500,
+      "start": 184.66,
+      "end": 185.5,
+      "text": " Tonight.",
+      "tokens": [
+        50514,
+        18702,
+        13,
+        50614
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.21811503522536335,
+      "compression_ratio": 1.0,
+      "no_speech_prob": 0.05628674477338791,
+      "confidence": 0.104,
+      "words": [
+        {
+          "text": "Tonight.",
+          "start": 184.66,
+          "end": 185.5,
+          "confidence": 0.104
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "seek": 8500,
+      "start": 190.73,
+      "end": 191.63,
+      "text": " Pick me up.",
+      "tokens": [
+        50714,
+        14129,
+        385,
+        493,
+        13,
+        50814
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.21811503522536335,
+      "compression_ratio": 1.0,
+      "no_speech_prob": 0.05628674477338791,
+      "confidence": 0.699,
+      "words": [
+        {
+          "text": "Pick",
+          "start": 190.73,
+          "end": 190.99,
+          "confidence": 0.62
+        },
+        {
+          "text": "me",
+          "start": 190.99,
+          "end": 191.23,
+          "confidence": 0.978
+        },
+        {
+          "text": "up.",
+          "start": 191.23,
+          "end": 191.63,
+          "confidence": 0.628
+        }
+      ]
+    }
+  ],
+  "language": "en"
+}

@@ -1,0 +1,2063 @@
+{
+  "text": " And I'm proving me involved Monday morning 5am, up before the birds, or at least so I'd hoped Time to get ahead, beat the rest and get on top And I'm proving me involved Now the day is rising, but behind grey clouds When will I see the blue, yellow sun and happy days? All on open road, flying through green farmland, twisting through country lanes There's nothing quite like the freedom I feel All on open road, flying through green farmland, twisting through country lanes There's nothing quite like the freedom I feel And I'm proving me involved Now I'm stuck in traffic, with no end in sight How can I get ahead, beat the rest and get on top? And I'm proving me involved Now the day is rising, but behind grey clouds When will I see the blue, yellow sun and happy days? All on open road, flying through green farmland, twisting through country lanes There's nothing quite like the freedom I feel All on open road, flying through green farmland, twisting through country lanes There's nothing quite like the freedom I feel All on open road, flying through green farmland, twisting through country lanes There's nothing quite like the freedom I feel All on open road, flying through green farmland, twisting through country lanes There's nothing quite like the freedom I feel",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 7.49,
+      "end": 13.7,
+      "text": " And I'm proving me involved",
+      "tokens": [
+        50364,
+        400,
+        286,
+        478,
+        27221,
+        385,
+        3288,
+        50714
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.2706468715224155,
+      "compression_ratio": 1.236842105263158,
+      "no_speech_prob": 0.263148695230484,
+      "confidence": 0.351,
+      "words": [
+        {
+          "text": "And",
+          "start": 7.49,
+          "end": 7.81,
+          "confidence": 0.163
+        },
+        {
+          "text": "I'm",
+          "start": 7.81,
+          "end": 9.27,
+          "confidence": 0.944
+        },
+        {
+          "text": "proving",
+          "start": 9.71,
+          "end": 10.68,
+          "confidence": 0.836
+        },
+        {
+          "text": "me",
+          "start": 10.68,
+          "end": 12.18,
+          "confidence": 0.587
+        },
+        {
+          "text": "involved",
+          "start": 12.18,
+          "end": 13.7,
+          "confidence": 0.026
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 16.3,
+      "end": 22.46,
+      "text": " Monday morning 5am, up before the birds, or at least so I'd hoped",
+      "tokens": [
+        50714,
+        8138,
+        2446,
+        1025,
+        335,
+        11,
+        493,
+        949,
+        264,
+        9009,
+        11,
+        420,
+        412,
+        1935,
+        370,
+        286,
+        1116,
+        19737,
+        51064
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.2706468715224155,
+      "compression_ratio": 1.236842105263158,
+      "no_speech_prob": 0.263148695230484,
+      "confidence": 0.797,
+      "words": [
+        {
+          "text": "Monday",
+          "start": 16.3,
+          "end": 16.72,
+          "confidence": 0.846
+        },
+        {
+          "text": "morning",
+          "start": 16.72,
+          "end": 17.18,
+          "confidence": 0.917
+        },
+        {
+          "text": "5am,",
+          "start": 17.18,
+          "end": 18.36,
+          "confidence": 0.502
+        },
+        {
+          "text": "up",
+          "start": 19.1,
+          "end": 19.28,
+          "confidence": 0.817
+        },
+        {
+          "text": "before",
+          "start": 19.28,
+          "end": 19.64,
+          "confidence": 0.982
+        },
+        {
+          "text": "the",
+          "start": 19.64,
+          "end": 19.92,
+          "confidence": 0.992
+        },
+        {
+          "text": "birds,",
+          "start": 19.92,
+          "end": 20.38,
+          "confidence": 0.646
+        },
+        {
+          "text": "or",
+          "start": 20.7,
+          "end": 20.88,
+          "confidence": 0.862
+        },
+        {
+          "text": "at",
+          "start": 20.88,
+          "end": 20.98,
+          "confidence": 0.984
+        },
+        {
+          "text": "least",
+          "start": 20.98,
+          "end": 21.24,
+          "confidence": 0.984
+        },
+        {
+          "text": "so",
+          "start": 21.24,
+          "end": 21.62,
+          "confidence": 0.923
+        },
+        {
+          "text": "I'd",
+          "start": 21.62,
+          "end": 22.02,
+          "confidence": 0.921
+        },
+        {
+          "text": "hoped",
+          "start": 22.02,
+          "end": 22.46,
+          "confidence": 0.978
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 24.36,
+      "end": 27.96,
+      "text": " Time to get ahead, beat the rest and get on top",
+      "tokens": [
+        51064,
+        6161,
+        281,
+        483,
+        2286,
+        11,
+        4224,
+        264,
+        1472,
+        293,
+        483,
+        322,
+        1192,
+        51314
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.2706468715224155,
+      "compression_ratio": 1.236842105263158,
+      "no_speech_prob": 0.263148695230484,
+      "confidence": 0.843,
+      "words": [
+        {
+          "text": "Time",
+          "start": 24.36,
+          "end": 24.68,
+          "confidence": 0.549
+        },
+        {
+          "text": "to",
+          "start": 24.68,
+          "end": 25.06,
+          "confidence": 0.996
+        },
+        {
+          "text": "get",
+          "start": 25.06,
+          "end": 25.3,
+          "confidence": 0.981
+        },
+        {
+          "text": "ahead,",
+          "start": 25.3,
+          "end": 25.94,
+          "confidence": 0.805
+        },
+        {
+          "text": "beat",
+          "start": 26.16,
+          "end": 26.28,
+          "confidence": 0.908
+        },
+        {
+          "text": "the",
+          "start": 26.28,
+          "end": 26.52,
+          "confidence": 0.99
+        },
+        {
+          "text": "rest",
+          "start": 26.52,
+          "end": 26.76,
+          "confidence": 0.6
+        },
+        {
+          "text": "and",
+          "start": 26.76,
+          "end": 27.0,
+          "confidence": 0.767
+        },
+        {
+          "text": "get",
+          "start": 27.0,
+          "end": 27.24,
+          "confidence": 0.98
+        },
+        {
+          "text": "on",
+          "start": 27.24,
+          "end": 27.48,
+          "confidence": 0.984
+        },
+        {
+          "text": "top",
+          "start": 27.48,
+          "end": 27.96,
+          "confidence": 0.923
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "seek": 1900,
+      "start": 32.53,
+      "end": 45.37,
+      "text": " And I'm proving me involved",
+      "tokens": [
+        50364,
+        400,
+        286,
+        478,
+        27221,
+        385,
+        3288,
+        50914
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.15345905922554634,
+      "compression_ratio": 1.1666666666666667,
+      "no_speech_prob": 0.05172190070152283,
+      "confidence": 0.367,
+      "words": [
+        {
+          "text": "And",
+          "start": 32.53,
+          "end": 34.26,
+          "confidence": 0.078
+        },
+        {
+          "text": "I'm",
+          "start": 39.65,
+          "end": 41.29,
+          "confidence": 0.919
+        },
+        {
+          "text": "proving",
+          "start": 41.29,
+          "end": 42.67,
+          "confidence": 0.539
+        },
+        {
+          "text": "me",
+          "start": 42.67,
+          "end": 44.21,
+          "confidence": 0.561
+        },
+        {
+          "text": "involved",
+          "start": 44.21,
+          "end": 45.37,
+          "confidence": 0.122
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "seek": 1900,
+      "start": 64.22,
+      "end": 69.2,
+      "text": " Now the day is rising, but behind grey clouds",
+      "tokens": [
+        50914,
+        823,
+        264,
+        786,
+        307,
+        11636,
+        11,
+        457,
+        2261,
+        16578,
+        12193,
+        51214
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.15345905922554634,
+      "compression_ratio": 1.1666666666666667,
+      "no_speech_prob": 0.05172190070152283,
+      "confidence": 0.825,
+      "words": [
+        {
+          "text": "Now",
+          "start": 64.22,
+          "end": 64.56,
+          "confidence": 0.632
+        },
+        {
+          "text": "the",
+          "start": 64.56,
+          "end": 65.06,
+          "confidence": 0.951
+        },
+        {
+          "text": "day",
+          "start": 65.06,
+          "end": 65.28,
+          "confidence": 0.987
+        },
+        {
+          "text": "is",
+          "start": 65.28,
+          "end": 65.54,
+          "confidence": 0.992
+        },
+        {
+          "text": "rising,",
+          "start": 65.54,
+          "end": 66.22,
+          "confidence": 0.627
+        },
+        {
+          "text": "but",
+          "start": 66.68,
+          "end": 66.9,
+          "confidence": 0.913
+        },
+        {
+          "text": "behind",
+          "start": 66.9,
+          "end": 67.58,
+          "confidence": 0.981
+        },
+        {
+          "text": "grey",
+          "start": 67.58,
+          "end": 68.06,
+          "confidence": 0.705
+        },
+        {
+          "text": "clouds",
+          "start": 68.06,
+          "end": 69.2,
+          "confidence": 0.995
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "seek": 1900,
+      "start": 72.25,
+      "end": 77.51,
+      "text": " When will I see the blue, yellow sun and happy days?",
+      "tokens": [
+        51214,
+        1133,
+        486,
+        286,
+        536,
+        264,
+        3344,
+        11,
+        5566,
+        3295,
+        293,
+        2055,
+        1708,
+        30,
+        51664
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.15345905922554634,
+      "compression_ratio": 1.1666666666666667,
+      "no_speech_prob": 0.05172190070152283,
+      "confidence": 0.874,
+      "words": [
+        {
+          "text": "When",
+          "start": 72.25,
+          "end": 72.49,
+          "confidence": 0.715
+        },
+        {
+          "text": "will",
+          "start": 72.49,
+          "end": 72.77,
+          "confidence": 0.984
+        },
+        {
+          "text": "I",
+          "start": 72.77,
+          "end": 72.99,
+          "confidence": 0.971
+        },
+        {
+          "text": "see",
+          "start": 72.99,
+          "end": 73.27,
+          "confidence": 0.996
+        },
+        {
+          "text": "the",
+          "start": 73.27,
+          "end": 73.49,
+          "confidence": 0.983
+        },
+        {
+          "text": "blue,",
+          "start": 73.49,
+          "end": 73.91,
+          "confidence": 0.838
+        },
+        {
+          "text": "yellow",
+          "start": 73.99,
+          "end": 74.35,
+          "confidence": 0.976
+        },
+        {
+          "text": "sun",
+          "start": 74.35,
+          "end": 74.81,
+          "confidence": 0.953
+        },
+        {
+          "text": "and",
+          "start": 74.81,
+          "end": 75.09,
+          "confidence": 0.732
+        },
+        {
+          "text": "happy",
+          "start": 75.09,
+          "end": 75.41,
+          "confidence": 0.908
+        },
+        {
+          "text": "days?",
+          "start": 75.41,
+          "end": 77.51,
+          "confidence": 0.773
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "seek": 4500,
+      "start": 90.87,
+      "end": 103.43,
+      "text": " All on open road, flying through green farmland, twisting through country lanes",
+      "tokens": [
+        50364,
+        1057,
+        322,
+        1269,
+        3060,
+        11,
+        7137,
+        807,
+        3092,
+        5421,
+        1661,
+        11,
+        34491,
+        807,
+        1941,
+        25397,
+        50764
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.08013148003436149,
+      "compression_ratio": 1.8981481481481481,
+      "no_speech_prob": 0.055337149649858475,
+      "confidence": 0.623,
+      "words": [
+        {
+          "text": "All",
+          "start": 90.87,
+          "end": 91.76,
+          "confidence": 0.026
+        },
+        {
+          "text": "on",
+          "start": 96.55,
+          "end": 97.01,
+          "confidence": 0.975
+        },
+        {
+          "text": "open",
+          "start": 97.01,
+          "end": 97.43,
+          "confidence": 0.873
+        },
+        {
+          "text": "road,",
+          "start": 97.43,
+          "end": 98.07,
+          "confidence": 0.698
+        },
+        {
+          "text": "flying",
+          "start": 98.57,
+          "end": 98.75,
+          "confidence": 0.771
+        },
+        {
+          "text": "through",
+          "start": 98.75,
+          "end": 99.03,
+          "confidence": 0.958
+        },
+        {
+          "text": "green",
+          "start": 99.03,
+          "end": 99.39,
+          "confidence": 0.737
+        },
+        {
+          "text": "farmland,",
+          "start": 99.39,
+          "end": 100.17,
+          "confidence": 0.633
+        },
+        {
+          "text": "twisting",
+          "start": 100.43,
+          "end": 100.79,
+          "confidence": 0.649
+        },
+        {
+          "text": "through",
+          "start": 100.79,
+          "end": 101.09,
+          "confidence": 0.971
+        },
+        {
+          "text": "country",
+          "start": 101.09,
+          "end": 101.55,
+          "confidence": 0.968
+        },
+        {
+          "text": "lanes",
+          "start": 101.55,
+          "end": 103.43,
+          "confidence": 0.895
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "seek": 4500,
+      "start": 103.43,
+      "end": 111.23,
+      "text": " There's nothing quite like the freedom I feel",
+      "tokens": [
+        50764,
+        821,
+        311,
+        1825,
+        1596,
+        411,
+        264,
+        5645,
+        286,
+        841,
+        51164
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.08013148003436149,
+      "compression_ratio": 1.8981481481481481,
+      "no_speech_prob": 0.055337149649858475,
+      "confidence": 0.915,
+      "words": [
+        {
+          "text": "There's",
+          "start": 103.43,
+          "end": 104.15,
+          "confidence": 0.74
+        },
+        {
+          "text": "nothing",
+          "start": 104.15,
+          "end": 105.95,
+          "confidence": 0.961
+        },
+        {
+          "text": "quite",
+          "start": 105.95,
+          "end": 106.85,
+          "confidence": 0.94
+        },
+        {
+          "text": "like",
+          "start": 106.85,
+          "end": 107.67,
+          "confidence": 0.984
+        },
+        {
+          "text": "the",
+          "start": 107.67,
+          "end": 108.21,
+          "confidence": 0.972
+        },
+        {
+          "text": "freedom",
+          "start": 108.21,
+          "end": 109.39,
+          "confidence": 0.988
+        },
+        {
+          "text": "I",
+          "start": 109.39,
+          "end": 110.07,
+          "confidence": 0.965
+        },
+        {
+          "text": "feel",
+          "start": 110.07,
+          "end": 111.23,
+          "confidence": 0.996
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "seek": 4500,
+      "start": 112.29,
+      "end": 119.39,
+      "text": " All on open road, flying through green farmland, twisting through country lanes",
+      "tokens": [
+        51164,
+        1057,
+        322,
+        1269,
+        3060,
+        11,
+        7137,
+        807,
+        3092,
+        5421,
+        1661,
+        11,
+        34491,
+        807,
+        1941,
+        25397,
+        51564
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.08013148003436149,
+      "compression_ratio": 1.8981481481481481,
+      "no_speech_prob": 0.055337149649858475,
+      "confidence": 0.665,
+      "words": [
+        {
+          "text": "All",
+          "start": 112.29,
+          "end": 112.69,
+          "confidence": 0.058
+        },
+        {
+          "text": "on",
+          "start": 112.69,
+          "end": 112.97,
+          "confidence": 0.927
+        },
+        {
+          "text": "open",
+          "start": 112.97,
+          "end": 113.43,
+          "confidence": 0.752
+        },
+        {
+          "text": "road,",
+          "start": 113.43,
+          "end": 114.09,
+          "confidence": 0.79
+        },
+        {
+          "text": "flying",
+          "start": 114.57,
+          "end": 114.73,
+          "confidence": 0.764
+        },
+        {
+          "text": "through",
+          "start": 114.73,
+          "end": 115.03,
+          "confidence": 0.955
+        },
+        {
+          "text": "green",
+          "start": 115.03,
+          "end": 115.35,
+          "confidence": 0.615
+        },
+        {
+          "text": "farmland,",
+          "start": 115.35,
+          "end": 116.15,
+          "confidence": 0.664
+        },
+        {
+          "text": "twisting",
+          "start": 116.45,
+          "end": 116.79,
+          "confidence": 0.734
+        },
+        {
+          "text": "through",
+          "start": 116.79,
+          "end": 117.09,
+          "confidence": 0.978
+        },
+        {
+          "text": "country",
+          "start": 117.09,
+          "end": 117.51,
+          "confidence": 0.97
+        },
+        {
+          "text": "lanes",
+          "start": 117.51,
+          "end": 119.39,
+          "confidence": 0.954
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "seek": 6900,
+      "start": 119.39,
+      "end": 127.63,
+      "text": " There's nothing quite like the freedom I feel",
+      "tokens": [
+        50364,
+        821,
+        311,
+        1825,
+        1596,
+        411,
+        264,
+        5645,
+        286,
+        841,
+        50764
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.06437186166351917,
+      "compression_ratio": 1.2954545454545454,
+      "no_speech_prob": 0.12819908559322357,
+      "confidence": 0.924,
+      "words": [
+        {
+          "text": "There's",
+          "start": 119.39,
+          "end": 120.33,
+          "confidence": 0.782
+        },
+        {
+          "text": "nothing",
+          "start": 120.33,
+          "end": 121.97,
+          "confidence": 0.966
+        },
+        {
+          "text": "quite",
+          "start": 121.97,
+          "end": 122.85,
+          "confidence": 0.951
+        },
+        {
+          "text": "like",
+          "start": 122.85,
+          "end": 123.67,
+          "confidence": 0.974
+        },
+        {
+          "text": "the",
+          "start": 123.67,
+          "end": 124.19,
+          "confidence": 0.954
+        },
+        {
+          "text": "freedom",
+          "start": 124.19,
+          "end": 125.39,
+          "confidence": 0.974
+        },
+        {
+          "text": "I",
+          "start": 125.39,
+          "end": 126.17,
+          "confidence": 0.97
+        },
+        {
+          "text": "feel",
+          "start": 126.17,
+          "end": 127.63,
+          "confidence": 0.994
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "seek": 6900,
+      "start": 135.51,
+      "end": 140.98,
+      "text": " And I'm proving me involved",
+      "tokens": [
+        50764,
+        400,
+        286,
+        478,
+        27221,
+        385,
+        3288,
+        51064
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.06437186166351917,
+      "compression_ratio": 1.2954545454545454,
+      "no_speech_prob": 0.12819908559322357,
+      "confidence": 0.268,
+      "words": [
+        {
+          "text": "And",
+          "start": 135.51,
+          "end": 135.85,
+          "confidence": 0.185
+        },
+        {
+          "text": "I'm",
+          "start": 135.85,
+          "end": 137.14,
+          "confidence": 0.878
+        },
+        {
+          "text": "proving",
+          "start": 137.96,
+          "end": 138.92,
+          "confidence": 0.412
+        },
+        {
+          "text": "me",
+          "start": 138.92,
+          "end": 140.14,
+          "confidence": 0.607
+        },
+        {
+          "text": "involved",
+          "start": 140.14,
+          "end": 140.98,
+          "confidence": 0.01
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "seek": 6900,
+      "start": 143.82,
+      "end": 149.14,
+      "text": " Now I'm stuck in traffic, with no end in sight",
+      "tokens": [
+        51064,
+        823,
+        286,
+        478,
+        5541,
+        294,
+        6419,
+        11,
+        365,
+        572,
+        917,
+        294,
+        7860,
+        51364
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.06437186166351917,
+      "compression_ratio": 1.2954545454545454,
+      "no_speech_prob": 0.12819908559322357,
+      "confidence": 0.777,
+      "words": [
+        {
+          "text": "Now",
+          "start": 143.82,
+          "end": 144.54,
+          "confidence": 0.469
+        },
+        {
+          "text": "I'm",
+          "start": 144.54,
+          "end": 144.94,
+          "confidence": 0.923
+        },
+        {
+          "text": "stuck",
+          "start": 144.94,
+          "end": 145.26,
+          "confidence": 0.994
+        },
+        {
+          "text": "in",
+          "start": 145.26,
+          "end": 145.44,
+          "confidence": 0.991
+        },
+        {
+          "text": "traffic,",
+          "start": 145.44,
+          "end": 146.16,
+          "confidence": 0.371
+        },
+        {
+          "text": "with",
+          "start": 146.4,
+          "end": 146.84,
+          "confidence": 0.919
+        },
+        {
+          "text": "no",
+          "start": 146.84,
+          "end": 147.28,
+          "confidence": 0.994
+        },
+        {
+          "text": "end",
+          "start": 147.28,
+          "end": 147.72,
+          "confidence": 0.987
+        },
+        {
+          "text": "in",
+          "start": 147.72,
+          "end": 148.2,
+          "confidence": 0.989
+        },
+        {
+          "text": "sight",
+          "start": 148.2,
+          "end": 149.14,
+          "confidence": 0.998
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "seek": 6900,
+      "start": 152.17,
+      "end": 156.37,
+      "text": " How can I get ahead, beat the rest and get on top?",
+      "tokens": [
+        51364,
+        1012,
+        393,
+        286,
+        483,
+        2286,
+        11,
+        4224,
+        264,
+        1472,
+        293,
+        483,
+        322,
+        1192,
+        30,
+        51614
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.06437186166351917,
+      "compression_ratio": 1.2954545454545454,
+      "no_speech_prob": 0.12819908559322357,
+      "confidence": 0.851,
+      "words": [
+        {
+          "text": "How",
+          "start": 152.17,
+          "end": 152.49,
+          "confidence": 0.537
+        },
+        {
+          "text": "can",
+          "start": 152.49,
+          "end": 152.81,
+          "confidence": 0.985
+        },
+        {
+          "text": "I",
+          "start": 152.81,
+          "end": 153.05,
+          "confidence": 0.958
+        },
+        {
+          "text": "get",
+          "start": 153.05,
+          "end": 153.25,
+          "confidence": 0.984
+        },
+        {
+          "text": "ahead,",
+          "start": 153.25,
+          "end": 153.85,
+          "confidence": 0.796
+        },
+        {
+          "text": "beat",
+          "start": 154.11,
+          "end": 154.21,
+          "confidence": 0.947
+        },
+        {
+          "text": "the",
+          "start": 154.21,
+          "end": 154.43,
+          "confidence": 0.991
+        },
+        {
+          "text": "rest",
+          "start": 154.43,
+          "end": 154.71,
+          "confidence": 0.954
+        },
+        {
+          "text": "and",
+          "start": 154.71,
+          "end": 155.07,
+          "confidence": 0.617
+        },
+        {
+          "text": "get",
+          "start": 155.07,
+          "end": 155.29,
+          "confidence": 0.984
+        },
+        {
+          "text": "on",
+          "start": 155.29,
+          "end": 155.59,
+          "confidence": 0.961
+        },
+        {
+          "text": "top?",
+          "start": 155.59,
+          "end": 156.37,
+          "confidence": 0.795
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "seek": 9400,
+      "start": 166.48,
+      "end": 173.53,
+      "text": " And I'm proving me involved",
+      "tokens": [
+        50364,
+        400,
+        286,
+        478,
+        27221,
+        385,
+        3288,
+        50964
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.056821011208199164,
+      "compression_ratio": 1.1666666666666667,
+      "no_speech_prob": 0.024807019159197807,
+      "confidence": 0.389,
+      "words": [
+        {
+          "text": "And",
+          "start": 166.48,
+          "end": 167.73,
+          "confidence": 0.126
+        },
+        {
+          "text": "I'm",
+          "start": 167.73,
+          "end": 169.23,
+          "confidence": 0.92
+        },
+        {
+          "text": "proving",
+          "start": 169.23,
+          "end": 170.45,
+          "confidence": 0.807
+        },
+        {
+          "text": "me",
+          "start": 170.45,
+          "end": 172.19,
+          "confidence": 0.57
+        },
+        {
+          "text": "involved",
+          "start": 172.19,
+          "end": 173.53,
+          "confidence": 0.071
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "seek": 9400,
+      "start": 192.23,
+      "end": 197.21,
+      "text": " Now the day is rising, but behind grey clouds",
+      "tokens": [
+        50964,
+        823,
+        264,
+        786,
+        307,
+        11636,
+        11,
+        457,
+        2261,
+        16578,
+        12193,
+        51264
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.056821011208199164,
+      "compression_ratio": 1.1666666666666667,
+      "no_speech_prob": 0.024807019159197807,
+      "confidence": 0.767,
+      "words": [
+        {
+          "text": "Now",
+          "start": 192.23,
+          "end": 192.47,
+          "confidence": 0.371
+        },
+        {
+          "text": "the",
+          "start": 192.47,
+          "end": 193.07,
+          "confidence": 0.943
+        },
+        {
+          "text": "day",
+          "start": 193.07,
+          "end": 193.29,
+          "confidence": 0.987
+        },
+        {
+          "text": "is",
+          "start": 193.29,
+          "end": 193.55,
+          "confidence": 0.994
+        },
+        {
+          "text": "rising,",
+          "start": 193.55,
+          "end": 194.23,
+          "confidence": 0.591
+        },
+        {
+          "text": "but",
+          "start": 194.65,
+          "end": 194.91,
+          "confidence": 0.876
+        },
+        {
+          "text": "behind",
+          "start": 194.91,
+          "end": 195.57,
+          "confidence": 0.987
+        },
+        {
+          "text": "grey",
+          "start": 195.57,
+          "end": 196.11,
+          "confidence": 0.685
+        },
+        {
+          "text": "clouds",
+          "start": 196.11,
+          "end": 197.21,
+          "confidence": 0.996
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "seek": 9400,
+      "start": 200.26,
+      "end": 205.5,
+      "text": " When will I see the blue, yellow sun and happy days?",
+      "tokens": [
+        51264,
+        1133,
+        486,
+        286,
+        536,
+        264,
+        3344,
+        11,
+        5566,
+        3295,
+        293,
+        2055,
+        1708,
+        30,
+        51664
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.056821011208199164,
+      "compression_ratio": 1.1666666666666667,
+      "no_speech_prob": 0.024807019159197807,
+      "confidence": 0.864,
+      "words": [
+        {
+          "text": "When",
+          "start": 200.26,
+          "end": 200.52,
+          "confidence": 0.685
+        },
+        {
+          "text": "will",
+          "start": 200.52,
+          "end": 200.8,
+          "confidence": 0.984
+        },
+        {
+          "text": "I",
+          "start": 200.8,
+          "end": 201.02,
+          "confidence": 0.972
+        },
+        {
+          "text": "see",
+          "start": 201.02,
+          "end": 201.26,
+          "confidence": 0.995
+        },
+        {
+          "text": "the",
+          "start": 201.26,
+          "end": 201.48,
+          "confidence": 0.985
+        },
+        {
+          "text": "blue,",
+          "start": 201.48,
+          "end": 201.9,
+          "confidence": 0.825
+        },
+        {
+          "text": "yellow",
+          "start": 201.98,
+          "end": 202.36,
+          "confidence": 0.977
+        },
+        {
+          "text": "sun",
+          "start": 202.36,
+          "end": 202.8,
+          "confidence": 0.941
+        },
+        {
+          "text": "and",
+          "start": 202.8,
+          "end": 203.1,
+          "confidence": 0.725
+        },
+        {
+          "text": "happy",
+          "start": 203.1,
+          "end": 203.44,
+          "confidence": 0.895
+        },
+        {
+          "text": "days?",
+          "start": 203.44,
+          "end": 205.5,
+          "confidence": 0.756
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "seek": 12000,
+      "start": 224.53,
+      "end": 231.37,
+      "text": " All on open road, flying through green farmland, twisting through country lanes",
+      "tokens": [
+        50364,
+        1057,
+        322,
+        1269,
+        3060,
+        11,
+        7137,
+        807,
+        3092,
+        5421,
+        1661,
+        11,
+        34491,
+        807,
+        1941,
+        25397,
+        50764
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.034284951839041206,
+      "compression_ratio": 1.8981481481481481,
+      "no_speech_prob": 0.12778937816619873,
+      "confidence": 0.582,
+      "words": [
+        {
+          "text": "All",
+          "start": 224.53,
+          "end": 224.55,
+          "confidence": 0.007
+        },
+        {
+          "text": "on",
+          "start": 224.55,
+          "end": 225.03,
+          "confidence": 0.956
+        },
+        {
+          "text": "open",
+          "start": 225.03,
+          "end": 225.37,
+          "confidence": 0.845
+        },
+        {
+          "text": "road,",
+          "start": 225.37,
+          "end": 226.09,
+          "confidence": 0.538
+        },
+        {
+          "text": "flying",
+          "start": 226.39,
+          "end": 226.71,
+          "confidence": 0.784
+        },
+        {
+          "text": "through",
+          "start": 226.71,
+          "end": 227.03,
+          "confidence": 0.954
+        },
+        {
+          "text": "green",
+          "start": 227.03,
+          "end": 227.37,
+          "confidence": 0.852
+        },
+        {
+          "text": "farmland,",
+          "start": 227.37,
+          "end": 228.19,
+          "confidence": 0.777
+        },
+        {
+          "text": "twisting",
+          "start": 228.43,
+          "end": 228.79,
+          "confidence": 0.698
+        },
+        {
+          "text": "through",
+          "start": 228.79,
+          "end": 229.09,
+          "confidence": 0.977
+        },
+        {
+          "text": "country",
+          "start": 229.09,
+          "end": 229.59,
+          "confidence": 0.961
+        },
+        {
+          "text": "lanes",
+          "start": 229.59,
+          "end": 231.37,
+          "confidence": 0.969
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "seek": 12000,
+      "start": 231.47,
+      "end": 239.13,
+      "text": " There's nothing quite like the freedom I feel",
+      "tokens": [
+        50764,
+        821,
+        311,
+        1825,
+        1596,
+        411,
+        264,
+        5645,
+        286,
+        841,
+        51164
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.034284951839041206,
+      "compression_ratio": 1.8981481481481481,
+      "no_speech_prob": 0.12778937816619873,
+      "confidence": 0.926,
+      "words": [
+        {
+          "text": "There's",
+          "start": 231.47,
+          "end": 232.29,
+          "confidence": 0.784
+        },
+        {
+          "text": "nothing",
+          "start": 232.29,
+          "end": 233.89,
+          "confidence": 0.965
+        },
+        {
+          "text": "quite",
+          "start": 233.89,
+          "end": 234.79,
+          "confidence": 0.953
+        },
+        {
+          "text": "like",
+          "start": 234.79,
+          "end": 235.69,
+          "confidence": 0.948
+        },
+        {
+          "text": "the",
+          "start": 235.69,
+          "end": 236.19,
+          "confidence": 0.976
+        },
+        {
+          "text": "freedom",
+          "start": 236.19,
+          "end": 237.39,
+          "confidence": 0.984
+        },
+        {
+          "text": "I",
+          "start": 237.39,
+          "end": 238.23,
+          "confidence": 0.973
+        },
+        {
+          "text": "feel",
+          "start": 238.23,
+          "end": 239.13,
+          "confidence": 0.997
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "seek": 12000,
+      "start": 239.13,
+      "end": 247.37,
+      "text": " All on open road, flying through green farmland, twisting through country lanes",
+      "tokens": [
+        51164,
+        1057,
+        322,
+        1269,
+        3060,
+        11,
+        7137,
+        807,
+        3092,
+        5421,
+        1661,
+        11,
+        34491,
+        807,
+        1941,
+        25397,
+        51564
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.034284951839041206,
+      "compression_ratio": 1.8981481481481481,
+      "no_speech_prob": 0.12778937816619873,
+      "confidence": 0.466,
+      "words": [
+        {
+          "text": "All",
+          "start": 239.13,
+          "end": 240.69,
+          "confidence": 0.011
+        },
+        {
+          "text": "on",
+          "start": 240.69,
+          "end": 240.97,
+          "confidence": 0.824
+        },
+        {
+          "text": "open",
+          "start": 240.97,
+          "end": 241.43,
+          "confidence": 0.818
+        },
+        {
+          "text": "road,",
+          "start": 241.43,
+          "end": 242.09,
+          "confidence": 0.738
+        },
+        {
+          "text": "flying",
+          "start": 242.57,
+          "end": 242.73,
+          "confidence": 0.732
+        },
+        {
+          "text": "through",
+          "start": 242.73,
+          "end": 243.03,
+          "confidence": 0.959
+        },
+        {
+          "text": "green",
+          "start": 243.03,
+          "end": 243.37,
+          "confidence": 0.813
+        },
+        {
+          "text": "farmland,",
+          "start": 243.37,
+          "end": 244.11,
+          "confidence": 0.194
+        },
+        {
+          "text": "twisting",
+          "start": 244.49,
+          "end": 244.79,
+          "confidence": 0.698
+        },
+        {
+          "text": "through",
+          "start": 244.79,
+          "end": 245.09,
+          "confidence": 0.969
+        },
+        {
+          "text": "country",
+          "start": 245.09,
+          "end": 245.49,
+          "confidence": 0.962
+        },
+        {
+          "text": "lanes",
+          "start": 245.49,
+          "end": 247.37,
+          "confidence": 0.963
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "seek": 14400,
+      "start": 247.37,
+      "end": 255.61,
+      "text": " There's nothing quite like the freedom I feel",
+      "tokens": [
+        50364,
+        821,
+        311,
+        1825,
+        1596,
+        411,
+        264,
+        5645,
+        286,
+        841,
+        50764
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.022821954110773597,
+      "compression_ratio": 1.5981308411214954,
+      "no_speech_prob": 0.7558228969573975,
+      "confidence": 0.916,
+      "words": [
+        {
+          "text": "There's",
+          "start": 247.37,
+          "end": 248.11,
+          "confidence": 0.746
+        },
+        {
+          "text": "nothing",
+          "start": 248.11,
+          "end": 249.91,
+          "confidence": 0.971
+        },
+        {
+          "text": "quite",
+          "start": 249.91,
+          "end": 250.95,
+          "confidence": 0.95
+        },
+        {
+          "text": "like",
+          "start": 250.95,
+          "end": 251.69,
+          "confidence": 0.976
+        },
+        {
+          "text": "the",
+          "start": 251.69,
+          "end": 252.15,
+          "confidence": 0.973
+        },
+        {
+          "text": "freedom",
+          "start": 252.15,
+          "end": 253.39,
+          "confidence": 0.978
+        },
+        {
+          "text": "I",
+          "start": 253.39,
+          "end": 254.15,
+          "confidence": 0.973
+        },
+        {
+          "text": "feel",
+          "start": 254.15,
+          "end": 255.61,
+          "confidence": 0.983
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "seek": 14400,
+      "start": 256.29,
+      "end": 263.39,
+      "text": " All on open road, flying through green farmland, twisting through country lanes",
+      "tokens": [
+        50764,
+        1057,
+        322,
+        1269,
+        3060,
+        11,
+        7137,
+        807,
+        3092,
+        5421,
+        1661,
+        11,
+        34491,
+        807,
+        1941,
+        25397,
+        51164
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.022821954110773597,
+      "compression_ratio": 1.5981308411214954,
+      "no_speech_prob": 0.7558228969573975,
+      "confidence": 0.634,
+      "words": [
+        {
+          "text": "All",
+          "start": 256.29,
+          "end": 256.71,
+          "confidence": 0.039
+        },
+        {
+          "text": "on",
+          "start": 256.71,
+          "end": 257.01,
+          "confidence": 0.916
+        },
+        {
+          "text": "open",
+          "start": 257.01,
+          "end": 257.35,
+          "confidence": 0.803
+        },
+        {
+          "text": "road,",
+          "start": 257.35,
+          "end": 258.07,
+          "confidence": 0.812
+        },
+        {
+          "text": "flying",
+          "start": 258.53,
+          "end": 258.73,
+          "confidence": 0.639
+        },
+        {
+          "text": "through",
+          "start": 258.73,
+          "end": 259.05,
+          "confidence": 0.959
+        },
+        {
+          "text": "green",
+          "start": 259.05,
+          "end": 259.37,
+          "confidence": 0.816
+        },
+        {
+          "text": "farmland,",
+          "start": 259.37,
+          "end": 260.17,
+          "confidence": 0.569
+        },
+        {
+          "text": "twisting",
+          "start": 260.43,
+          "end": 260.79,
+          "confidence": 0.686
+        },
+        {
+          "text": "through",
+          "start": 260.79,
+          "end": 261.11,
+          "confidence": 0.984
+        },
+        {
+          "text": "country",
+          "start": 261.11,
+          "end": 261.51,
+          "confidence": 0.98
+        },
+        {
+          "text": "lanes",
+          "start": 261.51,
+          "end": 263.39,
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "seek": 14400,
+      "start": 263.39,
+      "end": 271.27,
+      "text": " There's nothing quite like the freedom I feel",
+      "tokens": [
+        51164,
+        821,
+        311,
+        1825,
+        1596,
+        411,
+        264,
+        5645,
+        286,
+        841,
+        51564
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.022821954110773597,
+      "compression_ratio": 1.5981308411214954,
+      "no_speech_prob": 0.7558228969573975,
+      "confidence": 0.879,
+      "words": [
+        {
+          "text": "There's",
+          "start": 263.39,
+          "end": 264.19,
+          "confidence": 0.619
+        },
+        {
+          "text": "nothing",
+          "start": 264.19,
+          "end": 265.89,
+          "confidence": 0.969
+        },
+        {
+          "text": "quite",
+          "start": 265.89,
+          "end": 266.91,
+          "confidence": 0.946
+        },
+        {
+          "text": "like",
+          "start": 266.91,
+          "end": 267.67,
+          "confidence": 0.978
+        },
+        {
+          "text": "the",
+          "start": 267.67,
+          "end": 268.13,
+          "confidence": 0.973
+        },
+        {
+          "text": "freedom",
+          "start": 268.13,
+          "end": 269.37,
+          "confidence": 0.978
+        },
+        {
+          "text": "I",
+          "start": 269.37,
+          "end": 270.15,
+          "confidence": 0.963
+        },
+        {
+          "text": "feel",
+          "start": 270.15,
+          "end": 271.27,
+          "confidence": 0.993
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "seek": 16800,
+      "start": 272.31,
+      "end": 279.41,
+      "text": " All on open road, flying through green farmland, twisting through country lanes",
+      "tokens": [
+        50364,
+        1057,
+        322,
+        1269,
+        3060,
+        11,
+        7137,
+        807,
+        3092,
+        5421,
+        1661,
+        11,
+        34491,
+        807,
+        1941,
+        25397,
+        50764
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.03291128216118648,
+      "compression_ratio": 1.2254901960784315,
+      "no_speech_prob": 0.769996166229248,
+      "confidence": 0.58,
+      "words": [
+        {
+          "text": "All",
+          "start": 272.31,
+          "end": 272.71,
+          "confidence": 0.048
+        },
+        {
+          "text": "on",
+          "start": 272.71,
+          "end": 273.03,
+          "confidence": 0.932
+        },
+        {
+          "text": "open",
+          "start": 273.03,
+          "end": 273.41,
+          "confidence": 0.829
+        },
+        {
+          "text": "road,",
+          "start": 273.41,
+          "end": 274.13,
+          "confidence": 0.689
+        },
+        {
+          "text": "flying",
+          "start": 274.61,
+          "end": 274.75,
+          "confidence": 0.744
+        },
+        {
+          "text": "through",
+          "start": 274.75,
+          "end": 275.05,
+          "confidence": 0.952
+        },
+        {
+          "text": "green",
+          "start": 275.05,
+          "end": 275.37,
+          "confidence": 0.87
+        },
+        {
+          "text": "farmland,",
+          "start": 275.37,
+          "end": 276.15,
+          "confidence": 0.351
+        },
+        {
+          "text": "twisting",
+          "start": 276.33,
+          "end": 276.79,
+          "confidence": 0.737
+        },
+        {
+          "text": "through",
+          "start": 276.79,
+          "end": 277.11,
+          "confidence": 0.977
+        },
+        {
+          "text": "country",
+          "start": 277.11,
+          "end": 277.47,
+          "confidence": 0.96
+        },
+        {
+          "text": "lanes",
+          "start": 277.47,
+          "end": 279.41,
+          "confidence": 0.863
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "seek": 16800,
+      "start": 279.47,
+      "end": 287.13,
+      "text": " There's nothing quite like the freedom I feel",
+      "tokens": [
+        50764,
+        821,
+        311,
+        1825,
+        1596,
+        411,
+        264,
+        5645,
+        286,
+        841,
+        51164
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.03291128216118648,
+      "compression_ratio": 1.2254901960784315,
+      "no_speech_prob": 0.769996166229248,
+      "confidence": 0.902,
+      "words": [
+        {
+          "text": "There's",
+          "start": 279.47,
+          "end": 280.71,
+          "confidence": 0.713
+        },
+        {
+          "text": "nothing",
+          "start": 280.71,
+          "end": 281.97,
+          "confidence": 0.964
+        },
+        {
+          "text": "quite",
+          "start": 281.97,
+          "end": 282.89,
+          "confidence": 0.942
+        },
+        {
+          "text": "like",
+          "start": 282.89,
+          "end": 283.69,
+          "confidence": 0.978
+        },
+        {
+          "text": "the",
+          "start": 283.69,
+          "end": 284.19,
+          "confidence": 0.945
+        },
+        {
+          "text": "freedom",
+          "start": 284.19,
+          "end": 285.37,
+          "confidence": 0.982
+        },
+        {
+          "text": "I",
+          "start": 285.37,
+          "end": 286.21,
+          "confidence": 0.954
+        },
+        {
+          "text": "feel",
+          "start": 286.21,
+          "end": 287.13,
+          "confidence": 0.989
+        }
+      ]
+    }
+  ],
+  "language": "en"
+}

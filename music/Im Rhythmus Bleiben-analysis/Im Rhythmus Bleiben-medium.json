@@ -1,0 +1,88 @@
+{
+  "text": " Oh I Do it",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 3000,
+      "start": 135.48,
+      "end": 135.78,
+      "text": " Oh",
+      "tokens": [
+        50364,
+        876,
+        50464
+      ],
+      "temperature": 0.4,
+      "avg_logprob": -0.8045357465744019,
+      "compression_ratio": 0.2,
+      "no_speech_prob": 0.6776816248893738,
+      "confidence": 0.015,
+      "words": [
+        {
+          "text": "Oh",
+          "start": 135.48,
+          "end": 135.78,
+          "confidence": 0.015
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 6000,
+      "start": 184.12,
+      "end": 185.88,
+      "text": " I",
+      "tokens": [
+        50364,
+        286,
+        50464
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.6647006273269653,
+      "compression_ratio": 0.1111111111111111,
+      "no_speech_prob": 0.7191061973571777,
+      "confidence": 0.029,
+      "words": [
+        {
+          "text": "I",
+          "start": 184.12,
+          "end": 185.88,
+          "confidence": 0.029
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "seek": 9000,
+      "start": 237.41,
+      "end": 237.89,
+      "text": " Do it",
+      "tokens": [
+        50364,
+        1144,
+        309,
+        50464
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.873298168182373,
+      "compression_ratio": 0.38461538461538464,
+      "no_speech_prob": 0.4502176344394684,
+      "confidence": 0.248,
+      "words": [
+        {
+          "text": "Do",
+          "start": 237.41,
+          "end": 237.71,
+          "confidence": 0.07
+        },
+        {
+          "text": "it",
+          "start": 237.71,
+          "end": 237.89,
+          "confidence": 0.884
+        }
+      ]
+    }
+  ],
+  "language": "en"
+}

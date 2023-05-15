@@ -1,0 +1,3041 @@
+{
+  "text": " Jenny lay in a bluish heat like a wasted dream. Her face was wrong. The ancient clock pushed time around on the shelf. Mama stood with a leather frown. Mama felt like some hysterical clown with a concrete pie and shoes that were far too big. The doctor came with his bag of bones. The soulcatcher crouched on the window sill with a gramophone. The doctor scratched his head and walked over to Jenny's sweating incest. His hands froze as he touched her. The birds peered from their bamboo cage The soulcatcher. La la la la... Soulcatcher. La la la la... Soulcatcher. La la la la... La la la. Mama popped and said, How can we make her stay? When she talked to us, we thought about leaving. Jenny looked through poisoned eyes, As a sick tune played on the gramophone. The doctor sighed and said, Jenny won't change anymore. Papa fled to the kitchen light, Mama just spun in a crying jag, Whispering softly to herself. The soulcatcher winked and grinned. The doctor put the clinical toys away, And rode off on a push bike. And Jenny saw some Indians that rode in circles over. As the music got faster and faster, She called out to the soulcatcher. La la la la... Soulcatcher. La la la la... Soulcatcher. La la la la... The birds flew round their cage, And broke their stupid wings, As the room seemed to stop breathing. The soulcatcher took Jenny's soul away, And hung it up to dry on a big plain tree, Whispering softly to himself. He tapped his foot and turned around, And disappeared down through a hole in the ground, Where nothing means everything. Everything. Everything. Everything. Everything. Everything. Everything. Everything. Everything. Everything. Everything.",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 7.33,
+      "end": 15.11,
+      "text": " Jenny lay in a bluish heat like a wasted dream. Her face was wrong. The ancient clock pushed",
+      "tokens": [
+        50364,
+        20580,
+        2360,
+        294,
+        257,
+        888,
+        33786,
+        3738,
+        411,
+        257,
+        19496,
+        3055,
+        13,
+        3204,
+        1851,
+        390,
+        2085,
+        13,
+        440,
+        7832,
+        7830,
+        9152,
+        50780
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.2175215295998447,
+      "compression_ratio": 1.5804878048780489,
+      "no_speech_prob": 0.26204365491867065,
+      "confidence": 0.686,
+      "words": [
+        {
+          "text": "Jenny",
+          "start": 7.33,
+          "end": 7.69,
+          "confidence": 0.226
+        },
+        {
+          "text": "lay",
+          "start": 7.69,
+          "end": 8.29,
+          "confidence": 0.932
+        },
+        {
+          "text": "in",
+          "start": 8.29,
+          "end": 8.57,
+          "confidence": 0.956
+        },
+        {
+          "text": "a",
+          "start": 8.57,
+          "end": 8.73,
+          "confidence": 0.297
+        },
+        {
+          "text": "bluish",
+          "start": 8.73,
+          "end": 9.11,
+          "confidence": 0.785
+        },
+        {
+          "text": "heat",
+          "start": 9.11,
+          "end": 9.73,
+          "confidence": 0.858
+        },
+        {
+          "text": "like",
+          "start": 9.73,
+          "end": 10.09,
+          "confidence": 0.551
+        },
+        {
+          "text": "a",
+          "start": 10.09,
+          "end": 10.45,
+          "confidence": 0.987
+        },
+        {
+          "text": "wasted",
+          "start": 10.45,
+          "end": 10.87,
+          "confidence": 0.972
+        },
+        {
+          "text": "dream.",
+          "start": 10.87,
+          "end": 11.39,
+          "confidence": 0.383
+        },
+        {
+          "text": "Her",
+          "start": 11.83,
+          "end": 11.85,
+          "confidence": 0.668
+        },
+        {
+          "text": "face",
+          "start": 11.85,
+          "end": 12.27,
+          "confidence": 0.992
+        },
+        {
+          "text": "was",
+          "start": 12.27,
+          "end": 12.67,
+          "confidence": 0.994
+        },
+        {
+          "text": "wrong.",
+          "start": 12.67,
+          "end": 13.15,
+          "confidence": 0.613
+        },
+        {
+          "text": "The",
+          "start": 13.29,
+          "end": 13.65,
+          "confidence": 0.744
+        },
+        {
+          "text": "ancient",
+          "start": 13.65,
+          "end": 14.19,
+          "confidence": 0.932
+        },
+        {
+          "text": "clock",
+          "start": 14.19,
+          "end": 14.65,
+          "confidence": 0.919
+        },
+        {
+          "text": "pushed",
+          "start": 14.65,
+          "end": 15.11,
+          "confidence": 0.946
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 15.11,
+      "end": 24.76,
+      "text": " time around on the shelf. Mama stood with a leather frown. Mama felt like some",
+      "tokens": [
+        50780,
+        565,
+        926,
+        322,
+        264,
+        15222,
+        13,
+        17775,
+        9371,
+        365,
+        257,
+        12821,
+        431,
+        648,
+        13,
+        17775,
+        2762,
+        411,
+        512,
+        51181
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.2175215295998447,
+      "compression_ratio": 1.5804878048780489,
+      "no_speech_prob": 0.26204365491867065,
+      "confidence": 0.685,
+      "words": [
+        {
+          "text": "time",
+          "start": 15.11,
+          "end": 15.61,
+          "confidence": 0.1
+        },
+        {
+          "text": "around",
+          "start": 15.61,
+          "end": 16.31,
+          "confidence": 0.91
+        },
+        {
+          "text": "on",
+          "start": 16.31,
+          "end": 16.63,
+          "confidence": 0.948
+        },
+        {
+          "text": "the",
+          "start": 16.63,
+          "end": 16.91,
+          "confidence": 0.984
+        },
+        {
+          "text": "shelf.",
+          "start": 16.91,
+          "end": 17.87,
+          "confidence": 0.714
+        },
+        {
+          "text": "Mama",
+          "start": 19.76,
+          "end": 20.68,
+          "confidence": 0.177
+        },
+        {
+          "text": "stood",
+          "start": 20.68,
+          "end": 21.18,
+          "confidence": 0.973
+        },
+        {
+          "text": "with",
+          "start": 21.18,
+          "end": 21.54,
+          "confidence": 0.983
+        },
+        {
+          "text": "a",
+          "start": 21.54,
+          "end": 21.78,
+          "confidence": 0.582
+        },
+        {
+          "text": "leather",
+          "start": 21.78,
+          "end": 22.14,
+          "confidence": 0.93
+        },
+        {
+          "text": "frown.",
+          "start": 22.14,
+          "end": 23.0,
+          "confidence": 0.844
+        },
+        {
+          "text": "Mama",
+          "start": 23.24,
+          "end": 23.6,
+          "confidence": 0.65
+        },
+        {
+          "text": "felt",
+          "start": 23.6,
+          "end": 24.06,
+          "confidence": 0.924
+        },
+        {
+          "text": "like",
+          "start": 24.06,
+          "end": 24.44,
+          "confidence": 0.931
+        },
+        {
+          "text": "some",
+          "start": 24.44,
+          "end": 24.76,
+          "confidence": 0.828
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 24.76,
+      "end": 33.77,
+      "text": " hysterical clown with a concrete pie and shoes that were far too big. The doctor",
+      "tokens": [
+        51181,
+        35915,
+        804,
+        22209,
+        365,
+        257,
+        9859,
+        1730,
+        293,
+        6654,
+        300,
+        645,
+        1400,
+        886,
+        955,
+        13,
+        440,
+        4631,
+        51548
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.2175215295998447,
+      "compression_ratio": 1.5804878048780489,
+      "no_speech_prob": 0.26204365491867065,
+      "confidence": 0.724,
+      "words": [
+        {
+          "text": "hysterical",
+          "start": 24.76,
+          "end": 25.62,
+          "confidence": 0.411
+        },
+        {
+          "text": "clown",
+          "start": 25.62,
+          "end": 26.12,
+          "confidence": 0.966
+        },
+        {
+          "text": "with",
+          "start": 26.12,
+          "end": 26.38,
+          "confidence": 0.924
+        },
+        {
+          "text": "a",
+          "start": 26.38,
+          "end": 26.64,
+          "confidence": 0.87
+        },
+        {
+          "text": "concrete",
+          "start": 26.64,
+          "end": 27.3,
+          "confidence": 0.966
+        },
+        {
+          "text": "pie",
+          "start": 27.3,
+          "end": 27.84,
+          "confidence": 0.828
+        },
+        {
+          "text": "and",
+          "start": 27.84,
+          "end": 28.1,
+          "confidence": 0.908
+        },
+        {
+          "text": "shoes",
+          "start": 28.1,
+          "end": 28.52,
+          "confidence": 0.937
+        },
+        {
+          "text": "that",
+          "start": 28.52,
+          "end": 28.82,
+          "confidence": 0.888
+        },
+        {
+          "text": "were",
+          "start": 28.82,
+          "end": 29.0,
+          "confidence": 0.782
+        },
+        {
+          "text": "far",
+          "start": 29.0,
+          "end": 29.36,
+          "confidence": 0.992
+        },
+        {
+          "text": "too",
+          "start": 29.36,
+          "end": 29.86,
+          "confidence": 0.98
+        },
+        {
+          "text": "big.",
+          "start": 29.86,
+          "end": 30.46,
+          "confidence": 0.559
+        },
+        {
+          "text": "The",
+          "start": 33.17,
+          "end": 33.47,
+          "confidence": 0.263
+        },
+        {
+          "text": "doctor",
+          "start": 33.47,
+          "end": 33.77,
+          "confidence": 0.843
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 33.77,
+      "end": 39.09,
+      "text": " came with his bag of bones. The soulcatcher crouched on the window sill",
+      "tokens": [
+        51548,
+        1361,
+        365,
+        702,
+        3411,
+        295,
+        10491,
+        13,
+        440,
+        5133,
+        66,
+        49871,
+        941,
+        36740,
+        322,
+        264,
+        4910,
+        37160,
+        51798
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.2175215295998447,
+      "compression_ratio": 1.5804878048780489,
+      "no_speech_prob": 0.26204365491867065,
+      "confidence": 0.718,
+      "words": [
+        {
+          "text": "came",
+          "start": 33.77,
+          "end": 34.25,
+          "confidence": 0.42
+        },
+        {
+          "text": "with",
+          "start": 34.25,
+          "end": 34.53,
+          "confidence": 0.991
+        },
+        {
+          "text": "his",
+          "start": 34.53,
+          "end": 34.75,
+          "confidence": 0.918
+        },
+        {
+          "text": "bag",
+          "start": 34.75,
+          "end": 35.15,
+          "confidence": 0.989
+        },
+        {
+          "text": "of",
+          "start": 35.15,
+          "end": 35.35,
+          "confidence": 0.996
+        },
+        {
+          "text": "bones.",
+          "start": 35.35,
+          "end": 35.97,
+          "confidence": 0.36
+        },
+        {
+          "text": "The",
+          "start": 35.97,
+          "end": 36.33,
+          "confidence": 0.532
+        },
+        {
+          "text": "soulcatcher",
+          "start": 36.33,
+          "end": 37.07,
+          "confidence": 0.807
+        },
+        {
+          "text": "crouched",
+          "start": 37.07,
+          "end": 37.51,
+          "confidence": 0.939
+        },
+        {
+          "text": "on",
+          "start": 37.51,
+          "end": 37.83,
+          "confidence": 0.973
+        },
+        {
+          "text": "the",
+          "start": 37.83,
+          "end": 38.11,
+          "confidence": 0.97
+        },
+        {
+          "text": "window",
+          "start": 38.11,
+          "end": 38.53,
+          "confidence": 0.363
+        },
+        {
+          "text": "sill",
+          "start": 38.53,
+          "end": 39.09,
+          "confidence": 0.867
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "seek": 2868,
+      "start": 39.09,
+      "end": 46.87,
+      "text": " with a gramophone. The doctor scratched his head and walked over to Jenny's",
+      "tokens": [
+        50364,
+        365,
+        257,
+        21353,
+        32561,
+        13,
+        440,
+        4631,
+        40513,
+        702,
+        1378,
+        293,
+        7628,
+        670,
+        281,
+        20580,
+        311,
+        50746
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.29872144971575054,
+      "compression_ratio": 1.3253968253968254,
+      "no_speech_prob": 0.4388025403022766,
+      "confidence": 0.588,
+      "words": [
+        {
+          "text": "with",
+          "start": 39.09,
+          "end": 39.43,
+          "confidence": 0.4
+        },
+        {
+          "text": "a",
+          "start": 39.43,
+          "end": 39.69,
+          "confidence": 0.943
+        },
+        {
+          "text": "gramophone.",
+          "start": 39.69,
+          "end": 40.55,
+          "confidence": 0.631
+        },
+        {
+          "text": "The",
+          "start": 40.65,
+          "end": 41.29,
+          "confidence": 0.563
+        },
+        {
+          "text": "doctor",
+          "start": 41.29,
+          "end": 41.71,
+          "confidence": 0.901
+        },
+        {
+          "text": "scratched",
+          "start": 41.71,
+          "end": 42.23,
+          "confidence": 0.953
+        },
+        {
+          "text": "his",
+          "start": 42.23,
+          "end": 42.97,
+          "confidence": 0.986
+        },
+        {
+          "text": "head",
+          "start": 42.97,
+          "end": 43.57,
+          "confidence": 0.962
+        },
+        {
+          "text": "and",
+          "start": 43.57,
+          "end": 43.91,
+          "confidence": 0.888
+        },
+        {
+          "text": "walked",
+          "start": 43.91,
+          "end": 44.57,
+          "confidence": 0.043
+        },
+        {
+          "text": "over",
+          "start": 44.57,
+          "end": 45.41,
+          "confidence": 0.949
+        },
+        {
+          "text": "to",
+          "start": 45.41,
+          "end": 46.15,
+          "confidence": 0.954
+        },
+        {
+          "text": "Jenny's",
+          "start": 46.15,
+          "end": 46.87,
+          "confidence": 0.369
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "seek": 2868,
+      "start": 46.87,
+      "end": 55.57,
+      "text": " sweating incest. His hands froze as he touched her. The birds peered from their bamboo cage",
+      "tokens": [
+        50746,
+        25438,
+        834,
+        377,
+        13,
+        2812,
+        2377,
+        46077,
+        382,
+        415,
+        9828,
+        720,
+        13,
+        440,
+        9009,
+        520,
+        4073,
+        490,
+        641,
+        26156,
+        17302,
+        51186
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.29872144971575054,
+      "compression_ratio": 1.3253968253968254,
+      "no_speech_prob": 0.4388025403022766,
+      "confidence": 0.414,
+      "words": [
+        {
+          "text": "sweating",
+          "start": 46.87,
+          "end": 47.85,
+          "confidence": 0.0
+        },
+        {
+          "text": "incest.",
+          "start": 47.85,
+          "end": 48.99,
+          "confidence": 0.644
+        },
+        {
+          "text": "His",
+          "start": 48.99,
+          "end": 49.51,
+          "confidence": 0.662
+        },
+        {
+          "text": "hands",
+          "start": 49.51,
+          "end": 49.77,
+          "confidence": 0.679
+        },
+        {
+          "text": "froze",
+          "start": 49.77,
+          "end": 50.19,
+          "confidence": 0.969
+        },
+        {
+          "text": "as",
+          "start": 50.19,
+          "end": 50.57,
+          "confidence": 0.96
+        },
+        {
+          "text": "he",
+          "start": 50.57,
+          "end": 50.97,
+          "confidence": 0.983
+        },
+        {
+          "text": "touched",
+          "start": 50.97,
+          "end": 51.65,
+          "confidence": 0.904
+        },
+        {
+          "text": "her.",
+          "start": 51.65,
+          "end": 52.15,
+          "confidence": 0.385
+        },
+        {
+          "text": "The",
+          "start": 52.59,
+          "end": 52.83,
+          "confidence": 0.508
+        },
+        {
+          "text": "birds",
+          "start": 52.83,
+          "end": 53.11,
+          "confidence": 0.735
+        },
+        {
+          "text": "peered",
+          "start": 53.11,
+          "end": 53.41,
+          "confidence": 0.767
+        },
+        {
+          "text": "from",
+          "start": 53.41,
+          "end": 53.89,
+          "confidence": 0.977
+        },
+        {
+          "text": "their",
+          "start": 53.89,
+          "end": 54.29,
+          "confidence": 0.949
+        },
+        {
+          "text": "bamboo",
+          "start": 54.29,
+          "end": 55.01,
+          "confidence": 0.981
+        },
+        {
+          "text": "cage",
+          "start": 55.01,
+          "end": 55.57,
+          "confidence": 0.655
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "seek": 4512,
+      "start": 55.57,
+      "end": 62.19,
+      "text": " The soulcatcher. La la la la...",
+      "tokens": [
+        50378,
+        440,
+        5133,
+        66,
+        49871,
+        13,
+        2369,
+        635,
+        635,
+        635,
+        485,
+        50714
+      ],
+      "temperature": 1.0,
+      "avg_logprob": -0.9695697966076079,
+      "compression_ratio": 2.425,
+      "no_speech_prob": 0.8608126640319824,
+      "confidence": 0.199,
+      "words": [
+        {
+          "text": "The",
+          "start": 55.57,
+          "end": 55.93,
+          "confidence": 0.027
+        },
+        {
+          "text": "soulcatcher.",
+          "start": 55.93,
+          "end": 57.75,
+          "confidence": 0.299
+        },
+        {
+          "text": "La",
+          "start": 57.75,
+          "end": 59.21,
+          "confidence": 0.094
+        },
+        {
+          "text": "la",
+          "start": 59.21,
+          "end": 59.53,
+          "confidence": 0.809
+        },
+        {
+          "text": "la",
+          "start": 59.53,
+          "end": 59.85,
+          "confidence": 0.984
+        },
+        {
+          "text": "la...",
+          "start": 59.85,
+          "end": 62.19,
+          "confidence": 0.077
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "seek": 4512,
+      "start": 62.19,
+      "end": 68.55,
+      "text": " Soulcatcher. La la la la...",
+      "tokens": [
+        50714,
+        13588,
+        66,
+        49871,
+        13,
+        2369,
+        635,
+        635,
+        635,
+        485,
+        51042
+      ],
+      "temperature": 1.0,
+      "avg_logprob": -0.9695697966076079,
+      "compression_ratio": 2.425,
+      "no_speech_prob": 0.8608126640319824,
+      "confidence": 0.121,
+      "words": [
+        {
+          "text": "Soulcatcher.",
+          "start": 62.19,
+          "end": 64.19,
+          "confidence": 0.065
+        },
+        {
+          "text": "La",
+          "start": 64.25,
+          "end": 65.77,
+          "confidence": 0.058
+        },
+        {
+          "text": "la",
+          "start": 65.77,
+          "end": 66.09,
+          "confidence": 0.829
+        },
+        {
+          "text": "la",
+          "start": 66.09,
+          "end": 66.43,
+          "confidence": 0.988
+        },
+        {
+          "text": "la...",
+          "start": 66.43,
+          "end": 68.55,
+          "confidence": 0.08
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "seek": 4512,
+      "start": 68.55,
+      "end": 74.37,
+      "text": " Soulcatcher. La la la la...",
+      "tokens": [
+        51042,
+        13588,
+        66,
+        49871,
+        13,
+        2369,
+        635,
+        635,
+        635,
+        485,
+        51338
+      ],
+      "temperature": 1.0,
+      "avg_logprob": -0.9695697966076079,
+      "compression_ratio": 2.425,
+      "no_speech_prob": 0.8608126640319824,
+      "confidence": 0.149,
+      "words": [
+        {
+          "text": "Soulcatcher.",
+          "start": 68.55,
+          "end": 71.09,
+          "confidence": 0.076
+        },
+        {
+          "text": "La",
+          "start": 71.47,
+          "end": 72.27,
+          "confidence": 0.14
+        },
+        {
+          "text": "la",
+          "start": 72.27,
+          "end": 72.63,
+          "confidence": 0.793
+        },
+        {
+          "text": "la",
+          "start": 72.63,
+          "end": 72.93,
+          "confidence": 0.987
+        },
+        {
+          "text": "la...",
+          "start": 72.93,
+          "end": 74.37,
+          "confidence": 0.1
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "seek": 4512,
+      "start": 74.37,
+      "end": 76.05,
+      "text": " La la la.",
+      "tokens": [
+        51338,
+        2369,
+        635,
+        635,
+        13,
+        51451
+      ],
+      "temperature": 1.0,
+      "avg_logprob": -0.9695697966076079,
+      "compression_ratio": 2.425,
+      "no_speech_prob": 0.8608126640319824,
+      "confidence": 0.413,
+      "words": [
+        {
+          "text": "La",
+          "start": 74.37,
+          "end": 75.01,
+          "confidence": 0.144
+        },
+        {
+          "text": "la",
+          "start": 75.01,
+          "end": 75.43,
+          "confidence": 0.615
+        },
+        {
+          "text": "la.",
+          "start": 75.43,
+          "end": 76.05,
+          "confidence": 0.574
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "seek": 6686,
+      "start": 81.95,
+      "end": 84.37,
+      "text": " Mama popped and said,",
+      "tokens": [
+        50378,
+        17775,
+        21545,
+        293,
+        848,
+        11,
+        50528
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.38035982504658317,
+      "compression_ratio": 1.4362745098039216,
+      "no_speech_prob": 0.2998771667480469,
+      "confidence": 0.128,
+      "words": [
+        {
+          "text": "Mama",
+          "start": 81.95,
+          "end": 82.55,
+          "confidence": 0.031
+        },
+        {
+          "text": "popped",
+          "start": 82.55,
+          "end": 83.11,
+          "confidence": 0.05
+        },
+        {
+          "text": "and",
+          "start": 83.11,
+          "end": 83.91,
+          "confidence": 0.645
+        },
+        {
+          "text": "said,",
+          "start": 83.91,
+          "end": 84.37,
+          "confidence": 0.185
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "seek": 6686,
+      "start": 85.19,
+      "end": 87.45,
+      "text": " How can we make her stay?",
+      "tokens": [
+        50528,
+        1012,
+        393,
+        321,
+        652,
+        720,
+        1754,
+        30,
+        50678
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.38035982504658317,
+      "compression_ratio": 1.4362745098039216,
+      "no_speech_prob": 0.2998771667480469,
+      "confidence": 0.372,
+      "words": [
+        {
+          "text": "How",
+          "start": 85.19,
+          "end": 85.45,
+          "confidence": 0.12
+        },
+        {
+          "text": "can",
+          "start": 85.45,
+          "end": 85.77,
+          "confidence": 0.933
+        },
+        {
+          "text": "we",
+          "start": 85.77,
+          "end": 85.99,
+          "confidence": 0.884
+        },
+        {
+          "text": "make",
+          "start": 85.99,
+          "end": 86.45,
+          "confidence": 0.991
+        },
+        {
+          "text": "her",
+          "start": 86.45,
+          "end": 86.91,
+          "confidence": 0.025
+        },
+        {
+          "text": "stay?",
+          "start": 86.91,
+          "end": 87.45,
+          "confidence": 0.634
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "seek": 6686,
+      "start": 87.45,
+      "end": 92.03,
+      "text": " When she talked to us, we thought about leaving.",
+      "tokens": [
+        50678,
+        1133,
+        750,
+        2825,
+        281,
+        505,
+        11,
+        321,
+        1194,
+        466,
+        5012,
+        13,
+        50953
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.38035982504658317,
+      "compression_ratio": 1.4362745098039216,
+      "no_speech_prob": 0.2998771667480469,
+      "confidence": 0.474,
+      "words": [
+        {
+          "text": "When",
+          "start": 87.45,
+          "end": 88.25,
+          "confidence": 0.311
+        },
+        {
+          "text": "she",
+          "start": 88.25,
+          "end": 88.51,
+          "confidence": 0.986
+        },
+        {
+          "text": "talked",
+          "start": 88.51,
+          "end": 88.85,
+          "confidence": 0.062
+        },
+        {
+          "text": "to",
+          "start": 88.85,
+          "end": 89.05,
+          "confidence": 0.985
+        },
+        {
+          "text": "us,",
+          "start": 89.05,
+          "end": 89.31,
+          "confidence": 0.378
+        },
+        {
+          "text": "we",
+          "start": 89.43,
+          "end": 89.57,
+          "confidence": 0.915
+        },
+        {
+          "text": "thought",
+          "start": 89.57,
+          "end": 89.89,
+          "confidence": 0.615
+        },
+        {
+          "text": "about",
+          "start": 89.89,
+          "end": 90.23,
+          "confidence": 0.667
+        },
+        {
+          "text": "leaving.",
+          "start": 90.23,
+          "end": 92.03,
+          "confidence": 0.517
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "seek": 6686,
+      "start": 100.24,
+      "end": 102.78,
+      "text": " Jenny looked through poisoned eyes,",
+      "tokens": [
+        50953,
+        20580,
+        2956,
+        807,
+        36677,
+        2575,
+        11,
+        51103
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.38035982504658317,
+      "compression_ratio": 1.4362745098039216,
+      "no_speech_prob": 0.2998771667480469,
+      "confidence": 0.378,
+      "words": [
+        {
+          "text": "Jenny",
+          "start": 100.24,
+          "end": 100.66,
+          "confidence": 0.171
+        },
+        {
+          "text": "looked",
+          "start": 100.66,
+          "end": 101.12,
+          "confidence": 0.836
+        },
+        {
+          "text": "through",
+          "start": 101.12,
+          "end": 101.6,
+          "confidence": 0.98
+        },
+        {
+          "text": "poisoned",
+          "start": 101.6,
+          "end": 102.26,
+          "confidence": 0.594
+        },
+        {
+          "text": "eyes,",
+          "start": 102.26,
+          "end": 102.78,
+          "confidence": 0.188
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "seek": 6686,
+      "start": 102.78,
+      "end": 105.66,
+      "text": " As a sick tune played on the gramophone.",
+      "tokens": [
+        51103,
+        1018,
+        257,
+        4998,
+        10864,
+        3737,
+        322,
+        264,
+        21353,
+        32561,
+        13,
+        51253
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.38035982504658317,
+      "compression_ratio": 1.4362745098039216,
+      "no_speech_prob": 0.2998771667480469,
+      "confidence": 0.584,
+      "words": [
+        {
+          "text": "As",
+          "start": 102.78,
+          "end": 103.04,
+          "confidence": 0.042
+        },
+        {
+          "text": "a",
+          "start": 103.04,
+          "end": 103.3,
+          "confidence": 0.801
+        },
+        {
+          "text": "sick",
+          "start": 103.3,
+          "end": 103.64,
+          "confidence": 0.753
+        },
+        {
+          "text": "tune",
+          "start": 103.64,
+          "end": 104.0,
+          "confidence": 0.92
+        },
+        {
+          "text": "played",
+          "start": 104.0,
+          "end": 104.42,
+          "confidence": 0.963
+        },
+        {
+          "text": "on",
+          "start": 104.42,
+          "end": 104.7,
+          "confidence": 0.966
+        },
+        {
+          "text": "the",
+          "start": 104.7,
+          "end": 104.96,
+          "confidence": 0.89
+        },
+        {
+          "text": "gramophone.",
+          "start": 104.96,
+          "end": 105.66,
+          "confidence": 0.622
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "seek": 6686,
+      "start": 106.18,
+      "end": 108.06,
+      "text": " The doctor sighed and said,",
+      "tokens": [
+        51253,
+        440,
+        4631,
+        29472,
+        292,
+        293,
+        848,
+        11,
+        51353
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.38035982504658317,
+      "compression_ratio": 1.4362745098039216,
+      "no_speech_prob": 0.2998771667480469,
+      "confidence": 0.599,
+      "words": [
+        {
+          "text": "The",
+          "start": 106.18,
+          "end": 106.5,
+          "confidence": 0.274
+        },
+        {
+          "text": "doctor",
+          "start": 106.5,
+          "end": 106.94,
+          "confidence": 0.837
+        },
+        {
+          "text": "sighed",
+          "start": 106.94,
+          "end": 107.64,
+          "confidence": 0.951
+        },
+        {
+          "text": "and",
+          "start": 107.64,
+          "end": 107.82,
+          "confidence": 0.959
+        },
+        {
+          "text": "said,",
+          "start": 107.82,
+          "end": 108.06,
+          "confidence": 0.373
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "seek": 6686,
+      "start": 108.06,
+      "end": 110.14,
+      "text": " Jenny won't change anymore.",
+      "tokens": [
+        51353,
+        20580,
+        1582,
+        380,
+        1319,
+        3602,
+        13,
+        51503
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.38035982504658317,
+      "compression_ratio": 1.4362745098039216,
+      "no_speech_prob": 0.2998771667480469,
+      "confidence": 0.635,
+      "words": [
+        {
+          "text": "Jenny",
+          "start": 108.06,
+          "end": 108.42,
+          "confidence": 0.112
+        },
+        {
+          "text": "won't",
+          "start": 108.42,
+          "end": 108.9,
+          "confidence": 0.991
+        },
+        {
+          "text": "change",
+          "start": 108.9,
+          "end": 109.42,
+          "confidence": 0.997
+        },
+        {
+          "text": "anymore.",
+          "start": 109.42,
+          "end": 110.14,
+          "confidence": 0.773
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "seek": 6686,
+      "start": 113.06,
+      "end": 115.86,
+      "text": " Papa fled to the kitchen light,",
+      "tokens": [
+        51503,
+        21102,
+        24114,
+        281,
+        264,
+        6525,
+        1442,
+        11,
+        51653
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.38035982504658317,
+      "compression_ratio": 1.4362745098039216,
+      "no_speech_prob": 0.2998771667480469,
+      "confidence": 0.455,
+      "words": [
+        {
+          "text": "Papa",
+          "start": 113.06,
+          "end": 113.62,
+          "confidence": 0.359
+        },
+        {
+          "text": "fled",
+          "start": 113.62,
+          "end": 114.08,
+          "confidence": 0.82
+        },
+        {
+          "text": "to",
+          "start": 114.08,
+          "end": 114.4,
+          "confidence": 0.981
+        },
+        {
+          "text": "the",
+          "start": 114.4,
+          "end": 114.64,
+          "confidence": 0.993
+        },
+        {
+          "text": "kitchen",
+          "start": 114.64,
+          "end": 115.12,
+          "confidence": 0.979
+        },
+        {
+          "text": "light,",
+          "start": 115.12,
+          "end": 115.86,
+          "confidence": 0.12
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "seek": 6686,
+      "start": 116.14,
+      "end": 119.24,
+      "text": " Mama just spun in a crying jag,",
+      "tokens": [
+        51653,
+        17775,
+        445,
+        37038,
+        294,
+        257,
+        8554,
+        6368,
+        11,
+        51828
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.38035982504658317,
+      "compression_ratio": 1.4362745098039216,
+      "no_speech_prob": 0.2998771667480469,
+      "confidence": 0.487,
+      "words": [
+        {
+          "text": "Mama",
+          "start": 116.14,
+          "end": 116.54,
+          "confidence": 0.36
+        },
+        {
+          "text": "just",
+          "start": 116.54,
+          "end": 116.98,
+          "confidence": 0.866
+        },
+        {
+          "text": "spun",
+          "start": 116.98,
+          "end": 117.48,
+          "confidence": 0.873
+        },
+        {
+          "text": "in",
+          "start": 117.48,
+          "end": 117.76,
+          "confidence": 0.909
+        },
+        {
+          "text": "a",
+          "start": 117.76,
+          "end": 118.02,
+          "confidence": 0.644
+        },
+        {
+          "text": "crying",
+          "start": 118.02,
+          "end": 118.58,
+          "confidence": 0.959
+        },
+        {
+          "text": "jag,",
+          "start": 118.58,
+          "end": 119.24,
+          "confidence": 0.144
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "seek": 9614,
+      "start": 119.24,
+      "end": 123.56,
+      "text": " Whispering softly to herself.",
+      "tokens": [
+        50378,
+        506,
+        35237,
+        30832,
+        281,
+        7530,
+        13,
+        50628
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.22817061497614935,
+      "compression_ratio": 1.4113924050632911,
+      "no_speech_prob": 0.016123320907354355,
+      "confidence": 0.425,
+      "words": [
+        {
+          "text": "Whispering",
+          "start": 119.24,
+          "end": 120.8,
+          "confidence": 0.218
+        },
+        {
+          "text": "softly",
+          "start": 120.8,
+          "end": 121.78,
+          "confidence": 0.914
+        },
+        {
+          "text": "to",
+          "start": 121.78,
+          "end": 122.58,
+          "confidence": 0.68
+        },
+        {
+          "text": "herself.",
+          "start": 122.58,
+          "end": 123.56,
+          "confidence": 0.445
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "seek": 9614,
+      "start": 126.21,
+      "end": 128.93,
+      "text": " The soulcatcher winked and grinned.",
+      "tokens": [
+        50628,
+        440,
+        5133,
+        66,
+        49871,
+        44212,
+        292,
+        293,
+        677,
+        45508,
+        13,
+        50778
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.22817061497614935,
+      "compression_ratio": 1.4113924050632911,
+      "no_speech_prob": 0.016123320907354355,
+      "confidence": 0.576,
+      "words": [
+        {
+          "text": "The",
+          "start": 126.21,
+          "end": 126.41,
+          "confidence": 0.266
+        },
+        {
+          "text": "soulcatcher",
+          "start": 126.41,
+          "end": 127.45,
+          "confidence": 0.41
+        },
+        {
+          "text": "winked",
+          "start": 127.45,
+          "end": 128.17,
+          "confidence": 0.992
+        },
+        {
+          "text": "and",
+          "start": 128.17,
+          "end": 128.33,
+          "confidence": 0.983
+        },
+        {
+          "text": "grinned.",
+          "start": 128.33,
+          "end": 128.93,
+          "confidence": 0.607
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "seek": 9614,
+      "start": 128.99,
+      "end": 131.89,
+      "text": " The doctor put the clinical toys away,",
+      "tokens": [
+        50778,
+        440,
+        4631,
+        829,
+        264,
+        9115,
+        13753,
+        1314,
+        11,
+        50928
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.22817061497614935,
+      "compression_ratio": 1.4113924050632911,
+      "no_speech_prob": 0.016123320907354355,
+      "confidence": 0.215,
+      "words": [
+        {
+          "text": "The",
+          "start": 128.99,
+          "end": 129.29,
+          "confidence": 0.127
+        },
+        {
+          "text": "doctor",
+          "start": 129.29,
+          "end": 129.61,
+          "confidence": 0.749
+        },
+        {
+          "text": "put",
+          "start": 129.61,
+          "end": 129.91,
+          "confidence": 0.512
+        },
+        {
+          "text": "the",
+          "start": 129.91,
+          "end": 130.13,
+          "confidence": 0.391
+        },
+        {
+          "text": "clinical",
+          "start": 130.13,
+          "end": 130.67,
+          "confidence": 0.003
+        },
+        {
+          "text": "toys",
+          "start": 130.67,
+          "end": 131.31,
+          "confidence": 0.92
+        },
+        {
+          "text": "away,",
+          "start": 131.31,
+          "end": 131.89,
+          "confidence": 0.304
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "seek": 9614,
+      "start": 131.89,
+      "end": 135.25,
+      "text": " And rode off on a push bike.",
+      "tokens": [
+        50928,
+        400,
+        21602,
+        766,
+        322,
+        257,
+        2944,
+        5656,
+        13,
+        51078
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.22817061497614935,
+      "compression_ratio": 1.4113924050632911,
+      "no_speech_prob": 0.016123320907354355,
+      "confidence": 0.48,
+      "words": [
+        {
+          "text": "And",
+          "start": 131.89,
+          "end": 132.55,
+          "confidence": 0.169
+        },
+        {
+          "text": "rode",
+          "start": 132.55,
+          "end": 133.05,
+          "confidence": 0.913
+        },
+        {
+          "text": "off",
+          "start": 133.05,
+          "end": 133.51,
+          "confidence": 0.983
+        },
+        {
+          "text": "on",
+          "start": 133.51,
+          "end": 134.09,
+          "confidence": 0.888
+        },
+        {
+          "text": "a",
+          "start": 134.09,
+          "end": 134.35,
+          "confidence": 0.985
+        },
+        {
+          "text": "push",
+          "start": 134.35,
+          "end": 134.75,
+          "confidence": 0.894
+        },
+        {
+          "text": "bike.",
+          "start": 134.75,
+          "end": 135.25,
+          "confidence": 0.154
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "seek": 9614,
+      "start": 135.63,
+      "end": 141.75,
+      "text": " And Jenny saw some Indians that rode in circles over.",
+      "tokens": [
+        51078,
+        400,
+        20580,
+        1866,
+        512,
+        23838,
+        300,
+        21602,
+        294,
+        13040,
+        670,
+        13,
+        51428
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.22817061497614935,
+      "compression_ratio": 1.4113924050632911,
+      "no_speech_prob": 0.016123320907354355,
+      "confidence": 0.632,
+      "words": [
+        {
+          "text": "And",
+          "start": 135.63,
+          "end": 135.91,
+          "confidence": 0.152
+        },
+        {
+          "text": "Jenny",
+          "start": 135.91,
+          "end": 136.37,
+          "confidence": 0.81
+        },
+        {
+          "text": "saw",
+          "start": 136.37,
+          "end": 136.81,
+          "confidence": 0.978
+        },
+        {
+          "text": "some",
+          "start": 136.81,
+          "end": 137.61,
+          "confidence": 0.993
+        },
+        {
+          "text": "Indians",
+          "start": 137.61,
+          "end": 138.39,
+          "confidence": 0.974
+        },
+        {
+          "text": "that",
+          "start": 138.39,
+          "end": 139.13,
+          "confidence": 0.745
+        },
+        {
+          "text": "rode",
+          "start": 139.13,
+          "end": 139.61,
+          "confidence": 0.75
+        },
+        {
+          "text": "in",
+          "start": 139.61,
+          "end": 140.07,
+          "confidence": 0.987
+        },
+        {
+          "text": "circles",
+          "start": 140.07,
+          "end": 140.69,
+          "confidence": 0.996
+        },
+        {
+          "text": "over.",
+          "start": 140.69,
+          "end": 141.75,
+          "confidence": 0.317
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "seek": 9614,
+      "start": 141.89,
+      "end": 146.43,
+      "text": " As the music got faster and faster,",
+      "tokens": [
+        51428,
+        1018,
+        264,
+        1318,
+        658,
+        4663,
+        293,
+        4663,
+        11,
+        51628
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.22817061497614935,
+      "compression_ratio": 1.4113924050632911,
+      "no_speech_prob": 0.016123320907354355,
+      "confidence": 0.542,
+      "words": [
+        {
+          "text": "As",
+          "start": 141.89,
+          "end": 142.19,
+          "confidence": 0.452
+        },
+        {
+          "text": "the",
+          "start": 142.19,
+          "end": 142.57,
+          "confidence": 0.989
+        },
+        {
+          "text": "music",
+          "start": 142.57,
+          "end": 143.31,
+          "confidence": 0.989
+        },
+        {
+          "text": "got",
+          "start": 143.31,
+          "end": 143.93,
+          "confidence": 0.987
+        },
+        {
+          "text": "faster",
+          "start": 143.93,
+          "end": 144.93,
+          "confidence": 0.973
+        },
+        {
+          "text": "and",
+          "start": 144.93,
+          "end": 145.65,
+          "confidence": 0.918
+        },
+        {
+          "text": "faster,",
+          "start": 145.65,
+          "end": 146.43,
+          "confidence": 0.139
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "seek": 12142,
+      "start": 146.43,
+      "end": 150.63,
+      "text": " She called out to the soulcatcher.",
+      "tokens": [
+        50378,
+        1240,
+        1219,
+        484,
+        281,
+        264,
+        5133,
+        66,
+        49871,
+        13,
+        50628
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.16778072010387074,
+      "compression_ratio": 1.6626506024096386,
+      "no_speech_prob": 0.06586961448192596,
+      "confidence": 0.515,
+      "words": [
+        {
+          "text": "She",
+          "start": 146.43,
+          "end": 147.09,
+          "confidence": 0.235
+        },
+        {
+          "text": "called",
+          "start": 147.09,
+          "end": 147.69,
+          "confidence": 0.937
+        },
+        {
+          "text": "out",
+          "start": 147.69,
+          "end": 148.09,
+          "confidence": 0.988
+        },
+        {
+          "text": "to",
+          "start": 148.09,
+          "end": 148.55,
+          "confidence": 0.992
+        },
+        {
+          "text": "the",
+          "start": 148.55,
+          "end": 149.01,
+          "confidence": 0.954
+        },
+        {
+          "text": "soulcatcher.",
+          "start": 149.01,
+          "end": 150.63,
+          "confidence": 0.334
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "seek": 12142,
+      "start": 151.67,
+      "end": 155.17,
+      "text": " La la la la...",
+      "tokens": [
+        50628,
+        2369,
+        635,
+        635,
+        635,
+        485,
+        50828
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.16778072010387074,
+      "compression_ratio": 1.6626506024096386,
+      "no_speech_prob": 0.06586961448192596,
+      "confidence": 0.221,
+      "words": [
+        {
+          "text": "La",
+          "start": 151.67,
+          "end": 152.17,
+          "confidence": 0.147
+        },
+        {
+          "text": "la",
+          "start": 152.17,
+          "end": 152.47,
+          "confidence": 0.71
+        },
+        {
+          "text": "la",
+          "start": 152.47,
+          "end": 152.81,
+          "confidence": 0.98
+        },
+        {
+          "text": "la...",
+          "start": 152.81,
+          "end": 155.17,
+          "confidence": 0.072
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "seek": 12142,
+      "start": 155.19,
+      "end": 156.83,
+      "text": " Soulcatcher.",
+      "tokens": [
+        50828,
+        13588,
+        66,
+        49871,
+        13,
+        50928
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.16778072010387074,
+      "compression_ratio": 1.6626506024096386,
+      "no_speech_prob": 0.06586961448192596,
+      "confidence": 0.018,
+      "words": [
+        {
+          "text": "Soulcatcher.",
+          "start": 155.19,
+          "end": 156.83,
+          "confidence": 0.018
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "seek": 12142,
+      "start": 156.83,
+      "end": 161.43,
+      "text": " La la la la...",
+      "tokens": [
+        50928,
+        2369,
+        635,
+        635,
+        635,
+        485,
+        51128
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.16778072010387074,
+      "compression_ratio": 1.6626506024096386,
+      "no_speech_prob": 0.06586961448192596,
+      "confidence": 0.232,
+      "words": [
+        {
+          "text": "La",
+          "start": 156.83,
+          "end": 158.37,
+          "confidence": 0.136
+        },
+        {
+          "text": "la",
+          "start": 158.37,
+          "end": 158.87,
+          "confidence": 0.602
+        },
+        {
+          "text": "la",
+          "start": 158.87,
+          "end": 159.33,
+          "confidence": 0.97
+        },
+        {
+          "text": "la...",
+          "start": 159.33,
+          "end": 161.43,
+          "confidence": 0.092
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "seek": 12142,
+      "start": 161.57,
+      "end": 163.61,
+      "text": " Soulcatcher.",
+      "tokens": [
+        51128,
+        13588,
+        66,
+        49871,
+        13,
+        51278
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.16778072010387074,
+      "compression_ratio": 1.6626506024096386,
+      "no_speech_prob": 0.06586961448192596,
+      "confidence": 0.034,
+      "words": [
+        {
+          "text": "Soulcatcher.",
+          "start": 161.57,
+          "end": 163.61,
+          "confidence": 0.034
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "seek": 12142,
+      "start": 164.69,
+      "end": 167.35,
+      "text": " La la la la...",
+      "tokens": [
+        51278,
+        2369,
+        635,
+        635,
+        635,
+        485,
+        51528
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.16778072010387074,
+      "compression_ratio": 1.6626506024096386,
+      "no_speech_prob": 0.06586961448192596,
+      "confidence": 0.263,
+      "words": [
+        {
+          "text": "La",
+          "start": 164.69,
+          "end": 165.19,
+          "confidence": 0.192
+        },
+        {
+          "text": "la",
+          "start": 165.19,
+          "end": 165.51,
+          "confidence": 0.671
+        },
+        {
+          "text": "la",
+          "start": 165.51,
+          "end": 165.87,
+          "confidence": 0.979
+        },
+        {
+          "text": "la...",
+          "start": 165.87,
+          "end": 167.35,
+          "confidence": 0.1
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "seek": 12142,
+      "start": 168.77,
+      "end": 177.61,
+      "text": " The birds flew round their cage,",
+      "tokens": [
+        51528,
+        440,
+        9009,
+        15728,
+        3098,
+        641,
+        17302,
+        11,
+        51728
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.16778072010387074,
+      "compression_ratio": 1.6626506024096386,
+      "no_speech_prob": 0.06586961448192596,
+      "confidence": 0.395,
+      "words": [
+        {
+          "text": "The",
+          "start": 168.77,
+          "end": 169.78,
+          "confidence": 0.223
+        },
+        {
+          "text": "birds",
+          "start": 174.93,
+          "end": 175.35,
+          "confidence": 0.919
+        },
+        {
+          "text": "flew",
+          "start": 175.35,
+          "end": 175.73,
+          "confidence": 0.944
+        },
+        {
+          "text": "round",
+          "start": 175.73,
+          "end": 176.33,
+          "confidence": 0.673
+        },
+        {
+          "text": "their",
+          "start": 176.33,
+          "end": 176.85,
+          "confidence": 0.851
+        },
+        {
+          "text": "cage,",
+          "start": 176.85,
+          "end": 177.61,
+          "confidence": 0.116
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "seek": 14870,
+      "start": 177.97,
+      "end": 180.59,
+      "text": " And broke their stupid wings,",
+      "tokens": [
+        50378,
+        400,
+        6902,
+        641,
+        6631,
+        11405,
+        11,
+        50528
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.162031888961792,
+      "compression_ratio": 1.3625,
+      "no_speech_prob": 0.010585539974272251,
+      "confidence": 0.326,
+      "words": [
+        {
+          "text": "And",
+          "start": 177.97,
+          "end": 178.27,
+          "confidence": 0.063
+        },
+        {
+          "text": "broke",
+          "start": 178.27,
+          "end": 178.53,
+          "confidence": 0.387
+        },
+        {
+          "text": "their",
+          "start": 178.53,
+          "end": 178.81,
+          "confidence": 0.897
+        },
+        {
+          "text": "stupid",
+          "start": 178.81,
+          "end": 179.67,
+          "confidence": 0.99
+        },
+        {
+          "text": "wings,",
+          "start": 179.67,
+          "end": 180.59,
+          "confidence": 0.236
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "seek": 14870,
+      "start": 180.97,
+      "end": 186.31,
+      "text": " As the room seemed to stop breathing.",
+      "tokens": [
+        50528,
+        1018,
+        264,
+        1808,
+        6576,
+        281,
+        1590,
+        9570,
+        13,
+        50828
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.162031888961792,
+      "compression_ratio": 1.3625,
+      "no_speech_prob": 0.010585539974272251,
+      "confidence": 0.281,
+      "words": [
+        {
+          "text": "As",
+          "start": 180.97,
+          "end": 181.37,
+          "confidence": 0.02
+        },
+        {
+          "text": "the",
+          "start": 181.37,
+          "end": 181.71,
+          "confidence": 0.966
+        },
+        {
+          "text": "room",
+          "start": 181.71,
+          "end": 182.05,
+          "confidence": 0.335
+        },
+        {
+          "text": "seemed",
+          "start": 182.05,
+          "end": 182.55,
+          "confidence": 0.214
+        },
+        {
+          "text": "to",
+          "start": 182.55,
+          "end": 182.79,
+          "confidence": 0.984
+        },
+        {
+          "text": "stop",
+          "start": 182.79,
+          "end": 183.19,
+          "confidence": 0.836
+        },
+        {
+          "text": "breathing.",
+          "start": 183.19,
+          "end": 186.31,
+          "confidence": 0.188
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "seek": 14870,
+      "start": 186.49,
+      "end": 200.81,
+      "text": " The soulcatcher took Jenny's soul away,",
+      "tokens": [
+        50828,
+        440,
+        5133,
+        66,
+        49871,
+        1890,
+        20580,
+        311,
+        5133,
+        1314,
+        11,
+        51078
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.162031888961792,
+      "compression_ratio": 1.3625,
+      "no_speech_prob": 0.010585539974272251,
+      "confidence": 0.482,
+      "words": [
+        {
+          "text": "The",
+          "start": 186.49,
+          "end": 187.25,
+          "confidence": 0.138
+        },
+        {
+          "text": "soulcatcher",
+          "start": 197.13,
+          "end": 198.21,
+          "confidence": 0.36
+        },
+        {
+          "text": "took",
+          "start": 198.21,
+          "end": 198.75,
+          "confidence": 0.981
+        },
+        {
+          "text": "Jenny's",
+          "start": 198.75,
+          "end": 199.73,
+          "confidence": 0.768
+        },
+        {
+          "text": "soul",
+          "start": 199.73,
+          "end": 199.95,
+          "confidence": 0.991
+        },
+        {
+          "text": "away,",
+          "start": 199.95,
+          "end": 200.81,
+          "confidence": 0.425
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "seek": 14870,
+      "start": 201.37,
+      "end": 205.53,
+      "text": " And hung it up to dry on a big plain tree,",
+      "tokens": [
+        51078,
+        400,
+        5753,
+        309,
+        493,
+        281,
+        4016,
+        322,
+        257,
+        955,
+        11121,
+        4230,
+        11,
+        51278
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.162031888961792,
+      "compression_ratio": 1.3625,
+      "no_speech_prob": 0.010585539974272251,
+      "confidence": 0.604,
+      "words": [
+        {
+          "text": "And",
+          "start": 201.37,
+          "end": 201.59,
+          "confidence": 0.2
+        },
+        {
+          "text": "hung",
+          "start": 201.59,
+          "end": 201.73,
+          "confidence": 0.98
+        },
+        {
+          "text": "it",
+          "start": 201.73,
+          "end": 201.97,
+          "confidence": 0.765
+        },
+        {
+          "text": "up",
+          "start": 201.97,
+          "end": 202.21,
+          "confidence": 0.892
+        },
+        {
+          "text": "to",
+          "start": 202.21,
+          "end": 202.53,
+          "confidence": 0.978
+        },
+        {
+          "text": "dry",
+          "start": 202.53,
+          "end": 202.97,
+          "confidence": 0.998
+        },
+        {
+          "text": "on",
+          "start": 202.97,
+          "end": 203.45,
+          "confidence": 0.871
+        },
+        {
+          "text": "a",
+          "start": 203.45,
+          "end": 203.79,
+          "confidence": 0.968
+        },
+        {
+          "text": "big",
+          "start": 203.79,
+          "end": 204.19,
+          "confidence": 0.991
+        },
+        {
+          "text": "plain",
+          "start": 204.19,
+          "end": 204.55,
+          "confidence": 0.681
+        },
+        {
+          "text": "tree,",
+          "start": 204.55,
+          "end": 205.53,
+          "confidence": 0.177
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "seek": 14870,
+      "start": 205.53,
+      "end": 211.02,
+      "text": " Whispering softly to himself.",
+      "tokens": [
+        51278,
+        506,
+        35237,
+        30832,
+        281,
+        3647,
+        13,
+        51578
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.162031888961792,
+      "compression_ratio": 1.3625,
+      "no_speech_prob": 0.010585539974272251,
+      "confidence": 0.558,
+      "words": [
+        {
+          "text": "Whispering",
+          "start": 205.53,
+          "end": 206.93,
+          "confidence": 0.365
+        },
+        {
+          "text": "softly",
+          "start": 207.25,
+          "end": 208.52,
+          "confidence": 0.807
+        },
+        {
+          "text": "to",
+          "start": 208.52,
+          "end": 209.82,
+          "confidence": 0.937
+        },
+        {
+          "text": "himself.",
+          "start": 209.82,
+          "end": 211.02,
+          "confidence": 0.547
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "seek": 14870,
+      "start": 214.59,
+      "end": 218.01,
+      "text": " He tapped his foot and turned around,",
+      "tokens": [
+        51578,
+        634,
+        38693,
+        702,
+        2671,
+        293,
+        3574,
+        926,
+        11,
+        51778
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.162031888961792,
+      "compression_ratio": 1.3625,
+      "no_speech_prob": 0.010585539974272251,
+      "confidence": 0.534,
+      "words": [
+        {
+          "text": "He",
+          "start": 214.59,
+          "end": 214.93,
+          "confidence": 0.61
+        },
+        {
+          "text": "tapped",
+          "start": 214.93,
+          "end": 215.17,
+          "confidence": 0.979
+        },
+        {
+          "text": "his",
+          "start": 215.17,
+          "end": 215.53,
+          "confidence": 0.994
+        },
+        {
+          "text": "foot",
+          "start": 215.53,
+          "end": 216.13,
+          "confidence": 0.932
+        },
+        {
+          "text": "and",
+          "start": 216.13,
+          "end": 216.69,
+          "confidence": 0.696
+        },
+        {
+          "text": "turned",
+          "start": 216.69,
+          "end": 217.21,
+          "confidence": 0.968
+        },
+        {
+          "text": "around,",
+          "start": 217.21,
+          "end": 218.01,
+          "confidence": 0.133
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "seek": 17698,
+      "start": 218.45,
+      "end": 222.53,
+      "text": " And disappeared down through a hole in the ground,",
+      "tokens": [
+        50378,
+        400,
+        13954,
+        760,
+        807,
+        257,
+        5458,
+        294,
+        264,
+        2727,
+        11,
+        50578
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.21375029014818597,
+      "compression_ratio": 1.4390243902439024,
+      "no_speech_prob": 0.011367382481694221,
+      "confidence": 0.515,
+      "words": [
+        {
+          "text": "And",
+          "start": 218.45,
+          "end": 218.95,
+          "confidence": 0.173
+        },
+        {
+          "text": "disappeared",
+          "start": 218.95,
+          "end": 219.67,
+          "confidence": 0.391
+        },
+        {
+          "text": "down",
+          "start": 219.67,
+          "end": 220.27,
+          "confidence": 0.961
+        },
+        {
+          "text": "through",
+          "start": 220.27,
+          "end": 220.69,
+          "confidence": 0.946
+        },
+        {
+          "text": "a",
+          "start": 220.69,
+          "end": 221.05,
+          "confidence": 0.974
+        },
+        {
+          "text": "hole",
+          "start": 221.05,
+          "end": 221.43,
+          "confidence": 0.997
+        },
+        {
+          "text": "in",
+          "start": 221.43,
+          "end": 221.81,
+          "confidence": 0.89
+        },
+        {
+          "text": "the",
+          "start": 221.81,
+          "end": 222.13,
+          "confidence": 0.991
+        },
+        {
+          "text": "ground,",
+          "start": 222.13,
+          "end": 222.53,
+          "confidence": 0.157
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "seek": 17698,
+      "start": 222.53,
+      "end": 230.91,
+      "text": " Where nothing means everything.",
+      "tokens": [
+        50578,
+        2305,
+        1825,
+        1355,
+        1203,
+        13,
+        51028
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.21375029014818597,
+      "compression_ratio": 1.4390243902439024,
+      "no_speech_prob": 0.011367382481694221,
+      "confidence": 0.538,
+      "words": [
+        {
+          "text": "Where",
+          "start": 222.53,
+          "end": 223.09,
+          "confidence": 0.272
+        },
+        {
+          "text": "nothing",
+          "start": 223.09,
+          "end": 224.27,
+          "confidence": 0.846
+        },
+        {
+          "text": "means",
+          "start": 224.59,
+          "end": 226.97,
+          "confidence": 0.725
+        },
+        {
+          "text": "everything.",
+          "start": 226.97,
+          "end": 230.91,
+          "confidence": 0.52
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "seek": 17698,
+      "start": 234.8,
+      "end": 237.56,
+      "text": " Everything.",
+      "tokens": [
+        51028,
+        5471,
+        13,
+        51278
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.21375029014818597,
+      "compression_ratio": 1.4390243902439024,
+      "no_speech_prob": 0.011367382481694221,
+      "confidence": 0.189,
+      "words": [
+        {
+          "text": "Everything.",
+          "start": 234.8,
+          "end": 237.56,
+          "confidence": 0.189
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "seek": 17698,
+      "start": 238.76,
+      "end": 239.86,
+      "text": " Everything.",
+      "tokens": [
+        51278,
+        5471,
+        13,
+        51528
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.21375029014818597,
+      "compression_ratio": 1.4390243902439024,
+      "no_speech_prob": 0.011367382481694221,
+      "confidence": 0.192,
+      "words": [
+        {
+          "text": "Everything.",
+          "start": 238.76,
+          "end": 239.86,
+          "confidence": 0.192
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "seek": 17698,
+      "start": 246.6,
+      "end": 247.92,
+      "text": " Everything.",
+      "tokens": [
+        51528,
+        5471,
+        13,
+        51778
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.21375029014818597,
+      "compression_ratio": 1.4390243902439024,
+      "no_speech_prob": 0.011367382481694221,
+      "confidence": 0.023,
+      "words": [
+        {
+          "text": "Everything.",
+          "start": 246.6,
+          "end": 247.92,
+          "confidence": 0.023
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "seek": 20526,
+      "start": 258.54,
+      "end": 262.01,
+      "text": " Everything.",
+      "tokens": [
+        50378,
+        5471,
+        13,
+        50628
+      ],
+      "temperature": 1.0,
+      "avg_logprob": -0.9875952647282527,
+      "compression_ratio": 3.0869565217391304,
+      "no_speech_prob": 0.35495898127555847,
+      "confidence": 0.022,
+      "words": [
+        {
+          "text": "Everything.",
+          "start": 258.54,
+          "end": 262.01,
+          "confidence": 0.022
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "seek": 20526,
+      "start": 266.95,
+      "end": 270.73,
+      "text": " Everything.",
+      "tokens": [
+        50678,
+        5471,
+        13,
+        51004
+      ],
+      "temperature": 1.0,
+      "avg_logprob": -0.9875952647282527,
+      "compression_ratio": 3.0869565217391304,
+      "no_speech_prob": 0.35495898127555847,
+      "confidence": 0.007,
+      "words": [
+        {
+          "text": "Everything.",
+          "start": 266.95,
+          "end": 270.73,
+          "confidence": 0.007
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "seek": 20526,
+      "start": 275.46,
+      "end": 278.14,
+      "text": " Everything.",
+      "tokens": [
+        51004,
+        5471,
+        13,
+        51154
+      ],
+      "temperature": 1.0,
+      "avg_logprob": -0.9875952647282527,
+      "compression_ratio": 3.0869565217391304,
+      "no_speech_prob": 0.35495898127555847,
+      "confidence": 0.242,
+      "words": [
+        {
+          "text": "Everything.",
+          "start": 275.46,
+          "end": 278.14,
+          "confidence": 0.242
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "seek": 20526,
+      "start": 282.35,
+      "end": 285.48,
+      "text": " Everything.",
+      "tokens": [
+        51154,
+        5471,
+        13,
+        51504
+      ],
+      "temperature": 1.0,
+      "avg_logprob": -0.9875952647282527,
+      "compression_ratio": 3.0869565217391304,
+      "no_speech_prob": 0.35495898127555847,
+      "confidence": 0.002,
+      "words": [
+        {
+          "text": "Everything.",
+          "start": 282.35,
+          "end": 285.48,
+          "confidence": 0.002
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "seek": 20526,
+      "start": 291.11,
+      "end": 292.85,
+      "text": " Everything.",
+      "tokens": [
+        51504,
+        5471,
+        13,
+        51654
+      ],
+      "temperature": 1.0,
+      "avg_logprob": -0.9875952647282527,
+      "compression_ratio": 3.0869565217391304,
+      "no_speech_prob": 0.35495898127555847,
+      "confidence": 0.003,
+      "words": [
+        {
+          "text": "Everything.",
+          "start": 291.11,
+          "end": 292.85,
+          "confidence": 0.003
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "seek": 20526,
+      "start": 294.11,
+      "end": 294.71,
+      "text": " Everything.",
+      "tokens": [
+        51654,
+        5471,
+        13,
+        51854
+      ],
+      "temperature": 1.0,
+      "avg_logprob": -0.9875952647282527,
+      "compression_ratio": 3.0869565217391304,
+      "no_speech_prob": 0.35495898127555847,
+      "confidence": 0.003,
+      "words": [
+        {
+          "text": "Everything.",
+          "start": 294.11,
+          "end": 294.71,
+          "confidence": 0.003
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "seek": 23506,
+      "start": 300.57,
+      "end": 301.41,
+      "text": " Everything.",
+      "tokens": [
+        50404,
+        5471,
+        13,
+        50554
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.5167016506195068,
+      "compression_ratio": 0.5789473684210527,
+      "no_speech_prob": 0.46912845969200134,
+      "confidence": 0.002,
+      "words": [
+        {
+          "text": "Everything.",
+          "start": 300.57,
+          "end": 301.41,
+          "confidence": 0.002
+        }
+      ]
+    }
+  ],
+  "language": "en"
+}

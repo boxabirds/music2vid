@@ -1,0 +1,1985 @@
+{
+  "text": " Peek-a-Boo! I can see you, and I know what you do. So put your hands on your face, and cover up your eyes. Don't look until I signal. Peek-a-Boo! Ha ha ha ha! Ha ha ha ha! Peek-a-Boo! Ha ha ha ha! Peek-a-Boo! The way that we work is what we become, so please pay attention while I show you some of what's about to happen. Peek-a-Boo! I know what you do, cause I do it too. So put your hands on your face, and cover up your eyes. Don't look until I signal. Peek-a-Boo! Ha ha ha ha! Ha ha ha ha! Peek-a-Boo! Ha ha ha ha! Peek-a-Boo! Laugh if you want to, or say you don't care. If you cannot see it, you think it's not there. It doesn't work that way. Peek-a-Boo! I can see you, and I know what you do. So put your hands on your face, and cover up your eyes. Don't look until I signal. Peek-a-Boo! Ha ha ha ha! Ha ha ha ha! Peek-a-Boo! Ha ha ha ha! Ha ha ha ha! Peek-a-Boo! The winner we want, is what we'll become. So please pay attention while I show you some, of what's about to happen. Peek-a-Boo!",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 28.26,
+      "end": 37.21,
+      "text": " Peek-a-Boo! I can see you, and I know what you do.",
+      "tokens": [
+        50364,
+        2396,
+        916,
+        12,
+        64,
+        12,
+        33,
+        1986,
+        0,
+        286,
+        393,
+        536,
+        291,
+        11,
+        293,
+        286,
+        458,
+        437,
+        291,
+        360,
+        13,
+        50814
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.2170930010207156,
+      "compression_ratio": 1.625,
+      "no_speech_prob": 0.5140634775161743,
+      "confidence": 0.63,
+      "words": [
+        {
+          "text": "Peek-a-Boo!",
+          "start": 28.26,
+          "end": 29.6,
+          "confidence": 0.499
+        },
+        {
+          "text": "I",
+          "start": 30.61,
+          "end": 31.39,
+          "confidence": 0.467
+        },
+        {
+          "text": "can",
+          "start": 31.39,
+          "end": 31.87,
+          "confidence": 0.92
+        },
+        {
+          "text": "see",
+          "start": 31.87,
+          "end": 32.39,
+          "confidence": 0.988
+        },
+        {
+          "text": "you,",
+          "start": 32.39,
+          "end": 33.11,
+          "confidence": 0.515
+        },
+        {
+          "text": "and",
+          "start": 34.67,
+          "end": 34.83,
+          "confidence": 0.887
+        },
+        {
+          "text": "I",
+          "start": 34.83,
+          "end": 35.25,
+          "confidence": 0.988
+        },
+        {
+          "text": "know",
+          "start": 35.25,
+          "end": 35.57,
+          "confidence": 0.995
+        },
+        {
+          "text": "what",
+          "start": 35.57,
+          "end": 35.99,
+          "confidence": 0.991
+        },
+        {
+          "text": "you",
+          "start": 35.99,
+          "end": 36.39,
+          "confidence": 0.993
+        },
+        {
+          "text": "do.",
+          "start": 36.39,
+          "end": 37.21,
+          "confidence": 0.511
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 37.57,
+      "end": 42.9,
+      "text": " So put your hands on your face, and cover up your eyes.",
+      "tokens": [
+        50814,
+        407,
+        829,
+        428,
+        2377,
+        322,
+        428,
+        1851,
+        11,
+        293,
+        2060,
+        493,
+        428,
+        2575,
+        13,
+        51064
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.2170930010207156,
+      "compression_ratio": 1.625,
+      "no_speech_prob": 0.5140634775161743,
+      "confidence": 0.734,
+      "words": [
+        {
+          "text": "So",
+          "start": 37.57,
+          "end": 37.85,
+          "confidence": 0.662
+        },
+        {
+          "text": "put",
+          "start": 37.85,
+          "end": 38.11,
+          "confidence": 0.912
+        },
+        {
+          "text": "your",
+          "start": 38.11,
+          "end": 38.33,
+          "confidence": 0.991
+        },
+        {
+          "text": "hands",
+          "start": 38.33,
+          "end": 38.69,
+          "confidence": 0.747
+        },
+        {
+          "text": "on",
+          "start": 38.69,
+          "end": 38.95,
+          "confidence": 0.984
+        },
+        {
+          "text": "your",
+          "start": 38.95,
+          "end": 39.13,
+          "confidence": 0.993
+        },
+        {
+          "text": "face,",
+          "start": 39.13,
+          "end": 39.61,
+          "confidence": 0.407
+        },
+        {
+          "text": "and",
+          "start": 41.5,
+          "end": 41.58,
+          "confidence": 0.647
+        },
+        {
+          "text": "cover",
+          "start": 41.58,
+          "end": 42.02,
+          "confidence": 0.993
+        },
+        {
+          "text": "up",
+          "start": 42.02,
+          "end": 42.32,
+          "confidence": 0.984
+        },
+        {
+          "text": "your",
+          "start": 42.32,
+          "end": 42.52,
+          "confidence": 0.994
+        },
+        {
+          "text": "eyes.",
+          "start": 42.52,
+          "end": 42.9,
+          "confidence": 0.541
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 44.14,
+      "end": 48.27,
+      "text": " Don't look until I signal. Peek-a-Boo!",
+      "tokens": [
+        51064,
+        1468,
+        380,
+        574,
+        1826,
+        286,
+        6358,
+        13,
+        2396,
+        916,
+        12,
+        64,
+        12,
+        33,
+        1986,
+        0,
+        51314
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.2170930010207156,
+      "compression_ratio": 1.625,
+      "no_speech_prob": 0.5140634775161743,
+      "confidence": 0.313,
+      "words": [
+        {
+          "text": "Don't",
+          "start": 44.14,
+          "end": 44.99,
+          "confidence": 0.542
+        },
+        {
+          "text": "look",
+          "start": 44.99,
+          "end": 45.17,
+          "confidence": 0.985
+        },
+        {
+          "text": "until",
+          "start": 45.17,
+          "end": 45.49,
+          "confidence": 0.203
+        },
+        {
+          "text": "I",
+          "start": 45.49,
+          "end": 45.79,
+          "confidence": 0.949
+        },
+        {
+          "text": "signal.",
+          "start": 45.79,
+          "end": 46.51,
+          "confidence": 0.26
+        },
+        {
+          "text": "Peek-a-Boo!",
+          "start": 46.51,
+          "end": 48.27,
+          "confidence": 0.228
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 48.33,
+      "end": 52.14,
+      "text": " Ha ha ha ha! Ha ha ha ha!",
+      "tokens": [
+        51314,
+        4064,
+        324,
+        324,
+        324,
+        0,
+        4064,
+        324,
+        324,
+        324,
+        0,
+        51464
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.2170930010207156,
+      "compression_ratio": 1.625,
+      "no_speech_prob": 0.5140634775161743,
+      "confidence": 0.482,
+      "words": [
+        {
+          "text": "Ha",
+          "start": 48.33,
+          "end": 48.75,
+          "confidence": 0.038
+        },
+        {
+          "text": "ha",
+          "start": 48.75,
+          "end": 49.21,
+          "confidence": 0.692
+        },
+        {
+          "text": "ha",
+          "start": 49.21,
+          "end": 49.57,
+          "confidence": 0.964
+        },
+        {
+          "text": "ha!",
+          "start": 49.57,
+          "end": 49.75,
+          "confidence": 0.422
+        },
+        {
+          "text": "Ha",
+          "start": 50.78,
+          "end": 51.16,
+          "confidence": 0.182
+        },
+        {
+          "text": "ha",
+          "start": 51.16,
+          "end": 51.54,
+          "confidence": 0.99
+        },
+        {
+          "text": "ha",
+          "start": 51.54,
+          "end": 51.92,
+          "confidence": 0.996
+        },
+        {
+          "text": "ha!",
+          "start": 51.92,
+          "end": 52.14,
+          "confidence": 0.914
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 52.32,
+      "end": 54.35,
+      "text": " Peek-a-Boo! Ha ha ha ha!",
+      "tokens": [
+        51464,
+        2396,
+        916,
+        12,
+        64,
+        12,
+        33,
+        1986,
+        0,
+        4064,
+        324,
+        324,
+        324,
+        0,
+        51564
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.2170930010207156,
+      "compression_ratio": 1.625,
+      "no_speech_prob": 0.5140634775161743,
+      "confidence": 0.272,
+      "words": [
+        {
+          "text": "Peek-a-Boo!",
+          "start": 52.32,
+          "end": 53.3,
+          "confidence": 0.496
+        },
+        {
+          "text": "Ha",
+          "start": 53.56,
+          "end": 53.58,
+          "confidence": 0.0
+        },
+        {
+          "text": "ha",
+          "start": 53.58,
+          "end": 54.14,
+          "confidence": 0.399
+        },
+        {
+          "text": "ha",
+          "start": 54.14,
+          "end": 54.3,
+          "confidence": 0.746
+        },
+        {
+          "text": "ha!",
+          "start": 54.3,
+          "end": 54.35,
+          "confidence": 0.375
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 57.45,
+      "end": 58.45,
+      "text": " Peek-a-Boo!",
+      "tokens": [
+        51564,
+        2396,
+        916,
+        12,
+        64,
+        12,
+        33,
+        1986,
+        0,
+        51664
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.2170930010207156,
+      "compression_ratio": 1.625,
+      "no_speech_prob": 0.5140634775161743,
+      "confidence": 0.348,
+      "words": [
+        {
+          "text": "Peek-a-Boo!",
+          "start": 57.45,
+          "end": 58.45,
+          "confidence": 0.348
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "seek": 2600,
+      "start": 59.53,
+      "end": 67.63,
+      "text": " The way that we work is what we become, so please pay attention while I show you some of what's about to happen.",
+      "tokens": [
+        50364,
+        440,
+        636,
+        300,
+        321,
+        589,
+        307,
+        437,
+        321,
+        1813,
+        11,
+        370,
+        1767,
+        1689,
+        3202,
+        1339,
+        286,
+        855,
+        291,
+        512,
+        295,
+        437,
+        311,
+        466,
+        281,
+        1051,
+        13,
+        50764
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.10952477174646714,
+      "compression_ratio": 1.4742857142857142,
+      "no_speech_prob": 0.40909597277641296,
+      "confidence": 0.663,
+      "words": [
+        {
+          "text": "The",
+          "start": 59.53,
+          "end": 59.73,
+          "confidence": 0.166
+        },
+        {
+          "text": "way",
+          "start": 59.73,
+          "end": 60.27,
+          "confidence": 0.953
+        },
+        {
+          "text": "that",
+          "start": 60.27,
+          "end": 60.49,
+          "confidence": 0.957
+        },
+        {
+          "text": "we",
+          "start": 60.49,
+          "end": 60.65,
+          "confidence": 0.986
+        },
+        {
+          "text": "work",
+          "start": 60.65,
+          "end": 60.99,
+          "confidence": 0.682
+        },
+        {
+          "text": "is",
+          "start": 60.99,
+          "end": 61.49,
+          "confidence": 0.325
+        },
+        {
+          "text": "what",
+          "start": 61.49,
+          "end": 61.71,
+          "confidence": 0.214
+        },
+        {
+          "text": "we",
+          "start": 61.71,
+          "end": 61.97,
+          "confidence": 0.579
+        },
+        {
+          "text": "become,",
+          "start": 61.97,
+          "end": 62.39,
+          "confidence": 0.312
+        },
+        {
+          "text": "so",
+          "start": 62.95,
+          "end": 63.13,
+          "confidence": 0.632
+        },
+        {
+          "text": "please",
+          "start": 63.13,
+          "end": 63.51,
+          "confidence": 0.928
+        },
+        {
+          "text": "pay",
+          "start": 63.51,
+          "end": 63.81,
+          "confidence": 0.987
+        },
+        {
+          "text": "attention",
+          "start": 63.81,
+          "end": 64.27,
+          "confidence": 0.997
+        },
+        {
+          "text": "while",
+          "start": 64.27,
+          "end": 64.61,
+          "confidence": 0.937
+        },
+        {
+          "text": "I",
+          "start": 64.61,
+          "end": 64.83,
+          "confidence": 0.957
+        },
+        {
+          "text": "show",
+          "start": 64.83,
+          "end": 65.01,
+          "confidence": 0.988
+        },
+        {
+          "text": "you",
+          "start": 65.01,
+          "end": 65.37,
+          "confidence": 0.94
+        },
+        {
+          "text": "some",
+          "start": 65.37,
+          "end": 65.73,
+          "confidence": 0.774
+        },
+        {
+          "text": "of",
+          "start": 65.73,
+          "end": 66.39,
+          "confidence": 0.39
+        },
+        {
+          "text": "what's",
+          "start": 66.39,
+          "end": 66.77,
+          "confidence": 0.962
+        },
+        {
+          "text": "about",
+          "start": 66.77,
+          "end": 66.99,
+          "confidence": 0.991
+        },
+        {
+          "text": "to",
+          "start": 66.99,
+          "end": 67.27,
+          "confidence": 0.995
+        },
+        {
+          "text": "happen.",
+          "start": 67.27,
+          "end": 67.63,
+          "confidence": 0.655
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "seek": 2600,
+      "start": 68.05,
+      "end": 76.41,
+      "text": " Peek-a-Boo! I know what you do, cause I do it too.",
+      "tokens": [
+        50764,
+        2396,
+        916,
+        12,
+        64,
+        12,
+        33,
+        1986,
+        0,
+        286,
+        458,
+        437,
+        291,
+        360,
+        11,
+        3082,
+        286,
+        360,
+        309,
+        886,
+        13,
+        51214
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.10952477174646714,
+      "compression_ratio": 1.4742857142857142,
+      "no_speech_prob": 0.40909597277641296,
+      "confidence": 0.505,
+      "words": [
+        {
+          "text": "Peek-a-Boo!",
+          "start": 68.05,
+          "end": 69.47,
+          "confidence": 0.37
+        },
+        {
+          "text": "I",
+          "start": 70.48,
+          "end": 71.26,
+          "confidence": 0.4
+        },
+        {
+          "text": "know",
+          "start": 71.26,
+          "end": 71.74,
+          "confidence": 0.951
+        },
+        {
+          "text": "what",
+          "start": 71.74,
+          "end": 72.06,
+          "confidence": 0.994
+        },
+        {
+          "text": "you",
+          "start": 72.06,
+          "end": 72.44,
+          "confidence": 0.995
+        },
+        {
+          "text": "do,",
+          "start": 72.44,
+          "end": 73.02,
+          "confidence": 0.504
+        },
+        {
+          "text": "cause",
+          "start": 74.35,
+          "end": 74.57,
+          "confidence": 0.176
+        },
+        {
+          "text": "I",
+          "start": 74.57,
+          "end": 75.13,
+          "confidence": 0.965
+        },
+        {
+          "text": "do",
+          "start": 75.13,
+          "end": 75.51,
+          "confidence": 0.973
+        },
+        {
+          "text": "it",
+          "start": 75.51,
+          "end": 75.89,
+          "confidence": 0.996
+        },
+        {
+          "text": "too.",
+          "start": 75.89,
+          "end": 76.41,
+          "confidence": 0.459
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "seek": 2600,
+      "start": 77.29,
+      "end": 82.67,
+      "text": " So put your hands on your face, and cover up your eyes.",
+      "tokens": [
+        51214,
+        407,
+        829,
+        428,
+        2377,
+        322,
+        428,
+        1851,
+        11,
+        293,
+        2060,
+        493,
+        428,
+        2575,
+        13,
+        51514
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.10952477174646714,
+      "compression_ratio": 1.4742857142857142,
+      "no_speech_prob": 0.40909597277641296,
+      "confidence": 0.746,
+      "words": [
+        {
+          "text": "So",
+          "start": 77.29,
+          "end": 77.55,
+          "confidence": 0.502
+        },
+        {
+          "text": "put",
+          "start": 77.55,
+          "end": 77.77,
+          "confidence": 0.884
+        },
+        {
+          "text": "your",
+          "start": 77.77,
+          "end": 78.01,
+          "confidence": 0.995
+        },
+        {
+          "text": "hands",
+          "start": 78.01,
+          "end": 78.37,
+          "confidence": 0.885
+        },
+        {
+          "text": "on",
+          "start": 78.37,
+          "end": 78.65,
+          "confidence": 0.984
+        },
+        {
+          "text": "your",
+          "start": 78.65,
+          "end": 78.85,
+          "confidence": 0.994
+        },
+        {
+          "text": "face,",
+          "start": 78.85,
+          "end": 79.49,
+          "confidence": 0.478
+        },
+        {
+          "text": "and",
+          "start": 81.17,
+          "end": 81.31,
+          "confidence": 0.648
+        },
+        {
+          "text": "cover",
+          "start": 81.31,
+          "end": 81.69,
+          "confidence": 0.979
+        },
+        {
+          "text": "up",
+          "start": 81.69,
+          "end": 82.03,
+          "confidence": 0.986
+        },
+        {
+          "text": "your",
+          "start": 82.03,
+          "end": 82.25,
+          "confidence": 0.994
+        },
+        {
+          "text": "eyes.",
+          "start": 82.25,
+          "end": 82.67,
+          "confidence": 0.554
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "seek": 2600,
+      "start": 83.85,
+      "end": 87.92,
+      "text": " Don't look until I signal. Peek-a-Boo!",
+      "tokens": [
+        51514,
+        1468,
+        380,
+        574,
+        1826,
+        286,
+        6358,
+        13,
+        2396,
+        916,
+        12,
+        64,
+        12,
+        33,
+        1986,
+        0,
+        51714
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.10952477174646714,
+      "compression_ratio": 1.4742857142857142,
+      "no_speech_prob": 0.40909597277641296,
+      "confidence": 0.326,
+      "words": [
+        {
+          "text": "Don't",
+          "start": 83.85,
+          "end": 84.72,
+          "confidence": 0.22
+        },
+        {
+          "text": "look",
+          "start": 84.72,
+          "end": 84.94,
+          "confidence": 0.715
+        },
+        {
+          "text": "until",
+          "start": 84.94,
+          "end": 85.26,
+          "confidence": 0.189
+        },
+        {
+          "text": "I",
+          "start": 85.26,
+          "end": 85.52,
+          "confidence": 0.975
+        },
+        {
+          "text": "signal.",
+          "start": 85.52,
+          "end": 86.28,
+          "confidence": 0.304
+        },
+        {
+          "text": "Peek-a-Boo!",
+          "start": 86.28,
+          "end": 87.92,
+          "confidence": 0.309
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "seek": 5300,
+      "start": 87.92,
+      "end": 91.89,
+      "text": " Ha ha ha ha! Ha ha ha ha!",
+      "tokens": [
+        50364,
+        4064,
+        324,
+        324,
+        324,
+        0,
+        4064,
+        324,
+        324,
+        324,
+        0,
+        50564
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.0857245835913233,
+      "compression_ratio": 1.5691056910569106,
+      "no_speech_prob": 0.2676942050457001,
+      "confidence": 0.427,
+      "words": [
+        {
+          "text": "Ha",
+          "start": 87.92,
+          "end": 88.5,
+          "confidence": 0.02
+        },
+        {
+          "text": "ha",
+          "start": 88.5,
+          "end": 89.02,
+          "confidence": 0.736
+        },
+        {
+          "text": "ha",
+          "start": 89.02,
+          "end": 89.42,
+          "confidence": 0.964
+        },
+        {
+          "text": "ha!",
+          "start": 89.93,
+          "end": 90.07,
+          "confidence": 0.416
+        },
+        {
+          "text": "Ha",
+          "start": 90.53,
+          "end": 90.73,
+          "confidence": 0.122
+        },
+        {
+          "text": "ha",
+          "start": 90.73,
+          "end": 91.29,
+          "confidence": 0.986
+        },
+        {
+          "text": "ha",
+          "start": 91.29,
+          "end": 91.61,
+          "confidence": 0.995
+        },
+        {
+          "text": "ha!",
+          "start": 91.61,
+          "end": 91.89,
+          "confidence": 0.819
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "seek": 5300,
+      "start": 92.09,
+      "end": 94.31,
+      "text": " Peek-a-Boo! Ha ha ha ha!",
+      "tokens": [
+        50564,
+        2396,
+        916,
+        12,
+        64,
+        12,
+        33,
+        1986,
+        0,
+        4064,
+        324,
+        324,
+        324,
+        0,
+        50664
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.0857245835913233,
+      "compression_ratio": 1.5691056910569106,
+      "no_speech_prob": 0.2676942050457001,
+      "confidence": 0.304,
+      "words": [
+        {
+          "text": "Peek-a-Boo!",
+          "start": 92.09,
+          "end": 93.09,
+          "confidence": 0.367
+        },
+        {
+          "text": "Ha",
+          "start": 93.21,
+          "end": 93.57,
+          "confidence": 0.003
+        },
+        {
+          "text": "ha",
+          "start": 93.57,
+          "end": 93.85,
+          "confidence": 0.504
+        },
+        {
+          "text": "ha",
+          "start": 93.85,
+          "end": 94.23,
+          "confidence": 0.922
+        },
+        {
+          "text": "ha!",
+          "start": 94.23,
+          "end": 94.31,
+          "confidence": 0.643
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "seek": 5300,
+      "start": 97.03,
+      "end": 98.07,
+      "text": " Peek-a-Boo!",
+      "tokens": [
+        50664,
+        2396,
+        916,
+        12,
+        64,
+        12,
+        33,
+        1986,
+        0,
+        50764
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.0857245835913233,
+      "compression_ratio": 1.5691056910569106,
+      "no_speech_prob": 0.2676942050457001,
+      "confidence": 0.512,
+      "words": [
+        {
+          "text": "Peek-a-Boo!",
+          "start": 97.03,
+          "end": 98.07,
+          "confidence": 0.512
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "seek": 5300,
+      "start": 108.25,
+      "end": 118.95,
+      "text": " Laugh if you want to, or say you don't care. If you cannot see it, you think it's not there. It doesn't work that way. Peek-a-Boo!",
+      "tokens": [
+        51264,
+        2369,
+        1984,
+        498,
+        291,
+        528,
+        281,
+        11,
+        420,
+        584,
+        291,
+        500,
+        380,
+        1127,
+        13,
+        759,
+        291,
+        2644,
+        536,
+        309,
+        11,
+        291,
+        519,
+        309,
+        311,
+        406,
+        456,
+        13,
+        467,
+        1177,
+        380,
+        589,
+        300,
+        636,
+        13,
+        2396,
+        916,
+        12,
+        64,
+        12,
+        33,
+        1986,
+        0,
+        51814
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.0857245835913233,
+      "compression_ratio": 1.5691056910569106,
+      "no_speech_prob": 0.2676942050457001,
+      "confidence": 0.724,
+      "words": [
+        {
+          "text": "Laugh",
+          "start": 108.25,
+          "end": 109.81,
+          "confidence": 0.229
+        },
+        {
+          "text": "if",
+          "start": 109.81,
+          "end": 110.03,
+          "confidence": 0.84
+        },
+        {
+          "text": "you",
+          "start": 110.03,
+          "end": 110.27,
+          "confidence": 0.992
+        },
+        {
+          "text": "want",
+          "start": 110.27,
+          "end": 110.51,
+          "confidence": 0.994
+        },
+        {
+          "text": "to,",
+          "start": 110.51,
+          "end": 110.85,
+          "confidence": 0.675
+        },
+        {
+          "text": "or",
+          "start": 110.89,
+          "end": 111.15,
+          "confidence": 0.798
+        },
+        {
+          "text": "say",
+          "start": 111.15,
+          "end": 111.29,
+          "confidence": 0.991
+        },
+        {
+          "text": "you",
+          "start": 111.29,
+          "end": 111.47,
+          "confidence": 0.989
+        },
+        {
+          "text": "don't",
+          "start": 111.47,
+          "end": 111.97,
+          "confidence": 0.993
+        },
+        {
+          "text": "care.",
+          "start": 111.97,
+          "end": 112.21,
+          "confidence": 0.543
+        },
+        {
+          "text": "If",
+          "start": 112.61,
+          "end": 112.93,
+          "confidence": 0.486
+        },
+        {
+          "text": "you",
+          "start": 112.93,
+          "end": 113.27,
+          "confidence": 0.996
+        },
+        {
+          "text": "cannot",
+          "start": 113.27,
+          "end": 113.49,
+          "confidence": 0.865
+        },
+        {
+          "text": "see",
+          "start": 113.49,
+          "end": 113.85,
+          "confidence": 0.982
+        },
+        {
+          "text": "it,",
+          "start": 113.85,
+          "end": 114.11,
+          "confidence": 0.949
+        },
+        {
+          "text": "you",
+          "start": 114.33,
+          "end": 114.43,
+          "confidence": 0.962
+        },
+        {
+          "text": "think",
+          "start": 114.43,
+          "end": 114.63,
+          "confidence": 0.962
+        },
+        {
+          "text": "it's",
+          "start": 114.63,
+          "end": 114.91,
+          "confidence": 0.98
+        },
+        {
+          "text": "not",
+          "start": 114.91,
+          "end": 115.13,
+          "confidence": 0.983
+        },
+        {
+          "text": "there.",
+          "start": 115.13,
+          "end": 115.39,
+          "confidence": 0.677
+        },
+        {
+          "text": "It",
+          "start": 115.73,
+          "end": 116.03,
+          "confidence": 0.547
+        },
+        {
+          "text": "doesn't",
+          "start": 116.03,
+          "end": 116.45,
+          "confidence": 0.99
+        },
+        {
+          "text": "work",
+          "start": 116.45,
+          "end": 116.71,
+          "confidence": 0.991
+        },
+        {
+          "text": "that",
+          "start": 116.71,
+          "end": 116.99,
+          "confidence": 0.994
+        },
+        {
+          "text": "way.",
+          "start": 116.99,
+          "end": 117.53,
+          "confidence": 0.832
+        },
+        {
+          "text": "Peek-a-Boo!",
+          "start": 117.67,
+          "end": 118.95,
+          "confidence": 0.521
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "seek": 8200,
+      "start": 120.51,
+      "end": 126.19,
+      "text": " I can see you, and I know what you do.",
+      "tokens": [
+        50364,
+        286,
+        393,
+        536,
+        291,
+        11,
+        293,
+        286,
+        458,
+        437,
+        291,
+        360,
+        13,
+        50664
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.03747939807112499,
+      "compression_ratio": 1.7131147540983607,
+      "no_speech_prob": 0.18479448556900024,
+      "confidence": 0.786,
+      "words": [
+        {
+          "text": "I",
+          "start": 120.51,
+          "end": 120.77,
+          "confidence": 0.724
+        },
+        {
+          "text": "can",
+          "start": 120.77,
+          "end": 121.17,
+          "confidence": 0.857
+        },
+        {
+          "text": "see",
+          "start": 121.17,
+          "end": 121.71,
+          "confidence": 0.99
+        },
+        {
+          "text": "you,",
+          "start": 121.71,
+          "end": 122.41,
+          "confidence": 0.47
+        },
+        {
+          "text": "and",
+          "start": 123.99,
+          "end": 124.19,
+          "confidence": 0.832
+        },
+        {
+          "text": "I",
+          "start": 124.19,
+          "end": 124.49,
+          "confidence": 0.984
+        },
+        {
+          "text": "know",
+          "start": 124.49,
+          "end": 124.85,
+          "confidence": 0.993
+        },
+        {
+          "text": "what",
+          "start": 124.85,
+          "end": 125.25,
+          "confidence": 0.996
+        },
+        {
+          "text": "you",
+          "start": 125.25,
+          "end": 125.61,
+          "confidence": 0.997
+        },
+        {
+          "text": "do.",
+          "start": 125.61,
+          "end": 126.19,
+          "confidence": 0.714
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "seek": 8200,
+      "start": 126.95,
+      "end": 132.29,
+      "text": " So put your hands on your face, and cover up your eyes.",
+      "tokens": [
+        50664,
+        407,
+        829,
+        428,
+        2377,
+        322,
+        428,
+        1851,
+        11,
+        293,
+        2060,
+        493,
+        428,
+        2575,
+        13,
+        50964
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.03747939807112499,
+      "compression_ratio": 1.7131147540983607,
+      "no_speech_prob": 0.18479448556900024,
+      "confidence": 0.722,
+      "words": [
+        {
+          "text": "So",
+          "start": 126.95,
+          "end": 127.21,
+          "confidence": 0.511
+        },
+        {
+          "text": "put",
+          "start": 127.21,
+          "end": 127.45,
+          "confidence": 0.952
+        },
+        {
+          "text": "your",
+          "start": 127.45,
+          "end": 127.65,
+          "confidence": 0.995
+        },
+        {
+          "text": "hands",
+          "start": 127.65,
+          "end": 128.03,
+          "confidence": 0.64
+        },
+        {
+          "text": "on",
+          "start": 128.03,
+          "end": 128.31,
+          "confidence": 0.976
+        },
+        {
+          "text": "your",
+          "start": 128.31,
+          "end": 128.49,
+          "confidence": 0.992
+        },
+        {
+          "text": "face,",
+          "start": 128.49,
+          "end": 129.09,
+          "confidence": 0.526
+        },
+        {
+          "text": "and",
+          "start": 130.89,
+          "end": 131.09,
+          "confidence": 0.635
+        },
+        {
+          "text": "cover",
+          "start": 131.09,
+          "end": 131.33,
+          "confidence": 0.72
+        },
+        {
+          "text": "up",
+          "start": 131.33,
+          "end": 131.71,
+          "confidence": 0.992
+        },
+        {
+          "text": "your",
+          "start": 131.71,
+          "end": 131.97,
+          "confidence": 0.995
+        },
+        {
+          "text": "eyes.",
+          "start": 131.97,
+          "end": 132.29,
+          "confidence": 0.53
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "seek": 8200,
+      "start": 133.49,
+      "end": 137.63,
+      "text": " Don't look until I signal. Peek-a-Boo!",
+      "tokens": [
+        50964,
+        1468,
+        380,
+        574,
+        1826,
+        286,
+        6358,
+        13,
+        2396,
+        916,
+        12,
+        64,
+        12,
+        33,
+        1986,
+        0,
+        51164
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.03747939807112499,
+      "compression_ratio": 1.7131147540983607,
+      "no_speech_prob": 0.18479448556900024,
+      "confidence": 0.233,
+      "words": [
+        {
+          "text": "Don't",
+          "start": 133.49,
+          "end": 134.29,
+          "confidence": 0.487
+        },
+        {
+          "text": "look",
+          "start": 134.29,
+          "end": 134.51,
+          "confidence": 0.916
+        },
+        {
+          "text": "until",
+          "start": 134.51,
+          "end": 134.81,
+          "confidence": 0.331
+        },
+        {
+          "text": "I",
+          "start": 134.81,
+          "end": 135.11,
+          "confidence": 0.971
+        },
+        {
+          "text": "signal.",
+          "start": 135.11,
+          "end": 135.87,
+          "confidence": 0.013
+        },
+        {
+          "text": "Peek-a-Boo!",
+          "start": 135.87,
+          "end": 137.63,
+          "confidence": 0.271
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "seek": 8200,
+      "start": 137.63,
+      "end": 141.59,
+      "text": " Ha ha ha ha! Ha ha ha ha!",
+      "tokens": [
+        51164,
+        4064,
+        324,
+        324,
+        324,
+        0,
+        4064,
+        324,
+        324,
+        324,
+        0,
+        51364
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.03747939807112499,
+      "compression_ratio": 1.7131147540983607,
+      "no_speech_prob": 0.18479448556900024,
+      "confidence": 0.413,
+      "words": [
+        {
+          "text": "Ha",
+          "start": 137.63,
+          "end": 138.19,
+          "confidence": 0.028
+        },
+        {
+          "text": "ha",
+          "start": 138.19,
+          "end": 138.57,
+          "confidence": 0.724
+        },
+        {
+          "text": "ha",
+          "start": 138.57,
+          "end": 139.07,
+          "confidence": 0.975
+        },
+        {
+          "text": "ha!",
+          "start": 139.07,
+          "end": 139.51,
+          "confidence": 0.283
+        },
+        {
+          "text": "Ha",
+          "start": 139.89,
+          "end": 140.45,
+          "confidence": 0.108
+        },
+        {
+          "text": "ha",
+          "start": 140.45,
+          "end": 140.91,
+          "confidence": 0.989
+        },
+        {
+          "text": "ha",
+          "start": 140.91,
+          "end": 141.41,
+          "confidence": 0.995
+        },
+        {
+          "text": "ha!",
+          "start": 141.41,
+          "end": 141.59,
+          "confidence": 0.92
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "seek": 8200,
+      "start": 141.71,
+      "end": 144.21,
+      "text": " Peek-a-Boo! Ha ha ha ha!",
+      "tokens": [
+        51364,
+        2396,
+        916,
+        12,
+        64,
+        12,
+        33,
+        1986,
+        0,
+        4064,
+        324,
+        324,
+        324,
+        0,
+        51514
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.03747939807112499,
+      "compression_ratio": 1.7131147540983607,
+      "no_speech_prob": 0.18479448556900024,
+      "confidence": 0.343,
+      "words": [
+        {
+          "text": "Peek-a-Boo!",
+          "start": 141.71,
+          "end": 142.61,
+          "confidence": 0.468
+        },
+        {
+          "text": "Ha",
+          "start": 142.73,
+          "end": 143.11,
+          "confidence": 0.003
+        },
+        {
+          "text": "ha",
+          "start": 143.11,
+          "end": 143.61,
+          "confidence": 0.502
+        },
+        {
+          "text": "ha",
+          "start": 143.61,
+          "end": 143.97,
+          "confidence": 0.938
+        },
+        {
+          "text": "ha!",
+          "start": 143.97,
+          "end": 144.21,
+          "confidence": 0.56
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "seek": 8200,
+      "start": 144.21,
+      "end": 146.55,
+      "text": " Ha ha ha ha!",
+      "tokens": [
+        51514,
+        4064,
+        324,
+        324,
+        324,
+        0,
+        51614
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.03747939807112499,
+      "compression_ratio": 1.7131147540983607,
+      "no_speech_prob": 0.18479448556900024,
+      "confidence": 0.308,
+      "words": [
+        {
+          "text": "Ha",
+          "start": 144.21,
+          "end": 145.19,
+          "confidence": 0.03
+        },
+        {
+          "text": "ha",
+          "start": 145.19,
+          "end": 145.81,
+          "confidence": 0.716
+        },
+        {
+          "text": "ha",
+          "start": 145.81,
+          "end": 146.35,
+          "confidence": 0.947
+        },
+        {
+          "text": "ha!",
+          "start": 146.35,
+          "end": 146.55,
+          "confidence": 0.365
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "seek": 8200,
+      "start": 146.65,
+      "end": 147.65,
+      "text": " Peek-a-Boo!",
+      "tokens": [
+        51614,
+        2396,
+        916,
+        12,
+        64,
+        12,
+        33,
+        1986,
+        0,
+        51714
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.03747939807112499,
+      "compression_ratio": 1.7131147540983607,
+      "no_speech_prob": 0.18479448556900024,
+      "confidence": 0.511,
+      "words": [
+        {
+          "text": "Peek-a-Boo!",
+          "start": 146.65,
+          "end": 147.65,
+          "confidence": 0.511
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "seek": 10900,
+      "start": 148.81,
+      "end": 157.13,
+      "text": " The winner we want, is what we'll become. So please pay attention while I show you some, of what's about to happen.",
+      "tokens": [
+        50364,
+        440,
+        8507,
+        321,
+        528,
+        11,
+        307,
+        437,
+        321,
+        603,
+        1813,
+        13,
+        407,
+        1767,
+        1689,
+        3202,
+        1339,
+        286,
+        855,
+        291,
+        512,
+        11,
+        295,
+        437,
+        311,
+        466,
+        281,
+        1051,
+        13,
+        50814
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.15138362093669613,
+      "compression_ratio": 1.1545454545454545,
+      "no_speech_prob": 0.09933041036128998,
+      "confidence": 0.712,
+      "words": [
+        {
+          "text": "The",
+          "start": 148.81,
+          "end": 149.21,
+          "confidence": 0.1
+        },
+        {
+          "text": "winner",
+          "start": 149.21,
+          "end": 149.71,
+          "confidence": 0.874
+        },
+        {
+          "text": "we",
+          "start": 149.71,
+          "end": 150.09,
+          "confidence": 0.986
+        },
+        {
+          "text": "want,",
+          "start": 150.09,
+          "end": 150.41,
+          "confidence": 0.492
+        },
+        {
+          "text": "is",
+          "start": 150.69,
+          "end": 150.85,
+          "confidence": 0.927
+        },
+        {
+          "text": "what",
+          "start": 150.85,
+          "end": 151.01,
+          "confidence": 0.969
+        },
+        {
+          "text": "we'll",
+          "start": 151.01,
+          "end": 151.39,
+          "confidence": 0.773
+        },
+        {
+          "text": "become.",
+          "start": 151.39,
+          "end": 151.85,
+          "confidence": 0.545
+        },
+        {
+          "text": "So",
+          "start": 152.13,
+          "end": 152.45,
+          "confidence": 0.388
+        },
+        {
+          "text": "please",
+          "start": 152.45,
+          "end": 152.83,
+          "confidence": 0.893
+        },
+        {
+          "text": "pay",
+          "start": 152.83,
+          "end": 153.19,
+          "confidence": 0.94
+        },
+        {
+          "text": "attention",
+          "start": 153.19,
+          "end": 153.65,
+          "confidence": 0.997
+        },
+        {
+          "text": "while",
+          "start": 153.65,
+          "end": 154.03,
+          "confidence": 0.953
+        },
+        {
+          "text": "I",
+          "start": 154.03,
+          "end": 154.19,
+          "confidence": 0.964
+        },
+        {
+          "text": "show",
+          "start": 154.19,
+          "end": 154.37,
+          "confidence": 0.984
+        },
+        {
+          "text": "you",
+          "start": 154.37,
+          "end": 154.73,
+          "confidence": 0.977
+        },
+        {
+          "text": "some,",
+          "start": 154.73,
+          "end": 155.21,
+          "confidence": 0.479
+        },
+        {
+          "text": "of",
+          "start": 155.49,
+          "end": 155.79,
+          "confidence": 0.593
+        },
+        {
+          "text": "what's",
+          "start": 155.79,
+          "end": 156.13,
+          "confidence": 0.973
+        },
+        {
+          "text": "about",
+          "start": 156.13,
+          "end": 156.43,
+          "confidence": 0.986
+        },
+        {
+          "text": "to",
+          "start": 156.43,
+          "end": 156.65,
+          "confidence": 0.993
+        },
+        {
+          "text": "happen.",
+          "start": 156.65,
+          "end": 157.13,
+          "confidence": 0.789
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "seek": 10900,
+      "start": 166.83,
+      "end": 168.6,
+      "text": " Peek-a-Boo!",
+      "tokens": [
+        50814,
+        2396,
+        916,
+        12,
+        64,
+        12,
+        33,
+        1986,
+        0,
+        50964
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.15138362093669613,
+      "compression_ratio": 1.1545454545454545,
+      "no_speech_prob": 0.09933041036128998,
+      "confidence": 0.596,
+      "words": [
+        {
+          "text": "Peek-a-Boo!",
+          "start": 166.83,
+          "end": 168.6,
+          "confidence": 0.596
+        }
+      ]
+    }
+  ],
+  "language": "en"
+}
