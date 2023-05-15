@@ -54,9 +54,17 @@ def calculate_onsets(wav_file_path: Path, debug_generate_onset_clicks = True) ->
     return significant_onset_times
 
 
-def create_key_frame_strings(analysis_folder: Path, mp3_file:Path, times_in_sec: np.ndarray, kfps=3, pulse=0.4):
+def generate_and_save_key_frame_strings(analysis_folder: Path, mp3_file:Path, times_in_sec: np.ndarray, kfps=3, pulse=0.4):
     BASE_ZOOM = "1.03"
     kf = {0: BASE_ZOOM}
+    keyframe_zoom_file = analysis_folder / (mp3_file.stem + "-keyframe-zoom.json")
+
+    # don't generate the file if it already exists
+    if keyframe_zoom_file.exists():
+        print(f"Skipping {keyframe_zoom_file} because it already exists")
+        return
+
+    # TODO do other animations as well like rotation and translation
 
     num_keyframes = len(times_in_sec) * kfps
     for time_in_sec in times_in_sec:
@@ -76,12 +84,10 @@ def create_key_frame_strings(analysis_folder: Path, mp3_file:Path, times_in_sec:
     kf_string = ", ".join(f"{key}: ({value})" for key, value in kf.items())
 
     # now write the keyframe zoom string to a file "<songname>-keyframe-zoom.disco.json"
-    keyframe_zoom_file = analysis_folder / (mp3_file.stem + "-keyframe-zoom.json")
     with open(keyframe_zoom_file, "w") as f:
         # write a json entry with two keys: "kfps" and "keyframe_zoom_animations"
         f.write(f'{{"keyframes_per_second": {kfps}, "keyframe_zoom_animations": "{kf_string}"}}')
 
-    return kf_string
 
 # take a folder through command line argument "--input" and iterate through it finding all mp3 files. 
 # each mp3 has a corresponding analysis folder named "<songname>-analysis" in the same location. 
@@ -109,9 +115,8 @@ def main(input_folder: Path, kfps:int):
         onsets = calculate_onsets(drum_stems_wav)
 
         # Convert the onsets into a Disco-compatible keyframe string
-        keyframe_string = create_key_frame_strings(analysis_folder, mp3_file, onsets, kfps)
+        generate_and_save_key_frame_strings(analysis_folder, mp3_file, onsets, kfps)
 
-        print(f"Keyframe string for {mp3_file.stem}: '{keyframe_string}'")
 
 
 if __name__ == "__main__":

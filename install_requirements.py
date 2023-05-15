@@ -4,6 +4,32 @@ import subprocess
 import os
 import re
 
+import argparse
+
+# Create an argument parser
+parser = argparse.ArgumentParser(description="Process the --dest argument")
+
+# Add the --dest argument with choices
+parser.add_argument("--dest", choices=["host", "docker"], default="host", help="Where these dependencies are going: 'host' or 'docker'")
+
+# Parse the arguments
+args = parser.parse_args()
+
+# Use the value of the --dest argument
+print(f"The destination is: {args.dest}")
+
+install_system_dependencies:bool = False
+requirements_file = "non-torch-requirements-host.txt"
+#install_scope = ""
+
+if args.dest == "docker":
+    requirements_file = "non-torch-requirements-docker.txt"
+    #install_scope = "--user"
+    install_system_dependencies = True
+    print("As we're installing in a docker image, we'll install in --user and also assume elevated privileges and install system dependencies too.")
+else:
+    print("As we're installing on the host, we'll assume no elevated privileges and not install system dependencies. ")
+
 def is_cuda_12_or_greater(cuda_version):
     major, minor = cuda_version.split('.')
     return int(major) >= 12
@@ -22,7 +48,7 @@ def get_cuda_version():
         return None
 
 
-def install_system_dependencies(dependencies):
+def do_install_system_dependencies(dependencies):
     try:
         if os.geteuid() != 0:
             print("EE: as this script installs system dependencies it must be run as sudo/root.")
@@ -70,8 +96,8 @@ def install_torch():
         sys.exit(1)
 
 def install_remaining_dependencies(os_system):
-    print(f"..installing packages in non-torch-requirements.txt")
-    pip_requirements_txt_cmd = [sys.executable, '-m', 'pip', 'install', '-r', 'non-torch-requirements.txt']
+    print(f"..installing packages from {requirements_file}")
+    pip_requirements_txt_cmd = [sys.executable, '-m', 'pip', 'install', '-r', requirements_file]
 
 # For some reason torch needs a specific index url to install https://pytorch.org/get-started/locally/
     torch_extras_if_windows = ['--extra-index-url','https://download.pytorch.org/whl/cu117'] if os_system == 'Windows' else []
@@ -83,6 +109,7 @@ def install_remaining_dependencies(os_system):
 install_torch()
 install_remaining_dependencies(os_system)
 
-# Google FILM dependencies
-# system_dependencies = ["libgl1-mesa-glx", "libglib2.0-0"]
-# install_system_dependencies(system_dependencies)
+# Google FILM system dependencies 
+if install_system_dependencies:
+    system_dependencies = ["libgl1-mesa-glx", "libglib2.0-0"]
+    do_install_system_dependencies(system_dependencies)
