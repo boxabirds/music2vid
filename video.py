@@ -122,7 +122,7 @@ def DeforumAnimArgs():
 
     #@markdown ####**Animation:**
     animation_mode = '2D' #@param ['None', '2D', '3D', 'Video Input', 'Interpolation'] {type:'string'}
-    max_frames = 987 #@param {type:"number"}
+    max_frames = 1040 #@param {type:"number"}
     border = 'replicate' #@param ['wrap', 'replicate'] {type:'string'}
 
     #@markdown ####**Motion Parameters:**
@@ -230,45 +230,45 @@ prompts = [
 
 raw_animation_prompts = {
 0: "Moody winter seaside landscape with rolling green hills and grey skies.",
-60: "A silhouetted figure standing on the beach with arms outstretched, facing the ocean with a sunrise/sunset in the background.",
+60: "A car driving amongst green hills towards waves at a beach in the distance.",
 84: "Vivid green rolling hills contrasted with grey skies, a small figure standing on the shoreline, facing the horizon with arms outstretched in defiance.",
 108: "A person in a winter coat standing at the edge of a beach, looking out to sea with the wind blowing their hair back, a determined expression on their face.",
-132: "A silhouetted figure standing atop a rocky shoreline, the sun setting behind them, arms stretched out as if embracing the crashing waves below.",
+132: "3 people in coats, bare feet on stones walking across the beach.",
 156: "Person standing in the rain on a beach, looking out to waves crashing against the shore.",
-180: "A hand emerging from the water, gripping a fish and chips newspaper tightly.",
-211: "A person standing on a beach, with the waves crashing and the wind blowing, looking out over the horizon with a smile.",
-222: "Rainbow-colored furniture in a bright office, with a group of people laughing and drinking free coffee and tea together.",
-234: "Vivid visual prompt: People gathered in a circle around a water cooler, laughing and talking.",
-244: "A group of friends walking together on a beach, laughing and smiling despite the cold winter air.",
-259: "A person walking down a city street, surrounded by a tangle of wires and exposed metal from a bus held together with duct tape and patches.",
-270: "A family of four walking in the rain, heads bowed under umbrellas, looking at a pile of bills with electric company logos.",
-283: "A silhouette of a person standing on a beach in the rain with the waves crashing against the shore in the background.",
+180: "3 people sitting on a picnic blanket on a stony beach flapping in the wind",
+211: "An office environment with people sitting at desks, talking and laughing.",
+222: "Brightly coloured chairs, sofas and carpet in a bright office, with a group of people laughing and drinking free coffee and tea together.",
+234: "People in an office gathered in a circle around a water cooler, laughing and talking.",
+244: "A group of office workers gathered around a table, cheering and clapping in a team building exercise",
+259: "A bus full of people held together with duct tape and patches in a busy city.",
+270: "A family of four at home looking at a pile of bills with electric company logos.",
+283: "A person standing on a beach in the rain with the waves crashing against the shore in the background.",
 294: "Person standing alone on a beach, looking out to sea with a contemplative expression on their face.",
-306: "Two silhouettes standing side by side, looking out to a vast horizon of stormy gray clouds, with a suggestion of a shimmering rainbow in the distance.",
-329: "Two people running towards the ocean, smiles on their faces as the cold salty mist of the waves hit their skin.",
+306: "Two people standing side by side ankle deep in the water surrounded by splashing waves, looking out to a vast horizon of stormy gray clouds, with a suggestion of a shimmering rainbow in the distance.",
+329: "Two people swimmming in the ocean, smiles on their faces as the cold salty mist of the waves hit their skin.",
 354: "Vividly-colored beachgoers emerging from the waves with flushed cheeks and wide grins.",
-378: "Wind-swept figure emerging from the ocean, skin covered in pale goosebumps.",
-402: "Wind-rippled newspaper held aloft by a seagull.",
+378: "Wet Wind-swept figures emerging from the ocean after a swim, skin covered in pale goosebumps.",
+402: "3 people eating fish & chips on the beach with newspaper flapping around",
 425: "Seagulls dive bombing a picnic table with a family eating defiantly.",
-457: "A person standing in a stormy beach, embracing the waves and the wind, while the rain and the dusk are slowly approaching.",
-468: "Rainbow-hued furniture in a cozy office, with people gathered around a water cooler, smiling and laughing.",
-480: "Two people huddled together around a water cooler, smiling and talking.",
-490: "A group of people standing in the waves, jumping and laughing, their figures silhouetted against a bright orange and pink sunset.",
-505: "Group of people huddling together in a crowded public transport vehicle, held together with duct tape and patches.",
-516: "Image of person walking from beach to car in the rain, carrying a stack of bills in one hand.",
+457: "An office environment with people sitting at desks, talking and laughing.",
+468: "Rainbow-hued furniture in an office, with cups of tea and coffee and kettle and coffee maker", 
+480: "Two people huddled together around a water cooler in the office, smiling and talking.",
+490: "A group of office workers gathered around a table, looking angry with knives and bats attacking each other",
+505: "Inside an underground train full of people, held together with duct tape and patches.",
+516: "Image of person at home, staring at a huge room full of eletricity bills",
 529: "A person standing in a winter landscape, with a hooded coat and hands tucked into pockets, looking out at the horizon with a pensive expression.",
 540: "Person standing on a beach, looking out at the endless horizon of the sea, fists clenched in a determined pose.",
-558: "A silhouette of people standing at a beach, the horizon glowing with vibrant oranges and pinks as the sun sets, a lone seagull flying overhead.",
+558: "People standing at a beach, the horizon glowing with vibrant oranges and pinks as the sun sets, a lone seagull flying overhead.",
 570: "A group of people standing on a beach with their arms raised in the air, looking out towards the horizon with a look of determination and joy on their faces.",
-587: "A silhouetted couple embracing against a backdrop of rolling waves crashing against a rocky shoreline.",
+587: "A couple embracing against a backdrop of rolling waves crashing against a rocky shoreline.",
 606: "A person standing in the ocean, arms outstretched and face to the sky, with a rainbow overhead.",
-616: "Vibrant sunset illuminating a silhouetted group of people jumping into the sea, with arms spread wide.",
+616: "Vibrant sunset illuminating a group of people jumping into the sea, with arms spread wide.",
 635: "A group of people jumping into a wild and turbulent ocean, joyfully embracing the power of the waves.",
 660: "Rainbow-coloured umbrellas against a backdrop of grey clouds, with people emerging from the waves below, embracing the feeling of being alive.",
 684: "Person standing in the rain, arms outstretched, eyes closed, embracing the feeling of being alive.",
 708: "Two people in a car on a hilltop, silhouetted against a bright orange and pink sunset, with a rainbow-colored sky behind them.",
 731: "Car headlights illuminating a winding road, with raindrops resembling snakes slithering across the windshield.",
-756: "Two silhouettes of people huddled in the darkness of dusk, illuminated by the car headlights, their faces filled with determination and joy.",
+756: "Two people huddled in the darkness of dusk, illuminated by the car headlights, their faces filled with determination and joy.",
 779: "Two people standing in a wintery beach, arms outstretched towards the sky, embracing the moment with a sense of freedom and joy.",
 816: "A solitary figure standing on a beach, arms outstretched and face tilted upwards to the sky as the waves crash against their feet and rain showers them with droplets.",
 828: "Vibrant sunset silhouetting two figures standing in the surf, arms raised in celebration.",
@@ -276,15 +276,15 @@ raw_animation_prompts = {
 864: "A group of people running and jumping into the ocean together at sunset, silhouetted against a backdrop of a vibrant orange and pink sky.",
 876: "Vibrant beachgoers standing against a backdrop of crashing waves, beaming with joy.",
 893: "Two people emerging from the sea, dripping with water and wearing huge smiles.",
-912: "A group of carefree people jumping into the waves, silhouetted against a bright orange and pink sunset.",
+912: "3 carefree people jumping into the waves, silhouetted against a bright orange and pink sunset.",
 924: "Vibrant group of people standing in the ocean, laughing and splashing around in the waves despite the cold winter temperatures.",
-941: "Two silhouettes standing atop a hill overlooking the ocean, arms outstretched, heads tilted back, taking in the cold air and feeling alive.",
-960: "Two people standing in the sea, arms outstretched, wind and waves buffeting them as they look to the sky with determination.",
+941: "3 people standing atop a hill overlooking the ocean, arms outstretched, heads tilted back, taking in the cold air and feeling alive.",
+960: "3 people standing in the sea, arms outstretched, wind and waves buffeting them as they look to the sky with determination.",
 972: "Vibrant sunset reflecting off ocean waves as a group of people stand silhouetted, hands in the air, embracing the moment.",
 989: "A person standing at the shoreline with arms raised, waves crashing around them and a sunset in the background.",
 }
 
-style_extras = " Watercolor, trending on artstation" #@param {type:"string"}
+style_extras = "Vivid watercolor, trending on artstation" #@param {type:"string"}
 
 animation_prompts = {k: v + ", " + style_extras for k, v in raw_animation_prompts.items()}
 
@@ -302,8 +302,8 @@ def DeforumArgs():
     custom_settings_file = "/content/drive/MyDrive/Settings.txt"#@param {type:"string"}
 
     #@markdown **Image Settings**
-    W = 768 #@param
-    H = 512 #@param
+    W = 1024 #@param
+    H = 1024 #@param
     W, H = map(lambda x: x - x % 64, (W, H))  # resize to integer multiple of 64
     bit_depth_output = 8 #@param [8, 16, 32] {type:"raw"}
 
@@ -427,6 +427,12 @@ if args.override_settings_with_file:
 
 # %%
 do_render(args, anim_args, animation_prompts, root)
+
+# give python the hint that we don't need the model any more
+root.model = None
+gc.collect()
+torch.cuda.empty_cache()
+
 
 # %%
 print(f"saved to output folder '{args.outdir}'")
@@ -583,11 +589,6 @@ except NameError:
 
 times_to_interpolate = 3 #@param {type:"slider", min:1, max:10, step:1}
 
-import glob
-filenames = sorted(glob.glob(f"{framedir}/*.png"))
-print(f"filenames: {filenames}")
-input_frames = [load_image(image) for image in filenames]
-
 
 # %% [markdown]
 # 
@@ -655,12 +656,18 @@ def interpolate_recursively(
 # %%
 def generate_video(frames, recursion_depth, framedir):
   interpolator = Interpolator()
+  
   frames = list(
       interpolate_recursively(frames, recursion_depth, interpolator))
   fps = 24
-  basic_movie_filename =  framedir + " " + str(fps) + ".mp4"
+  basic_movie_filename =  framedir + "-" + str(fps) + "fps.mp4"
   print(f'Creating {basic_movie_filename} with {len(frames)} frames')
   media.write_video(basic_movie_filename, frames, fps=fps)
+
+import glob
+filenames = sorted(glob.glob(f"{framedir}/*.png"))
+print(f"filenames: {filenames}")
+input_frames = [load_image(image) for image in filenames]
 
 generate_video(input_frames, times_to_interpolate, framedir)
 

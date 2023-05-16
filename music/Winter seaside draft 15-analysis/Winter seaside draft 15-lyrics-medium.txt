@@ -3,7 +3,7 @@
 108: " Braving the cold wind to get some fresh air",
 132: " Maybe it'll help us wake from winter breakfall",
 156: " Therefore we step gingerly over the stones",
-180: " Picnic math threatening to escape with a tug of invisible hands",
+180: " Picnic mat threatening to escape with a tug of invisible hands",
 211: " Back in the office, back to cardboard loyalties",
 222: " Of rainbow-coloured furniture, free coffee and tea",
 234: " Punctuated by water-cooler intimacy",

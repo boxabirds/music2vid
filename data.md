@@ -1,0 +1,22 @@
+- A Composition has 0 or more Sessions
+- A Composition has the following properties:
+  - name
+  - mp3_url
+  - state: pending, stemming, transcription, pulse detection, inital animation description generation, initial style generation
+  - mp3_vocal_stem_url
+  - wav_drums_url
+- A Composition has a Transcription
+- A Transcription has 0 or more Transcription Lines
+- A Session has 0 or more Frames
+- A Session has the following properties
+  - name
+  - creation date
+  - state: pending, lyric frame generation, key frame generation, interpolation frame generation, video generation
+- A Frame has the following properties
+  - frame_url
+  - frame seed
+- A Session has 0 or more Markers
+- A Marker has the following properties
+  - text
+  - timestamp in minutes, seconds and milliseconds
+ - A Marker might link to a Frame

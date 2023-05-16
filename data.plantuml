@@ -1,0 +1,56 @@
+@startuml
+
+enum Quality {
+  tiny
+  base
+  small
+  medium
+  large
+}
+
+class Composition {
+  - name: String
+  - mp3_url: String
+  - state: String
+  - mp3_vocal_stem_url: String
+  - wav_drums_url: String
+  + Transcription: Transcription
+}
+
+class Transcription {
+    - quality: Quality
+}
+
+class TranscriptionLine {
+    - text: String
+}
+
+class Session {
+  - name: String
+  - creation_date: Date
+  - state: String
+  + Frame: Frame
+  + Marker: Marker
+}
+
+class Frame {
+  - frame_url: String
+  - frame_seed: Integer
+}
+
+class Marker {
+  - text: String
+  - timestamp: String
+  + Frame: Frame
+}
+
+Composition "0..*" -- "1" Session: has
+Composition -- Transcription: has
+Transcription "1" -- "0..*" TranscriptionLine: has
+Session "1" -- "0..*" Frame: has
+Session "1" -- "0..*" Marker: has
+Marker "0..1" -- "0..1" Frame: links to
+
+
+
+@enduml
