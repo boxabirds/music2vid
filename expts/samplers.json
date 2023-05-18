@@ -1,0 +1,49 @@
+{
+    "types": {
+        "img": "DeforumArgs",
+        "motion": "DeforumAnimationArgs"
+    },
+    "compositions": [
+        "../music/Cantaloop (Flip Fantasia).mp3",
+        "../music/Caravan Palace - April (Official audio).mp3",
+        "../music/Caravan Palace - Leena (Official Audio).mp3",
+        "../music/Caravan Palace - Waterguns feat. Tom Bailey (Official audio).mp3",
+        "../music/Cure For Pain.mp3",
+        "../music/Im Rhythmus Bleiben.mp3",
+        "../music/Little One.mp3",
+         "../music/m4.mp3",
+         "../music/Peek-A-Boo.mp3",
+        "../music/Pulling Punches.mp3",
+        "../music/ronny jordan - The Jackal (the illes.mp3",
+         "../music/Soulcatcher.mp3",
+        "../music/The Heater.mp3",
+        "../music/The Shortest Straw.mp3",
+        "../music/Wandering Eye.mp3",
+        "../music/Winter seaside draft 15.mp3",
+    ],
+    "num_key_frames": 90,
+    "interpolation_recursion_depth": 3,
+    "key_frames_per_second": 3,
+    "combinations": {
+        "img.H, img.W": [[512,512]],
+        "img.model_checkpoint": [
+                "v2-1_768-ema-pruned.ckpt", 
+                "v2-1_512-ema-pruned.ckpt", 
+                "768-v-ema.ckpt", 
+                "512-base-ema.ckpt", 
+                "Protogen_V2.2.ckpt", 
+                "v1-5-pruned.ckpt", 
+                "v1-5-pruned-emaonly.ckpt", 
+                "sd-v1-4-full-ema.ckpt", 
+                "sd-v1-4.ckpt", 
+                "sd-v1-3-full-ema.ckpt", 
+                "sd-v1-3.ckpt",
+                "sd-v1-2-full-ema.ckpt", 
+                "sd-v1-2.ckpt", 
+                "sd-v1-1-full-ema.ckpt", 
+                "sd-v1-1.ckpt", 
+                "robo-diffusion-v1.ckpt", 
+                "wd-v1-3-float16.ckpt"
+        ]
+    }
+}
