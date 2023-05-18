@@ -17,6 +17,19 @@ class ChangeRecorder:
 
     def get_changed_attributes(self):
         return self._changed_attributes.copy()
+
+    def get_filesystem_friendly_changed_attributes(self):
+        filesystem_friendly_attributes = []
+        for attribute_name, attribute_value in self._changed_attributes.items():
+            # Replace any invalid characters in the attribute name with underscores
+            filesystem_friendly_name = attribute_name.replace(":", "_")
+            # Replace any invalid characters in the attribute value with an empty string
+            filesystem_friendly_value = str(attribute_value).replace(":", "").replace("--", "")
+            # Concatenate the file-system friendly attribute name and value using a separator
+            filesystem_friendly_string = f"{filesystem_friendly_name}:{filesystem_friendly_value}"
+            filesystem_friendly_attributes.append(filesystem_friendly_string)
+        # Concatenate all the transformed attribute strings using a separator
+        return "--".join(filesystem_friendly_attributes)
         
 {% for method in methods -%} 
 class {{ method }}(ChangeRecorder):

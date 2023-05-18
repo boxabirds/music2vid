@@ -5,9 +5,7 @@ from pathlib import Path
 
 def create_movie(filename, img:DeforumArgs, motion:DeforumAnimArgs, root:Root):
     print(f"== Filename: {filename}:")
-    print(f"img changes: {img.get_changed_attributes()}")  
-    print(f"motion changes: {motion.get_changed_attributes()}")
-    print(f"root changes: {root.get_changed_attributes()}")
+    print(f"changes: '{img.get_filesystem_friendly_changed_attributes()}-{motion.get_filesystem_friendly_changed_attributes()}-{root.get_filesystem_friendly_changed_attributes()}'")
     
     #print(f"== Filename: {filename}: model_checkpoint = '{root.model_checkpoint}', img.W, img.H = {img.W}, {img.H}")
 

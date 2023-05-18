@@ -18,6 +18,33 @@ class ChangeRecorder:
     def get_changed_attributes(self):
         return self._changed_attributes.copy()
         
+    def get_filesystem_friendly_changed_attributes(self):
+        filesystem_friendly_attributes = []
+        for attribute_name, attribute_value in self._changed_attributes.items():
+            # Replace any invalid characters in the attribute name with underscores
+            filesystem_friendly_name = attribute_name.replace(":", "_")
+            # Replace any invalid characters in the attribute value with an empty string
+            filesystem_friendly_value = str(attribute_value).replace(":", "").replace("--", "")
+            # Concatenate the file-system friendly attribute name and value using a separator
+            filesystem_friendly_string = f"{filesystem_friendly_name}:{filesystem_friendly_value}"
+            filesystem_friendly_attributes.append(filesystem_friendly_string)
+        # Concatenate all the transformed attribute strings using a separator
+        return "--".join(filesystem_friendly_attributes)
+        
+class Root(ChangeRecorder):
+  def __init__(self):
+      super().__init__()
+      self.models_path: str = "models"
+      self.configs_path: str = "configs"
+      self.output_path: str = "outputs"
+      self.mount_google_drive: bool = True
+      self.models_path_gdrive: str = "/content/drive/MyDrive/AI/models"
+      self.output_path_gdrive: str = "/content/drive/MyDrive/AI/StableDiffusion"
+      self.map_location = "cuda"  # cpu, cuda
+      self.model_config = "v1-inference.yaml"  # custom, v2-inference.yaml, v2-inference-v.yaml, v1-inference.yaml
+      self.model_checkpoint = "Protogen_V2.2.ckpt"  # custom, v2-1_768-ema-pruned.ckpt, v2-1_512-ema-pruned.ckpt, 768-v-ema.ckpt, 512-base-ema.ckpt, Protogen_V2.2.ckpt, v1-5-pruned.ckpt, v1-5-pruned-emaonly.ckpt, sd-v1-4-full-ema.ckpt, sd-v1-4.ckpt, sd-v1-3-full-ema.ckpt, sd-v1-3.ckpt, sd-v1-2-full-ema.ckpt, sd-v1-2.ckpt, sd-v1-1-full-ema.ckpt, sd-v1-1.ckpt, robo-diffusion-v1.ckpt, wd-v1-3-float16.ckpt
+      self.custom_config_path: str = ""
+      self.custom_checkpoint_path: str = ""
 class DeforumArgs(ChangeRecorder):
   def __init__(self):
       super().__init__()
@@ -82,20 +109,6 @@ class DeforumArgs(ChangeRecorder):
       self.clamp_stop = "0.01"
       self.grad_inject_timing = "list(range(1,10))"
       self.cond_uncond_sync: bool = True
-class Root(ChangeRecorder):
-  def __init__(self):
-      super().__init__()
-      self.models_path: str = "models"
-      self.configs_path: str = "configs"
-      self.output_path: str = "outputs"
-      self.mount_google_drive: bool = True
-      self.models_path_gdrive: str = "/content/drive/MyDrive/AI/models"
-      self.output_path_gdrive: str = "/content/drive/MyDrive/AI/StableDiffusion"
-      self.map_location = "cuda"  # cpu, cuda
-      self.model_config = "v1-inference.yaml"  # custom, v2-inference.yaml, v2-inference-v.yaml, v1-inference.yaml
-      self.model_checkpoint = "Protogen_V2.2.ckpt"  # custom, v2-1_768-ema-pruned.ckpt, v2-1_512-ema-pruned.ckpt, 768-v-ema.ckpt, 512-base-ema.ckpt, Protogen_V2.2.ckpt, v1-5-pruned.ckpt, v1-5-pruned-emaonly.ckpt, sd-v1-4-full-ema.ckpt, sd-v1-4.ckpt, sd-v1-3-full-ema.ckpt, sd-v1-3.ckpt, sd-v1-2-full-ema.ckpt, sd-v1-2.ckpt, sd-v1-1-full-ema.ckpt, sd-v1-1.ckpt, robo-diffusion-v1.ckpt, wd-v1-3-float16.ckpt
-      self.custom_config_path: str = ""
-      self.custom_checkpoint_path: str = ""
 class DeforumAnimArgs(ChangeRecorder):
   def __init__(self):
       super().__init__()
