@@ -11,8 +11,9 @@ class ChangeRecorder:
         self._changed_attributes = {}
 
     def __setattr__(self, name, value):
-        if hasattr(self, name) and getattr(self, name) != value:
-            self._changed_attributes[name] = getattr(self, name)
+        if hasattr(self, name):# and getattr(self, name) != value:
+            self._changed_attributes[name] = value
+            #print(f"## {name} changed from {getattr(self, name)} to {value}")
         super().__setattr__(name, value)
 
     def get_changed_attributes(self):

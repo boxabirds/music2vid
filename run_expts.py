@@ -3,9 +3,11 @@ import argparse
 from lib.parameters import DeforumAnimArgs, Root, DeforumArgs
 from pathlib import Path
 
+def easy_to_type(s:str):
+    return s.replace(" ", "_")
+
 def create_movie(filename, img:DeforumArgs, motion:DeforumAnimArgs, root:Root):
-    print(f"== Filename: {filename}:")
-    print(f"changes: '{img.get_filesystem_friendly_changed_attributes()}-{motion.get_filesystem_friendly_changed_attributes()}-{root.get_filesystem_friendly_changed_attributes()}'")
+    print(f"{easy_to_type(Path(filename).stem)}--{img.get_filesystem_friendly_changed_attributes()}-{motion.get_filesystem_friendly_changed_attributes()}-{root.get_filesystem_friendly_changed_attributes()}")
     
     #print(f"== Filename: {filename}: model_checkpoint = '{root.model_checkpoint}', img.W, img.H = {img.W}, {img.H}")
 
@@ -109,7 +111,7 @@ for composition in compositions:
             for root_combination in generate_combinations(root_properties, {}, 0):
                 img_instance = DeforumArgs()
                 if "img" in img_combination:
-                    print(f"### img_combination: {img_combination}")
+                    #print(f"### img_combination: {img_combination}")
                     for prop_name, value in img_combination["img"].items():
                         setattr(img_instance, prop_name, value)
                 motion_instance = DeforumAnimArgs()
