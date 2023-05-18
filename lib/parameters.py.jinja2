@@ -4,9 +4,24 @@
 # This is from a jinja2 template.
 # example input file: Deforum_Stable_Diffusion.ipynb
 
+class ChangeRecorder:
+# This class is used to record changes to the parameters. It is used to generate a diff of the parameters
+# from initialisation to customisation. Works best with objects that have a default value in __init__ as ours do 
+    def __init__(self):
+        self._changed_attributes = {}
+
+    def __setattr__(self, name, value):
+        if hasattr(self, name) and getattr(self, name) != value:
+            self._changed_attributes[name] = getattr(self, name)
+        super().__setattr__(name, value)
+
+    def get_changed_attributes(self):
+        return self._changed_attributes.copy()
+        
 {% for method in methods -%} 
-class {{ method }}:
+class {{ method }}(ChangeRecorder):
   def __init__(self):
+      super().__init__()
 {%- for obj in objects -%}
   {%- if obj.method == method %}
     {%- if obj.type in ["bool","float","int"] %}

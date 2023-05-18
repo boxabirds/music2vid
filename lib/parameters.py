@@ -4,21 +4,23 @@
 # This is from a jinja2 template.
 # example input file: Deforum_Stable_Diffusion.ipynb
 
-class Root:
+class ChangeRecorder:
+# This class is used to record changes to the parameters. It is used to generate a diff of the parameters
+# from initialisation to customisation. Works best with objects that have a default value in __init__ as ours do 
+    def __init__(self):
+        self._changed_attributes = {}
+
+    def __setattr__(self, name, value):
+        if hasattr(self, name) and getattr(self, name) != value:
+            self._changed_attributes[name] = getattr(self, name)
+        super().__setattr__(name, value)
+
+    def get_changed_attributes(self):
+        return self._changed_attributes.copy()
+        
+class DeforumArgs(ChangeRecorder):
   def __init__(self):
-      self.models_path: str = "models"
-      self.configs_path: str = "configs"
-      self.output_path: str = "outputs"
-      self.mount_google_drive: bool = True
-      self.models_path_gdrive: str = "/content/drive/MyDrive/AI/models"
-      self.output_path_gdrive: str = "/content/drive/MyDrive/AI/StableDiffusion"
-      self.map_location = "cuda"  # cpu, cuda
-      self.model_config = "v1-inference.yaml"  # custom, v2-inference.yaml, v2-inference-v.yaml, v1-inference.yaml
-      self.model_checkpoint = "Protogen_V2.2.ckpt"  # custom, v2-1_768-ema-pruned.ckpt, v2-1_512-ema-pruned.ckpt, 768-v-ema.ckpt, 512-base-ema.ckpt, Protogen_V2.2.ckpt, v1-5-pruned.ckpt, v1-5-pruned-emaonly.ckpt, sd-v1-4-full-ema.ckpt, sd-v1-4.ckpt, sd-v1-3-full-ema.ckpt, sd-v1-3.ckpt, sd-v1-2-full-ema.ckpt, sd-v1-2.ckpt, sd-v1-1-full-ema.ckpt, sd-v1-1.ckpt, robo-diffusion-v1.ckpt, wd-v1-3-float16.ckpt
-      self.custom_config_path: str = ""
-      self.custom_checkpoint_path: str = ""
-class DeforumArgs:
-  def __init__(self):
+      super().__init__()
       self.override_settings_with_file: bool = False
       self.settings_file = "custom"  # custom, 512x512_aesthetic_0.json, 512x512_aesthetic_1.json, 512x512_colormatch_0.json, 512x512_colormatch_1.json, 512x512_colormatch_2.json, 512x512_colormatch_3.json
       self.custom_settings_file: str = "/content/drive/MyDrive/Settings.txt"
@@ -80,8 +82,23 @@ class DeforumArgs:
       self.clamp_stop = "0.01"
       self.grad_inject_timing = "list(range(1,10))"
       self.cond_uncond_sync: bool = True
-class DeforumAnimArgs:
+class Root(ChangeRecorder):
   def __init__(self):
+      super().__init__()
+      self.models_path: str = "models"
+      self.configs_path: str = "configs"
+      self.output_path: str = "outputs"
+      self.mount_google_drive: bool = True
+      self.models_path_gdrive: str = "/content/drive/MyDrive/AI/models"
+      self.output_path_gdrive: str = "/content/drive/MyDrive/AI/StableDiffusion"
+      self.map_location = "cuda"  # cpu, cuda
+      self.model_config = "v1-inference.yaml"  # custom, v2-inference.yaml, v2-inference-v.yaml, v1-inference.yaml
+      self.model_checkpoint = "Protogen_V2.2.ckpt"  # custom, v2-1_768-ema-pruned.ckpt, v2-1_512-ema-pruned.ckpt, 768-v-ema.ckpt, 512-base-ema.ckpt, Protogen_V2.2.ckpt, v1-5-pruned.ckpt, v1-5-pruned-emaonly.ckpt, sd-v1-4-full-ema.ckpt, sd-v1-4.ckpt, sd-v1-3-full-ema.ckpt, sd-v1-3.ckpt, sd-v1-2-full-ema.ckpt, sd-v1-2.ckpt, sd-v1-1-full-ema.ckpt, sd-v1-1.ckpt, robo-diffusion-v1.ckpt, wd-v1-3-float16.ckpt
+      self.custom_config_path: str = ""
+      self.custom_checkpoint_path: str = ""
+class DeforumAnimArgs(ChangeRecorder):
+  def __init__(self):
+      super().__init__()
       self.animation_mode: str = "'2D'"  # None, 2D, 3D, Video Input, Interpolation
       self.max_frames: float = 270
       self.border: str = "'replicate'"  # wrap, replicate

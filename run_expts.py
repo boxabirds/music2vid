@@ -3,9 +3,13 @@ import argparse
 from lib.parameters import DeforumAnimArgs, Root, DeforumArgs
 from pathlib import Path
 
-def do_render(filename, img:DeforumArgs, motion:DeforumAnimArgs, root:Root):
-    #print(f"\n== Filename: {filename},\n\n= Img properties: {vars(img)},\n\n= Motion properties: {vars(motion)}, \n\n=Root properties: {vars(Root)}")
-    print(f"== Filename: {filename}: model_checkpoint = '{root.model_checkpoint}', img.W, img.H = {img.W}, {img.H}")
+def create_movie(filename, img:DeforumArgs, motion:DeforumAnimArgs, root:Root):
+    print(f"== Filename: {filename}:")
+    print(f"img changes: {img.get_changed_attributes()}")  
+    print(f"motion changes: {motion.get_changed_attributes()}")
+    print(f"root changes: {root.get_changed_attributes()}")
+    
+    #print(f"== Filename: {filename}: model_checkpoint = '{root.model_checkpoint}', img.W, img.H = {img.W}, {img.H}")
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--input', type=str, required=True, help='Path to the input JSON file')
@@ -105,7 +109,6 @@ for composition in compositions:
     for img_combination in generate_combinations(img_properties, {}, 0):
         for motion_combination in generate_combinations(motion_properties, {}, 0):
             for root_combination in generate_combinations(root_properties, {}, 0):
-                #print(f"### composition: {Path(composition).stem} img: {img_combination} / motion: {motion_combination} / root: {root_combination}")
                 img_instance = DeforumArgs()
                 if "img" in img_combination:
                     print(f"### img_combination: {img_combination}")
@@ -120,6 +123,6 @@ for composition in compositions:
                     for prop_name, value in root_combination["root"].items():
                         setattr(root_instance, prop_name, value)
                 count += 1
-                do_render(composition, img_instance, motion_instance, root_instance)
+                create_movie(composition, img_instance, motion_instance, root_instance)
 
 print(f"{count} combinations generated")
