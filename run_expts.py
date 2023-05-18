@@ -1,5 +1,6 @@
 import json
 import argparse
+from lib.parameters import DeforumAnimArgs, Root, DeforumArgs
 
 class Img:
     def __init__(self, H=None, W=None, sampler=None):
