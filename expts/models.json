@@ -1,8 +1,4 @@
 {
-    "types": {
-        "img": "DeforumArgs",
-        "motion": "DeforumAnimationArgs"
-    },
     "compositions": [
         "../music/Cantaloop (Flip Fantasia).mp3",
         "../music/Caravan Palace - April (Official audio).mp3",
@@ -21,11 +17,17 @@
         "../music/Wandering Eye.mp3",
         "../music/Winter seaside draft 15.mp3",
     ],
-    "num_key_frames": 4,
-    "key_frames_per_second": 3,
+    "num_key_frames": 90,
     "interpolation_recursion_depth": 3,
+    "key_frames_per_second": 3,
     "combinations": {
-        "img.H, img.W": [[512,512],[768,768]],
-        "img.sampler": ["klms", "dpm2", "dpm2_ancestral", "heun", "euler", "euler_ancestral", "plms", "ddim", "dpm_fast", "dpm_adaptive", "dpmpp_2s_a", "dpmpp_2m"]
+        "img.H, img.W": [[512,512]],
+        "root.model_checkpoint": [
+                "v2-1_768-ema-pruned.ckpt", 
+                "v2-1_512-ema-pruned.ckpt", 
+                "768-v-ema.ckpt", 
+                "Protogen_V2.2.ckpt", 
+                "robo-diffusion-v1.ckpt"
+        ]
     }
 }

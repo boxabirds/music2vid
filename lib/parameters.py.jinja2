@@ -6,14 +6,15 @@
 
 {% for method in methods -%} 
 class {{ method }}:
+  def __init__(self):
 {%- for obj in objects -%}
   {%- if obj.method == method %}
     {%- if obj.type in ["bool","float","int"] %}
-      {{ obj.name }}: {{ obj.type }} = {{ obj.default }}
+      self.{{ obj.name }}: {{ obj.type }} = {{ obj.default }}
     {%- elif obj.type is none %}
-      {{ obj.name }} = "{{ obj.default }}"{% if obj.constraints %}  # {{ obj.constraints }}{% endif %}
+      self.{{ obj.name }} = "{{ obj.default }}"{% if obj.constraints %}  # {{ obj.constraints }}{% endif %}
     {%- else %}
-      {{ obj.name }}: {{ obj.type }} = "{{ obj.default }}"{% if obj.constraints %}  # {{ obj.constraints }}{% endif %}
+      self.{{ obj.name }}: {{ obj.type }} = "{{ obj.default }}"{% if obj.constraints %}  # {{ obj.constraints }}{% endif %}
     {%- endif %}
   {%- endif %}
 {%- endfor %}

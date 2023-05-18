@@ -6,6 +6,6 @@
     ],
     "combinations": {
         "img.H, img.W": [[512,513],[768,769]],
-        "motion.sampler": ["dpm2", "heun",  "euler_ancestral"]
+        "img.sampler": ["dpm2", "heun",  "euler_ancestral"]
     }
 }

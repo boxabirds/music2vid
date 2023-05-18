@@ -35,7 +35,7 @@ def strip_quotes_from_embedded_list_items(input_string):
 def generate_parameters_python_file(parameters):
     methods = list(set([obj["method"] for obj in parameters]))
 
-    with open("parameters.jinja2.py") as file:
+    with open("parameters.py.jinja2") as file:
         template = Template(file.read())
 
     with open("parameters.py", "w") as output:
@@ -92,7 +92,7 @@ def extract_from_line(line):
 
 
 
-def extract_colab_params(ipynb_file):
+def extract_colab_params(ipynb_file, skip_globals=True):
     variables = []
 
     with open(ipynb_file) as f:
@@ -109,6 +109,9 @@ def extract_colab_params(ipynb_file):
                 
                 # if we detect a Google Colab #@param annotation, extract and add it to the list of parameters
                 if "#@param" in line:
+                    if skip_globals and current_method_name == "(Global)":
+                        print(f"Skipping global variable (as skip_globals = True): {line}")
+                        continue
                     variable_name, variable_value, type_value, constraints_value = extract_from_line(line)
                     params.append( {
                         "method": current_method_name,
