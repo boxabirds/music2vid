@@ -1,6 +1,0 @@
-{
-    "combinations": {
-        "img.sampler": ["dpm2", "heun",  "euler_ancestral"],
-        "img.decode_method": ["dynamic", "static", "mean", "schedule"]
-    }
-}
