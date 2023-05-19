@@ -33,16 +33,16 @@ class ChangeRecorder:
         
 {% for method in methods -%} 
 class {{ method }}(ChangeRecorder):
-  def __init__(self):
+  def __init__(self, **kwargs):
       super().__init__()
 {%- for obj in objects -%}
   {%- if obj.method == method %}
     {%- if obj.type in ["bool","float","int"] %}
-      self.{{ obj.name }}: {{ obj.type }} = {{ obj.default }}
+      self.{{ obj.name }}: {{ obj.type }} = kwargs.get("{{ obj.name }}", {{ obj.default }}){% if obj.constraints %}  # {{ obj.constraints }}{% endif %}
     {%- elif obj.type is none %}
-      self.{{ obj.name }} = "{{ obj.default }}"{% if obj.constraints %}  # {{ obj.constraints }}{% endif %}
+      self.{{ obj.name }} = kwargs.get("{{ obj.name }}", {{ "'" + obj.default.replace("'", "") + "'" if obj.constraints else obj.default.replace("'", "") }}){% if obj.constraints %}  # {{ obj.constraints }}{% endif %}
     {%- else %}
-      self.{{ obj.name }}: {{ obj.type }} = "{{ obj.default }}"{% if obj.constraints %}  # {{ obj.constraints }}{% endif %}
+      self.{{ obj.name }}: {{ obj.type }} = kwargs.get("{{ obj.name }}", "{{ obj.default.replace("'", "") }}"){% if obj.constraints %}  # {{ obj.constraints }}{% endif %}
     {%- endif %}
   {%- endif %}
 {%- endfor %}
