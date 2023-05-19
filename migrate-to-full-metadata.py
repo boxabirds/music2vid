@@ -13,6 +13,11 @@ def write_file(file_path, content):
     with file_path.open("w") as file:
         file.write(content)
 
+def remove_quotes(s):
+    if s.startswith('"') and s.endswith('",'):
+        return s[1:-2]
+    return s
+
 parser = argparse.ArgumentParser(description="Migrate text files associated with mp3 files")
 parser.add_argument("--input", required=True, help="Location of the mp3 files")
 args = parser.parse_args()
@@ -60,7 +65,7 @@ for mp3_file in mp3_files:
         "animation": zoom_data,
         "estd_bpm": estd_bpm_data["tempo"],
         "style": style,
-        "keyframes": {key: {"lyric": transcript_frame_timings[key].strip('"'), "prompt": prompts[key].strip('"')} for key in prompts.keys() if key in transcript_frame_timings},
+        "keyframes": {key: {"lyric": remove_quotes(transcript_frame_timings[key]), "prompt": remove_quotes(prompts[key])} for key in prompts.keys() if key in transcript_frame_timings},
         "full_transcript": full_transcript_data
     }
 
