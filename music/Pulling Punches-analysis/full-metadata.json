@@ -1,0 +1,1887 @@
+{
+  "animation": {
+    "keyframes_per_second": 3,
+    "keyframe_zoom_animations": "0: (1.03), 11: (1.40), 12: (1.20), 13: (1.40), 14: (1.20), 15: (1.10), 16: (1.03), 18: (1.40), 19: (1.20), 20: (1.10), 21: (1.40), 22: (1.40), 23: (1.20), 24: (1.40), 25: (1.20), 26: (1.10), 27: (1.03), 29: (1.40), 30: (1.20), 31: (1.10), 32: (1.40), 33: (1.20), 34: (1.40), 35: (1.40), 36: (1.20), 37: (1.10), 38: (1.03), 43: (1.40), 44: (1.20), 45: (1.10), 46: (1.03), 50: (1.40), 51: (1.40), 52: (1.40), 53: (1.20), 54: (1.10), 55: (1.03), 56: (1.40), 57: (1.20), 58: (1.10), 59: (1.40), 60: (1.20), 61: (1.10), 62: (1.03), 67: (1.40), 68: (1.20), 69: (1.10), 70: (1.40), 71: (1.20), 72: (1.40), 73: (1.40), 74: (1.20), 75: (1.40), 76: (1.20), 77: (1.10), 78: (1.40), 79: (1.20), 80: (1.10), 81: (1.40), 82: (1.20), 83: (1.10), 84: (1.03), 89: (1.40), 90: (1.20), 91: (1.10), 92: (1.40), 93: (1.20), 94: (1.10), 95: (1.03), 97: (1.40), 98: (1.20), 99: (1.10), 100: (1.40), 101: (1.40), 102: (1.40), 103: (1.20), 104: (1.10), 105: (1.03), 106: (1.40), 107: (1.20), 108: (1.40), 109: (1.20), 110: (1.10), 111: (1.40), 112: (1.20), 113: (1.40), 114: (1.20), 115: (1.10), 116: (1.03), 124: (1.40), 125: (1.20), 126: (1.10), 127: (1.40), 128: (1.20), 129: (1.10), 130: (1.03), 131: (1.40), 132: (1.20), 133: (1.10), 134: (1.40), 135: (1.40), 136: (1.20), 137: (1.10), 138: (1.03), 142: (1.40), 143: (1.40), 144: (1.20), 145: (1.40), 146: (1.20), 147: (1.10), 148: (1.03), 149: (1.40), 150: (1.20), 151: (1.40), 152: (1.20), 153: (1.10), 154: (1.03), 156: (1.40), 157: (1.20), 158: (1.40), 159: (1.20), 160: (1.40), 161: (1.40), 162: (1.20), 163: (1.10), 164: (1.03), 165: (1.40), 166: (1.20), 167: (1.10), 168: (1.03), 179: (1.40), 180: (1.40), 181: (1.20), 182: (1.10), 183: (1.03), 184: (1.40), 185: (1.40), 186: (1.20), 187: (1.40), 188: (1.20), 189: (1.10), 190: (1.40), 191: (1.20), 192: (1.10), 193: (1.03), 197: (1.40), 198: (1.20), 199: (1.10), 200: (1.03), 201: (1.40), 202: (1.20), 203: (1.10), 204: (1.03), 206: (1.40), 207: (1.40), 208: (1.20), 209: (1.10), 210: (1.40), 211: (1.40), 212: (1.20), 213: (1.40), 214: (1.20), 215: (1.10), 216: (1.03), 219: (1.40), 220: (1.20), 221: (1.10), 222: (1.40), 223: (1.20), 224: (1.10), 225: (1.03), 226: (1.40), 227: (1.20), 228: (1.40), 229: (1.20), 230: (1.40), 231: (1.20), 232: (1.10), 233: (1.40), 234: (1.20), 235: (1.40), 236: (1.20), 237: (1.40), 238: (1.40), 239: (1.20), 240: (1.10), 241: (1.40), 242: (1.20), 243: (1.40), 244: (1.20), 245: (1.40), 246: (1.20), 247: (1.10), 248: (1.03), 250: (1.40), 251: (1.20), 252: (1.40), 253: (1.20), 254: (1.10), 255: (1.40), 256: (1.20), 257: (1.10), 258: (1.40), 259: (1.40), 260: (1.20), 261: (1.10), 262: (1.03), 263: (1.40), 264: (1.20), 265: (1.10), 266: (1.03), 270: (1.40), 271: (1.20), 272: (1.40), 273: (1.20), 274: (1.10), 275: (1.03), 276: (1.40), 277: (1.20), 278: (1.10), 279: (1.03), 285: (1.40), 286: (1.40), 287: (1.20), 288: (1.10), 289: (1.03), 290: (1.40), 291: (1.20), 292: (1.40), 293: (1.20), 294: (1.10), 295: (1.03), 296: (1.40), 297: (1.40), 298: (1.20), 299: (1.40), 300: (1.20), 301: (1.10), 302: (1.40), 303: (1.20), 304: (1.40), 305: (1.20), 306: (1.10), 307: (1.40), 308: (1.20), 309: (1.40), 310: (1.20), 311: (1.40), 312: (1.20), 313: (1.40), 314: (1.20), 315: (1.40), 316: (1.20), 317: (1.10), 318: (1.03), 319: (1.40), 320: (1.40), 321: (1.20), 322: (1.40), 323: (1.20), 324: (1.40), 325: (1.20), 326: (1.40), 327: (1.20), 328: (1.10), 329: (1.40), 330: (1.20), 331: (1.40), 332: (1.20), 333: (1.40), 334: (1.20), 335: (1.10), 336: (1.03), 338: (1.40), 339: (1.20), 340: (1.10), 341: (1.40), 342: (1.40), 343: (1.20), 344: (1.10), 345: (1.40), 346: (1.20), 347: (1.40), 348: (1.20), 349: (1.40), 350: (1.40), 351: (1.20), 352: (1.40), 353: (1.40), 354: (1.20), 355: (1.10), 356: (1.03), 358: (1.40), 359: (1.20), 360: (1.10), 361: (1.03), 363: (1.40), 364: (1.20), 365: (1.40), 366: (1.20), 367: (1.10), 368: (1.40), 369: (1.40), 370: (1.20), 371: (1.10), 372: (1.40), 373: (1.20), 374: (1.40), 375: (1.20), 376: (1.10), 377: (1.40), 378: (1.20), 379: (1.40), 380: (1.40), 381: (1.40), 382: (1.20), 383: (1.10), 384: (1.03), 388: (1.40), 389: (1.20), 390: (1.40), 391: (1.40), 392: (1.40), 393: (1.20), 394: (1.10), 395: (1.40), 396: (1.20), 397: (1.40), 398: (1.20), 399: (1.40), 400: (1.20), 401: (1.10), 402: (1.40), 403: (1.40), 404: (1.20), 405: (1.10), 406: (1.03), 411: (1.40), 412: (1.20), 413: (1.10), 414: (1.40), 415: (1.20), 416: (1.10), 417: (1.03), 421: (1.40), 422: (1.20), 423: (1.10), 424: (1.03), 425: (1.40), 426: (1.40), 427: (1.20), 428: (1.40), 429: (1.20), 430: (1.10), 431: (1.40), 432: (1.20), 433: (1.40), 434: (1.20), 435: (1.40), 436: (1.20), 437: (1.10), 438: (1.40), 439: (1.20), 440: (1.10), 441: (1.40), 442: (1.20), 443: (1.10), 444: (1.03), 445: (1.40), 446: (1.20), 447: (1.10), 448: (1.03), 453: (1.40), 454: (1.20), 455: (1.10), 456: (1.40), 457: (1.20), 458: (1.10), 459: (1.40), 460: (1.20), 461: (1.10), 462: (1.40), 463: (1.20), 464: (1.40), 465: (1.20), 466: (1.10), 467: (1.40), 468: (1.20), 469: (1.10), 470: (1.40), 471: (1.20), 472: (1.10), 473: (1.03), 475: (1.40), 476: (1.20), 477: (1.40), 478: (1.20), 479: (1.10), 480: (1.03), 484: (1.40), 485: (1.20), 486: (1.40), 487: (1.20), 488: (1.10), 489: (1.40), 490: (1.20), 491: (1.40), 492: (1.20), 493: (1.40), 494: (1.20), 495: (1.10), 496: (1.03), 497: (1.40), 498: (1.20), 499: (1.10), 500: (1.40), 501: (1.20), 502: (1.10), 503: (1.40), 504: (1.20), 505: (1.10), 506: (1.40), 507: (1.20), 508: (1.10), 509: (1.03), 510: (1.40), 511: (1.20), 512: (1.10), 513: (1.40), 514: (1.20), 515: (1.10), 516: (1.03), 520: (1.40), 521: (1.20), 522: (1.10), 523: (1.03), 545: (1.40), 546: (1.20), 547: (1.10), 548: (1.40), 549: (1.20), 550: (1.10), 551: (1.03), 552: (1.40), 553: (1.20), 554: (1.40), 555: (1.20), 556: (1.40), 557: (1.20), 558: (1.10), 559: (1.40), 560: (1.40), 561: (1.40), 562: (1.20), 563: (1.10), 564: (1.03), 567: (1.40), 568: (1.20), 569: (1.10), 570: (1.40), 571: (1.20), 572: (1.40), 573: (1.20), 574: (1.10), 575: (1.40), 576: (1.40), 577: (1.40), 578: (1.20), 579: (1.40), 580: (1.20), 581: (1.40), 582: (1.20), 583: (1.10), 584: (1.03), 586: (1.40), 587: (1.20), 588: (1.40), 589: (1.20), 590: (1.10), 591: (1.03), 592: (1.40), 593: (1.20), 594: (1.40), 595: (1.20), 596: (1.10), 597: (1.03), 599: (1.40), 600: (1.20), 601: (1.40), 602: (1.20), 603: (1.10), 604: (1.40), 605: (1.20), 606: (1.40), 607: (1.20), 608: (1.40), 609: (1.40), 610: (1.40), 611: (1.20), 612: (1.10), 613: (1.03), 615: (1.40), 616: (1.20), 617: (1.10), 618: (1.03), 620: (1.40), 621: (1.40), 622: (1.40), 623: (1.20), 624: (1.10), 625: (1.03), 626: (1.40), 627: (1.20), 628: (1.40), 629: (1.20), 630: (1.10), 631: (1.03), 632: (1.40), 633: (1.40), 634: (1.20), 635: (1.40), 636: (1.40), 637: (1.20), 638: (1.10), 639: (1.03), 640: (1.40), 641: (1.20), 642: (1.40), 643: (1.40), 644: (1.40), 645: (1.40), 646: (1.20), 647: (1.40), 648: (1.20), 649: (1.40), 650: (1.20), 651: (1.40), 652: (1.20), 653: (1.10), 654: (1.40), 655: (1.20), 656: (1.10), 657: (1.03), 663: (1.40), 664: (1.20), 665: (1.10), 666: (1.03), 667: (1.40), 668: (1.20), 669: (1.10), 670: (1.40), 671: (1.40), 672: (1.40), 673: (1.20), 674: (1.10), 675: (1.03), 677: (1.40), 678: (1.20), 679: (1.10), 680: (1.03), 685: (1.40), 686: (1.40), 687: (1.20), 688: (1.40), 689: (1.20), 690: (1.10), 691: (1.03), 697: (1.40), 698: (1.20), 699: (1.40), 700: (1.20), 701: (1.10), 702: (1.03), 706: (1.40), 707: (1.20), 708: (1.10), 709: (1.03), 713: (1.40), 714: (1.20), 715: (1.10), 716: (1.40), 717: (1.20), 718: (1.10), 719: (1.03), 720: (1.40), 721: (1.40), 722: (1.20), 723: (1.10), 724: (1.03), 727: (1.40), 728: (1.40), 729: (1.20), 730: (1.40), 731: (1.20), 732: (1.10), 733: (1.40), 734: (1.20), 735: (1.40), 736: (1.20), 737: (1.10), 738: (1.03), 741: (1.40), 742: (1.20), 743: (1.10), 744: (1.03), 749: (1.40), 750: (1.20), 751: (1.40), 752: (1.20), 753: (1.10), 754: (1.40), 755: (1.20), 756: (1.10), 757: (1.03), 760: (1.40), 761: (1.20), 762: (1.10), 763: (1.03), 765: (1.40), 766: (1.20), 767: (1.40), 768: (1.20), 769: (1.10), 770: (1.03), 772: (1.40), 773: (1.20), 774: (1.10), 775: (1.03), 777: (1.40), 778: (1.20), 779: (1.40), 780: (1.20), 781: (1.10), 782: (1.40), 783: (1.20), 784: (1.40), 785: (1.20), 786: (1.40), 787: (1.20), 788: (1.40), 789: (1.20), 790: (1.40), 791: (1.20), 792: (1.10), 793: (1.40), 794: (1.20), 795: (1.10), 796: (1.03), 798: (1.40), 799: (1.20), 800: (1.40), 801: (1.40), 802: (1.20), 803: (1.10), 804: (1.03), 805: (1.40), 806: (1.20), 807: (1.10), 808: (1.40), 809: (1.20), 810: (1.10), 811: (1.40), 812: (1.20), 813: (1.10), 814: (1.03), 815: (1.40), 816: (1.20), 817: (1.10), 818: (1.03), 819: (1.40), 820: (1.20), 821: (1.10), 822: (1.03), 824: (1.40), 825: (1.40), 826: (1.40), 827: (1.20), 828: (1.40), 829: (1.40), 830: (1.20), 831: (1.40), 832: (1.20), 833: (1.40), 834: (1.20), 835: (1.10), 836: (1.40), 837: (1.20), 838: (1.40), 839: (1.20), 840: (1.10), 841: (1.03), 846: (1.40), 847: (1.20), 848: (1.10), 849: (1.03), 851: (1.40), 852: (1.20), 853: (1.10), 854: (1.03), 856: (1.40), 857: (1.20), 858: (1.40), 859: (1.20), 860: (1.10), 861: (1.40), 862: (1.20), 863: (1.10), 864: (1.03), 865: (1.40), 866: (1.20), 867: (1.40), 868: (1.20), 869: (1.40), 870: (1.20), 871: (1.10), 872: (1.40), 873: (1.20), 874: (1.40), 875: (1.20), 876: (1.40), 878: (1.40), 881: (1.40), 885: (1.40), 888: (1.40), 889: (1.40), 895: (1.40), 896: (1.40), 901: (1.40)"
+  },
+  "estd_bpm": 107.666015625,
+  "style": "Pencil Sketch",
+  "keyframes": {
+    "118": {
+      "lyric": " Everyone watches over me, and someone sits back in the store\",",
+      "prompt": "Person in a crowd of people, looking back to see a figure in the corner with a comforting gaze.\","
+    },
+    "148": {
+      "lyric": " With eyes that say, hands that feel\",",
+      "prompt": "A figure standing in the rain, looking up at a stormy sky with hands outstretched as if to ask \"why me?\".\","
+    },
+    "164": {
+      "lyric": " Why am I the last to know sheltered life spent partially breathing?\",",
+      "prompt": "Person standing alone in a crowd, eyes downcast, arms crossed, surrounded by others who are looking away.\","
+    },
+    "198": {
+      "lyric": " Gathered together under new religion\",",
+      "prompt": "A massive tree, with its branches reaching out to the sky, with a crowd of people standing beneath it in a circle, each person looking up and reaching out towards the tree.\","
+    },
+    "216": {
+      "lyric": " Pulling punches, moving, sleeping on our feet\",",
+      "prompt": "Two hands forming a heart shape, surrounded by a crowd of people in various poses of support.\","
+    },
+    "244": {
+      "lyric": " Pulling punches, I needed someone to comfort me\",",
+      "prompt": "Person standing in a field with arms outstretched, looking up at a sky filled with stars.\","
+    },
+    "274": {
+      "lyric": " Raised in summer days of splendor\",",
+      "prompt": "A peaceful summer sun setting over a gathering of people of all ages, joined together in a moment of unity and understanding.\","
+    },
+    "286": {
+      "lyric": " Would have dreamed of love never ending\",",
+      "prompt": "A hand reaching through a sunbeam, cradling a heart-shaped cloud.\","
+    },
+    "354": {
+      "lyric": " A better world lies in front of me\",",
+      "prompt": "A hand reaching out of a sun-filled sky, offering a rainbow path to a better world.\","
+    },
+    "368": {
+      "lyric": " A sketch of life and the books I read\",",
+      "prompt": "Person standing in front of a church with outstretched arms, surrounded by books and a bright, summer sky.\","
+    },
+    "382": {
+      "lyric": " Then as I walk where heaven leads\",",
+      "prompt": "Figure of a person walking up a set of stone steps towards a bright light, with a crowd of people below, looking up in awe.\","
+    },
+    "400": {
+      "lyric": " Why am I the last to know simple lives spent partially breathing?\",",
+      "prompt": "A lone figure looking up at an illuminated sky surrounded by darkness.\","
+    },
+    "432": {
+      "lyric": " Gathered together under new religion\",",
+      "prompt": "A person standing in the center of a large gathering of people, looking out with a sense of longing and confusion.\","
+    },
+    "450": {
+      "lyric": " Pulling punches, moving, sleeping on our feet\",",
+      "prompt": "A figure walking alone in a cityscape illuminated by a setting sun, casting a long shadow across the sidewalk.\","
+    },
+    "478": {
+      "lyric": " Pulling punches, I needed someone to comfort me\",",
+      "prompt": "Person standing in a sunlit field with fists raised, alone but surrounded by a crowd.\","
+    },
+    "508": {
+      "lyric": " Raised in summer days of splendor\",",
+      "prompt": "Sunrise over a garden of wildflowers with a child in the center, blissfully unaware of the struggles of the world.\","
+    },
+    "520": {
+      "lyric": " Would have dreamed of love never ending\",",
+      "prompt": "Intertwined hands of different colors reaching for a sky of stars.\","
+    },
+    "596": {
+      "lyric": " Nature leads\",",
+      "prompt": "A flock of birds soaring across a bright blue sky.\","
+    },
+    "607": {
+      "lyric": " There's no zeal\",",
+      "prompt": "A figure alone in a crowd, their eyes turned skyward but their body slumped in despair.\","
+    },
+    "623": {
+      "lyric": " Deep inside the heart of new\",",
+      "prompt": "A person standing in a crowd of people, looking up towards the sky with a hopeful expression on their face.\","
+    },
+    "704": {
+      "lyric": " Sheltered lives spent partially breathing\",",
+      "prompt": "A figure in the foreground of a landscape, surrounded by a sea of people in the background all looking up with their hands in the air.\","
+    },
+    "727": {
+      "lyric": " Gathered together under new religion\",",
+      "prompt": "A group of people huddled together, standing in a circle, hands outstretched and palms up, forming a dome-like structure with glowing light emanating from it.\","
+    },
+    "745": {
+      "lyric": " Pulling punches, moving, sleeping on our feet\",",
+      "prompt": "A person standing in the middle of a large crowd, arms raised as if in surrender, eyes closed in exhaustion.\","
+    },
+    "773": {
+      "lyric": " Pulling punches, I needed someone to comfort me\",",
+      "prompt": "Person standing in silhouette in the store doorway with arms outstretched, the sun setting in the background and a flock of birds flying away.\","
+    },
+    "803": {
+      "lyric": " Raised in summer days of splendor\",",
+      "prompt": "A hand reaching out to a flower blooming in a sunlit meadow.\","
+    },
+    "816": {
+      "lyric": " Would have dreamed of love never ending\",",
+      "prompt": "Interwoven hands of many colors, embracing under a rainbow sky.\","
+    }
+  },
+  "full_transcript": {
+    "text": " Everyone watches over me, and someone sits back in the store With eyes that say, hands that feel Why am I the last to know sheltered life spent partially breathing? Gathered together under new religion Pulling punches, moving, sleeping on our feet Pulling punches, I needed someone to comfort me Raised in summer days of splendor Would have dreamed of love never ending A better world lies in front of me A sketch of life and the books I read Then as I walk where heaven leads Why am I the last to know simple lives spent partially breathing? Gathered together under new religion Pulling punches, moving, sleeping on our feet Pulling punches, I needed someone to comfort me Raised in summer days of splendor Would have dreamed of love never ending Nature leads There's no zeal Deep inside the heart of new Sheltered lives spent partially breathing Gathered together under new religion Pulling punches, moving, sleeping on our feet Pulling punches, I needed someone to comfort me Raised in summer days of splendor Would have dreamed of love never ending",
+    "segments": [
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 39.21,
+        "end": 48.55,
+        "text": " Everyone watches over me, and someone sits back in the store",
+        "tokens": [
+          50364,
+          5198,
+          17062,
+          670,
+          385,
+          11,
+          293,
+          1580,
+          12696,
+          646,
+          294,
+          264,
+          3531,
+          50914
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.3640188489641462,
+        "compression_ratio": 1.312,
+        "no_speech_prob": 0.7171108722686768,
+        "confidence": 0.42,
+        "words": [
+          {
+            "text": "Everyone",
+            "start": 39.21,
+            "end": 40.69,
+            "confidence": 0.044
+          },
+          {
+            "text": "watches",
+            "start": 40.69,
+            "end": 42.03,
+            "confidence": 0.936
+          },
+          {
+            "text": "over",
+            "start": 42.03,
+            "end": 43.23,
+            "confidence": 0.959
+          },
+          {
+            "text": "me,",
+            "start": 43.23,
+            "end": 44.27,
+            "confidence": 0.563
+          },
+          {
+            "text": "and",
+            "start": 44.65,
+            "end": 44.67,
+            "confidence": 0.084
+          },
+          {
+            "text": "someone",
+            "start": 44.67,
+            "end": 45.13,
+            "confidence": 0.485
+          },
+          {
+            "text": "sits",
+            "start": 45.13,
+            "end": 45.77,
+            "confidence": 0.118
+          },
+          {
+            "text": "back",
+            "start": 45.77,
+            "end": 46.67,
+            "confidence": 0.928
+          },
+          {
+            "text": "in",
+            "start": 46.67,
+            "end": 47.61,
+            "confidence": 0.968
+          },
+          {
+            "text": "the",
+            "start": 47.61,
+            "end": 47.91,
+            "confidence": 0.878
+          },
+          {
+            "text": "store",
+            "start": 47.91,
+            "end": 48.55,
+            "confidence": 0.631
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "seek": 0,
+        "start": 49.39,
+        "end": 54.31,
+        "text": " With eyes that say, hands that feel",
+        "tokens": [
+          50914,
+          2022,
+          2575,
+          300,
+          584,
+          11,
+          2377,
+          300,
+          841,
+          51214
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.3640188489641462,
+        "compression_ratio": 1.312,
+        "no_speech_prob": 0.7171108722686768,
+        "confidence": 0.672,
+        "words": [
+          {
+            "text": "With",
+            "start": 49.39,
+            "end": 49.77,
+            "confidence": 0.184
+          },
+          {
+            "text": "eyes",
+            "start": 49.77,
+            "end": 50.31,
+            "confidence": 0.943
+          },
+          {
+            "text": "that",
+            "start": 50.31,
+            "end": 50.73,
+            "confidence": 0.982
+          },
+          {
+            "text": "say,",
+            "start": 50.73,
+            "end": 51.45,
+            "confidence": 0.596
+          },
+          {
+            "text": "hands",
+            "start": 51.67,
+            "end": 52.27,
+            "confidence": 0.755
+          },
+          {
+            "text": "that",
+            "start": 52.27,
+            "end": 52.83,
+            "confidence": 0.989
+          },
+          {
+            "text": "feel",
+            "start": 52.83,
+            "end": 54.31,
+            "confidence": 0.927
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "seek": 0,
+        "start": 54.53,
+        "end": 62.27,
+        "text": " Why am I the last to know sheltered life spent partially breathing?",
+        "tokens": [
+          51214,
+          1545,
+          669,
+          286,
+          264,
+          1036,
+          281,
+          458,
+          13341,
+          292,
+          993,
+          4418,
+          18886,
+          9570,
+          30,
+          51664
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.3640188489641462,
+        "compression_ratio": 1.312,
+        "no_speech_prob": 0.7171108722686768,
+        "confidence": 0.755,
+        "words": [
+          {
+            "text": "Why",
+            "start": 54.53,
+            "end": 55.67,
+            "confidence": 0.505
+          },
+          {
+            "text": "am",
+            "start": 55.67,
+            "end": 56.11,
+            "confidence": 0.971
+          },
+          {
+            "text": "I",
+            "start": 56.11,
+            "end": 56.39,
+            "confidence": 0.955
+          },
+          {
+            "text": "the",
+            "start": 56.39,
+            "end": 56.67,
+            "confidence": 0.982
+          },
+          {
+            "text": "last",
+            "start": 56.67,
+            "end": 57.21,
+            "confidence": 0.988
+          },
+          {
+            "text": "to",
+            "start": 57.21,
+            "end": 57.49,
+            "confidence": 0.982
+          },
+          {
+            "text": "know",
+            "start": 57.49,
+            "end": 58.01,
+            "confidence": 0.997
+          },
+          {
+            "text": "sheltered",
+            "start": 58.01,
+            "end": 59.03,
+            "confidence": 0.687
+          },
+          {
+            "text": "life",
+            "start": 59.03,
+            "end": 59.27,
+            "confidence": 0.283
+          },
+          {
+            "text": "spent",
+            "start": 59.27,
+            "end": 59.85,
+            "confidence": 0.814
+          },
+          {
+            "text": "partially",
+            "start": 59.85,
+            "end": 61.11,
+            "confidence": 0.682
+          },
+          {
+            "text": "breathing?",
+            "start": 61.11,
+            "end": 62.27,
+            "confidence": 0.772
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "seek": 2600,
+        "start": 66.13,
+        "end": 71.31,
+        "text": " Gathered together under new religion",
+        "tokens": [
+          50364,
+          39841,
+          292,
+          1214,
+          833,
+          777,
+          7561,
+          50664
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.12317716374116786,
+        "compression_ratio": 1.3265306122448979,
+        "no_speech_prob": 0.09698810428380966,
+        "confidence": 0.54,
+        "words": [
+          {
+            "text": "Gathered",
+            "start": 66.13,
+            "end": 67.61,
+            "confidence": 0.219
+          },
+          {
+            "text": "together",
+            "start": 67.61,
+            "end": 68.33,
+            "confidence": 0.96
+          },
+          {
+            "text": "under",
+            "start": 68.33,
+            "end": 69.13,
+            "confidence": 0.879
+          },
+          {
+            "text": "new",
+            "start": 69.13,
+            "end": 69.95,
+            "confidence": 0.857
+          },
+          {
+            "text": "religion",
+            "start": 69.95,
+            "end": 71.31,
+            "confidence": 0.716
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "seek": 2600,
+        "start": 71.99,
+        "end": 80.47,
+        "text": " Pulling punches, moving, sleeping on our feet",
+        "tokens": [
+          50664,
+          15074,
+          278,
+          34103,
+          11,
+          2684,
+          11,
+          8296,
+          322,
+          527,
+          3521,
+          51114
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.12317716374116786,
+        "compression_ratio": 1.3265306122448979,
+        "no_speech_prob": 0.09698810428380966,
+        "confidence": 0.391,
+        "words": [
+          {
+            "text": "Pulling",
+            "start": 71.99,
+            "end": 73.87,
+            "confidence": 0.214
+          },
+          {
+            "text": "punches,",
+            "start": 73.87,
+            "end": 75.83,
+            "confidence": 0.071
+          },
+          {
+            "text": "moving,",
+            "start": 76.83,
+            "end": 77.57,
+            "confidence": 0.655
+          },
+          {
+            "text": "sleeping",
+            "start": 77.87,
+            "end": 78.73,
+            "confidence": 0.876
+          },
+          {
+            "text": "on",
+            "start": 78.73,
+            "end": 79.57,
+            "confidence": 0.987
+          },
+          {
+            "text": "our",
+            "start": 79.57,
+            "end": 79.97,
+            "confidence": 0.972
+          },
+          {
+            "text": "feet",
+            "start": 79.97,
+            "end": 80.47,
+            "confidence": 0.995
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "seek": 2600,
+        "start": 81.27,
+        "end": 90.57,
+        "text": " Pulling punches, I needed someone to comfort me",
+        "tokens": [
+          51114,
+          15074,
+          278,
+          34103,
+          11,
+          286,
+          2978,
+          1580,
+          281,
+          3400,
+          385,
+          51614
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.12317716374116786,
+        "compression_ratio": 1.3265306122448979,
+        "no_speech_prob": 0.09698810428380966,
+        "confidence": 0.464,
+        "words": [
+          {
+            "text": "Pulling",
+            "start": 81.27,
+            "end": 82.93,
+            "confidence": 0.28
+          },
+          {
+            "text": "punches,",
+            "start": 83.67,
+            "end": 84.59,
+            "confidence": 0.141
+          },
+          {
+            "text": "I",
+            "start": 85.27,
+            "end": 85.47,
+            "confidence": 0.853
+          },
+          {
+            "text": "needed",
+            "start": 85.47,
+            "end": 86.15,
+            "confidence": 0.434
+          },
+          {
+            "text": "someone",
+            "start": 86.15,
+            "end": 87.69,
+            "confidence": 0.907
+          },
+          {
+            "text": "to",
+            "start": 87.69,
+            "end": 88.31,
+            "confidence": 0.97
+          },
+          {
+            "text": "comfort",
+            "start": 88.31,
+            "end": 88.95,
+            "confidence": 0.91
+          },
+          {
+            "text": "me",
+            "start": 88.95,
+            "end": 90.57,
+            "confidence": 0.996
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "seek": 5100,
+        "start": 91.21,
+        "end": 95.17,
+        "text": " Raised in summer days of splendor",
+        "tokens": [
+          50364,
+          43374,
+          292,
+          294,
+          4266,
+          1708,
+          295,
+          34350,
+          284,
+          50564
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.12181980379166142,
+        "compression_ratio": 1.1868131868131868,
+        "no_speech_prob": 0.029337270185351372,
+        "confidence": 0.669,
+        "words": [
+          {
+            "text": "Raised",
+            "start": 91.21,
+            "end": 91.99,
+            "confidence": 0.323
+          },
+          {
+            "text": "in",
+            "start": 91.99,
+            "end": 92.15,
+            "confidence": 0.965
+          },
+          {
+            "text": "summer",
+            "start": 92.15,
+            "end": 92.87,
+            "confidence": 0.933
+          },
+          {
+            "text": "days",
+            "start": 92.87,
+            "end": 93.59,
+            "confidence": 0.7
+          },
+          {
+            "text": "of",
+            "start": 93.59,
+            "end": 94.11,
+            "confidence": 0.996
+          },
+          {
+            "text": "splendor",
+            "start": 94.11,
+            "end": 95.17,
+            "confidence": 0.782
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "seek": 5100,
+        "start": 95.41,
+        "end": 99.35,
+        "text": " Would have dreamed of love never ending",
+        "tokens": [
+          50564,
+          6068,
+          362,
+          26726,
+          295,
+          959,
+          1128,
+          8121,
+          50814
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.12181980379166142,
+        "compression_ratio": 1.1868131868131868,
+        "no_speech_prob": 0.029337270185351372,
+        "confidence": 0.645,
+        "words": [
+          {
+            "text": "Would",
+            "start": 95.41,
+            "end": 95.67,
+            "confidence": 0.231
+          },
+          {
+            "text": "have",
+            "start": 95.67,
+            "end": 95.93,
+            "confidence": 0.523
+          },
+          {
+            "text": "dreamed",
+            "start": 95.93,
+            "end": 96.97,
+            "confidence": 0.967
+          },
+          {
+            "text": "of",
+            "start": 96.97,
+            "end": 97.41,
+            "confidence": 0.946
+          },
+          {
+            "text": "love",
+            "start": 97.41,
+            "end": 97.67,
+            "confidence": 0.72
+          },
+          {
+            "text": "never",
+            "start": 97.67,
+            "end": 98.47,
+            "confidence": 0.755
+          },
+          {
+            "text": "ending",
+            "start": 98.47,
+            "end": 99.35,
+            "confidence": 0.773
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "seek": 5100,
+        "start": 118.03,
+        "end": 121.99,
+        "text": " A better world lies in front of me",
+        "tokens": [
+          51614,
+          316,
+          1101,
+          1002,
+          9134,
+          294,
+          1868,
+          295,
+          385,
+          51814
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.12181980379166142,
+        "compression_ratio": 1.1868131868131868,
+        "no_speech_prob": 0.029337270185351372,
+        "confidence": 0.909,
+        "words": [
+          {
+            "text": "A",
+            "start": 118.03,
+            "end": 118.25,
+            "confidence": 0.51
+          },
+          {
+            "text": "better",
+            "start": 118.25,
+            "end": 118.69,
+            "confidence": 0.975
+          },
+          {
+            "text": "world",
+            "start": 118.69,
+            "end": 119.09,
+            "confidence": 0.996
+          },
+          {
+            "text": "lies",
+            "start": 119.09,
+            "end": 119.71,
+            "confidence": 0.992
+          },
+          {
+            "text": "in",
+            "start": 119.71,
+            "end": 120.19,
+            "confidence": 0.986
+          },
+          {
+            "text": "front",
+            "start": 120.19,
+            "end": 120.73,
+            "confidence": 0.988
+          },
+          {
+            "text": "of",
+            "start": 120.73,
+            "end": 121.31,
+            "confidence": 0.99
+          },
+          {
+            "text": "me",
+            "start": 121.31,
+            "end": 121.99,
+            "confidence": 0.985
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "seek": 8000,
+        "start": 122.51,
+        "end": 126.63,
+        "text": " A sketch of life and the books I read",
+        "tokens": [
+          50364,
+          316,
+          12325,
+          295,
+          993,
+          293,
+          264,
+          3642,
+          286,
+          1401,
+          50614
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.14393319023980033,
+        "compression_ratio": 1.3282442748091603,
+        "no_speech_prob": 0.04955560341477394,
+        "confidence": 0.767,
+        "words": [
+          {
+            "text": "A",
+            "start": 122.51,
+            "end": 122.67,
+            "confidence": 0.212
+          },
+          {
+            "text": "sketch",
+            "start": 122.67,
+            "end": 123.03,
+            "confidence": 0.948
+          },
+          {
+            "text": "of",
+            "start": 123.03,
+            "end": 123.29,
+            "confidence": 0.997
+          },
+          {
+            "text": "life",
+            "start": 123.29,
+            "end": 123.71,
+            "confidence": 0.989
+          },
+          {
+            "text": "and",
+            "start": 123.71,
+            "end": 124.35,
+            "confidence": 0.576
+          },
+          {
+            "text": "the",
+            "start": 124.35,
+            "end": 124.73,
+            "confidence": 0.897
+          },
+          {
+            "text": "books",
+            "start": 124.73,
+            "end": 125.29,
+            "confidence": 0.966
+          },
+          {
+            "text": "I",
+            "start": 125.29,
+            "end": 125.93,
+            "confidence": 0.952
+          },
+          {
+            "text": "read",
+            "start": 125.93,
+            "end": 126.63,
+            "confidence": 0.972
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "seek": 8000,
+        "start": 127.39,
+        "end": 133.21,
+        "text": " Then as I walk where heaven leads",
+        "tokens": [
+          50614,
+          1396,
+          382,
+          286,
+          1792,
+          689,
+          7162,
+          6689,
+          50914
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.14393319023980033,
+        "compression_ratio": 1.3282442748091603,
+        "no_speech_prob": 0.04955560341477394,
+        "confidence": 0.489,
+        "words": [
+          {
+            "text": "Then",
+            "start": 127.39,
+            "end": 127.83,
+            "confidence": 0.1
+          },
+          {
+            "text": "as",
+            "start": 127.83,
+            "end": 128.33,
+            "confidence": 0.464
+          },
+          {
+            "text": "I",
+            "start": 128.33,
+            "end": 128.57,
+            "confidence": 0.797
+          },
+          {
+            "text": "walk",
+            "start": 128.57,
+            "end": 129.39,
+            "confidence": 0.812
+          },
+          {
+            "text": "where",
+            "start": 129.39,
+            "end": 130.01,
+            "confidence": 0.484
+          },
+          {
+            "text": "heaven",
+            "start": 130.01,
+            "end": 130.81,
+            "confidence": 0.732
+          },
+          {
+            "text": "leads",
+            "start": 130.81,
+            "end": 133.21,
+            "confidence": 0.624
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "seek": 8000,
+        "start": 133.27,
+        "end": 140.17,
+        "text": " Why am I the last to know simple lives spent partially breathing?",
+        "tokens": [
+          50914,
+          1545,
+          669,
+          286,
+          264,
+          1036,
+          281,
+          458,
+          2199,
+          2909,
+          4418,
+          18886,
+          9570,
+          30,
+          51364
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.14393319023980033,
+        "compression_ratio": 1.3282442748091603,
+        "no_speech_prob": 0.04955560341477394,
+        "confidence": 0.298,
+        "words": [
+          {
+            "text": "Why",
+            "start": 133.27,
+            "end": 133.79,
+            "confidence": 0.606
+          },
+          {
+            "text": "am",
+            "start": 133.79,
+            "end": 134.17,
+            "confidence": 0.984
+          },
+          {
+            "text": "I",
+            "start": 134.17,
+            "end": 134.43,
+            "confidence": 0.921
+          },
+          {
+            "text": "the",
+            "start": 134.43,
+            "end": 134.81,
+            "confidence": 0.953
+          },
+          {
+            "text": "last",
+            "start": 134.81,
+            "end": 135.29,
+            "confidence": 0.809
+          },
+          {
+            "text": "to",
+            "start": 135.29,
+            "end": 135.61,
+            "confidence": 0.865
+          },
+          {
+            "text": "know",
+            "start": 135.61,
+            "end": 135.93,
+            "confidence": 0.99
+          },
+          {
+            "text": "simple",
+            "start": 135.93,
+            "end": 136.81,
+            "confidence": 0.148
+          },
+          {
+            "text": "lives",
+            "start": 136.81,
+            "end": 137.41,
+            "confidence": 0.067
+          },
+          {
+            "text": "spent",
+            "start": 137.41,
+            "end": 137.97,
+            "confidence": 0.0
+          },
+          {
+            "text": "partially",
+            "start": 137.97,
+            "end": 139.11,
+            "confidence": 0.955
+          },
+          {
+            "text": "breathing?",
+            "start": 139.11,
+            "end": 140.17,
+            "confidence": 0.843
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "seek": 8000,
+        "start": 143.85,
+        "end": 149.0,
+        "text": " Gathered together under new religion",
+        "tokens": [
+          51364,
+          39841,
+          292,
+          1214,
+          833,
+          777,
+          7561,
+          51664
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.14393319023980033,
+        "compression_ratio": 1.3282442748091603,
+        "no_speech_prob": 0.04955560341477394,
+        "confidence": 0.377,
+        "words": [
+          {
+            "text": "Gathered",
+            "start": 143.85,
+            "end": 145.64,
+            "confidence": 0.1
+          },
+          {
+            "text": "together",
+            "start": 145.64,
+            "end": 146.4,
+            "confidence": 0.966
+          },
+          {
+            "text": "under",
+            "start": 146.4,
+            "end": 147.12,
+            "confidence": 0.443
+          },
+          {
+            "text": "new",
+            "start": 147.12,
+            "end": 147.9,
+            "confidence": 0.752
+          },
+          {
+            "text": "religion",
+            "start": 147.9,
+            "end": 149.0,
+            "confidence": 0.889
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "seek": 10600,
+        "start": 149.98,
+        "end": 158.6,
+        "text": " Pulling punches, moving, sleeping on our feet",
+        "tokens": [
+          50364,
+          15074,
+          278,
+          34103,
+          11,
+          2684,
+          11,
+          8296,
+          322,
+          527,
+          3521,
+          50814
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.05021082030402289,
+        "compression_ratio": 1.3916666666666666,
+        "no_speech_prob": 0.3378475606441498,
+        "confidence": 0.311,
+        "words": [
+          {
+            "text": "Pulling",
+            "start": 149.98,
+            "end": 151.68,
+            "confidence": 0.058
+          },
+          {
+            "text": "punches,",
+            "start": 151.68,
+            "end": 154.0,
+            "confidence": 0.507
+          },
+          {
+            "text": "moving,",
+            "start": 154.58,
+            "end": 155.74,
+            "confidence": 0.108
+          },
+          {
+            "text": "sleeping",
+            "start": 156.06,
+            "end": 156.68,
+            "confidence": 0.879
+          },
+          {
+            "text": "on",
+            "start": 156.68,
+            "end": 157.56,
+            "confidence": 0.959
+          },
+          {
+            "text": "our",
+            "start": 157.56,
+            "end": 158.04,
+            "confidence": 0.977
+          },
+          {
+            "text": "feet",
+            "start": 158.04,
+            "end": 158.6,
+            "confidence": 0.993
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "seek": 10600,
+        "start": 159.36,
+        "end": 168.3,
+        "text": " Pulling punches, I needed someone to comfort me",
+        "tokens": [
+          50814,
+          15074,
+          278,
+          34103,
+          11,
+          286,
+          2978,
+          1580,
+          281,
+          3400,
+          385,
+          51314
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.05021082030402289,
+        "compression_ratio": 1.3916666666666666,
+        "no_speech_prob": 0.3378475606441498,
+        "confidence": 0.612,
+        "words": [
+          {
+            "text": "Pulling",
+            "start": 159.36,
+            "end": 161.07,
+            "confidence": 0.196
+          },
+          {
+            "text": "punches,",
+            "start": 161.74,
+            "end": 162.58,
+            "confidence": 0.481
+          },
+          {
+            "text": "I",
+            "start": 163.2,
+            "end": 163.4,
+            "confidence": 0.932
+          },
+          {
+            "text": "needed",
+            "start": 163.4,
+            "end": 164.18,
+            "confidence": 0.991
+          },
+          {
+            "text": "someone",
+            "start": 164.18,
+            "end": 165.82,
+            "confidence": 0.933
+          },
+          {
+            "text": "to",
+            "start": 165.82,
+            "end": 166.44,
+            "confidence": 0.989
+          },
+          {
+            "text": "comfort",
+            "start": 166.44,
+            "end": 166.96,
+            "confidence": 0.978
+          },
+          {
+            "text": "me",
+            "start": 166.96,
+            "end": 168.3,
+            "confidence": 0.994
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "seek": 10600,
+        "start": 169.28,
+        "end": 173.02,
+        "text": " Raised in summer days of splendor",
+        "tokens": [
+          51314,
+          43374,
+          292,
+          294,
+          4266,
+          1708,
+          295,
+          34350,
+          284,
+          51514
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.05021082030402289,
+        "compression_ratio": 1.3916666666666666,
+        "no_speech_prob": 0.3378475606441498,
+        "confidence": 0.577,
+        "words": [
+          {
+            "text": "Raised",
+            "start": 169.28,
+            "end": 170.06,
+            "confidence": 0.184
+          },
+          {
+            "text": "in",
+            "start": 170.06,
+            "end": 170.32,
+            "confidence": 0.977
+          },
+          {
+            "text": "summer",
+            "start": 170.32,
+            "end": 170.98,
+            "confidence": 0.917
+          },
+          {
+            "text": "days",
+            "start": 170.98,
+            "end": 171.64,
+            "confidence": 0.561
+          },
+          {
+            "text": "of",
+            "start": 171.64,
+            "end": 172.04,
+            "confidence": 0.954
+          },
+          {
+            "text": "splendor",
+            "start": 172.04,
+            "end": 173.02,
+            "confidence": 0.869
+          }
+        ]
+      },
+      {
+        "id": 16,
+        "seek": 10600,
+        "start": 173.48,
+        "end": 177.4,
+        "text": " Would have dreamed of love never ending",
+        "tokens": [
+          51514,
+          6068,
+          362,
+          26726,
+          295,
+          959,
+          1128,
+          8121,
+          51764
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.05021082030402289,
+        "compression_ratio": 1.3916666666666666,
+        "no_speech_prob": 0.3378475606441498,
+        "confidence": 0.367,
+        "words": [
+          {
+            "text": "Would",
+            "start": 173.48,
+            "end": 173.72,
+            "confidence": 0.168
+          },
+          {
+            "text": "have",
+            "start": 173.72,
+            "end": 174.0,
+            "confidence": 0.553
+          },
+          {
+            "text": "dreamed",
+            "start": 174.0,
+            "end": 175.0,
+            "confidence": 0.962
+          },
+          {
+            "text": "of",
+            "start": 175.0,
+            "end": 175.42,
+            "confidence": 0.164
+          },
+          {
+            "text": "love",
+            "start": 175.42,
+            "end": 175.72,
+            "confidence": 0.094
+          },
+          {
+            "text": "never",
+            "start": 175.72,
+            "end": 176.54,
+            "confidence": 0.971
+          },
+          {
+            "text": "ending",
+            "start": 176.54,
+            "end": 177.4,
+            "confidence": 0.666
+          }
+        ]
+      },
+      {
+        "id": 17,
+        "seek": 13400,
+        "start": 198.67,
+        "end": 201.03,
+        "text": " Nature leads",
+        "tokens": [
+          50364,
+          20159,
+          6689,
+          50614
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.3099655611761685,
+        "compression_ratio": 1.1123595505617978,
+        "no_speech_prob": 0.1290186047554016,
+        "confidence": 0.0,
+        "words": [
+          {
+            "text": "Nature",
+            "start": 198.67,
+            "end": 199.91,
+            "confidence": 0.0
+          },
+          {
+            "text": "leads",
+            "start": 199.91,
+            "end": 201.03,
+            "confidence": 0.0
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "seek": 13400,
+        "start": 202.33,
+        "end": 207.07,
+        "text": " There's no zeal",
+        "tokens": [
+          50614,
+          821,
+          311,
+          572,
+          5277,
+          304,
+          50814
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.3099655611761685,
+        "compression_ratio": 1.1123595505617978,
+        "no_speech_prob": 0.1290186047554016,
+        "confidence": 0.064,
+        "words": [
+          {
+            "text": "There's",
+            "start": 202.33,
+            "end": 204.11,
+            "confidence": 0.027
+          },
+          {
+            "text": "no",
+            "start": 204.11,
+            "end": 204.89,
+            "confidence": 0.217
+          },
+          {
+            "text": "zeal",
+            "start": 204.89,
+            "end": 207.07,
+            "confidence": 0.08
+          }
+        ]
+      },
+      {
+        "id": 19,
+        "seek": 13400,
+        "start": 207.75,
+        "end": 215.29,
+        "text": " Deep inside the heart of new",
+        "tokens": [
+          50814,
+          14895,
+          1854,
+          264,
+          1917,
+          295,
+          777,
+          51214
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.3099655611761685,
+        "compression_ratio": 1.1123595505617978,
+        "no_speech_prob": 0.1290186047554016,
+        "confidence": 0.411,
+        "words": [
+          {
+            "text": "Deep",
+            "start": 207.75,
+            "end": 208.67,
+            "confidence": 0.332
+          },
+          {
+            "text": "inside",
+            "start": 208.67,
+            "end": 210.67,
+            "confidence": 0.963
+          },
+          {
+            "text": "the",
+            "start": 210.67,
+            "end": 211.71,
+            "confidence": 0.73
+          },
+          {
+            "text": "heart",
+            "start": 211.71,
+            "end": 213.35,
+            "confidence": 0.932
+          },
+          {
+            "text": "of",
+            "start": 213.35,
+            "end": 214.77,
+            "confidence": 0.95
+          },
+          {
+            "text": "new",
+            "start": 214.77,
+            "end": 215.29,
+            "confidence": 0.023
+          }
+        ]
+      },
+      {
+        "id": 20,
+        "seek": 13400,
+        "start": 234.57,
+        "end": 238.93,
+        "text": " Sheltered lives spent partially breathing",
+        "tokens": [
+          51214,
+          24415,
+          40665,
+          2909,
+          4418,
+          18886,
+          9570,
+          51564
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.3099655611761685,
+        "compression_ratio": 1.1123595505617978,
+        "no_speech_prob": 0.1290186047554016,
+        "confidence": 0.052,
+        "words": [
+          {
+            "text": "Sheltered",
+            "start": 234.57,
+            "end": 235.25,
+            "confidence": 0.195
+          },
+          {
+            "text": "lives",
+            "start": 235.25,
+            "end": 235.73,
+            "confidence": 0.354
+          },
+          {
+            "text": "spent",
+            "start": 235.73,
+            "end": 236.37,
+            "confidence": 0.713
+          },
+          {
+            "text": "partially",
+            "start": 236.37,
+            "end": 237.47,
+            "confidence": 0.0
+          },
+          {
+            "text": "breathing",
+            "start": 237.47,
+            "end": 238.93,
+            "confidence": 0.034
+          }
+        ]
+      },
+      {
+        "id": 21,
+        "seek": 15800,
+        "start": 242.29,
+        "end": 247.7,
+        "text": " Gathered together under new religion",
+        "tokens": [
+          50364,
+          39841,
+          292,
+          1214,
+          833,
+          777,
+          7561,
+          50664
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.05053774877028032,
+        "compression_ratio": 1.3666666666666667,
+        "no_speech_prob": 0.25606536865234375,
+        "confidence": 0.429,
+        "words": [
+          {
+            "text": "Gathered",
+            "start": 242.29,
+            "end": 244.06,
+            "confidence": 0.102
+          },
+          {
+            "text": "together",
+            "start": 244.06,
+            "end": 244.78,
+            "confidence": 0.931
+          },
+          {
+            "text": "under",
+            "start": 244.78,
+            "end": 245.5,
+            "confidence": 0.896
+          },
+          {
+            "text": "new",
+            "start": 245.5,
+            "end": 246.3,
+            "confidence": 0.787
+          },
+          {
+            "text": "religion",
+            "start": 246.3,
+            "end": 247.7,
+            "confidence": 0.917
+          }
+        ]
+      },
+      {
+        "id": 22,
+        "seek": 15800,
+        "start": 248.46,
+        "end": 256.92,
+        "text": " Pulling punches, moving, sleeping on our feet",
+        "tokens": [
+          50664,
+          15074,
+          278,
+          34103,
+          11,
+          2684,
+          11,
+          8296,
+          322,
+          527,
+          3521,
+          51114
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.05053774877028032,
+        "compression_ratio": 1.3666666666666667,
+        "no_speech_prob": 0.25606536865234375,
+        "confidence": 0.652,
+        "words": [
+          {
+            "text": "Pulling",
+            "start": 248.46,
+            "end": 250.82,
+            "confidence": 0.386
+          },
+          {
+            "text": "punches,",
+            "start": 250.82,
+            "end": 252.22,
+            "confidence": 0.62
+          },
+          {
+            "text": "moving,",
+            "start": 253.24,
+            "end": 254.16,
+            "confidence": 0.603
+          },
+          {
+            "text": "sleeping",
+            "start": 254.32,
+            "end": 255.06,
+            "confidence": 0.778
+          },
+          {
+            "text": "on",
+            "start": 255.06,
+            "end": 255.92,
+            "confidence": 0.981
+          },
+          {
+            "text": "our",
+            "start": 255.92,
+            "end": 256.42,
+            "confidence": 0.881
+          },
+          {
+            "text": "feet",
+            "start": 256.42,
+            "end": 256.92,
+            "confidence": 0.997
+          }
+        ]
+      },
+      {
+        "id": 23,
+        "seek": 15800,
+        "start": 257.78,
+        "end": 266.61,
+        "text": " Pulling punches, I needed someone to comfort me",
+        "tokens": [
+          51114,
+          15074,
+          278,
+          34103,
+          11,
+          286,
+          2978,
+          1580,
+          281,
+          3400,
+          385,
+          51614
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.05053774877028032,
+        "compression_ratio": 1.3666666666666667,
+        "no_speech_prob": 0.25606536865234375,
+        "confidence": 0.633,
+        "words": [
+          {
+            "text": "Pulling",
+            "start": 257.78,
+            "end": 259.44,
+            "confidence": 0.162
+          },
+          {
+            "text": "punches,",
+            "start": 259.63,
+            "end": 261.05,
+            "confidence": 0.684
+          },
+          {
+            "text": "I",
+            "start": 261.65,
+            "end": 261.83,
+            "confidence": 0.941
+          },
+          {
+            "text": "needed",
+            "start": 261.83,
+            "end": 262.75,
+            "confidence": 0.981
+          },
+          {
+            "text": "someone",
+            "start": 262.75,
+            "end": 264.13,
+            "confidence": 0.943
+          },
+          {
+            "text": "to",
+            "start": 264.13,
+            "end": 264.77,
+            "confidence": 0.987
+          },
+          {
+            "text": "comfort",
+            "start": 264.77,
+            "end": 265.39,
+            "confidence": 0.997
+          },
+          {
+            "text": "me",
+            "start": 265.39,
+            "end": 266.61,
+            "confidence": 0.993
+          }
+        ]
+      },
+      {
+        "id": 24,
+        "seek": 15800,
+        "start": 267.64,
+        "end": 271.42,
+        "text": " Raised in summer days of splendor",
+        "tokens": [
+          51614,
+          43374,
+          292,
+          294,
+          4266,
+          1708,
+          295,
+          34350,
+          284,
+          51814
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.05053774877028032,
+        "compression_ratio": 1.3666666666666667,
+        "no_speech_prob": 0.25606536865234375,
+        "confidence": 0.647,
+        "words": [
+          {
+            "text": "Raised",
+            "start": 267.64,
+            "end": 268.46,
+            "confidence": 0.245
+          },
+          {
+            "text": "in",
+            "start": 268.46,
+            "end": 268.82,
+            "confidence": 0.987
+          },
+          {
+            "text": "summer",
+            "start": 268.82,
+            "end": 269.38,
+            "confidence": 0.913
+          },
+          {
+            "text": "days",
+            "start": 269.38,
+            "end": 269.9,
+            "confidence": 0.927
+          },
+          {
+            "text": "of",
+            "start": 269.9,
+            "end": 270.32,
+            "confidence": 0.99
+          },
+          {
+            "text": "splendor",
+            "start": 270.32,
+            "end": 271.42,
+            "confidence": 0.784
+          }
+        ]
+      },
+      {
+        "id": 25,
+        "seek": 18700,
+        "start": 271.92,
+        "end": 276.0,
+        "text": " Would have dreamed of love never ending",
+        "tokens": [
+          50364,
+          6068,
+          362,
+          26726,
+          295,
+          959,
+          1128,
+          8121,
+          50614
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.06874486804008484,
+        "compression_ratio": 0.8666666666666667,
+        "no_speech_prob": 0.04530607536435127,
+        "confidence": 0.662,
+        "words": [
+          {
+            "text": "Would",
+            "start": 271.92,
+            "end": 272.16,
+            "confidence": 0.127
+          },
+          {
+            "text": "have",
+            "start": 272.16,
+            "end": 272.46,
+            "confidence": 0.598
+          },
+          {
+            "text": "dreamed",
+            "start": 272.46,
+            "end": 273.44,
+            "confidence": 0.953
+          },
+          {
+            "text": "of",
+            "start": 273.44,
+            "end": 273.88,
+            "confidence": 0.963
+          },
+          {
+            "text": "love",
+            "start": 273.88,
+            "end": 274.14,
+            "confidence": 0.919
+          },
+          {
+            "text": "never",
+            "start": 274.14,
+            "end": 274.96,
+            "confidence": 0.979
+          },
+          {
+            "text": "ending",
+            "start": 274.96,
+            "end": 276.0,
+            "confidence": 0.89
+          }
+        ]
+      }
+    ],
+    "language": "en"
+  }
+}

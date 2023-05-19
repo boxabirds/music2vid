@@ -1,0 +1,1373 @@
+{
+  "animation": {
+    "keyframes_per_second": 3,
+    "keyframe_zoom_animations": "0: (1.03), 1: (1.40), 2: (1.20), 3: (1.10), 4: (1.03), 6: (1.40), 7: (1.20), 8: (1.10), 9: (1.40), 10: (1.20), 11: (1.40), 12: (1.20), 13: (1.40), 14: (1.40), 15: (1.20), 16: (1.10), 17: (1.40), 18: (1.20), 19: (1.10), 20: (1.40), 21: (1.40), 22: (1.20), 23: (1.10), 24: (1.40), 25: (1.20), 26: (1.40), 27: (1.20), 28: (1.40), 29: (1.20), 30: (1.40), 31: (1.20), 32: (1.10), 33: (1.03), 62: (1.40), 63: (1.20), 64: (1.10), 65: (1.03), 67: (1.40), 68: (1.20), 69: (1.40), 70: (1.20), 71: (1.40), 72: (1.20), 73: (1.40), 74: (1.40), 75: (1.40), 76: (1.40), 77: (1.40), 78: (1.20), 79: (1.40), 80: (1.20), 81: (1.40), 82: (1.20), 83: (1.40), 84: (1.20), 85: (1.40), 86: (1.40), 87: (1.40), 88: (1.20), 89: (1.40), 90: (1.20), 91: (1.10), 92: (1.03), 93: (1.40), 94: (1.20), 95: (1.40), 96: (1.20), 97: (1.10), 98: (1.03), 99: (1.40), 100: (1.20), 101: (1.40), 102: (1.20), 103: (1.40), 104: (1.20), 105: (1.40), 106: (1.20), 107: (1.40), 108: (1.20), 109: (1.40), 110: (1.40), 111: (1.20), 112: (1.10), 113: (1.03), 114: (1.40), 115: (1.20), 116: (1.10), 117: (1.03), 118: (1.40), 119: (1.20), 120: (1.10), 121: (1.03), 122: (1.40), 123: (1.20), 124: (1.40), 125: (1.20), 126: (1.40), 127: (1.20), 128: (1.10), 129: (1.03), 130: (1.40), 131: (1.20), 132: (1.40), 133: (1.20), 134: (1.40), 135: (1.20), 136: (1.40), 137: (1.20), 138: (1.40), 139: (1.20), 140: (1.40), 141: (1.20), 142: (1.40), 143: (1.20), 144: (1.40), 145: (1.20), 146: (1.10), 147: (1.03), 154: (1.40), 155: (1.40), 156: (1.20), 157: (1.40), 158: (1.20), 159: (1.40), 160: (1.20), 161: (1.40), 162: (1.20), 163: (1.40), 164: (1.20), 165: (1.40), 166: (1.20), 167: (1.40), 168: (1.40), 169: (1.40), 170: (1.20), 171: (1.40), 172: (1.20), 173: (1.40), 174: (1.20), 175: (1.40), 176: (1.20), 177: (1.40), 178: (1.20), 179: (1.40), 180: (1.20), 181: (1.40), 182: (1.20), 183: (1.40), 184: (1.40), 185: (1.40), 186: (1.20), 187: (1.40), 188: (1.20), 189: (1.40), 190: (1.20), 191: (1.40), 192: (1.40), 193: (1.40), 194: (1.20), 195: (1.40), 196: (1.40), 197: (1.40), 198: (1.40), 199: (1.40), 200: (1.40), 201: (1.20), 202: (1.40), 203: (1.20), 204: (1.10), 205: (1.03), 206: (1.40), 207: (1.20), 208: (1.40), 209: (1.20), 210: (1.40), 211: (1.20), 212: (1.10), 213: (1.03), 282: (1.40), 283: (1.40), 284: (1.20), 285: (1.40), 286: (1.20), 287: (1.40), 288: (1.40), 289: (1.20), 290: (1.40), 291: (1.20), 292: (1.10), 293: (1.03), 294: (1.40), 295: (1.20), 296: (1.40), 297: (1.20), 298: (1.40), 299: (1.20), 300: (1.40), 301: (1.20), 302: (1.40), 303: (1.20), 304: (1.40), 305: (1.20), 306: (1.40), 307: (1.20), 308: (1.40), 309: (1.20), 310: (1.10), 311: (1.03), 312: (1.40), 313: (1.20), 314: (1.40), 315: (1.20), 316: (1.10), 317: (1.03), 318: (1.40), 319: (1.20), 320: (1.10), 321: (1.03), 322: (1.40), 323: (1.20), 324: (1.40), 325: (1.20), 326: (1.10), 327: (1.03), 330: (1.40), 331: (1.20), 332: (1.40), 333: (1.20), 334: (1.40), 335: (1.20), 336: (1.10), 337: (1.03), 341: (1.40), 342: (1.20), 343: (1.10), 344: (1.03), 349: (1.40), 350: (1.20), 351: (1.10), 352: (1.03), 353: (1.40), 354: (1.20), 355: (1.40), 356: (1.40), 357: (1.40), 358: (1.20), 359: (1.40), 360: (1.20), 361: (1.40), 362: (1.20), 363: (1.40), 364: (1.20), 365: (1.40), 366: (1.20), 367: (1.40), 368: (1.20), 369: (1.40), 370: (1.20), 371: (1.40), 372: (1.40), 373: (1.40), 374: (1.20), 375: (1.40), 376: (1.40), 377: (1.40), 378: (1.20), 379: (1.10), 380: (1.40), 381: (1.20), 382: (1.40), 383: (1.20), 384: (1.40), 385: (1.20), 386: (1.40), 387: (1.20), 388: (1.40), 389: (1.20), 390: (1.40), 391: (1.20), 392: (1.40), 393: (1.20), 394: (1.40), 395: (1.40), 396: (1.40), 397: (1.20), 398: (1.10), 399: (1.03), 467: (1.40), 468: (1.20), 469: (1.40), 470: (1.40), 471: (1.40), 472: (1.20), 473: (1.10), 474: (1.40), 475: (1.20), 476: (1.40), 477: (1.20), 478: (1.40), 479: (1.20), 480: (1.40), 481: (1.20), 482: (1.40), 483: (1.20), 484: (1.40), 485: (1.20), 486: (1.40), 487: (1.40), 488: (1.40), 489: (1.20), 490: (1.40), 491: (1.40), 492: (1.20), 493: (1.10), 494: (1.40), 495: (1.40), 496: (1.40), 497: (1.40), 498: (1.40), 499: (1.20), 500: (1.10), 501: (1.03), 504: (1.40), 505: (1.20), 506: (1.10), 507: (1.03), 508: (1.40), 509: (1.40), 510: (1.20), 511: (1.40), 512: (1.20), 513: (1.10), 514: (1.40), 515: (1.40), 516: (1.20), 517: (1.40), 518: (1.20), 519: (1.40), 520: (1.40), 521: (1.40), 522: (1.20), 523: (1.10), 524: (1.03), 527: (1.40), 528: (1.20), 529: (1.40), 530: (1.20), 531: (1.40), 532: (1.20), 533: (1.40), 534: (1.40), 535: (1.40), 536: (1.40), 537: (1.40), 538: (1.20), 539: (1.10), 540: (1.03)"
+  },
+  "estd_bpm": 92.28515625,
+  "style": "Leafy Jungle",
+  "keyframes": {
+    "34": {
+      "lyric": " Wild spring, raging in the street\",",
+      "prompt": "Vibrant spring landscape with a figure running towards a giant swing in the distance.\","
+    },
+    "49": {
+      "lyric": " April, please, lower your gun\",",
+      "prompt": "A figure running away from a gun in their hand, surrounded by the beauty of nature \u2013 a giant swing, lush fields and trees with new branches.\","
+    },
+    "65": {
+      "lyric": " Cold wind, new branches on the tree\",",
+      "prompt": "A person running through a field of wildflowers, branches of a nearby tree swaying in the wind, the sun setting in the background.\","
+    },
+    "80": {
+      "lyric": " April, please, help me to run\",",
+      "prompt": "Person sprinting through a lush forest, with a background of a bright sunrise.\","
+    },
+    "104": {
+      "lyric": " Running in the nature\",",
+      "prompt": "Person running away from a gun-wielding figure, with a giant swing in the background.\","
+    },
+    "119": {
+      "lyric": " Away from the past\",",
+      "prompt": "Swinging away from the past.\","
+    },
+    "134": {
+      "lyric": " Pretty as a picture\",",
+      "prompt": "Vibrant meadow filled with blooming flowers and a person running joyfully through it.\","
+    },
+    "140": {
+      "lyric": " I'm cheering up so fast\",",
+      "prompt": "Person sprinting through a meadow of wildflowers with a sunlit sky in the background.\","
+    },
+    "221": {
+      "lyric": " Grey steam, waving on my street\",",
+      "prompt": "Vivid green fields and a giant swing with steam rising from the ground in the background.\","
+    },
+    "238": {
+      "lyric": " April, please, lower your gun\",",
+      "prompt": "Person running in a field of wildflowers with a large swing in the background.\","
+    },
+    "253": {
+      "lyric": " Blurred dreams, playing on repeat\",",
+      "prompt": "Vibrant sunset illuminating a person running through a grassy field, with a swing hanging from a tree in the background.\","
+    },
+    "269": {
+      "lyric": " April, please, help me to run\",",
+      "prompt": "A figure running through a vast grassy meadow, the sun shining brightly in the sky and a single swing visible in the distance.\","
+    },
+    "291": {
+      "lyric": " Running in the nature\",",
+      "prompt": "A giant swing, hanging from a tree in a lush forest, with the figure of a person running away in the distance.\","
+    },
+    "299": {
+      "lyric": " Away from the past\",",
+      "prompt": "Swinging silhouette against a setting sun.\","
+    },
+    "322": {
+      "lyric": " Pretty as a picture\",",
+      "prompt": "Vividly-colored birds flying away from a gun in a hand.\","
+    },
+    "332": {
+      "lyric": " I'm cheering up so fast\",",
+      "prompt": "Person running away from a dark cityscape in the foreground, towards a bright and vibrant natural landscape with a giant swing in the distance.\","
+    },
+    "462": {
+      "lyric": " Running in the nature\",",
+      "prompt": "A giant swing with a figure running away from the past in the background.\","
+    },
+    "511": {
+      "lyric": " Pretty as a picture\",",
+      "prompt": "Vibrant green meadows with a giant swing suspended from a tree.\","
+    },
+    "534": {
+      "lyric": " I'm cheering up so fast\",",
+      "prompt": "A figure on a giant swing, soaring through a field of wildflowers, smiling in the sunlight.\","
+    },
+    "560": {
+      "lyric": " A giant swing, hanging from my tree\",",
+      "prompt": "Swinging from a giant tree branch with a spring landscape in the background.\","
+    },
+    "578": {
+      "lyric": " My dear friend, you've been the one\",",
+      "prompt": "Vibrant sunset over a meadow with a giant swing in the foreground, a silhouette of a person running in the distance.\","
+    },
+    "594": {
+      "lyric": " Large fields, unexplored lovely things\",",
+      "prompt": "Vividly colored spring fields with a person running away from a gun in the background.\","
+    },
+    "611": {
+      "lyric": " April, please, help me to run\",",
+      "prompt": "A person running through a sun-dappled meadow, arms outstretched, face beaming with joy.\","
+    }
+  },
+  "full_transcript": {
+    "text": " Wild spring, raging in the street April, please, lower your gun Cold wind, new branches on the tree April, please, help me to run Running in the nature Away from the past Pretty as a picture I'm cheering up so fast Grey steam, waving on my street April, please, lower your gun Blurred dreams, playing on repeat April, please, help me to run Running in the nature Away from the past Pretty as a picture I'm cheering up so fast Running in the nature Pretty as a picture I'm cheering up so fast A giant swing, hanging from my tree My dear friend, you've been the one Large fields, unexplored lovely things April, please, help me to run",
+    "segments": [
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 11.19,
+        "end": 15.53,
+        "text": " Wild spring, raging in the street",
+        "tokens": [
+          50364,
+          10904,
+          5587,
+          11,
+          44173,
+          294,
+          264,
+          4838,
+          50614
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.26224750738877517,
+        "compression_ratio": 1.4049586776859504,
+        "no_speech_prob": 0.44140714406967163,
+        "confidence": 0.642,
+        "words": [
+          {
+            "text": "Wild",
+            "start": 11.19,
+            "end": 11.69,
+            "confidence": 0.335
+          },
+          {
+            "text": "spring,",
+            "start": 11.69,
+            "end": 12.69,
+            "confidence": 0.525
+          },
+          {
+            "text": "raging",
+            "start": 13.29,
+            "end": 13.81,
+            "confidence": 0.71
+          },
+          {
+            "text": "in",
+            "start": 13.81,
+            "end": 14.31,
+            "confidence": 0.994
+          },
+          {
+            "text": "the",
+            "start": 14.31,
+            "end": 14.79,
+            "confidence": 0.972
+          },
+          {
+            "text": "street",
+            "start": 14.79,
+            "end": 15.53,
+            "confidence": 0.706
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "seek": 0,
+        "start": 16.41,
+        "end": 20.67,
+        "text": " April, please, lower your gun",
+        "tokens": [
+          50614,
+          6929,
+          11,
+          1767,
+          11,
+          3126,
+          428,
+          3874,
+          50864
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.26224750738877517,
+        "compression_ratio": 1.4049586776859504,
+        "no_speech_prob": 0.44140714406967163,
+        "confidence": 0.638,
+        "words": [
+          {
+            "text": "April,",
+            "start": 16.41,
+            "end": 17.31,
+            "confidence": 0.39
+          },
+          {
+            "text": "please,",
+            "start": 17.77,
+            "end": 18.61,
+            "confidence": 0.55
+          },
+          {
+            "text": "lower",
+            "start": 19.17,
+            "end": 19.53,
+            "confidence": 0.959
+          },
+          {
+            "text": "your",
+            "start": 19.53,
+            "end": 20.03,
+            "confidence": 0.981
+          },
+          {
+            "text": "gun",
+            "start": 20.03,
+            "end": 20.67,
+            "confidence": 0.99
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "seek": 0,
+        "start": 21.61,
+        "end": 25.51,
+        "text": " Cold wind, new branches on the tree",
+        "tokens": [
+          50864,
+          16918,
+          2468,
+          11,
+          777,
+          14770,
+          322,
+          264,
+          4230,
+          51064
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.26224750738877517,
+        "compression_ratio": 1.4049586776859504,
+        "no_speech_prob": 0.44140714406967163,
+        "confidence": 0.666,
+        "words": [
+          {
+            "text": "Cold",
+            "start": 21.61,
+            "end": 22.25,
+            "confidence": 0.772
+          },
+          {
+            "text": "wind,",
+            "start": 22.25,
+            "end": 23.01,
+            "confidence": 0.818
+          },
+          {
+            "text": "new",
+            "start": 23.37,
+            "end": 23.53,
+            "confidence": 0.219
+          },
+          {
+            "text": "branches",
+            "start": 23.53,
+            "end": 24.39,
+            "confidence": 0.981
+          },
+          {
+            "text": "on",
+            "start": 24.39,
+            "end": 24.79,
+            "confidence": 0.899
+          },
+          {
+            "text": "the",
+            "start": 24.79,
+            "end": 25.11,
+            "confidence": 0.956
+          },
+          {
+            "text": "tree",
+            "start": 25.11,
+            "end": 25.51,
+            "confidence": 0.404
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "seek": 0,
+        "start": 26.77,
+        "end": 31.29,
+        "text": " April, please, help me to run",
+        "tokens": [
+          51064,
+          6929,
+          11,
+          1767,
+          11,
+          854,
+          385,
+          281,
+          1190,
+          51364
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.26224750738877517,
+        "compression_ratio": 1.4049586776859504,
+        "no_speech_prob": 0.44140714406967163,
+        "confidence": 0.113,
+        "words": [
+          {
+            "text": "April,",
+            "start": 26.77,
+            "end": 27.49,
+            "confidence": 0.001
+          },
+          {
+            "text": "please,",
+            "start": 27.49,
+            "end": 29.05,
+            "confidence": 0.299
+          },
+          {
+            "text": "help",
+            "start": 29.63,
+            "end": 29.73,
+            "confidence": 0.877
+          },
+          {
+            "text": "me",
+            "start": 29.73,
+            "end": 30.07,
+            "confidence": 0.994
+          },
+          {
+            "text": "to",
+            "start": 30.07,
+            "end": 30.49,
+            "confidence": 0.918
+          },
+          {
+            "text": "run",
+            "start": 30.49,
+            "end": 31.29,
+            "confidence": 0.791
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "seek": 0,
+        "start": 34.62,
+        "end": 36.6,
+        "text": " Running in the nature",
+        "tokens": [
+          51364,
+          28136,
+          294,
+          264,
+          3687,
+          51564
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.26224750738877517,
+        "compression_ratio": 1.4049586776859504,
+        "no_speech_prob": 0.44140714406967163,
+        "confidence": 0.533,
+        "words": [
+          {
+            "text": "Running",
+            "start": 34.62,
+            "end": 35.06,
+            "confidence": 0.187
+          },
+          {
+            "text": "in",
+            "start": 35.06,
+            "end": 35.36,
+            "confidence": 0.885
+          },
+          {
+            "text": "the",
+            "start": 35.36,
+            "end": 35.52,
+            "confidence": 0.868
+          },
+          {
+            "text": "nature",
+            "start": 35.52,
+            "end": 36.6,
+            "confidence": 0.56
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "seek": 0,
+        "start": 39.83,
+        "end": 42.49,
+        "text": " Away from the past",
+        "tokens": [
+          51564,
+          36957,
+          490,
+          264,
+          1791,
+          51764
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.26224750738877517,
+        "compression_ratio": 1.4049586776859504,
+        "no_speech_prob": 0.44140714406967163,
+        "confidence": 0.396,
+        "words": [
+          {
+            "text": "Away",
+            "start": 39.83,
+            "end": 40.27,
+            "confidence": 0.24
+          },
+          {
+            "text": "from",
+            "start": 40.27,
+            "end": 40.71,
+            "confidence": 0.965
+          },
+          {
+            "text": "the",
+            "start": 40.71,
+            "end": 41.19,
+            "confidence": 0.937
+          },
+          {
+            "text": "past",
+            "start": 41.19,
+            "end": 42.49,
+            "confidence": 0.113
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "seek": 2800,
+        "start": 44.57,
+        "end": 46.41,
+        "text": " Pretty as a picture",
+        "tokens": [
+          50364,
+          10693,
+          382,
+          257,
+          3036,
+          50514
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.06736065281762017,
+        "compression_ratio": 1.3852459016393444,
+        "no_speech_prob": 0.02324795536696911,
+        "confidence": 0.639,
+        "words": [
+          {
+            "text": "Pretty",
+            "start": 44.57,
+            "end": 45.43,
+            "confidence": 0.613
+          },
+          {
+            "text": "as",
+            "start": 45.43,
+            "end": 45.73,
+            "confidence": 0.968
+          },
+          {
+            "text": "a",
+            "start": 45.73,
+            "end": 45.87,
+            "confidence": 0.991
+          },
+          {
+            "text": "picture",
+            "start": 45.87,
+            "end": 46.41,
+            "confidence": 0.283
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "seek": 2800,
+        "start": 46.59,
+        "end": 50.83,
+        "text": " I'm cheering up so fast",
+        "tokens": [
+          50514,
+          286,
+          478,
+          11060,
+          493,
+          370,
+          2370,
+          50714
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.06736065281762017,
+        "compression_ratio": 1.3852459016393444,
+        "no_speech_prob": 0.02324795536696911,
+        "confidence": 0.783,
+        "words": [
+          {
+            "text": "I'm",
+            "start": 46.59,
+            "end": 48.31,
+            "confidence": 0.576
+          },
+          {
+            "text": "cheering",
+            "start": 48.31,
+            "end": 48.77,
+            "confidence": 0.965
+          },
+          {
+            "text": "up",
+            "start": 48.77,
+            "end": 49.37,
+            "confidence": 0.743
+          },
+          {
+            "text": "so",
+            "start": 49.37,
+            "end": 49.89,
+            "confidence": 0.976
+          },
+          {
+            "text": "fast",
+            "start": 49.89,
+            "end": 50.83,
+            "confidence": 0.989
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "seek": 2800,
+        "start": 73.79,
+        "end": 78.17,
+        "text": " Grey steam, waving on my street",
+        "tokens": [
+          50714,
+          24854,
+          11952,
+          11,
+          35347,
+          322,
+          452,
+          4838,
+          50964
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.06736065281762017,
+        "compression_ratio": 1.3852459016393444,
+        "no_speech_prob": 0.02324795536696911,
+        "confidence": 0.789,
+        "words": [
+          {
+            "text": "Grey",
+            "start": 73.79,
+            "end": 74.37,
+            "confidence": 0.67
+          },
+          {
+            "text": "steam,",
+            "start": 74.37,
+            "end": 75.25,
+            "confidence": 0.661
+          },
+          {
+            "text": "waving",
+            "start": 75.89,
+            "end": 76.37,
+            "confidence": 0.733
+          },
+          {
+            "text": "on",
+            "start": 76.37,
+            "end": 76.87,
+            "confidence": 0.988
+          },
+          {
+            "text": "my",
+            "start": 76.87,
+            "end": 77.31,
+            "confidence": 0.98
+          },
+          {
+            "text": "street",
+            "start": 77.31,
+            "end": 78.17,
+            "confidence": 0.92
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "seek": 2800,
+        "start": 79.25,
+        "end": 83.49,
+        "text": " April, please, lower your gun",
+        "tokens": [
+          50964,
+          6929,
+          11,
+          1767,
+          11,
+          3126,
+          428,
+          3874,
+          51214
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.06736065281762017,
+        "compression_ratio": 1.3852459016393444,
+        "no_speech_prob": 0.02324795536696911,
+        "confidence": 0.668,
+        "words": [
+          {
+            "text": "April,",
+            "start": 79.25,
+            "end": 79.87,
+            "confidence": 0.456
+          },
+          {
+            "text": "please,",
+            "start": 80.45,
+            "end": 81.15,
+            "confidence": 0.548
+          },
+          {
+            "text": "lower",
+            "start": 81.83,
+            "end": 82.21,
+            "confidence": 0.97
+          },
+          {
+            "text": "your",
+            "start": 82.21,
+            "end": 82.65,
+            "confidence": 0.994
+          },
+          {
+            "text": "gun",
+            "start": 82.65,
+            "end": 83.49,
+            "confidence": 0.987
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "seek": 2800,
+        "start": 84.29,
+        "end": 88.33,
+        "text": " Blurred dreams, playing on repeat",
+        "tokens": [
+          51214,
+          2177,
+          374,
+          986,
+          7505,
+          11,
+          2433,
+          322,
+          7149,
+          51464
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.06736065281762017,
+        "compression_ratio": 1.3852459016393444,
+        "no_speech_prob": 0.02324795536696911,
+        "confidence": 0.692,
+        "words": [
+          {
+            "text": "Blurred",
+            "start": 84.29,
+            "end": 84.99,
+            "confidence": 0.516
+          },
+          {
+            "text": "dreams,",
+            "start": 84.99,
+            "end": 85.69,
+            "confidence": 0.652
+          },
+          {
+            "text": "playing",
+            "start": 86.35,
+            "end": 86.73,
+            "confidence": 0.925
+          },
+          {
+            "text": "on",
+            "start": 86.73,
+            "end": 87.31,
+            "confidence": 0.992
+          },
+          {
+            "text": "repeat",
+            "start": 87.31,
+            "end": 88.33,
+            "confidence": 0.985
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "seek": 2800,
+        "start": 89.55,
+        "end": 93.71,
+        "text": " April, please, help me to run",
+        "tokens": [
+          51464,
+          6929,
+          11,
+          1767,
+          11,
+          854,
+          385,
+          281,
+          1190,
+          51714
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.06736065281762017,
+        "compression_ratio": 1.3852459016393444,
+        "no_speech_prob": 0.02324795536696911,
+        "confidence": 0.751,
+        "words": [
+          {
+            "text": "April,",
+            "start": 89.55,
+            "end": 90.29,
+            "confidence": 0.56
+          },
+          {
+            "text": "please,",
+            "start": 90.85,
+            "end": 91.53,
+            "confidence": 0.604
+          },
+          {
+            "text": "help",
+            "start": 92.25,
+            "end": 92.39,
+            "confidence": 0.925
+          },
+          {
+            "text": "me",
+            "start": 92.39,
+            "end": 92.77,
+            "confidence": 0.998
+          },
+          {
+            "text": "to",
+            "start": 92.77,
+            "end": 93.27,
+            "confidence": 0.995
+          },
+          {
+            "text": "run",
+            "start": 93.27,
+            "end": 93.71,
+            "confidence": 0.963
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "seek": 5500,
+        "start": 97.02,
+        "end": 98.82,
+        "text": " Running in the nature",
+        "tokens": [
+          50364,
+          28136,
+          294,
+          264,
+          3687,
+          50564
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.08893131216367085,
+        "compression_ratio": 1.744186046511628,
+        "no_speech_prob": 0.013794714584946632,
+        "confidence": 0.455,
+        "words": [
+          {
+            "text": "Running",
+            "start": 97.02,
+            "end": 97.6,
+            "confidence": 0.09
+          },
+          {
+            "text": "in",
+            "start": 97.6,
+            "end": 97.92,
+            "confidence": 0.926
+          },
+          {
+            "text": "the",
+            "start": 97.92,
+            "end": 98.08,
+            "confidence": 0.967
+          },
+          {
+            "text": "nature",
+            "start": 98.08,
+            "end": 98.82,
+            "confidence": 0.531
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "seek": 5500,
+        "start": 99.66,
+        "end": 106.34,
+        "text": " Away from the past",
+        "tokens": [
+          50564,
+          36957,
+          490,
+          264,
+          1791,
+          50864
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.08893131216367085,
+        "compression_ratio": 1.744186046511628,
+        "no_speech_prob": 0.013794714584946632,
+        "confidence": 0.19,
+        "words": [
+          {
+            "text": "Away",
+            "start": 99.66,
+            "end": 102.46,
+            "confidence": 0.009
+          },
+          {
+            "text": "from",
+            "start": 102.46,
+            "end": 103.22,
+            "confidence": 0.948
+          },
+          {
+            "text": "the",
+            "start": 103.22,
+            "end": 103.66,
+            "confidence": 0.306
+          },
+          {
+            "text": "past",
+            "start": 103.66,
+            "end": 106.34,
+            "confidence": 0.472
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "seek": 5500,
+        "start": 107.32,
+        "end": 109.4,
+        "text": " Pretty as a picture",
+        "tokens": [
+          50864,
+          10693,
+          382,
+          257,
+          3036,
+          51064
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.08893131216367085,
+        "compression_ratio": 1.744186046511628,
+        "no_speech_prob": 0.013794714584946632,
+        "confidence": 0.605,
+        "words": [
+          {
+            "text": "Pretty",
+            "start": 107.32,
+            "end": 108.04,
+            "confidence": 0.169
+          },
+          {
+            "text": "as",
+            "start": 108.04,
+            "end": 108.36,
+            "confidence": 0.901
+          },
+          {
+            "text": "a",
+            "start": 108.36,
+            "end": 108.5,
+            "confidence": 0.98
+          },
+          {
+            "text": "picture",
+            "start": 108.5,
+            "end": 109.4,
+            "confidence": 0.899
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "seek": 5500,
+        "start": 110.64,
+        "end": 113.64,
+        "text": " I'm cheering up so fast",
+        "tokens": [
+          51064,
+          286,
+          478,
+          11060,
+          493,
+          370,
+          2370,
+          51264
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.08893131216367085,
+        "compression_ratio": 1.744186046511628,
+        "no_speech_prob": 0.013794714584946632,
+        "confidence": 0.617,
+        "words": [
+          {
+            "text": "I'm",
+            "start": 110.64,
+            "end": 111.16,
+            "confidence": 0.312
+          },
+          {
+            "text": "cheering",
+            "start": 111.16,
+            "end": 111.52,
+            "confidence": 0.646
+          },
+          {
+            "text": "up",
+            "start": 111.52,
+            "end": 112.04,
+            "confidence": 0.911
+          },
+          {
+            "text": "so",
+            "start": 112.04,
+            "end": 112.46,
+            "confidence": 0.98
+          },
+          {
+            "text": "fast",
+            "start": 112.46,
+            "end": 113.64,
+            "confidence": 0.978
+          }
+        ]
+      },
+      {
+        "id": 16,
+        "seek": 5500,
+        "start": 154.06,
+        "end": 159.09,
+        "text": " Running in the nature",
+        "tokens": [
+          51264,
+          28136,
+          294,
+          264,
+          3687,
+          51414
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.08893131216367085,
+        "compression_ratio": 1.744186046511628,
+        "no_speech_prob": 0.013794714584946632,
+        "confidence": 0.006,
+        "words": [
+          {
+            "text": "Running",
+            "start": 154.06,
+            "end": 155.07,
+            "confidence": 0.008
+          },
+          {
+            "text": "in",
+            "start": 155.07,
+            "end": 155.35,
+            "confidence": 0.371
+          },
+          {
+            "text": "the",
+            "start": 157.97,
+            "end": 157.99,
+            "confidence": 0.028
+          },
+          {
+            "text": "nature",
+            "start": 157.99,
+            "end": 159.09,
+            "confidence": 0.0
+          }
+        ]
+      },
+      {
+        "id": 17,
+        "seek": 5500,
+        "start": 170.33,
+        "end": 172.25,
+        "text": " Pretty as a picture",
+        "tokens": [
+          51414,
+          10693,
+          382,
+          257,
+          3036,
+          51514
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.08893131216367085,
+        "compression_ratio": 1.744186046511628,
+        "no_speech_prob": 0.013794714584946632,
+        "confidence": 0.027,
+        "words": [
+          {
+            "text": "Pretty",
+            "start": 170.33,
+            "end": 170.81,
+            "confidence": 0.049
+          },
+          {
+            "text": "as",
+            "start": 170.81,
+            "end": 171.11,
+            "confidence": 0.014
+          },
+          {
+            "text": "a",
+            "start": 171.11,
+            "end": 171.43,
+            "confidence": 0.517
+          },
+          {
+            "text": "picture",
+            "start": 171.43,
+            "end": 172.25,
+            "confidence": 0.002
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "seek": 5500,
+        "start": 177.89,
+        "end": 180.15,
+        "text": " I'm cheering up so fast",
+        "tokens": [
+          51514,
+          286,
+          478,
+          11060,
+          493,
+          370,
+          2370,
+          51664
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.08893131216367085,
+        "compression_ratio": 1.744186046511628,
+        "no_speech_prob": 0.013794714584946632,
+        "confidence": 0.102,
+        "words": [
+          {
+            "text": "I'm",
+            "start": 177.89,
+            "end": 178.31,
+            "confidence": 0.767
+          },
+          {
+            "text": "cheering",
+            "start": 178.31,
+            "end": 178.53,
+            "confidence": 0.001
+          },
+          {
+            "text": "up",
+            "start": 178.53,
+            "end": 178.87,
+            "confidence": 0.667
+          },
+          {
+            "text": "so",
+            "start": 178.87,
+            "end": 179.37,
+            "confidence": 0.97
+          },
+          {
+            "text": "fast",
+            "start": 179.37,
+            "end": 180.15,
+            "confidence": 0.003
+          }
+        ]
+      },
+      {
+        "id": 19,
+        "seek": 8100,
+        "start": 186.7,
+        "end": 191.16,
+        "text": " A giant swing, hanging from my tree",
+        "tokens": [
+          50364,
+          316,
+          7410,
+          11173,
+          11,
+          8345,
+          490,
+          452,
+          4230,
+          50614
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.10172486305236816,
+        "compression_ratio": 1.238938053097345,
+        "no_speech_prob": 0.024542363360524178,
+        "confidence": 0.583,
+        "words": [
+          {
+            "text": "A",
+            "start": 186.7,
+            "end": 187.3,
+            "confidence": 0.263
+          },
+          {
+            "text": "giant",
+            "start": 187.3,
+            "end": 187.84,
+            "confidence": 0.429
+          },
+          {
+            "text": "swing,",
+            "start": 187.84,
+            "end": 188.78,
+            "confidence": 0.511
+          },
+          {
+            "text": "hanging",
+            "start": 189.62,
+            "end": 189.86,
+            "confidence": 0.555
+          },
+          {
+            "text": "from",
+            "start": 189.86,
+            "end": 190.48,
+            "confidence": 0.975
+          },
+          {
+            "text": "my",
+            "start": 190.48,
+            "end": 190.88,
+            "confidence": 0.846
+          },
+          {
+            "text": "tree",
+            "start": 190.88,
+            "end": 191.16,
+            "confidence": 0.995
+          }
+        ]
+      },
+      {
+        "id": 20,
+        "seek": 8100,
+        "start": 192.5,
+        "end": 196.73,
+        "text": " My dear friend, you've been the one",
+        "tokens": [
+          50614,
+          1222,
+          6875,
+          1277,
+          11,
+          291,
+          600,
+          668,
+          264,
+          472,
+          50864
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.10172486305236816,
+        "compression_ratio": 1.238938053097345,
+        "no_speech_prob": 0.024542363360524178,
+        "confidence": 0.873,
+        "words": [
+          {
+            "text": "My",
+            "start": 192.5,
+            "end": 192.82,
+            "confidence": 0.57
+          },
+          {
+            "text": "dear",
+            "start": 192.82,
+            "end": 193.18,
+            "confidence": 0.982
+          },
+          {
+            "text": "friend,",
+            "start": 193.18,
+            "end": 194.12,
+            "confidence": 0.801
+          },
+          {
+            "text": "you've",
+            "start": 195.41,
+            "end": 195.77,
+            "confidence": 0.923
+          },
+          {
+            "text": "been",
+            "start": 195.77,
+            "end": 195.97,
+            "confidence": 0.999
+          },
+          {
+            "text": "the",
+            "start": 195.97,
+            "end": 196.31,
+            "confidence": 0.965
+          },
+          {
+            "text": "one",
+            "start": 196.31,
+            "end": 196.73,
+            "confidence": 0.996
+          }
+        ]
+      },
+      {
+        "id": 21,
+        "seek": 8100,
+        "start": 197.96,
+        "end": 202.22,
+        "text": " Large fields, unexplored lovely things",
+        "tokens": [
+          50864,
+          33092,
+          7909,
+          11,
+          11572,
+          564,
+          2769,
+          7496,
+          721,
+          51114
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.10172486305236816,
+        "compression_ratio": 1.238938053097345,
+        "no_speech_prob": 0.024542363360524178,
+        "confidence": 0.75,
+        "words": [
+          {
+            "text": "Large",
+            "start": 197.96,
+            "end": 198.56,
+            "confidence": 0.378
+          },
+          {
+            "text": "fields,",
+            "start": 198.56,
+            "end": 199.36,
+            "confidence": 0.645
+          },
+          {
+            "text": "unexplored",
+            "start": 200.08,
+            "end": 201.02,
+            "confidence": 0.918
+          },
+          {
+            "text": "lovely",
+            "start": 201.02,
+            "end": 201.54,
+            "confidence": 0.831
+          },
+          {
+            "text": "things",
+            "start": 201.54,
+            "end": 202.22,
+            "confidence": 0.994
+          }
+        ]
+      },
+      {
+        "id": 22,
+        "seek": 8100,
+        "start": 203.55,
+        "end": 208.69,
+        "text": " April, please, help me to run",
+        "tokens": [
+          51114,
+          6929,
+          11,
+          1767,
+          11,
+          854,
+          385,
+          281,
+          1190,
+          51414
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.10172486305236816,
+        "compression_ratio": 1.238938053097345,
+        "no_speech_prob": 0.024542363360524178,
+        "confidence": 0.659,
+        "words": [
+          {
+            "text": "April,",
+            "start": 203.55,
+            "end": 204.33,
+            "confidence": 0.504
+          },
+          {
+            "text": "please,",
+            "start": 204.93,
+            "end": 205.55,
+            "confidence": 0.547
+          },
+          {
+            "text": "help",
+            "start": 206.85,
+            "end": 207.45,
+            "confidence": 0.879
+          },
+          {
+            "text": "me",
+            "start": 207.45,
+            "end": 207.89,
+            "confidence": 0.989
+          },
+          {
+            "text": "to",
+            "start": 207.89,
+            "end": 208.29,
+            "confidence": 0.557
+          },
+          {
+            "text": "run",
+            "start": 208.29,
+            "end": 208.69,
+            "confidence": 0.962
+          }
+        ]
+      }
+    ],
+    "language": "en"
+  }
+}

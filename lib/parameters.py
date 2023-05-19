@@ -51,7 +51,7 @@ class DeforumArgs(ChangeRecorder):
       self.override_settings_with_file: bool = kwargs.get("override_settings_with_file", False)
       self.settings_file = kwargs.get("settings_file", 'custom')  # custom, 512x512_aesthetic_0.json, 512x512_aesthetic_1.json, 512x512_colormatch_0.json, 512x512_colormatch_1.json, 512x512_colormatch_2.json, 512x512_colormatch_3.json
       self.custom_settings_file: str = kwargs.get("custom_settings_file", "/content/drive/MyDrive/Settings.txt")
-      self.W = kwargs.get("W", 768)
+      self.W = kwargs.get("W", 512)
       self.H = kwargs.get("H", 512)
       self.bit_depth_output: str = kwargs.get("bit_depth_output", "8")  # 8, 16, 32
       self.seed = kwargs.get("seed", -1)

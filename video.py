@@ -430,6 +430,8 @@ do_render(args, anim_args, animation_prompts, root)
 
 # give python the hint that we don't need the model any more
 root.model = None
+
+# These don't seem to do anything -- no surprise
 gc.collect()
 torch.cuda.empty_cache()
 
