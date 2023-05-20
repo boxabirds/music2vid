@@ -1,0 +1,26 @@
+{
+    "compositions": [
+        "Cantaloop (Flip Fantasia).mp3",
+        "Caravan Palace - April (Official audio).mp3",
+        "Caravan Palace - Leena (Official Audio).mp3",
+        "Caravan Palace - Waterguns feat. Tom Bailey (Official audio).mp3",
+        "Cure For Pain.mp3",
+        "Im Rhythmus Bleiben.mp3",
+        "Little One.mp3",
+        "m4.mp3",
+        "Peek-A-Boo.mp3",
+        "Pulling Punches.mp3",
+        "ronny jordan - The Jackal (the illes.mp3",
+        "Soulcatcher.mp3",
+        "The Heater.mp3",
+        "The Shortest Straw.mp3",
+        "Wandering Eye.mp3",
+        "Winter seaside draft 15.mp3"
+    ],
+    "num_key_frames": 100,
+    "combinations": {
+        "root.model_checkpoint": [
+                "Protogen_V2.2.ckpt"
+        ]
+    }
+}

@@ -108,29 +108,26 @@ def generate_combinations(properties, current_combination, index:int):
 # give Python the authority to discard entries if memory runs low. 
 # (The models can take upwards of 12GB RAM each.)
 
-import weakref
-class ModelWrapper:
-    def __init__(self, model_tuple):
-        self.model_tuple = model_tuple
-_cache = weakref.WeakValueDictionary()
+_model_cache = {}
 
 def load_model_cached(root, load_on_run_all=True, check_sha256=True, map_location=None):
     model_checkpoint = root.model_checkpoint
 
-    if model_checkpoint not in _cache:
-        model_tuple = load_model(root, load_on_run_all=load_on_run_all, check_sha256=check_sha256, map_location=map_location)
-        _cache[model_checkpoint] = ModelWrapper(model_tuple)
-
-    return _cache[model_checkpoint].model_tuple
+    if model_checkpoint not in _model_cache:
+        print(f"### Cache: '{model_checkpoint}' not present, loading model")
+        _model_cache[model_checkpoint] = load_model(root, load_on_run_all=load_on_run_all, check_sha256=check_sha256, map_location=map_location)
+    else:
+        print(f"### Cache hit: using existing cached model '{model_checkpoint}'")
+    return _model_cache[model_checkpoint]
 
 def init_model(root:Root):
     root.models_path, root.output_path = get_model_output_paths(root)
     print(f"loading model from {root.models_path}")
     # TODO model and device are not input parameters in the original ipynb so didn't propagate to Root class in my export script
-    #root.model, root.device = load_model_cached(root, load_on_run_all=True, check_sha256=True, map_location=root.map_location)
+    root.model, root.device = load_model_cached(root, load_on_run_all=True, check_sha256=True, map_location=root.map_location)
     
     # TODO figure out how to cache this properly. If we use weak references the model is flushed right away :)
-    root.model, root.device = load_model(root, load_on_run_all=True, check_sha256=True, map_location=root.map_location)
+    #root.model, root.device = load_model(root, load_on_run_all=True, check_sha256=True, map_location=root.map_location)
     print(f"loaded model {root.model} on device {root.device}") # type: ignore
 
 def extract_properties(combinations, dictionary_name):
