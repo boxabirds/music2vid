@@ -1,7 +1,7 @@
 {
     "compositions": [
-        "../music/Cantaloop (Flip Fantasia).mp3",
-        "../music/Caravan Palace - April (Official audio).mp3"
+        "Cantaloop (Flip Fantasia).mp3",
+        "Caravan Palace - April (Official audio).mp3"
     ],
     "num_key_frames": 90,
     "interpolation_recursion_depth": 3,

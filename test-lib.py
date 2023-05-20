@@ -4,27 +4,34 @@ import json
 from pathlib import Path
 import argparse
 
-def process_json_file(file_name: str):
+def load_render_combination_configuration(file_name: str, mp3_dir: str):
     json_file = Path(file_name)
     with json_file.open() as f:
         data = json.load(f)
 
+    mp3_files_path = Path(mp3_dir)
+
     compositions = data['compositions']
     for mp3_file in compositions:
-        analysis_file = Path(f"{mp3_file.stem}-analysis/full-metadata.json")
-        with analysis_file.open() as f:
-            analysis_data = json.load(f)
+        analysis_file = mp3_files_path / Path(Path(mp3_file).stem + "-analysis/full-metadata.json")
+        analysis_data = analysis_file.read_text()
+        # read analysis data into a json object 
+        analysis_data = json.loads(analysis_data)
 
         zoom = analysis_data['animation']['keyframe_zoom_animations']
         prompts = {}
         for key, value in analysis_data['keyframes'].items():
             prompts[int(key)] = value['lyric']
 
-        # Do something with zoom and prompts
+        print(f'== {mp3_file}:')
+        print(f'zoom: "{zoom[:60]}..."')
+        print(f'prompts:\n{json.dumps(prompts,indent=2)}\n\n')
 
 parser = argparse.ArgumentParser(description="Process a JSON file containing compositions.")
 parser.add_argument("--input", required=True, help="Path to the input JSON file.")
+parser.add_argument("--mp3-dir", default="music", help="Path to MP3s to process.")
 args = parser.parse_args()
 input_file = args.input
+mp3_dir = args.mp3_dir
 
-process_json_file(input_file)
+load_render_combination_configuration(input_file, mp3_dir)
