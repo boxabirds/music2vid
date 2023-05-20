@@ -6,6 +6,9 @@
   "estd_bpm": 143.5546875,
   "style": "Mystic",
   "keyframes": {
+    "0": {
+      "prompt": "Moody atmosphere of an old room, birds trapped in a bamboo cage, soulcatcher whispering softly."
+    },
     "22": {
       "lyric": " Jenny lay in a bluish heat like a wasted dream. Her face was wrong. The ancient clock pushed",
       "prompt": "\"Vivid visual prompt"

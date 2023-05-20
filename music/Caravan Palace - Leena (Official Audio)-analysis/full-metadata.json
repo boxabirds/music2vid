@@ -6,6 +6,9 @@
   "estd_bpm": 161.4990234375,
   "style": "Art Deco",
   "keyframes": {
+    "0": {
+      "prompt": "Lonely evening in Paris, awaiting a familiar ride with mixed emotions of hope and sadness."
+    },
     "50": {
       "lyric": " Working in Paris.",
       "prompt": "Lone figure standing on a street corner, illuminated by a single street lamp in the night, with a suitcase in hand and a longing gaze towards the horizon."

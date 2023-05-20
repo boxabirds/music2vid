@@ -6,6 +6,9 @@
   "estd_bpm": 172.265625,
   "style": "Mystic",
   "keyframes": {
+    "0": {
+      "prompt": "Dreamy sky with stars and crescent moon, silhouettes of people asleep in a tent."
+    },
     "38": {
       "lyric": " Go to sleep, we're so tired now",
       "prompt": "A sailboat floating away on a sea of dreams."

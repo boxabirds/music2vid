@@ -6,6 +6,9 @@
   "estd_bpm": 89.10290948275862,
   "style": "Pencil Sketch",
   "keyframes": {
+    "0": {
+      "prompt": "Tall, handsome man in expensive Italian suit, strutting with confidence, fur-lined Cadillac, hard exterior but soft within."
+    },
     "31": {
       "lyric": " Did I ever tell you about that man who changed my life?",
       "prompt": "\"Vivid visual prompt"

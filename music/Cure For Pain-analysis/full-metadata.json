@@ -6,6 +6,9 @@
   "estd_bpm": 107.666015625,
   "style": "Mystic",
   "keyframes": {
+    "0": {
+      "prompt": "Dark and mysterious caves, wise woman, search for a cure, self-control and desperation."
+    },
     "57": {
       "lyric": " Where is the ritual?",
       "prompt": "A person kneeling on the ground in front of a cave entrance, with a bottle of pills scattered around them."

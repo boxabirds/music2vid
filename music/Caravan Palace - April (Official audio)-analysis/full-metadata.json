@@ -6,6 +6,9 @@
   "estd_bpm": 92.28515625,
   "style": "Leafy Jungle",
   "keyframes": {
+    "0": {
+      "prompt": "Vibrant spring meadow with new branches, a giant swing, and large fields of untouched beauty."
+    },
     "34": {
       "lyric": " Wild spring, raging in the street",
       "prompt": "Vibrant spring landscape with a figure running towards a giant swing in the distance."

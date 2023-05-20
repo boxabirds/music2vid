@@ -1,8 +1,8 @@
 {
     "compositions": [
-        "../music/Cantaloop (Flip Fantasia).mp3",
-        "../music/Caravan Palace - April (Official audio).mp3",
-        "../music/Winter seaside draft 15.mp3"
+        "Cantaloop (Flip Fantasia).mp3",
+        "Caravan Palace - April (Official audio).mp3",
+        "Winter seaside draft 15.mp3"
     ],
     "combinations": {
         "img.H, img.W": [[512,513],[768,769]],

@@ -6,6 +6,9 @@
   "estd_bpm": 117.45383522727273,
   "style": "Neon",
   "keyframes": {
+    "0": {
+      "prompt": "Vibrant colors, dynamic movement, and infectious energy of a jazzy, hip-hop night at Birdland."
+    },
     "2": {
       "lyric": " Ladies and gentlemen, as you know we have something special down here at Birdland this evening.",
       "prompt": "A colorful, spiraling vortex of music notes, instruments and dancers in a sea of vibrant colors, with the words \u201cBidi Bidi Bop\u201d at the center."

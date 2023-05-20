@@ -6,6 +6,9 @@
   "estd_bpm": 117.45383522727273,
   "style": "Watercolor",
   "keyframes": {
+    "0": {
+      "prompt": "Moody winter seaside landscape with rolling green hills and grey skies."
+    },
     "60": {
       "lyric": " Driving down to the south coast thinking of the waves",
       "prompt": "A silhouetted figure standing on the beach with arms outstretched, facing the ocean with a sunrise/sunset in the background."

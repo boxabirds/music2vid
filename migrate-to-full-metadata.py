@@ -3,6 +3,7 @@ import glob
 import argparse
 import re
 from pathlib import Path
+from collections import OrderedDict
 
 def read_file(file_path):
     with file_path.open("r") as file:
@@ -47,6 +48,7 @@ for mp3_file in mp3_files:
     style_match = re.search(r'"style":\s*"(.*?)",', prompts_raw_lines[0])
     style = style_match.group(1) if style_match else None
     prompts = {int(line.split(": ")[0]): line.split(": ")[1] for line in prompts_raw_lines[1:]}
+    print(f"prompts:\n {prompts}")
     full_transcript_data = json.loads(full_transcript)
     transcript_frame_timings = {}
     for line in transcript_frame_timings_raw.splitlines():
@@ -61,11 +63,18 @@ for mp3_file in mp3_files:
             continue
     estd_bpm_data = json.loads(estd_bpm)
 
+    keyframes = OrderedDict()
+    keyframes[0] = {"prompt": remove_quotes(prompts[0])}  # Add the first entry manually
+
+    for key in prompts.keys():
+        if key in transcript_frame_timings:
+            keyframes[key] = {"lyric": remove_quotes(transcript_frame_timings[key]), "prompt": remove_quotes(prompts[key])}
+
     full_metadata = {
         "animation": zoom_data,
         "estd_bpm": estd_bpm_data["tempo"],
         "style": style,
-        "keyframes": {key: {"lyric": remove_quotes(transcript_frame_timings[key]), "prompt": remove_quotes(prompts[key])} for key in prompts.keys() if key in transcript_frame_timings},
+        "keyframes": keyframes,
         "full_transcript": full_transcript_data
     }
 

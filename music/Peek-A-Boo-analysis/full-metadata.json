@@ -6,6 +6,9 @@
   "estd_bpm": 143.5546875,
   "style": "Neon",
   "keyframes": {
+    "0": {
+      "prompt": "Brightly colored figures playing peek-a-boo with wide smiles and laughter."
+    },
     "85": {
       "lyric": " Peek-a-Boo! I can see you, and I know what you do.",
       "prompt": "Two hands placed over eyes with a mischievous grin."

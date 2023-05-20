@@ -6,6 +6,9 @@
   "estd_bpm": 107.666015625,
   "style": "Pencil Sketch",
   "keyframes": {
+    "0": {
+      "prompt": "Vibrant summer sky, shimmering in the sun, gathering together in hope for a better future."
+    },
     "118": {
       "lyric": " Everyone watches over me, and someone sits back in the store",
       "prompt": "Person in a crowd of people, looking back to see a figure in the corner with a comforting gaze."

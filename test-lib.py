@@ -1,10 +1,11 @@
-# This is a test of the library interface to deforum.
+# This is a test of the library interface to deforum to create a session for a single composition.
 
 import json
 from pathlib import Path
 import argparse
+from lib.parameters import DeforumAnimArgs, DeforumArgs, Root
 
-def load_render_combination_configuration(file_name: str, mp3_dir: str):
+def initialise_args_from_combination_configuration(file_name: str, mp3_dir: str):
     json_file = Path(file_name)
     with json_file.open() as f:
         data = json.load(f)
@@ -29,9 +30,9 @@ def load_render_combination_configuration(file_name: str, mp3_dir: str):
 
 parser = argparse.ArgumentParser(description="Process a JSON file containing compositions.")
 parser.add_argument("--input", required=True, help="Path to the input JSON file.")
-parser.add_argument("--mp3-dir", default="music", help="Path to MP3s to process.")
+parser.add_argument("--mp3-dir", default="music", help="Location of MP3 files in config file.")
 args = parser.parse_args()
 input_file = args.input
 mp3_dir = args.mp3_dir
 
-load_render_combination_configuration(input_file, mp3_dir)
+initialise_args_from_combination_configuration(input_file, mp3_dir)

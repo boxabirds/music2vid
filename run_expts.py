@@ -11,16 +11,6 @@ def create_movie(filename, img:DeforumArgs, motion:DeforumAnimArgs, root:Root):
     
     #print(f"== Filename: {filename}: model_checkpoint = '{root.model_checkpoint}', img.W, img.H = {img.W}, {img.H}")
 
-parser = argparse.ArgumentParser()
-parser.add_argument('--input', type=str, required=True, help='Path to the input JSON file')
-args = parser.parse_args()
-input_file = args.input
-
-with open(input_file, "r") as file:
-    data = json.load(file)
-
-compositions = data["compositions"]
-combinations = data["combinations"]
 
 def generate_combinations(properties, current_combination, index:int):
     if index == len(properties):
@@ -29,7 +19,7 @@ def generate_combinations(properties, current_combination, index:int):
         prop_names, prop_values = properties[index]
         for value_set in prop_values:
             new_combination = current_combination.copy()
-            if len(prop_names) == 1:  # Single property
+            if len(prop_names) == 1:  # Single property e.g. "img.sampler": ["dpm2", "heun",  "euler_ancestral"]
                 prop_name = prop_names[0]
                 if prop_name.startswith("img."):
                     img_prop_name = prop_name.split(".")[1]
@@ -46,7 +36,8 @@ def generate_combinations(properties, current_combination, index:int):
                     if "root" not in new_combination:
                         new_combination["root"] = {}
                     new_combination["root"][root_prop_name] = value_set
-            else:  # Multiple properties
+
+            else:  # Multiple properties that only make sense together e.g. "img.H, img.W": [[512,512],[768,768]],
                 img_dict = {}
                 motion_dict = {}
                 root_dict = {}
@@ -94,6 +85,20 @@ def extract_properties(combinations, dictionary_name):
         print(f"Extracted {dictionary_name} properties: {extracted_properties}")
     return extracted_properties
 
+parser = argparse.ArgumentParser()
+parser.add_argument('--input', type=str, required=True, help='Path to the input JSON file')
+parser.add_argument("--mp3-dir", default="music", help="Location of MP3 files in config file.")
+
+args = parser.parse_args()
+input_file = args.input
+mp3_dir = args.mp3_dir
+
+with open(input_file, "r") as file:
+    data = json.load(file)
+
+compositions = data["compositions"]
+combinations = data["combinations"]
+
 print(f"Combinations: {combinations}")
 
 img_properties = extract_properties(combinations, "img")
@@ -106,6 +111,23 @@ root_combinations = [{} for _ in range(len(root_properties))]
 
 count = 0
 for composition in compositions:
+    analysis_file = mp3_dir / Path(Path(composition).stem + "-analysis/full-metadata.json")
+    analysis_data = analysis_file.read_text()
+    # read analysis data into a json object 
+    analysis_data = json.loads(analysis_data)
+
+    zoom = analysis_data['animation']['keyframe_zoom_animations']
+
+    # style is appended to the end of every prompt to present a consistent style
+    style = analysis_data['style']
+    prompts = {}
+    for key, value in analysis_data['keyframes'].items():
+        prompts[int(key)] = value['prompt']
+
+    print(f'== {composition}:')
+    print(f'zoom: "{zoom[:60]}..."')
+    print(f'prompts:\n{json.dumps(prompts,indent=2)}\n\n')
+
     for img_combination in generate_combinations(img_properties, {}, 0):
         for motion_combination in generate_combinations(motion_properties, {}, 0):
             for root_combination in generate_combinations(root_properties, {}, 0):

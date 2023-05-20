@@ -6,6 +6,9 @@
   "estd_bpm": 117.45383522727273,
   "style": "Mystic",
   "keyframes": {
+    "0": {
+      "prompt": "Open road, sun-drenched farmland, freedom of the country lanes."
+    },
     "22": {
       "lyric": " And I'm proving me involved",
       "prompt": "A winding, sun-drenched road stretching out into the horizon."

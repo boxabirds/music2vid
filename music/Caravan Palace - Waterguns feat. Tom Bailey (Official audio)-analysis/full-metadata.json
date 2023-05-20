@@ -6,6 +6,9 @@
   "estd_bpm": 99.38401442307692,
   "style": "Neon",
   "keyframes": {
+    "0": {
+      "prompt": "Vibrant colors and joyful energy radiating from a group of friends embracing life."
+    },
     "8": {
       "lyric": " Oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh.",
       "prompt": "A group of children playing together, laughing and smiling as they enjoy each other's company."

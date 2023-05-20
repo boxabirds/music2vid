@@ -1,0 +1,11 @@
+{
+    "compositions": [
+        "Cantaloop (Flip Fantasia).mp3"
+    ],
+    "num_key_frames": 90,
+    "combinations": {
+        "root.model_checkpoint": [
+                "Protogen_V2.2.ckpt"
+        ]
+    }
+}

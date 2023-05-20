@@ -6,6 +6,9 @@
   "estd_bpm": 143.5546875,
   "style": "Mystic",
   "keyframes": {
+    "0": {
+      "prompt": "Gloomy atmosphere of despair, disarray and injustice."
+    },
     "198": {
       "lyric": " Suspicion is your name, your honesty to pay, Predictability to say, it's not her.",
       "prompt": "Person being pulled down by a rope made of straw while surrounded by a group of onlookers pointing their accusing fingers."

@@ -6,6 +6,9 @@
   "estd_bpm": 117.45383522727273,
   "style": "Mystic",
   "keyframes": {
+    "0": {
+      "prompt": "Mystic night sky filled with stars, flying on dreamy path of exploration and discovery."
+    },
     "106": {
       "lyric": " When I wander, see right through you, flying high in pretty voodoo, lucid dreaming magic",
       "prompt": "\"Higher\""

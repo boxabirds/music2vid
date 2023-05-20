@@ -6,6 +6,9 @@
   "estd_bpm": 112.34714673913044,
   "style": "Mystic",
   "keyframes": {
+    "0": {
+      "prompt": "Electric heater glowing in a dark room, a soft voice inviting connection and warmth."
+    },
     "81": {
       "lyric": " Frank border heater, an electric heater, the elements were made of wire and clay, reached out to touch and he heard a voice say,",
       "prompt": "Electric heater with wings of wire and clay, radiating heat and light."

@@ -6,6 +6,9 @@
   "estd_bpm": 123.046875,
   "style": "Mystic",
   "keyframes": {
+    "0": {
+      "prompt": "Lonely figure standing in the moonlight."
+    },
     "406": {
       "lyric": " Oh",
       "prompt": "A silhouette of a figure with outstretched arms, illuminated by a full moon."
