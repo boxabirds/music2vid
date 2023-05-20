@@ -35,7 +35,14 @@ except ModuleNotFoundError:
 
 #import tifffile # Un-comment to save 32bpc TIFF images too. Also un-comment line within 'def save_8_16_or_32bpc_image()'
 
-def do_render(args, anim_args, animation_prompts, root):
+def add_general_style_to_prompts(prompts, general_style):
+    # Easy way to optionally add a consisten general style to all prompts
+    return {k: v + ", " + general_style for k, v in prompts.items()}
+
+def do_render(args, anim_args, root, animation_prompts:dict, general_style:str = ""):
+    if len(general_style) > 0:
+        animation_prompts = add_general_style_to_prompts(animation_prompts, general_style)
+        
     args.timestring = time.strftime('%Y%m%d%H%M%S')
     args.strength = max(0.0, min(1.0, args.strength))
 

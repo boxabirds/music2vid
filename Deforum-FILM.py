@@ -246,9 +246,9 @@ raw_animation_prompts = {
 258: "Person standing on a hilltop, arms outstretched, looking out at a sea of green rolling hills against a stormy grey sky and questioning if this is their life."
 }
 
-style_extras = " in watercolor, cosy, trending on artstation" #@param {type:"string"}
+general_style = " in watercolor, cosy, trending on artstation" #@param {type:"string"}
 
-animation_prompts = {k: v + ", " + style_extras for k, v in raw_animation_prompts.items()}
+
 
 
 
@@ -388,7 +388,7 @@ if args.override_settings_with_file:
 
 
 # %%
-do_render(args, anim_args, animation_prompts, root)
+do_render(args, anim_args, root, raw_animation_prompts, general_style )
 
 # %%
 print(f"saved to output folder '{args.outdir}'")

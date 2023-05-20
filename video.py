@@ -284,9 +284,9 @@ raw_animation_prompts = {
 989: "A person standing at the shoreline with arms raised, waves crashing around them and a sunset in the background.",
 }
 
-style_extras = "Vivid watercolor, trending on artstation" #@param {type:"string"}
+general_style = "Vivid watercolor, trending on artstation" #@param {type:"string"}
 
-animation_prompts = {k: v + ", " + style_extras for k, v in raw_animation_prompts.items()}
+
 
 
 
@@ -426,7 +426,7 @@ if args.override_settings_with_file:
 
 
 # %%
-do_render(args, anim_args, animation_prompts, root)
+do_render(args, anim_args, root, raw_animation_prompts, general_style)
 
 # give python the hint that we don't need the model any more
 root.model = None
