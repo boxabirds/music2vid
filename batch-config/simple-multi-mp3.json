@@ -17,7 +17,6 @@
         "Wandering Eye.mp3",
         "Winter seaside draft 15.mp3"
     ],
-    "num_key_frames": 100,
     "combinations": {
         "root.model_checkpoint": [
                 "Protogen_V2.2.ckpt"

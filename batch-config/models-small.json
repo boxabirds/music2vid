@@ -3,9 +3,8 @@
         "Cantaloop (Flip Fantasia).mp3",
         "Caravan Palace - April (Official audio).mp3"
     ],
-    "num_key_frames": 90,
+    "num_keyframes_override": 90,
     "interpolation_recursion_depth": 3,
-    "key_frames_per_second": 3,
     "combinations": {
         "img.H, img.W": [[512,512]],
         "root.model_checkpoint": [

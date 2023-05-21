@@ -4,9 +4,7 @@
         "Caravan Palace - April (Official audio).mp3",
         "Winter seaside draft 15.mp3"
     ],
-    "num_key_frames": 4,
-    "key_frames_per_second": 3,
-    "interpolation_recursion_depth": 3,
+    "num_keyframes_override": 4,
     "combinations": {
         "img.H, img.W": [[512,512],[768,768]],
         "img.sampler": ["dpm2", "heun",  "euler_ancestral"]
