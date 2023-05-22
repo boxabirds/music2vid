@@ -39,7 +39,17 @@ def add_general_style_to_prompts(prompts, general_style):
     # Easy way to optionally add a consisten general style to all prompts
     return {k: v + ", " + general_style for k, v in prompts.items()}
 
+def init_seed(args, initial_seed):
+    if initial_seed is None:
+        args.seed = random.randint(0, 2**32 - 1)
+    else:
+        args.seed = initial_seed
+
 def do_render(args, anim_args, root, animation_prompts:dict, general_style:str = ""):
+    if args.seed == -1:
+        print("semantics have changed: you must now call init_args_seed() before do_render()")
+        return
+    
     if len(general_style) > 0:
         animation_prompts = add_general_style_to_prompts(animation_prompts, general_style)
         
@@ -52,8 +62,6 @@ def do_render(args, anim_args, root, animation_prompts:dict, general_style:str =
         if (args.aesthetics_scale > 0):
             root.aesthetics_model = load_aesthetics_model(args, root)
 
-    if args.seed == -1:
-        args.seed = random.randint(0, 2**32 - 1)
     if not args.use_init:
         args.init_image = None
     if args.sampler == 'plms' and (args.use_init or anim_args.animation_mode != 'None'):

@@ -4,6 +4,7 @@ import numpy as np, os, torch
 from PIL import Image
 from torchvision.utils import make_grid
 import time
+from pathlib import Path
 
 
 def get_output_folder(output_path, batch_folder):
@@ -13,6 +14,12 @@ def get_output_folder(output_path, batch_folder):
     os.makedirs(out_path, exist_ok=True)
     return out_path
 
+def calculate_output_folder(seed, output_dir, batch_folder) -> str:
+    # does not create the folder
+    #seed_str = "{:010}".format(seed)
+    seed_str = "seed=" + str(seed)
+    output_path = output_dir + "/" + seed_str + "-" + batch_folder
+    return output_path
 
 def save_samples(
     args, x_samples: torch.Tensor, seed: int, n_rows: int
