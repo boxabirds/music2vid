@@ -135,12 +135,12 @@ def generate_comparison_video(
     # We have to be careful not to have too many tiles as this will cause the video to be too large to play back. 
     # 16 is probably as much as you want
     num_batches = len(combinations_path)
-    print(f"num_batches: {num_batches}")
+    #print(f"num_batches: {num_batches}")
     num_rows = math.ceil(math.sqrt(num_batches))
     num_cols = math.ceil((num_batches) / num_rows)
 
     video_dimensions = (tile_dimensions[0] * num_cols, tile_dimensions[1] * num_rows)
-    print(f"video_dimensions: {video_dimensions}")
+    #print(f"video_dimensions: {video_dimensions}")
     
     fourcc = cv2.VideoWriter_fourcc(*'mp4v')
     output_video_dir = str(composition_path / f"{composition_name}-comparison-seed={seed}.mp4")
@@ -150,16 +150,16 @@ def generate_comparison_video(
     # # count the number of png images in the first directory inside combinations_path -- we can assume it's the same number in each
     (image_dict, num_frames) = get_image_file_names_and_count(composition_path)
 
-    print(f"num_frames: {num_frames}")
+    #print(f"num_frames: {num_frames}")
     current_prompt = prompts[0]
 
     for frame_idx in range(num_frames):
         tiled_frame = np.zeros((*video_dimensions, 3), dtype=np.uint8)
 
         for i, combination_dir in enumerate(combinations_path):
-            print( f"combination: {combination_dir.name}")
+            #print( f"combination: {combination_dir.name}")
             images = image_dict[combination_dir.name]
-            print( f"images: '{images}'")
+            #print( f"images: '{images}'")
 
             if frame_idx < len(images):
                 img = images[frame_idx]
@@ -167,7 +167,7 @@ def generate_comparison_video(
 
                 row = i // num_cols
                 col = i % num_cols
-                print(f"placing image at row: {row}, col: {col}")
+                #print(f"placing image at row: {row}, col: {col}")
 
                 # calculate the tile placement inside the video
                 x_start = col * tile_dimensions[0]
@@ -177,12 +177,12 @@ def generate_comparison_video(
 
                 combination_name = strip_seed_prefix(combination_dir)
                 average_render_time = get_render_time(combination_dir)
-                print(f"average_frame_render_time: {average_render_time}")
+                #print(f"average_frame_render_time: {average_render_time}")
                 frame = add_text_to_frame(frame, f"{combination_name}\nt={average_render_time:.2f}s")
                 tiled_frame[y_start:y_end, x_start:x_end] = frame
 
-        prompt = prompts.get(frame_idx, current_prompt)
-        tiled_frame = add_text_to_frame(tiled_frame, prompt, align="bottom", text_size=14)
+        current_prompt = prompts.get(frame_idx, current_prompt)
+        tiled_frame = add_text_to_frame(tiled_frame, current_prompt, align="bottom", text_size=14)
         out.write(tiled_frame)
     out.release()
 
@@ -217,7 +217,7 @@ def generate_showcase(
 
     fourcc = cv2.VideoWriter_fourcc(*'mp4v')
     output_video_dir = str(composition_path / f"{composition_name}-showcase-seed={seed}.mp4")
-    print(f"showcase output_video_path: {output_video_dir}")
+    #print(f"showcase output_video_path: {output_video_dir}")
     out = cv2.VideoWriter(output_video_dir, fourcc, fps, dimensions)
 
     # Add black screen with set name
@@ -297,7 +297,7 @@ def init_deforumargs(img:DeforumArgs, root:Root, motion:DeforumAnimArgs, combina
     img.strength_0_no_init = True
 
     img.outdir = calculate_output_folder(img.seed, root.output_path, img.batch_name)
-    print(f"### output folder: '{img.outdir}' using combination '{combination_name}'") # type: ignore
+    #print(f"### output folder: '{img.outdir}' using combination '{combination_name}'") # type: ignore
 
 def create_movie_frames(img:DeforumArgs, motion:DeforumAnimArgs, root:Root, prompts:dict):
     do_render(img, motion, root, prompts)
@@ -488,9 +488,9 @@ for composition_file_name in compositions:
     for key, value in music_metadata['keyframes'].items():
         prompts[int(key)] = value['prompt']
 
-    print(f'== {composition_file_name}:')
-    print(f'zoom: "{zoom[:60]}..."')
-    print(f'prompts:\n{json.dumps(prompts,indent=2)}\n\n')
+    # print(f'== {composition_file_name}:')
+    # print(f'zoom: "{zoom[:60]}..."')
+    # print(f'prompts:\n{json.dumps(prompts,indent=2)}\n\n')
 
     for img_combination in generate_combinations(img_properties, {}, 0):
         for motion_combination in generate_combinations(motion_properties, {}, 0):

@@ -1,0 +1,12 @@
+{
+    "compositions": [
+        "Cantaloop (Flip Fantasia).mp3",
+        "Caravan Palace - Waterguns feat. Tom Bailey (Official audio).mp3",
+        "m4.mp3"
+    ],
+    "num_keyframes_override": 100,
+    "combinations": {
+        "img.sampler": ["dpmpp_2m"],
+        "motion.strength_schedule, motion.noise_schedule": [["0: (0.60)",0.03],["0: (0.65)",0.025],["0: (0.70)",0.02],["0: (0.75)",0.015]]
+    }
+}
