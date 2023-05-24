@@ -45,13 +45,13 @@ def init_seed(args, initial_seed):
     else:
         args.seed = initial_seed
 
-def do_render(args, anim_args, root, animation_prompts:dict, general_style:str = ""):
+def do_render(args, anim_args, root, animation_prompts:dict):
     if args.seed == -1:
         print("semantics have changed: you must now call init_args_seed() before do_render()")
         return
     
-    if len(general_style) > 0:
-        animation_prompts = add_general_style_to_prompts(animation_prompts, general_style)
+    if len(args.general_style) > 0:
+        animation_prompts = add_general_style_to_prompts(animation_prompts, args.general_style)
         
     args.timestring = time.strftime('%Y%m%d%H%M%S')
     args.strength = max(0.0, min(1.0, args.strength))

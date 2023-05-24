@@ -4,112 +4,8 @@
 # This is from a jinja2 template.
 # example input file: Deforum_Stable_Diffusion.ipynb
 
-class ChangeRecorder:
-# This class is used to record changes to the parameters. It is used to generate a diff of the parameters
-# from initialisation to customisation. Works best with objects that have a default value in __init__ as ours do 
-    def __init__(self):
-        self._changed_attributes = {}
-
-    def __setattr__(self, name, value):
-        if hasattr(self, name):
-            self._changed_attributes[name] = value
-        super().__setattr__(name, value)
-
-    def get_changed_attributes(self):
-        return self._changed_attributes.copy()
-
-    def get_filesystem_friendly_changed_attributes(self):
-        filesystem_friendly_attributes = []
-        for attribute_name, attribute_value in self._changed_attributes.items():
-            # Replace any invalid characters in the attribute name with underscores
-            filesystem_friendly_name = attribute_name.replace(":", "_")
-            # Replace any invalid characters in the attribute value with an empty string
-            filesystem_friendly_value = str(attribute_value).replace(":", "").replace("--", "")
-            # Concatenate the file-system friendly attribute name and value using a separator
-            filesystem_friendly_string = f"{filesystem_friendly_name}:{filesystem_friendly_value}"
-            filesystem_friendly_attributes.append(filesystem_friendly_string)
-        # Concatenate all the transformed attribute strings using a separator
-        return "--".join(filesystem_friendly_attributes)
         
-class Root(ChangeRecorder):
-  def __init__(self, **kwargs):
-      super().__init__()
-      self.models_path: str = kwargs.get("models_path", "models")
-      self.configs_path: str = kwargs.get("configs_path", "configs")
-      self.output_path: str = kwargs.get("output_path", "outputs")
-      self.mount_google_drive: bool = kwargs.get("mount_google_drive", True)
-      self.models_path_gdrive: str = kwargs.get("models_path_gdrive", "/content/drive/MyDrive/AI/models")
-      self.output_path_gdrive: str = kwargs.get("output_path_gdrive", "/content/drive/MyDrive/AI/StableDiffusion")
-      self.map_location = kwargs.get("map_location", 'cuda')  # cpu, cuda
-      self.model_config = kwargs.get("model_config", 'v1-inference.yaml')  # custom, v2-inference.yaml, v2-inference-v.yaml, v1-inference.yaml
-      self.model_checkpoint = kwargs.get("model_checkpoint", 'Protogen_V2.2.ckpt')  # custom, v2-1_768-ema-pruned.ckpt, v2-1_512-ema-pruned.ckpt, 768-v-ema.ckpt, 512-base-ema.ckpt, Protogen_V2.2.ckpt, v1-5-pruned.ckpt, v1-5-pruned-emaonly.ckpt, sd-v1-4-full-ema.ckpt, sd-v1-4.ckpt, sd-v1-3-full-ema.ckpt, sd-v1-3.ckpt, sd-v1-2-full-ema.ckpt, sd-v1-2.ckpt, sd-v1-1-full-ema.ckpt, sd-v1-1.ckpt, robo-diffusion-v1.ckpt, wd-v1-3-float16.ckpt
-      self.custom_config_path: str = kwargs.get("custom_config_path", "")
-      self.custom_checkpoint_path: str = kwargs.get("custom_checkpoint_path", "")
-class DeforumArgs(ChangeRecorder):
-  def __init__(self, **kwargs):
-      super().__init__()
-      self.override_settings_with_file: bool = kwargs.get("override_settings_with_file", False)
-      self.settings_file = kwargs.get("settings_file", 'custom')  # custom, 512x512_aesthetic_0.json, 512x512_aesthetic_1.json, 512x512_colormatch_0.json, 512x512_colormatch_1.json, 512x512_colormatch_2.json, 512x512_colormatch_3.json
-      self.custom_settings_file: str = kwargs.get("custom_settings_file", "/content/drive/MyDrive/Settings.txt")
-      self.W = kwargs.get("W", 512)
-      self.H = kwargs.get("H", 512)
-      self.bit_depth_output: str = kwargs.get("bit_depth_output", "8")  # 8, 16, 32
-      self.seed = kwargs.get("seed", -1)
-      self.sampler = kwargs.get("sampler", 'euler_ancestral')  # klms, dpm2, dpm2_ancestral, heun, euler, euler_ancestral, plms, ddim, dpm_fast, dpm_adaptive, dpmpp_2s_a, dpmpp_2m
-      self.steps = kwargs.get("steps", 50)
-      self.scale = kwargs.get("scale", 7)
-      self.ddim_eta = kwargs.get("ddim_eta", 0.0)
-      self.save_samples: bool = kwargs.get("save_samples", True)
-      self.save_settings: bool = kwargs.get("save_settings", True)
-      self.display_samples: bool = kwargs.get("display_samples", True)
-      self.save_sample_per_step: bool = kwargs.get("save_sample_per_step", False)
-      self.show_sample_per_step: bool = kwargs.get("show_sample_per_step", False)
-      self.prompt_weighting: bool = kwargs.get("prompt_weighting", True)
-      self.normalize_prompt_weights: bool = kwargs.get("normalize_prompt_weights", True)
-      self.log_weighted_subprompts: bool = kwargs.get("log_weighted_subprompts", False)
-      self.n_batch = kwargs.get("n_batch", 1)
-      self.batch_name: str = kwargs.get("batch_name", "")
-      self.filename_format = kwargs.get("filename_format", '{timestring}_{index}_{prompt}.png')  # {timestring}_{index}_{seed}.png, {timestring}_{index}_{prompt}.png
-      self.seed_behavior = kwargs.get("seed_behavior", 'iter')  # iter, fixed, random, ladder, alternate
-      self.seed_iter_N: int = kwargs.get("seed_iter_N", 1)
-      self.make_grid: bool = kwargs.get("make_grid", False)
-      self.grid_rows = kwargs.get("grid_rows", 2)
-      self.use_init: bool = kwargs.get("use_init", False)
-      self.strength: float = kwargs.get("strength", 0.1)
-      self.init_image: str = kwargs.get("init_image", "https://cdn.pixabay.com/photo/2022/07/30/13/10/green-longhorn-beetle-7353749_1280.jpg")
-      self.use_mask: bool = kwargs.get("use_mask", False)
-      self.mask_file: str = kwargs.get("mask_file", "https://www.filterforge.com/wiki/images/archive/b/b7/20080927223728%21Polygonal_gradient_thumb.jpg")
-      self.invert_mask: bool = kwargs.get("invert_mask", False)
-      self.mask_brightness_adjust: float = kwargs.get("mask_brightness_adjust", 1.0)
-      self.mask_contrast_adjust: float = kwargs.get("mask_contrast_adjust", 1.0)
-      self.overlay_mask: bool = kwargs.get("overlay_mask", True)
-      self.mask_overlay_blur: float = kwargs.get("mask_overlay_blur", 5)
-      self.mean_scale: float = kwargs.get("mean_scale", 0)
-      self.var_scale: float = kwargs.get("var_scale", 0)
-      self.exposure_scale: float = kwargs.get("exposure_scale", 0)
-      self.exposure_target: float = kwargs.get("exposure_target", 0.5)
-      self.colormatch_scale: float = kwargs.get("colormatch_scale", 0)
-      self.colormatch_image: str = kwargs.get("colormatch_image", "https://www.saasdesign.io/wp-content/uploads/2021/02/palette-3-min-980x588.png")
-      self.colormatch_n_colors: float = kwargs.get("colormatch_n_colors", 4)
-      self.ignore_sat_weight: float = kwargs.get("ignore_sat_weight", 0)
-      self.clip_name = kwargs.get("clip_name", 'ViT-L/14')  # ViT-L/14, ViT-L/14@336px, ViT-B/16, ViT-B/32
-      self.clip_scale: float = kwargs.get("clip_scale", 0)
-      self.aesthetics_scale: float = kwargs.get("aesthetics_scale", 0)
-      self.cutn: float = kwargs.get("cutn", 1)
-      self.cut_pow: float = kwargs.get("cut_pow", 0.0001)
-      self.init_mse_scale: float = kwargs.get("init_mse_scale", 0)
-      self.init_mse_image: str = kwargs.get("init_mse_image", "https://cdn.pixabay.com/photo/2022/07/30/13/10/green-longhorn-beetle-7353749_1280.jpg")
-      self.blue_scale: float = kwargs.get("blue_scale", 0)
-      self.gradient_wrt = kwargs.get("gradient_wrt", 'x0_pred')  # x, x0_pred
-      self.gradient_add_to = kwargs.get("gradient_add_to", 'both')  # cond, uncond, both
-      self.decode_method = kwargs.get("decode_method", 'linear')  # autoencoder, linear
-      self.grad_threshold_type = kwargs.get("grad_threshold_type", 'dynamic')  # dynamic, static, mean, schedule
-      self.clamp_grad_threshold: float = kwargs.get("clamp_grad_threshold", 0.2)
-      self.clamp_start = kwargs.get("clamp_start", 0.2)
-      self.clamp_stop = kwargs.get("clamp_stop", 0.01)
-      self.grad_inject_timing = kwargs.get("grad_inject_timing", list(range(1,10)))
-      self.cond_uncond_sync: bool = kwargs.get("cond_uncond_sync", True)
-class DeforumAnimArgs(ChangeRecorder):
+class DeforumAnimArgs:
   def __init__(self, **kwargs):
       super().__init__()
       self.animation_mode: str = kwargs.get("animation_mode", "2D")  # None, 2D, 3D, Video Input, Interpolation
@@ -169,3 +65,82 @@ class DeforumAnimArgs(ChangeRecorder):
       self.interpolate_x_frames: float = kwargs.get("interpolate_x_frames", 4)
       self.resume_from_timestring: bool = kwargs.get("resume_from_timestring", False)
       self.resume_timestring: str = kwargs.get("resume_timestring", "20220829210106")
+class DeforumArgs:
+  def __init__(self, **kwargs):
+      super().__init__()
+      self.override_settings_with_file: bool = kwargs.get("override_settings_with_file", False)
+      self.settings_file = kwargs.get("settings_file", 'custom')  # custom, 512x512_aesthetic_0.json, 512x512_aesthetic_1.json, 512x512_colormatch_0.json, 512x512_colormatch_1.json, 512x512_colormatch_2.json, 512x512_colormatch_3.json
+      self.custom_settings_file: str = kwargs.get("custom_settings_file", "/content/drive/MyDrive/Settings.txt")
+      self.W = kwargs.get("W", 512)
+      self.H = kwargs.get("H", 512)
+      self.bit_depth_output: str = kwargs.get("bit_depth_output", "8")  # 8, 16, 32
+      self.general_style: str = kwargs.get("general_style", " in watercolor, cosy, trending on artstation")
+      self.seed = kwargs.get("seed", -1)
+      self.sampler = kwargs.get("sampler", 'euler_ancestral')  # klms, dpm2, dpm2_ancestral, heun, euler, euler_ancestral, plms, ddim, dpm_fast, dpm_adaptive, dpmpp_2s_a, dpmpp_2m
+      self.steps = kwargs.get("steps", 50)
+      self.scale = kwargs.get("scale", 7)
+      self.ddim_eta = kwargs.get("ddim_eta", 0.0)
+      self.save_samples: bool = kwargs.get("save_samples", True)
+      self.save_settings: bool = kwargs.get("save_settings", True)
+      self.display_samples: bool = kwargs.get("display_samples", True)
+      self.save_sample_per_step: bool = kwargs.get("save_sample_per_step", False)
+      self.show_sample_per_step: bool = kwargs.get("show_sample_per_step", False)
+      self.prompt_weighting: bool = kwargs.get("prompt_weighting", True)
+      self.normalize_prompt_weights: bool = kwargs.get("normalize_prompt_weights", True)
+      self.log_weighted_subprompts: bool = kwargs.get("log_weighted_subprompts", False)
+      self.n_batch = kwargs.get("n_batch", 1)
+      self.batch_name: str = kwargs.get("batch_name", "")
+      self.filename_format = kwargs.get("filename_format", '{timestring}_{index}_{prompt}.png')  # {timestring}_{index}_{seed}.png, {timestring}_{index}_{prompt}.png
+      self.seed_behavior = kwargs.get("seed_behavior", 'iter')  # iter, fixed, random, ladder, alternate
+      self.seed_iter_N: int = kwargs.get("seed_iter_N", 1)
+      self.make_grid: bool = kwargs.get("make_grid", False)
+      self.grid_rows = kwargs.get("grid_rows", 2)
+      self.use_init: bool = kwargs.get("use_init", False)
+      self.strength: float = kwargs.get("strength", 0.1)
+      self.init_image: str = kwargs.get("init_image", "https://cdn.pixabay.com/photo/2022/07/30/13/10/green-longhorn-beetle-7353749_1280.jpg")
+      self.use_mask: bool = kwargs.get("use_mask", False)
+      self.mask_file: str = kwargs.get("mask_file", "https://www.filterforge.com/wiki/images/archive/b/b7/20080927223728%21Polygonal_gradient_thumb.jpg")
+      self.invert_mask: bool = kwargs.get("invert_mask", False)
+      self.mask_brightness_adjust: float = kwargs.get("mask_brightness_adjust", 1.0)
+      self.mask_contrast_adjust: float = kwargs.get("mask_contrast_adjust", 1.0)
+      self.overlay_mask: bool = kwargs.get("overlay_mask", True)
+      self.mask_overlay_blur: float = kwargs.get("mask_overlay_blur", 5)
+      self.mean_scale: float = kwargs.get("mean_scale", 0)
+      self.var_scale: float = kwargs.get("var_scale", 0)
+      self.exposure_scale: float = kwargs.get("exposure_scale", 0)
+      self.exposure_target: float = kwargs.get("exposure_target", 0.5)
+      self.colormatch_scale: float = kwargs.get("colormatch_scale", 0)
+      self.colormatch_image: str = kwargs.get("colormatch_image", "https://www.saasdesign.io/wp-content/uploads/2021/02/palette-3-min-980x588.png")
+      self.colormatch_n_colors: float = kwargs.get("colormatch_n_colors", 4)
+      self.ignore_sat_weight: float = kwargs.get("ignore_sat_weight", 0)
+      self.clip_name = kwargs.get("clip_name", 'ViT-L/14')  # ViT-L/14, ViT-L/14@336px, ViT-B/16, ViT-B/32
+      self.clip_scale: float = kwargs.get("clip_scale", 0)
+      self.aesthetics_scale: float = kwargs.get("aesthetics_scale", 0)
+      self.cutn: float = kwargs.get("cutn", 1)
+      self.cut_pow: float = kwargs.get("cut_pow", 0.0001)
+      self.init_mse_scale: float = kwargs.get("init_mse_scale", 0)
+      self.init_mse_image: str = kwargs.get("init_mse_image", "https://cdn.pixabay.com/photo/2022/07/30/13/10/green-longhorn-beetle-7353749_1280.jpg")
+      self.blue_scale: float = kwargs.get("blue_scale", 0)
+      self.gradient_wrt = kwargs.get("gradient_wrt", 'x0_pred')  # x, x0_pred
+      self.gradient_add_to = kwargs.get("gradient_add_to", 'both')  # cond, uncond, both
+      self.decode_method = kwargs.get("decode_method", 'linear')  # autoencoder, linear
+      self.grad_threshold_type = kwargs.get("grad_threshold_type", 'dynamic')  # dynamic, static, mean, schedule
+      self.clamp_grad_threshold: float = kwargs.get("clamp_grad_threshold", 0.2)
+      self.clamp_start = kwargs.get("clamp_start", 0.2)
+      self.clamp_stop = kwargs.get("clamp_stop", 0.01)
+      self.grad_inject_timing = kwargs.get("grad_inject_timing", list(range(1,10)))
+      self.cond_uncond_sync: bool = kwargs.get("cond_uncond_sync", True)
+class Root:
+  def __init__(self, **kwargs):
+      super().__init__()
+      self.models_path: str = kwargs.get("models_path", "models")
+      self.configs_path: str = kwargs.get("configs_path", "configs")
+      self.output_path: str = kwargs.get("output_path", "outputs")
+      self.mount_google_drive: bool = kwargs.get("mount_google_drive", True)
+      self.models_path_gdrive: str = kwargs.get("models_path_gdrive", "/content/drive/MyDrive/AI/models")
+      self.output_path_gdrive: str = kwargs.get("output_path_gdrive", "/content/drive/MyDrive/AI/StableDiffusion")
+      self.map_location = kwargs.get("map_location", 'cuda')  # cpu, cuda
+      self.model_config = kwargs.get("model_config", 'v1-inference.yaml')  # custom, v2-inference.yaml, v2-inference-v.yaml, v1-inference.yaml
+      self.model_checkpoint = kwargs.get("model_checkpoint", 'Protogen_V2.2.ckpt')  # custom, v2-1_768-ema-pruned.ckpt, v2-1_512-ema-pruned.ckpt, 768-v-ema.ckpt, 512-base-ema.ckpt, Protogen_V2.2.ckpt, v1-5-pruned.ckpt, v1-5-pruned-emaonly.ckpt, sd-v1-4-full-ema.ckpt, sd-v1-4.ckpt, sd-v1-3-full-ema.ckpt, sd-v1-3.ckpt, sd-v1-2-full-ema.ckpt, sd-v1-2.ckpt, sd-v1-1-full-ema.ckpt, sd-v1-1.ckpt, robo-diffusion-v1.ckpt, wd-v1-3-float16.ckpt
+      self.custom_config_path: str = kwargs.get("custom_config_path", "")
+      self.custom_checkpoint_path: str = kwargs.get("custom_checkpoint_path", "")

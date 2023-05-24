@@ -1,0 +1,9 @@
+{
+    "compositions": [
+        "Cantaloop (Flip Fantasia).mp3"    ],
+    "num_keyframes_override": 4,
+    "combinations": {
+        "root.model_checkpoint,root.model_config": [["v2-1_512-ema-pruned.ckpt","v2-inference-v.yaml"]], 
+        "img.sampler": ["klms", "heun", "euler", "euler_ancestral"]
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "compositions": [
+        "Cantaloop (Flip Fantasia).mp3"    ],
+    "num_keyframes_override": 4,
+    "combinations": {
+        "img.H, img.W": [[768,768]],
+        "root.model_checkpoint,root.model_config": [["v2-1_768-ema-pruned.ckpt","v2-inference-v.yaml"]], 
+        "img.sampler": ["klms", "heun", "euler", "euler_ancestral"]
+    }
+}

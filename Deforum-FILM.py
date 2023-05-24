@@ -122,7 +122,7 @@ def DeforumAnimArgs():
 
     #@markdown ####**Animation:**
     animation_mode = '2D' #@param ['None', '2D', '3D', 'Video Input', 'Interpolation'] {type:'string'}
-    max_frames = 10 #@param {type:"number"}
+    max_frames = 270 #@param {type:"number"}
     border = 'replicate' #@param ['wrap', 'replicate'] {type:'string'}
 
     #@markdown ####**Motion Parameters:**
@@ -246,8 +246,6 @@ raw_animation_prompts = {
 258: "Person standing on a hilltop, arms outstretched, looking out at a sea of green rolling hills against a stormy grey sky and questioning if this is their life."
 }
 
-general_style = " in watercolor, cosy, trending on artstation" #@param {type:"string"}
-
 
 
 
@@ -268,6 +266,7 @@ def DeforumArgs():
     H = 512 #@param
     W, H = map(lambda x: x - x % 64, (W, H))  # resize to integer multiple of 64
     bit_depth_output = 8 #@param [8, 16, 32] {type:"raw"}
+    general_style = " in watercolor, cosy, trending on artstation" #@param {type:"string"}
 
     #@markdown **Sampling Settings**
     seed = -1 #@param
@@ -388,7 +387,7 @@ if args.override_settings_with_file:
 
 
 # %%
-do_render(args, anim_args, root, raw_animation_prompts, general_style )
+do_render(args, anim_args, root, raw_animation_prompts, general_style)
 
 # %%
 print(f"saved to output folder '{args.outdir}'")
@@ -399,11 +398,12 @@ print(f"saved to output folder '{args.outdir}'")
 # [original source](https://www.tensorflow.org/hub/tutorials/tf_hub_film_example)
 
 # %%
-# !pip install mediapy
-# !sudo apt-get install -y ffmpeg
-
+!pip install mediapy
+!sudo apt-get install -y ffmpeg
 
 import tensorflow as tf
+import tensorflow_hub as hub
+
 import requests
 import numpy as np
 
@@ -417,9 +417,6 @@ import mediapy as media
 _UINT8_MAX_F = float(np.iinfo(np.uint8).max)
 
 def load_image(img_url: str):
-
-  
-
   print(f"load_image: {img_url}")
   """Returns an image with shape [height, width, num_channels], with pixels in [0..1] range, and type np.float32."""
 
@@ -429,7 +426,7 @@ def load_image(img_url: str):
     image_data = response.content
   else:
     image_data = tf.io.read_file(img_url)
-    #print(f"image_data for '{img_url}': {image_data}")
+    print(f"image_data for '{img_url}': {image_data}")
 
   image = tf.io.decode_image(image_data, channels=3)
   image_numpy = tf.cast(image, dtype=tf.float32).numpy()
@@ -493,7 +490,6 @@ class Interpolator:
   """
 
   def __init__(self, align: int = 64) -> None:
-    import tensorflow_hub as hub
     """Loads a saved model.
 
     Args:
@@ -535,6 +531,7 @@ try:
 except NameError: 
   framedir = "/content/drive/MyDrive/AI/StableDiffusion/230508-1945" #@param 
 
+framedir
 
 # %%
 #@markdown ##Load up the images from the folder 
@@ -546,7 +543,7 @@ except NameError:
 times_to_interpolate = 3 #@param {type:"slider", min:1, max:10, step:1}
 
 import glob
-filenames = sorted(glob.glob(f"{framedir}/*.png"))
+filenames = glob.glob(f"{framedir}/*.png")
 print(f"filenames: {filenames}")
 input_frames = [load_image(image) for image in filenames]
 
@@ -615,16 +612,23 @@ def interpolate_recursively(
 # ## Execution of frame generation
 
 # %%
-def generate_video(frames, recursion_depth, framedir):
-  interpolator = Interpolator()
-  frames = list(
-      interpolate_recursively(frames, recursion_depth, interpolator))
-  fps = 24
-  basic_movie_filename =  framedir + " " + str(fps) + ".mp4"
-  print(f'Creating {basic_movie_filename} with {len(frames)} frames')
-  media.write_video(basic_movie_filename, frames, fps=fps)
+interpolator = Interpolator()
+frames = list(
+    interpolate_recursively(input_frames, times_to_interpolate,
+                                        interpolator))
+print(f'video with {len(frames)} frames')
 
-generate_video(input_frames, times_to_interpolate, framedir)
+# 24fps is the only native fps of 24, 25, 30, 60, 120 that exactly matches the number of key frames + recursive interpolations
+#media.show_video(frames, fps=24, title='FILM interpolated video')
+
+
+# %%
+#media.show_video(frames, fps=24, title='FILM interpolated video')
+
+# %%
+fps = 24
+basic_movie_filename =  framedir + " movie " + str(fps) + ".mp4"
+media.write_video(basic_movie_filename, frames, fps=fps)
 
 # %% [markdown]
 # # Create Video From Frames (Deforum only)

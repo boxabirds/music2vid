@@ -1,8 +1,11 @@
 # TODO sort out source code in this project this is hacky
 import sys
+from tqdm import tqdm
 
 from helpers.model_load import get_model_output_paths, load_model
 from helpers.save_images import calculate_output_folder
+
+# hack because the deforum source is sitting inside src for now
 sys.path.extend([
     'src'
 ])
@@ -11,7 +14,11 @@ import argparse
 from lib.parameters import DeforumAnimArgs, Root, DeforumArgs
 from pathlib import Path
 from helpers.render import do_render, init_seed
-from typing import Tuple, Any
+from typing import Dict, List, Tuple, Any
+import cv2
+import numpy as np
+import math
+
 
 # This is a hard-coded value that all the music keyframes are based on so changing it will break things
 KEYFRAMES_PER_SECOND = 3
@@ -19,24 +26,180 @@ KEYFRAMES_PER_SECOND = 3
 # Interpolation frame logic will generate 7 interpolation frames if depth is 3 to make 23
 INTERPOLATION_RECURSION_DEPTH = 3
 
-# Hard-coded value based on the hard-coded values above. 
-# Changing this will result in a non-standard frame rate that then needs to be resampled to a standard
+# Calclated based on the hard-coded values above. 
+# WARNING: changing this might result in a non-standard frame rate that then needs to be resampled to a standard
 # frame rate for video playback (24, 25, 30, 60)
 FPS = KEYFRAMES_PER_SECOND * 2^INTERPOLATION_RECURSION_DEPTH # = 24fps
 
-def no_spaces(s:str):
-    return s.replace(" ", "_")
 
-def init_deforumargs(img:DeforumArgs, root:Root, motion:DeforumAnimArgs, combination_name: str, optional_initial_seed):
+def get_optimal_font_scale(text, width):
+    # hack to fit the font into the width by iteratively scaling font down. 
+    # no idea if this is the best approach but phind thought so so I'm ok for now
+    for scale in reversed(range(0, 60, 1)):
+        textSize = cv2.getTextSize(text, fontFace=cv2.FONT_HERSHEY_SIMPLEX, fontScale=scale/10, thickness=2)
+        new_width = textSize[0][0]
+        if (new_width <= width):
+            return scale/10
+    return 1
+
+def create_composition_path(parent_str:str, composition_name:str) -> Path:
+    return Path(parent_str) / composition_name
+
+def get_image_file_names_and_count(dir_path:Path) -> Tuple[Dict[str, List[str]], int]:
+    # takes a directory and cycles through all immediate subdirectories. 
+    # Creates a dictionary that maps the subdirectory name with a list of all png files in it. 
+    image_dict = {}
+    count:int = 0
+    for subdir in dir_path.iterdir():
+        if subdir.is_dir():
+            png_files = [f for f in sorted(subdir.glob('*.png'))]
+            if count == 0:
+                count = len(png_files)
+            image_dict[subdir.name] = png_files
+    return (image_dict, count)
+
+def generate_comparison_video(composition_name:str, composition_path:Path, seed:int, tile_dimensions=(512, 512), fps=1):  
+    # composition dir > combination dir > images (frames)
+    # create a video that contains every combination of the composition for this batch, tiled for frame-by-fram comparison. 
+    # This is useful for comparing the different combinations of a composition to see which one is best
+    FONT = cv2.FONT_HERSHEY_SIMPLEX
+    tile_dimensions = (int(tile_dimensions[0]), int(tile_dimensions[1]))
+    combinations_path = sorted([combination_path for combination_path in composition_path.iterdir() if combination_path.is_dir() and f"seed={seed}-" in combination_path.name])
+
+    # calculate tile dimensions. 
+    # We have to be careful not to have too many tiles as this will cause the video to be too large to play back. 
+    # 16 is probably as much as you want
+    num_batches = len(combinations_path)
+    print(f"num_batches: {num_batches}")
+    num_rows = math.ceil(math.sqrt(num_batches))
+    num_cols = math.ceil((num_batches) / num_rows)
+
+    video_dimensions = (tile_dimensions[0] * num_cols, tile_dimensions[1] * num_rows)
+    print(f"video_dimensions: {video_dimensions}")
+    
+    fourcc = cv2.VideoWriter_fourcc(*'mp4v')
+    output_video_dir = str(composition_path / f"{composition_name}-comparison-seed={seed}.mp4")
+    print(f"comparison output_video_path: {output_video_dir}")
+
+    print(f"creating a comparison video with dimensions: {video_dimensions}")
+    out = cv2.VideoWriter(output_video_dir, fourcc, fps, video_dimensions)
+    add_title_screen( out, composition_name, video_dimensions, fps)
+
+    # # count the number of png images in the first directory inside combinations_path -- we can assume it's the same number in each
+    (image_dict, num_frames) = get_image_file_names_and_count(composition_path)
+
+    print(f"num_frames: {num_frames}")
+
+    for frame_idx in range(num_frames):
+        tiled_frame = np.zeros((*video_dimensions, 3), dtype=np.uint8)
+
+        for i, combination_dir in enumerate(combinations_path):
+            print( f"combination: {combination_dir.name}")
+            images = image_dict[combination_dir.name]
+            print( f"images: '{images}'")
+
+            if frame_idx < len(images):
+                img = images[frame_idx]
+                frame = cv2.imread(str(img))
+
+                row = i // num_cols
+                col = i % num_cols
+                print(f"placing image at row: {row}, col: {col}")
+
+                # calculate the tile placement inside the video
+                x_start = col * tile_dimensions[0]
+                x_end = x_start + tile_dimensions[0]
+                y_start = row * tile_dimensions[1]
+                y_end = y_start + tile_dimensions[1]
+
+                combination_name = strip_seed_prefix(combination_dir)
+                optimal_font_scale = get_optimal_font_scale(combination_name, tile_dimensions[0])
+
+                # Add the caption to the tile
+                text_size, _ = cv2.getTextSize(combination_name, FONT, optimal_font_scale, 2)
+                x =  (tile_dimensions[0] - text_size[0]) // 2
+                y = text_size[1] + 10
+
+                # Draw the white text on top of the black outline
+                cv2.putText(frame, combination_name, (x, y), FONT, optimal_font_scale, (0, 0, 0), 4, cv2.LINE_AA)
+                cv2.putText(frame, combination_name, (x, y), FONT, optimal_font_scale, (255, 255, 255), 2, cv2.LINE_AA)
+
+                tiled_frame[y_start:y_end, x_start:x_end] = frame
+
+        out.write(tiled_frame)
+    out.release()
+
+def strip_seed_prefix(combination_dir):
+    # combination directories are named in this format "seed=1234-combination_name"
+    return combination_dir.name.split('-', 1)[1]
+
+
+def generate_showcase(composition_name:str, composition_path:Path, seed:int, dimensions=(512, 512), fps=1):  
+    FRAME_DURATION = 1 # seconds
+
+    # make sure dimensions are ints
+    dimensions = (int(dimensions[0]), int(dimensions[1]))
+
+    fourcc = cv2.VideoWriter_fourcc(*'mp4v')
+    output_video_dir = str(composition_path / f"{composition_name}-showcase-seed={seed}.mp4")
+    print(f"showcase output_video_path: {output_video_dir}")
+    out = cv2.VideoWriter(output_video_dir, fourcc, fps, dimensions)
+
+    # Add black screen with set name
+    add_title_screen( out, composition_name, dimensions, fps)
+
+    for combination_path in composition_path.iterdir():
+        if combination_path.is_dir() and f"seed={seed}-" in combination_path.name:
+            images = []
+
+            # Add black screen with combination name excluding the seed prefix
+            combination_name = combination_path.name.split('-', 1)[1]
+            add_title_screen( out, combination_name, dimensions, fps )
+
+            for img in sorted(combination_path.iterdir()):
+                if img.suffix == ".png":
+                    images.append(img)
+
+            # Show each image in batch folder at the specified fps
+            for j, image in enumerate(images):
+                frame = cv2.imread(str(image))
+                for i in range(FRAME_DURATION * fps):
+                    out.write(frame)
+
+    out.release()
+
+def add_title_screen(video_writer:cv2.VideoWriter, text, dimensions, fps):
+    # Generate a basic title screen with black background and white text
+    TITLE_SCREEN_DURATION = 3  # seconds
+    font = cv2.FONT_HERSHEY_SIMPLEX
+    font_thickness = 2
+    
+    optimal_font_scale = get_optimal_font_scale(text, dimensions[0])
+    text_size, _ = cv2.getTextSize(text, font, optimal_font_scale, font_thickness)
+
+    text_x = int((dimensions[0] - text_size[0]) / 2)
+    text_y = int((dimensions[1] + text_size[1]) / 2)
+    title_screen = np.zeros((*dimensions, 3), dtype=np.uint8)
+    cv2.rectangle(title_screen, (text_x - 20, text_y - text_size[1] - 20), (text_x + text_size[0] + 20, text_y + 20), (0, 0, 0), -1)
+    cv2.putText(title_screen, text, (text_x, text_y), font, optimal_font_scale, (0, 0, 0), font_thickness*2, cv2.LINE_AA)
+    cv2.putText(title_screen, text, (text_x, text_y), font, optimal_font_scale, (255, 255, 255), font_thickness, cv2.LINE_AA)
+
+    for j in range(TITLE_SCREEN_DURATION * fps):  # Multiply by fps to ensure correct number of frames
+        video_writer.write(title_screen)
+
+
+def init_deforumargs(img:DeforumArgs, root:Root, motion:DeforumAnimArgs, combination_name: str, optional_initial_seed, style:str):
     # Additional properties of DeforumArgs that are visible in colab.
     # The DeforumArgs class is autogenerated from that, so we can't add them to the class definition.
     img.batch_name = combination_name
+    img.general_style = style
 
     # initial_seed might not be set
     init_seed(img, optional_initial_seed)
 
+
     img.W, img.H = map(lambda x: x - x % 64, (img.W, img.H))  # resize to integer multiple of 64
-    img.n_samples = 1 # doesnt do anything
+    img.n_samples = 1 # type: ignore # doesnt do anything
     img.precision = 'autocast' 
     img.C = 4
     img.f = 8
@@ -58,8 +221,8 @@ def init_deforumargs(img:DeforumArgs, root:Root, motion:DeforumAnimArgs, combina
     img.outdir = calculate_output_folder(img.seed, root.output_path, img.batch_name)
     print(f"### output folder: '{img.outdir}' using combination '{combination_name}'") # type: ignore
 
-def create_movie_frames(img:DeforumArgs, motion:DeforumAnimArgs, root:Root, prompts:dict, general_style: str):
-    do_render(img, motion, root, prompts, general_style)
+def create_movie_frames(img:DeforumArgs, motion:DeforumAnimArgs, root:Root, prompts:dict):
+    do_render(img, motion, root, prompts)
 
 def generate_combinations(properties, current_combination, index:int):
     if index == len(properties):
@@ -132,16 +295,20 @@ def load_model_cached(root, load_on_run_all=True, check_sha256=True, map_locatio
 
     return _cached_model_tuple
 
-def init_rootargs(root:Root, composition_name:str ):
+def init_rootargs(root:Root, composition_name:str, dry_run:bool=False ):
     # extend output path to include the name of the composition
-    root.output_path = root.output_path + "/" + no_spaces(Path(composition_name).stem)
+    root.output_path = root.output_path + "/" + Path(composition_name).stem
     # TODO unclear function name. Should be called "ensure exists"
     root.models_path, root.output_path = get_model_output_paths(root)
 
     print(f"### init_rootargs output folder: '{root.output_path}'") 
     # TODO model and device are not input parameters in the original ipynb so didn't propagate to Root class in my export script
-    root.model, root.device = load_model_cached(root, load_on_run_all=True, check_sha256=True, map_location=root.map_location)
-    print(f"loaded model {root.model_checkpoint} on device {root.device}") # type: ignore
+    if dry_run:
+        root.model = None # type: ignore
+        root.device = None # type: ignore
+    else:
+        root.model, root.device = load_model_cached(root, load_on_run_all=True, check_sha256=True, map_location=root.map_location) 
+        print(f"loaded model {root.model_checkpoint} on device {root.device}") # type: ignore
 
 def extract_properties(combinations, dictionary_name):
     extracted_properties = []
@@ -195,6 +362,7 @@ parser.add_argument('--input', type=str, required=True, help='Path to the input 
 parser.add_argument("--mp3-dir", default="music", help="Location of MP3 files in config file.")
 # add a flag to indicate whether to run the rendering or not
 parser.add_argument("--dry-run", action="store_true", help="If set, don't render video")
+parser.add_argument("--generate-showcases", action="store_true", help="If set, generates videos of all frames created together for comparison")
 parser.add_argument("--initial-seed", type=int, nargs='?', default=None, help="Override random seed generation with a reproduceable starting point every run")
 
 args = parser.parse_args()
@@ -223,10 +391,16 @@ motion_combinations = [{} for _ in range(len(motion_properties))]
 root_combinations = [{} for _ in range(len(root_properties))]
 
 mp3_dir = args.mp3_dir
-count = 0
+combinations_generated = 0
+
+# use for showcases
+default_root:Root = Root()
+default_img:DeforumArgs = DeforumArgs()
+
 for composition_file_name in compositions:
     # pull metadata from analysis file
-    music_metadata_file = mp3_dir / Path(Path(composition_file_name).stem + "-analysis/full-metadata.json")
+    composition_name = Path(composition_file_name).stem
+    music_metadata_file = mp3_dir / Path(composition_name + "-analysis/full-metadata.json")
     music_metadata = music_metadata_file.read_text()
     # read analysis data into a json object 
     music_metadata = json.loads(music_metadata)
@@ -250,7 +424,7 @@ for composition_file_name in compositions:
                 if "root" in root_combination:
                     for prop_name, value in root_combination["root"].items():
                         setattr(root_instance, prop_name, value)
-                init_rootargs(root_instance, composition_file_name)
+                init_rootargs(root_instance, composition_file_name, dry_run=dry_run)
                 
                 motion_instance = DeforumAnimArgs()
                 if "motion" in motion_combination:
@@ -264,17 +438,33 @@ for composition_file_name in compositions:
                         setattr(img_instance, prop_name, value)
                 conbination_name = generate_combination_name(root_combination, motion_combination, img_combination)
 
-                init_deforumargs(img_instance, root_instance, motion_instance, conbination_name, initial_seed)
+                init_deforumargs(img_instance, root_instance, motion_instance, conbination_name, initial_seed, style)
                 
                 # we don't generate the same combination twice even with separate runs
-                if Path(img_instance.outdir).exists(): # type: ignore
+                image_dest_path = Path(img_instance.outdir) # type: ignore
+                if image_dest_path.exists(): # type: ignore
                     print(f"Skipping {composition_file_name} with combination '{conbination_name}' because it already exists")
                 else:
-                    count += 1
+                    combinations_generated += 1
                     if args.dry_run:
-                        print(f"Dry run: skipping rendering of {composition_file_name} with combination {conbination_name} saved in {img_instance.outdir}")   
+                        print(f"Dry run: skipping rendering of {composition_file_name} with combination {conbination_name} saved in {image_dest_path}")   
                     else:
-                        Path(img_instance.outdir).mkdir(parents=True) # type: ignore
-                        create_movie_frames(img_instance, motion_instance, root_instance, prompts, style)
+                        image_dest_path.mkdir(parents=True) # type: ignore
+                        create_movie_frames(img_instance, motion_instance, root_instance, prompts)
+                # generating the showcases is vastly simpler than the image generation so we can regenerate those easily
+    if args.generate_showcases and not args.dry_run:
+        composition_path = create_composition_path(default_root.output_path, composition_name)
+        generate_showcase(
+            composition_path=composition_path,
+            composition_name=composition_name, 
+            seed=initial_seed, 
+            dimensions=(default_img.W, default_img.H)
+        )
+        generate_comparison_video(
+            composition_path=composition_path, 
+            composition_name=composition_name, 
+            seed=initial_seed, 
+            tile_dimensions=(default_img.W, default_img.H)
+        )
 
-print(f"{count} combinations generated")
+print(f"{combinations_generated} combinations generated")
