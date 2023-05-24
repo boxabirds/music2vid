@@ -17,7 +17,7 @@
         "Wandering Eye.mp3",
         "Winter seaside draft 15.mp3"
     ],
-    "num_keyframes_override": 100,
+    "num_keyframes_override": 50,
     "combinations": {
         "img.sampler": ["klms", "dpm2", "heun", "euler", "euler_ancestral", "plms", "dpm_fast", "dpm_adaptive", "dpmpp_2m"]
     }

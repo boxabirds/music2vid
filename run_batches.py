@@ -1,6 +1,11 @@
 # TODO sort out source code in this project this is hacky
 import sys
 from tqdm import tqdm
+import time
+from PIL import Image, ImageDraw, ImageFont
+
+from collections import namedtuple
+Pos = namedtuple('Pos', ['x', 'y'])
 
 from helpers.model_load import get_model_output_paths, load_model
 from helpers.save_images import calculate_output_folder
@@ -32,6 +37,60 @@ INTERPOLATION_RECURSION_DEPTH = 3
 FPS = KEYFRAMES_PER_SECOND * 2^INTERPOLATION_RECURSION_DEPTH # = 24fps
 
 
+METADATA_FILE_NAME = "metadata.json"
+METADATA_PROPERTY = "average_frame_render_time"
+
+def store_render_time(combination_path, average_frame_render_time):
+    data = {METADATA_PROPERTY: average_frame_render_time}
+    metadata_file_path = Path(combination_path) / METADATA_FILE_NAME
+
+    with metadata_file_path.open("w") as outfile:
+        json.dump(data, outfile)
+
+def get_render_time(combination_path):
+    metadata_file_path = Path(combination_path) / METADATA_FILE_NAME
+    with metadata_file_path.open("r") as infile:
+        data = json.load(infile)
+    return data[METADATA_PROPERTY]
+
+
+def cv2_to_pil(cv2_frame):
+    return Image.fromarray(cv2.cvtColor(cv2_frame, cv2.COLOR_BGR2RGB))
+
+def draw_transparent_text(pil_image, text, margin, font, color, transparency=200, align='top'):
+    # Create a blank image with the same size as the original
+    blank_image = Image.new('RGBA', pil_image.size, (0, 0, 0, 0))
+    
+    # Define the top-left position of the text
+    if align == 'top':
+        position = (margin, margin)
+    elif align == 'bottom':
+        # Calculate the text height and adjust the position accordingly
+        text_width, text_height = font.getsize(text)
+        position = (margin, pil_image.size[1] - text_height - margin)
+    
+    # Draw the text on the blank image
+    draw = ImageDraw.Draw(blank_image)
+    draw.text(position, text, font=font, fill=color + (transparency,))
+    
+    # Alpha composite the text image over the original image
+    return Image.alpha_composite(pil_image.convert('RGBA'), blank_image)
+
+def add_text_to_frame(cv2_frame:np.ndarray, text:str, margin:int = 20, align:str = 'top', text_size:int=28) -> np.ndarray:
+    # Convert cv2 frame to PIL image
+    pil_image = cv2_to_pil(cv2_frame)
+    
+    # Define the font and color
+    font = ImageFont.truetype("/usr/share/fonts/truetype/freefont/FreeSansBold.ttf", text_size)
+    color = (255, 255, 255)
+
+    # Draw the text on the PIL image
+    pil_image_with_text = draw_transparent_text(pil_image, text, margin, font, color, align=align)
+    
+    # Convert the PIL image back to a cv2 frame
+    return cv2.cvtColor(np.array(pil_image_with_text), cv2.COLOR_RGB2BGR)
+
+
 def get_optimal_font_scale(text, width):
     # hack to fit the font into the width by iteratively scaling font down. 
     # no idea if this is the best approach but phind thought so so I'm ok for now
@@ -58,11 +117,17 @@ def get_image_file_names_and_count(dir_path:Path) -> Tuple[Dict[str, List[str]],
             image_dict[subdir.name] = png_files
     return (image_dict, count)
 
-def generate_comparison_video(composition_name:str, composition_path:Path, seed:int, tile_dimensions=(512, 512), fps=1):  
+def generate_comparison_video(
+        composition_name:str, 
+        composition_path:Path, 
+        seed:int, 
+        prompts:Dict[int,str],
+        tile_dimensions=(512, 512),
+        fps=1):  
     # composition dir > combination dir > images (frames)
     # create a video that contains every combination of the composition for this batch, tiled for frame-by-fram comparison. 
     # This is useful for comparing the different combinations of a composition to see which one is best
-    FONT = cv2.FONT_HERSHEY_SIMPLEX
+    
     tile_dimensions = (int(tile_dimensions[0]), int(tile_dimensions[1]))
     combinations_path = sorted([combination_path for combination_path in composition_path.iterdir() if combination_path.is_dir() and f"seed={seed}-" in combination_path.name])
 
@@ -79,9 +144,6 @@ def generate_comparison_video(composition_name:str, composition_path:Path, seed:
     
     fourcc = cv2.VideoWriter_fourcc(*'mp4v')
     output_video_dir = str(composition_path / f"{composition_name}-comparison-seed={seed}.mp4")
-    print(f"comparison output_video_path: {output_video_dir}")
-
-    print(f"creating a comparison video with dimensions: {video_dimensions}")
     out = cv2.VideoWriter(output_video_dir, fourcc, fps, video_dimensions)
     add_title_screen( out, composition_name, video_dimensions, fps)
 
@@ -89,6 +151,7 @@ def generate_comparison_video(composition_name:str, composition_path:Path, seed:
     (image_dict, num_frames) = get_image_file_names_and_count(composition_path)
 
     print(f"num_frames: {num_frames}")
+    current_prompt = prompts[0]
 
     for frame_idx in range(num_frames):
         tiled_frame = np.zeros((*video_dimensions, 3), dtype=np.uint8)
@@ -113,28 +176,40 @@ def generate_comparison_video(composition_name:str, composition_path:Path, seed:
                 y_end = y_start + tile_dimensions[1]
 
                 combination_name = strip_seed_prefix(combination_dir)
-                optimal_font_scale = get_optimal_font_scale(combination_name, tile_dimensions[0])
-
-                # Add the caption to the tile
-                text_size, _ = cv2.getTextSize(combination_name, FONT, optimal_font_scale, 2)
-                x =  (tile_dimensions[0] - text_size[0]) // 2
-                y = text_size[1] + 10
-
-                # Draw the white text on top of the black outline
-                cv2.putText(frame, combination_name, (x, y), FONT, optimal_font_scale, (0, 0, 0), 4, cv2.LINE_AA)
-                cv2.putText(frame, combination_name, (x, y), FONT, optimal_font_scale, (255, 255, 255), 2, cv2.LINE_AA)
-
+                average_render_time = get_render_time(combination_dir)
+                print(f"average_frame_render_time: {average_render_time}")
+                frame = add_text_to_frame(frame, f"{combination_name}\nt={average_render_time:.2f}s")
                 tiled_frame[y_start:y_end, x_start:x_end] = frame
 
+        prompt = prompts.get(frame_idx, current_prompt)
+        tiled_frame = add_text_to_frame(tiled_frame, prompt, align="bottom", text_size=14)
         out.write(tiled_frame)
     out.release()
+
+FONT = cv2.FONT_HERSHEY_SIMPLEX
+
+
+def add_text(frame:np.ndarray, text, pos:Pos, max_width):
+    optimal_font_scale = get_optimal_font_scale(text, max_width)
+    text_size, _ = cv2.getTextSize(text, FONT, optimal_font_scale, 2)
+
+    # Draw the white text on top of the black outline
+    cv2.putText(frame, text, (pos.x, pos.y), FONT, optimal_font_scale, (0, 0, 0), 4, cv2.LINE_AA)
+    cv2.putText(frame, text, (pos.x, pos.y), FONT, optimal_font_scale, (255, 255, 255), 2, cv2.LINE_AA)
 
 def strip_seed_prefix(combination_dir):
     # combination directories are named in this format "seed=1234-combination_name"
     return combination_dir.name.split('-', 1)[1]
 
 
-def generate_showcase(composition_name:str, composition_path:Path, seed:int, dimensions=(512, 512), fps=1):  
+def generate_showcase(
+    composition_name:str, 
+    composition_path:Path,
+    seed:int,
+    average_frame_render_times:Dict[str, float],
+    dimensions=(512, 512),
+    fps=1
+    ):  
     FRAME_DURATION = 1 # seconds
 
     # make sure dimensions are ints
@@ -168,6 +243,9 @@ def generate_showcase(composition_name:str, composition_path:Path, seed:int, dim
 
     out.release()
 
+def create_black_screen(dimensions):
+    return np.zeros((*dimensions, 3), dtype=np.uint8)
+
 def add_title_screen(video_writer:cv2.VideoWriter, text, dimensions, fps):
     # Generate a basic title screen with black background and white text
     TITLE_SCREEN_DURATION = 3  # seconds
@@ -179,7 +257,7 @@ def add_title_screen(video_writer:cv2.VideoWriter, text, dimensions, fps):
 
     text_x = int((dimensions[0] - text_size[0]) / 2)
     text_y = int((dimensions[1] + text_size[1]) / 2)
-    title_screen = np.zeros((*dimensions, 3), dtype=np.uint8)
+    title_screen = create_black_screen(dimensions)
     cv2.rectangle(title_screen, (text_x - 20, text_y - text_size[1] - 20), (text_x + text_size[0] + 20, text_y + 20), (0, 0, 0), -1)
     cv2.putText(title_screen, text, (text_x, text_y), font, optimal_font_scale, (0, 0, 0), font_thickness*2, cv2.LINE_AA)
     cv2.putText(title_screen, text, (text_x, text_y), font, optimal_font_scale, (255, 255, 255), font_thickness, cv2.LINE_AA)
@@ -350,10 +428,6 @@ def calculate_max_frames(duration_in_seconds:float, num_keyframes_override:int) 
         return num_keyframes_override
     else:
         EXTRA_END_FRAMES = 10
-        # TODO the composition duration is inside the metadata.json file
-        # we need to load it
-        # we then also need to extract the fps and the recursion depth to calculate fps
-        # once we have file duration and fps we can calculate the max frames
         return int(duration_in_seconds * FPS) + EXTRA_END_FRAMES
 
 
@@ -396,6 +470,7 @@ combinations_generated = 0
 # use for showcases
 default_root:Root = Root()
 default_img:DeforumArgs = DeforumArgs()
+average_frame_render_time = {}
 
 for composition_file_name in compositions:
     # pull metadata from analysis file
@@ -409,7 +484,7 @@ for composition_file_name in compositions:
     zoom = music_metadata['animation']['keyframe_zoom_animations']
     # style is appended to the end of every prompt to present a consistent style
     style = music_metadata['style']
-    prompts = {}
+    prompts:Dict[int,str] = {}
     for key, value in music_metadata['keyframes'].items():
         prompts[int(key)] = value['prompt']
 
@@ -436,33 +511,45 @@ for composition_file_name in compositions:
                 if "img" in img_combination:
                     for prop_name, value in img_combination["img"].items():
                         setattr(img_instance, prop_name, value)
-                conbination_name = generate_combination_name(root_combination, motion_combination, img_combination)
+                combination_name = generate_combination_name(root_combination, motion_combination, img_combination)
 
-                init_deforumargs(img_instance, root_instance, motion_instance, conbination_name, initial_seed, style)
+                init_deforumargs(img_instance, root_instance, motion_instance, combination_name, initial_seed, style)
                 
                 # we don't generate the same combination twice even with separate runs
-                image_dest_path = Path(img_instance.outdir) # type: ignore
-                if image_dest_path.exists(): # type: ignore
-                    print(f"Skipping {composition_file_name} with combination '{conbination_name}' because it already exists")
+                combination_path = Path(img_instance.outdir) # type: ignore
+                if combination_path.exists(): # type: ignore
+                    print(f"Skipping {composition_file_name} with combination '{combination_name}' because it already exists. Delete it to regenerate.")
                 else:
                     combinations_generated += 1
                     if args.dry_run:
-                        print(f"Dry run: skipping rendering of {composition_file_name} with combination {conbination_name} saved in {image_dest_path}")   
+                        print(f"Dry run: skipping rendering of {composition_file_name} with combination {combination_name} saved in {combination_path}")   
                     else:
-                        image_dest_path.mkdir(parents=True) # type: ignore
+                        combination_path.mkdir(parents=True) # type: ignore
+                        start_time = time.monotonic()
+
+                        ###
                         create_movie_frames(img_instance, motion_instance, root_instance, prompts)
-                # generating the showcases is vastly simpler than the image generation so we can regenerate those easily
+                        ###
+
+                        end_time = time.monotonic()
+                        time_taken = end_time - start_time
+                        average_frame_render_time[combination_name] = time_taken / motion_instance.max_frames
+                        print(f"Rendered {composition_file_name} with combination {combination_name} saved in {combination_path} in {time_taken:.2f} seconds averaging {average_frame_render_time[combination_name]:.2f}s per frame")   
+                        store_render_time(combination_path, average_frame_render_time[combination_name]) 
+
     if args.generate_showcases and not args.dry_run:
         composition_path = create_composition_path(default_root.output_path, composition_name)
         generate_showcase(
             composition_path=composition_path,
             composition_name=composition_name, 
+            average_frame_render_times=average_frame_render_time,
             seed=initial_seed, 
             dimensions=(default_img.W, default_img.H)
         )
         generate_comparison_video(
             composition_path=composition_path, 
             composition_name=composition_name, 
+            prompts=prompts,
             seed=initial_seed, 
             tile_dimensions=(default_img.W, default_img.H)
         )
