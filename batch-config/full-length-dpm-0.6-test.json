@@ -1,0 +1,10 @@
+{
+    "compositions": [
+        "Cantaloop (Flip Fantasia).mp3"
+    ],
+    "combinations": {
+        "img.sampler": ["dpmpp_2m"],
+        "img.steps": [60],
+        "motion.strength_schedule, motion.noise_schedule": [["0: (0.60)","0: (0.03)"]]
+    }
+}

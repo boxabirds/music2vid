@@ -1,5 +1,7 @@
 # TODO sort out source code in this project this is hacky
 import sys
+import os
+import re
 from tqdm import tqdm
 import time
 from PIL import Image, ImageDraw, ImageFont
@@ -200,8 +202,6 @@ def add_text(frame:np.ndarray, text, pos:Pos, max_width):
 def strip_seed_prefix(combination_dir):
     # combination directories are named in this format "seed=1234-combination_name"
     return combination_dir.name.split('-', 1)[1]
-
-
 def generate_showcase(
     composition_name:str, 
     composition_path:Path,
@@ -423,12 +423,29 @@ def generate_combination_name(root_combination, motion_combination, img_combinat
     result = result.replace(":", "=")
     return result
 
+EXTRA_END_FRAMES = 10
 def calculate_max_frames(duration_in_seconds:float, num_keyframes_override:int) -> int:
     if num_keyframes_override is not None:
         return num_keyframes_override
     else:
-        EXTRA_END_FRAMES = 10
-        return int(duration_in_seconds * FPS) + EXTRA_END_FRAMES
+        max_frames = int(duration_in_seconds * KEYFRAMES_PER_SECOND)
+        return max_frames + EXTRA_END_FRAMES
+
+
+def delete_extra_frames_from_dir(frame_dir: Path, max_frames: int, dry_run: bool = False):
+    for file in sorted(frame_dir.glob("*.png")):
+        match = re.match(rf"(\d+)_(\d+)\.png", file.name)
+        if match:
+            number, frame_num = match.groups()
+            if int(frame_num) > max_frames:
+                if not dry_run:
+                    os.remove(file)
+                    print(f"Deleted extra frame {file}")
+                else:
+                    print(f"### dry run: would have deleted extra frame {file}")
+        else:
+            print(f"skipping file {file} as it doesn't match the expected pattern")
+
 
 
 parser = argparse.ArgumentParser()
@@ -439,10 +456,15 @@ parser.add_argument("--dry-run", action="store_true", help="If set, don't render
 parser.add_argument("--generate-showcases", action="store_true", help="If set, generates videos of all frames created together for comparison")
 parser.add_argument("--initial-seed", type=int, nargs='?', default=None, help="Override random seed generation with a reproduceable starting point every run")
 
-args = parser.parse_args()
-dry_run = args.dry_run
-input_file = args.input
-initial_seed = args.initial_seed
+# temporary hack to delete extra frames -- might be useful in future for other utilities
+# this batch script is rapidly becoming a general purpose pipeline batch tool.
+parser.add_argument("--delete-extra-frames", action="store_true", default=None, help="cleanup function to remove any extra frames accidentally generated. ")
+
+cli_args = parser.parse_args()
+dry_run = cli_args.dry_run
+input_file = cli_args.input
+initial_seed = cli_args.initial_seed
+delete_extra_frames = cli_args.delete_extra_frames
 
 with open(input_file, "r") as file:
     batch_settings = json.load(file)
@@ -464,7 +486,7 @@ img_combinations = [{} for _ in range(len(img_properties))]
 motion_combinations = [{} for _ in range(len(motion_properties))]
 root_combinations = [{} for _ in range(len(root_properties))]
 
-mp3_dir = args.mp3_dir
+mp3_dir = cli_args.mp3_dir
 combinations_generated = 0
 
 # use for showcases
@@ -480,7 +502,6 @@ for composition_file_name in compositions:
     # read analysis data into a json object 
     music_metadata = json.loads(music_metadata)
 
-    duration = music_metadata['duration']
     zoom = music_metadata['animation']['keyframe_zoom_animations']
     # style is appended to the end of every prompt to present a consistent style
     style = music_metadata['style']
@@ -488,56 +509,57 @@ for composition_file_name in compositions:
     for key, value in music_metadata['keyframes'].items():
         prompts[int(key)] = value['prompt']
 
-    # print(f'== {composition_file_name}:')
-    # print(f'zoom: "{zoom[:60]}..."')
-    # print(f'prompts:\n{json.dumps(prompts,indent=2)}\n\n')
+    duration = music_metadata['duration']
+    max_frames = calculate_max_frames(duration, num_keyframes_override)
 
     for img_combination in generate_combinations(img_properties, {}, 0):
         for motion_combination in generate_combinations(motion_properties, {}, 0):
             for root_combination in generate_combinations(root_properties, {}, 0):
-                root_instance = Root()
+                root_instance = Root() # => "root"
                 if "root" in root_combination:
                     for prop_name, value in root_combination["root"].items():
                         setattr(root_instance, prop_name, value)
                 init_rootargs(root_instance, composition_file_name, dry_run=dry_run)
                 
-                motion_instance = DeforumAnimArgs()
+                anim_args = DeforumAnimArgs()  # => "motion"
                 if "motion" in motion_combination:
                     for prop_name, value in motion_combination["motion"].items():
-                        setattr(motion_instance, prop_name, value)
-                motion_instance.max_frames = calculate_max_frames(duration, num_keyframes_override)
+                        setattr(anim_args, prop_name, value)
+                anim_args.max_frames = max_frames
 
-                img_instance = DeforumArgs()
+                args = DeforumArgs() # => "img"
                 if "img" in img_combination:
                     for prop_name, value in img_combination["img"].items():
-                        setattr(img_instance, prop_name, value)
+                        setattr(args, prop_name, value)
                 combination_name = generate_combination_name(root_combination, motion_combination, img_combination)
-
-                init_deforumargs(img_instance, root_instance, motion_instance, combination_name, initial_seed, style)
+                init_deforumargs(args, root_instance, anim_args, combination_name, initial_seed, style)
                 
                 # we don't generate the same combination twice even with separate runs
-                combination_path = Path(img_instance.outdir) # type: ignore
+                combination_path = Path(args.outdir) # type: ignore
                 if combination_path.exists(): # type: ignore
-                    print(f"Skipping {composition_file_name} with combination '{combination_name}' because it already exists. Delete it to regenerate.")
-                else:
-                    combinations_generated += 1
-                    if args.dry_run:
-                        print(f"Dry run: skipping rendering of {composition_file_name} with combination {combination_name} saved in {combination_path}")   
+                    if delete_extra_frames:
+                        delete_extra_frames_from_dir(combination_path, max_frames, dry_run=dry_run)
                     else:
+                        print(f"Skipping {composition_file_name} with combination '{combination_name}' because it already exists. Delete it to regenerate.")
+                else:
+                    if cli_args.dry_run:
+                        print(f"### dry run: skipping rendering of {composition_file_name} with combination {combination_name} saved in {combination_path}")   
+                    else:
+                        combinations_generated += 1
                         combination_path.mkdir(parents=True) # type: ignore
                         start_time = time.monotonic()
 
                         ###
-                        create_movie_frames(img_instance, motion_instance, root_instance, prompts)
+                        create_movie_frames(args, anim_args, root_instance, prompts)
                         ###
 
                         end_time = time.monotonic()
                         time_taken = end_time - start_time
-                        average_frame_render_time[combination_name] = time_taken / motion_instance.max_frames
+                        average_frame_render_time[combination_name] = time_taken / anim_args.max_frames
                         print(f"Rendered {composition_file_name} with combination {combination_name} saved in {combination_path} in {time_taken:.2f} seconds averaging {average_frame_render_time[combination_name]:.2f}s per frame")   
                         store_render_time(combination_path, average_frame_render_time[combination_name]) 
 
-    if args.generate_showcases and not args.dry_run:
+    if cli_args.generate_showcases and not cli_args.dry_run and not cli_args.delete_extra_frames:
         composition_path = create_composition_path(default_root.output_path, composition_name)
         generate_showcase(
             composition_path=composition_path,

@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "dde81cf4eab1cee2c8789f6ad9e93a5f749fe273d9b78a9ed5b02dd2ecc84325"
+            "sha256": "c91f1870c671419327f72e5a3e5a3ff92f8231725110cfc487658c5f4e26c75c"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -16,6 +16,26 @@
         ]
     },
     "default": {
+        "imageio": {
+            "hashes": [
+                "sha256:548e93628b4c05afb29a3a0470167ff790cc9af598b5b1bd5fbec485aaf78786",
+                "sha256:5aa207ab61aca233a7a312951ac603d618b78418eac749e3dc5035010531e25b"
+            ],
+            "index": "pypi",
+            "version": "==2.29.0"
+        },
+        "imageio-ffmpeg": {
+            "hashes": [
+                "sha256:0e2688120b3bdb367897450d07c1b1300e96a0bace03ba7de2eb8d738237ea9a",
+                "sha256:120d70e6448617cad6213e47dee3a3310117c230f532dd614ed3059a78acf13a",
+                "sha256:7caa9ce9fc0d7e2f3160ce8cb70a115e5211e0f048e5c1509163d8f89d1080df",
+                "sha256:dba439a303d65061aef17d2ee9324ecfa9c6b4752bd0953b309fdbb79b38451e",
+                "sha256:dd3ef9835df91570a1cbd9e36dfbc7d228fca42dbb11636e20df75d719de2949",
+                "sha256:fdaa05ad10fe070b7fa8e5f615cb0d28f3b9b791d00af6d2a11e694158d10aa9"
+            ],
+            "index": "pypi",
+            "version": "==0.4.8"
+        },
         "numpy": {
             "hashes": [
                 "sha256:0ec87a7084caa559c36e0a2309e4ecb1baa03b687201d0a847c8b0ed476a7187",
@@ -47,7 +67,7 @@
                 "sha256:ecde0f8adef7dfdec993fd54b0f78183051b6580f606111a6d789cd14c61ea0c",
                 "sha256:f21c442fdd2805e91799fbe044a7b999b8571bb0ab0f7850d0cb9641a687092b"
             ],
-            "markers": "python_version >= '3.7'",
+            "markers": "python_version >= '3.8'",
             "version": "==1.24.3"
         },
         "opencv-python": {

@@ -1,15 +1,12 @@
-class Root:
-    @property
-    def models_path_gdrive(self):
-        return self._models_path_gdrive
-    @models_path_gdrive.setter
-    def models_path_gdrive(self,value):
-        return self._models_path_gdrive = value
+import tensorflow as tf
 
+print("Built with CUDA:", tf.test.is_built_with_cuda())
+print("GPU Available (deprecated):", tf.test.is_gpu_available(cuda_only=False, min_cuda_compute_capability=None))
+print("GPU Available (new):", tf.config.list_physical_devices('GPU'))
 
-print(f"static: Root.models_path_gdrive: {Root.models_path_gdrive}")
-r = Root()
-r.models_path_gdrive = "test"
-print(f"object: r.models_path_gdrive: {r.models_path_gdrive}")
-
-print(f"static again: Root.models_path_gdrive: {Root.models_path_gdrive}")
+# Check if TensorFlow is built with CuDNN support
+if tf.test.is_built_with_cuda():
+    from tensorflow.python.platform import build_info as tf_build_info
+    print("Built with CuDNN:", tf_build_info.build_info['cudnn_version'] is not None)
+    print("CuDNN version:", tf_build_info.build_info['cudnn_version'])
+    print("CUDA version:", tf_build_info.build_info['cuda_version'])

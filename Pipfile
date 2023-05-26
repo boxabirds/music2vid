@@ -7,6 +7,8 @@ name = "pypi"
 tinytag = "*"
 opencv-python = "*"
 pillow = "*"
+imageio-ffmpeg = "*"
+imageio = "*"
 
 [dev-packages]
 
