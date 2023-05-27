@@ -1,56 +1,66 @@
 import argparse
 import json
+import math
 import imageio
 import numpy as np
 from PIL import Image, ImageDraw, ImageFont
 from tqdm import tqdm
+import cv2
 
 
-from PIL import ImageDraw, ImageFont
+def cv2_to_pil(cv2_frame):
+    return Image.fromarray(cv2.cvtColor(cv2_frame, cv2.COLOR_BGR2RGB))
 
-from PIL import ImageDraw, ImageFont
+def draw_transparent_text(pil_image, text, margin, font, color, transparency=200, align='top'):
+    # Create a blank image with the same size as the original
+    blank_image = Image.new('RGBA', pil_image.size, (0, 0, 0, 0))
+    
+    # Define the top-left position of the text
+    if align == 'top':
+        position = (margin, margin)
+    elif align == 'bottom':
+        # Calculate the text height and adjust the position accordingly
+        text_width, text_height = font.getsize(text)
+        position = (margin, pil_image.size[1] - text_height - margin)
+    
+    # Draw the text on the blank image
+    draw = ImageDraw.Draw(blank_image)
+    draw.text(position, text, font=font, fill=color + (transparency,))
+    
+    # Alpha composite the text image over the original image
+    return Image.alpha_composite(pil_image.convert('RGBA'), blank_image)
 
-from PIL import ImageDraw, ImageFont
+def add_text_to_frame(cv2_frame:np.ndarray, text:str, margin:int = 20, align:str = 'top', text_size:int=28) -> np.ndarray:
+    # Convert cv2 frame to PIL image
+    pil_image = cv2_to_pil(cv2_frame)
+    
+    # Define the font and color
+    font = ImageFont.truetype("/usr/share/fonts/truetype/freefont/FreeSansBold.ttf", text_size)
+    color = (255, 255, 255)
 
-from PIL import ImageDraw, ImageFont
-
-def create_text_clip(text, frame_shape):
-    # Create an image with the same dimensions as the video frame
-    img = Image.new('RGBA', (frame_shape[1], frame_shape[0]), (0, 0, 0, 0))
-    draw = ImageDraw.Draw(img)
-
-    # Load the font
-    font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 24)
-
-    # Calculate the text size with the black border
-    padding = 20
-    text_width, text_height = font.getsize(text)
-
-    # Resize the text to fit within the frame while maintaining the aspect ratio
-    aspect_ratio = float(text_height) / float(text_width)
-    frame_height = frame_shape[0]
-    frame_width = frame_shape[1]
-    new_width = int(frame_width * aspect_ratio)
-    new_height = int(frame_height * aspect_ratio)
-
-    if new_height > frame_height:
-        new_height = frame_height
-        new_width = int(frame_height * aspect_ratio)
-    elif new_width > frame_width:
-        new_width = frame_width
-        new_height = int(frame_width / aspect_ratio)
-
-    # Calculate the position to center the text within the frame
-    x = (frame_width - new_width) // 2
-    y = (frame_height - new_height) // 2
-
-    # Draw the text with the black border
-    draw.text((x, y), text, font=font, fill=(255, 255, 255), stroke_width=2, stroke_fill='black')
-
-    # Return the image as a numpy array
-    return np.array(img)
+    # Draw the text on the PIL image
+    pil_image_with_text = draw_transparent_text(pil_image, text, margin, font, color, align=align)
+    
+    # Convert the PIL image back to a cv2 frame
+    return cv2.cvtColor(np.array(pil_image_with_text), cv2.COLOR_RGB2BGR)
 
 
+import re
+
+def parse_disco(text: str) -> dict[int, float]:
+    # parses animation strings of this format "0: (1.03), 30: (1.40), 31: (1.20), 32: (1.10), 33: (1.03), 52: (1.40), 53: (1.40), 54: (1.40), 55: (1.40), 56: (1.20), 57: (1.10), 58: (1.03), 71: (1.40), 72: (1.20), 73: (1.10), 74: (1.03), 77: (1.40),"
+    result = {}
+    pattern = re.compile(r"(\d+):\s\((\d+\.\d+)\)")
+
+    for match in pattern.finditer(text):
+        key = int(match.group(1))
+        value = float(match.group(2))
+        result[key] = value
+
+    return result
+
+
+KFPS = 3
 
 def main(in_video, metadata, out_video, preview_duration=None, include_frame_count=False):
     reader = imageio.get_reader(in_video)
@@ -58,25 +68,36 @@ def main(in_video, metadata, out_video, preview_duration=None, include_frame_cou
     writer = imageio.get_writer(out_video, fps=fps)
 
     with open(metadata, 'r') as f:
-        captions_data = json.load(f)["full_transcript"]["segments"]
+        data = json.load(f)
+        captions_data = data["full_transcript"]["segments"]
+        zoom_data = parse_disco(data["animation"]["keyframe_zoom_animations"])
 
-    for i, frame in tqdm(enumerate(reader), total=reader.count_frames()):
+    num_frames = reader.count_frames()
+    print(f"Processing {num_frames} frames...")
+    current_zoom_keyframe = 0
+    for i, frame in tqdm(enumerate(reader), total=num_frames):
         frame_time = i / fps
-        frame_shape = frame.shape
+
+        # track the zoom keyframe
+        keyframe_num = math.trunc(frame_time * KFPS)
+        if keyframe_num in zoom_data:
+            current_zoom_keyframe = keyframe_num
+        zoom_text = f"{current_zoom_keyframe}: ({zoom_data[current_zoom_keyframe]})"
+        frame = add_text_to_frame(frame, zoom_text, align="top", text_size=18)
 
         for item in captions_data:
             start_time = item['start']
             end_time = item['end']
             if start_time <= frame_time < end_time:
-                text = item['text']
-                text_clip = create_text_clip(text, frame_shape)
-                frame = np.where(text_clip[..., 3, np.newaxis] == 255, text_clip[..., :3], frame)
+                lyric_text = f"{keyframe_num}: {item['text']}"
+                frame = add_text_to_frame(frame, lyric_text, align="bottom", text_size=14)
                 break
 
         if preview_duration is not None and frame_time >= preview_duration:
             break
 
         writer.append_data(frame)
+
 
     writer.close()
 

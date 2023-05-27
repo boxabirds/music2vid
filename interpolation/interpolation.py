@@ -218,24 +218,6 @@ def concatenate_videos(video_filenames, output_filename):
     final_video = concatenate_videoclips(video_clips)
     final_video.write_videofile(output_filename)
 
-# def generate_video_batches(frame_filenames, recursion_depth, framedir, batch_size):
-#     interpolator = Interpolator()
-#     num_batches = (len(frame_filenames) - 1) // batch_size + 1
-#     print(f"Generating {num_batches} batches of {batch_size} frames each")
-#     batch_filenames = []
-
-#     for batch_idx in range(num_batches):
-#         start_idx = batch_idx * batch_size
-#         end_idx = min((batch_idx + 1) * batch_size - 1, len(frame_filenames) - 1)
-#         batch_frame_filenames = frame_filenames[start_idx:end_idx + 1]
-#         frames = list(interpolate_recursively(batch_frame_filenames, recursion_depth, interpolator))
-#         fps = 24
-#         batch_movie_filename = framedir + f"-batch{batch_idx}-{fps}fps.mp4"
-#         print(f'Creating {batch_movie_filename} with {len(frames)} frames')
-#         media.write_video(batch_movie_filename, frames, fps=fps)
-#         batch_filenames.append(batch_movie_filename)
-    
-#     return batch_filenames
 
 def generate_video_batches(frame_filenames, recursion_depth, framedir, batch_size):
     interpolator = Interpolator()

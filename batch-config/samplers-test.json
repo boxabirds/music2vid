@@ -4,7 +4,6 @@
         "Caravan Palace - April (Official audio).mp3",
         "Little One.mp3"
     ],
-    "num_keyframes_override": 4,
     "combinations": {
         "img.sampler": ["klms", "dpm2", "heun", "euler"]
     }

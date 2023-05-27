@@ -526,6 +526,7 @@ for composition_file_name in compositions:
                     for prop_name, value in motion_combination["motion"].items():
                         setattr(anim_args, prop_name, value)
                 anim_args.max_frames = max_frames
+                anim_args.zoom = zoom
 
                 args = DeforumArgs() # => "img"
                 if "img" in img_combination:
