@@ -9,7 +9,7 @@ import requests
 import os
 from typing import Generator, Iterable, List, Optional
 import ffmpeg
-
+import re
 
 import tensorflow as tf
 import tensorflow_hub as hub
@@ -51,21 +51,12 @@ def get_average_render_time():
     return sum(render_data) / len(render_data) if length > 0 else 0
 
 
-def load_image(img_url: str):
-  #print(f"load_image: {img_url}")
+def load_image(image_path: Path):
   """Returns an image with shape [height, width, num_channels], with pixels in [0..1] range, and type np.float32."""
-
-  if (img_url.startswith("https")):
-    user_agent = {'User-agent': 'Colab Sample (https://tensorflow.org)'}
-    response = requests.get(img_url, headers=user_agent)
-    image_data = response.content
-  else:
-    image_data = tf.io.read_file(img_url)
-    #print(f"image_data for '{img_url}': {image_data}")
+  image_data = tf.io.read_file(str(image_path))
 
   image = tf.io.decode_image(image_data, channels=3)
   image_numpy = tf.cast(image, dtype=tf.float32).numpy()
-  #print(f"image_numpy for '{img_url}': {image_numpy}")
   return image_numpy / _UINT8_MAX_F
 
 
@@ -188,7 +179,7 @@ def _recursive_generator(
 
 
 def interpolate_recursively(
-    frame_filenames: List[str], num_recursions: int,
+    frame_paths: List[Path], num_recursions: int,
     interpolator: Interpolator) -> Iterable[np.ndarray]:
   """Generates interpolated frames by repeatedly interpolating the midpoint.
 
@@ -202,83 +193,155 @@ def interpolate_recursively(
   Yields:
     The interpolated frames (including the inputs).
   """
-  n = len(frame_filenames)
+  n = len(frame_paths)
   for i in tqdm(range(1, n), desc="Processing frames", unit="frames"):
-      frame1 = load_image(frame_filenames[i - 1])
-      frame2 = load_image(frame_filenames[i])
+      frame1 = load_image(frame_paths[i - 1])
+      frame2 = load_image(frame_paths[i])
       yield from _recursive_generator(frame1, frame2,
-                                      times_to_interpolate, interpolator)
+                                      num_recursions, interpolator)
   # Separately yield the final frame.
-  yield load_image(frame_filenames[-1])
+  yield load_image(frame_paths[-1])
 
-
-
-def concatenate_videos(video_filenames, output_filename):
-    video_clips = [VideoFileClip(video) for video in video_filenames]
+def concatenate_videos(batch_video_paths:List[Path], output_file_path:Path):
+    video_clips = [VideoFileClip(str(video)) for video in batch_video_paths]
     final_video = concatenate_videoclips(video_clips)
-    final_video.write_videofile(output_filename)
+    final_video.write_videofile(str(output_file_path))
 
-
-def generate_video_batches(frame_filenames, recursion_depth, framedir, batch_size):
+def generate_video_batches(keyframe_paths:List[Path], batch_dest_dir_path:Path, batch_size:int, recursion_depth:int) ->List[Path]:
+    # for better resilience and memory efficiency we render the frames in batches and stitch them together afterwards
+    # keyframe_paths: a list of all the keyframes to be interpolated
+    # combination_path: 
     interpolator = Interpolator()
-    num_batches = (len(frame_filenames) - 1) // batch_size + 1
+    total_frames = len(keyframe_paths)
+    num_batches = (total_frames - 1) // batch_size + 1
     print(f"Generating {num_batches} batches of {batch_size} frames each")
-    batch_filenames = []
+    batch_video_paths:List[Path] = []
 
     for batch_idx in range(num_batches):
-        batch_movie_filename = framedir + f"-batch{batch_idx}-{FPS}fps.mp4"
-        if os.path.exists(batch_movie_filename):
-           print(f"Skipping generation of interim '{batch_movie_filename}' because it already exists. Delete it if you want to regenerate it.")
+        batch_video_path = create_batch_video_path(total_frames, batch_dest_dir_path, batch_size, batch_idx)
+        batch_keyframe_paths:List[Path] = []
+
+        if os.path.exists(batch_video_path):
+           print(f"Skipping generation of interim '{batch_video_path}' because it already exists. Delete it if you want to regenerate it.")
         else:
           start_idx = batch_idx * batch_size
-          end_idx = min((batch_idx + 1) * batch_size, len(frame_filenames) - 1)
+          end_idx = min((batch_idx + 1) * batch_size, total_frames - 1)
           if batch_idx > 0:
               start_idx -= 1
-          batch_frame_filenames = frame_filenames[start_idx:end_idx]
-          frames = list(interpolate_recursively(batch_frame_filenames, recursion_depth, interpolator))
+
+          # get our slice of the frames and do interpolation of them. 
+          batch_keyframe_paths = keyframe_paths[start_idx:end_idx]
+          frames = list(interpolate_recursively(batch_keyframe_paths, recursion_depth, interpolator))
+
+          # Each cycle adds the keyframe + x interpolation frames + keyframe. 
+          # For batches to be stitched together, we need to remove the first frame of each batch except the first one.
           if batch_idx > 0:
-              frames = frames[1:]  # Exclude the first frame if it's not the first batch
+              frames = frames[1:]  
           
-          print(f'Creating {batch_movie_filename} with {len(frames)} frames')
-          media.write_video(batch_movie_filename, frames, fps=FPS)
-        batch_filenames.append(batch_movie_filename)
+          print(f'Creating {batch_video_path} with {len(frames)} frames')
+          media.write_video(batch_video_path, frames, fps=FPS)
+        batch_video_paths.append(batch_video_path)
     
-    return batch_filenames
+    return batch_video_paths
+
+def create_batch_video_path(total_frames, batch_dest_dir_path:Path, batch_size, batch_idx) -> Path:
+    start_frame = batch_idx * batch_size
+    end_frame = min((batch_idx + 1) * batch_size, total_frames)
+    start_frame_padded = str(start_frame).zfill(5)
+    end_frame_padded = str(end_frame).zfill(5)
+    batch_video_path = batch_dest_dir_path / f"batch-{start_frame_padded}-{end_frame_padded}-{FPS}fps.mp4"
+    return batch_video_path
 
 
-def add_audio_to_video(input_video, input_audio, output_video):
-    input_video_stream = ffmpeg.input(input_video)
-    input_audio_stream = ffmpeg.input(input_audio)
+def add_audio_to_video(input_video_path:Path, input_audio_path:Path, output_video_path:Path):
+    input_video_str = str(input_video_path)
+    input_audio_str = str(input_audio_path)
+    output_video_str = str(output_video_path)
+    print(f"Adding audio from '{input_audio_str}' to '{input_video_str}' and saving to '{output_video_str}'")
+
+    # Extract the duration of the input video
+    input_video_duration = float(ffmpeg.probe(input_video_str)['streams'][0]['duration'])
+
+    # Concatenate the video and audio streams
+    input_video_stream = ffmpeg.input(input_video_str)
+    input_audio_stream = ffmpeg.input(input_audio_str)
 
     audio_stream = input_audio_stream.audio
     video_stream = input_video_stream.video
 
-    output_stream = ffmpeg.concat(video_stream, audio_stream, v=1, a=1).output(output_video)
+    # Limit the output audio duration to the input video duration
+    audio_stream = audio_stream.filter("atrim", duration=input_video_duration)
+
+    # Combine the video and audio streams
+    output_stream = ffmpeg.concat(video_stream, audio_stream, v=1, a=1).output(output_video_str)
+    
+    # Run the FFmpeg command
     output_stream.run()
+
+
+
+def get_combination_paths_with_seed(composition_path:Path, seed_used)->List[Path]:
+  combinations_path = sorted([combination_path for combination_path in composition_path.iterdir() if combination_path.is_dir() and f"seed={seed_used}-" in combination_path.name])    
+  return combinations_path
+
+
+def generate_interpolated_video_combination( composition_dir_name:str, combination_path:Path, mp3:Path, batch_size:int, recursion_depth:int ):
+    output_file_path = combination_path / f"{composition_dir_name}-interpolated.mp4"
+    output_file_with_audio_path = combination_path / f"{composition_dir_name}-interpolated-with-audio.mp4"
+    if os.path.exists(output_file_path):
+        print(f"Output file {output_file_path} already exists, skipping. Delete it if you want to regenerate it.")
+    
+    # get a list of all the keyframes in the combination and generate video batches for them
+    else:
+      keyframe_paths:List[Path] = sorted(combination_path.glob("*.png"))
+      print(f"Found {len(keyframe_paths)} keyframes in {combination_path}")
+      batch_file_paths = generate_video_batches( keyframe_paths, combination_path, batch_size, recursion_depth )
+      store_render_time( combination_path )
+      concatenate_videos( batch_file_paths, output_file_path )
+      add_audio_to_video( output_file_path, mp3, output_file_with_audio_path )
+ 
+
+def generate_interpolated_video_combinations( batch_config_path:Path, compositions_path:Path, mp3_dir_path:Path, seed_used: int, batch_size:int, recursion_depth:int, key_fps:int ):   
+    ### TODO some of this code is shared between run_batches and here
+    print(f"Generating interpolated videos for {batch_config_path} using seed {seed_used} batch size {batch_size}")
+    with open(batch_config_path, "r") as file:
+      batch_config = json.load(file)
+
+    # pull data from the batch settings file. We only process the compositions listed in the batch settings file
+    compositions = batch_config["compositions"]
+
+    print(f"Found {len(compositions)} compositions in {batch_config_path}")
+    for composition_file_name in compositions:
+      # this is where we're expecting each of the combination folders containing keyframes that have been generated
+      composition_dir_name = Path(composition_file_name).stem #e.g. 'Wandering Eye' -- note the removal of .mp3 with .stem
+      composition_path = Path(compositions_path / composition_dir_name) # e.g. 'outputs/Wandering Eye'
+      combination_paths = get_combination_paths_with_seed(composition_path, seed_used) # e.g. '[outputs/Wandering Eye/seed=1234-sampler=dpm…, outputs/Wandering Eye/seed=1234-sampler=euler…]'
+      print(f"Found {len(combination_paths)} combinations for {composition_dir_name}")
+      mp3_path = Path(mp3_dir_path / composition_file_name) # e.g. 'mp3/Wandering Eye.mp3' 
+      for combination_path in combination_paths:
+        print(f"Generating interpolated video for {combination_path} with audio from {mp3_path}")
+        generate_interpolated_video_combination( composition_dir_name, combination_path, mp3_path, batch_size, recursion_depth )
 
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument('--composition-frames-dir', type=str, required=True)
-    parser.add_argument('--mp3', type=str, required=True)
-    parser.add_argument('--times-to-interpolate', type=int, default=3)
-    parser.add_argument('--key-fps', type=int, default=3)
+    parser.add_argument('--batch-config', type=str, required=True, help='the configuration used to generate the images contains a list of compositions to process. E.g. "full-length-dpm-0.6.json"')
+    parser.add_argument('--compositions-dir', type=str, required=True, help="(typically 'outputs'): a list of directories, one for each composition, with the composition name.")
+    parser.add_argument('--mp3-dir', type=str, required=True, help="Location of original audio files to add to videos. File names should match those listed in the batch config")
+    parser.add_argument("--seed-used", type=int, required=True, help="Which seed was used for this set -- only process those")
     parser.add_argument('--batch-size', type=int, default=100)
+    parser.add_argument('--recursion-depth', type=int, default=3)
+    parser.add_argument('--key-fps', type=int, default=3)
     args = parser.parse_args()
-    keyframe_dir = args.composition_frames_dir
-    mp3 = args.mp3
-    times_to_interpolate = args.times_to_interpolate
+    batch_config_path = Path(args.batch_config)
+    mp3_path = Path(args.mp3_dir)
+    compositions_path = Path(args.compositions_dir)
+    recursion_depth = args.recursion_depth
     key_fps = args.key_fps
     batch_size = args.batch_size
+    seed_used = args.seed_used
 
-    output_filename = keyframe_dir + "-interpolated.mp4"
-    output_filename_with_audio = keyframe_dir + "-interpolated-with-audio.mp4"
-    if os.path.exists(output_filename):
-        print(f"Output file {output_filename} already exists, skipping")
-    else:
-      filenames = sorted(glob.glob(f"{keyframe_dir}/*.png"))
-      print(f"Found {len(filenames)} keyframes")
-      batch_filenames = generate_video_batches(filenames, times_to_interpolate, keyframe_dir, batch_size)
-      store_render_time( keyframe_dir)
-      concatenate_videos(batch_filenames, output_filename)
-      add_audio_to_video(output_filename, mp3, output_filename_with_audio)
+    # we're assuming this structure:
+    # - each compositions_path directory contains a further list of directories, one for each combination, with the combination name, prefixed with "seed=xxx"
+    # - those combination directories contain the actual frames for a specific composition combination. We do our good work there. 
+    generate_interpolated_video_combinations( batch_config_path, compositions_path, mp3_path, seed_used, batch_size, recursion_depth, key_fps )

@@ -467,15 +467,15 @@ initial_seed = cli_args.initial_seed
 delete_extra_frames = cli_args.delete_extra_frames
 
 with open(input_file, "r") as file:
-    batch_settings = json.load(file)
+    batch_config = json.load(file)
 
 # pull data from the batch settings file
-compositions = batch_settings["compositions"]
-combinations = batch_settings["combinations"]
+compositions = batch_config["compositions"]
+combinations = batch_config["combinations"]
 
 # we may want to restrict the number of frames from a specific item in the batch to do sampling
 # sometimes we just want a fixed clip length for all the items in the batch
-num_keyframes_override = batch_settings.get("num_keyframes_override", None)
+num_keyframes_override = batch_config.get("num_keyframes_override", None)
 
 print(f"Combinations: {combinations}")
 img_properties = extract_properties(combinations, "img")
