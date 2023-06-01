@@ -29,6 +29,10 @@ def calculate_onsets(wav_file_path: Path, debug_generate_onset_clicks = True) ->
     # it's an arbitrary heuristic as a starting point that users can tweak
     PERCENTILE_THRESHOLD = 97
     y, sr = librosa.load(wav_file_path)
+
+    # we want the same impact of a drum track regardless of the volume of the track
+    y = librosa.util.normalize(y)
+
     onset_env = librosa.onset.onset_strength(y=y, sr=sr)
 
     # Detect onsets using the onset strength envelope
@@ -54,19 +58,16 @@ def calculate_onsets(wav_file_path: Path, debug_generate_onset_clicks = True) ->
     return significant_onset_times
 
 
-def generate_and_save_key_frame_strings(analysis_folder: Path, mp3_file:Path, times_in_sec: np.ndarray, kfps=3, pulse=0.4):
-    BASE_ZOOM = "1.03"
-    kf = {0: BASE_ZOOM}
-    keyframe_zoom_file = analysis_folder / (mp3_file.stem + "-keyframe-zoom.json")
+def generate_and_save_key_frame_strings(analsys_dir_path: Path, mp3_file:Path, times_in_sec: np.ndarray, pulse_boost=0.4, pulse_duration_in_sec=0.5):
+    # pulse_boost: how much amplitude a pulse adds to the base zoom value
+    # pulse_duration_in_sec: how long a pulse lasts in seconds before returning back to the base zoom value
 
-    # don't generate the file if it already exists
-    if keyframe_zoom_file.exists():
-        print(f"Skipping {keyframe_zoom_file} because it already exists")
-        return
+    BASE_ZOOM = "1.01"
+    pulse_times = {0: BASE_ZOOM}
+    metadata_path = analsys_dir_path / "full-metadata.json"
 
     # TODO do other animations as well like rotation and translation
 
-    num_keyframes = len(times_in_sec) * kfps
     for time_in_sec in times_in_sec:
         key_frame_number = int(np.ceil(time_in_sec * kfps))
         kf[key_frame_number] = f"{1 + pulse:.2f}"
@@ -81,12 +82,20 @@ def generate_and_save_key_frame_strings(analysis_folder: Path, mp3_file:Path, ti
             kf[key_frame_number + 3] = BASE_ZOOM
 
     # Generate the final key frame string
-    kf_string = ", ".join(f"{key}: ({value})" for key, value in kf.items())
+    zoom_timings = ", ".join(f"{key}: ({value})" for key, value in zt.items())
 
-    # now write the keyframe zoom string to a file "<songname>-keyframe-zoom.disco.json"
-    with open(keyframe_zoom_file, "w") as f:
-        # write a json entry with two keys: "kfps" and "keyframe_zoom_animations"
-        f.write(f'{{"keyframes_per_second": {kfps}, "keyframe_zoom_animations": "{kf_string}"}}')
+    # read in the metadata file
+    with open(metadata_path, "r") as f:
+        metadata = json.load(f)
+    
+    # remove the old entry for keyframe zoom animations
+    del metadata["animation"]["keyframe_zoom_animations"]
+    metadata["animation"]["zoom_animation_times"] = zoom_timings
+
+    # now write the metadata file back out
+    with open(metadata_path, "w") as f:
+        json.dump(metadata, f, indent=4)
+        
 
 
 # take a folder through command line argument "--input" and iterate through it finding all mp3 files. 

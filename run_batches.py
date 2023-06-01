@@ -27,16 +27,16 @@ import numpy as np
 import math
 
 
-# This is a hard-coded value that all the music keyframes are based on so changing it will break things
-KEYFRAMES_PER_SECOND = 3
+DEFAULT_KEYFRAMES_PER_SECOND = 3
 
 # Interpolation frame logic will generate 7 interpolation frames if depth is 3 to make 23
-INTERPOLATION_RECURSION_DEPTH = 3
+# this is not used in this file it's used in interpolation.py
+#INTERPOLATION_RECURSION_DEPTH = 3
 
 # Calclated based on the hard-coded values above. 
 # WARNING: changing this might result in a non-standard frame rate that then needs to be resampled to a standard
 # frame rate for video playback (24, 25, 30, 60)
-FPS = KEYFRAMES_PER_SECOND * 2^INTERPOLATION_RECURSION_DEPTH # = 24fps
+#FPS = KEYFRAMES_PER_SECOND * 2^INTERPOLATION_RECURSION_DEPTH # = 24fps
 
 
 METADATA_FILE_NAME = "metadata.json"
@@ -424,11 +424,11 @@ def generate_combination_name(root_combination, motion_combination, img_combinat
     return result
 
 EXTRA_END_FRAMES = 10
-def calculate_max_frames(duration_in_seconds:float, num_keyframes_override:int) -> int:
+def calculate_max_frames(duration_in_seconds:float, kfps:int, num_keyframes_override:int) -> int:
     if num_keyframes_override is not None:
         return num_keyframes_override
     else:
-        max_frames = int(duration_in_seconds * KEYFRAMES_PER_SECOND)
+        max_frames = int(duration_in_seconds * kfps)
         return max_frames + EXTRA_END_FRAMES
 
 
@@ -446,7 +446,11 @@ def delete_extra_frames_from_dir(frame_dir: Path, max_frames: int, dry_run: bool
         else:
             print(f"skipping file {file} as it doesn't match the expected pattern")
 
-
+def set_existing_attr_or_fail(obj, attr_name, value):
+    if hasattr(obj, attr_name):
+        setattr(obj, attr_name, value)
+    else:
+        raise Exception(f"Object {obj} does not have attribute '{attr_name}' -- check spelling?")
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--input', type=str, required=True, help='Path to the input JSON file')
@@ -476,6 +480,9 @@ combinations = batch_config["combinations"]
 # we may want to restrict the number of frames from a specific item in the batch to do sampling
 # sometimes we just want a fixed clip length for all the items in the batch
 num_keyframes_override = batch_config.get("num_keyframes_override", None)
+
+# set keyframes per second. This is influenced by things like cadence so is a batch configuration parameter.
+kfps = batch_config.get("keyframes_per_second", DEFAULT_KEYFRAMES_PER_SECOND)
 
 print(f"Combinations: {combinations}")
 img_properties = extract_properties(combinations, "img")
@@ -510,7 +517,7 @@ for composition_file_name in compositions:
         prompts[int(key)] = value['prompt']
 
     duration = music_metadata['duration']
-    max_frames = calculate_max_frames(duration, num_keyframes_override)
+    max_frames = calculate_max_frames(duration, kfps, num_keyframes_override)
 
     for img_combination in generate_combinations(img_properties, {}, 0):
         for motion_combination in generate_combinations(motion_properties, {}, 0):
@@ -518,20 +525,20 @@ for composition_file_name in compositions:
                 root_instance = Root() # => "root"
                 if "root" in root_combination:
                     for prop_name, value in root_combination["root"].items():
-                        setattr(root_instance, prop_name, value)
+                        set_existing_attr_or_fail(root_instance, prop_name, value)
                 init_rootargs(root_instance, composition_file_name, dry_run=dry_run)
                 
                 anim_args = DeforumAnimArgs()  # => "motion"
                 if "motion" in motion_combination:
                     for prop_name, value in motion_combination["motion"].items():
-                        setattr(anim_args, prop_name, value)
+                        set_existing_attr_or_fail(anim_args, prop_name, value)
                 anim_args.max_frames = max_frames
                 anim_args.zoom = zoom
 
                 args = DeforumArgs() # => "img"
                 if "img" in img_combination:
                     for prop_name, value in img_combination["img"].items():
-                        setattr(args, prop_name, value)
+                        set_existing_attr_or_fail(args, prop_name, value)
                 combination_name = generate_combination_name(root_combination, motion_combination, img_combination)
                 init_deforumargs(args, root_instance, anim_args, combination_name, initial_seed, style)
                 

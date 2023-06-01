@@ -1,11 +1,11 @@
 {
+    "keyframes_per_second": 24,
     "compositions": [
         "Cantaloop (Flip Fantasia).mp3"
     ],
-    "num_keyframes_override": 20,
     "combinations": {
-        "img.seed_behavior": ["fixed"],
         "img.sampler": ["dpmpp_2m"],
+        "img.diffusion_cadence": ["8"],
         "img.steps": [60],
         "motion.strength_schedule, motion.noise_schedule": [["0: (0.60)","0: (0.03)"]]
     }
