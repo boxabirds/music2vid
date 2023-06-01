@@ -8,7 +8,7 @@ PULSE_FORMAT = "{:.2f}" # 2 decimal places e.g. 1.00
 def format_timestamp(time_in_sec: float) -> str:
     return TIMESTAMP_FORMAT.format(time_in_sec)
 
-def pulse_times_to_ordered_dict(pulse_duration, pulse_amplitude, value_at_rest, times_in_sec) -> Dict[str, str]:
+def generate_pulses(pulse_duration, pulse_amplitude, value_at_rest, times_in_sec) -> Dict[str, str]:
     # Initialize the result dictionary with the value at rest
 
     result = {format_timestamp(0.0): PULSE_FORMAT.format(value_at_rest)}
@@ -38,3 +38,16 @@ def pulse_times_to_ordered_dict(pulse_duration, pulse_amplitude, value_at_rest, 
 
     return result
 
+def convert_pulses_to_disco_frames(pulses: Dict[str, str], fps: int) -> str:
+    # Convert the pulse times to key frame numbers
+    kf = OrderedDict()
+    for pulse_time, pulse_value in pulses.items():
+
+        # convert time into a key frame number e.g. fps = 24, "00002.05": "1.32", => frame 49
+        key_frame_number = str(int(np.ceil(float(pulse_time) * fps)))
+        kf[key_frame_number] = pulse_value
+
+    # Generate the final key frame string
+    kf_disco_string = ", ".join(f"{key}: ({value})" for key, value in kf.items())
+
+    return kf_disco_string
