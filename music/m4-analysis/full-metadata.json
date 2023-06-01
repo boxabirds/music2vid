@@ -1,1 +1,2700 @@
-{"animation": {"keyframes_per_second": 3, "keyframe_zoom_animations": "0: (1.03), 1: (1.40), 2: (1.40), 3: (1.20), 4: (1.40), 5: (1.20), 6: (1.10), 7: (1.40), 8: (1.40), 9: (1.20), 10: (1.40), 11: (1.20), 12: (1.40), 13: (1.20), 14: (1.40), 15: (1.20), 16: (1.40), 17: (1.20), 18: (1.10), 19: (1.40), 20: (1.40), 21: (1.20), 22: (1.10), 23: (1.03), 24: (1.40), 25: (1.20), 26: (1.10), 27: (1.03), 28: (1.40), 29: (1.20), 30: (1.10), 31: (1.40), 32: (1.20), 33: (1.10), 34: (1.40), 35: (1.20), 36: (1.40), 37: (1.20), 38: (1.10), 39: (1.03), 40: (1.40), 41: (1.20), 42: (1.10), 43: (1.40), 44: (1.40), 45: (1.20), 46: (1.40), 47: (1.20), 48: (1.10), 49: (1.03), 50: (1.40), 51: (1.20), 52: (1.40), 53: (1.20), 54: (1.10), 55: (1.40), 56: (1.40), 57: (1.20), 58: (1.10), 59: (1.03), 62: (1.40), 63: (1.20), 64: (1.10), 65: (1.03), 68: (1.40), 69: (1.20), 70: (1.40), 71: (1.20), 72: (1.40), 73: (1.20), 74: (1.10), 75: (1.03), 76: (1.40), 77: (1.20), 78: (1.10), 79: (1.40), 80: (1.40), 81: (1.20), 82: (1.40), 83: (1.20), 84: (1.40), 85: (1.40), 86: (1.40), 87: (1.20), 88: (1.40), 89: (1.20), 90: (1.10), 91: (1.40), 92: (1.40), 93: (1.20), 94: (1.40), 95: (1.20), 96: (1.40), 97: (1.20), 98: (1.10), 99: (1.03), 118: (1.40), 119: (1.20), 120: (1.10), 121: (1.03), 124: (1.40), 125: (1.20), 126: (1.10), 127: (1.40), 128: (1.20), 129: (1.10), 130: (1.40), 131: (1.20), 132: (1.40), 133: (1.20), 134: (1.40), 135: (1.20), 136: (1.40), 137: (1.20), 138: (1.10), 139: (1.40), 140: (1.40), 141: (1.20), 142: (1.40), 143: (1.20), 144: (1.10), 145: (1.03), 146: (1.40), 147: (1.20), 148: (1.10), 149: (1.03), 152: (1.40), 153: (1.20), 154: (1.10), 155: (1.03), 172: (1.40), 173: (1.20), 174: (1.10), 175: (1.40), 176: (1.20), 177: (1.10), 178: (1.40), 179: (1.20), 180: (1.10), 181: (1.03), 184: (1.40), 185: (1.20), 186: (1.10), 187: (1.03), 190: (1.40), 191: (1.20), 192: (1.10), 193: (1.03), 194: (1.40), 195: (1.20), 196: (1.40), 197: (1.20), 198: (1.10), 199: (1.40), 200: (1.40), 201: (1.20), 202: (1.40), 203: (1.20), 204: (1.10), 205: (1.03), 206: (1.40), 207: (1.20), 208: (1.40), 209: (1.20), 210: (1.10), 211: (1.40), 212: (1.40), 213: (1.20), 214: (1.40), 215: (1.20), 216: (1.40), 217: (1.20), 218: (1.10), 219: (1.03), 220: (1.40), 221: (1.20), 222: (1.10), 223: (1.40), 224: (1.40), 225: (1.20), 226: (1.40), 227: (1.20), 228: (1.40), 229: (1.20), 230: (1.40), 231: (1.20), 232: (1.40), 233: (1.20), 234: (1.10), 235: (1.40), 236: (1.40), 237: (1.20), 238: (1.40), 239: (1.20), 240: (1.10), 241: (1.40), 242: (1.40), 243: (1.20), 244: (1.40), 245: (1.20), 246: (1.10), 247: (1.40), 248: (1.40), 249: (1.20), 250: (1.40), 251: (1.20), 252: (1.10), 253: (1.03), 254: (1.40), 255: (1.20), 256: (1.40), 257: (1.20), 258: (1.10), 259: (1.40), 260: (1.40), 261: (1.20), 262: (1.40), 263: (1.20), 264: (1.40), 265: (1.20), 266: (1.10), 267: (1.03), 328: (1.40), 329: (1.20), 330: (1.40), 331: (1.40), 332: (1.40), 333: (1.20), 334: (1.40), 335: (1.20), 336: (1.10), 337: (1.40), 338: (1.40), 339: (1.20), 340: (1.40), 341: (1.40), 342: (1.20), 343: (1.40), 344: (1.40), 345: (1.20), 346: (1.40), 347: (1.40), 348: (1.20), 349: (1.40), 350: (1.20), 351: (1.10), 352: (1.40), 353: (1.20), 354: (1.10), 355: (1.40), 356: (1.20), 357: (1.10), 358: (1.40), 359: (1.40), 360: (1.20), 361: (1.40), 362: (1.40), 363: (1.20), 364: (1.40), 365: (1.40), 366: (1.20), 367: (1.10), 368: (1.03), 369: (1.40), 370: (1.20), 371: (1.40), 372: (1.20), 373: (1.10), 374: (1.40), 375: (1.20), 376: (1.10), 377: (1.03), 379: (1.40), 380: (1.20), 381: (1.10), 382: (1.03), 383: (1.40), 384: (1.20), 385: (1.10), 386: (1.03), 388: (1.40), 389: (1.20), 390: (1.10), 391: (1.40), 392: (1.20), 393: (1.10), 394: (1.40), 395: (1.20), 396: (1.10), 397: (1.03), 398: (1.40), 399: (1.20), 400: (1.40), 401: (1.20), 402: (1.10), 403: (1.40), 404: (1.20), 405: (1.10), 406: (1.40), 407: (1.20), 408: (1.10), 409: (1.03), 410: (1.40), 411: (1.20), 412: (1.10), 413: (1.03), 416: (1.40), 417: (1.20), 418: (1.10), 419: (1.03), 420: (1.40), 421: (1.20), 422: (1.10), 423: (1.03), 427: (1.40), 428: (1.20), 429: (1.10), 430: (1.40), 431: (1.20), 432: (1.10), 433: (1.03), 436: (1.40), 437: (1.20), 438: (1.10), 439: (1.40), 440: (1.20), 441: (1.10), 442: (1.40), 443: (1.20), 444: (1.10), 445: (1.03), 448: (1.40), 449: (1.20), 450: (1.10), 451: (1.03), 454: (1.40), 455: (1.20), 456: (1.10), 457: (1.03), 460: (1.40), 461: (1.20), 462: (1.10), 463: (1.40), 464: (1.40), 465: (1.20), 466: (1.40), 467: (1.20), 468: (1.10), 469: (1.03), 470: (1.40), 471: (1.20), 472: (1.40), 473: (1.20), 474: (1.10), 475: (1.03), 478: (1.40), 479: (1.20), 480: (1.10), 481: (1.03), 502: (1.40), 503: (1.20), 504: (1.40), 505: (1.20), 506: (1.40), 507: (1.20), 508: (1.10), 509: (1.03), 511: (1.40), 512: (1.40), 513: (1.20), 514: (1.10), 515: (1.03), 516: (1.40), 517: (1.20), 518: (1.40), 519: (1.20), 520: (1.40), 521: (1.20), 522: (1.10), 523: (1.40), 524: (1.40), 525: (1.20), 526: (1.40), 527: (1.20), 528: (1.10), 529: (1.03), 538: (1.40), 539: (1.20), 540: (1.10), 541: (1.03), 544: (1.40), 545: (1.20), 546: (1.10), 547: (1.03), 548: (1.40), 549: (1.20), 550: (1.10), 551: (1.03), 554: (1.40), 555: (1.20), 556: (1.40), 557: (1.20), 558: (1.10), 559: (1.03), 560: (1.40), 561: (1.20), 562: (1.40), 563: (1.20), 564: (1.10), 565: (1.03), 568: (1.40), 569: (1.20), 570: (1.10), 571: (1.40), 572: (1.20), 573: (1.10), 574: (1.03), 578: (1.40), 579: (1.20), 580: (1.10), 581: (1.03), 583: (1.40), 584: (1.40), 585: (1.20), 586: (1.40), 587: (1.20), 588: (1.40), 589: (1.20), 590: (1.10), 591: (1.03), 592: (1.40), 593: (1.20), 594: (1.10), 595: (1.40), 596: (1.40), 597: (1.20), 598: (1.40), 599: (1.20), 600: (1.40), 601: (1.20), 602: (1.40), 603: (1.20), 604: (1.40), 605: (1.20), 606: (1.10), 607: (1.40), 608: (1.40), 609: (1.20), 610: (1.40), 611: (1.20), 612: (1.40), 613: (1.20), 614: (1.40), 615: (1.20), 616: (1.40), 617: (1.20), 618: (1.10), 619: (1.03), 620: (1.40), 621: (1.20), 622: (1.40), 623: (1.20), 624: (1.40), 625: (1.20), 626: (1.40), 627: (1.20), 628: (1.40), 629: (1.20), 630: (1.10), 631: (1.40), 632: (1.40), 633: (1.20), 634: (1.40), 635: (1.20), 636: (1.40), 637: (1.40), 638: (1.40), 639: (1.20), 640: (1.40), 641: (1.20), 642: (1.10), 643: (1.40), 644: (1.40), 645: (1.20), 646: (1.40), 647: (1.20), 648: (1.40), 649: (1.20), 650: (1.10), 651: (1.03), 709: (1.40), 710: (1.20), 711: (1.10), 712: (1.03), 714: (1.40), 715: (1.40), 716: (1.20), 717: (1.10), 718: (1.40), 719: (1.40), 720: (1.20), 721: (1.10), 722: (1.40), 723: (1.20), 724: (1.40), 725: (1.40), 726: (1.20), 727: (1.40), 728: (1.40), 729: (1.20), 730: (1.40), 731: (1.40), 732: (1.20), 733: (1.40), 734: (1.40), 735: (1.20), 736: (1.10), 737: (1.40), 738: (1.20), 739: (1.10), 740: (1.40), 741: (1.20), 742: (1.10), 743: (1.40), 744: (1.20), 745: (1.40), 746: (1.40), 747: (1.20), 748: (1.40), 749: (1.20), 750: (1.10), 751: (1.40), 752: (1.20), 753: (1.10), 754: (1.40), 755: (1.20), 756: (1.10), 757: (1.03), 758: (1.40), 759: (1.20), 760: (1.40), 761: (1.20), 762: (1.10), 763: (1.03), 767: (1.40), 768: (1.20), 769: (1.10), 770: (1.40), 771: (1.20), 772: (1.10), 773: (1.40), 774: (1.40), 775: (1.20), 776: (1.40), 777: (1.20), 778: (1.10), 779: (1.40), 780: (1.20), 781: (1.10), 782: (1.03), 784: (1.40), 785: (1.20), 786: (1.10), 787: (1.40), 788: (1.20), 789: (1.10), 790: (1.40), 791: (1.20), 792: (1.10), 793: (1.03), 796: (1.40), 797: (1.20), 798: (1.10), 799: (1.40), 800: (1.20), 801: (1.10), 802: (1.40), 803: (1.20), 804: (1.10), 805: (1.03), 806: (1.40), 807: (1.20), 808: (1.40), 809: (1.40), 810: (1.20), 811: (1.10), 812: (1.03), 818: (1.40), 819: (1.20), 820: (1.10), 821: (1.40), 822: (1.20), 823: (1.10), 824: (1.40), 825: (1.20), 826: (1.10), 827: (1.40), 828: (1.20), 829: (1.40), 830: (1.20), 831: (1.10), 832: (1.40), 833: (1.20), 834: (1.10), 835: (1.40), 836: (1.20), 837: (1.10), 838: (1.40), 839: (1.20), 840: (1.10), 841: (1.03), 844: (1.40), 845: (1.20), 846: (1.10), 847: (1.40), 848: (1.20), 849: (1.10), 850: (1.40), 851: (1.20), 852: (1.10), 853: (1.03), 854: (1.40), 855: (1.20), 856: (1.40), 857: (1.40), 858: (1.20), 859: (1.10), 860: (1.03)"}, "estd_bpm": 117.45383522727273, "style": "Mystic", "keyframes": {"0": {"prompt": "Open road, sun-drenched farmland, freedom of the country lanes."}, "22": {"lyric": " And I'm proving me involved", "prompt": "A winding, sun-drenched road stretching out into the horizon."}, "49": {"lyric": " Monday morning 5am, up before the birds, or at least so I'd hoped", "prompt": "A car speeding down a winding country road, sun shining through the clouds, fields of green in the distance."}, "73": {"lyric": " Time to get ahead, beat the rest and get on top", "prompt": "Open road winding through green farmland, with a blue sky and yellow sun in the background."}, "98": {"lyric": " And I'm proving me involved", "prompt": "A car on a winding country road with a bright blue sky overhead."}, "193": {"lyric": " Now the day is rising, but behind grey clouds", "prompt": "A road winding through a green meadow, with the sun peeking out from behind clouds."}, "217": {"lyric": " When will I see the blue, yellow sun and happy days?", "prompt": "A beam of sunlight breaking through a grey sky and illuminating a winding country road."}, "273": {"lyric": " All on open road, flying through green farmland, twisting through country lanes", "prompt": "A winding country road with a car driving along it, basking in the morning sunlight."}, "310": {"lyric": " There's nothing quite like the freedom I feel", "prompt": "Vast open road stretching towards a horizon of blue skies, yellow sun and rolling green fields."}, "337": {"lyric": " All on open road, flying through green farmland, twisting through country lanes", "prompt": "A driver in a classic car speeding through the countryside, the sun peeking out from behind the clouds."}, "358": {"lyric": " There's nothing quite like the freedom I feel", "prompt": "A car driving through a winding country road with the sun rising in the sky."}, "407": {"lyric": " And I'm proving me involved", "prompt": "A winding road lined with green farmland and blue sky, the sun shining brightly overhead."}, "431": {"lyric": " Now I'm stuck in traffic, with no end in sight", "prompt": "A car driving on an open road through a field of green with the sun rising in the background."}, "457": {"lyric": " How can I get ahead, beat the rest and get on top?", "prompt": "A car driving through winding country roads, with the orange and yellow hues of the sunrise just barely visible behind grey clouds."}, "499": {"lyric": " And I'm proving me involved", "prompt": "A car driving through winding country roads under a bright blue sky."}, "577": {"lyric": " Now the day is rising, but behind grey clouds", "prompt": "A silhouetted figure driving a car down a winding country road, rays of sunlight peeking out from behind the clouds."}, "601": {"lyric": " When will I see the blue, yellow sun and happy days?", "prompt": "Vibrant rays of sunshine streaming through a break in the clouds."}, "674": {"lyric": " All on open road, flying through green farmland, twisting through country lanes", "prompt": "A car speeding through winding country roads, the sun rising in the distance."}, "694": {"lyric": " There's nothing quite like the freedom I feel", "prompt": "A sunburst peeping through the clouds illuminating a winding road with the driver's arms outstretched in celebration."}, "717": {"lyric": " All on open road, flying through green farmland, twisting through country lanes", "prompt": "Vibrant blue sky with a yellow sun, illuminated green farmland and a winding country road."}, "742": {"lyric": " There's nothing quite like the freedom I feel", "prompt": "A cyclist riding a bike against a backdrop of a bright yellow sun and green fields."}, "769": {"lyric": " All on open road, flying through green farmland, twisting through country lanes", "prompt": "Windswept road leading to a countryside sunset."}, "790": {"lyric": " There's nothing quite like the freedom I feel", "prompt": "Vibrant sunrise illuminating a winding country road."}, "817": {"lyric": " All on open road, flying through green farmland, twisting through country lanes", "prompt": "Vast countryside landscape with a lone car driving in the foreground."}, "838": {"lyric": " There's nothing quite like the freedom I feel", "prompt": "A car driving through a winding road surrounded by green hills and a bright yellow sun."}}, "full_transcript": {"text": " And I'm cruising the M4 Monday morning 5am, up before the birds, or at least so I'd hoped Time to get ahead, beat the rest and get on top And I'm cruising the M4 Now the day is rising, but behind grey clouds When will I see the blue, yellow sun and happy days? All on open road, flying through green farmland, twisting through country lanes There's nothing quite like the freedom I feel All on open road, flying through green farmland, twisting through country lanes There's nothing quite like the freedom I feel And I'm cruising the M4 Now I'm stuck in traffic, with no end in sight How can I get ahead, beat the rest and get on top? And I'm cruising the M4 Now the day is rising, but behind grey clouds When will I see the blue, yellow sun and happy days? All on open road, flying through green farmland, twisting through country lanes There's nothing quite like the freedom I feel All on open road, flying through green farmland, twisting through country lanes There's nothing quite like the freedom I feel All on open road, flying through green farmland, twisting through country lanes There's nothing quite like the freedom I feel All on open road, flying through green farmland, twisting through country lanes There's nothing quite like the freedom I feel", "segments": [{"id": 0, "seek": 0, "start": 7.49, "end": 13.7, "text": " And I'm cruising the M4", "tokens": [50364, 400, 286, 478, 27221, 385, 3288, 50714], "temperature": 0.0, "avg_logprob": -0.2706468715224155, "compression_ratio": 1.236842105263158, "no_speech_prob": 0.263148695230484, "confidence": 0.351, "words": [{"text": "And", "start": 7.49, "end": 7.81, "confidence": 0.163}, {"text": "I'm", "start": 7.81, "end": 9.27, "confidence": 0.944}, {"text": "cruising", "start": 9.71, "end": 10.68, "confidence": 0.836}, {"text": "the", "start": 10.68, "end": 12.18, "confidence": 0.587}, {"text": "M4", "start": 12.18, "end": 13.7, "confidence": 0.026}]}, {"id": 1, "seek": 0, "start": 16.3, "end": 22.46, "text": " Monday morning 5am, up before the birds, or at least so I'd hoped", "tokens": [50714, 8138, 2446, 1025, 335, 11, 493, 949, 264, 9009, 11, 420, 412, 1935, 370, 286, 1116, 19737, 51064], "temperature": 0.0, "avg_logprob": -0.2706468715224155, "compression_ratio": 1.236842105263158, "no_speech_prob": 0.263148695230484, "confidence": 0.797, "words": [{"text": "Monday", "start": 16.3, "end": 16.72, "confidence": 0.846}, {"text": "morning", "start": 16.72, "end": 17.18, "confidence": 0.917}, {"text": "5am,", "start": 17.18, "end": 18.36, "confidence": 0.502}, {"text": "up", "start": 19.1, "end": 19.28, "confidence": 0.817}, {"text": "before", "start": 19.28, "end": 19.64, "confidence": 0.982}, {"text": "the", "start": 19.64, "end": 19.92, "confidence": 0.992}, {"text": "birds,", "start": 19.92, "end": 20.38, "confidence": 0.646}, {"text": "or", "start": 20.7, "end": 20.88, "confidence": 0.862}, {"text": "at", "start": 20.88, "end": 20.98, "confidence": 0.984}, {"text": "least", "start": 20.98, "end": 21.24, "confidence": 0.984}, {"text": "so", "start": 21.24, "end": 21.62, "confidence": 0.923}, {"text": "I'd", "start": 21.62, "end": 22.02, "confidence": 0.921}, {"text": "hoped", "start": 22.02, "end": 22.46, "confidence": 0.978}]}, {"id": 2, "seek": 0, "start": 24.36, "end": 27.96, "text": " Time to get ahead, beat the rest and get on top", "tokens": [51064, 6161, 281, 483, 2286, 11, 4224, 264, 1472, 293, 483, 322, 1192, 51314], "temperature": 0.0, "avg_logprob": -0.2706468715224155, "compression_ratio": 1.236842105263158, "no_speech_prob": 0.263148695230484, "confidence": 0.843, "words": [{"text": "Time", "start": 24.36, "end": 24.68, "confidence": 0.549}, {"text": "to", "start": 24.68, "end": 25.06, "confidence": 0.996}, {"text": "get", "start": 25.06, "end": 25.3, "confidence": 0.981}, {"text": "ahead,", "start": 25.3, "end": 25.94, "confidence": 0.805}, {"text": "beat", "start": 26.16, "end": 26.28, "confidence": 0.908}, {"text": "the", "start": 26.28, "end": 26.52, "confidence": 0.99}, {"text": "rest", "start": 26.52, "end": 26.76, "confidence": 0.6}, {"text": "and", "start": 26.76, "end": 27.0, "confidence": 0.767}, {"text": "get", "start": 27.0, "end": 27.24, "confidence": 0.98}, {"text": "on", "start": 27.24, "end": 27.48, "confidence": 0.984}, {"text": "top", "start": 27.48, "end": 27.96, "confidence": 0.923}]}, {"id": 3, "seek": 1900, "start": 32.53, "end": 45.37, "text": " And I'm cruising the M4", "tokens": [50364, 400, 286, 478, 27221, 385, 3288, 50914], "temperature": 0.0, "avg_logprob": -0.15345905922554634, "compression_ratio": 1.1666666666666667, "no_speech_prob": 0.05172190070152283, "confidence": 0.367, "words": [{"text": "And", "start": 32.53, "end": 34.26, "confidence": 0.078}, {"text": "I'm", "start": 39.65, "end": 41.29, "confidence": 0.919}, {"text": "cruising", "start": 41.29, "end": 42.67, "confidence": 0.539}, {"text": "the", "start": 42.67, "end": 44.21, "confidence": 0.561}, {"text": "M4", "start": 44.21, "end": 45.37, "confidence": 0.122}]}, {"id": 4, "seek": 1900, "start": 64.22, "end": 69.2, "text": " Now the day is rising, but behind grey clouds", "tokens": [50914, 823, 264, 786, 307, 11636, 11, 457, 2261, 16578, 12193, 51214], "temperature": 0.0, "avg_logprob": -0.15345905922554634, "compression_ratio": 1.1666666666666667, "no_speech_prob": 0.05172190070152283, "confidence": 0.825, "words": [{"text": "Now", "start": 64.22, "end": 64.56, "confidence": 0.632}, {"text": "the", "start": 64.56, "end": 65.06, "confidence": 0.951}, {"text": "day", "start": 65.06, "end": 65.28, "confidence": 0.987}, {"text": "is", "start": 65.28, "end": 65.54, "confidence": 0.992}, {"text": "rising,", "start": 65.54, "end": 66.22, "confidence": 0.627}, {"text": "but", "start": 66.68, "end": 66.9, "confidence": 0.913}, {"text": "behind", "start": 66.9, "end": 67.58, "confidence": 0.981}, {"text": "grey", "start": 67.58, "end": 68.06, "confidence": 0.705}, {"text": "clouds", "start": 68.06, "end": 69.2, "confidence": 0.995}]}, {"id": 5, "seek": 1900, "start": 72.25, "end": 77.51, "text": " When will I see the blue, yellow sun and happy days?", "tokens": [51214, 1133, 486, 286, 536, 264, 3344, 11, 5566, 3295, 293, 2055, 1708, 30, 51664], "temperature": 0.0, "avg_logprob": -0.15345905922554634, "compression_ratio": 1.1666666666666667, "no_speech_prob": 0.05172190070152283, "confidence": 0.874, "words": [{"text": "When", "start": 72.25, "end": 72.49, "confidence": 0.715}, {"text": "will", "start": 72.49, "end": 72.77, "confidence": 0.984}, {"text": "I", "start": 72.77, "end": 72.99, "confidence": 0.971}, {"text": "see", "start": 72.99, "end": 73.27, "confidence": 0.996}, {"text": "the", "start": 73.27, "end": 73.49, "confidence": 0.983}, {"text": "blue,", "start": 73.49, "end": 73.91, "confidence": 0.838}, {"text": "yellow", "start": 73.99, "end": 74.35, "confidence": 0.976}, {"text": "sun", "start": 74.35, "end": 74.81, "confidence": 0.953}, {"text": "and", "start": 74.81, "end": 75.09, "confidence": 0.732}, {"text": "happy", "start": 75.09, "end": 75.41, "confidence": 0.908}, {"text": "days?", "start": 75.41, "end": 77.51, "confidence": 0.773}]}, {"id": 6, "seek": 4500, "start": 90.87, "end": 103.43, "text": " All on open road, flying through green farmland, twisting through country lanes", "tokens": [50364, 1057, 322, 1269, 3060, 11, 7137, 807, 3092, 5421, 1661, 11, 34491, 807, 1941, 25397, 50764], "temperature": 0.0, "avg_logprob": -0.08013148003436149, "compression_ratio": 1.8981481481481481, "no_speech_prob": 0.055337149649858475, "confidence": 0.623, "words": [{"text": "All", "start": 90.87, "end": 91.76, "confidence": 0.026}, {"text": "on", "start": 96.55, "end": 97.01, "confidence": 0.975}, {"text": "open", "start": 97.01, "end": 97.43, "confidence": 0.873}, {"text": "road,", "start": 97.43, "end": 98.07, "confidence": 0.698}, {"text": "flying", "start": 98.57, "end": 98.75, "confidence": 0.771}, {"text": "through", "start": 98.75, "end": 99.03, "confidence": 0.958}, {"text": "green", "start": 99.03, "end": 99.39, "confidence": 0.737}, {"text": "farmland,", "start": 99.39, "end": 100.17, "confidence": 0.633}, {"text": "twisting", "start": 100.43, "end": 100.79, "confidence": 0.649}, {"text": "through", "start": 100.79, "end": 101.09, "confidence": 0.971}, {"text": "country", "start": 101.09, "end": 101.55, "confidence": 0.968}, {"text": "lanes", "start": 101.55, "end": 103.43, "confidence": 0.895}]}, {"id": 7, "seek": 4500, "start": 103.43, "end": 111.23, "text": " There's nothing quite like the freedom I feel", "tokens": [50764, 821, 311, 1825, 1596, 411, 264, 5645, 286, 841, 51164], "temperature": 0.0, "avg_logprob": -0.08013148003436149, "compression_ratio": 1.8981481481481481, "no_speech_prob": 0.055337149649858475, "confidence": 0.915, "words": [{"text": "There's", "start": 103.43, "end": 104.15, "confidence": 0.74}, {"text": "nothing", "start": 104.15, "end": 105.95, "confidence": 0.961}, {"text": "quite", "start": 105.95, "end": 106.85, "confidence": 0.94}, {"text": "like", "start": 106.85, "end": 107.67, "confidence": 0.984}, {"text": "the", "start": 107.67, "end": 108.21, "confidence": 0.972}, {"text": "freedom", "start": 108.21, "end": 109.39, "confidence": 0.988}, {"text": "I", "start": 109.39, "end": 110.07, "confidence": 0.965}, {"text": "feel", "start": 110.07, "end": 111.23, "confidence": 0.996}]}, {"id": 8, "seek": 4500, "start": 112.29, "end": 119.39, "text": " All on open road, flying through green farmland, twisting through country lanes", "tokens": [51164, 1057, 322, 1269, 3060, 11, 7137, 807, 3092, 5421, 1661, 11, 34491, 807, 1941, 25397, 51564], "temperature": 0.0, "avg_logprob": -0.08013148003436149, "compression_ratio": 1.8981481481481481, "no_speech_prob": 0.055337149649858475, "confidence": 0.665, "words": [{"text": "All", "start": 112.29, "end": 112.69, "confidence": 0.058}, {"text": "on", "start": 112.69, "end": 112.97, "confidence": 0.927}, {"text": "open", "start": 112.97, "end": 113.43, "confidence": 0.752}, {"text": "road,", "start": 113.43, "end": 114.09, "confidence": 0.79}, {"text": "flying", "start": 114.57, "end": 114.73, "confidence": 0.764}, {"text": "through", "start": 114.73, "end": 115.03, "confidence": 0.955}, {"text": "green", "start": 115.03, "end": 115.35, "confidence": 0.615}, {"text": "farmland,", "start": 115.35, "end": 116.15, "confidence": 0.664}, {"text": "twisting", "start": 116.45, "end": 116.79, "confidence": 0.734}, {"text": "through", "start": 116.79, "end": 117.09, "confidence": 0.978}, {"text": "country", "start": 117.09, "end": 117.51, "confidence": 0.97}, {"text": "lanes", "start": 117.51, "end": 119.39, "confidence": 0.954}]}, {"id": 9, "seek": 6900, "start": 119.39, "end": 127.63, "text": " There's nothing quite like the freedom I feel", "tokens": [50364, 821, 311, 1825, 1596, 411, 264, 5645, 286, 841, 50764], "temperature": 0.0, "avg_logprob": -0.06437186166351917, "compression_ratio": 1.2954545454545454, "no_speech_prob": 0.12819908559322357, "confidence": 0.924, "words": [{"text": "There's", "start": 119.39, "end": 120.33, "confidence": 0.782}, {"text": "nothing", "start": 120.33, "end": 121.97, "confidence": 0.966}, {"text": "quite", "start": 121.97, "end": 122.85, "confidence": 0.951}, {"text": "like", "start": 122.85, "end": 123.67, "confidence": 0.974}, {"text": "the", "start": 123.67, "end": 124.19, "confidence": 0.954}, {"text": "freedom", "start": 124.19, "end": 125.39, "confidence": 0.974}, {"text": "I", "start": 125.39, "end": 126.17, "confidence": 0.97}, {"text": "feel", "start": 126.17, "end": 127.63, "confidence": 0.994}]}, {"id": 10, "seek": 6900, "start": 135.51, "end": 140.98, "text": " And I'm cruising the M4", "tokens": [50764, 400, 286, 478, 27221, 385, 3288, 51064], "temperature": 0.0, "avg_logprob": -0.06437186166351917, "compression_ratio": 1.2954545454545454, "no_speech_prob": 0.12819908559322357, "confidence": 0.268, "words": [{"text": "And", "start": 135.51, "end": 135.85, "confidence": 0.185}, {"text": "I'm", "start": 135.85, "end": 137.14, "confidence": 0.878}, {"text": "cruising", "start": 137.96, "end": 138.92, "confidence": 0.412}, {"text": "the", "start": 138.92, "end": 140.14, "confidence": 0.607}, {"text": "M4", "start": 140.14, "end": 140.98, "confidence": 0.01}]}, {"id": 11, "seek": 6900, "start": 143.82, "end": 149.14, "text": " Now I'm stuck in traffic, with no end in sight", "tokens": [51064, 823, 286, 478, 5541, 294, 6419, 11, 365, 572, 917, 294, 7860, 51364], "temperature": 0.0, "avg_logprob": -0.06437186166351917, "compression_ratio": 1.2954545454545454, "no_speech_prob": 0.12819908559322357, "confidence": 0.777, "words": [{"text": "Now", "start": 143.82, "end": 144.54, "confidence": 0.469}, {"text": "I'm", "start": 144.54, "end": 144.94, "confidence": 0.923}, {"text": "stuck", "start": 144.94, "end": 145.26, "confidence": 0.994}, {"text": "in", "start": 145.26, "end": 145.44, "confidence": 0.991}, {"text": "traffic,", "start": 145.44, "end": 146.16, "confidence": 0.371}, {"text": "with", "start": 146.4, "end": 146.84, "confidence": 0.919}, {"text": "no", "start": 146.84, "end": 147.28, "confidence": 0.994}, {"text": "end", "start": 147.28, "end": 147.72, "confidence": 0.987}, {"text": "in", "start": 147.72, "end": 148.2, "confidence": 0.989}, {"text": "sight", "start": 148.2, "end": 149.14, "confidence": 0.998}]}, {"id": 12, "seek": 6900, "start": 152.17, "end": 156.37, "text": " How can I get ahead, beat the rest and get on top?", "tokens": [51364, 1012, 393, 286, 483, 2286, 11, 4224, 264, 1472, 293, 483, 322, 1192, 30, 51614], "temperature": 0.0, "avg_logprob": -0.06437186166351917, "compression_ratio": 1.2954545454545454, "no_speech_prob": 0.12819908559322357, "confidence": 0.851, "words": [{"text": "How", "start": 152.17, "end": 152.49, "confidence": 0.537}, {"text": "can", "start": 152.49, "end": 152.81, "confidence": 0.985}, {"text": "I", "start": 152.81, "end": 153.05, "confidence": 0.958}, {"text": "get", "start": 153.05, "end": 153.25, "confidence": 0.984}, {"text": "ahead,", "start": 153.25, "end": 153.85, "confidence": 0.796}, {"text": "beat", "start": 154.11, "end": 154.21, "confidence": 0.947}, {"text": "the", "start": 154.21, "end": 154.43, "confidence": 0.991}, {"text": "rest", "start": 154.43, "end": 154.71, "confidence": 0.954}, {"text": "and", "start": 154.71, "end": 155.07, "confidence": 0.617}, {"text": "get", "start": 155.07, "end": 155.29, "confidence": 0.984}, {"text": "on", "start": 155.29, "end": 155.59, "confidence": 0.961}, {"text": "top?", "start": 155.59, "end": 156.37, "confidence": 0.795}]}, {"id": 13, "seek": 9400, "start": 166.48, "end": 173.53, "text": " And I'm cruising the M4", "tokens": [50364, 400, 286, 478, 27221, 385, 3288, 50964], "temperature": 0.0, "avg_logprob": -0.056821011208199164, "compression_ratio": 1.1666666666666667, "no_speech_prob": 0.024807019159197807, "confidence": 0.389, "words": [{"text": "And", "start": 166.48, "end": 167.73, "confidence": 0.126}, {"text": "I'm", "start": 167.73, "end": 169.23, "confidence": 0.92}, {"text": "cruising", "start": 169.23, "end": 170.45, "confidence": 0.807}, {"text": "the", "start": 170.45, "end": 172.19, "confidence": 0.57}, {"text": "M4", "start": 172.19, "end": 173.53, "confidence": 0.071}]}, {"id": 14, "seek": 9400, "start": 192.23, "end": 197.21, "text": " Now the day is rising, but behind grey clouds", "tokens": [50964, 823, 264, 786, 307, 11636, 11, 457, 2261, 16578, 12193, 51264], "temperature": 0.0, "avg_logprob": -0.056821011208199164, "compression_ratio": 1.1666666666666667, "no_speech_prob": 0.024807019159197807, "confidence": 0.767, "words": [{"text": "Now", "start": 192.23, "end": 192.47, "confidence": 0.371}, {"text": "the", "start": 192.47, "end": 193.07, "confidence": 0.943}, {"text": "day", "start": 193.07, "end": 193.29, "confidence": 0.987}, {"text": "is", "start": 193.29, "end": 193.55, "confidence": 0.994}, {"text": "rising,", "start": 193.55, "end": 194.23, "confidence": 0.591}, {"text": "but", "start": 194.65, "end": 194.91, "confidence": 0.876}, {"text": "behind", "start": 194.91, "end": 195.57, "confidence": 0.987}, {"text": "grey", "start": 195.57, "end": 196.11, "confidence": 0.685}, {"text": "clouds", "start": 196.11, "end": 197.21, "confidence": 0.996}]}, {"id": 15, "seek": 9400, "start": 200.26, "end": 205.5, "text": " When will I see the blue, yellow sun and happy days?", "tokens": [51264, 1133, 486, 286, 536, 264, 3344, 11, 5566, 3295, 293, 2055, 1708, 30, 51664], "temperature": 0.0, "avg_logprob": -0.056821011208199164, "compression_ratio": 1.1666666666666667, "no_speech_prob": 0.024807019159197807, "confidence": 0.864, "words": [{"text": "When", "start": 200.26, "end": 200.52, "confidence": 0.685}, {"text": "will", "start": 200.52, "end": 200.8, "confidence": 0.984}, {"text": "I", "start": 200.8, "end": 201.02, "confidence": 0.972}, {"text": "see", "start": 201.02, "end": 201.26, "confidence": 0.995}, {"text": "the", "start": 201.26, "end": 201.48, "confidence": 0.985}, {"text": "blue,", "start": 201.48, "end": 201.9, "confidence": 0.825}, {"text": "yellow", "start": 201.98, "end": 202.36, "confidence": 0.977}, {"text": "sun", "start": 202.36, "end": 202.8, "confidence": 0.941}, {"text": "and", "start": 202.8, "end": 203.1, "confidence": 0.725}, {"text": "happy", "start": 203.1, "end": 203.44, "confidence": 0.895}, {"text": "days?", "start": 203.44, "end": 205.5, "confidence": 0.756}]}, {"id": 16, "seek": 12000, "start": 224.53, "end": 231.37, "text": " All on open road, flying through green farmland, twisting through country lanes", "tokens": [50364, 1057, 322, 1269, 3060, 11, 7137, 807, 3092, 5421, 1661, 11, 34491, 807, 1941, 25397, 50764], "temperature": 0.0, "avg_logprob": -0.034284951839041206, "compression_ratio": 1.8981481481481481, "no_speech_prob": 0.12778937816619873, "confidence": 0.582, "words": [{"text": "All", "start": 224.53, "end": 224.55, "confidence": 0.007}, {"text": "on", "start": 224.55, "end": 225.03, "confidence": 0.956}, {"text": "open", "start": 225.03, "end": 225.37, "confidence": 0.845}, {"text": "road,", "start": 225.37, "end": 226.09, "confidence": 0.538}, {"text": "flying", "start": 226.39, "end": 226.71, "confidence": 0.784}, {"text": "through", "start": 226.71, "end": 227.03, "confidence": 0.954}, {"text": "green", "start": 227.03, "end": 227.37, "confidence": 0.852}, {"text": "farmland,", "start": 227.37, "end": 228.19, "confidence": 0.777}, {"text": "twisting", "start": 228.43, "end": 228.79, "confidence": 0.698}, {"text": "through", "start": 228.79, "end": 229.09, "confidence": 0.977}, {"text": "country", "start": 229.09, "end": 229.59, "confidence": 0.961}, {"text": "lanes", "start": 229.59, "end": 231.37, "confidence": 0.969}]}, {"id": 17, "seek": 12000, "start": 231.47, "end": 239.13, "text": " There's nothing quite like the freedom I feel", "tokens": [50764, 821, 311, 1825, 1596, 411, 264, 5645, 286, 841, 51164], "temperature": 0.0, "avg_logprob": -0.034284951839041206, "compression_ratio": 1.8981481481481481, "no_speech_prob": 0.12778937816619873, "confidence": 0.926, "words": [{"text": "There's", "start": 231.47, "end": 232.29, "confidence": 0.784}, {"text": "nothing", "start": 232.29, "end": 233.89, "confidence": 0.965}, {"text": "quite", "start": 233.89, "end": 234.79, "confidence": 0.953}, {"text": "like", "start": 234.79, "end": 235.69, "confidence": 0.948}, {"text": "the", "start": 235.69, "end": 236.19, "confidence": 0.976}, {"text": "freedom", "start": 236.19, "end": 237.39, "confidence": 0.984}, {"text": "I", "start": 237.39, "end": 238.23, "confidence": 0.973}, {"text": "feel", "start": 238.23, "end": 239.13, "confidence": 0.997}]}, {"id": 18, "seek": 12000, "start": 239.13, "end": 247.37, "text": " All on open road, flying through green farmland, twisting through country lanes", "tokens": [51164, 1057, 322, 1269, 3060, 11, 7137, 807, 3092, 5421, 1661, 11, 34491, 807, 1941, 25397, 51564], "temperature": 0.0, "avg_logprob": -0.034284951839041206, "compression_ratio": 1.8981481481481481, "no_speech_prob": 0.12778937816619873, "confidence": 0.466, "words": [{"text": "All", "start": 239.13, "end": 240.69, "confidence": 0.011}, {"text": "on", "start": 240.69, "end": 240.97, "confidence": 0.824}, {"text": "open", "start": 240.97, "end": 241.43, "confidence": 0.818}, {"text": "road,", "start": 241.43, "end": 242.09, "confidence": 0.738}, {"text": "flying", "start": 242.57, "end": 242.73, "confidence": 0.732}, {"text": "through", "start": 242.73, "end": 243.03, "confidence": 0.959}, {"text": "green", "start": 243.03, "end": 243.37, "confidence": 0.813}, {"text": "farmland,", "start": 243.37, "end": 244.11, "confidence": 0.194}, {"text": "twisting", "start": 244.49, "end": 244.79, "confidence": 0.698}, {"text": "through", "start": 244.79, "end": 245.09, "confidence": 0.969}, {"text": "country", "start": 245.09, "end": 245.49, "confidence": 0.962}, {"text": "lanes", "start": 245.49, "end": 247.37, "confidence": 0.963}]}, {"id": 19, "seek": 14400, "start": 247.37, "end": 255.61, "text": " There's nothing quite like the freedom I feel", "tokens": [50364, 821, 311, 1825, 1596, 411, 264, 5645, 286, 841, 50764], "temperature": 0.0, "avg_logprob": -0.022821954110773597, "compression_ratio": 1.5981308411214954, "no_speech_prob": 0.7558228969573975, "confidence": 0.916, "words": [{"text": "There's", "start": 247.37, "end": 248.11, "confidence": 0.746}, {"text": "nothing", "start": 248.11, "end": 249.91, "confidence": 0.971}, {"text": "quite", "start": 249.91, "end": 250.95, "confidence": 0.95}, {"text": "like", "start": 250.95, "end": 251.69, "confidence": 0.976}, {"text": "the", "start": 251.69, "end": 252.15, "confidence": 0.973}, {"text": "freedom", "start": 252.15, "end": 253.39, "confidence": 0.978}, {"text": "I", "start": 253.39, "end": 254.15, "confidence": 0.973}, {"text": "feel", "start": 254.15, "end": 255.61, "confidence": 0.983}]}, {"id": 20, "seek": 14400, "start": 256.29, "end": 263.39, "text": " All on open road, flying through green farmland, twisting through country lanes", "tokens": [50764, 1057, 322, 1269, 3060, 11, 7137, 807, 3092, 5421, 1661, 11, 34491, 807, 1941, 25397, 51164], "temperature": 0.0, "avg_logprob": -0.022821954110773597, "compression_ratio": 1.5981308411214954, "no_speech_prob": 0.7558228969573975, "confidence": 0.634, "words": [{"text": "All", "start": 256.29, "end": 256.71, "confidence": 0.039}, {"text": "on", "start": 256.71, "end": 257.01, "confidence": 0.916}, {"text": "open", "start": 257.01, "end": 257.35, "confidence": 0.803}, {"text": "road,", "start": 257.35, "end": 258.07, "confidence": 0.812}, {"text": "flying", "start": 258.53, "end": 258.73, "confidence": 0.639}, {"text": "through", "start": 258.73, "end": 259.05, "confidence": 0.959}, {"text": "green", "start": 259.05, "end": 259.37, "confidence": 0.816}, {"text": "farmland,", "start": 259.37, "end": 260.17, "confidence": 0.569}, {"text": "twisting", "start": 260.43, "end": 260.79, "confidence": 0.686}, {"text": "through", "start": 260.79, "end": 261.11, "confidence": 0.984}, {"text": "country", "start": 261.11, "end": 261.51, "confidence": 0.98}, {"text": "lanes", "start": 261.51, "end": 263.39, "confidence": 0.95}]}, {"id": 21, "seek": 14400, "start": 263.39, "end": 271.27, "text": " There's nothing quite like the freedom I feel", "tokens": [51164, 821, 311, 1825, 1596, 411, 264, 5645, 286, 841, 51564], "temperature": 0.0, "avg_logprob": -0.022821954110773597, "compression_ratio": 1.5981308411214954, "no_speech_prob": 0.7558228969573975, "confidence": 0.879, "words": [{"text": "There's", "start": 263.39, "end": 264.19, "confidence": 0.619}, {"text": "nothing", "start": 264.19, "end": 265.89, "confidence": 0.969}, {"text": "quite", "start": 265.89, "end": 266.91, "confidence": 0.946}, {"text": "like", "start": 266.91, "end": 267.67, "confidence": 0.978}, {"text": "the", "start": 267.67, "end": 268.13, "confidence": 0.973}, {"text": "freedom", "start": 268.13, "end": 269.37, "confidence": 0.978}, {"text": "I", "start": 269.37, "end": 270.15, "confidence": 0.963}, {"text": "feel", "start": 270.15, "end": 271.27, "confidence": 0.993}]}, {"id": 22, "seek": 16800, "start": 272.31, "end": 279.41, "text": " All on open road, flying through green farmland, twisting through country lanes", "tokens": [50364, 1057, 322, 1269, 3060, 11, 7137, 807, 3092, 5421, 1661, 11, 34491, 807, 1941, 25397, 50764], "temperature": 0.0, "avg_logprob": -0.03291128216118648, "compression_ratio": 1.2254901960784315, "no_speech_prob": 0.769996166229248, "confidence": 0.58, "words": [{"text": "All", "start": 272.31, "end": 272.71, "confidence": 0.048}, {"text": "on", "start": 272.71, "end": 273.03, "confidence": 0.932}, {"text": "open", "start": 273.03, "end": 273.41, "confidence": 0.829}, {"text": "road,", "start": 273.41, "end": 274.13, "confidence": 0.689}, {"text": "flying", "start": 274.61, "end": 274.75, "confidence": 0.744}, {"text": "through", "start": 274.75, "end": 275.05, "confidence": 0.952}, {"text": "green", "start": 275.05, "end": 275.37, "confidence": 0.87}, {"text": "farmland,", "start": 275.37, "end": 276.15, "confidence": 0.351}, {"text": "twisting", "start": 276.33, "end": 276.79, "confidence": 0.737}, {"text": "through", "start": 276.79, "end": 277.11, "confidence": 0.977}, {"text": "country", "start": 277.11, "end": 277.47, "confidence": 0.96}, {"text": "lanes", "start": 277.47, "end": 279.41, "confidence": 0.863}]}, {"id": 23, "seek": 16800, "start": 279.47, "end": 287.13, "text": " There's nothing quite like the freedom I feel", "tokens": [50764, 821, 311, 1825, 1596, 411, 264, 5645, 286, 841, 51164], "temperature": 0.0, "avg_logprob": -0.03291128216118648, "compression_ratio": 1.2254901960784315, "no_speech_prob": 0.769996166229248, "confidence": 0.902, "words": [{"text": "There's", "start": 279.47, "end": 280.71, "confidence": 0.713}, {"text": "nothing", "start": 280.71, "end": 281.97, "confidence": 0.964}, {"text": "quite", "start": 281.97, "end": 282.89, "confidence": 0.942}, {"text": "like", "start": 282.89, "end": 283.69, "confidence": 0.978}, {"text": "the", "start": 283.69, "end": 284.19, "confidence": 0.945}, {"text": "freedom", "start": 284.19, "end": 285.37, "confidence": 0.982}, {"text": "I", "start": 285.37, "end": 286.21, "confidence": 0.954}, {"text": "feel", "start": 286.21, "end": 287.13, "confidence": 0.989}]}], "language": "en"}, "duration": 296.17632653061224}
+{
+  "animation": {
+    "keyframes_per_second": 3,
+    "zoom_animation_times": {
+      "00000.00": "1.00",
+      "00000.30": "1.40",
+      "00000.36": "1.31",
+      "00000.42": "1.40",
+      "00000.49": "1.29",
+      "00000.56": "1.40",
+      "00000.80": "1.01",
+      "00001.04": "1.40",
+      "00001.17": "1.20",
+      "00001.30": "1.40",
+      "00001.80": "1.00",
+      "00002.04": "1.40",
+      "00002.23": "1.10",
+      "00002.41": "1.40",
+      "00002.48": "1.29",
+      "00002.55": "1.40",
+      "00002.80": "1.01",
+      "00003.04": "1.40",
+      "00003.17": "1.20",
+      "00003.30": "1.40",
+      "00003.49": "1.08",
+      "00003.69": "1.40",
+      "00004.19": "1.00",
+      "00004.44": "1.40",
+      "00004.49": "1.31",
+      "00004.55": "1.40",
+      "00004.79": "1.01",
+      "00005.04": "1.40",
+      "00005.17": "1.20",
+      "00005.29": "1.40",
+      "00005.79": "1.00",
+      "00006.04": "1.40",
+      "00006.23": "1.08",
+      "00006.43": "1.40",
+      "00006.49": "1.31",
+      "00006.55": "1.40",
+      "00007.05": "1.00",
+      "00007.69": "1.40",
+      "00008.19": "1.00",
+      "00009.06": "1.40",
+      "00009.56": "1.00",
+      "00010.05": "1.40",
+      "00010.55": "1.00",
+      "00011.05": "1.40",
+      "00011.55": "1.00",
+      "00011.82": "1.40",
+      "00012.32": "1.00",
+      "00013.05": "1.40",
+      "00013.18": "1.20",
+      "00013.31": "1.40",
+      "00013.81": "1.00",
+      "00014.05": "1.40",
+      "00014.55": "1.00",
+      "00014.56": "1.40",
+      "00014.80": "1.01",
+      "00015.05": "1.40",
+      "00015.17": "1.20",
+      "00015.30": "1.40",
+      "00015.80": "1.00",
+      "00016.56": "1.40",
+      "00016.80": "1.01",
+      "00017.04": "1.40",
+      "00017.17": "1.20",
+      "00017.30": "1.40",
+      "00017.80": "1.00",
+      "00018.04": "1.40",
+      "00018.54": "1.00",
+      "00018.55": "1.40",
+      "00019.05": "1.00",
+      "00020.55": "1.40",
+      "00021.05": "1.00",
+      "00022.55": "1.40",
+      "00023.05": "1.00",
+      "00023.06": "1.40",
+      "00023.17": "1.21",
+      "00023.29": "1.40",
+      "00023.49": "1.08",
+      "00023.68": "1.40",
+      "00024.18": "1.00",
+      "00025.05": "1.40",
+      "00025.55": "1.00",
+      "00026.05": "1.40",
+      "00026.24": "1.10",
+      "00026.42": "1.40",
+      "00026.48": "1.31",
+      "00026.54": "1.40",
+      "00027.04": "1.00",
+      "00027.05": "1.40",
+      "00027.55": "1.00",
+      "00027.82": "1.40",
+      "00028.06": "1.01",
+      "00028.31": "1.40",
+      "00028.36": "1.31",
+      "00028.42": "1.40",
+      "00028.92": "1.00",
+      "00029.05": "1.40",
+      "00029.18": "1.20",
+      "00029.30": "1.40",
+      "00029.80": "1.00",
+      "00030.05": "1.40",
+      "00030.23": "1.10",
+      "00030.42": "1.40",
+      "00030.92": "1.00",
+      "00031.05": "1.40",
+      "00031.17": "1.20",
+      "00031.30": "1.40",
+      "00031.49": "1.10",
+      "00031.67": "1.40",
+      "00032.17": "1.00",
+      "00039.06": "1.40",
+      "00039.56": "1.00",
+      "00041.05": "1.40",
+      "00041.55": "1.00",
+      "00042.05": "1.40",
+      "00042.55": "1.00",
+      "00043.05": "1.40",
+      "00043.55": "1.00",
+      "00043.82": "1.40",
+      "00044.32": "1.00",
+      "00044.56": "1.40",
+      "00044.80": "1.01",
+      "00045.05": "1.40",
+      "00045.17": "1.20",
+      "00045.30": "1.40",
+      "00045.80": "1.00",
+      "00046.05": "1.40",
+      "00046.55": "1.00",
+      "00046.56": "1.40",
+      "00047.06": "1.00",
+      "00047.30": "1.40",
+      "00047.80": "1.00",
+      "00048.55": "1.40",
+      "00049.05": "1.00",
+      "00050.55": "1.40",
+      "00051.05": "1.00",
+      "00057.05": "1.40",
+      "00057.55": "1.00",
+      "00058.05": "1.40",
+      "00058.55": "1.00",
+      "00059.05": "1.40",
+      "00059.55": "1.00",
+      "00061.05": "1.40",
+      "00061.17": "1.20",
+      "00061.30": "1.40",
+      "00061.80": "1.00",
+      "00063.30": "1.40",
+      "00063.80": "1.00",
+      "00064.55": "1.40",
+      "00064.80": "1.01",
+      "00065.04": "1.40",
+      "00065.17": "1.20",
+      "00065.29": "1.40",
+      "00065.79": "1.00",
+      "00066.04": "1.40",
+      "00066.54": "1.00",
+      "00066.55": "1.40",
+      "00066.79": "1.01",
+      "00067.04": "1.40",
+      "00067.54": "1.00",
+      "00068.55": "1.40",
+      "00068.79": "1.01",
+      "00069.03": "1.40",
+      "00069.16": "1.20",
+      "00069.29": "1.40",
+      "00069.79": "1.00",
+      "00070.03": "1.40",
+      "00070.23": "1.08",
+      "00070.43": "1.40",
+      "00070.48": "1.31",
+      "00070.54": "1.40",
+      "00071.04": "1.00",
+      "00071.29": "1.40",
+      "00071.48": "1.08",
+      "00071.68": "1.40",
+      "00072.18": "1.00",
+      "00073.05": "1.40",
+      "00073.55": "1.00",
+      "00074.05": "1.40",
+      "00074.23": "1.10",
+      "00074.42": "1.40",
+      "00074.48": "1.31",
+      "00074.54": "1.40",
+      "00075.04": "1.00",
+      "00075.05": "1.40",
+      "00075.55": "1.00",
+      "00075.81": "1.40",
+      "00076.31": "1.00",
+      "00076.42": "1.40",
+      "00076.92": "1.00",
+      "00077.04": "1.40",
+      "00077.17": "1.20",
+      "00077.30": "1.40",
+      "00077.80": "1.00",
+      "00078.04": "1.40",
+      "00078.23": "1.10",
+      "00078.41": "1.40",
+      "00078.48": "1.29",
+      "00078.55": "1.40",
+      "00078.80": "1.01",
+      "00079.04": "1.40",
+      "00079.17": "1.20",
+      "00079.30": "1.40",
+      "00079.80": "1.00",
+      "00080.29": "1.40",
+      "00080.42": "1.20",
+      "00080.55": "1.40",
+      "00080.79": "1.01",
+      "00081.04": "1.40",
+      "00081.17": "1.20",
+      "00081.29": "1.40",
+      "00081.79": "1.00",
+      "00082.04": "1.40",
+      "00082.54": "1.00",
+      "00082.55": "1.40",
+      "00082.79": "1.01",
+      "00083.03": "1.40",
+      "00083.16": "1.20",
+      "00083.29": "1.40",
+      "00083.79": "1.00",
+      "00084.54": "1.40",
+      "00084.79": "1.01",
+      "00085.03": "1.40",
+      "00085.16": "1.20",
+      "00085.29": "1.40",
+      "00085.79": "1.00",
+      "00086.03": "1.40",
+      "00086.23": "1.08",
+      "00086.42": "1.40",
+      "00086.48": "1.31",
+      "00086.54": "1.40",
+      "00087.04": "1.00",
+      "00087.28": "1.40",
+      "00087.48": "1.08",
+      "00087.68": "1.40",
+      "00088.18": "1.00",
+      "00109.06": "1.40",
+      "00109.56": "1.00",
+      "00109.81": "1.40",
+      "00109.87": "1.31",
+      "00109.92": "1.40",
+      "00109.99": "1.29",
+      "00110.06": "1.40",
+      "00110.31": "1.01",
+      "00110.55": "1.40",
+      "00111.05": "1.00",
+      "00111.06": "1.40",
+      "00111.56": "1.00",
+      "00112.06": "1.40",
+      "00112.30": "1.01",
+      "00112.55": "1.40",
+      "00113.05": "1.00",
+      "00113.06": "1.40",
+      "00113.30": "1.01",
+      "00113.55": "1.40",
+      "00114.05": "1.00",
+      "00114.06": "1.40",
+      "00114.30": "1.01",
+      "00114.54": "1.40",
+      "00115.04": "1.00",
+      "00115.05": "1.40",
+      "00115.30": "1.01",
+      "00115.54": "1.40",
+      "00116.04": "1.00",
+      "00116.05": "1.40",
+      "00116.55": "1.00",
+      "00117.05": "1.40",
+      "00117.55": "1.00",
+      "00118.05": "1.40",
+      "00118.55": "1.00",
+      "00119.05": "1.40",
+      "00119.55": "1.00",
+      "00119.56": "1.40",
+      "00119.80": "1.01",
+      "00120.05": "1.40",
+      "00120.55": "1.00",
+      "00120.56": "1.40",
+      "00120.80": "1.01",
+      "00121.05": "1.40",
+      "00121.55": "1.00",
+      "00121.56": "1.40",
+      "00122.06": "1.00",
+      "00122.81": "1.40",
+      "00123.31": "1.00",
+      "00123.55": "1.40",
+      "00124.05": "1.00",
+      "00124.55": "1.40",
+      "00125.05": "1.00",
+      "00126.06": "1.40",
+      "00126.56": "1.00",
+      "00127.55": "1.40",
+      "00128.05": "1.00",
+      "00129.06": "1.40",
+      "00129.17": "1.21",
+      "00129.29": "1.40",
+      "00129.79": "1.00",
+      "00130.05": "1.40",
+      "00130.55": "1.00",
+      "00131.05": "1.40",
+      "00131.17": "1.21",
+      "00131.29": "1.40",
+      "00131.79": "1.00",
+      "00132.56": "1.40",
+      "00132.81": "1.01",
+      "00133.05": "1.40",
+      "00133.55": "1.00",
+      "00134.05": "1.40",
+      "00134.55": "1.00",
+      "00135.05": "1.40",
+      "00135.17": "1.20",
+      "00135.30": "1.40",
+      "00135.80": "1.00",
+      "00136.56": "1.40",
+      "00137.06": "1.00",
+      "00138.55": "1.40",
+      "00139.05": "1.00",
+      "00139.81": "1.40",
+      "00140.31": "1.00",
+      "00142.06": "1.40",
+      "00142.56": "1.00",
+      "00143.06": "1.40",
+      "00143.56": "1.00",
+      "00145.06": "1.40",
+      "00145.56": "1.00",
+      "00146.05": "1.40",
+      "00146.55": "1.00",
+      "00147.05": "1.40",
+      "00147.18": "1.20",
+      "00147.31": "1.40",
+      "00147.81": "1.00",
+      "00149.05": "1.40",
+      "00149.18": "1.20",
+      "00149.30": "1.40",
+      "00149.80": "1.00",
+      "00151.05": "1.40",
+      "00151.17": "1.20",
+      "00151.30": "1.40",
+      "00151.80": "1.00",
+      "00153.04": "1.40",
+      "00153.17": "1.20",
+      "00153.30": "1.40",
+      "00153.80": "1.00",
+      "00154.04": "1.40",
+      "00154.54": "1.00",
+      "00154.55": "1.40",
+      "00155.05": "1.00",
+      "00155.30": "1.40",
+      "00155.80": "1.00",
+      "00156.55": "1.40",
+      "00157.05": "1.00",
+      "00157.29": "1.40",
+      "00157.79": "1.00",
+      "00159.29": "1.40",
+      "00159.79": "1.00",
+      "00167.30": "1.40",
+      "00167.80": "1.00",
+      "00167.81": "1.40",
+      "00168.31": "1.00",
+      "00168.55": "1.40",
+      "00169.05": "1.00",
+      "00170.04": "1.40",
+      "00170.54": "1.00",
+      "00170.55": "1.40",
+      "00171.05": "1.00",
+      "00171.80": "1.40",
+      "00172.30": "1.00",
+      "00172.55": "1.40",
+      "00173.05": "1.00",
+      "00173.06": "1.40",
+      "00173.56": "1.00",
+      "00174.06": "1.40",
+      "00174.24": "1.10",
+      "00174.43": "1.40",
+      "00174.49": "1.31",
+      "00174.54": "1.40",
+      "00175.04": "1.00",
+      "00175.06": "1.40",
+      "00175.56": "1.00",
+      "00179.05": "1.40",
+      "00179.18": "1.20",
+      "00179.30": "1.40",
+      "00179.80": "1.00",
+      "00181.30": "1.40",
+      "00181.80": "1.00",
+      "00182.56": "1.40",
+      "00183.06": "1.00",
+      "00184.55": "1.40",
+      "00185.05": "1.00",
+      "00185.30": "1.40",
+      "00185.80": "1.00",
+      "00186.55": "1.40",
+      "00187.05": "1.00",
+      "00187.29": "1.40",
+      "00187.79": "1.00",
+      "00189.06": "1.40",
+      "00189.56": "1.00",
+      "00190.06": "1.40",
+      "00190.56": "1.00",
+      "00192.54": "1.40",
+      "00193.04": "1.00",
+      "00194.05": "1.40",
+      "00194.23": "1.10",
+      "00194.42": "1.40",
+      "00194.92": "1.00",
+      "00195.05": "1.40",
+      "00195.55": "1.00",
+      "00195.67": "1.40",
+      "00195.74": "1.29",
+      "00195.81": "1.40",
+      "00196.31": "1.00",
+      "00197.04": "1.40",
+      "00197.17": "1.20",
+      "00197.30": "1.40",
+      "00197.80": "1.00",
+      "00198.04": "1.40",
+      "00198.17": "1.20",
+      "00198.30": "1.40",
+      "00198.36": "1.31",
+      "00198.41": "1.40",
+      "00198.91": "1.00",
+      "00199.04": "1.40",
+      "00199.17": "1.20",
+      "00199.30": "1.40",
+      "00199.48": "1.10",
+      "00199.67": "1.40",
+      "00200.17": "1.00",
+      "00200.55": "1.40",
+      "00200.79": "1.01",
+      "00201.04": "1.40",
+      "00201.54": "1.00",
+      "00202.04": "1.40",
+      "00202.54": "1.00",
+      "00202.55": "1.40",
+      "00202.79": "1.01",
+      "00203.04": "1.40",
+      "00203.16": "1.20",
+      "00203.29": "1.40",
+      "00203.79": "1.00",
+      "00203.80": "1.40",
+      "00204.30": "1.00",
+      "00204.43": "1.40",
+      "00204.49": "1.31",
+      "00204.54": "1.40",
+      "00204.79": "1.01",
+      "00205.03": "1.40",
+      "00205.16": "1.20",
+      "00205.29": "1.40",
+      "00205.79": "1.00",
+      "00206.43": "1.40",
+      "00206.48": "1.31",
+      "00206.54": "1.40",
+      "00207.04": "1.00",
+      "00207.28": "1.40",
+      "00207.48": "1.08",
+      "00207.68": "1.40",
+      "00208.18": "1.00",
+      "00208.42": "1.40",
+      "00208.48": "1.31",
+      "00208.54": "1.40",
+      "00209.04": "1.00",
+      "00209.05": "1.40",
+      "00209.17": "1.21",
+      "00209.28": "1.40",
+      "00209.78": "1.00",
+      "00210.05": "1.40",
+      "00210.23": "1.10",
+      "00210.42": "1.40",
+      "00210.48": "1.31",
+      "00210.54": "1.40",
+      "00211.04": "1.00",
+      "00211.05": "1.40",
+      "00211.55": "1.00",
+      "00211.67": "1.40",
+      "00212.17": "1.00",
+      "00212.30": "1.40",
+      "00212.36": "1.31",
+      "00212.42": "1.40",
+      "00212.92": "1.00",
+      "00213.04": "1.40",
+      "00213.17": "1.20",
+      "00213.30": "1.40",
+      "00213.80": "1.00",
+      "00214.04": "1.40",
+      "00214.17": "1.20",
+      "00214.30": "1.40",
+      "00214.36": "1.31",
+      "00214.41": "1.40",
+      "00214.91": "1.00",
+      "00215.04": "1.40",
+      "00215.17": "1.20",
+      "00215.30": "1.40",
+      "00215.48": "1.10",
+      "00215.67": "1.40",
+      "00216.17": "1.00",
+      "00236.05": "1.40",
+      "00236.55": "1.00",
+      "00237.93": "1.40",
+      "00238.12": "1.10",
+      "00238.31": "1.40",
+      "00238.81": "1.00",
+      "00239.05": "1.40",
+      "00239.55": "1.00",
+      "00239.56": "1.40",
+      "00240.06": "1.00",
+      "00240.56": "1.40",
+      "00240.80": "1.01",
+      "00241.05": "1.40",
+      "00241.55": "1.00",
+      "00241.56": "1.40",
+      "00241.80": "1.01",
+      "00242.04": "1.40",
+      "00242.54": "1.00",
+      "00242.56": "1.40",
+      "00242.80": "1.01",
+      "00243.04": "1.40",
+      "00243.54": "1.00",
+      "00243.55": "1.40",
+      "00243.80": "1.01",
+      "00244.04": "1.40",
+      "00244.54": "1.00",
+      "00244.55": "1.40",
+      "00245.05": "1.00",
+      "00245.55": "1.40",
+      "00246.05": "1.00",
+      "00246.55": "1.40",
+      "00247.05": "1.00",
+      "00247.55": "1.40",
+      "00248.05": "1.00",
+      "00248.06": "1.40",
+      "00248.30": "1.01",
+      "00248.55": "1.40",
+      "00249.05": "1.00",
+      "00249.06": "1.40",
+      "00249.56": "1.00",
+      "00250.31": "1.40",
+      "00250.81": "1.00",
+      "00251.05": "1.40",
+      "00251.55": "1.00",
+      "00252.56": "1.40",
+      "00252.81": "1.01",
+      "00253.05": "1.40",
+      "00253.18": "1.20",
+      "00253.31": "1.40",
+      "00253.81": "1.00",
+      "00255.56": "1.40",
+      "00256.06": "1.00",
+      "00256.56": "1.40",
+      "00257.06": "1.00",
+      "00257.56": "1.40",
+      "00257.68": "1.20",
+      "00257.81": "1.40",
+      "00258.31": "1.00",
+      "00258.55": "1.40",
+      "00259.05": "1.00",
+      "00259.55": "1.40",
+      "00260.05": "1.00",
+      "00261.06": "1.40",
+      "00261.56": "1.00",
+      "00262.06": "1.40",
+      "00262.56": "1.00",
+      "00263.06": "1.40",
+      "00263.56": "1.00",
+      "00265.06": "1.40",
+      "00265.56": "1.00",
+      "00266.05": "1.40",
+      "00266.18": "1.20",
+      "00266.31": "1.40",
+      "00266.81": "1.00",
+      "00267.05": "1.40",
+      "00267.55": "1.00",
+      "00268.56": "1.40",
+      "00268.81": "1.01",
+      "00269.05": "1.40",
+      "00269.55": "1.00",
+      "00269.56": "1.40",
+      "00270.06": "1.00",
+      "00272.56": "1.40",
+      "00273.06": "1.00",
+      "00273.55": "1.40",
+      "00274.05": "1.00",
+      "00274.55": "1.40",
+      "00275.05": "1.00",
+      "00275.55": "1.40",
+      "00276.05": "1.00",
+      "00276.06": "1.40",
+      "00276.56": "1.00",
+      "00277.06": "1.40",
+      "00277.56": "1.00",
+      "00278.06": "1.40",
+      "00278.56": "1.00",
+      "00279.06": "1.40",
+      "00279.56": "1.00",
+      "00281.05": "1.40",
+      "00281.55": "1.00",
+      "00282.31": "1.40",
+      "00282.81": "1.00",
+      "00283.05": "1.40",
+      "00283.55": "1.00",
+      "00284.56": "1.40",
+      "00284.80": "1.01",
+      "00285.05": "1.40",
+      "00285.55": "1.00",
+      "00285.56": "1.40",
+      "00286.06": "1.00"
+    }
+  },
+  "estd_bpm": 117.45383522727273,
+  "style": "Mystic",
+  "full_transcript": {
+    "text": " And I'm cruising the M4 Monday morning 5am, up before the birds, or at least so I'd hoped Time to get ahead, beat the rest and get on top And I'm cruising the M4 Now the day is rising, but behind grey clouds When will I see the blue, yellow sun and happy days? All on open road, flying through green farmland, twisting through country lanes There's nothing quite like the freedom I feel All on open road, flying through green farmland, twisting through country lanes There's nothing quite like the freedom I feel And I'm cruising the M4 Now I'm stuck in traffic, with no end in sight How can I get ahead, beat the rest and get on top? And I'm cruising the M4 Now the day is rising, but behind grey clouds When will I see the blue, yellow sun and happy days? All on open road, flying through green farmland, twisting through country lanes There's nothing quite like the freedom I feel All on open road, flying through green farmland, twisting through country lanes There's nothing quite like the freedom I feel All on open road, flying through green farmland, twisting through country lanes There's nothing quite like the freedom I feel All on open road, flying through green farmland, twisting through country lanes There's nothing quite like the freedom I feel",
+    "segments": [
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 7.49,
+        "end": 13.7,
+        "text": " And I'm cruising the M4",
+        "tokens": [
+          50364,
+          400,
+          286,
+          478,
+          27221,
+          385,
+          3288,
+          50714
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.2706468715224155,
+        "compression_ratio": 1.236842105263158,
+        "no_speech_prob": 0.263148695230484,
+        "confidence": 0.351,
+        "words": [
+          {
+            "text": "And",
+            "start": 7.49,
+            "end": 7.81,
+            "confidence": 0.163
+          },
+          {
+            "text": "I'm",
+            "start": 7.81,
+            "end": 9.27,
+            "confidence": 0.944
+          },
+          {
+            "text": "cruising",
+            "start": 9.71,
+            "end": 10.68,
+            "confidence": 0.836
+          },
+          {
+            "text": "the",
+            "start": 10.68,
+            "end": 12.18,
+            "confidence": 0.587
+          },
+          {
+            "text": "M4",
+            "start": 12.18,
+            "end": 13.7,
+            "confidence": 0.026
+          }
+        ],
+        "prompt": "A winding, sun-drenched road stretching out into the horizon."
+      },
+      {
+        "id": 1,
+        "seek": 0,
+        "start": 16.3,
+        "end": 22.46,
+        "text": " Monday morning 5am, up before the birds, or at least so I'd hoped",
+        "tokens": [
+          50714,
+          8138,
+          2446,
+          1025,
+          335,
+          11,
+          493,
+          949,
+          264,
+          9009,
+          11,
+          420,
+          412,
+          1935,
+          370,
+          286,
+          1116,
+          19737,
+          51064
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.2706468715224155,
+        "compression_ratio": 1.236842105263158,
+        "no_speech_prob": 0.263148695230484,
+        "confidence": 0.797,
+        "words": [
+          {
+            "text": "Monday",
+            "start": 16.3,
+            "end": 16.72,
+            "confidence": 0.846
+          },
+          {
+            "text": "morning",
+            "start": 16.72,
+            "end": 17.18,
+            "confidence": 0.917
+          },
+          {
+            "text": "5am,",
+            "start": 17.18,
+            "end": 18.36,
+            "confidence": 0.502
+          },
+          {
+            "text": "up",
+            "start": 19.1,
+            "end": 19.28,
+            "confidence": 0.817
+          },
+          {
+            "text": "before",
+            "start": 19.28,
+            "end": 19.64,
+            "confidence": 0.982
+          },
+          {
+            "text": "the",
+            "start": 19.64,
+            "end": 19.92,
+            "confidence": 0.992
+          },
+          {
+            "text": "birds,",
+            "start": 19.92,
+            "end": 20.38,
+            "confidence": 0.646
+          },
+          {
+            "text": "or",
+            "start": 20.7,
+            "end": 20.88,
+            "confidence": 0.862
+          },
+          {
+            "text": "at",
+            "start": 20.88,
+            "end": 20.98,
+            "confidence": 0.984
+          },
+          {
+            "text": "least",
+            "start": 20.98,
+            "end": 21.24,
+            "confidence": 0.984
+          },
+          {
+            "text": "so",
+            "start": 21.24,
+            "end": 21.62,
+            "confidence": 0.923
+          },
+          {
+            "text": "I'd",
+            "start": 21.62,
+            "end": 22.02,
+            "confidence": 0.921
+          },
+          {
+            "text": "hoped",
+            "start": 22.02,
+            "end": 22.46,
+            "confidence": 0.978
+          }
+        ],
+        "prompt": "A car speeding down a winding country road, sun shining through the clouds, fields of green in the distance."
+      },
+      {
+        "id": 2,
+        "seek": 0,
+        "start": 24.36,
+        "end": 27.96,
+        "text": " Time to get ahead, beat the rest and get on top",
+        "tokens": [
+          51064,
+          6161,
+          281,
+          483,
+          2286,
+          11,
+          4224,
+          264,
+          1472,
+          293,
+          483,
+          322,
+          1192,
+          51314
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.2706468715224155,
+        "compression_ratio": 1.236842105263158,
+        "no_speech_prob": 0.263148695230484,
+        "confidence": 0.843,
+        "words": [
+          {
+            "text": "Time",
+            "start": 24.36,
+            "end": 24.68,
+            "confidence": 0.549
+          },
+          {
+            "text": "to",
+            "start": 24.68,
+            "end": 25.06,
+            "confidence": 0.996
+          },
+          {
+            "text": "get",
+            "start": 25.06,
+            "end": 25.3,
+            "confidence": 0.981
+          },
+          {
+            "text": "ahead,",
+            "start": 25.3,
+            "end": 25.94,
+            "confidence": 0.805
+          },
+          {
+            "text": "beat",
+            "start": 26.16,
+            "end": 26.28,
+            "confidence": 0.908
+          },
+          {
+            "text": "the",
+            "start": 26.28,
+            "end": 26.52,
+            "confidence": 0.99
+          },
+          {
+            "text": "rest",
+            "start": 26.52,
+            "end": 26.76,
+            "confidence": 0.6
+          },
+          {
+            "text": "and",
+            "start": 26.76,
+            "end": 27.0,
+            "confidence": 0.767
+          },
+          {
+            "text": "get",
+            "start": 27.0,
+            "end": 27.24,
+            "confidence": 0.98
+          },
+          {
+            "text": "on",
+            "start": 27.24,
+            "end": 27.48,
+            "confidence": 0.984
+          },
+          {
+            "text": "top",
+            "start": 27.48,
+            "end": 27.96,
+            "confidence": 0.923
+          }
+        ],
+        "prompt": "Open road winding through green farmland, with a blue sky and yellow sun in the background."
+      },
+      {
+        "id": 3,
+        "seek": 1900,
+        "start": 32.53,
+        "end": 45.37,
+        "text": " And I'm cruising the M4",
+        "tokens": [
+          50364,
+          400,
+          286,
+          478,
+          27221,
+          385,
+          3288,
+          50914
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.15345905922554634,
+        "compression_ratio": 1.1666666666666667,
+        "no_speech_prob": 0.05172190070152283,
+        "confidence": 0.367,
+        "words": [
+          {
+            "text": "And",
+            "start": 32.53,
+            "end": 34.26,
+            "confidence": 0.078
+          },
+          {
+            "text": "I'm",
+            "start": 39.65,
+            "end": 41.29,
+            "confidence": 0.919
+          },
+          {
+            "text": "cruising",
+            "start": 41.29,
+            "end": 42.67,
+            "confidence": 0.539
+          },
+          {
+            "text": "the",
+            "start": 42.67,
+            "end": 44.21,
+            "confidence": 0.561
+          },
+          {
+            "text": "M4",
+            "start": 44.21,
+            "end": 45.37,
+            "confidence": 0.122
+          }
+        ],
+        "prompt": "A car on a winding country road with a bright blue sky overhead."
+      },
+      {
+        "id": 4,
+        "seek": 1900,
+        "start": 64.22,
+        "end": 69.2,
+        "text": " Now the day is rising, but behind grey clouds",
+        "tokens": [
+          50914,
+          823,
+          264,
+          786,
+          307,
+          11636,
+          11,
+          457,
+          2261,
+          16578,
+          12193,
+          51214
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.15345905922554634,
+        "compression_ratio": 1.1666666666666667,
+        "no_speech_prob": 0.05172190070152283,
+        "confidence": 0.825,
+        "words": [
+          {
+            "text": "Now",
+            "start": 64.22,
+            "end": 64.56,
+            "confidence": 0.632
+          },
+          {
+            "text": "the",
+            "start": 64.56,
+            "end": 65.06,
+            "confidence": 0.951
+          },
+          {
+            "text": "day",
+            "start": 65.06,
+            "end": 65.28,
+            "confidence": 0.987
+          },
+          {
+            "text": "is",
+            "start": 65.28,
+            "end": 65.54,
+            "confidence": 0.992
+          },
+          {
+            "text": "rising,",
+            "start": 65.54,
+            "end": 66.22,
+            "confidence": 0.627
+          },
+          {
+            "text": "but",
+            "start": 66.68,
+            "end": 66.9,
+            "confidence": 0.913
+          },
+          {
+            "text": "behind",
+            "start": 66.9,
+            "end": 67.58,
+            "confidence": 0.981
+          },
+          {
+            "text": "grey",
+            "start": 67.58,
+            "end": 68.06,
+            "confidence": 0.705
+          },
+          {
+            "text": "clouds",
+            "start": 68.06,
+            "end": 69.2,
+            "confidence": 0.995
+          }
+        ],
+        "prompt": "A road winding through a green meadow, with the sun peeking out from behind clouds."
+      },
+      {
+        "id": 5,
+        "seek": 1900,
+        "start": 72.25,
+        "end": 77.51,
+        "text": " When will I see the blue, yellow sun and happy days?",
+        "tokens": [
+          51214,
+          1133,
+          486,
+          286,
+          536,
+          264,
+          3344,
+          11,
+          5566,
+          3295,
+          293,
+          2055,
+          1708,
+          30,
+          51664
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.15345905922554634,
+        "compression_ratio": 1.1666666666666667,
+        "no_speech_prob": 0.05172190070152283,
+        "confidence": 0.874,
+        "words": [
+          {
+            "text": "When",
+            "start": 72.25,
+            "end": 72.49,
+            "confidence": 0.715
+          },
+          {
+            "text": "will",
+            "start": 72.49,
+            "end": 72.77,
+            "confidence": 0.984
+          },
+          {
+            "text": "I",
+            "start": 72.77,
+            "end": 72.99,
+            "confidence": 0.971
+          },
+          {
+            "text": "see",
+            "start": 72.99,
+            "end": 73.27,
+            "confidence": 0.996
+          },
+          {
+            "text": "the",
+            "start": 73.27,
+            "end": 73.49,
+            "confidence": 0.983
+          },
+          {
+            "text": "blue,",
+            "start": 73.49,
+            "end": 73.91,
+            "confidence": 0.838
+          },
+          {
+            "text": "yellow",
+            "start": 73.99,
+            "end": 74.35,
+            "confidence": 0.976
+          },
+          {
+            "text": "sun",
+            "start": 74.35,
+            "end": 74.81,
+            "confidence": 0.953
+          },
+          {
+            "text": "and",
+            "start": 74.81,
+            "end": 75.09,
+            "confidence": 0.732
+          },
+          {
+            "text": "happy",
+            "start": 75.09,
+            "end": 75.41,
+            "confidence": 0.908
+          },
+          {
+            "text": "days?",
+            "start": 75.41,
+            "end": 77.51,
+            "confidence": 0.773
+          }
+        ],
+        "prompt": "A beam of sunlight breaking through a grey sky and illuminating a winding country road."
+      },
+      {
+        "id": 6,
+        "seek": 4500,
+        "start": 90.87,
+        "end": 103.43,
+        "text": " All on open road, flying through green farmland, twisting through country lanes",
+        "tokens": [
+          50364,
+          1057,
+          322,
+          1269,
+          3060,
+          11,
+          7137,
+          807,
+          3092,
+          5421,
+          1661,
+          11,
+          34491,
+          807,
+          1941,
+          25397,
+          50764
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.08013148003436149,
+        "compression_ratio": 1.8981481481481481,
+        "no_speech_prob": 0.055337149649858475,
+        "confidence": 0.623,
+        "words": [
+          {
+            "text": "All",
+            "start": 90.87,
+            "end": 91.76,
+            "confidence": 0.026
+          },
+          {
+            "text": "on",
+            "start": 96.55,
+            "end": 97.01,
+            "confidence": 0.975
+          },
+          {
+            "text": "open",
+            "start": 97.01,
+            "end": 97.43,
+            "confidence": 0.873
+          },
+          {
+            "text": "road,",
+            "start": 97.43,
+            "end": 98.07,
+            "confidence": 0.698
+          },
+          {
+            "text": "flying",
+            "start": 98.57,
+            "end": 98.75,
+            "confidence": 0.771
+          },
+          {
+            "text": "through",
+            "start": 98.75,
+            "end": 99.03,
+            "confidence": 0.958
+          },
+          {
+            "text": "green",
+            "start": 99.03,
+            "end": 99.39,
+            "confidence": 0.737
+          },
+          {
+            "text": "farmland,",
+            "start": 99.39,
+            "end": 100.17,
+            "confidence": 0.633
+          },
+          {
+            "text": "twisting",
+            "start": 100.43,
+            "end": 100.79,
+            "confidence": 0.649
+          },
+          {
+            "text": "through",
+            "start": 100.79,
+            "end": 101.09,
+            "confidence": 0.971
+          },
+          {
+            "text": "country",
+            "start": 101.09,
+            "end": 101.55,
+            "confidence": 0.968
+          },
+          {
+            "text": "lanes",
+            "start": 101.55,
+            "end": 103.43,
+            "confidence": 0.895
+          }
+        ],
+        "prompt": "A winding country road with a car driving along it, basking in the morning sunlight."
+      },
+      {
+        "id": 7,
+        "seek": 4500,
+        "start": 103.43,
+        "end": 111.23,
+        "text": " There's nothing quite like the freedom I feel",
+        "tokens": [
+          50764,
+          821,
+          311,
+          1825,
+          1596,
+          411,
+          264,
+          5645,
+          286,
+          841,
+          51164
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.08013148003436149,
+        "compression_ratio": 1.8981481481481481,
+        "no_speech_prob": 0.055337149649858475,
+        "confidence": 0.915,
+        "words": [
+          {
+            "text": "There's",
+            "start": 103.43,
+            "end": 104.15,
+            "confidence": 0.74
+          },
+          {
+            "text": "nothing",
+            "start": 104.15,
+            "end": 105.95,
+            "confidence": 0.961
+          },
+          {
+            "text": "quite",
+            "start": 105.95,
+            "end": 106.85,
+            "confidence": 0.94
+          },
+          {
+            "text": "like",
+            "start": 106.85,
+            "end": 107.67,
+            "confidence": 0.984
+          },
+          {
+            "text": "the",
+            "start": 107.67,
+            "end": 108.21,
+            "confidence": 0.972
+          },
+          {
+            "text": "freedom",
+            "start": 108.21,
+            "end": 109.39,
+            "confidence": 0.988
+          },
+          {
+            "text": "I",
+            "start": 109.39,
+            "end": 110.07,
+            "confidence": 0.965
+          },
+          {
+            "text": "feel",
+            "start": 110.07,
+            "end": 111.23,
+            "confidence": 0.996
+          }
+        ],
+        "prompt": "Vast open road stretching towards a horizon of blue skies, yellow sun and rolling green fields."
+      },
+      {
+        "id": 8,
+        "seek": 4500,
+        "start": 112.29,
+        "end": 119.39,
+        "text": " All on open road, flying through green farmland, twisting through country lanes",
+        "tokens": [
+          51164,
+          1057,
+          322,
+          1269,
+          3060,
+          11,
+          7137,
+          807,
+          3092,
+          5421,
+          1661,
+          11,
+          34491,
+          807,
+          1941,
+          25397,
+          51564
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.08013148003436149,
+        "compression_ratio": 1.8981481481481481,
+        "no_speech_prob": 0.055337149649858475,
+        "confidence": 0.665,
+        "words": [
+          {
+            "text": "All",
+            "start": 112.29,
+            "end": 112.69,
+            "confidence": 0.058
+          },
+          {
+            "text": "on",
+            "start": 112.69,
+            "end": 112.97,
+            "confidence": 0.927
+          },
+          {
+            "text": "open",
+            "start": 112.97,
+            "end": 113.43,
+            "confidence": 0.752
+          },
+          {
+            "text": "road,",
+            "start": 113.43,
+            "end": 114.09,
+            "confidence": 0.79
+          },
+          {
+            "text": "flying",
+            "start": 114.57,
+            "end": 114.73,
+            "confidence": 0.764
+          },
+          {
+            "text": "through",
+            "start": 114.73,
+            "end": 115.03,
+            "confidence": 0.955
+          },
+          {
+            "text": "green",
+            "start": 115.03,
+            "end": 115.35,
+            "confidence": 0.615
+          },
+          {
+            "text": "farmland,",
+            "start": 115.35,
+            "end": 116.15,
+            "confidence": 0.664
+          },
+          {
+            "text": "twisting",
+            "start": 116.45,
+            "end": 116.79,
+            "confidence": 0.734
+          },
+          {
+            "text": "through",
+            "start": 116.79,
+            "end": 117.09,
+            "confidence": 0.978
+          },
+          {
+            "text": "country",
+            "start": 117.09,
+            "end": 117.51,
+            "confidence": 0.97
+          },
+          {
+            "text": "lanes",
+            "start": 117.51,
+            "end": 119.39,
+            "confidence": 0.954
+          }
+        ],
+        "prompt": "A driver in a classic car speeding through the countryside, the sun peeking out from behind the clouds."
+      },
+      {
+        "id": 9,
+        "seek": 6900,
+        "start": 119.39,
+        "end": 127.63,
+        "text": " There's nothing quite like the freedom I feel",
+        "tokens": [
+          50364,
+          821,
+          311,
+          1825,
+          1596,
+          411,
+          264,
+          5645,
+          286,
+          841,
+          50764
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.06437186166351917,
+        "compression_ratio": 1.2954545454545454,
+        "no_speech_prob": 0.12819908559322357,
+        "confidence": 0.924,
+        "words": [
+          {
+            "text": "There's",
+            "start": 119.39,
+            "end": 120.33,
+            "confidence": 0.782
+          },
+          {
+            "text": "nothing",
+            "start": 120.33,
+            "end": 121.97,
+            "confidence": 0.966
+          },
+          {
+            "text": "quite",
+            "start": 121.97,
+            "end": 122.85,
+            "confidence": 0.951
+          },
+          {
+            "text": "like",
+            "start": 122.85,
+            "end": 123.67,
+            "confidence": 0.974
+          },
+          {
+            "text": "the",
+            "start": 123.67,
+            "end": 124.19,
+            "confidence": 0.954
+          },
+          {
+            "text": "freedom",
+            "start": 124.19,
+            "end": 125.39,
+            "confidence": 0.974
+          },
+          {
+            "text": "I",
+            "start": 125.39,
+            "end": 126.17,
+            "confidence": 0.97
+          },
+          {
+            "text": "feel",
+            "start": 126.17,
+            "end": 127.63,
+            "confidence": 0.994
+          }
+        ],
+        "prompt": "A car driving through a winding country road with the sun rising in the sky."
+      },
+      {
+        "id": 10,
+        "seek": 6900,
+        "start": 135.51,
+        "end": 140.98,
+        "text": " And I'm cruising the M4",
+        "tokens": [
+          50764,
+          400,
+          286,
+          478,
+          27221,
+          385,
+          3288,
+          51064
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.06437186166351917,
+        "compression_ratio": 1.2954545454545454,
+        "no_speech_prob": 0.12819908559322357,
+        "confidence": 0.268,
+        "words": [
+          {
+            "text": "And",
+            "start": 135.51,
+            "end": 135.85,
+            "confidence": 0.185
+          },
+          {
+            "text": "I'm",
+            "start": 135.85,
+            "end": 137.14,
+            "confidence": 0.878
+          },
+          {
+            "text": "cruising",
+            "start": 137.96,
+            "end": 138.92,
+            "confidence": 0.412
+          },
+          {
+            "text": "the",
+            "start": 138.92,
+            "end": 140.14,
+            "confidence": 0.607
+          },
+          {
+            "text": "M4",
+            "start": 140.14,
+            "end": 140.98,
+            "confidence": 0.01
+          }
+        ],
+        "prompt": "A winding road lined with green farmland and blue sky, the sun shining brightly overhead."
+      },
+      {
+        "id": 11,
+        "seek": 6900,
+        "start": 143.82,
+        "end": 149.14,
+        "text": " Now I'm stuck in traffic, with no end in sight",
+        "tokens": [
+          51064,
+          823,
+          286,
+          478,
+          5541,
+          294,
+          6419,
+          11,
+          365,
+          572,
+          917,
+          294,
+          7860,
+          51364
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.06437186166351917,
+        "compression_ratio": 1.2954545454545454,
+        "no_speech_prob": 0.12819908559322357,
+        "confidence": 0.777,
+        "words": [
+          {
+            "text": "Now",
+            "start": 143.82,
+            "end": 144.54,
+            "confidence": 0.469
+          },
+          {
+            "text": "I'm",
+            "start": 144.54,
+            "end": 144.94,
+            "confidence": 0.923
+          },
+          {
+            "text": "stuck",
+            "start": 144.94,
+            "end": 145.26,
+            "confidence": 0.994
+          },
+          {
+            "text": "in",
+            "start": 145.26,
+            "end": 145.44,
+            "confidence": 0.991
+          },
+          {
+            "text": "traffic,",
+            "start": 145.44,
+            "end": 146.16,
+            "confidence": 0.371
+          },
+          {
+            "text": "with",
+            "start": 146.4,
+            "end": 146.84,
+            "confidence": 0.919
+          },
+          {
+            "text": "no",
+            "start": 146.84,
+            "end": 147.28,
+            "confidence": 0.994
+          },
+          {
+            "text": "end",
+            "start": 147.28,
+            "end": 147.72,
+            "confidence": 0.987
+          },
+          {
+            "text": "in",
+            "start": 147.72,
+            "end": 148.2,
+            "confidence": 0.989
+          },
+          {
+            "text": "sight",
+            "start": 148.2,
+            "end": 149.14,
+            "confidence": 0.998
+          }
+        ],
+        "prompt": "A car driving on an open road through a field of green with the sun rising in the background."
+      },
+      {
+        "id": 12,
+        "seek": 6900,
+        "start": 152.17,
+        "end": 156.37,
+        "text": " How can I get ahead, beat the rest and get on top?",
+        "tokens": [
+          51364,
+          1012,
+          393,
+          286,
+          483,
+          2286,
+          11,
+          4224,
+          264,
+          1472,
+          293,
+          483,
+          322,
+          1192,
+          30,
+          51614
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.06437186166351917,
+        "compression_ratio": 1.2954545454545454,
+        "no_speech_prob": 0.12819908559322357,
+        "confidence": 0.851,
+        "words": [
+          {
+            "text": "How",
+            "start": 152.17,
+            "end": 152.49,
+            "confidence": 0.537
+          },
+          {
+            "text": "can",
+            "start": 152.49,
+            "end": 152.81,
+            "confidence": 0.985
+          },
+          {
+            "text": "I",
+            "start": 152.81,
+            "end": 153.05,
+            "confidence": 0.958
+          },
+          {
+            "text": "get",
+            "start": 153.05,
+            "end": 153.25,
+            "confidence": 0.984
+          },
+          {
+            "text": "ahead,",
+            "start": 153.25,
+            "end": 153.85,
+            "confidence": 0.796
+          },
+          {
+            "text": "beat",
+            "start": 154.11,
+            "end": 154.21,
+            "confidence": 0.947
+          },
+          {
+            "text": "the",
+            "start": 154.21,
+            "end": 154.43,
+            "confidence": 0.991
+          },
+          {
+            "text": "rest",
+            "start": 154.43,
+            "end": 154.71,
+            "confidence": 0.954
+          },
+          {
+            "text": "and",
+            "start": 154.71,
+            "end": 155.07,
+            "confidence": 0.617
+          },
+          {
+            "text": "get",
+            "start": 155.07,
+            "end": 155.29,
+            "confidence": 0.984
+          },
+          {
+            "text": "on",
+            "start": 155.29,
+            "end": 155.59,
+            "confidence": 0.961
+          },
+          {
+            "text": "top?",
+            "start": 155.59,
+            "end": 156.37,
+            "confidence": 0.795
+          }
+        ],
+        "prompt": "A car driving through winding country roads, with the orange and yellow hues of the sunrise just barely visible behind grey clouds."
+      },
+      {
+        "id": 13,
+        "seek": 9400,
+        "start": 166.48,
+        "end": 173.53,
+        "text": " And I'm cruising the M4",
+        "tokens": [
+          50364,
+          400,
+          286,
+          478,
+          27221,
+          385,
+          3288,
+          50964
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.056821011208199164,
+        "compression_ratio": 1.1666666666666667,
+        "no_speech_prob": 0.024807019159197807,
+        "confidence": 0.389,
+        "words": [
+          {
+            "text": "And",
+            "start": 166.48,
+            "end": 167.73,
+            "confidence": 0.126
+          },
+          {
+            "text": "I'm",
+            "start": 167.73,
+            "end": 169.23,
+            "confidence": 0.92
+          },
+          {
+            "text": "cruising",
+            "start": 169.23,
+            "end": 170.45,
+            "confidence": 0.807
+          },
+          {
+            "text": "the",
+            "start": 170.45,
+            "end": 172.19,
+            "confidence": 0.57
+          },
+          {
+            "text": "M4",
+            "start": 172.19,
+            "end": 173.53,
+            "confidence": 0.071
+          }
+        ],
+        "prompt": "A car driving through winding country roads under a bright blue sky."
+      },
+      {
+        "id": 14,
+        "seek": 9400,
+        "start": 192.23,
+        "end": 197.21,
+        "text": " Now the day is rising, but behind grey clouds",
+        "tokens": [
+          50964,
+          823,
+          264,
+          786,
+          307,
+          11636,
+          11,
+          457,
+          2261,
+          16578,
+          12193,
+          51264
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.056821011208199164,
+        "compression_ratio": 1.1666666666666667,
+        "no_speech_prob": 0.024807019159197807,
+        "confidence": 0.767,
+        "words": [
+          {
+            "text": "Now",
+            "start": 192.23,
+            "end": 192.47,
+            "confidence": 0.371
+          },
+          {
+            "text": "the",
+            "start": 192.47,
+            "end": 193.07,
+            "confidence": 0.943
+          },
+          {
+            "text": "day",
+            "start": 193.07,
+            "end": 193.29,
+            "confidence": 0.987
+          },
+          {
+            "text": "is",
+            "start": 193.29,
+            "end": 193.55,
+            "confidence": 0.994
+          },
+          {
+            "text": "rising,",
+            "start": 193.55,
+            "end": 194.23,
+            "confidence": 0.591
+          },
+          {
+            "text": "but",
+            "start": 194.65,
+            "end": 194.91,
+            "confidence": 0.876
+          },
+          {
+            "text": "behind",
+            "start": 194.91,
+            "end": 195.57,
+            "confidence": 0.987
+          },
+          {
+            "text": "grey",
+            "start": 195.57,
+            "end": 196.11,
+            "confidence": 0.685
+          },
+          {
+            "text": "clouds",
+            "start": 196.11,
+            "end": 197.21,
+            "confidence": 0.996
+          }
+        ],
+        "prompt": "A silhouetted figure driving a car down a winding country road, rays of sunlight peeking out from behind the clouds."
+      },
+      {
+        "id": 15,
+        "seek": 9400,
+        "start": 200.26,
+        "end": 205.5,
+        "text": " When will I see the blue, yellow sun and happy days?",
+        "tokens": [
+          51264,
+          1133,
+          486,
+          286,
+          536,
+          264,
+          3344,
+          11,
+          5566,
+          3295,
+          293,
+          2055,
+          1708,
+          30,
+          51664
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.056821011208199164,
+        "compression_ratio": 1.1666666666666667,
+        "no_speech_prob": 0.024807019159197807,
+        "confidence": 0.864,
+        "words": [
+          {
+            "text": "When",
+            "start": 200.26,
+            "end": 200.52,
+            "confidence": 0.685
+          },
+          {
+            "text": "will",
+            "start": 200.52,
+            "end": 200.8,
+            "confidence": 0.984
+          },
+          {
+            "text": "I",
+            "start": 200.8,
+            "end": 201.02,
+            "confidence": 0.972
+          },
+          {
+            "text": "see",
+            "start": 201.02,
+            "end": 201.26,
+            "confidence": 0.995
+          },
+          {
+            "text": "the",
+            "start": 201.26,
+            "end": 201.48,
+            "confidence": 0.985
+          },
+          {
+            "text": "blue,",
+            "start": 201.48,
+            "end": 201.9,
+            "confidence": 0.825
+          },
+          {
+            "text": "yellow",
+            "start": 201.98,
+            "end": 202.36,
+            "confidence": 0.977
+          },
+          {
+            "text": "sun",
+            "start": 202.36,
+            "end": 202.8,
+            "confidence": 0.941
+          },
+          {
+            "text": "and",
+            "start": 202.8,
+            "end": 203.1,
+            "confidence": 0.725
+          },
+          {
+            "text": "happy",
+            "start": 203.1,
+            "end": 203.44,
+            "confidence": 0.895
+          },
+          {
+            "text": "days?",
+            "start": 203.44,
+            "end": 205.5,
+            "confidence": 0.756
+          }
+        ],
+        "prompt": "Vibrant rays of sunshine streaming through a break in the clouds."
+      },
+      {
+        "id": 16,
+        "seek": 12000,
+        "start": 224.53,
+        "end": 231.37,
+        "text": " All on open road, flying through green farmland, twisting through country lanes",
+        "tokens": [
+          50364,
+          1057,
+          322,
+          1269,
+          3060,
+          11,
+          7137,
+          807,
+          3092,
+          5421,
+          1661,
+          11,
+          34491,
+          807,
+          1941,
+          25397,
+          50764
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.034284951839041206,
+        "compression_ratio": 1.8981481481481481,
+        "no_speech_prob": 0.12778937816619873,
+        "confidence": 0.582,
+        "words": [
+          {
+            "text": "All",
+            "start": 224.53,
+            "end": 224.55,
+            "confidence": 0.007
+          },
+          {
+            "text": "on",
+            "start": 224.55,
+            "end": 225.03,
+            "confidence": 0.956
+          },
+          {
+            "text": "open",
+            "start": 225.03,
+            "end": 225.37,
+            "confidence": 0.845
+          },
+          {
+            "text": "road,",
+            "start": 225.37,
+            "end": 226.09,
+            "confidence": 0.538
+          },
+          {
+            "text": "flying",
+            "start": 226.39,
+            "end": 226.71,
+            "confidence": 0.784
+          },
+          {
+            "text": "through",
+            "start": 226.71,
+            "end": 227.03,
+            "confidence": 0.954
+          },
+          {
+            "text": "green",
+            "start": 227.03,
+            "end": 227.37,
+            "confidence": 0.852
+          },
+          {
+            "text": "farmland,",
+            "start": 227.37,
+            "end": 228.19,
+            "confidence": 0.777
+          },
+          {
+            "text": "twisting",
+            "start": 228.43,
+            "end": 228.79,
+            "confidence": 0.698
+          },
+          {
+            "text": "through",
+            "start": 228.79,
+            "end": 229.09,
+            "confidence": 0.977
+          },
+          {
+            "text": "country",
+            "start": 229.09,
+            "end": 229.59,
+            "confidence": 0.961
+          },
+          {
+            "text": "lanes",
+            "start": 229.59,
+            "end": 231.37,
+            "confidence": 0.969
+          }
+        ],
+        "prompt": "A car speeding through winding country roads, the sun rising in the distance."
+      },
+      {
+        "id": 17,
+        "seek": 12000,
+        "start": 231.47,
+        "end": 239.13,
+        "text": " There's nothing quite like the freedom I feel",
+        "tokens": [
+          50764,
+          821,
+          311,
+          1825,
+          1596,
+          411,
+          264,
+          5645,
+          286,
+          841,
+          51164
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.034284951839041206,
+        "compression_ratio": 1.8981481481481481,
+        "no_speech_prob": 0.12778937816619873,
+        "confidence": 0.926,
+        "words": [
+          {
+            "text": "There's",
+            "start": 231.47,
+            "end": 232.29,
+            "confidence": 0.784
+          },
+          {
+            "text": "nothing",
+            "start": 232.29,
+            "end": 233.89,
+            "confidence": 0.965
+          },
+          {
+            "text": "quite",
+            "start": 233.89,
+            "end": 234.79,
+            "confidence": 0.953
+          },
+          {
+            "text": "like",
+            "start": 234.79,
+            "end": 235.69,
+            "confidence": 0.948
+          },
+          {
+            "text": "the",
+            "start": 235.69,
+            "end": 236.19,
+            "confidence": 0.976
+          },
+          {
+            "text": "freedom",
+            "start": 236.19,
+            "end": 237.39,
+            "confidence": 0.984
+          },
+          {
+            "text": "I",
+            "start": 237.39,
+            "end": 238.23,
+            "confidence": 0.973
+          },
+          {
+            "text": "feel",
+            "start": 238.23,
+            "end": 239.13,
+            "confidence": 0.997
+          }
+        ],
+        "prompt": "A sunburst peeping through the clouds illuminating a winding road with the driver's arms outstretched in celebration."
+      },
+      {
+        "id": 18,
+        "seek": 12000,
+        "start": 239.13,
+        "end": 247.37,
+        "text": " All on open road, flying through green farmland, twisting through country lanes",
+        "tokens": [
+          51164,
+          1057,
+          322,
+          1269,
+          3060,
+          11,
+          7137,
+          807,
+          3092,
+          5421,
+          1661,
+          11,
+          34491,
+          807,
+          1941,
+          25397,
+          51564
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.034284951839041206,
+        "compression_ratio": 1.8981481481481481,
+        "no_speech_prob": 0.12778937816619873,
+        "confidence": 0.466,
+        "words": [
+          {
+            "text": "All",
+            "start": 239.13,
+            "end": 240.69,
+            "confidence": 0.011
+          },
+          {
+            "text": "on",
+            "start": 240.69,
+            "end": 240.97,
+            "confidence": 0.824
+          },
+          {
+            "text": "open",
+            "start": 240.97,
+            "end": 241.43,
+            "confidence": 0.818
+          },
+          {
+            "text": "road,",
+            "start": 241.43,
+            "end": 242.09,
+            "confidence": 0.738
+          },
+          {
+            "text": "flying",
+            "start": 242.57,
+            "end": 242.73,
+            "confidence": 0.732
+          },
+          {
+            "text": "through",
+            "start": 242.73,
+            "end": 243.03,
+            "confidence": 0.959
+          },
+          {
+            "text": "green",
+            "start": 243.03,
+            "end": 243.37,
+            "confidence": 0.813
+          },
+          {
+            "text": "farmland,",
+            "start": 243.37,
+            "end": 244.11,
+            "confidence": 0.194
+          },
+          {
+            "text": "twisting",
+            "start": 244.49,
+            "end": 244.79,
+            "confidence": 0.698
+          },
+          {
+            "text": "through",
+            "start": 244.79,
+            "end": 245.09,
+            "confidence": 0.969
+          },
+          {
+            "text": "country",
+            "start": 245.09,
+            "end": 245.49,
+            "confidence": 0.962
+          },
+          {
+            "text": "lanes",
+            "start": 245.49,
+            "end": 247.37,
+            "confidence": 0.963
+          }
+        ],
+        "prompt": "Vibrant blue sky with a yellow sun, illuminated green farmland and a winding country road."
+      },
+      {
+        "id": 19,
+        "seek": 14400,
+        "start": 247.37,
+        "end": 255.61,
+        "text": " There's nothing quite like the freedom I feel",
+        "tokens": [
+          50364,
+          821,
+          311,
+          1825,
+          1596,
+          411,
+          264,
+          5645,
+          286,
+          841,
+          50764
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.022821954110773597,
+        "compression_ratio": 1.5981308411214954,
+        "no_speech_prob": 0.7558228969573975,
+        "confidence": 0.916,
+        "words": [
+          {
+            "text": "There's",
+            "start": 247.37,
+            "end": 248.11,
+            "confidence": 0.746
+          },
+          {
+            "text": "nothing",
+            "start": 248.11,
+            "end": 249.91,
+            "confidence": 0.971
+          },
+          {
+            "text": "quite",
+            "start": 249.91,
+            "end": 250.95,
+            "confidence": 0.95
+          },
+          {
+            "text": "like",
+            "start": 250.95,
+            "end": 251.69,
+            "confidence": 0.976
+          },
+          {
+            "text": "the",
+            "start": 251.69,
+            "end": 252.15,
+            "confidence": 0.973
+          },
+          {
+            "text": "freedom",
+            "start": 252.15,
+            "end": 253.39,
+            "confidence": 0.978
+          },
+          {
+            "text": "I",
+            "start": 253.39,
+            "end": 254.15,
+            "confidence": 0.973
+          },
+          {
+            "text": "feel",
+            "start": 254.15,
+            "end": 255.61,
+            "confidence": 0.983
+          }
+        ],
+        "prompt": "A cyclist riding a bike against a backdrop of a bright yellow sun and green fields."
+      },
+      {
+        "id": 20,
+        "seek": 14400,
+        "start": 256.29,
+        "end": 263.39,
+        "text": " All on open road, flying through green farmland, twisting through country lanes",
+        "tokens": [
+          50764,
+          1057,
+          322,
+          1269,
+          3060,
+          11,
+          7137,
+          807,
+          3092,
+          5421,
+          1661,
+          11,
+          34491,
+          807,
+          1941,
+          25397,
+          51164
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.022821954110773597,
+        "compression_ratio": 1.5981308411214954,
+        "no_speech_prob": 0.7558228969573975,
+        "confidence": 0.634,
+        "words": [
+          {
+            "text": "All",
+            "start": 256.29,
+            "end": 256.71,
+            "confidence": 0.039
+          },
+          {
+            "text": "on",
+            "start": 256.71,
+            "end": 257.01,
+            "confidence": 0.916
+          },
+          {
+            "text": "open",
+            "start": 257.01,
+            "end": 257.35,
+            "confidence": 0.803
+          },
+          {
+            "text": "road,",
+            "start": 257.35,
+            "end": 258.07,
+            "confidence": 0.812
+          },
+          {
+            "text": "flying",
+            "start": 258.53,
+            "end": 258.73,
+            "confidence": 0.639
+          },
+          {
+            "text": "through",
+            "start": 258.73,
+            "end": 259.05,
+            "confidence": 0.959
+          },
+          {
+            "text": "green",
+            "start": 259.05,
+            "end": 259.37,
+            "confidence": 0.816
+          },
+          {
+            "text": "farmland,",
+            "start": 259.37,
+            "end": 260.17,
+            "confidence": 0.569
+          },
+          {
+            "text": "twisting",
+            "start": 260.43,
+            "end": 260.79,
+            "confidence": 0.686
+          },
+          {
+            "text": "through",
+            "start": 260.79,
+            "end": 261.11,
+            "confidence": 0.984
+          },
+          {
+            "text": "country",
+            "start": 261.11,
+            "end": 261.51,
+            "confidence": 0.98
+          },
+          {
+            "text": "lanes",
+            "start": 261.51,
+            "end": 263.39,
+            "confidence": 0.95
+          }
+        ],
+        "prompt": "Windswept road leading to a countryside sunset."
+      },
+      {
+        "id": 21,
+        "seek": 14400,
+        "start": 263.39,
+        "end": 271.27,
+        "text": " There's nothing quite like the freedom I feel",
+        "tokens": [
+          51164,
+          821,
+          311,
+          1825,
+          1596,
+          411,
+          264,
+          5645,
+          286,
+          841,
+          51564
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.022821954110773597,
+        "compression_ratio": 1.5981308411214954,
+        "no_speech_prob": 0.7558228969573975,
+        "confidence": 0.879,
+        "words": [
+          {
+            "text": "There's",
+            "start": 263.39,
+            "end": 264.19,
+            "confidence": 0.619
+          },
+          {
+            "text": "nothing",
+            "start": 264.19,
+            "end": 265.89,
+            "confidence": 0.969
+          },
+          {
+            "text": "quite",
+            "start": 265.89,
+            "end": 266.91,
+            "confidence": 0.946
+          },
+          {
+            "text": "like",
+            "start": 266.91,
+            "end": 267.67,
+            "confidence": 0.978
+          },
+          {
+            "text": "the",
+            "start": 267.67,
+            "end": 268.13,
+            "confidence": 0.973
+          },
+          {
+            "text": "freedom",
+            "start": 268.13,
+            "end": 269.37,
+            "confidence": 0.978
+          },
+          {
+            "text": "I",
+            "start": 269.37,
+            "end": 270.15,
+            "confidence": 0.963
+          },
+          {
+            "text": "feel",
+            "start": 270.15,
+            "end": 271.27,
+            "confidence": 0.993
+          }
+        ],
+        "prompt": "Vibrant sunrise illuminating a winding country road."
+      },
+      {
+        "id": 22,
+        "seek": 16800,
+        "start": 272.31,
+        "end": 279.41,
+        "text": " All on open road, flying through green farmland, twisting through country lanes",
+        "tokens": [
+          50364,
+          1057,
+          322,
+          1269,
+          3060,
+          11,
+          7137,
+          807,
+          3092,
+          5421,
+          1661,
+          11,
+          34491,
+          807,
+          1941,
+          25397,
+          50764
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.03291128216118648,
+        "compression_ratio": 1.2254901960784315,
+        "no_speech_prob": 0.769996166229248,
+        "confidence": 0.58,
+        "words": [
+          {
+            "text": "All",
+            "start": 272.31,
+            "end": 272.71,
+            "confidence": 0.048
+          },
+          {
+            "text": "on",
+            "start": 272.71,
+            "end": 273.03,
+            "confidence": 0.932
+          },
+          {
+            "text": "open",
+            "start": 273.03,
+            "end": 273.41,
+            "confidence": 0.829
+          },
+          {
+            "text": "road,",
+            "start": 273.41,
+            "end": 274.13,
+            "confidence": 0.689
+          },
+          {
+            "text": "flying",
+            "start": 274.61,
+            "end": 274.75,
+            "confidence": 0.744
+          },
+          {
+            "text": "through",
+            "start": 274.75,
+            "end": 275.05,
+            "confidence": 0.952
+          },
+          {
+            "text": "green",
+            "start": 275.05,
+            "end": 275.37,
+            "confidence": 0.87
+          },
+          {
+            "text": "farmland,",
+            "start": 275.37,
+            "end": 276.15,
+            "confidence": 0.351
+          },
+          {
+            "text": "twisting",
+            "start": 276.33,
+            "end": 276.79,
+            "confidence": 0.737
+          },
+          {
+            "text": "through",
+            "start": 276.79,
+            "end": 277.11,
+            "confidence": 0.977
+          },
+          {
+            "text": "country",
+            "start": 277.11,
+            "end": 277.47,
+            "confidence": 0.96
+          },
+          {
+            "text": "lanes",
+            "start": 277.47,
+            "end": 279.41,
+            "confidence": 0.863
+          }
+        ],
+        "prompt": "Vast countryside landscape with a lone car driving in the foreground."
+      },
+      {
+        "id": 23,
+        "seek": 16800,
+        "start": 279.47,
+        "end": 287.13,
+        "text": " There's nothing quite like the freedom I feel",
+        "tokens": [
+          50764,
+          821,
+          311,
+          1825,
+          1596,
+          411,
+          264,
+          5645,
+          286,
+          841,
+          51164
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.03291128216118648,
+        "compression_ratio": 1.2254901960784315,
+        "no_speech_prob": 0.769996166229248,
+        "confidence": 0.902,
+        "words": [
+          {
+            "text": "There's",
+            "start": 279.47,
+            "end": 280.71,
+            "confidence": 0.713
+          },
+          {
+            "text": "nothing",
+            "start": 280.71,
+            "end": 281.97,
+            "confidence": 0.964
+          },
+          {
+            "text": "quite",
+            "start": 281.97,
+            "end": 282.89,
+            "confidence": 0.942
+          },
+          {
+            "text": "like",
+            "start": 282.89,
+            "end": 283.69,
+            "confidence": 0.978
+          },
+          {
+            "text": "the",
+            "start": 283.69,
+            "end": 284.19,
+            "confidence": 0.945
+          },
+          {
+            "text": "freedom",
+            "start": 284.19,
+            "end": 285.37,
+            "confidence": 0.982
+          },
+          {
+            "text": "I",
+            "start": 285.37,
+            "end": 286.21,
+            "confidence": 0.954
+          },
+          {
+            "text": "feel",
+            "start": 286.21,
+            "end": 287.13,
+            "confidence": 0.989
+          }
+        ],
+        "prompt": "A car driving through a winding road surrounded by green hills and a bright yellow sun."
+      }
+    ],
+    "language": "en"
+  },
+  "duration": 296.17632653061224
+}

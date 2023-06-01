@@ -1,1624 +1,2009 @@
 {
-    "animation": {
-        "keyframes_per_second": 3,
-        "keyframe_zoom_animations": "0: (1.03), 109: (1.40), 110: (1.20), 111: (1.40), 112: (1.20), 113: (1.10), 114: (1.03), 116: (1.40), 117: (1.20), 118: (1.40), 119: (1.20), 120: (1.40), 121: (1.20), 122: (1.40), 123: (1.20), 124: (1.10), 125: (1.40), 126: (1.20), 127: (1.40), 128: (1.20), 129: (1.40), 130: (1.40), 131: (1.40), 132: (1.20), 133: (1.40), 134: (1.20), 135: (1.10), 136: (1.40), 137: (1.20), 138: (1.40), 139: (1.20), 140: (1.40), 141: (1.20), 142: (1.40), 143: (1.20), 144: (1.10), 145: (1.03), 147: (1.40), 148: (1.20), 149: (1.10), 150: (1.03), 151: (1.40), 152: (1.20), 153: (1.40), 154: (1.20), 155: (1.40), 156: (1.20), 157: (1.10), 158: (1.03), 160: (1.40), 161: (1.20), 162: (1.40), 163: (1.20), 164: (1.10), 165: (1.03), 184: (1.40), 185: (1.20), 186: (1.10), 187: (1.03), 226: (1.40), 227: (1.40), 228: (1.40), 229: (1.40), 230: (1.40), 231: (1.40), 232: (1.40), 233: (1.20), 234: (1.40), 235: (1.20), 236: (1.10), 237: (1.40), 238: (1.20), 239: (1.40), 240: (1.20), 241: (1.40), 242: (1.20), 243: (1.40), 244: (1.20), 245: (1.40), 246: (1.20), 247: (1.10), 248: (1.40), 249: (1.20), 250: (1.40), 251: (1.20), 252: (1.40), 253: (1.20), 254: (1.40), 255: (1.20), 256: (1.40), 257: (1.20), 258: (1.10), 259: (1.40), 260: (1.20), 261: (1.40), 262: (1.20), 263: (1.40), 264: (1.40), 265: (1.40), 266: (1.20), 267: (1.10), 268: (1.03), 269: (1.40), 270: (1.20), 271: (1.10), 272: (1.03), 274: (1.40), 275: (1.20), 276: (1.10), 277: (1.03), 278: (1.40), 279: (1.40), 280: (1.20), 281: (1.10), 282: (1.40), 283: (1.40), 284: (1.40), 285: (1.20), 286: (1.10), 287: (1.03), 290: (1.40), 291: (1.40), 292: (1.20), 293: (1.40), 294: (1.20), 295: (1.40), 296: (1.20), 297: (1.40), 298: (1.20), 299: (1.40), 300: (1.20), 301: (1.10), 302: (1.03), 303: (1.40), 304: (1.20), 305: (1.10), 306: (1.03), 308: (1.40), 309: (1.40), 310: (1.40), 311: (1.20), 312: (1.40), 313: (1.20), 314: (1.10), 315: (1.40), 316: (1.40), 317: (1.20), 318: (1.40), 319: (1.20), 320: (1.10), 321: (1.40), 322: (1.20), 323: (1.10), 324: (1.40), 325: (1.40), 326: (1.20), 327: (1.40), 328: (1.20), 329: (1.40), 330: (1.20), 331: (1.10), 332: (1.40), 333: (1.40), 334: (1.20), 335: (1.10), 336: (1.03), 338: (1.40), 339: (1.20), 340: (1.10), 341: (1.40), 342: (1.40), 343: (1.20), 344: (1.10), 345: (1.40), 346: (1.40), 347: (1.20), 348: (1.40), 349: (1.20), 350: (1.40), 351: (1.40), 352: (1.20), 353: (1.40), 354: (1.20), 355: (1.10), 356: (1.03), 413: (1.40), 414: (1.20), 415: (1.10), 416: (1.40), 417: (1.40), 418: (1.40), 419: (1.40), 420: (1.40), 421: (1.40), 422: (1.20), 423: (1.10), 424: (1.40), 425: (1.20), 426: (1.40), 427: (1.20), 428: (1.40), 429: (1.20), 430: (1.10), 431: (1.40), 432: (1.20), 433: (1.40), 434: (1.20), 435: (1.40), 436: (1.20), 437: (1.40), 438: (1.20), 439: (1.10), 440: (1.03), 441: (1.40), 442: (1.20), 443: (1.10), 444: (1.03), 446: (1.40), 447: (1.40), 448: (1.40), 449: (1.20), 450: (1.40), 451: (1.20), 452: (1.40), 453: (1.20), 454: (1.10), 455: (1.03), 458: (1.40), 459: (1.20), 460: (1.10), 461: (1.03), 462: (1.40), 463: (1.20), 464: (1.10), 465: (1.03), 469: (1.40), 470: (1.40), 471: (1.40), 472: (1.40), 473: (1.40), 474: (1.20), 475: (1.40), 476: (1.20), 477: (1.10), 478: (1.03), 480: (1.40), 481: (1.20), 482: (1.40), 483: (1.20), 484: (1.40), 485: (1.20), 486: (1.10), 487: (1.03), 492: (1.40), 493: (1.20), 494: (1.10), 495: (1.40), 496: (1.20), 497: (1.10), 498: (1.03), 499: (1.40), 500: (1.20), 501: (1.40), 502: (1.20), 503: (1.40), 504: (1.20), 505: (1.40), 506: (1.20), 507: (1.40), 508: (1.20), 509: (1.40), 510: (1.20), 511: (1.10), 512: (1.03), 514: (1.40), 515: (1.20), 516: (1.10), 517: (1.40), 518: (1.40), 519: (1.20), 520: (1.10), 521: (1.03), 522: (1.40), 523: (1.20), 524: (1.10), 525: (1.03), 526: (1.40), 527: (1.20), 528: (1.40), 529: (1.40), 530: (1.40), 531: (1.20), 532: (1.40), 533: (1.20), 534: (1.40), 535: (1.20), 536: (1.10), 537: (1.03), 539: (1.40), 540: (1.40), 541: (1.40), 542: (1.20), 543: (1.40), 544: (1.40), 545: (1.20), 546: (1.10), 547: (1.40), 548: (1.20), 549: (1.10), 550: (1.03), 551: (1.40), 552: (1.20), 553: (1.10), 554: (1.03), 559: (1.40), 560: (1.20), 561: (1.10), 562: (1.03), 563: (1.40), 564: (1.40), 565: (1.20), 566: (1.40), 567: (1.20), 568: (1.10), 569: (1.40), 570: (1.20), 571: (1.40), 572: (1.40), 573: (1.20), 574: (1.10), 575: (1.03), 577: (1.40), 578: (1.20), 579: (1.40), 580: (1.20), 581: (1.40), 582: (1.20), 583: (1.40), 584: (1.40), 585: (1.40), 586: (1.40), 587: (1.20), 588: (1.10), 589: (1.03), 592: (1.40), 593: (1.20), 594: (1.40), 595: (1.40), 596: (1.20), 597: (1.40), 598: (1.40), 599: (1.20), 600: (1.40), 601: (1.20), 602: (1.40), 603: (1.20), 604: (1.40), 605: (1.20), 606: (1.10), 607: (1.03), 608: (1.40), 609: (1.20), 610: (1.10), 611: (1.40), 612: (1.20), 613: (1.10), 614: (1.03), 616: (1.40), 617: (1.40), 618: (1.40), 619: (1.20), 620: (1.10), 621: (1.40), 622: (1.20), 623: (1.10), 624: (1.40), 625: (1.20), 626: (1.10), 627: (1.40), 628: (1.40), 629: (1.20), 630: (1.10), 631: (1.03), 633: (1.40), 634: (1.20), 635: (1.40), 636: (1.20), 637: (1.10), 638: (1.40), 639: (1.20), 640: (1.40), 641: (1.40), 642: (1.20), 643: (1.10), 644: (1.40), 645: (1.20), 646: (1.10), 647: (1.40), 648: (1.20), 649: (1.10), 650: (1.40), 651: (1.20), 652: (1.40), 653: (1.40), 654: (1.20), 655: (1.10), 656: (1.40), 657: (1.20), 658: (1.10), 659: (1.03), 660: (1.40), 661: (1.20), 662: (1.10), 663: (1.40), 664: (1.20), 665: (1.10), 666: (1.03), 667: (1.40), 668: (1.40), 669: (1.40), 670: (1.20), 671: (1.40), 672: (1.20), 673: (1.40), 674: (1.40), 675: (1.20), 676: (1.10), 677: (1.40), 678: (1.40), 679: (1.40), 680: (1.40), 681: (1.40), 682: (1.20), 683: (1.40), 684: (1.20), 685: (1.40), 686: (1.20), 687: (1.10), 688: (1.03), 690: (1.40), 692: (1.40), 695: (1.40), 698: (1.40), 699: (1.40), 700: (1.40), 703: (1.40), 706: (1.40), 709: (1.40), 711: (1.40), 713: (1.40), 714: (1.40), 715: (1.40), 716: (1.40), 717: (1.40), 721: (1.40), 723: (1.40), 726: (1.40), 729: (1.40), 731: (1.40), 734: (1.40), 737: (1.40), 739: (1.40), 741: (1.40), 744: (1.40), 755: (1.40)"
-    },
-    "estd_bpm": 172.265625,
-    "style": "Mystic",
-    "keyframes": {
-        "0": {
-            "prompt": "Dreamy sky with stars and crescent moon, silhouettes of people asleep in a tent."
-        },
-        "38": {
-            "lyric": " Go to sleep, we're so tired now",
-            "prompt": "A sailboat floating away on a sea of dreams."
-        },
-        "56": {
-            "lyric": " All together and asleep in our souls",
-            "prompt": "Circle of people sleeping peacefully surrounded by a bright starry sky."
-        },
-        "74": {
-            "lyric": " New days, though you've changed the way",
-            "prompt": "Sailboat adrift in a stormy sea with passengers looking up to the night sky full of stars."
-        },
-        "92": {
-            "lyric": " Try to hang your hopes on the wind",
-            "prompt": "Dawn sky over a small boat, a flock of birds taking flight in the distance as a single seagull lingers in the air."
-        },
-        "110": {
-            "lyric": " Little one, just a little way",
-            "prompt": "Waves of colorful dreams floating in the night sky."
-        },
-        "129": {
-            "lyric": " Today, all we need is play",
-            "prompt": "A child and a boat in the middle of a turbulent sea, illuminated by a soft golden light."
-        },
-        "152": {
-            "lyric": " Night rise, like the evening prize",
-            "prompt": "Moonlit sky illuminated by a cloud of twinkling stars, a small boat drifting away from a beach with a single passenger on board."
-        },
-        "181": {
-            "lyric": " In the tent style, backwards we'd fly",
-            "prompt": "Sailboat sailing away under starry night sky with dreams of a new day in the distance."
-        },
-        "198": {
-            "lyric": " Cold bones, tied together by",
-            "prompt": "Intertwined black ropes connecting a group of skeletal figures, flying away in a makeshift boat."
-        },
-        "216": {
-            "lyric": " Black ropes we pull from the sleigh",
-            "prompt": "Children flying in a hot air balloon, holding onto thick black ropes."
-        },
-        "234": {
-            "lyric": " Little one, just a little way",
-            "prompt": "Sleeping figures in a boat navigating a turbulent sea with bright stars in the sky."
-        },
-        "251": {
-            "lyric": " Today, our dreams are breaking",
-            "prompt": "Swirling stars in a night sky, illuminating a small boat as it sails away."
-        },
-        "285": {
-            "lyric": " Can't stand on crooked legs",
-            "prompt": "A boat with tattered sails being pulled through turbulent waves by a rope made of black ribbons."
-        },
-        "297": {
-            "lyric": " I'll crawl side to the wall",
-            "prompt": "Sailboat navigating through a stormy sea with a rainbow in the distance."
-        },
-        "313": {
-            "lyric": " When all these satellites go",
-            "prompt": "Stars falling in the night sky, creating a ripple effect in the ocean."
-        },
-        "352": {
-            "lyric": " Down, down, sailors run aground",
-            "prompt": "Rising sun illuminating a boat with a tattered sail, adrift in a turbulent sea."
-        },
-        "371": {
-            "lyric": " In a sea change, nothing is safe",
-            "prompt": "Rising Tide of Colorful Dreams."
-        },
-        "388": {
-            "lyric": " Strange waves push us every way",
-            "prompt": "Person standing on a beach watching a boat drift away into the twilight horizon."
-        },
-        "406": {
-            "lyric": " In a stolen boat, we'll float away",
-            "prompt": "\"Vivid visual prompt"
-        },
-        "422": {
-            "lyric": " Little one, just a little way",
-            "prompt": "Mismatched sails billowing in the wind of an endless horizon, a small boat with two figures in it, looking ahead."
-        },
-        "441": {
-            "lyric": " Today, all we need is play",
-            "prompt": "Children running through a garden, their laughter echoing as they play in the sunshine, their dreams of adventure taking them further and further away."
-        },
-        "473": {
-            "lyric": " Little one, just a little way",
-            "prompt": "Sailboat silhouetted against a rising sun, a small figure on deck waving goodbye."
-        },
-        "492": {
-            "lyric": " Today, all our dreams are waking",
-            "prompt": "A child standing in a boat, surrounded by a sea of dreams that are slowly coming to life."
-        },
-        "524": {
-            "lyric": " Little one, all of our dreams are waking",
-            "prompt": "A rowboat with a small child standing in the bow, drifting away in a sea filled with stars."
-        }
-    },
-    "full_transcript": {
-        "text": " Go to sleep, we're so tired now All together and asleep in our souls New days, though you've changed the way Try to hang your hopes on the wind Little one, just a little way Today, all we need is play Night rise, like the evening prize In the tent style, backwards we'd fly Cold bones, tied together by Black ropes we pull from the sleigh Little one, just a little way Today, our dreams are breaking Can't stand on crooked legs I'll crawl side to the wall When all these satellites go Down, down, sailors run aground In a sea change, nothing is safe Strange waves push us every way In a stolen boat, we'll float away Little one, just a little way Today, all we need is play Little one, just a little way Today, all our dreams are waking Little one, all of our dreams are waking",
-        "segments": [
-            {
-                "id": 0,
-                "seek": 0,
-                "start": 12.77,
-                "end": 18.23,
-                "text": " Go to sleep, we're so tired now",
-                "tokens": [
-                    50364,
-                    1037,
-                    281,
-                    2817,
-                    11,
-                    321,
-                    434,
-                    370,
-                    5868,
-                    586,
-                    50664
-                ],
-                "temperature": 0.0,
-                "avg_logprob": -0.2386936407822829,
-                "compression_ratio": 1.3515625,
-                "no_speech_prob": 0.4366404712200165,
-                "confidence": 0.78,
-                "words": [
-                    {
-                        "text": "Go",
-                        "start": 12.77,
-                        "end": 13.21,
-                        "confidence": 0.296
-                    },
-                    {
-                        "text": "to",
-                        "start": 13.21,
-                        "end": 13.61,
-                        "confidence": 0.985
-                    },
-                    {
-                        "text": "sleep,",
-                        "start": 13.61,
-                        "end": 14.71,
-                        "confidence": 0.663
-                    },
-                    {
-                        "text": "we're",
-                        "start": 15.95,
-                        "end": 16.29,
-                        "confidence": 0.941
-                    },
-                    {
-                        "text": "so",
-                        "start": 16.29,
-                        "end": 16.53,
-                        "confidence": 0.968
-                    },
-                    {
-                        "text": "tired",
-                        "start": 16.53,
-                        "end": 17.19,
-                        "confidence": 0.996
-                    },
-                    {
-                        "text": "now",
-                        "start": 17.19,
-                        "end": 18.23,
-                        "confidence": 0.98
-                    }
-                ]
-            },
-            {
-                "id": 1,
-                "seek": 0,
-                "start": 18.83,
-                "end": 23.59,
-                "text": " All together and asleep in our souls",
-                "tokens": [
-                    50664,
-                    1057,
-                    1214,
-                    293,
-                    11039,
-                    294,
-                    527,
-                    16588,
-                    50964
-                ],
-                "temperature": 0.0,
-                "avg_logprob": -0.2386936407822829,
-                "compression_ratio": 1.3515625,
-                "no_speech_prob": 0.4366404712200165,
-                "confidence": 0.38,
-                "words": [
-                    {
-                        "text": "All",
-                        "start": 18.83,
-                        "end": 19.33,
-                        "confidence": 0.372
-                    },
-                    {
-                        "text": "together",
-                        "start": 19.33,
-                        "end": 20.67,
-                        "confidence": 0.963
-                    },
-                    {
-                        "text": "and",
-                        "start": 20.67,
-                        "end": 21.09,
-                        "confidence": 0.049
-                    },
-                    {
-                        "text": "asleep",
-                        "start": 21.09,
-                        "end": 21.67,
-                        "confidence": 0.363
-                    },
-                    {
-                        "text": "in",
-                        "start": 21.67,
-                        "end": 22.05,
-                        "confidence": 0.946
-                    },
-                    {
-                        "text": "our",
-                        "start": 22.05,
-                        "end": 22.43,
-                        "confidence": 0.197
-                    },
-                    {
-                        "text": "souls",
-                        "start": 22.43,
-                        "end": 23.59,
-                        "confidence": 0.97
-                    }
-                ]
-            },
-            {
-                "id": 2,
-                "seek": 0,
-                "start": 24.77,
-                "end": 30.39,
-                "text": " New days, though you've changed the way",
-                "tokens": [
-                    50964,
-                    1873,
-                    1708,
-                    11,
-                    1673,
-                    291,
-                    600,
-                    3105,
-                    264,
-                    636,
-                    51264
-                ],
-                "temperature": 0.0,
-                "avg_logprob": -0.2386936407822829,
-                "compression_ratio": 1.3515625,
-                "no_speech_prob": 0.4366404712200165,
-                "confidence": 0.474,
-                "words": [
-                    {
-                        "text": "New",
-                        "start": 24.77,
-                        "end": 25.51,
-                        "confidence": 0.154
-                    },
-                    {
-                        "text": "days,",
-                        "start": 25.51,
-                        "end": 26.93,
-                        "confidence": 0.561
-                    },
-                    {
-                        "text": "though",
-                        "start": 27.99,
-                        "end": 28.19,
-                        "confidence": 0.184
-                    },
-                    {
-                        "text": "you've",
-                        "start": 28.19,
-                        "end": 28.55,
-                        "confidence": 0.394
-                    },
-                    {
-                        "text": "changed",
-                        "start": 28.55,
-                        "end": 29.13,
-                        "confidence": 0.985
-                    },
-                    {
-                        "text": "the",
-                        "start": 29.13,
-                        "end": 29.61,
-                        "confidence": 0.91
-                    },
-                    {
-                        "text": "way",
-                        "start": 29.61,
-                        "end": 30.39,
-                        "confidence": 0.965
-                    }
-                ]
-            },
-            {
-                "id": 3,
-                "seek": 0,
-                "start": 30.67,
-                "end": 35.73,
-                "text": " Try to hang your hopes on the wind",
-                "tokens": [
-                    51264,
-                    6526,
-                    281,
-                    3967,
-                    428,
-                    13681,
-                    322,
-                    264,
-                    2468,
-                    51514
-                ],
-                "temperature": 0.0,
-                "avg_logprob": -0.2386936407822829,
-                "compression_ratio": 1.3515625,
-                "no_speech_prob": 0.4366404712200165,
-                "confidence": 0.852,
-                "words": [
-                    {
-                        "text": "Try",
-                        "start": 30.67,
-                        "end": 31.31,
-                        "confidence": 0.677
-                    },
-                    {
-                        "text": "to",
-                        "start": 31.31,
-                        "end": 31.67,
-                        "confidence": 0.959
-                    },
-                    {
-                        "text": "hang",
-                        "start": 31.67,
-                        "end": 32.35,
-                        "confidence": 0.944
-                    },
-                    {
-                        "text": "your",
-                        "start": 32.35,
-                        "end": 33.13,
-                        "confidence": 0.839
-                    },
-                    {
-                        "text": "hopes",
-                        "start": 33.13,
-                        "end": 33.61,
-                        "confidence": 0.939
-                    },
-                    {
-                        "text": "on",
-                        "start": 33.61,
-                        "end": 34.23,
-                        "confidence": 0.663
-                    },
-                    {
-                        "text": "the",
-                        "start": 34.23,
-                        "end": 34.57,
-                        "confidence": 0.993
-                    },
-                    {
-                        "text": "wind",
-                        "start": 34.57,
-                        "end": 35.73,
-                        "confidence": 0.871
-                    }
-                ]
-            },
-            {
-                "id": 4,
-                "seek": 0,
-                "start": 36.81,
-                "end": 42.16,
-                "text": " Little one, just a little way",
-                "tokens": [
-                    51514,
-                    8022,
-                    472,
-                    11,
-                    445,
-                    257,
-                    707,
-                    636,
-                    51814
-                ],
-                "temperature": 0.0,
-                "avg_logprob": -0.2386936407822829,
-                "compression_ratio": 1.3515625,
-                "no_speech_prob": 0.4366404712200165,
-                "confidence": 0.501,
-                "words": [
-                    {
-                        "text": "Little",
-                        "start": 36.81,
-                        "end": 37.75,
-                        "confidence": 0.123
-                    },
-                    {
-                        "text": "one,",
-                        "start": 37.75,
-                        "end": 39.01,
-                        "confidence": 0.618
-                    },
-                    {
-                        "text": "just",
-                        "start": 39.77,
-                        "end": 40.35,
-                        "confidence": 0.849
-                    },
-                    {
-                        "text": "a",
-                        "start": 40.35,
-                        "end": 40.87,
-                        "confidence": 0.985
-                    },
-                    {
-                        "text": "little",
-                        "start": 40.87,
-                        "end": 41.43,
-                        "confidence": 0.991
-                    },
-                    {
-                        "text": "way",
-                        "start": 41.43,
-                        "end": 42.16,
-                        "confidence": 0.203
-                    }
-                ]
-            },
-            {
-                "id": 5,
-                "seek": 2900,
-                "start": 42.87,
-                "end": 48.89,
-                "text": " Today, all we need is play",
-                "tokens": [
-                    50364,
-                    2692,
-                    11,
-                    439,
-                    321,
-                    643,
-                    307,
-                    862,
-                    50814
-                ],
-                "temperature": 0.0,
-                "avg_logprob": -0.3930972172663762,
-                "compression_ratio": 1.1636363636363636,
-                "no_speech_prob": 0.03176971897482872,
-                "confidence": 0.458,
-                "words": [
-                    {
-                        "text": "Today,",
-                        "start": 42.87,
-                        "end": 44.69,
-                        "confidence": 0.465
-                    },
-                    {
-                        "text": "all",
-                        "start": 44.91,
-                        "end": 45.77,
-                        "confidence": 0.461
-                    },
-                    {
-                        "text": "we",
-                        "start": 45.77,
-                        "end": 46.35,
-                        "confidence": 0.991
-                    },
-                    {
-                        "text": "need",
-                        "start": 46.35,
-                        "end": 47.11,
-                        "confidence": 0.995
-                    },
-                    {
-                        "text": "is",
-                        "start": 47.11,
-                        "end": 47.81,
-                        "confidence": 0.976
-                    },
-                    {
-                        "text": "play",
-                        "start": 47.81,
-                        "end": 48.89,
-                        "confidence": 0.044
-                    }
-                ]
-            },
-            {
-                "id": 6,
-                "seek": 2900,
-                "start": 50.55,
-                "end": 59.58,
-                "text": " Night rise, like the evening prize",
-                "tokens": [
-                    50814,
-                    10190,
-                    6272,
-                    11,
-                    411,
-                    264,
-                    5634,
-                    12818,
-                    51114
-                ],
-                "temperature": 0.0,
-                "avg_logprob": -0.3930972172663762,
-                "compression_ratio": 1.1636363636363636,
-                "no_speech_prob": 0.03176971897482872,
-                "confidence": 0.245,
-                "words": [
-                    {
-                        "text": "Night",
-                        "start": 50.55,
-                        "end": 51.73,
-                        "confidence": 0.008
-                    },
-                    {
-                        "text": "rise,",
-                        "start": 54.92,
-                        "end": 56.44,
-                        "confidence": 0.127
-                    },
-                    {
-                        "text": "like",
-                        "start": 57.6,
-                        "end": 57.82,
-                        "confidence": 0.668
-                    },
-                    {
-                        "text": "the",
-                        "start": 57.82,
-                        "end": 58.44,
-                        "confidence": 0.959
-                    },
-                    {
-                        "text": "evening",
-                        "start": 58.44,
-                        "end": 58.94,
-                        "confidence": 0.98
-                    },
-                    {
-                        "text": "prize",
-                        "start": 58.94,
-                        "end": 59.58,
-                        "confidence": 0.697
-                    }
-                ]
-            },
-            {
-                "id": 7,
-                "seek": 2900,
-                "start": 60.28,
-                "end": 64.9,
-                "text": " In the tent style, backwards we'd fly",
-                "tokens": [
-                    51114,
-                    682,
-                    264,
-                    7054,
-                    3758,
-                    11,
-                    12204,
-                    321,
-                    1116,
-                    3603,
-                    51414
-                ],
-                "temperature": 0.0,
-                "avg_logprob": -0.3930972172663762,
-                "compression_ratio": 1.1636363636363636,
-                "no_speech_prob": 0.03176971897482872,
-                "confidence": 0.381,
-                "words": [
-                    {
-                        "text": "In",
-                        "start": 60.28,
-                        "end": 60.8,
-                        "confidence": 0.279
-                    },
-                    {
-                        "text": "the",
-                        "start": 60.8,
-                        "end": 61.26,
-                        "confidence": 0.727
-                    },
-                    {
-                        "text": "tent",
-                        "start": 61.26,
-                        "end": 61.62,
-                        "confidence": 0.048
-                    },
-                    {
-                        "text": "style,",
-                        "start": 61.62,
-                        "end": 62.4,
-                        "confidence": 0.291
-                    },
-                    {
-                        "text": "backwards",
-                        "start": 62.76,
-                        "end": 63.28,
-                        "confidence": 0.91
-                    },
-                    {
-                        "text": "we'd",
-                        "start": 63.28,
-                        "end": 63.92,
-                        "confidence": 0.488
-                    },
-                    {
-                        "text": "fly",
-                        "start": 63.92,
-                        "end": 64.9,
-                        "confidence": 0.941
-                    }
-                ]
-            },
-            {
-                "id": 8,
-                "seek": 2900,
-                "start": 65.88,
-                "end": 71.4,
-                "text": " Cold bones, tied together by",
-                "tokens": [
-                    51414,
-                    16918,
-                    10491,
-                    11,
-                    9601,
-                    1214,
-                    538,
-                    51714
-                ],
-                "temperature": 0.0,
-                "avg_logprob": -0.3930972172663762,
-                "compression_ratio": 1.1636363636363636,
-                "no_speech_prob": 0.03176971897482872,
-                "confidence": 0.283,
-                "words": [
-                    {
-                        "text": "Cold",
-                        "start": 65.88,
-                        "end": 66.84,
-                        "confidence": 0.034
-                    },
-                    {
-                        "text": "bones,",
-                        "start": 66.84,
-                        "end": 68.42,
-                        "confidence": 0.173
-                    },
-                    {
-                        "text": "tied",
-                        "start": 69.04,
-                        "end": 69.5,
-                        "confidence": 0.596
-                    },
-                    {
-                        "text": "together",
-                        "start": 69.5,
-                        "end": 70.64,
-                        "confidence": 0.995
-                    },
-                    {
-                        "text": "by",
-                        "start": 70.64,
-                        "end": 71.4,
-                        "confidence": 0.841
-                    }
-                ]
-            },
-            {
-                "id": 9,
-                "seek": 5600,
-                "start": 72.04,
-                "end": 77.04,
-                "text": " Black ropes we pull from the sleigh",
-                "tokens": [
-                    50364,
-                    4076,
-                    32964,
-                    321,
-                    2235,
-                    490,
-                    264,
-                    2426,
-                    910,
-                    50664
-                ],
-                "temperature": 0.0,
-                "avg_logprob": -0.20351652196935704,
-                "compression_ratio": 1.1481481481481481,
-                "no_speech_prob": 0.0548190176486969,
-                "confidence": 0.632,
-                "words": [
-                    {
-                        "text": "Black",
-                        "start": 72.04,
-                        "end": 72.76,
-                        "confidence": 0.488
-                    },
-                    {
-                        "text": "ropes",
-                        "start": 72.76,
-                        "end": 73.5,
-                        "confidence": 0.184
-                    },
-                    {
-                        "text": "we",
-                        "start": 73.5,
-                        "end": 74.28,
-                        "confidence": 0.756
-                    },
-                    {
-                        "text": "pull",
-                        "start": 74.28,
-                        "end": 74.82,
-                        "confidence": 0.953
-                    },
-                    {
-                        "text": "from",
-                        "start": 74.82,
-                        "end": 75.2,
-                        "confidence": 0.938
-                    },
-                    {
-                        "text": "the",
-                        "start": 75.2,
-                        "end": 75.68,
-                        "confidence": 0.688
-                    },
-                    {
-                        "text": "sleigh",
-                        "start": 75.68,
-                        "end": 77.04,
-                        "confidence": 0.778
-                    }
-                ]
-            },
-            {
-                "id": 10,
-                "seek": 5600,
-                "start": 77.88,
-                "end": 83.24,
-                "text": " Little one, just a little way",
-                "tokens": [
-                    50664,
-                    8022,
-                    472,
-                    11,
-                    445,
-                    257,
-                    707,
-                    636,
-                    50964
-                ],
-                "temperature": 0.0,
-                "avg_logprob": -0.20351652196935704,
-                "compression_ratio": 1.1481481481481481,
-                "no_speech_prob": 0.0548190176486969,
-                "confidence": 0.481,
-                "words": [
-                    {
-                        "text": "Little",
-                        "start": 77.88,
-                        "end": 78.5,
-                        "confidence": 0.042
-                    },
-                    {
-                        "text": "one,",
-                        "start": 78.5,
-                        "end": 79.98,
-                        "confidence": 0.516
-                    },
-                    {
-                        "text": "just",
-                        "start": 80.98,
-                        "end": 81.4,
-                        "confidence": 0.925
-                    },
-                    {
-                        "text": "a",
-                        "start": 81.4,
-                        "end": 81.86,
-                        "confidence": 0.763
-                    },
-                    {
-                        "text": "little",
-                        "start": 81.86,
-                        "end": 82.26,
-                        "confidence": 0.989
-                    },
-                    {
-                        "text": "way",
-                        "start": 82.26,
-                        "end": 83.24,
-                        "confidence": 0.756
-                    }
-                ]
-            },
-            {
-                "id": 11,
-                "seek": 5600,
-                "start": 83.82,
-                "end": 89.7,
-                "text": " Today, our dreams are breaking",
-                "tokens": [
-                    50964,
-                    2692,
-                    11,
-                    527,
-                    7505,
-                    366,
-                    7697,
-                    51464
-                ],
-                "temperature": 0.0,
-                "avg_logprob": -0.20351652196935704,
-                "compression_ratio": 1.1481481481481481,
-                "no_speech_prob": 0.0548190176486969,
-                "confidence": 0.594,
-                "words": [
-                    {
-                        "text": "Today,",
-                        "start": 83.82,
-                        "end": 85.76,
-                        "confidence": 0.477
-                    },
-                    {
-                        "text": "our",
-                        "start": 86.2,
-                        "end": 86.98,
-                        "confidence": 0.554
-                    },
-                    {
-                        "text": "dreams",
-                        "start": 86.98,
-                        "end": 87.96,
-                        "confidence": 0.995
-                    },
-                    {
-                        "text": "are",
-                        "start": 87.96,
-                        "end": 88.84,
-                        "confidence": 0.943
-                    },
-                    {
-                        "text": "breaking",
-                        "start": 88.84,
-                        "end": 89.7,
-                        "confidence": 0.37
-                    }
-                ]
-            },
-            {
-                "id": 12,
-                "seek": 5600,
-                "start": 95.14,
-                "end": 99.14,
-                "text": " Can't stand on crooked legs",
-                "tokens": [
-                    51464,
-                    1664,
-                    380,
-                    1463,
-                    322,
-                    41710,
-                    5668,
-                    51664
-                ],
-                "temperature": 0.0,
-                "avg_logprob": -0.20351652196935704,
-                "compression_ratio": 1.1481481481481481,
-                "no_speech_prob": 0.0548190176486969,
-                "confidence": 0.49,
-                "words": [
-                    {
-                        "text": "Can't",
-                        "start": 95.14,
-                        "end": 96.26,
-                        "confidence": 0.407
-                    },
-                    {
-                        "text": "stand",
-                        "start": 96.26,
-                        "end": 96.66,
-                        "confidence": 0.928
-                    },
-                    {
-                        "text": "on",
-                        "start": 96.66,
-                        "end": 97.44,
-                        "confidence": 0.423
-                    },
-                    {
-                        "text": "crooked",
-                        "start": 97.44,
-                        "end": 98.24,
-                        "confidence": 0.216
-                    },
-                    {
-                        "text": "legs",
-                        "start": 98.24,
-                        "end": 99.14,
-                        "confidence": 0.992
-                    }
-                ]
-            },
-            {
-                "id": 13,
-                "seek": 8200,
-                "start": 99.14,
-                "end": 103.48,
-                "text": " I'll crawl side to the wall",
-                "tokens": [
-                    50364,
-                    286,
-                    603,
-                    24767,
-                    1252,
-                    281,
-                    264,
-                    2929,
-                    50614
-                ],
-                "temperature": 0.0,
-                "avg_logprob": -0.26385811755531713,
-                "compression_ratio": 1.2222222222222223,
-                "no_speech_prob": 0.25405654311180115,
-                "confidence": 0.161,
-                "words": [
-                    {
-                        "text": "I'll",
-                        "start": 99.14,
-                        "end": 100.22,
-                        "confidence": 0.054
-                    },
-                    {
-                        "text": "crawl",
-                        "start": 100.22,
-                        "end": 100.88,
-                        "confidence": 0.001
-                    },
-                    {
-                        "text": "side",
-                        "start": 100.88,
-                        "end": 101.52,
-                        "confidence": 0.83
-                    },
-                    {
-                        "text": "to",
-                        "start": 101.52,
-                        "end": 102.5,
-                        "confidence": 0.96
-                    },
-                    {
-                        "text": "the",
-                        "start": 102.5,
-                        "end": 102.9,
-                        "confidence": 0.898
-                    },
-                    {
-                        "text": "wall",
-                        "start": 102.9,
-                        "end": 103.48,
-                        "confidence": 0.932
-                    }
-                ]
-            },
-            {
-                "id": 14,
-                "seek": 8200,
-                "start": 104.46,
-                "end": 112.58,
-                "text": " When all these satellites go",
-                "tokens": [
-                    50614,
-                    1133,
-                    439,
-                    613,
-                    24960,
-                    352,
-                    51164
-                ],
-                "temperature": 0.0,
-                "avg_logprob": -0.26385811755531713,
-                "compression_ratio": 1.2222222222222223,
-                "no_speech_prob": 0.25405654311180115,
-                "confidence": 0.377,
-                "words": [
-                    {
-                        "text": "When",
-                        "start": 104.46,
-                        "end": 104.82,
-                        "confidence": 0.119
-                    },
-                    {
-                        "text": "all",
-                        "start": 104.82,
-                        "end": 105.06,
-                        "confidence": 0.824
-                    },
-                    {
-                        "text": "these",
-                        "start": 105.06,
-                        "end": 105.8,
-                        "confidence": 0.948
-                    },
-                    {
-                        "text": "satellites",
-                        "start": 105.8,
-                        "end": 107.96,
-                        "confidence": 0.088
-                    },
-                    {
-                        "text": "go",
-                        "start": 107.96,
-                        "end": 112.58,
-                        "confidence": 0.928
-                    }
-                ]
-            },
-            {
-                "id": 15,
-                "seek": 8200,
-                "start": 117.42,
-                "end": 123.11,
-                "text": " Down, down, sailors run aground",
-                "tokens": [
-                    51164,
-                    9506,
-                    11,
-                    760,
-                    11,
-                    42036,
-                    1190,
-                    623,
-                    5453,
-                    51464
-                ],
-                "temperature": 0.0,
-                "avg_logprob": -0.26385811755531713,
-                "compression_ratio": 1.2222222222222223,
-                "no_speech_prob": 0.25405654311180115,
-                "confidence": 0.459,
-                "words": [
-                    {
-                        "text": "Down,",
-                        "start": 117.42,
-                        "end": 118.65,
-                        "confidence": 0.267
-                    },
-                    {
-                        "text": "down,",
-                        "start": 120.35,
-                        "end": 120.37,
-                        "confidence": 0.669
-                    },
-                    {
-                        "text": "sailors",
-                        "start": 121.13,
-                        "end": 121.55,
-                        "confidence": 0.762
-                    },
-                    {
-                        "text": "run",
-                        "start": 121.55,
-                        "end": 122.33,
-                        "confidence": 0.397
-                    },
-                    {
-                        "text": "aground",
-                        "start": 122.33,
-                        "end": 123.11,
-                        "confidence": 0.451
-                    }
-                ]
-            },
-            {
-                "id": 16,
-                "seek": 8200,
-                "start": 123.81,
-                "end": 128.09,
-                "text": " In a sea change, nothing is safe",
-                "tokens": [
-                    51464,
-                    682,
-                    257,
-                    4158,
-                    1319,
-                    11,
-                    1825,
-                    307,
-                    3273,
-                    51714
-                ],
-                "temperature": 0.0,
-                "avg_logprob": -0.26385811755531713,
-                "compression_ratio": 1.2222222222222223,
-                "no_speech_prob": 0.25405654311180115,
-                "confidence": 0.663,
-                "words": [
-                    {
-                        "text": "In",
-                        "start": 123.81,
-                        "end": 124.25,
-                        "confidence": 0.4
-                    },
-                    {
-                        "text": "a",
-                        "start": 124.25,
-                        "end": 124.69,
-                        "confidence": 0.758
-                    },
-                    {
-                        "text": "sea",
-                        "start": 124.69,
-                        "end": 125.13,
-                        "confidence": 0.938
-                    },
-                    {
-                        "text": "change,",
-                        "start": 125.13,
-                        "end": 125.87,
-                        "confidence": 0.386
-                    },
-                    {
-                        "text": "nothing",
-                        "start": 125.91,
-                        "end": 126.67,
-                        "confidence": 0.938
-                    },
-                    {
-                        "text": "is",
-                        "start": 126.67,
-                        "end": 127.39,
-                        "confidence": 0.989
-                    },
-                    {
-                        "text": "safe",
-                        "start": 127.39,
-                        "end": 128.09,
-                        "confidence": 0.948
-                    }
-                ]
-            },
-            {
-                "id": 17,
-                "seek": 10900,
-                "start": 129.19,
-                "end": 134.63,
-                "text": " Strange waves push us every way",
-                "tokens": [
-                    50364,
-                    29068,
-                    9417,
-                    2944,
-                    505,
-                    633,
-                    636,
-                    50664
-                ],
-                "temperature": 0.0,
-                "avg_logprob": -0.14929929146399865,
-                "compression_ratio": 1.1941747572815533,
-                "no_speech_prob": 0.03834560140967369,
-                "confidence": 0.396,
-                "words": [
-                    {
-                        "text": "Strange",
-                        "start": 129.19,
-                        "end": 130.21,
-                        "confidence": 0.231
-                    },
-                    {
-                        "text": "waves",
-                        "start": 130.21,
-                        "end": 131.59,
-                        "confidence": 0.955
-                    },
-                    {
-                        "text": "push",
-                        "start": 131.59,
-                        "end": 132.89,
-                        "confidence": 0.036
-                    },
-                    {
-                        "text": "us",
-                        "start": 132.89,
-                        "end": 133.41,
-                        "confidence": 0.981
-                    },
-                    {
-                        "text": "every",
-                        "start": 133.41,
-                        "end": 134.15,
-                        "confidence": 0.607
-                    },
-                    {
-                        "text": "way",
-                        "start": 134.15,
-                        "end": 134.63,
-                        "confidence": 0.805
-                    }
-                ]
-            },
-            {
-                "id": 18,
-                "seek": 10900,
-                "start": 135.39,
-                "end": 139.37,
-                "text": " In a stolen boat, we'll float away",
-                "tokens": [
-                    50664,
-                    682,
-                    257,
-                    15900,
-                    6582,
-                    11,
-                    321,
-                    603,
-                    15706,
-                    1314,
-                    50964
-                ],
-                "temperature": 0.0,
-                "avg_logprob": -0.14929929146399865,
-                "compression_ratio": 1.1941747572815533,
-                "no_speech_prob": 0.03834560140967369,
-                "confidence": 0.674,
-                "words": [
-                    {
-                        "text": "In",
-                        "start": 135.39,
-                        "end": 135.93,
-                        "confidence": 0.35
-                    },
-                    {
-                        "text": "a",
-                        "start": 135.93,
-                        "end": 136.39,
-                        "confidence": 0.964
-                    },
-                    {
-                        "text": "stolen",
-                        "start": 136.39,
-                        "end": 136.91,
-                        "confidence": 0.952
-                    },
-                    {
-                        "text": "boat,",
-                        "start": 136.91,
-                        "end": 137.43,
-                        "confidence": 0.593
-                    },
-                    {
-                        "text": "we'll",
-                        "start": 137.77,
-                        "end": 138.13,
-                        "confidence": 0.511
-                    },
-                    {
-                        "text": "float",
-                        "start": 138.13,
-                        "end": 138.49,
-                        "confidence": 0.982
-                    },
-                    {
-                        "text": "away",
-                        "start": 138.49,
-                        "end": 139.37,
-                        "confidence": 0.996
-                    }
-                ]
-            },
-            {
-                "id": 19,
-                "seek": 10900,
-                "start": 140.72,
-                "end": 146.36,
-                "text": " Little one, just a little way",
-                "tokens": [
-                    50964,
-                    8022,
-                    472,
-                    11,
-                    445,
-                    257,
-                    707,
-                    636,
-                    51264
-                ],
-                "temperature": 0.0,
-                "avg_logprob": -0.14929929146399865,
-                "compression_ratio": 1.1941747572815533,
-                "no_speech_prob": 0.03834560140967369,
-                "confidence": 0.422,
-                "words": [
-                    {
-                        "text": "Little",
-                        "start": 140.72,
-                        "end": 141.88,
-                        "confidence": 0.02
-                    },
-                    {
-                        "text": "one,",
-                        "start": 141.88,
-                        "end": 143.16,
-                        "confidence": 0.495
-                    },
-                    {
-                        "text": "just",
-                        "start": 144.0,
-                        "end": 144.62,
-                        "confidence": 0.865
-                    },
-                    {
-                        "text": "a",
-                        "start": 144.62,
-                        "end": 145.06,
-                        "confidence": 0.983
-                    },
-                    {
-                        "text": "little",
-                        "start": 145.06,
-                        "end": 145.46,
-                        "confidence": 0.994
-                    },
-                    {
-                        "text": "way",
-                        "start": 145.46,
-                        "end": 146.36,
-                        "confidence": 0.567
-                    }
-                ]
-            },
-            {
-                "id": 20,
-                "seek": 10900,
-                "start": 146.92,
-                "end": 152.54,
-                "text": " Today, all we need is play",
-                "tokens": [
-                    51264,
-                    2692,
-                    11,
-                    439,
-                    321,
-                    643,
-                    307,
-                    862,
-                    51764
-                ],
-                "temperature": 0.0,
-                "avg_logprob": -0.14929929146399865,
-                "compression_ratio": 1.1941747572815533,
-                "no_speech_prob": 0.03834560140967369,
-                "confidence": 0.164,
-                "words": [
-                    {
-                        "text": "Today,",
-                        "start": 146.92,
-                        "end": 148.8,
-                        "confidence": 0.51
-                    },
-                    {
-                        "text": "all",
-                        "start": 148.94,
-                        "end": 149.82,
-                        "confidence": 0.016
-                    },
-                    {
-                        "text": "we",
-                        "start": 149.82,
-                        "end": 150.34,
-                        "confidence": 0.929
-                    },
-                    {
-                        "text": "need",
-                        "start": 150.34,
-                        "end": 151.12,
-                        "confidence": 0.98
-                    },
-                    {
-                        "text": "is",
-                        "start": 151.12,
-                        "end": 151.78,
-                        "confidence": 0.982
-                    },
-                    {
-                        "text": "play",
-                        "start": 151.78,
-                        "end": 152.54,
-                        "confidence": 0.001
-                    }
-                ]
-            },
-            {
-                "id": 21,
-                "seek": 13700,
-                "start": 157.58,
-                "end": 163.35,
-                "text": " Little one, just a little way",
-                "tokens": [
-                    50364,
-                    8022,
-                    472,
-                    11,
-                    445,
-                    257,
-                    707,
-                    636,
-                    50664
-                ],
-                "temperature": 0.0,
-                "avg_logprob": -0.11176201105117797,
-                "compression_ratio": 0.9841269841269841,
-                "no_speech_prob": 0.02503206767141819,
-                "confidence": 0.15,
-                "words": [
-                    {
-                        "text": "Little",
-                        "start": 157.58,
-                        "end": 158.97,
-                        "confidence": 0.006
-                    },
-                    {
-                        "text": "one,",
-                        "start": 158.97,
-                        "end": 160.27,
-                        "confidence": 0.52
-                    },
-                    {
-                        "text": "just",
-                        "start": 161.25,
-                        "end": 161.65,
-                        "confidence": 0.829
-                    },
-                    {
-                        "text": "a",
-                        "start": 161.65,
-                        "end": 162.11,
-                        "confidence": 0.871
-                    },
-                    {
-                        "text": "little",
-                        "start": 162.11,
-                        "end": 162.55,
-                        "confidence": 0.998
-                    },
-                    {
-                        "text": "way",
-                        "start": 162.55,
-                        "end": 163.35,
-                        "confidence": 0.002
-                    }
-                ]
-            },
-            {
-                "id": 22,
-                "seek": 13700,
-                "start": 163.95,
-                "end": 170.13,
-                "text": " Today, all our dreams are waking",
-                "tokens": [
-                    50664,
-                    2692,
-                    11,
-                    439,
-                    527,
-                    7505,
-                    366,
-                    20447,
-                    51164
-                ],
-                "temperature": 0.0,
-                "avg_logprob": -0.11176201105117797,
-                "compression_ratio": 0.9841269841269841,
-                "no_speech_prob": 0.02503206767141819,
-                "confidence": 0.561,
-                "words": [
-                    {
-                        "text": "Today,",
-                        "start": 163.95,
-                        "end": 165.89,
-                        "confidence": 0.39
-                    },
-                    {
-                        "text": "all",
-                        "start": 166.27,
-                        "end": 166.75,
-                        "confidence": 0.79
-                    },
-                    {
-                        "text": "our",
-                        "start": 166.75,
-                        "end": 167.11,
-                        "confidence": 0.214
-                    },
-                    {
-                        "text": "dreams",
-                        "start": 167.11,
-                        "end": 167.93,
-                        "confidence": 0.997
-                    },
-                    {
-                        "text": "are",
-                        "start": 167.93,
-                        "end": 168.83,
-                        "confidence": 0.772
-                    },
-                    {
-                        "text": "waking",
-                        "start": 168.83,
-                        "end": 170.13,
-                        "confidence": 0.88
-                    }
-                ]
-            },
-            {
-                "id": 23,
-                "seek": 15300,
-                "start": 174.67,
-                "end": 188.29,
-                "text": " Little one, all of our dreams are waking",
-                "tokens": [
-                    50364,
-                    8022,
-                    472,
-                    11,
-                    439,
-                    295,
-                    527,
-                    7505,
-                    366,
-                    20447,
-                    51214
-                ],
-                "temperature": 0.0,
-                "avg_logprob": -0.29603012402852374,
-                "compression_ratio": 0.8333333333333334,
-                "no_speech_prob": 0.11636201292276382,
-                "confidence": 0.299,
-                "words": [
-                    {
-                        "text": "Little",
-                        "start": 174.67,
-                        "end": 175.85,
-                        "confidence": 0.1
-                    },
-                    {
-                        "text": "one,",
-                        "start": 175.85,
-                        "end": 177.2,
-                        "confidence": 0.527
-                    },
-                    {
-                        "text": "all",
-                        "start": 178.25,
-                        "end": 179.15,
-                        "confidence": 0.051
-                    },
-                    {
-                        "text": "of",
-                        "start": 181.02,
-                        "end": 182.42,
-                        "confidence": 0.354
-                    },
-                    {
-                        "text": "our",
-                        "start": 183.31,
-                        "end": 183.81,
-                        "confidence": 0.049
-                    },
-                    {
-                        "text": "dreams",
-                        "start": 183.81,
-                        "end": 184.55,
-                        "confidence": 0.975
-                    },
-                    {
-                        "text": "are",
-                        "start": 184.55,
-                        "end": 185.49,
-                        "confidence": 0.941
-                    },
-                    {
-                        "text": "waking",
-                        "start": 185.49,
-                        "end": 188.29,
-                        "confidence": 0.847
-                    }
-                ]
-            }
+  "animation": {
+    "keyframes_per_second": 3,
+    "zoom_animation_times": {
+      "00000.00": "1.00",
+      "00036.11": "1.40",
+      "00036.61": "1.00",
+      "00036.87": "1.40",
+      "00037.37": "1.00",
+      "00038.38": "1.40",
+      "00038.88": "1.00",
+      "00039.13": "1.40",
+      "00039.63": "1.00",
+      "00039.85": "1.40",
+      "00040.35": "1.00",
+      "00040.61": "1.40",
+      "00041.11": "1.00",
+      "00041.35": "1.40",
+      "00041.85": "1.00",
+      "00042.10": "1.40",
+      "00042.60": "1.00",
+      "00042.82": "1.40",
+      "00043.01": "1.08",
+      "00043.21": "1.40",
+      "00043.39": "1.12",
+      "00043.56": "1.40",
+      "00044.06": "1.00",
+      "00044.30": "1.40",
+      "00044.80": "1.00",
+      "00045.05": "1.40",
+      "00045.55": "1.00",
+      "00045.79": "1.40",
+      "00046.29": "1.00",
+      "00046.53": "1.40",
+      "00047.03": "1.00",
+      "00047.23": "1.40",
+      "00047.73": "1.00",
+      "00048.69": "1.40",
+      "00049.19": "1.00",
+      "00050.16": "1.40",
+      "00050.66": "1.00",
+      "00050.87": "1.40",
+      "00051.37": "1.00",
+      "00051.57": "1.40",
+      "00052.07": "1.00",
+      "00053.01": "1.40",
+      "00053.51": "1.00",
+      "00053.75": "1.40",
+      "00054.25": "1.00",
+      "00061.02": "1.40",
+      "00061.52": "1.00",
+      "00075.07": "1.40",
+      "00075.24": "1.12",
+      "00075.42": "1.40",
+      "00075.60": "1.10",
+      "00075.79": "1.40",
+      "00076.29": "1.00",
+      "00076.32": "1.40",
+      "00076.41": "1.27",
+      "00076.49": "1.40",
+      "00076.66": "1.12",
+      "00076.83": "1.40",
+      "00077.02": "1.10",
+      "00077.21": "1.40",
+      "00077.71": "1.00",
+      "00077.95": "1.40",
+      "00078.45": "1.00",
+      "00078.69": "1.40",
+      "00079.19": "1.00",
+      "00079.41": "1.40",
+      "00079.91": "1.00",
+      "00080.16": "1.40",
+      "00080.66": "1.00",
+      "00080.88": "1.40",
+      "00081.38": "1.00",
+      "00081.59": "1.40",
+      "00082.09": "1.00",
+      "00082.34": "1.40",
+      "00082.84": "1.00",
+      "00083.06": "1.40",
+      "00083.56": "1.00",
+      "00083.80": "1.40",
+      "00084.30": "1.00",
+      "00084.54": "1.40",
+      "00085.04": "1.00",
+      "00085.26": "1.40",
+      "00085.76": "1.00",
+      "00086.01": "1.40",
+      "00086.51": "1.00",
+      "00086.73": "1.40",
+      "00087.23": "1.00",
+      "00087.45": "1.40",
+      "00087.63": "1.10",
+      "00087.82": "1.40",
+      "00087.99": "1.12",
+      "00088.17": "1.40",
+      "00088.67": "1.00",
+      "00089.61": "1.40",
+      "00090.11": "1.00",
+      "00091.02": "1.40",
+      "00091.52": "1.00",
+      "00092.44": "1.40",
+      "00092.61": "1.12",
+      "00092.79": "1.40",
+      "00093.29": "1.00",
+      "00093.86": "1.40",
+      "00094.02": "1.14",
+      "00094.18": "1.40",
+      "00094.27": "1.25",
+      "00094.37": "1.40",
+      "00094.87": "1.00",
+      "00096.34": "1.40",
+      "00096.51": "1.12",
+      "00096.69": "1.40",
+      "00097.19": "1.00",
+      "00097.41": "1.40",
+      "00097.91": "1.00",
+      "00098.13": "1.40",
+      "00098.63": "1.00",
+      "00098.85": "1.40",
+      "00099.35": "1.00",
+      "00099.57": "1.40",
+      "00100.07": "1.00",
+      "00100.98": "1.40",
+      "00101.48": "1.00",
+      "00102.42": "1.40",
+      "00102.60": "1.12",
+      "00102.77": "1.40",
+      "00102.95": "1.12",
+      "00103.12": "1.40",
+      "00103.62": "1.00",
+      "00103.84": "1.40",
+      "00104.34": "1.00",
+      "00104.91": "1.40",
+      "00105.09": "1.10",
+      "00105.28": "1.40",
+      "00105.78": "1.00",
+      "00105.98": "1.40",
+      "00106.48": "1.00",
+      "00106.70": "1.40",
+      "00107.20": "1.00",
+      "00107.79": "1.40",
+      "00107.96": "1.12",
+      "00108.14": "1.40",
+      "00108.64": "1.00",
+      "00108.86": "1.40",
+      "00109.36": "1.00",
+      "00109.55": "1.40",
+      "00110.05": "1.00",
+      "00110.62": "1.40",
+      "00110.79": "1.12",
+      "00110.97": "1.40",
+      "00111.47": "1.00",
+      "00112.41": "1.40",
+      "00112.91": "1.00",
+      "00113.48": "1.40",
+      "00113.65": "1.12",
+      "00113.82": "1.40",
+      "00114.32": "1.00",
+      "00114.89": "1.40",
+      "00115.07": "1.12",
+      "00115.24": "1.40",
+      "00115.74": "1.00",
+      "00115.75": "1.40",
+      "00116.25": "1.00",
+      "00116.45": "1.40",
+      "00116.53": "1.27",
+      "00116.61": "1.40",
+      "00116.80": "1.10",
+      "00116.98": "1.40",
+      "00117.17": "1.10",
+      "00117.35": "1.40",
+      "00117.85": "1.00",
+      "00137.65": "1.40",
+      "00138.15": "1.00",
+      "00138.37": "1.40",
+      "00138.87": "1.00",
+      "00138.88": "1.40",
+      "00138.97": "1.25",
+      "00139.06": "1.40",
+      "00139.16": "1.25",
+      "00139.25": "1.40",
+      "00139.33": "1.27",
+      "00139.41": "1.40",
+      "00139.59": "1.12",
+      "00139.76": "1.40",
+      "00139.87": "1.23",
+      "00139.97": "1.40",
+      "00140.05": "1.27",
+      "00140.13": "1.40",
+      "00140.63": "1.00",
+      "00141.22": "1.40",
+      "00141.72": "1.00",
+      "00141.94": "1.40",
+      "00142.44": "1.00",
+      "00142.66": "1.40",
+      "00143.16": "1.00",
+      "00143.38": "1.40",
+      "00143.88": "1.00",
+      "00144.08": "1.40",
+      "00144.58": "1.00",
+      "00144.80": "1.40",
+      "00145.30": "1.00",
+      "00145.50": "1.40",
+      "00146.00": "1.00",
+      "00146.94": "1.40",
+      "00147.44": "1.00",
+      "00148.38": "1.40",
+      "00148.56": "1.10",
+      "00148.75": "1.40",
+      "00148.92": "1.12",
+      "00149.10": "1.40",
+      "00149.60": "1.00",
+      "00149.79": "1.40",
+      "00150.29": "1.00",
+      "00150.51": "1.40",
+      "00151.01": "1.00",
+      "00152.65": "1.40",
+      "00153.15": "1.00",
+      "00153.72": "1.40",
+      "00154.22": "1.00",
+      "00156.15": "1.40",
+      "00156.25": "1.25",
+      "00156.34": "1.40",
+      "00156.58": "1.01",
+      "00156.83": "1.40",
+      "00157.00": "1.12",
+      "00157.18": "1.40",
+      "00157.35": "1.12",
+      "00157.52": "1.40",
+      "00158.02": "1.00",
+      "00158.24": "1.40",
+      "00158.74": "1.00",
+      "00159.68": "1.40",
+      "00160.18": "1.00",
+      "00160.40": "1.40",
+      "00160.90": "1.00",
+      "00161.10": "1.40",
+      "00161.60": "1.00",
+      "00163.96": "1.40",
+      "00164.46": "1.00",
+      "00164.68": "1.40",
+      "00165.18": "1.00",
+      "00166.09": "1.40",
+      "00166.59": "1.00",
+      "00166.79": "1.40",
+      "00167.29": "1.00",
+      "00167.51": "1.40",
+      "00168.01": "1.00",
+      "00168.18": "1.40",
+      "00168.68": "1.00",
+      "00168.74": "1.40",
+      "00169.24": "1.00",
+      "00169.60": "1.40",
+      "00170.10": "1.00",
+      "00171.01": "1.40",
+      "00171.51": "1.00",
+      "00172.06": "1.40",
+      "00172.23": "1.12",
+      "00172.41": "1.40",
+      "00172.91": "1.00",
+      "00173.75": "1.40",
+      "00174.25": "1.00",
+      "00175.15": "1.40",
+      "00175.65": "1.00",
+      "00175.71": "1.40",
+      "00175.95": "1.01",
+      "00176.19": "1.40",
+      "00176.37": "1.12",
+      "00176.54": "1.40",
+      "00177.04": "1.00",
+      "00177.24": "1.40",
+      "00177.74": "1.00",
+      "00177.93": "1.40",
+      "00178.43": "1.00",
+      "00179.35": "1.40",
+      "00179.53": "1.12",
+      "00179.70": "1.40",
+      "00179.86": "1.14",
+      "00180.02": "1.40",
+      "00180.52": "1.00",
+      "00180.74": "1.40",
+      "00181.24": "1.00",
+      "00181.28": "1.40",
+      "00181.78": "1.00",
+      "00182.14": "1.40",
+      "00182.64": "1.00",
+      "00183.55": "1.40",
+      "00184.05": "1.00",
+      "00186.29": "1.40",
+      "00186.79": "1.00",
+      "00187.34": "1.40",
+      "00187.84": "1.00",
+      "00187.87": "1.40",
+      "00188.12": "1.01",
+      "00188.36": "1.40",
+      "00188.86": "1.00",
+      "00189.57": "1.40",
+      "00190.07": "1.00",
+      "00190.24": "1.40",
+      "00190.31": "1.29",
+      "00190.38": "1.40",
+      "00190.88": "1.00",
+      "00192.28": "1.40",
+      "00192.53": "1.01",
+      "00192.77": "1.40",
+      "00193.27": "1.00",
+      "00193.45": "1.40",
+      "00193.95": "1.00",
+      "00194.12": "1.40",
+      "00194.29": "1.12",
+      "00194.47": "1.40",
+      "00194.63": "1.14",
+      "00194.79": "1.40",
+      "00194.97": "1.12",
+      "00195.14": "1.40",
+      "00195.64": "1.00",
+      "00197.14": "1.40",
+      "00197.64": "1.00",
+      "00197.67": "1.40",
+      "00197.90": "1.03",
+      "00198.14": "1.40",
+      "00198.64": "1.00",
+      "00198.67": "1.40",
+      "00198.75": "1.27",
+      "00198.83": "1.40",
+      "00199.00": "1.14",
+      "00199.16": "1.40",
+      "00199.66": "1.00",
+      "00199.83": "1.40",
+      "00200.33": "1.00",
+      "00200.34": "1.40",
+      "00200.84": "1.00",
+      "00201.15": "1.40",
+      "00201.65": "1.00",
+      "00202.50": "1.40",
+      "00203.00": "1.00",
+      "00203.50": "1.40",
+      "00204.00": "1.00",
+      "00205.15": "1.40",
+      "00205.32": "1.12",
+      "00205.50": "1.40",
+      "00205.74": "1.01",
+      "00205.98": "1.40",
+      "00206.48": "1.00",
+      "00206.82": "1.40",
+      "00206.90": "1.27",
+      "00206.98": "1.40",
+      "00207.48": "1.00",
+      "00207.82": "1.40",
+      "00208.32": "1.00",
+      "00208.82": "1.40",
+      "00209.06": "1.01",
+      "00209.30": "1.40",
+      "00209.80": "1.00",
+      "00210.95": "1.40",
+      "00211.45": "1.00",
+      "00211.46": "1.40",
+      "00211.96": "1.00",
+      "00212.44": "1.40",
+      "00212.94": "1.00",
+      "00213.11": "1.40",
+      "00213.61": "1.00",
+      "00213.65": "1.40",
+      "00214.15": "1.00",
+      "00214.41": "1.40",
+      "00214.91": "1.00",
+      "00215.57": "1.40",
+      "00216.07": "1.00",
+      "00216.36": "1.40",
+      "00216.86": "1.00",
+      "00217.01": "1.40",
+      "00217.51": "1.00",
+      "00217.66": "1.40",
+      "00218.16": "1.00",
+      "00218.34": "1.40",
+      "00218.84": "1.00",
+      "00219.99": "1.40",
+      "00220.49": "1.00",
+      "00220.98": "1.40",
+      "00221.48": "1.00",
+      "00222.28": "1.40",
+      "00222.46": "1.12",
+      "00222.63": "1.40",
+      "00222.80": "1.14",
+      "00222.96": "1.40",
+      "00223.46": "1.00",
+      "00223.63": "1.40",
+      "00224.13": "1.00",
+      "00224.14": "1.40",
+      "00224.37": "1.03",
+      "00224.61": "1.40",
+      "00225.11": "1.00",
+      "00225.61": "1.40",
+      "00225.76": "1.16",
+      "00225.91": "1.40",
+      "00226.08": "1.12",
+      "00226.26": "1.40",
+      "00226.42": "1.14",
+      "00226.58": "1.40",
+      "00226.74": "1.14",
+      "00226.91": "1.40",
+      "00227.15": "1.01",
+      "00227.39": "1.40",
+      "00227.47": "1.27",
+      "00227.56": "1.40",
+      "00228.06": "1.00",
+      "00228.21": "1.40",
+      "00228.71": "1.00",
+      "00229.88": "1.40",
+      "00230.38": "1.00",
+      "00230.53": "1.40",
+      "00231.03": "1.00",
+      "00231.53": "1.40",
+      "00232.03": "1.00",
+      "00232.52": "1.40",
+      "00232.61": "1.27",
+      "00232.69": "1.40",
+      "00232.85": "1.14",
+      "00233.01": "1.40",
+      "00233.09": "1.27",
+      "00233.17": "1.40",
+      "00233.67": "1.00",
+      "00234.17": "1.40",
+      "00234.67": "1.00",
+      "00235.15": "1.40",
+      "00235.65": "1.00",
+      "00236.31": "1.40",
+      "00236.55": "1.01",
+      "00236.80": "1.40",
+      "00237.30": "1.00",
+      "00237.61": "1.40",
+      "00237.69": "1.27",
+      "00237.77": "1.40",
+      "00237.93": "1.14",
+      "00238.10": "1.40",
+      "00238.25": "1.16",
+      "00238.40": "1.40",
+      "00238.56": "1.14",
+      "00238.72": "1.40",
+      "00239.22": "1.00",
+      "00240.21": "1.40",
+      "00240.71": "1.00",
+      "00241.00": "1.40",
+      "00241.50": "1.00",
+      "00241.98": "1.40",
+      "00242.48": "1.00",
+      "00242.79": "1.40",
+      "00242.87": "1.27",
+      "00242.95": "1.40",
+      "00243.45": "1.00",
+      "00243.58": "1.40",
+      "00244.08": "1.00",
+      "00244.58": "1.40",
+      "00245.08": "1.00",
+      "00245.53": "1.40",
+      "00246.03": "1.00",
+      "00246.18": "1.40",
+      "00246.68": "1.00",
+      "00246.80": "1.40",
+      "00247.30": "1.00",
+      "00247.76": "1.40",
+      "00248.26": "1.00",
+      "00251.66": "1.40",
+      "00252.16": "1.00"
+    }
+  },
+  "estd_bpm": 172.265625,
+  "style": "Mystic",
+  "full_transcript": {
+    "text": " Go to sleep, we're so tired now All together and asleep in our souls New days, though you've changed the way Try to hang your hopes on the wind Little one, just a little way Today, all we need is play Night rise, like the evening prize In the tent style, backwards we'd fly Cold bones, tied together by Black ropes we pull from the sleigh Little one, just a little way Today, our dreams are breaking Can't stand on crooked legs I'll crawl side to the wall When all these satellites go Down, down, sailors run aground In a sea change, nothing is safe Strange waves push us every way In a stolen boat, we'll float away Little one, just a little way Today, all we need is play Little one, just a little way Today, all our dreams are waking Little one, all of our dreams are waking",
+    "segments": [
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 12.77,
+        "end": 18.23,
+        "text": " Go to sleep, we're so tired now",
+        "tokens": [
+          50364,
+          1037,
+          281,
+          2817,
+          11,
+          321,
+          434,
+          370,
+          5868,
+          586,
+          50664
         ],
-        "language": "en"
-    },
-    "duration": 266.94218142759496
+        "temperature": 0.0,
+        "avg_logprob": -0.2386936407822829,
+        "compression_ratio": 1.3515625,
+        "no_speech_prob": 0.4366404712200165,
+        "confidence": 0.78,
+        "words": [
+          {
+            "text": "Go",
+            "start": 12.77,
+            "end": 13.21,
+            "confidence": 0.296
+          },
+          {
+            "text": "to",
+            "start": 13.21,
+            "end": 13.61,
+            "confidence": 0.985
+          },
+          {
+            "text": "sleep,",
+            "start": 13.61,
+            "end": 14.71,
+            "confidence": 0.663
+          },
+          {
+            "text": "we're",
+            "start": 15.95,
+            "end": 16.29,
+            "confidence": 0.941
+          },
+          {
+            "text": "so",
+            "start": 16.29,
+            "end": 16.53,
+            "confidence": 0.968
+          },
+          {
+            "text": "tired",
+            "start": 16.53,
+            "end": 17.19,
+            "confidence": 0.996
+          },
+          {
+            "text": "now",
+            "start": 17.19,
+            "end": 18.23,
+            "confidence": 0.98
+          }
+        ],
+        "prompt": "A sailboat floating away on a sea of dreams."
+      },
+      {
+        "id": 1,
+        "seek": 0,
+        "start": 18.83,
+        "end": 23.59,
+        "text": " All together and asleep in our souls",
+        "tokens": [
+          50664,
+          1057,
+          1214,
+          293,
+          11039,
+          294,
+          527,
+          16588,
+          50964
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.2386936407822829,
+        "compression_ratio": 1.3515625,
+        "no_speech_prob": 0.4366404712200165,
+        "confidence": 0.38,
+        "words": [
+          {
+            "text": "All",
+            "start": 18.83,
+            "end": 19.33,
+            "confidence": 0.372
+          },
+          {
+            "text": "together",
+            "start": 19.33,
+            "end": 20.67,
+            "confidence": 0.963
+          },
+          {
+            "text": "and",
+            "start": 20.67,
+            "end": 21.09,
+            "confidence": 0.049
+          },
+          {
+            "text": "asleep",
+            "start": 21.09,
+            "end": 21.67,
+            "confidence": 0.363
+          },
+          {
+            "text": "in",
+            "start": 21.67,
+            "end": 22.05,
+            "confidence": 0.946
+          },
+          {
+            "text": "our",
+            "start": 22.05,
+            "end": 22.43,
+            "confidence": 0.197
+          },
+          {
+            "text": "souls",
+            "start": 22.43,
+            "end": 23.59,
+            "confidence": 0.97
+          }
+        ],
+        "prompt": "Circle of people sleeping peacefully surrounded by a bright starry sky."
+      },
+      {
+        "id": 2,
+        "seek": 0,
+        "start": 24.77,
+        "end": 30.39,
+        "text": " New days, though you've changed the way",
+        "tokens": [
+          50964,
+          1873,
+          1708,
+          11,
+          1673,
+          291,
+          600,
+          3105,
+          264,
+          636,
+          51264
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.2386936407822829,
+        "compression_ratio": 1.3515625,
+        "no_speech_prob": 0.4366404712200165,
+        "confidence": 0.474,
+        "words": [
+          {
+            "text": "New",
+            "start": 24.77,
+            "end": 25.51,
+            "confidence": 0.154
+          },
+          {
+            "text": "days,",
+            "start": 25.51,
+            "end": 26.93,
+            "confidence": 0.561
+          },
+          {
+            "text": "though",
+            "start": 27.99,
+            "end": 28.19,
+            "confidence": 0.184
+          },
+          {
+            "text": "you've",
+            "start": 28.19,
+            "end": 28.55,
+            "confidence": 0.394
+          },
+          {
+            "text": "changed",
+            "start": 28.55,
+            "end": 29.13,
+            "confidence": 0.985
+          },
+          {
+            "text": "the",
+            "start": 29.13,
+            "end": 29.61,
+            "confidence": 0.91
+          },
+          {
+            "text": "way",
+            "start": 29.61,
+            "end": 30.39,
+            "confidence": 0.965
+          }
+        ],
+        "prompt": "Sailboat adrift in a stormy sea with passengers looking up to the night sky full of stars."
+      },
+      {
+        "id": 3,
+        "seek": 0,
+        "start": 30.67,
+        "end": 35.73,
+        "text": " Try to hang your hopes on the wind",
+        "tokens": [
+          51264,
+          6526,
+          281,
+          3967,
+          428,
+          13681,
+          322,
+          264,
+          2468,
+          51514
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.2386936407822829,
+        "compression_ratio": 1.3515625,
+        "no_speech_prob": 0.4366404712200165,
+        "confidence": 0.852,
+        "words": [
+          {
+            "text": "Try",
+            "start": 30.67,
+            "end": 31.31,
+            "confidence": 0.677
+          },
+          {
+            "text": "to",
+            "start": 31.31,
+            "end": 31.67,
+            "confidence": 0.959
+          },
+          {
+            "text": "hang",
+            "start": 31.67,
+            "end": 32.35,
+            "confidence": 0.944
+          },
+          {
+            "text": "your",
+            "start": 32.35,
+            "end": 33.13,
+            "confidence": 0.839
+          },
+          {
+            "text": "hopes",
+            "start": 33.13,
+            "end": 33.61,
+            "confidence": 0.939
+          },
+          {
+            "text": "on",
+            "start": 33.61,
+            "end": 34.23,
+            "confidence": 0.663
+          },
+          {
+            "text": "the",
+            "start": 34.23,
+            "end": 34.57,
+            "confidence": 0.993
+          },
+          {
+            "text": "wind",
+            "start": 34.57,
+            "end": 35.73,
+            "confidence": 0.871
+          }
+        ],
+        "prompt": "Dawn sky over a small boat, a flock of birds taking flight in the distance as a single seagull lingers in the air."
+      },
+      {
+        "id": 4,
+        "seek": 0,
+        "start": 36.81,
+        "end": 42.16,
+        "text": " Little one, just a little way",
+        "tokens": [
+          51514,
+          8022,
+          472,
+          11,
+          445,
+          257,
+          707,
+          636,
+          51814
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.2386936407822829,
+        "compression_ratio": 1.3515625,
+        "no_speech_prob": 0.4366404712200165,
+        "confidence": 0.501,
+        "words": [
+          {
+            "text": "Little",
+            "start": 36.81,
+            "end": 37.75,
+            "confidence": 0.123
+          },
+          {
+            "text": "one,",
+            "start": 37.75,
+            "end": 39.01,
+            "confidence": 0.618
+          },
+          {
+            "text": "just",
+            "start": 39.77,
+            "end": 40.35,
+            "confidence": 0.849
+          },
+          {
+            "text": "a",
+            "start": 40.35,
+            "end": 40.87,
+            "confidence": 0.985
+          },
+          {
+            "text": "little",
+            "start": 40.87,
+            "end": 41.43,
+            "confidence": 0.991
+          },
+          {
+            "text": "way",
+            "start": 41.43,
+            "end": 42.16,
+            "confidence": 0.203
+          }
+        ],
+        "prompt": "Waves of colorful dreams floating in the night sky."
+      },
+      {
+        "id": 5,
+        "seek": 2900,
+        "start": 42.87,
+        "end": 48.89,
+        "text": " Today, all we need is play",
+        "tokens": [
+          50364,
+          2692,
+          11,
+          439,
+          321,
+          643,
+          307,
+          862,
+          50814
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.3930972172663762,
+        "compression_ratio": 1.1636363636363636,
+        "no_speech_prob": 0.03176971897482872,
+        "confidence": 0.458,
+        "words": [
+          {
+            "text": "Today,",
+            "start": 42.87,
+            "end": 44.69,
+            "confidence": 0.465
+          },
+          {
+            "text": "all",
+            "start": 44.91,
+            "end": 45.77,
+            "confidence": 0.461
+          },
+          {
+            "text": "we",
+            "start": 45.77,
+            "end": 46.35,
+            "confidence": 0.991
+          },
+          {
+            "text": "need",
+            "start": 46.35,
+            "end": 47.11,
+            "confidence": 0.995
+          },
+          {
+            "text": "is",
+            "start": 47.11,
+            "end": 47.81,
+            "confidence": 0.976
+          },
+          {
+            "text": "play",
+            "start": 47.81,
+            "end": 48.89,
+            "confidence": 0.044
+          }
+        ],
+        "prompt": "A child and a boat in the middle of a turbulent sea, illuminated by a soft golden light."
+      },
+      {
+        "id": 6,
+        "seek": 2900,
+        "start": 50.55,
+        "end": 59.58,
+        "text": " Night rise, like the evening prize",
+        "tokens": [
+          50814,
+          10190,
+          6272,
+          11,
+          411,
+          264,
+          5634,
+          12818,
+          51114
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.3930972172663762,
+        "compression_ratio": 1.1636363636363636,
+        "no_speech_prob": 0.03176971897482872,
+        "confidence": 0.245,
+        "words": [
+          {
+            "text": "Night",
+            "start": 50.55,
+            "end": 51.73,
+            "confidence": 0.008
+          },
+          {
+            "text": "rise,",
+            "start": 54.92,
+            "end": 56.44,
+            "confidence": 0.127
+          },
+          {
+            "text": "like",
+            "start": 57.6,
+            "end": 57.82,
+            "confidence": 0.668
+          },
+          {
+            "text": "the",
+            "start": 57.82,
+            "end": 58.44,
+            "confidence": 0.959
+          },
+          {
+            "text": "evening",
+            "start": 58.44,
+            "end": 58.94,
+            "confidence": 0.98
+          },
+          {
+            "text": "prize",
+            "start": 58.94,
+            "end": 59.58,
+            "confidence": 0.697
+          }
+        ],
+        "prompt": "Moonlit sky illuminated by a cloud of twinkling stars, a small boat drifting away from a beach with a single passenger on board."
+      },
+      {
+        "id": 7,
+        "seek": 2900,
+        "start": 60.28,
+        "end": 64.9,
+        "text": " In the tent style, backwards we'd fly",
+        "tokens": [
+          51114,
+          682,
+          264,
+          7054,
+          3758,
+          11,
+          12204,
+          321,
+          1116,
+          3603,
+          51414
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.3930972172663762,
+        "compression_ratio": 1.1636363636363636,
+        "no_speech_prob": 0.03176971897482872,
+        "confidence": 0.381,
+        "words": [
+          {
+            "text": "In",
+            "start": 60.28,
+            "end": 60.8,
+            "confidence": 0.279
+          },
+          {
+            "text": "the",
+            "start": 60.8,
+            "end": 61.26,
+            "confidence": 0.727
+          },
+          {
+            "text": "tent",
+            "start": 61.26,
+            "end": 61.62,
+            "confidence": 0.048
+          },
+          {
+            "text": "style,",
+            "start": 61.62,
+            "end": 62.4,
+            "confidence": 0.291
+          },
+          {
+            "text": "backwards",
+            "start": 62.76,
+            "end": 63.28,
+            "confidence": 0.91
+          },
+          {
+            "text": "we'd",
+            "start": 63.28,
+            "end": 63.92,
+            "confidence": 0.488
+          },
+          {
+            "text": "fly",
+            "start": 63.92,
+            "end": 64.9,
+            "confidence": 0.941
+          }
+        ],
+        "prompt": "Sailboat sailing away under starry night sky with dreams of a new day in the distance."
+      },
+      {
+        "id": 8,
+        "seek": 2900,
+        "start": 65.88,
+        "end": 71.4,
+        "text": " Cold bones, tied together by",
+        "tokens": [
+          51414,
+          16918,
+          10491,
+          11,
+          9601,
+          1214,
+          538,
+          51714
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.3930972172663762,
+        "compression_ratio": 1.1636363636363636,
+        "no_speech_prob": 0.03176971897482872,
+        "confidence": 0.283,
+        "words": [
+          {
+            "text": "Cold",
+            "start": 65.88,
+            "end": 66.84,
+            "confidence": 0.034
+          },
+          {
+            "text": "bones,",
+            "start": 66.84,
+            "end": 68.42,
+            "confidence": 0.173
+          },
+          {
+            "text": "tied",
+            "start": 69.04,
+            "end": 69.5,
+            "confidence": 0.596
+          },
+          {
+            "text": "together",
+            "start": 69.5,
+            "end": 70.64,
+            "confidence": 0.995
+          },
+          {
+            "text": "by",
+            "start": 70.64,
+            "end": 71.4,
+            "confidence": 0.841
+          }
+        ],
+        "prompt": "Intertwined black ropes connecting a group of skeletal figures, flying away in a makeshift boat."
+      },
+      {
+        "id": 9,
+        "seek": 5600,
+        "start": 72.04,
+        "end": 77.04,
+        "text": " Black ropes we pull from the sleigh",
+        "tokens": [
+          50364,
+          4076,
+          32964,
+          321,
+          2235,
+          490,
+          264,
+          2426,
+          910,
+          50664
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.20351652196935704,
+        "compression_ratio": 1.1481481481481481,
+        "no_speech_prob": 0.0548190176486969,
+        "confidence": 0.632,
+        "words": [
+          {
+            "text": "Black",
+            "start": 72.04,
+            "end": 72.76,
+            "confidence": 0.488
+          },
+          {
+            "text": "ropes",
+            "start": 72.76,
+            "end": 73.5,
+            "confidence": 0.184
+          },
+          {
+            "text": "we",
+            "start": 73.5,
+            "end": 74.28,
+            "confidence": 0.756
+          },
+          {
+            "text": "pull",
+            "start": 74.28,
+            "end": 74.82,
+            "confidence": 0.953
+          },
+          {
+            "text": "from",
+            "start": 74.82,
+            "end": 75.2,
+            "confidence": 0.938
+          },
+          {
+            "text": "the",
+            "start": 75.2,
+            "end": 75.68,
+            "confidence": 0.688
+          },
+          {
+            "text": "sleigh",
+            "start": 75.68,
+            "end": 77.04,
+            "confidence": 0.778
+          }
+        ],
+        "prompt": "Children flying in a hot air balloon, holding onto thick black ropes."
+      },
+      {
+        "id": 10,
+        "seek": 5600,
+        "start": 77.88,
+        "end": 83.24,
+        "text": " Little one, just a little way",
+        "tokens": [
+          50664,
+          8022,
+          472,
+          11,
+          445,
+          257,
+          707,
+          636,
+          50964
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.20351652196935704,
+        "compression_ratio": 1.1481481481481481,
+        "no_speech_prob": 0.0548190176486969,
+        "confidence": 0.481,
+        "words": [
+          {
+            "text": "Little",
+            "start": 77.88,
+            "end": 78.5,
+            "confidence": 0.042
+          },
+          {
+            "text": "one,",
+            "start": 78.5,
+            "end": 79.98,
+            "confidence": 0.516
+          },
+          {
+            "text": "just",
+            "start": 80.98,
+            "end": 81.4,
+            "confidence": 0.925
+          },
+          {
+            "text": "a",
+            "start": 81.4,
+            "end": 81.86,
+            "confidence": 0.763
+          },
+          {
+            "text": "little",
+            "start": 81.86,
+            "end": 82.26,
+            "confidence": 0.989
+          },
+          {
+            "text": "way",
+            "start": 82.26,
+            "end": 83.24,
+            "confidence": 0.756
+          }
+        ],
+        "prompt": "Sleeping figures in a boat navigating a turbulent sea with bright stars in the sky."
+      },
+      {
+        "id": 11,
+        "seek": 5600,
+        "start": 83.82,
+        "end": 89.7,
+        "text": " Today, our dreams are breaking",
+        "tokens": [
+          50964,
+          2692,
+          11,
+          527,
+          7505,
+          366,
+          7697,
+          51464
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.20351652196935704,
+        "compression_ratio": 1.1481481481481481,
+        "no_speech_prob": 0.0548190176486969,
+        "confidence": 0.594,
+        "words": [
+          {
+            "text": "Today,",
+            "start": 83.82,
+            "end": 85.76,
+            "confidence": 0.477
+          },
+          {
+            "text": "our",
+            "start": 86.2,
+            "end": 86.98,
+            "confidence": 0.554
+          },
+          {
+            "text": "dreams",
+            "start": 86.98,
+            "end": 87.96,
+            "confidence": 0.995
+          },
+          {
+            "text": "are",
+            "start": 87.96,
+            "end": 88.84,
+            "confidence": 0.943
+          },
+          {
+            "text": "breaking",
+            "start": 88.84,
+            "end": 89.7,
+            "confidence": 0.37
+          }
+        ],
+        "prompt": "Swirling stars in a night sky, illuminating a small boat as it sails away."
+      },
+      {
+        "id": 12,
+        "seek": 5600,
+        "start": 95.14,
+        "end": 99.14,
+        "text": " Can't stand on crooked legs",
+        "tokens": [
+          51464,
+          1664,
+          380,
+          1463,
+          322,
+          41710,
+          5668,
+          51664
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.20351652196935704,
+        "compression_ratio": 1.1481481481481481,
+        "no_speech_prob": 0.0548190176486969,
+        "confidence": 0.49,
+        "words": [
+          {
+            "text": "Can't",
+            "start": 95.14,
+            "end": 96.26,
+            "confidence": 0.407
+          },
+          {
+            "text": "stand",
+            "start": 96.26,
+            "end": 96.66,
+            "confidence": 0.928
+          },
+          {
+            "text": "on",
+            "start": 96.66,
+            "end": 97.44,
+            "confidence": 0.423
+          },
+          {
+            "text": "crooked",
+            "start": 97.44,
+            "end": 98.24,
+            "confidence": 0.216
+          },
+          {
+            "text": "legs",
+            "start": 98.24,
+            "end": 99.14,
+            "confidence": 0.992
+          }
+        ],
+        "prompt": "A boat with tattered sails being pulled through turbulent waves by a rope made of black ribbons."
+      },
+      {
+        "id": 13,
+        "seek": 8200,
+        "start": 99.14,
+        "end": 103.48,
+        "text": " I'll crawl side to the wall",
+        "tokens": [
+          50364,
+          286,
+          603,
+          24767,
+          1252,
+          281,
+          264,
+          2929,
+          50614
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.26385811755531713,
+        "compression_ratio": 1.2222222222222223,
+        "no_speech_prob": 0.25405654311180115,
+        "confidence": 0.161,
+        "words": [
+          {
+            "text": "I'll",
+            "start": 99.14,
+            "end": 100.22,
+            "confidence": 0.054
+          },
+          {
+            "text": "crawl",
+            "start": 100.22,
+            "end": 100.88,
+            "confidence": 0.001
+          },
+          {
+            "text": "side",
+            "start": 100.88,
+            "end": 101.52,
+            "confidence": 0.83
+          },
+          {
+            "text": "to",
+            "start": 101.52,
+            "end": 102.5,
+            "confidence": 0.96
+          },
+          {
+            "text": "the",
+            "start": 102.5,
+            "end": 102.9,
+            "confidence": 0.898
+          },
+          {
+            "text": "wall",
+            "start": 102.9,
+            "end": 103.48,
+            "confidence": 0.932
+          }
+        ],
+        "prompt": "Sailboat navigating through a stormy sea with a rainbow in the distance."
+      },
+      {
+        "id": 14,
+        "seek": 8200,
+        "start": 104.46,
+        "end": 112.58,
+        "text": " When all these satellites go",
+        "tokens": [
+          50614,
+          1133,
+          439,
+          613,
+          24960,
+          352,
+          51164
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.26385811755531713,
+        "compression_ratio": 1.2222222222222223,
+        "no_speech_prob": 0.25405654311180115,
+        "confidence": 0.377,
+        "words": [
+          {
+            "text": "When",
+            "start": 104.46,
+            "end": 104.82,
+            "confidence": 0.119
+          },
+          {
+            "text": "all",
+            "start": 104.82,
+            "end": 105.06,
+            "confidence": 0.824
+          },
+          {
+            "text": "these",
+            "start": 105.06,
+            "end": 105.8,
+            "confidence": 0.948
+          },
+          {
+            "text": "satellites",
+            "start": 105.8,
+            "end": 107.96,
+            "confidence": 0.088
+          },
+          {
+            "text": "go",
+            "start": 107.96,
+            "end": 112.58,
+            "confidence": 0.928
+          }
+        ],
+        "prompt": "Stars falling in the night sky, creating a ripple effect in the ocean."
+      },
+      {
+        "id": 15,
+        "seek": 8200,
+        "start": 117.42,
+        "end": 123.11,
+        "text": " Down, down, sailors run aground",
+        "tokens": [
+          51164,
+          9506,
+          11,
+          760,
+          11,
+          42036,
+          1190,
+          623,
+          5453,
+          51464
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.26385811755531713,
+        "compression_ratio": 1.2222222222222223,
+        "no_speech_prob": 0.25405654311180115,
+        "confidence": 0.459,
+        "words": [
+          {
+            "text": "Down,",
+            "start": 117.42,
+            "end": 118.65,
+            "confidence": 0.267
+          },
+          {
+            "text": "down,",
+            "start": 120.35,
+            "end": 120.37,
+            "confidence": 0.669
+          },
+          {
+            "text": "sailors",
+            "start": 121.13,
+            "end": 121.55,
+            "confidence": 0.762
+          },
+          {
+            "text": "run",
+            "start": 121.55,
+            "end": 122.33,
+            "confidence": 0.397
+          },
+          {
+            "text": "aground",
+            "start": 122.33,
+            "end": 123.11,
+            "confidence": 0.451
+          }
+        ],
+        "prompt": "Rising sun illuminating a boat with a tattered sail, adrift in a turbulent sea."
+      },
+      {
+        "id": 16,
+        "seek": 8200,
+        "start": 123.81,
+        "end": 128.09,
+        "text": " In a sea change, nothing is safe",
+        "tokens": [
+          51464,
+          682,
+          257,
+          4158,
+          1319,
+          11,
+          1825,
+          307,
+          3273,
+          51714
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.26385811755531713,
+        "compression_ratio": 1.2222222222222223,
+        "no_speech_prob": 0.25405654311180115,
+        "confidence": 0.663,
+        "words": [
+          {
+            "text": "In",
+            "start": 123.81,
+            "end": 124.25,
+            "confidence": 0.4
+          },
+          {
+            "text": "a",
+            "start": 124.25,
+            "end": 124.69,
+            "confidence": 0.758
+          },
+          {
+            "text": "sea",
+            "start": 124.69,
+            "end": 125.13,
+            "confidence": 0.938
+          },
+          {
+            "text": "change,",
+            "start": 125.13,
+            "end": 125.87,
+            "confidence": 0.386
+          },
+          {
+            "text": "nothing",
+            "start": 125.91,
+            "end": 126.67,
+            "confidence": 0.938
+          },
+          {
+            "text": "is",
+            "start": 126.67,
+            "end": 127.39,
+            "confidence": 0.989
+          },
+          {
+            "text": "safe",
+            "start": 127.39,
+            "end": 128.09,
+            "confidence": 0.948
+          }
+        ],
+        "prompt": "Rising Tide of Colorful Dreams."
+      },
+      {
+        "id": 17,
+        "seek": 10900,
+        "start": 129.19,
+        "end": 134.63,
+        "text": " Strange waves push us every way",
+        "tokens": [
+          50364,
+          29068,
+          9417,
+          2944,
+          505,
+          633,
+          636,
+          50664
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.14929929146399865,
+        "compression_ratio": 1.1941747572815533,
+        "no_speech_prob": 0.03834560140967369,
+        "confidence": 0.396,
+        "words": [
+          {
+            "text": "Strange",
+            "start": 129.19,
+            "end": 130.21,
+            "confidence": 0.231
+          },
+          {
+            "text": "waves",
+            "start": 130.21,
+            "end": 131.59,
+            "confidence": 0.955
+          },
+          {
+            "text": "push",
+            "start": 131.59,
+            "end": 132.89,
+            "confidence": 0.036
+          },
+          {
+            "text": "us",
+            "start": 132.89,
+            "end": 133.41,
+            "confidence": 0.981
+          },
+          {
+            "text": "every",
+            "start": 133.41,
+            "end": 134.15,
+            "confidence": 0.607
+          },
+          {
+            "text": "way",
+            "start": 134.15,
+            "end": 134.63,
+            "confidence": 0.805
+          }
+        ],
+        "prompt": "Person standing on a beach watching a boat drift away into the twilight horizon."
+      },
+      {
+        "id": 18,
+        "seek": 10900,
+        "start": 135.39,
+        "end": 139.37,
+        "text": " In a stolen boat, we'll float away",
+        "tokens": [
+          50664,
+          682,
+          257,
+          15900,
+          6582,
+          11,
+          321,
+          603,
+          15706,
+          1314,
+          50964
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.14929929146399865,
+        "compression_ratio": 1.1941747572815533,
+        "no_speech_prob": 0.03834560140967369,
+        "confidence": 0.674,
+        "words": [
+          {
+            "text": "In",
+            "start": 135.39,
+            "end": 135.93,
+            "confidence": 0.35
+          },
+          {
+            "text": "a",
+            "start": 135.93,
+            "end": 136.39,
+            "confidence": 0.964
+          },
+          {
+            "text": "stolen",
+            "start": 136.39,
+            "end": 136.91,
+            "confidence": 0.952
+          },
+          {
+            "text": "boat,",
+            "start": 136.91,
+            "end": 137.43,
+            "confidence": 0.593
+          },
+          {
+            "text": "we'll",
+            "start": 137.77,
+            "end": 138.13,
+            "confidence": 0.511
+          },
+          {
+            "text": "float",
+            "start": 138.13,
+            "end": 138.49,
+            "confidence": 0.982
+          },
+          {
+            "text": "away",
+            "start": 138.49,
+            "end": 139.37,
+            "confidence": 0.996
+          }
+        ],
+        "prompt": "\"Vivid visual prompt"
+      },
+      {
+        "id": 19,
+        "seek": 10900,
+        "start": 140.72,
+        "end": 146.36,
+        "text": " Little one, just a little way",
+        "tokens": [
+          50964,
+          8022,
+          472,
+          11,
+          445,
+          257,
+          707,
+          636,
+          51264
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.14929929146399865,
+        "compression_ratio": 1.1941747572815533,
+        "no_speech_prob": 0.03834560140967369,
+        "confidence": 0.422,
+        "words": [
+          {
+            "text": "Little",
+            "start": 140.72,
+            "end": 141.88,
+            "confidence": 0.02
+          },
+          {
+            "text": "one,",
+            "start": 141.88,
+            "end": 143.16,
+            "confidence": 0.495
+          },
+          {
+            "text": "just",
+            "start": 144.0,
+            "end": 144.62,
+            "confidence": 0.865
+          },
+          {
+            "text": "a",
+            "start": 144.62,
+            "end": 145.06,
+            "confidence": 0.983
+          },
+          {
+            "text": "little",
+            "start": 145.06,
+            "end": 145.46,
+            "confidence": 0.994
+          },
+          {
+            "text": "way",
+            "start": 145.46,
+            "end": 146.36,
+            "confidence": 0.567
+          }
+        ],
+        "prompt": "Mismatched sails billowing in the wind of an endless horizon, a small boat with two figures in it, looking ahead."
+      },
+      {
+        "id": 20,
+        "seek": 10900,
+        "start": 146.92,
+        "end": 152.54,
+        "text": " Today, all we need is play",
+        "tokens": [
+          51264,
+          2692,
+          11,
+          439,
+          321,
+          643,
+          307,
+          862,
+          51764
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.14929929146399865,
+        "compression_ratio": 1.1941747572815533,
+        "no_speech_prob": 0.03834560140967369,
+        "confidence": 0.164,
+        "words": [
+          {
+            "text": "Today,",
+            "start": 146.92,
+            "end": 148.8,
+            "confidence": 0.51
+          },
+          {
+            "text": "all",
+            "start": 148.94,
+            "end": 149.82,
+            "confidence": 0.016
+          },
+          {
+            "text": "we",
+            "start": 149.82,
+            "end": 150.34,
+            "confidence": 0.929
+          },
+          {
+            "text": "need",
+            "start": 150.34,
+            "end": 151.12,
+            "confidence": 0.98
+          },
+          {
+            "text": "is",
+            "start": 151.12,
+            "end": 151.78,
+            "confidence": 0.982
+          },
+          {
+            "text": "play",
+            "start": 151.78,
+            "end": 152.54,
+            "confidence": 0.001
+          }
+        ],
+        "prompt": "Children running through a garden, their laughter echoing as they play in the sunshine, their dreams of adventure taking them further and further away."
+      },
+      {
+        "id": 21,
+        "seek": 13700,
+        "start": 157.58,
+        "end": 163.35,
+        "text": " Little one, just a little way",
+        "tokens": [
+          50364,
+          8022,
+          472,
+          11,
+          445,
+          257,
+          707,
+          636,
+          50664
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.11176201105117797,
+        "compression_ratio": 0.9841269841269841,
+        "no_speech_prob": 0.02503206767141819,
+        "confidence": 0.15,
+        "words": [
+          {
+            "text": "Little",
+            "start": 157.58,
+            "end": 158.97,
+            "confidence": 0.006
+          },
+          {
+            "text": "one,",
+            "start": 158.97,
+            "end": 160.27,
+            "confidence": 0.52
+          },
+          {
+            "text": "just",
+            "start": 161.25,
+            "end": 161.65,
+            "confidence": 0.829
+          },
+          {
+            "text": "a",
+            "start": 161.65,
+            "end": 162.11,
+            "confidence": 0.871
+          },
+          {
+            "text": "little",
+            "start": 162.11,
+            "end": 162.55,
+            "confidence": 0.998
+          },
+          {
+            "text": "way",
+            "start": 162.55,
+            "end": 163.35,
+            "confidence": 0.002
+          }
+        ],
+        "prompt": "Sailboat silhouetted against a rising sun, a small figure on deck waving goodbye."
+      },
+      {
+        "id": 22,
+        "seek": 13700,
+        "start": 163.95,
+        "end": 170.13,
+        "text": " Today, all our dreams are waking",
+        "tokens": [
+          50664,
+          2692,
+          11,
+          439,
+          527,
+          7505,
+          366,
+          20447,
+          51164
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.11176201105117797,
+        "compression_ratio": 0.9841269841269841,
+        "no_speech_prob": 0.02503206767141819,
+        "confidence": 0.561,
+        "words": [
+          {
+            "text": "Today,",
+            "start": 163.95,
+            "end": 165.89,
+            "confidence": 0.39
+          },
+          {
+            "text": "all",
+            "start": 166.27,
+            "end": 166.75,
+            "confidence": 0.79
+          },
+          {
+            "text": "our",
+            "start": 166.75,
+            "end": 167.11,
+            "confidence": 0.214
+          },
+          {
+            "text": "dreams",
+            "start": 167.11,
+            "end": 167.93,
+            "confidence": 0.997
+          },
+          {
+            "text": "are",
+            "start": 167.93,
+            "end": 168.83,
+            "confidence": 0.772
+          },
+          {
+            "text": "waking",
+            "start": 168.83,
+            "end": 170.13,
+            "confidence": 0.88
+          }
+        ],
+        "prompt": "A child standing in a boat, surrounded by a sea of dreams that are slowly coming to life."
+      },
+      {
+        "id": 23,
+        "seek": 15300,
+        "start": 174.67,
+        "end": 188.29,
+        "text": " Little one, all of our dreams are waking",
+        "tokens": [
+          50364,
+          8022,
+          472,
+          11,
+          439,
+          295,
+          527,
+          7505,
+          366,
+          20447,
+          51214
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.29603012402852374,
+        "compression_ratio": 0.8333333333333334,
+        "no_speech_prob": 0.11636201292276382,
+        "confidence": 0.299,
+        "words": [
+          {
+            "text": "Little",
+            "start": 174.67,
+            "end": 175.85,
+            "confidence": 0.1
+          },
+          {
+            "text": "one,",
+            "start": 175.85,
+            "end": 177.2,
+            "confidence": 0.527
+          },
+          {
+            "text": "all",
+            "start": 178.25,
+            "end": 179.15,
+            "confidence": 0.051
+          },
+          {
+            "text": "of",
+            "start": 181.02,
+            "end": 182.42,
+            "confidence": 0.354
+          },
+          {
+            "text": "our",
+            "start": 183.31,
+            "end": 183.81,
+            "confidence": 0.049
+          },
+          {
+            "text": "dreams",
+            "start": 183.81,
+            "end": 184.55,
+            "confidence": 0.975
+          },
+          {
+            "text": "are",
+            "start": 184.55,
+            "end": 185.49,
+            "confidence": 0.941
+          },
+          {
+            "text": "waking",
+            "start": 185.49,
+            "end": 188.29,
+            "confidence": 0.847
+          }
+        ],
+        "prompt": "A rowboat with a small child standing in the bow, drifting away in a sea filled with stars."
+      }
+    ],
+    "language": "en"
+  },
+  "duration": 266.94218142759496
 }

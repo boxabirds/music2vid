@@ -1,1 +1,1599 @@
-{"animation": {"keyframes_per_second": 3, "keyframe_zoom_animations": "0: (1.03), 22: (1.40), 23: (1.40), 24: (1.20), 25: (1.40), 26: (1.20), 27: (1.10), 28: (1.40), 29: (1.20), 30: (1.10), 31: (1.03), 35: (1.40), 36: (1.20), 37: (1.40), 38: (1.20), 39: (1.10), 40: (1.40), 41: (1.20), 42: (1.40), 43: (1.20), 44: (1.40), 45: (1.20), 46: (1.10), 47: (1.03), 49: (1.40), 50: (1.20), 51: (1.10), 52: (1.03), 54: (1.40), 55: (1.20), 56: (1.10), 57: (1.03), 62: (1.40), 63: (1.40), 64: (1.20), 65: (1.10), 66: (1.03), 67: (1.40), 68: (1.40), 69: (1.20), 70: (1.10), 71: (1.40), 72: (1.40), 73: (1.40), 74: (1.20), 75: (1.10), 76: (1.40), 77: (1.20), 78: (1.10), 79: (1.03), 81: (1.40), 82: (1.20), 83: (1.10), 84: (1.03), 85: (1.40), 86: (1.20), 87: (1.10), 88: (1.40), 89: (1.40), 90: (1.20), 91: (1.40), 92: (1.20), 93: (1.40), 94: (1.20), 95: (1.40), 96: (1.20), 97: (1.40), 98: (1.40), 99: (1.20), 100: (1.10), 101: (1.03), 103: (1.40), 104: (1.20), 105: (1.40), 106: (1.20), 107: (1.40), 108: (1.40), 109: (1.40), 110: (1.20), 111: (1.10), 112: (1.40), 113: (1.20), 114: (1.10), 115: (1.03), 116: (1.40), 117: (1.40), 118: (1.20), 119: (1.10), 120: (1.03), 133: (1.40), 134: (1.20), 135: (1.40), 136: (1.40), 137: (1.20), 138: (1.10), 139: (1.03), 140: (1.40), 141: (1.20), 142: (1.10), 143: (1.03), 153: (1.40), 154: (1.40), 155: (1.20), 156: (1.10), 157: (1.03), 162: (1.40), 163: (1.40), 164: (1.20), 165: (1.10), 166: (1.03), 168: (1.40), 169: (1.40), 170: (1.20), 171: (1.40), 172: (1.40), 173: (1.20), 174: (1.10), 175: (1.03), 176: (1.40), 177: (1.20), 178: (1.10), 179: (1.03), 184: (1.40), 185: (1.40), 186: (1.20), 187: (1.40), 188: (1.20), 189: (1.40), 190: (1.40), 191: (1.20), 192: (1.10), 193: (1.03), 194: (1.40), 195: (1.20), 196: (1.10), 197: (1.03), 199: (1.40), 200: (1.20), 201: (1.10), 202: (1.03), 203: (1.40), 204: (1.40), 205: (1.20), 206: (1.10), 207: (1.40), 208: (1.40), 209: (1.20), 210: (1.10), 211: (1.03), 212: (1.40), 213: (1.20), 214: (1.10), 215: (1.03), 216: (1.40), 217: (1.20), 218: (1.10), 219: (1.03), 222: (1.40), 223: (1.20), 224: (1.10), 225: (1.40), 226: (1.40), 227: (1.20), 228: (1.10), 229: (1.03), 234: (1.40), 235: (1.20), 236: (1.10), 237: (1.40), 238: (1.20), 239: (1.10), 240: (1.40), 241: (1.20), 242: (1.10), 243: (1.40), 244: (1.40), 245: (1.20), 246: (1.10), 247: (1.40), 248: (1.20), 249: (1.40), 250: (1.40), 251: (1.40), 252: (1.40), 253: (1.20), 254: (1.10), 255: (1.40), 256: (1.40), 257: (1.20), 258: (1.10), 259: (1.03), 260: (1.40), 261: (1.40), 262: (1.20), 263: (1.10), 264: (1.03), 265: (1.40), 266: (1.20), 267: (1.10), 268: (1.03), 270: (1.40), 271: (1.20), 272: (1.10), 273: (1.03), 275: (1.40), 276: (1.20), 277: (1.10), 278: (1.40), 279: (1.20), 280: (1.10), 281: (1.03), 283: (1.40), 284: (1.20), 285: (1.10), 286: (1.03), 287: (1.40), 288: (1.40), 289: (1.40), 290: (1.20), 291: (1.10), 292: (1.40), 293: (1.20), 294: (1.10), 295: (1.03), 296: (1.40), 297: (1.40), 298: (1.40), 299: (1.20), 300: (1.10), 301: (1.03), 307: (1.40), 308: (1.20), 309: (1.40), 310: (1.20), 311: (1.40), 312: (1.20), 313: (1.40), 314: (1.40), 315: (1.40), 316: (1.20), 317: (1.10), 318: (1.03), 319: (1.40), 320: (1.20), 321: (1.40), 322: (1.20), 323: (1.40), 324: (1.40), 325: (1.40), 326: (1.20), 327: (1.10), 328: (1.40), 329: (1.40), 330: (1.20), 331: (1.10), 332: (1.40), 333: (1.20), 334: (1.10), 335: (1.03), 345: (1.40), 346: (1.20), 347: (1.10), 348: (1.03), 351: (1.40), 352: (1.20), 353: (1.10), 354: (1.40), 355: (1.20), 356: (1.10), 357: (1.03), 374: (1.40), 375: (1.20), 376: (1.40), 377: (1.20), 378: (1.10), 379: (1.03), 384: (1.40), 385: (1.20), 386: (1.10), 387: (1.40), 388: (1.40), 389: (1.20), 390: (1.10), 391: (1.03), 394: (1.40), 395: (1.20), 396: (1.40), 397: (1.20), 398: (1.10), 399: (1.03), 401: (1.40), 402: (1.40), 403: (1.40), 404: (1.20), 405: (1.40), 406: (1.40), 407: (1.20), 408: (1.10), 409: (1.03), 451: (1.40), 452: (1.20), 453: (1.10), 454: (1.03), 457: (1.40), 458: (1.20), 459: (1.10), 460: (1.40), 461: (1.20), 462: (1.10), 463: (1.03), 471: (1.40), 472: (1.20), 473: (1.40), 474: (1.40), 475: (1.20), 476: (1.10), 477: (1.40), 478: (1.40), 479: (1.20), 480: (1.10), 481: (1.03), 482: (1.40), 483: (1.20), 484: (1.10), 485: (1.03), 486: (1.40), 487: (1.20), 488: (1.10), 489: (1.03), 494: (1.40), 495: (1.40), 496: (1.20), 497: (1.10), 498: (1.03), 499: (1.40), 500: (1.20), 501: (1.10), 502: (1.40), 503: (1.40), 504: (1.40), 505: (1.20), 506: (1.10), 507: (1.03), 510: (1.40), 511: (1.40), 512: (1.40), 513: (1.40), 514: (1.20), 515: (1.10), 516: (1.03), 517: (1.40), 518: (1.20), 519: (1.10), 520: (1.03), 522: (1.40), 527: (1.40), 531: (1.40), 532: (1.40), 535: (1.40), 536: (1.40), 539: (1.40), 540: (1.40), 545: (1.40), 550: (1.40), 552: (1.40), 553: (1.40), 554: (1.40), 565: (1.40), 566: (1.40), 571: (1.40), 572: (1.40), 575: (1.40), 576: (1.40), 581: (1.40), 584: (1.40), 586: (1.40), 590: (1.40), 593: (1.40), 595: (1.40), 597: (1.40), 598: (1.40)"}, "estd_bpm": 161.4990234375, "style": "Art Deco", "keyframes": {"0": {"prompt": "Lonely evening in Paris, awaiting a familiar ride with mixed emotions of hope and sadness."}, "50": {"lyric": " Working in Paris.", "prompt": "Lone figure standing on a street corner, illuminated by a single street lamp in the night, with a suitcase in hand and a longing gaze towards the horizon."}, "68": {"lyric": " Pick me up.", "prompt": "A car pulling up to a street corner in the evening with a silhouette of a person standing alone in the night."}, "123": {"lyric": " I'm gonna rise this evening", "prompt": "Lonely figure standing in a foreign city, watching a car drive away in the night."}, "142": {"lyric": " And say to this heart", "prompt": "A woman standing on a street corner in Paris, illuminated by the lights of the city, reaching out her arm in anticipation of a ride."}, "161": {"lyric": " That living is easy", "prompt": "Lonely figure standing in a city street at night, shivering in the cold, looking up at the sky, waiting for a ride."}, "178": {"lyric": " When you're living alone", "prompt": "A solitary figure, illuminated by the twinkling night lights of Paris, standing alone on a street corner, waiting for a car to arrive."}, "199": {"lyric": " It's so cold, it's so cold", "prompt": "Snow-covered street illuminated by a single streetlight, a lone figure waiting for a ride in the cold."}, "208": {"lyric": " Waiting for your favorite ride", "prompt": "A lone figure standing in front of a large clock, waiting for a ride to arrive."}, "217": {"lyric": " It's so cold, it's so cold", "prompt": "A lone figure standing in the snow, watching a car drive away in the darkness."}, "226": {"lyric": " Wait until you get in size", "prompt": "A forlorn figure standing on a street corner, waiting for a car to pass by in the night, illuminated by the Parisian street lamps."}, "233": {"lyric": " It's so cold, it's so cold", "prompt": "A person standing alone in the rain with a suitcase, watching a car drive away."}, "244": {"lyric": " When I play your favorite part", "prompt": "Moonlit silhouette of single figure waiting for a car to arrive against a city skyline."}, "253": {"lyric": " It's all gone, oh it's all gone", "prompt": "Empty streets in Paris at night, a single figure in the darkness waiting for a ride."}, "262": {"lyric": " Baby then I break your...", "prompt": "Lonely figure standing in the cold, waiting for a ride in the rain."}, "266": {"lyric": " Working in Paris.", "prompt": "Solitary figure standing in the rain, suitcase in hand, waiting for a ride in the cold night."}, "283": {"lyric": " Pick me up.", "prompt": "Lonely figure standing in a deserted street, awaiting a car to arrive in the darkness."}, "302": {"lyric": " Oui c'est \u00e7a.", "prompt": "A lone figure walking under a street lamp in the night, looking up at the stars while the city sleeps."}, "339": {"lyric": " I'm gonna rise this evening", "prompt": "A car driving through a cold, empty street, its headlights illuminating the darkness, as a silhouette of a person stands in the distance, waiting."}, "358": {"lyric": " Now we say our goodbyes", "prompt": "Lone figure standing in the rain, watching a car drive away."}, "376": {"lyric": " That pretending was easy", "prompt": "A solitary figure standing in the middle of the night illuminated by streetlights, wearing a heavy coat and looking up in anticipation of a car ride."}, "395": {"lyric": " When you're late with a line", "prompt": "Lonely figure standing in the street, a suitcase in one hand and a sign in the other that reads \"Pick me up\"."}, "536": {"lyric": " Pick me up.", "prompt": "A silhouette of a person standing alone in the dark, their arm outstretched and illuminated by the headlights of a car slowly driving towards them."}, "554": {"lyric": " Tonight.", "prompt": "Lonely silhouette of a person standing on a street corner in the rain, looking up and around for a ride."}, "572": {"lyric": " Pick me up.", "prompt": "A woman standing alone in the rain, holding out her hand up to a car driving away."}}, "full_transcript": {"text": " Working in Paris. Pick me up. I'm gonna rise this evening And say to this heart That living is easy When you're living alone It's so cold, it's so cold Waiting for your favorite ride It's so cold, it's so cold Wait until you get in size It's so cold, it's so cold When I play your favorite part It's all gone, oh it's all gone Baby then I break your... Working in Paris. Pick me up. Oui c'est \u00e7a. I'm gonna rise this evening Now we say our goodbyes That pretending was easy When you're late with a line Pick me up. Tonight. Pick me up.", "segments": [{"id": 0, "seek": 0, "start": 16.78, "end": 17.82, "text": " Working in Paris.", "tokens": [50364, 18337, 294, 8380, 13, 50464], "temperature": 0.0, "avg_logprob": -0.41014783041817804, "compression_ratio": 1.1, "no_speech_prob": 0.1126306802034378, "confidence": 0.636, "words": [{"text": "Working", "start": 16.78, "end": 17.16, "confidence": 0.326}, {"text": "in", "start": 17.16, "end": 17.52, "confidence": 0.993}, {"text": "Paris.", "start": 17.52, "end": 17.82, "confidence": 0.711}]}, {"id": 1, "seek": 0, "start": 22.69, "end": 23.65, "text": " Pick me up.", "tokens": [50564, 14129, 385, 493, 13, 50664], "temperature": 0.0, "avg_logprob": -0.41014783041817804, "compression_ratio": 1.1, "no_speech_prob": 0.1126306802034378, "confidence": 0.658, "words": [{"text": "Pick", "start": 22.69, "end": 22.97, "confidence": 0.551}, {"text": "me", "start": 22.97, "end": 23.23, "confidence": 0.958}, {"text": "up.", "start": 23.23, "end": 23.65, "confidence": 0.596}]}, {"id": 2, "seek": 0, "start": 41.13, "end": 45.41, "text": " I'm gonna rise this evening", "tokens": [50814, 286, 478, 799, 6272, 341, 5634, 51064], "temperature": 0.0, "avg_logprob": -0.41014783041817804, "compression_ratio": 1.1, "no_speech_prob": 0.1126306802034378, "confidence": 0.791, "words": [{"text": "I'm", "start": 41.13, "end": 43.45, "confidence": 0.539}, {"text": "gonna", "start": 43.45, "end": 43.73, "confidence": 0.906}, {"text": "rise", "start": 43.73, "end": 44.17, "confidence": 0.977}, {"text": "this", "start": 44.17, "end": 44.75, "confidence": 0.988}, {"text": "evening", "start": 44.75, "end": 45.41, "confidence": 0.967}]}, {"id": 3, "seek": 0, "start": 47.19, "end": 51.03, "text": " And say to this heart", "tokens": [51064, 400, 584, 281, 341, 1917, 51314], "temperature": 0.0, "avg_logprob": -0.41014783041817804, "compression_ratio": 1.1, "no_speech_prob": 0.1126306802034378, "confidence": 0.653, "words": [{"text": "And", "start": 47.19, "end": 48.03, "confidence": 0.346}, {"text": "say", "start": 48.03, "end": 48.85, "confidence": 0.936}, {"text": "to", "start": 48.85, "end": 49.45, "confidence": 0.971}, {"text": "this", "start": 49.45, "end": 50.01, "confidence": 0.943}, {"text": "heart", "start": 50.01, "end": 51.03, "confidence": 0.401}]}, {"id": 4, "seek": 0, "start": 53.52, "end": 58.02, "text": " That living is easy", "tokens": [51314, 663, 2647, 307, 1858, 51614], "temperature": 0.0, "avg_logprob": -0.41014783041817804, "compression_ratio": 1.1, "no_speech_prob": 0.1126306802034378, "confidence": 0.59, "words": [{"text": "That", "start": 53.52, "end": 54.32, "confidence": 0.238}, {"text": "living", "start": 54.32, "end": 55.08, "confidence": 0.537}, {"text": "is", "start": 55.08, "end": 56.08, "confidence": 0.974}, {"text": "easy", "start": 56.08, "end": 58.02, "confidence": 0.975}]}, {"id": 5, "seek": 2500, "start": 59.42, "end": 63.08, "text": " When you're living alone", "tokens": [50364, 1133, 291, 434, 2647, 3312, 50614], "temperature": 0.0, "avg_logprob": -0.11198021570841471, "compression_ratio": 1.8620689655172413, "no_speech_prob": 0.017062142491340637, "confidence": 0.638, "words": [{"text": "When", "start": 59.42, "end": 59.88, "confidence": 0.319}, {"text": "you're", "start": 59.88, "end": 60.62, "confidence": 0.948}, {"text": "living", "start": 60.62, "end": 61.12, "confidence": 0.741}, {"text": "alone", "start": 61.12, "end": 63.08, "confidence": 0.499}]}, {"id": 6, "seek": 2500, "start": 66.32, "end": 69.24, "text": " It's so cold, it's so cold", "tokens": [50614, 467, 311, 370, 3554, 11, 309, 311, 370, 3554, 50764], "temperature": 0.0, "avg_logprob": -0.11198021570841471, "compression_ratio": 1.8620689655172413, "no_speech_prob": 0.017062142491340637, "confidence": 0.771, "words": [{"text": "It's", "start": 66.32, "end": 66.86, "confidence": 0.509}, {"text": "so", "start": 66.86, "end": 67.2, "confidence": 0.971}, {"text": "cold,", "start": 67.2, "end": 67.6, "confidence": 0.697}, {"text": "it's", "start": 68.0, "end": 68.36, "confidence": 0.915}, {"text": "so", "start": 68.36, "end": 68.66, "confidence": 0.996}, {"text": "cold", "start": 68.66, "end": 69.24, "confidence": 0.949}]}, {"id": 7, "seek": 2500, "start": 69.24, "end": 71.54, "text": " Waiting for your favorite ride", "tokens": [50764, 37291, 337, 428, 2954, 5077, 50914], "temperature": 0.0, "avg_logprob": -0.11198021570841471, "compression_ratio": 1.8620689655172413, "no_speech_prob": 0.017062142491340637, "confidence": 0.749, "words": [{"text": "Waiting", "start": 69.24, "end": 69.62, "confidence": 0.298}, {"text": "for", "start": 69.62, "end": 69.88, "confidence": 0.991}, {"text": "your", "start": 69.88, "end": 70.06, "confidence": 0.946}, {"text": "favorite", "start": 70.06, "end": 70.7, "confidence": 0.902}, {"text": "ride", "start": 70.7, "end": 71.54, "confidence": 0.939}]}, {"id": 8, "seek": 2500, "start": 72.28, "end": 75.08, "text": " It's so cold, it's so cold", "tokens": [50914, 467, 311, 370, 3554, 11, 309, 311, 370, 3554, 51064], "temperature": 0.0, "avg_logprob": -0.11198021570841471, "compression_ratio": 1.8620689655172413, "no_speech_prob": 0.017062142491340637, "confidence": 0.818, "words": [{"text": "It's", "start": 72.28, "end": 72.76, "confidence": 0.621}, {"text": "so", "start": 72.76, "end": 73.04, "confidence": 0.982}, {"text": "cold,", "start": 73.04, "end": 73.56, "confidence": 0.702}, {"text": "it's", "start": 73.92, "end": 74.34, "confidence": 0.949}, {"text": "so", "start": 74.34, "end": 74.6, "confidence": 0.997}, {"text": "cold", "start": 74.6, "end": 75.08, "confidence": 0.981}]}, {"id": 9, "seek": 2500, "start": 75.26, "end": 77.48, "text": " Wait until you get in size", "tokens": [51064, 3802, 1826, 291, 483, 294, 2744, 51214], "temperature": 0.0, "avg_logprob": -0.11198021570841471, "compression_ratio": 1.8620689655172413, "no_speech_prob": 0.017062142491340637, "confidence": 0.669, "words": [{"text": "Wait", "start": 75.26, "end": 75.56, "confidence": 0.61}, {"text": "until", "start": 75.56, "end": 75.84, "confidence": 0.966}, {"text": "you", "start": 75.84, "end": 76.34, "confidence": 0.99}, {"text": "get", "start": 76.34, "end": 76.58, "confidence": 0.964}, {"text": "in", "start": 76.58, "end": 76.9, "confidence": 0.379}, {"text": "size", "start": 76.9, "end": 77.48, "confidence": 0.42}]}, {"id": 10, "seek": 2500, "start": 77.68, "end": 81.22, "text": " It's so cold, it's so cold", "tokens": [51214, 467, 311, 370, 3554, 11, 309, 311, 370, 3554, 51364], "temperature": 0.0, "avg_logprob": -0.11198021570841471, "compression_ratio": 1.8620689655172413, "no_speech_prob": 0.017062142491340637, "confidence": 0.492, "words": [{"text": "It's", "start": 77.68, "end": 78.92, "confidence": 0.637}, {"text": "so", "start": 78.92, "end": 79.14, "confidence": 0.847}, {"text": "cold,", "start": 79.14, "end": 79.62, "confidence": 0.077}, {"text": "it's", "start": 79.96, "end": 80.4, "confidence": 0.921}, {"text": "so", "start": 80.4, "end": 80.68, "confidence": 0.993}, {"text": "cold", "start": 80.68, "end": 81.22, "confidence": 0.979}]}, {"id": 11, "seek": 2500, "start": 81.26, "end": 83.5, "text": " When I play your favorite part", "tokens": [51364, 1133, 286, 862, 428, 2954, 644, 51514], "temperature": 0.0, "avg_logprob": -0.11198021570841471, "compression_ratio": 1.8620689655172413, "no_speech_prob": 0.017062142491340637, "confidence": 0.594, "words": [{"text": "When", "start": 81.26, "end": 81.58, "confidence": 0.08}, {"text": "I", "start": 81.58, "end": 81.72, "confidence": 0.977}, {"text": "play", "start": 81.72, "end": 81.9, "confidence": 0.847}, {"text": "your", "start": 81.9, "end": 82.1, "confidence": 0.93}, {"text": "favorite", "start": 82.1, "end": 82.68, "confidence": 0.825}, {"text": "part", "start": 82.68, "end": 83.5, "confidence": 0.862}]}, {"id": 12, "seek": 2500, "start": 84.3, "end": 87.14, "text": " It's all gone, oh it's all gone", "tokens": [51514, 467, 311, 439, 2780, 11, 1954, 309, 311, 439, 2780, 51664], "temperature": 0.0, "avg_logprob": -0.11198021570841471, "compression_ratio": 1.8620689655172413, "no_speech_prob": 0.017062142491340637, "confidence": 0.777, "words": [{"text": "It's", "start": 84.3, "end": 84.88, "confidence": 0.557}, {"text": "all", "start": 84.88, "end": 85.08, "confidence": 0.932}, {"text": "gone,", "start": 85.08, "end": 85.44, "confidence": 0.805}, {"text": "oh", "start": 85.74, "end": 85.9, "confidence": 0.601}, {"text": "it's", "start": 85.9, "end": 86.38, "confidence": 0.846}, {"text": "all", "start": 86.38, "end": 86.6, "confidence": 0.997}, {"text": "gone", "start": 86.6, "end": 87.14, "confidence": 0.999}]}, {"id": 13, "seek": 2500, "start": 87.2, "end": 88.66, "text": " Baby then I break your...", "tokens": [51664, 9425, 550, 286, 1821, 428, 485, 51714], "temperature": 0.0, "avg_logprob": -0.11198021570841471, "compression_ratio": 1.8620689655172413, "no_speech_prob": 0.017062142491340637, "confidence": 0.498, "words": [{"text": "Baby", "start": 87.2, "end": 87.56, "confidence": 0.366}, {"text": "then", "start": 87.56, "end": 87.86, "confidence": 0.49}, {"text": "I", "start": 87.86, "end": 88.12, "confidence": 0.972}, {"text": "break", "start": 88.12, "end": 88.4, "confidence": 0.772}, {"text": "your...", "start": 88.4, "end": 88.66, "confidence": 0.337}]}, {"id": 14, "seek": 2500, "start": 88.78, "end": 89.82, "text": " Working in Paris.", "tokens": [51714, 18337, 294, 8380, 13, 51814], "temperature": 0.0, "avg_logprob": -0.11198021570841471, "compression_ratio": 1.8620689655172413, "no_speech_prob": 0.017062142491340637, "confidence": 0.622, "words": [{"text": "Working", "start": 88.78, "end": 89.16, "confidence": 0.406}, {"text": "in", "start": 89.16, "end": 89.52, "confidence": 0.985}, {"text": "Paris.", "start": 89.52, "end": 89.82, "confidence": 0.612}]}, {"id": 15, "seek": 5500, "start": 94.22, "end": 95.63, "text": " Pick me up.", "tokens": [50414, 14129, 385, 493, 13, 50514], "temperature": 0.0, "avg_logprob": -0.1681165390826286, "compression_ratio": 1.1478260869565218, "no_speech_prob": 0.009848756715655327, "confidence": 0.649, "words": [{"text": "Pick", "start": 94.22, "end": 94.95, "confidence": 0.663}, {"text": "me", "start": 94.95, "end": 95.27, "confidence": 0.963}, {"text": "up.", "start": 95.27, "end": 95.63, "confidence": 0.528}]}, {"id": 16, "seek": 5500, "start": 100.78, "end": 101.56, "text": " Oui c'est \u00e7a.", "tokens": [50514, 14005, 269, 6, 377, 2788, 13, 50614], "temperature": 0.0, "avg_logprob": -0.1681165390826286, "compression_ratio": 1.1478260869565218, "no_speech_prob": 0.009848756715655327, "confidence": 0.505, "words": [{"text": "Oui", "start": 100.78, "end": 101.08, "confidence": 0.133}, {"text": "c'est", "start": 101.08, "end": 101.44, "confidence": 0.788}, {"text": "\u00e7a.", "start": 101.44, "end": 101.56, "confidence": 0.504}]}, {"id": 17, "seek": 5500, "start": 113.04, "end": 117.74, "text": " I'm gonna rise this evening", "tokens": [50714, 286, 478, 799, 6272, 341, 5634, 51014], "temperature": 0.0, "avg_logprob": -0.1681165390826286, "compression_ratio": 1.1478260869565218, "no_speech_prob": 0.009848756715655327, "confidence": 0.227, "words": [{"text": "I'm", "start": 113.04, "end": 115.52, "confidence": 0.419}, {"text": "gonna", "start": 115.52, "end": 115.78, "confidence": 0.001}, {"text": "rise", "start": 115.78, "end": 116.2, "confidence": 0.87}, {"text": "this", "start": 116.2, "end": 116.72, "confidence": 0.963}, {"text": "evening", "start": 116.72, "end": 117.74, "confidence": 0.913}]}, {"id": 18, "seek": 5500, "start": 119.48, "end": 124.08, "text": " Now we say our goodbyes", "tokens": [51014, 823, 321, 584, 527, 665, 2322, 279, 51264], "temperature": 0.0, "avg_logprob": -0.1681165390826286, "compression_ratio": 1.1478260869565218, "no_speech_prob": 0.009848756715655327, "confidence": 0.891, "words": [{"text": "Now", "start": 119.48, "end": 120.02, "confidence": 0.557}, {"text": "we", "start": 120.02, "end": 120.42, "confidence": 0.955}, {"text": "say", "start": 120.42, "end": 120.98, "confidence": 0.989}, {"text": "our", "start": 120.98, "end": 121.48, "confidence": 0.958}, {"text": "goodbyes", "start": 121.48, "end": 124.08, "confidence": 0.961}]}, {"id": 19, "seek": 5500, "start": 125.48, "end": 129.6, "text": " That pretending was easy", "tokens": [51264, 663, 22106, 390, 1858, 51564], "temperature": 0.0, "avg_logprob": -0.1681165390826286, "compression_ratio": 1.1478260869565218, "no_speech_prob": 0.009848756715655327, "confidence": 0.212, "words": [{"text": "That", "start": 125.48, "end": 126.06, "confidence": 0.185}, {"text": "pretending", "start": 126.06, "end": 127.02, "confidence": 0.981}, {"text": "was", "start": 127.02, "end": 127.86, "confidence": 0.945}, {"text": "easy", "start": 127.86, "end": 129.6, "confidence": 0.012}]}, {"id": 20, "seek": 5500, "start": 131.51, "end": 135.33, "text": " When you're late with a line", "tokens": [51564, 1133, 291, 434, 3469, 365, 257, 1622, 51814], "temperature": 0.0, "avg_logprob": -0.1681165390826286, "compression_ratio": 1.1478260869565218, "no_speech_prob": 0.009848756715655327, "confidence": 0.653, "words": [{"text": "When", "start": 131.51, "end": 131.91, "confidence": 0.291}, {"text": "you're", "start": 131.91, "end": 132.61, "confidence": 0.913}, {"text": "late", "start": 132.61, "end": 132.89, "confidence": 0.877}, {"text": "with", "start": 132.89, "end": 133.47, "confidence": 0.945}, {"text": "a", "start": 133.47, "end": 134.05, "confidence": 0.698}, {"text": "line", "start": 134.05, "end": 135.33, "confidence": 0.362}]}, {"id": 21, "seek": 8500, "start": 178.77, "end": 180.15, "text": " Pick me up.", "tokens": [50414, 14129, 385, 493, 13, 50514], "temperature": 0.0, "avg_logprob": -0.21811503522536335, "compression_ratio": 1.0, "no_speech_prob": 0.05628674477338791, "confidence": 0.579, "words": [{"text": "Pick", "start": 178.77, "end": 178.99, "confidence": 0.576}, {"text": "me", "start": 178.99, "end": 179.23, "confidence": 0.952}, {"text": "up.", "start": 179.23, "end": 180.15, "confidence": 0.452}]}, {"id": 22, "seek": 8500, "start": 184.66, "end": 185.5, "text": " Tonight.", "tokens": [50514, 18702, 13, 50614], "temperature": 0.0, "avg_logprob": -0.21811503522536335, "compression_ratio": 1.0, "no_speech_prob": 0.05628674477338791, "confidence": 0.104, "words": [{"text": "Tonight.", "start": 184.66, "end": 185.5, "confidence": 0.104}]}, {"id": 23, "seek": 8500, "start": 190.73, "end": 191.63, "text": " Pick me up.", "tokens": [50714, 14129, 385, 493, 13, 50814], "temperature": 0.0, "avg_logprob": -0.21811503522536335, "compression_ratio": 1.0, "no_speech_prob": 0.05628674477338791, "confidence": 0.699, "words": [{"text": "Pick", "start": 190.73, "end": 190.99, "confidence": 0.62}, {"text": "me", "start": 190.99, "end": 191.23, "confidence": 0.978}, {"text": "up.", "start": 191.23, "end": 191.63, "confidence": 0.628}]}], "language": "en"}, "duration": 225.46285714285713}
+{
+  "animation": {
+    "keyframes_per_second": 3,
+    "zoom_animation_times": {
+      "00000.00": "1.00",
+      "00007.06": "1.40",
+      "00007.24": "1.10",
+      "00007.43": "1.40",
+      "00007.93": "1.00",
+      "00008.20": "1.40",
+      "00008.70": "1.00",
+      "00009.31": "1.40",
+      "00009.81": "1.00",
+      "00011.56": "1.40",
+      "00012.06": "1.00",
+      "00012.31": "1.40",
+      "00012.81": "1.00",
+      "00013.05": "1.40",
+      "00013.55": "1.00",
+      "00013.82": "1.40",
+      "00014.32": "1.00",
+      "00014.56": "1.40",
+      "00015.06": "1.00",
+      "00016.07": "1.40",
+      "00016.57": "1.00",
+      "00017.90": "1.40",
+      "00018.40": "1.00",
+      "00020.53": "1.40",
+      "00020.72": "1.08",
+      "00020.92": "1.40",
+      "00021.42": "1.00",
+      "00022.04": "1.40",
+      "00022.23": "1.08",
+      "00022.43": "1.40",
+      "00022.93": "1.00",
+      "00023.55": "1.40",
+      "00023.73": "1.10",
+      "00023.92": "1.40",
+      "00024.11": "1.08",
+      "00024.31": "1.40",
+      "00024.81": "1.00",
+      "00025.03": "1.40",
+      "00025.53": "1.00",
+      "00026.94": "1.40",
+      "00027.44": "1.00",
+      "00028.03": "1.40",
+      "00028.53": "1.00",
+      "00029.16": "1.40",
+      "00029.27": "1.23",
+      "00029.37": "1.40",
+      "00029.87": "1.00",
+      "00030.30": "1.40",
+      "00030.80": "1.00",
+      "00030.95": "1.40",
+      "00031.45": "1.00",
+      "00031.60": "1.40",
+      "00032.10": "1.00",
+      "00032.18": "1.40",
+      "00032.28": "1.25",
+      "00032.37": "1.40",
+      "00032.46": "1.25",
+      "00032.55": "1.40",
+      "00033.05": "1.00",
+      "00034.04": "1.40",
+      "00034.54": "1.00",
+      "00034.81": "1.40",
+      "00035.31": "1.00",
+      "00035.55": "1.40",
+      "00035.74": "1.10",
+      "00035.92": "1.40",
+      "00036.12": "1.08",
+      "00036.32": "1.40",
+      "00036.82": "1.00",
+      "00037.04": "1.40",
+      "00037.54": "1.00",
+      "00038.52": "1.40",
+      "00038.73": "1.07",
+      "00038.94": "1.40",
+      "00039.44": "1.00",
+      "00044.19": "1.40",
+      "00044.69": "1.00",
+      "00044.91": "1.40",
+      "00045.10": "1.08",
+      "00045.30": "1.40",
+      "00045.80": "1.00",
+      "00046.39": "1.40",
+      "00046.89": "1.00",
+      "00050.92": "1.40",
+      "00051.12": "1.08",
+      "00051.32": "1.40",
+      "00051.82": "1.00",
+      "00053.96": "1.40",
+      "00054.14": "1.12",
+      "00054.31": "1.40",
+      "00054.81": "1.00",
+      "00055.80": "1.40",
+      "00055.99": "1.08",
+      "00056.19": "1.40",
+      "00056.69": "1.00",
+      "00056.91": "1.40",
+      "00057.11": "1.08",
+      "00057.31": "1.40",
+      "00057.81": "1.00",
+      "00058.40": "1.40",
+      "00058.90": "1.00",
+      "00061.05": "1.40",
+      "00061.22": "1.12",
+      "00061.39": "1.40",
+      "00061.89": "1.00",
+      "00062.18": "1.40",
+      "00062.68": "1.00",
+      "00062.93": "1.40",
+      "00063.11": "1.10",
+      "00063.30": "1.40",
+      "00063.80": "1.00",
+      "00064.39": "1.40",
+      "00064.89": "1.00",
+      "00066.29": "1.40",
+      "00066.79": "1.00",
+      "00067.41": "1.40",
+      "00067.60": "1.08",
+      "00067.80": "1.40",
+      "00068.30": "1.00",
+      "00068.92": "1.40",
+      "00069.11": "1.08",
+      "00069.31": "1.40",
+      "00069.81": "1.00",
+      "00070.40": "1.40",
+      "00070.90": "1.00",
+      "00071.91": "1.40",
+      "00072.41": "1.00",
+      "00073.79": "1.40",
+      "00074.29": "1.00",
+      "00074.91": "1.40",
+      "00075.10": "1.08",
+      "00075.30": "1.40",
+      "00075.80": "1.00",
+      "00077.90": "1.40",
+      "00078.40": "1.00",
+      "00078.69": "1.40",
+      "00079.19": "1.00",
+      "00079.81": "1.40",
+      "00080.31": "1.00",
+      "00080.92": "1.40",
+      "00081.12": "1.08",
+      "00081.32": "1.40",
+      "00081.82": "1.00",
+      "00082.06": "1.40",
+      "00082.56": "1.00",
+      "00082.80": "1.40",
+      "00083.00": "1.08",
+      "00083.20": "1.40",
+      "00083.37": "1.12",
+      "00083.55": "1.40",
+      "00083.73": "1.10",
+      "00083.92": "1.40",
+      "00084.42": "1.00",
+      "00084.68": "1.40",
+      "00084.87": "1.10",
+      "00085.05": "1.40",
+      "00085.55": "1.00",
+      "00086.56": "1.40",
+      "00086.74": "1.12",
+      "00086.91": "1.40",
+      "00087.41": "1.00",
+      "00088.05": "1.40",
+      "00088.55": "1.00",
+      "00089.91": "1.40",
+      "00090.41": "1.00",
+      "00091.63": "1.40",
+      "00092.13": "1.00",
+      "00092.53": "1.40",
+      "00093.03": "1.00",
+      "00094.04": "1.40",
+      "00094.54": "1.00",
+      "00095.55": "1.40",
+      "00095.74": "1.10",
+      "00095.92": "1.40",
+      "00096.12": "1.08",
+      "00096.32": "1.40",
+      "00096.82": "1.00",
+      "00097.04": "1.40",
+      "00097.54": "1.00",
+      "00098.52": "1.40",
+      "00098.73": "1.07",
+      "00098.94": "1.40",
+      "00099.13": "1.10",
+      "00099.31": "1.40",
+      "00099.81": "1.00",
+      "00102.31": "1.40",
+      "00102.49": "1.10",
+      "00102.68": "1.40",
+      "00103.18": "1.00",
+      "00103.61": "1.40",
+      "00104.11": "1.00",
+      "00104.16": "1.40",
+      "00104.27": "1.23",
+      "00104.37": "1.40",
+      "00104.45": "1.27",
+      "00104.54": "1.40",
+      "00104.73": "1.08",
+      "00104.93": "1.40",
+      "00105.43": "1.00",
+      "00106.02": "1.40",
+      "00106.52": "1.00",
+      "00106.81": "1.40",
+      "00107.31": "1.00",
+      "00107.46": "1.40",
+      "00107.51": "1.33",
+      "00107.55": "1.40",
+      "00107.74": "1.10",
+      "00107.93": "1.40",
+      "00108.12": "1.08",
+      "00108.32": "1.40",
+      "00108.82": "1.00",
+      "00109.04": "1.40",
+      "00109.24": "1.08",
+      "00109.44": "1.40",
+      "00109.94": "1.00",
+      "00110.53": "1.40",
+      "00111.03": "1.00",
+      "00114.71": "1.40",
+      "00115.21": "1.00",
+      "00116.94": "1.40",
+      "00117.44": "1.00",
+      "00117.70": "1.40",
+      "00118.20": "1.00",
+      "00124.44": "1.40",
+      "00124.94": "1.00",
+      "00125.18": "1.40",
+      "00125.68": "1.00",
+      "00127.80": "1.40",
+      "00128.30": "1.00",
+      "00128.92": "1.40",
+      "00129.11": "1.08",
+      "00129.31": "1.40",
+      "00129.81": "1.00",
+      "00131.19": "1.40",
+      "00131.69": "1.00",
+      "00131.94": "1.40",
+      "00132.44": "1.00",
+      "00133.45": "1.40",
+      "00133.62": "1.12",
+      "00133.79": "1.40",
+      "00133.99": "1.08",
+      "00134.19": "1.40",
+      "00134.69": "1.00",
+      "00134.91": "1.40",
+      "00135.11": "1.08",
+      "00135.30": "1.40",
+      "00135.80": "1.00",
+      "00150.33": "1.40",
+      "00150.83": "1.00",
+      "00152.18": "1.40",
+      "00152.68": "1.00",
+      "00153.30": "1.40",
+      "00153.80": "1.00",
+      "00156.69": "1.40",
+      "00157.19": "1.00",
+      "00157.41": "1.40",
+      "00157.61": "1.08",
+      "00157.80": "1.40",
+      "00158.30": "1.00",
+      "00158.92": "1.40",
+      "00159.11": "1.08",
+      "00159.31": "1.40",
+      "00159.81": "1.00",
+      "00160.40": "1.40",
+      "00160.90": "1.00",
+      "00161.91": "1.40",
+      "00162.41": "1.00",
+      "00164.56": "1.40",
+      "00164.75": "1.10",
+      "00164.93": "1.40",
+      "00165.43": "1.00",
+      "00166.05": "1.40",
+      "00166.55": "1.00",
+      "00167.18": "1.40",
+      "00167.37": "1.10",
+      "00167.56": "1.40",
+      "00167.73": "1.12",
+      "00167.90": "1.40",
+      "00168.40": "1.00",
+      "00169.81": "1.40",
+      "00169.99": "1.10",
+      "00170.18": "1.40",
+      "00170.36": "1.10",
+      "00170.55": "1.40",
+      "00170.74": "1.10",
+      "00170.92": "1.40",
+      "00171.42": "1.00",
+      "00172.06": "1.40",
+      "00172.56": "1.00",
+      "00173.92": "1.40",
+      "00174.42": "1.00",
+      "00175.61": "1.40",
+      "00176.11": "1.00",
+      "00176.94": "1.40",
+      "00177.12": "1.10",
+      "00177.31": "1.40",
+      "00177.81": "1.00",
+      "00178.05": "1.40",
+      "00178.24": "1.10",
+      "00178.42": "1.40",
+      "00178.92": "1.00",
+      "00179.47": "1.40",
+      "00179.51": "1.33",
+      "00179.56": "1.40",
+      "00179.75": "1.10",
+      "00179.93": "1.40",
+      "00180.43": "1.00",
+      "00181.44": "1.40",
+      "00181.94": "1.00",
+      "00183.30": "1.40",
+      "00183.50": "1.08",
+      "00183.69": "1.40",
+      "00183.87": "1.12",
+      "00184.04": "1.40",
+      "00184.24": "1.08",
+      "00184.44": "1.40",
+      "00184.53": "1.25",
+      "00184.62": "1.40",
+      "00185.12": "1.00",
+      "00188.17": "1.40",
+      "00188.36": "1.10",
+      "00188.55": "1.40",
+      "00189.05": "1.00",
+      "00190.03": "1.40",
+      "00190.23": "1.08",
+      "00190.43": "1.40",
+      "00190.93": "1.00",
+      "00191.47": "1.40",
+      "00191.52": "1.33",
+      "00191.56": "1.40",
+      "00191.75": "1.10",
+      "00191.94": "1.40",
+      "00192.44": "1.00",
+      "00193.45": "1.40",
+      "00193.95": "1.00",
+      "00194.54": "1.40",
+      "00195.04": "1.00",
+      "00195.30": "1.40",
+      "00195.80": "1.00",
+      "00196.44": "1.40",
+      "00196.94": "1.00",
+      "00197.53": "1.40",
+      "00198.03": "1.00",
+      "00198.30": "1.40",
+      "00198.50": "1.08",
+      "00198.69": "1.40",
+      "00198.88": "1.10",
+      "00199.06": "1.40",
+      "00199.56": "1.00"
+    }
+  },
+  "estd_bpm": 161.4990234375,
+  "style": "Art Deco",
+  "full_transcript": {
+    "text": " Working in Paris. Pick me up. I'm gonna rise this evening And say to this heart That living is easy When you're living alone It's so cold, it's so cold Waiting for your favorite ride It's so cold, it's so cold Wait until you get in size It's so cold, it's so cold When I play your favorite part It's all gone, oh it's all gone Baby then I break your... Working in Paris. Pick me up. Oui c'est \u00e7a. I'm gonna rise this evening Now we say our goodbyes That pretending was easy When you're late with a line Pick me up. Tonight. Pick me up.",
+    "segments": [
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 16.78,
+        "end": 17.82,
+        "text": " Working in Paris.",
+        "tokens": [
+          50364,
+          18337,
+          294,
+          8380,
+          13,
+          50464
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.41014783041817804,
+        "compression_ratio": 1.1,
+        "no_speech_prob": 0.1126306802034378,
+        "confidence": 0.636,
+        "words": [
+          {
+            "text": "Working",
+            "start": 16.78,
+            "end": 17.16,
+            "confidence": 0.326
+          },
+          {
+            "text": "in",
+            "start": 17.16,
+            "end": 17.52,
+            "confidence": 0.993
+          },
+          {
+            "text": "Paris.",
+            "start": 17.52,
+            "end": 17.82,
+            "confidence": 0.711
+          }
+        ],
+        "prompt": "Lone figure standing on a street corner, illuminated by a single street lamp in the night, with a suitcase in hand and a longing gaze towards the horizon."
+      },
+      {
+        "id": 1,
+        "seek": 0,
+        "start": 22.69,
+        "end": 23.65,
+        "text": " Pick me up.",
+        "tokens": [
+          50564,
+          14129,
+          385,
+          493,
+          13,
+          50664
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.41014783041817804,
+        "compression_ratio": 1.1,
+        "no_speech_prob": 0.1126306802034378,
+        "confidence": 0.658,
+        "words": [
+          {
+            "text": "Pick",
+            "start": 22.69,
+            "end": 22.97,
+            "confidence": 0.551
+          },
+          {
+            "text": "me",
+            "start": 22.97,
+            "end": 23.23,
+            "confidence": 0.958
+          },
+          {
+            "text": "up.",
+            "start": 23.23,
+            "end": 23.65,
+            "confidence": 0.596
+          }
+        ],
+        "prompt": "A car pulling up to a street corner in the evening with a silhouette of a person standing alone in the night."
+      },
+      {
+        "id": 2,
+        "seek": 0,
+        "start": 41.13,
+        "end": 45.41,
+        "text": " I'm gonna rise this evening",
+        "tokens": [
+          50814,
+          286,
+          478,
+          799,
+          6272,
+          341,
+          5634,
+          51064
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.41014783041817804,
+        "compression_ratio": 1.1,
+        "no_speech_prob": 0.1126306802034378,
+        "confidence": 0.791,
+        "words": [
+          {
+            "text": "I'm",
+            "start": 41.13,
+            "end": 43.45,
+            "confidence": 0.539
+          },
+          {
+            "text": "gonna",
+            "start": 43.45,
+            "end": 43.73,
+            "confidence": 0.906
+          },
+          {
+            "text": "rise",
+            "start": 43.73,
+            "end": 44.17,
+            "confidence": 0.977
+          },
+          {
+            "text": "this",
+            "start": 44.17,
+            "end": 44.75,
+            "confidence": 0.988
+          },
+          {
+            "text": "evening",
+            "start": 44.75,
+            "end": 45.41,
+            "confidence": 0.967
+          }
+        ],
+        "prompt": "Lonely figure standing in a foreign city, watching a car drive away in the night."
+      },
+      {
+        "id": 3,
+        "seek": 0,
+        "start": 47.19,
+        "end": 51.03,
+        "text": " And say to this heart",
+        "tokens": [
+          51064,
+          400,
+          584,
+          281,
+          341,
+          1917,
+          51314
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.41014783041817804,
+        "compression_ratio": 1.1,
+        "no_speech_prob": 0.1126306802034378,
+        "confidence": 0.653,
+        "words": [
+          {
+            "text": "And",
+            "start": 47.19,
+            "end": 48.03,
+            "confidence": 0.346
+          },
+          {
+            "text": "say",
+            "start": 48.03,
+            "end": 48.85,
+            "confidence": 0.936
+          },
+          {
+            "text": "to",
+            "start": 48.85,
+            "end": 49.45,
+            "confidence": 0.971
+          },
+          {
+            "text": "this",
+            "start": 49.45,
+            "end": 50.01,
+            "confidence": 0.943
+          },
+          {
+            "text": "heart",
+            "start": 50.01,
+            "end": 51.03,
+            "confidence": 0.401
+          }
+        ],
+        "prompt": "A woman standing on a street corner in Paris, illuminated by the lights of the city, reaching out her arm in anticipation of a ride."
+      },
+      {
+        "id": 4,
+        "seek": 0,
+        "start": 53.52,
+        "end": 58.02,
+        "text": " That living is easy",
+        "tokens": [
+          51314,
+          663,
+          2647,
+          307,
+          1858,
+          51614
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.41014783041817804,
+        "compression_ratio": 1.1,
+        "no_speech_prob": 0.1126306802034378,
+        "confidence": 0.59,
+        "words": [
+          {
+            "text": "That",
+            "start": 53.52,
+            "end": 54.32,
+            "confidence": 0.238
+          },
+          {
+            "text": "living",
+            "start": 54.32,
+            "end": 55.08,
+            "confidence": 0.537
+          },
+          {
+            "text": "is",
+            "start": 55.08,
+            "end": 56.08,
+            "confidence": 0.974
+          },
+          {
+            "text": "easy",
+            "start": 56.08,
+            "end": 58.02,
+            "confidence": 0.975
+          }
+        ],
+        "prompt": "Lonely figure standing in a city street at night, shivering in the cold, looking up at the sky, waiting for a ride."
+      },
+      {
+        "id": 5,
+        "seek": 2500,
+        "start": 59.42,
+        "end": 63.08,
+        "text": " When you're living alone",
+        "tokens": [
+          50364,
+          1133,
+          291,
+          434,
+          2647,
+          3312,
+          50614
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.11198021570841471,
+        "compression_ratio": 1.8620689655172413,
+        "no_speech_prob": 0.017062142491340637,
+        "confidence": 0.638,
+        "words": [
+          {
+            "text": "When",
+            "start": 59.42,
+            "end": 59.88,
+            "confidence": 0.319
+          },
+          {
+            "text": "you're",
+            "start": 59.88,
+            "end": 60.62,
+            "confidence": 0.948
+          },
+          {
+            "text": "living",
+            "start": 60.62,
+            "end": 61.12,
+            "confidence": 0.741
+          },
+          {
+            "text": "alone",
+            "start": 61.12,
+            "end": 63.08,
+            "confidence": 0.499
+          }
+        ],
+        "prompt": "A solitary figure, illuminated by the twinkling night lights of Paris, standing alone on a street corner, waiting for a car to arrive."
+      },
+      {
+        "id": 6,
+        "seek": 2500,
+        "start": 66.32,
+        "end": 69.24,
+        "text": " It's so cold, it's so cold",
+        "tokens": [
+          50614,
+          467,
+          311,
+          370,
+          3554,
+          11,
+          309,
+          311,
+          370,
+          3554,
+          50764
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.11198021570841471,
+        "compression_ratio": 1.8620689655172413,
+        "no_speech_prob": 0.017062142491340637,
+        "confidence": 0.771,
+        "words": [
+          {
+            "text": "It's",
+            "start": 66.32,
+            "end": 66.86,
+            "confidence": 0.509
+          },
+          {
+            "text": "so",
+            "start": 66.86,
+            "end": 67.2,
+            "confidence": 0.971
+          },
+          {
+            "text": "cold,",
+            "start": 67.2,
+            "end": 67.6,
+            "confidence": 0.697
+          },
+          {
+            "text": "it's",
+            "start": 68.0,
+            "end": 68.36,
+            "confidence": 0.915
+          },
+          {
+            "text": "so",
+            "start": 68.36,
+            "end": 68.66,
+            "confidence": 0.996
+          },
+          {
+            "text": "cold",
+            "start": 68.66,
+            "end": 69.24,
+            "confidence": 0.949
+          }
+        ],
+        "prompt": "Snow-covered street illuminated by a single streetlight, a lone figure waiting for a ride in the cold."
+      },
+      {
+        "id": 7,
+        "seek": 2500,
+        "start": 69.24,
+        "end": 71.54,
+        "text": " Waiting for your favorite ride",
+        "tokens": [
+          50764,
+          37291,
+          337,
+          428,
+          2954,
+          5077,
+          50914
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.11198021570841471,
+        "compression_ratio": 1.8620689655172413,
+        "no_speech_prob": 0.017062142491340637,
+        "confidence": 0.749,
+        "words": [
+          {
+            "text": "Waiting",
+            "start": 69.24,
+            "end": 69.62,
+            "confidence": 0.298
+          },
+          {
+            "text": "for",
+            "start": 69.62,
+            "end": 69.88,
+            "confidence": 0.991
+          },
+          {
+            "text": "your",
+            "start": 69.88,
+            "end": 70.06,
+            "confidence": 0.946
+          },
+          {
+            "text": "favorite",
+            "start": 70.06,
+            "end": 70.7,
+            "confidence": 0.902
+          },
+          {
+            "text": "ride",
+            "start": 70.7,
+            "end": 71.54,
+            "confidence": 0.939
+          }
+        ],
+        "prompt": "A lone figure standing in front of a large clock, waiting for a ride to arrive."
+      },
+      {
+        "id": 8,
+        "seek": 2500,
+        "start": 72.28,
+        "end": 75.08,
+        "text": " It's so cold, it's so cold",
+        "tokens": [
+          50914,
+          467,
+          311,
+          370,
+          3554,
+          11,
+          309,
+          311,
+          370,
+          3554,
+          51064
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.11198021570841471,
+        "compression_ratio": 1.8620689655172413,
+        "no_speech_prob": 0.017062142491340637,
+        "confidence": 0.818,
+        "words": [
+          {
+            "text": "It's",
+            "start": 72.28,
+            "end": 72.76,
+            "confidence": 0.621
+          },
+          {
+            "text": "so",
+            "start": 72.76,
+            "end": 73.04,
+            "confidence": 0.982
+          },
+          {
+            "text": "cold,",
+            "start": 73.04,
+            "end": 73.56,
+            "confidence": 0.702
+          },
+          {
+            "text": "it's",
+            "start": 73.92,
+            "end": 74.34,
+            "confidence": 0.949
+          },
+          {
+            "text": "so",
+            "start": 74.34,
+            "end": 74.6,
+            "confidence": 0.997
+          },
+          {
+            "text": "cold",
+            "start": 74.6,
+            "end": 75.08,
+            "confidence": 0.981
+          }
+        ],
+        "prompt": "A lone figure standing in the snow, watching a car drive away in the darkness."
+      },
+      {
+        "id": 9,
+        "seek": 2500,
+        "start": 75.26,
+        "end": 77.48,
+        "text": " Wait until you get in size",
+        "tokens": [
+          51064,
+          3802,
+          1826,
+          291,
+          483,
+          294,
+          2744,
+          51214
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.11198021570841471,
+        "compression_ratio": 1.8620689655172413,
+        "no_speech_prob": 0.017062142491340637,
+        "confidence": 0.669,
+        "words": [
+          {
+            "text": "Wait",
+            "start": 75.26,
+            "end": 75.56,
+            "confidence": 0.61
+          },
+          {
+            "text": "until",
+            "start": 75.56,
+            "end": 75.84,
+            "confidence": 0.966
+          },
+          {
+            "text": "you",
+            "start": 75.84,
+            "end": 76.34,
+            "confidence": 0.99
+          },
+          {
+            "text": "get",
+            "start": 76.34,
+            "end": 76.58,
+            "confidence": 0.964
+          },
+          {
+            "text": "in",
+            "start": 76.58,
+            "end": 76.9,
+            "confidence": 0.379
+          },
+          {
+            "text": "size",
+            "start": 76.9,
+            "end": 77.48,
+            "confidence": 0.42
+          }
+        ],
+        "prompt": "A forlorn figure standing on a street corner, waiting for a car to pass by in the night, illuminated by the Parisian street lamps."
+      },
+      {
+        "id": 10,
+        "seek": 2500,
+        "start": 77.68,
+        "end": 81.22,
+        "text": " It's so cold, it's so cold",
+        "tokens": [
+          51214,
+          467,
+          311,
+          370,
+          3554,
+          11,
+          309,
+          311,
+          370,
+          3554,
+          51364
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.11198021570841471,
+        "compression_ratio": 1.8620689655172413,
+        "no_speech_prob": 0.017062142491340637,
+        "confidence": 0.492,
+        "words": [
+          {
+            "text": "It's",
+            "start": 77.68,
+            "end": 78.92,
+            "confidence": 0.637
+          },
+          {
+            "text": "so",
+            "start": 78.92,
+            "end": 79.14,
+            "confidence": 0.847
+          },
+          {
+            "text": "cold,",
+            "start": 79.14,
+            "end": 79.62,
+            "confidence": 0.077
+          },
+          {
+            "text": "it's",
+            "start": 79.96,
+            "end": 80.4,
+            "confidence": 0.921
+          },
+          {
+            "text": "so",
+            "start": 80.4,
+            "end": 80.68,
+            "confidence": 0.993
+          },
+          {
+            "text": "cold",
+            "start": 80.68,
+            "end": 81.22,
+            "confidence": 0.979
+          }
+        ],
+        "prompt": "A person standing alone in the rain with a suitcase, watching a car drive away."
+      },
+      {
+        "id": 11,
+        "seek": 2500,
+        "start": 81.26,
+        "end": 83.5,
+        "text": " When I play your favorite part",
+        "tokens": [
+          51364,
+          1133,
+          286,
+          862,
+          428,
+          2954,
+          644,
+          51514
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.11198021570841471,
+        "compression_ratio": 1.8620689655172413,
+        "no_speech_prob": 0.017062142491340637,
+        "confidence": 0.594,
+        "words": [
+          {
+            "text": "When",
+            "start": 81.26,
+            "end": 81.58,
+            "confidence": 0.08
+          },
+          {
+            "text": "I",
+            "start": 81.58,
+            "end": 81.72,
+            "confidence": 0.977
+          },
+          {
+            "text": "play",
+            "start": 81.72,
+            "end": 81.9,
+            "confidence": 0.847
+          },
+          {
+            "text": "your",
+            "start": 81.9,
+            "end": 82.1,
+            "confidence": 0.93
+          },
+          {
+            "text": "favorite",
+            "start": 82.1,
+            "end": 82.68,
+            "confidence": 0.825
+          },
+          {
+            "text": "part",
+            "start": 82.68,
+            "end": 83.5,
+            "confidence": 0.862
+          }
+        ],
+        "prompt": "Moonlit silhouette of single figure waiting for a car to arrive against a city skyline."
+      },
+      {
+        "id": 12,
+        "seek": 2500,
+        "start": 84.3,
+        "end": 87.14,
+        "text": " It's all gone, oh it's all gone",
+        "tokens": [
+          51514,
+          467,
+          311,
+          439,
+          2780,
+          11,
+          1954,
+          309,
+          311,
+          439,
+          2780,
+          51664
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.11198021570841471,
+        "compression_ratio": 1.8620689655172413,
+        "no_speech_prob": 0.017062142491340637,
+        "confidence": 0.777,
+        "words": [
+          {
+            "text": "It's",
+            "start": 84.3,
+            "end": 84.88,
+            "confidence": 0.557
+          },
+          {
+            "text": "all",
+            "start": 84.88,
+            "end": 85.08,
+            "confidence": 0.932
+          },
+          {
+            "text": "gone,",
+            "start": 85.08,
+            "end": 85.44,
+            "confidence": 0.805
+          },
+          {
+            "text": "oh",
+            "start": 85.74,
+            "end": 85.9,
+            "confidence": 0.601
+          },
+          {
+            "text": "it's",
+            "start": 85.9,
+            "end": 86.38,
+            "confidence": 0.846
+          },
+          {
+            "text": "all",
+            "start": 86.38,
+            "end": 86.6,
+            "confidence": 0.997
+          },
+          {
+            "text": "gone",
+            "start": 86.6,
+            "end": 87.14,
+            "confidence": 0.999
+          }
+        ],
+        "prompt": "Empty streets in Paris at night, a single figure in the darkness waiting for a ride."
+      },
+      {
+        "id": 13,
+        "seek": 2500,
+        "start": 87.2,
+        "end": 88.66,
+        "text": " Baby then I break your...",
+        "tokens": [
+          51664,
+          9425,
+          550,
+          286,
+          1821,
+          428,
+          485,
+          51714
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.11198021570841471,
+        "compression_ratio": 1.8620689655172413,
+        "no_speech_prob": 0.017062142491340637,
+        "confidence": 0.498,
+        "words": [
+          {
+            "text": "Baby",
+            "start": 87.2,
+            "end": 87.56,
+            "confidence": 0.366
+          },
+          {
+            "text": "then",
+            "start": 87.56,
+            "end": 87.86,
+            "confidence": 0.49
+          },
+          {
+            "text": "I",
+            "start": 87.86,
+            "end": 88.12,
+            "confidence": 0.972
+          },
+          {
+            "text": "break",
+            "start": 88.12,
+            "end": 88.4,
+            "confidence": 0.772
+          },
+          {
+            "text": "your...",
+            "start": 88.4,
+            "end": 88.66,
+            "confidence": 0.337
+          }
+        ],
+        "prompt": "Lonely figure standing in the cold, waiting for a ride in the rain."
+      },
+      {
+        "id": 14,
+        "seek": 2500,
+        "start": 88.78,
+        "end": 89.82,
+        "text": " Working in Paris.",
+        "tokens": [
+          51714,
+          18337,
+          294,
+          8380,
+          13,
+          51814
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.11198021570841471,
+        "compression_ratio": 1.8620689655172413,
+        "no_speech_prob": 0.017062142491340637,
+        "confidence": 0.622,
+        "words": [
+          {
+            "text": "Working",
+            "start": 88.78,
+            "end": 89.16,
+            "confidence": 0.406
+          },
+          {
+            "text": "in",
+            "start": 89.16,
+            "end": 89.52,
+            "confidence": 0.985
+          },
+          {
+            "text": "Paris.",
+            "start": 89.52,
+            "end": 89.82,
+            "confidence": 0.612
+          }
+        ],
+        "prompt": "Solitary figure standing in the rain, suitcase in hand, waiting for a ride in the cold night."
+      },
+      {
+        "id": 15,
+        "seek": 5500,
+        "start": 94.22,
+        "end": 95.63,
+        "text": " Pick me up.",
+        "tokens": [
+          50414,
+          14129,
+          385,
+          493,
+          13,
+          50514
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.1681165390826286,
+        "compression_ratio": 1.1478260869565218,
+        "no_speech_prob": 0.009848756715655327,
+        "confidence": 0.649,
+        "words": [
+          {
+            "text": "Pick",
+            "start": 94.22,
+            "end": 94.95,
+            "confidence": 0.663
+          },
+          {
+            "text": "me",
+            "start": 94.95,
+            "end": 95.27,
+            "confidence": 0.963
+          },
+          {
+            "text": "up.",
+            "start": 95.27,
+            "end": 95.63,
+            "confidence": 0.528
+          }
+        ],
+        "prompt": "Lonely figure standing in a deserted street, awaiting a car to arrive in the darkness."
+      },
+      {
+        "id": 16,
+        "seek": 5500,
+        "start": 100.78,
+        "end": 101.56,
+        "text": " Oui c'est \u00e7a.",
+        "tokens": [
+          50514,
+          14005,
+          269,
+          6,
+          377,
+          2788,
+          13,
+          50614
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.1681165390826286,
+        "compression_ratio": 1.1478260869565218,
+        "no_speech_prob": 0.009848756715655327,
+        "confidence": 0.505,
+        "words": [
+          {
+            "text": "Oui",
+            "start": 100.78,
+            "end": 101.08,
+            "confidence": 0.133
+          },
+          {
+            "text": "c'est",
+            "start": 101.08,
+            "end": 101.44,
+            "confidence": 0.788
+          },
+          {
+            "text": "\u00e7a.",
+            "start": 101.44,
+            "end": 101.56,
+            "confidence": 0.504
+          }
+        ],
+        "prompt": "A lone figure walking under a street lamp in the night, looking up at the stars while the city sleeps."
+      },
+      {
+        "id": 17,
+        "seek": 5500,
+        "start": 113.04,
+        "end": 117.74,
+        "text": " I'm gonna rise this evening",
+        "tokens": [
+          50714,
+          286,
+          478,
+          799,
+          6272,
+          341,
+          5634,
+          51014
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.1681165390826286,
+        "compression_ratio": 1.1478260869565218,
+        "no_speech_prob": 0.009848756715655327,
+        "confidence": 0.227,
+        "words": [
+          {
+            "text": "I'm",
+            "start": 113.04,
+            "end": 115.52,
+            "confidence": 0.419
+          },
+          {
+            "text": "gonna",
+            "start": 115.52,
+            "end": 115.78,
+            "confidence": 0.001
+          },
+          {
+            "text": "rise",
+            "start": 115.78,
+            "end": 116.2,
+            "confidence": 0.87
+          },
+          {
+            "text": "this",
+            "start": 116.2,
+            "end": 116.72,
+            "confidence": 0.963
+          },
+          {
+            "text": "evening",
+            "start": 116.72,
+            "end": 117.74,
+            "confidence": 0.913
+          }
+        ],
+        "prompt": "A car driving through a cold, empty street, its headlights illuminating the darkness, as a silhouette of a person stands in the distance, waiting."
+      },
+      {
+        "id": 18,
+        "seek": 5500,
+        "start": 119.48,
+        "end": 124.08,
+        "text": " Now we say our goodbyes",
+        "tokens": [
+          51014,
+          823,
+          321,
+          584,
+          527,
+          665,
+          2322,
+          279,
+          51264
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.1681165390826286,
+        "compression_ratio": 1.1478260869565218,
+        "no_speech_prob": 0.009848756715655327,
+        "confidence": 0.891,
+        "words": [
+          {
+            "text": "Now",
+            "start": 119.48,
+            "end": 120.02,
+            "confidence": 0.557
+          },
+          {
+            "text": "we",
+            "start": 120.02,
+            "end": 120.42,
+            "confidence": 0.955
+          },
+          {
+            "text": "say",
+            "start": 120.42,
+            "end": 120.98,
+            "confidence": 0.989
+          },
+          {
+            "text": "our",
+            "start": 120.98,
+            "end": 121.48,
+            "confidence": 0.958
+          },
+          {
+            "text": "goodbyes",
+            "start": 121.48,
+            "end": 124.08,
+            "confidence": 0.961
+          }
+        ],
+        "prompt": "Lone figure standing in the rain, watching a car drive away."
+      },
+      {
+        "id": 19,
+        "seek": 5500,
+        "start": 125.48,
+        "end": 129.6,
+        "text": " That pretending was easy",
+        "tokens": [
+          51264,
+          663,
+          22106,
+          390,
+          1858,
+          51564
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.1681165390826286,
+        "compression_ratio": 1.1478260869565218,
+        "no_speech_prob": 0.009848756715655327,
+        "confidence": 0.212,
+        "words": [
+          {
+            "text": "That",
+            "start": 125.48,
+            "end": 126.06,
+            "confidence": 0.185
+          },
+          {
+            "text": "pretending",
+            "start": 126.06,
+            "end": 127.02,
+            "confidence": 0.981
+          },
+          {
+            "text": "was",
+            "start": 127.02,
+            "end": 127.86,
+            "confidence": 0.945
+          },
+          {
+            "text": "easy",
+            "start": 127.86,
+            "end": 129.6,
+            "confidence": 0.012
+          }
+        ],
+        "prompt": "A solitary figure standing in the middle of the night illuminated by streetlights, wearing a heavy coat and looking up in anticipation of a car ride."
+      },
+      {
+        "id": 20,
+        "seek": 5500,
+        "start": 131.51,
+        "end": 135.33,
+        "text": " When you're late with a line",
+        "tokens": [
+          51564,
+          1133,
+          291,
+          434,
+          3469,
+          365,
+          257,
+          1622,
+          51814
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.1681165390826286,
+        "compression_ratio": 1.1478260869565218,
+        "no_speech_prob": 0.009848756715655327,
+        "confidence": 0.653,
+        "words": [
+          {
+            "text": "When",
+            "start": 131.51,
+            "end": 131.91,
+            "confidence": 0.291
+          },
+          {
+            "text": "you're",
+            "start": 131.91,
+            "end": 132.61,
+            "confidence": 0.913
+          },
+          {
+            "text": "late",
+            "start": 132.61,
+            "end": 132.89,
+            "confidence": 0.877
+          },
+          {
+            "text": "with",
+            "start": 132.89,
+            "end": 133.47,
+            "confidence": 0.945
+          },
+          {
+            "text": "a",
+            "start": 133.47,
+            "end": 134.05,
+            "confidence": 0.698
+          },
+          {
+            "text": "line",
+            "start": 134.05,
+            "end": 135.33,
+            "confidence": 0.362
+          }
+        ],
+        "prompt": "Lonely figure standing in the street, a suitcase in one hand and a sign in the other that reads \"Pick me up\"."
+      },
+      {
+        "id": 21,
+        "seek": 8500,
+        "start": 178.77,
+        "end": 180.15,
+        "text": " Pick me up.",
+        "tokens": [
+          50414,
+          14129,
+          385,
+          493,
+          13,
+          50514
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.21811503522536335,
+        "compression_ratio": 1.0,
+        "no_speech_prob": 0.05628674477338791,
+        "confidence": 0.579,
+        "words": [
+          {
+            "text": "Pick",
+            "start": 178.77,
+            "end": 178.99,
+            "confidence": 0.576
+          },
+          {
+            "text": "me",
+            "start": 178.99,
+            "end": 179.23,
+            "confidence": 0.952
+          },
+          {
+            "text": "up.",
+            "start": 179.23,
+            "end": 180.15,
+            "confidence": 0.452
+          }
+        ],
+        "prompt": "A silhouette of a person standing alone in the dark, their arm outstretched and illuminated by the headlights of a car slowly driving towards them."
+      },
+      {
+        "id": 22,
+        "seek": 8500,
+        "start": 184.66,
+        "end": 185.5,
+        "text": " Tonight.",
+        "tokens": [
+          50514,
+          18702,
+          13,
+          50614
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.21811503522536335,
+        "compression_ratio": 1.0,
+        "no_speech_prob": 0.05628674477338791,
+        "confidence": 0.104,
+        "words": [
+          {
+            "text": "Tonight.",
+            "start": 184.66,
+            "end": 185.5,
+            "confidence": 0.104
+          }
+        ],
+        "prompt": "Lonely silhouette of a person standing on a street corner in the rain, looking up and around for a ride."
+      },
+      {
+        "id": 23,
+        "seek": 8500,
+        "start": 190.73,
+        "end": 191.63,
+        "text": " Pick me up.",
+        "tokens": [
+          50714,
+          14129,
+          385,
+          493,
+          13,
+          50814
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.21811503522536335,
+        "compression_ratio": 1.0,
+        "no_speech_prob": 0.05628674477338791,
+        "confidence": 0.699,
+        "words": [
+          {
+            "text": "Pick",
+            "start": 190.73,
+            "end": 190.99,
+            "confidence": 0.62
+          },
+          {
+            "text": "me",
+            "start": 190.99,
+            "end": 191.23,
+            "confidence": 0.978
+          },
+          {
+            "text": "up.",
+            "start": 191.23,
+            "end": 191.63,
+            "confidence": 0.628
+          }
+        ],
+        "prompt": "A woman standing alone in the rain, holding out her hand up to a car driving away."
+      }
+    ],
+    "language": "en"
+  },
+  "duration": 225.46285714285713
+}

@@ -1,1 +1,3973 @@
-{"animation": {"keyframes_per_second": 3, "keyframe_zoom_animations": "0: (1.03), 107: (1.40), 108: (1.20), 109: (1.10), 110: (1.03), 132: (1.40), 133: (1.20), 134: (1.10), 135: (1.40), 136: (1.20), 137: (1.10), 138: (1.03), 139: (1.40), 140: (1.40), 141: (1.20), 142: (1.10), 143: (1.03), 144: (1.40), 145: (1.20), 146: (1.40), 147: (1.40), 148: (1.40), 149: (1.20), 150: (1.10), 151: (1.03), 152: (1.40), 153: (1.20), 154: (1.40), 155: (1.40), 156: (1.20), 157: (1.10), 158: (1.03), 160: (1.40), 161: (1.20), 162: (1.10), 163: (1.40), 164: (1.20), 165: (1.10), 166: (1.03), 168: (1.40), 169: (1.20), 170: (1.10), 171: (1.40), 172: (1.20), 173: (1.10), 174: (1.03), 175: (1.40), 176: (1.40), 177: (1.20), 178: (1.40), 179: (1.40), 180: (1.40), 181: (1.20), 182: (1.40), 183: (1.40), 184: (1.20), 185: (1.10), 186: (1.03), 187: (1.40), 188: (1.40), 189: (1.20), 190: (1.40), 191: (1.40), 192: (1.20), 193: (1.10), 194: (1.03), 196: (1.40), 197: (1.20), 198: (1.10), 199: (1.40), 200: (1.40), 201: (1.20), 202: (1.10), 203: (1.03), 204: (1.40), 205: (1.20), 206: (1.10), 207: (1.40), 208: (1.20), 209: (1.10), 210: (1.03), 212: (1.40), 213: (1.20), 214: (1.10), 215: (1.40), 216: (1.40), 217: (1.20), 218: (1.10), 219: (1.40), 220: (1.40), 221: (1.20), 222: (1.10), 223: (1.40), 224: (1.20), 225: (1.10), 226: (1.03), 228: (1.40), 229: (1.20), 230: (1.10), 231: (1.40), 232: (1.20), 233: (1.10), 234: (1.03), 236: (1.40), 237: (1.20), 238: (1.10), 239: (1.40), 240: (1.20), 241: (1.10), 242: (1.40), 243: (1.40), 244: (1.40), 245: (1.20), 246: (1.10), 247: (1.03), 251: (1.40), 252: (1.40), 253: (1.20), 254: (1.10), 255: (1.03), 256: (1.40), 257: (1.20), 258: (1.40), 259: (1.40), 260: (1.40), 261: (1.20), 262: (1.10), 263: (1.03), 267: (1.40), 268: (1.20), 269: (1.10), 270: (1.03), 271: (1.40), 272: (1.40), 273: (1.20), 274: (1.10), 275: (1.40), 276: (1.20), 277: (1.10), 278: (1.03), 280: (1.40), 281: (1.20), 282: (1.10), 283: (1.40), 284: (1.40), 285: (1.20), 286: (1.10), 287: (1.40), 288: (1.40), 289: (1.20), 290: (1.10), 291: (1.40), 292: (1.40), 293: (1.20), 294: (1.10), 295: (1.03), 296: (1.40), 297: (1.20), 298: (1.10), 299: (1.40), 300: (1.40), 301: (1.20), 302: (1.10), 303: (1.40), 304: (1.40), 305: (1.20), 306: (1.10), 307: (1.03), 308: (1.40), 309: (1.20), 310: (1.10), 311: (1.40), 312: (1.40), 313: (1.20), 314: (1.10), 315: (1.03), 316: (1.40), 317: (1.20), 318: (1.10), 319: (1.40), 320: (1.40), 321: (1.20), 322: (1.10), 323: (1.40), 324: (1.40), 325: (1.20), 326: (1.10), 327: (1.40), 328: (1.20), 329: (1.10), 330: (1.03), 332: (1.40), 333: (1.20), 334: (1.10), 335: (1.40), 336: (1.20), 337: (1.10), 338: (1.03), 340: (1.40), 341: (1.20), 342: (1.10), 343: (1.03), 347: (1.40), 348: (1.40), 349: (1.20), 350: (1.10), 351: (1.40), 352: (1.20), 353: (1.10), 354: (1.03), 355: (1.40), 356: (1.40), 357: (1.20), 358: (1.10), 359: (1.03), 363: (1.40), 364: (1.20), 365: (1.10), 366: (1.03), 368: (1.40), 369: (1.20), 370: (1.10), 371: (1.40), 372: (1.20), 373: (1.10), 374: (1.03), 376: (1.40), 377: (1.20), 378: (1.10), 379: (1.40), 380: (1.40), 381: (1.20), 382: (1.40), 383: (1.20), 384: (1.40), 385: (1.20), 386: (1.10), 387: (1.40), 388: (1.20), 389: (1.10), 390: (1.03), 392: (1.40), 393: (1.20), 394: (1.10), 395: (1.03), 396: (1.40), 397: (1.20), 398: (1.40), 399: (1.40), 400: (1.40), 401: (1.20), 402: (1.10), 403: (1.03), 404: (1.40), 405: (1.20), 406: (1.10), 407: (1.03), 408: (1.40), 409: (1.20), 410: (1.10), 411: (1.03), 412: (1.40), 413: (1.20), 414: (1.10), 415: (1.40), 416: (1.20), 417: (1.10), 418: (1.03), 420: (1.40), 421: (1.20), 422: (1.10), 423: (1.40), 424: (1.20), 425: (1.10), 426: (1.03), 427: (1.40), 428: (1.40), 429: (1.20), 430: (1.10), 431: (1.40), 432: (1.40), 433: (1.20), 434: (1.10), 435: (1.40), 436: (1.40), 437: (1.20), 438: (1.10), 439: (1.40), 440: (1.40), 441: (1.20), 442: (1.10), 443: (1.40), 444: (1.40), 445: (1.20), 446: (1.10), 447: (1.03), 448: (1.40), 449: (1.20), 450: (1.10), 451: (1.40), 452: (1.40), 453: (1.20), 454: (1.10), 455: (1.03), 456: (1.40), 457: (1.20), 458: (1.10), 459: (1.40), 460: (1.20), 461: (1.10), 462: (1.03), 464: (1.40), 465: (1.20), 466: (1.10), 467: (1.40), 468: (1.20), 469: (1.10), 470: (1.03), 472: (1.40), 473: (1.20), 474: (1.10), 475: (1.03), 480: (1.40), 481: (1.20), 482: (1.10), 483: (1.40), 484: (1.20), 485: (1.10), 486: (1.40), 487: (1.20), 488: (1.40), 489: (1.20), 490: (1.10), 491: (1.03), 492: (1.40), 493: (1.20), 494: (1.40), 495: (1.40), 496: (1.40), 497: (1.20), 498: (1.10), 499: (1.03), 500: (1.40), 501: (1.20), 502: (1.10), 503: (1.40), 504: (1.40), 505: (1.20), 506: (1.10), 507: (1.03), 508: (1.40), 509: (1.20), 510: (1.40), 511: (1.40), 512: (1.20), 513: (1.10), 514: (1.03), 516: (1.40), 517: (1.20), 518: (1.10), 519: (1.40), 520: (1.20), 521: (1.10), 522: (1.03), 523: (1.40), 524: (1.40), 525: (1.20), 526: (1.10), 527: (1.03), 528: (1.40), 529: (1.20), 530: (1.10), 531: (1.40), 532: (1.40), 533: (1.20), 534: (1.10), 535: (1.03), 536: (1.40), 537: (1.20), 538: (1.10), 539: (1.03), 540: (1.40), 541: (1.20), 542: (1.10), 543: (1.03), 544: (1.40), 545: (1.20), 546: (1.10), 547: (1.40), 548: (1.40), 549: (1.20), 550: (1.10), 551: (1.03), 552: (1.40), 553: (1.20), 554: (1.10), 555: (1.40), 556: (1.20), 557: (1.10), 558: (1.03), 560: (1.40), 561: (1.20), 562: (1.10), 563: (1.40), 564: (1.20), 565: (1.10), 566: (1.03), 568: (1.40), 569: (1.20), 570: (1.10), 571: (1.40), 572: (1.40), 573: (1.20), 574: (1.40), 575: (1.40), 576: (1.40), 577: (1.20), 578: (1.10), 579: (1.40), 580: (1.20), 581: (1.10), 582: (1.03), 583: (1.40), 584: (1.40), 585: (1.20), 586: (1.10), 587: (1.40), 588: (1.40), 589: (1.20), 590: (1.40), 591: (1.40), 592: (1.40), 593: (1.20), 594: (1.10), 595: (1.03), 596: (1.40), 597: (1.20), 598: (1.10), 599: (1.40), 600: (1.40), 601: (1.20), 602: (1.10), 603: (1.03), 604: (1.40), 605: (1.20), 606: (1.10), 607: (1.40), 608: (1.40), 609: (1.20), 610: (1.10), 611: (1.03), 612: (1.40), 613: (1.20), 614: (1.10), 615: (1.40), 616: (1.40), 617: (1.20), 618: (1.10), 619: (1.03), 620: (1.40), 621: (1.20), 622: (1.10), 623: (1.40), 624: (1.40), 625: (1.20), 626: (1.10), 627: (1.40), 628: (1.40), 629: (1.20), 630: (1.10), 631: (1.40), 632: (1.40), 633: (1.20), 634: (1.10), 635: (1.40), 636: (1.40), 637: (1.20), 638: (1.10), 639: (1.03), 640: (1.40), 641: (1.20), 642: (1.40), 643: (1.40), 644: (1.40), 645: (1.20), 646: (1.10), 647: (1.03), 648: (1.40), 649: (1.20), 650: (1.10), 651: (1.40), 652: (1.20), 653: (1.10), 654: (1.03), 656: (1.40), 657: (1.20), 658: (1.10), 659: (1.40), 660: (1.20), 661: (1.10), 662: (1.03), 664: (1.40), 665: (1.20), 666: (1.10), 667: (1.40), 668: (1.20), 669: (1.10), 670: (1.40), 671: (1.40), 672: (1.20), 673: (1.10), 674: (1.03), 675: (1.40), 676: (1.20), 677: (1.10), 678: (1.03), 680: (1.40), 681: (1.20), 682: (1.10), 683: (1.40), 684: (1.40), 685: (1.20), 686: (1.40), 687: (1.40), 688: (1.40), 689: (1.20), 690: (1.10), 691: (1.03), 692: (1.40), 693: (1.20), 694: (1.10), 695: (1.40), 696: (1.40), 697: (1.20), 698: (1.10), 699: (1.03), 700: (1.40), 701: (1.20), 702: (1.10), 703: (1.40), 704: (1.40), 705: (1.20), 706: (1.10), 707: (1.03), 708: (1.40), 709: (1.20), 710: (1.10), 711: (1.40), 712: (1.20), 713: (1.10), 714: (1.03), 715: (1.40), 716: (1.40), 717: (1.20), 718: (1.10), 719: (1.40), 720: (1.20), 721: (1.10), 722: (1.03), 724: (1.40), 725: (1.20), 726: (1.10), 727: (1.40), 728: (1.20), 729: (1.10), 730: (1.03), 731: (1.40), 732: (1.40), 733: (1.20), 734: (1.10), 735: (1.03), 736: (1.40), 737: (1.20), 738: (1.10), 739: (1.40), 740: (1.20), 741: (1.10), 742: (1.03), 744: (1.40), 745: (1.20), 746: (1.10), 747: (1.40), 748: (1.20), 749: (1.10), 750: (1.03), 752: (1.40), 753: (1.20), 754: (1.10), 755: (1.40), 756: (1.20), 757: (1.10), 758: (1.03), 760: (1.40), 761: (1.20), 762: (1.10), 763: (1.40), 764: (1.20), 765: (1.10), 766: (1.03), 767: (1.40), 768: (1.40), 769: (1.20), 770: (1.10), 771: (1.40), 772: (1.20), 773: (1.10), 774: (1.03), 775: (1.40), 776: (1.40), 777: (1.20), 778: (1.10), 779: (1.03), 780: (1.40), 781: (1.20), 782: (1.40), 783: (1.40), 784: (1.20), 785: (1.10), 786: (1.03), 788: (1.40), 789: (1.20), 790: (1.10), 791: (1.40), 792: (1.20), 793: (1.10), 794: (1.03), 802: (1.40), 803: (1.40), 804: (1.40), 805: (1.20), 806: (1.10), 807: (1.40), 808: (1.20), 809: (1.10), 810: (1.03), 811: (1.40), 812: (1.40), 813: (1.20), 814: (1.10), 815: (1.40), 816: (1.20), 817: (1.10), 818: (1.03), 819: (1.40), 820: (1.40), 821: (1.20), 822: (1.10), 823: (1.03), 827: (1.40), 828: (1.40), 829: (1.20), 830: (1.10), 831: (1.03), 832: (1.40), 833: (1.20), 834: (1.10), 835: (1.40), 836: (1.20), 837: (1.10), 838: (1.03), 840: (1.40), 841: (1.20), 842: (1.10), 843: (1.40), 844: (1.20), 845: (1.10), 846: (1.03), 848: (1.40), 849: (1.20), 850: (1.10), 851: (1.40), 852: (1.20), 853: (1.10), 854: (1.03), 855: (1.40), 856: (1.40), 857: (1.20), 858: (1.10), 859: (1.40), 860: (1.20), 861: (1.10), 862: (1.40), 863: (1.20), 864: (1.40), 865: (1.20), 866: (1.10), 867: (1.40), 868: (1.40), 869: (1.20), 870: (1.40), 871: (1.40), 872: (1.40), 873: (1.20), 874: (1.10), 875: (1.40), 876: (1.20), 877: (1.10), 878: (1.03), 879: (1.40), 880: (1.40), 881: (1.20), 882: (1.10), 883: (1.03), 884: (1.40), 885: (1.20), 886: (1.10), 887: (1.40), 888: (1.20), 889: (1.10), 890: (1.03), 898: (1.40), 899: (1.20), 900: (1.40), 901: (1.20), 902: (1.10), 903: (1.40), 904: (1.20), 905: (1.10), 906: (1.03), 908: (1.40), 909: (1.20), 910: (1.10), 911: (1.40), 912: (1.20), 913: (1.10), 914: (1.03), 915: (1.40), 916: (1.40), 917: (1.20), 918: (1.10), 919: (1.40), 920: (1.40), 921: (1.20), 922: (1.10), 923: (1.40), 924: (1.20), 925: (1.10), 926: (1.03), 928: (1.40), 929: (1.20), 930: (1.10), 931: (1.40), 932: (1.40), 933: (1.20), 934: (1.10), 935: (1.03), 939: (1.40), 940: (1.20), 941: (1.10), 942: (1.03), 944: (1.40), 945: (1.20), 946: (1.10), 947: (1.40), 948: (1.20), 949: (1.10), 950: (1.03), 952: (1.40), 953: (1.20), 954: (1.10), 955: (1.40), 956: (1.20), 957: (1.10), 958: (1.40), 959: (1.40), 960: (1.40), 961: (1.20), 962: (1.10), 963: (1.40), 964: (1.20), 965: (1.10), 966: (1.03), 968: (1.40), 969: (1.20), 970: (1.10), 971: (1.40), 972: (1.40), 973: (1.20), 974: (1.10), 975: (1.03), 976: (1.40), 977: (1.20), 978: (1.10), 979: (1.03), 980: (1.40), 981: (1.20), 982: (1.10), 983: (1.40), 984: (1.20), 985: (1.10), 986: (1.03), 988: (1.40), 989: (1.20), 990: (1.40), 991: (1.40), 992: (1.20), 993: (1.10), 994: (1.03), 996: (1.40), 997: (1.20), 998: (1.10), 999: (1.40), 1000: (1.40), 1001: (1.20), 1002: (1.10), 1003: (1.40), 1004: (1.40), 1005: (1.20), 1006: (1.10), 1007: (1.40), 1008: (1.40), 1009: (1.20), 1010: (1.10), 1011: (1.03), 1012: (1.40), 1013: (1.20), 1014: (1.10), 1015: (1.40), 1016: (1.40), 1017: (1.20), 1018: (1.40), 1019: (1.40), 1020: (1.40), 1021: (1.20), 1022: (1.10), 1023: (1.03), 1024: (1.40), 1025: (1.20), 1026: (1.10), 1027: (1.40), 1028: (1.40), 1029: (1.20), 1030: (1.10), 1031: (1.03), 1032: (1.40), 1033: (1.20), 1034: (1.10), 1035: (1.40), 1036: (1.20), 1037: (1.10), 1038: (1.03), 1040: (1.40), 1041: (1.20), 1042: (1.10), 1043: (1.40), 1044: (1.40), 1045: (1.20), 1046: (1.10), 1047: (1.03), 1048: (1.40), 1049: (1.20), 1050: (1.10), 1051: (1.40), 1052: (1.20), 1053: (1.10), 1054: (1.40), 1055: (1.20), 1056: (1.40), 1057: (1.20), 1058: (1.10), 1059: (1.40), 1060: (1.20), 1061: (1.10), 1062: (1.03), 1064: (1.40), 1065: (1.20), 1066: (1.10), 1067: (1.40), 1068: (1.40), 1069: (1.20), 1070: (1.40), 1071: (1.40), 1072: (1.40), 1073: (1.20), 1074: (1.10), 1075: (1.40), 1076: (1.40), 1077: (1.20), 1078: (1.10), 1079: (1.40), 1080: (1.20), 1081: (1.40), 1082: (1.20), 1083: (1.10), 1084: (1.40), 1085: (1.20), 1086: (1.40), 1087: (1.40), 1088: (1.20), 1089: (1.40), 1090: (1.20), 1091: (1.10), 1092: (1.40), 1093: (1.20), 1094: (1.10), 1095: (1.40), 1096: (1.20), 1097: (1.10), 1098: (1.03), 1100: (1.40), 1101: (1.20), 1102: (1.10), 1103: (1.40), 1104: (1.20), 1105: (1.10), 1106: (1.03), 1109: (1.40), 1110: (1.20), 1111: (1.10), 1112: (1.40), 1113: (1.20), 1114: (1.10), 1115: (1.40), 1116: (1.20), 1117: (1.40), 1118: (1.20), 1119: (1.10), 1120: (1.40), 1121: (1.20), 1122: (1.10), 1123: (1.40), 1124: (1.20), 1125: (1.40), 1126: (1.20), 1127: (1.10), 1128: (1.03), 1129: (1.40), 1130: (1.20), 1131: (1.40), 1132: (1.20), 1133: (1.10), 1134: (1.03), 1137: (1.40), 1138: (1.20), 1139: (1.10), 1140: (1.40), 1141: (1.20), 1142: (1.10), 1143: (1.03), 1145: (1.40), 1146: (1.20), 1147: (1.10), 1148: (1.40), 1149: (1.20), 1150: (1.10), 1151: (1.40), 1152: (1.20), 1153: (1.40), 1154: (1.20), 1155: (1.10), 1156: (1.40), 1157: (1.20), 1158: (1.10), 1159: (1.03), 1160: (1.40), 1161: (1.40), 1162: (1.20), 1163: (1.10), 1164: (1.40), 1165: (1.40), 1166: (1.20), 1167: (1.10), 1168: (1.40), 1169: (1.40), 1170: (1.20), 1171: (1.10), 1172: (1.03), 1173: (1.40), 1174: (1.20), 1175: (1.10), 1176: (1.40), 1177: (1.20), 1178: (1.10), 1179: (1.03), 1181: (1.40), 1182: (1.20), 1183: (1.40), 1184: (1.40), 1185: (1.20), 1186: (1.10), 1187: (1.03), 1189: (1.40), 1190: (1.20), 1191: (1.10), 1192: (1.40), 1193: (1.20), 1194: (1.10), 1195: (1.03), 1197: (1.40), 1198: (1.20), 1199: (1.10), 1200: (1.40), 1201: (1.20), 1202: (1.10), 1203: (1.03), 1205: (1.40), 1206: (1.20), 1207: (1.10), 1208: (1.40), 1209: (1.40), 1210: (1.20), 1211: (1.10), 1212: (1.40), 1213: (1.40), 1214: (1.20), 1215: (1.10), 1216: (1.03), 1217: (1.40), 1218: (1.20), 1219: (1.40), 1220: (1.40), 1221: (1.40), 1222: (1.20), 1223: (1.10), 1224: (1.03), 1225: (1.40), 1226: (1.20), 1227: (1.10), 1228: (1.40), 1229: (1.20), 1230: (1.10), 1231: (1.03), 1233: (1.40), 1234: (1.40), 1235: (1.20), 1236: (1.40), 1237: (1.20), 1238: (1.10), 1241: (1.40), 1244: (1.40), 1245: (1.40), 1247: (1.40), 1248: (1.40), 1249: (1.40), 1252: (1.40), 1257: (1.40), 1261: (1.40), 1263: (1.40), 1264: (1.40), 1265: (1.40), 1269: (1.40), 1271: (1.40), 1272: (1.40), 1277: (1.40), 1279: (1.40), 1280: (1.40), 1285: (1.40), 1288: (1.40), 1293: (1.40), 1296: (1.40), 1301: (1.40), 1309: (1.40)"}, "estd_bpm": 89.10290948275862, "style": "Pencil Sketch", "keyframes": {"0": {"prompt": "Tall, handsome man in expensive Italian suit, strutting with confidence, fur-lined Cadillac, hard exterior but soft within."}, "31": {"lyric": " Did I ever tell you about that man who changed my life?", "prompt": "\"Vivid visual prompt"}, "42": {"lyric": " The one I thought, oh my lord, when I saw him walking back to that bar,", "prompt": "Vivid visual of a tall, lean man with broad shoulders, sweet lips, deep voice, and perfectly manicured fingers wearing an $800 Italian suit, walking back to a bar with a logo on the door and a fat, black cat following him."}, "58": {"lyric": " all tall and lean with them broad shoulders, sweet lips.", "prompt": "Tall, lean figure with broad shoulders and sweet lips illuminated by the warm glow of a street lamp."}, "75": {"lyric": " I knew that I had died and gone to chocolate heaven.", "prompt": "\"Vivid visual prompt"}, "98": {"lyric": " I had a real deep voice, white, really deep, and this shoe was always shining.", "prompt": "Sharp-suited business man with a sly grin and a diamond-studded gold watch glinting in the sunlight."}, "159": {"lyric": " Long, slender fingers manicured perfectly.", "prompt": "Sharp silhouette of a man in an expensive Italian suit with a glowing diamond ring on one of his long, slender manicured fingers."}, "169": {"lyric": " The man wore $800 Italian suits straight from, I don't know, what would they call it, Milan, Rome, some place like that.", "prompt": "Vibrant illustration of a sharply dressed man with a sleek Italian suit, standing confidently in front of the skyline of Milan or Rome."}, "199": {"lyric": " What was the logo?", "prompt": "\"Vivid visual prompt"}, "207": {"lyric": " I said, I got to get next to that man, and I haven't seen him in a long time.", "prompt": "\"Vivid visual prompt"}, "231": {"lyric": " I mean, he was so fine.", "prompt": "\"Vivid visual prompt"}, "240": {"lyric": " He could get any good girl into trouble.", "prompt": "Vividly detailed portrait of a dapper, sophisticated man with a mischievous twinkle in his eye."}, "254": {"lyric": " You guys heard him say what?", "prompt": "Man dressed in an Italian suit standing in front of Italian landmarks such as the Colosseum and Leaning Tower of Pisa."}, "264": {"lyric": " Well, the jackal.", "prompt": "A silhouetted figure in an $800 Italian suit with broad shoulders, white shoes, and manicured fingers, backlit by a setting sun."}, "286": {"lyric": " The jackal.", "prompt": "A tall, sharply dressed man with a slick, black fedora and a white cane, walking confidently through a city street at sunset."}, "306": {"lyric": " He sure was fine.", "prompt": "Vibrant portrait of a man in a tailored suit with sharp features, diamond accents, and a confident posture with a white cat perched on his shoulder."}, "393": {"lyric": " Jackal, jackal, jackal.", "prompt": "A black cat perched atop a classic Cadillac with white wall tires, fur lined boards, and diamond encrusted rims, gazing out over the city."}, "474": {"lyric": " He was fat, black, cat-cooled, like a Friday afternoon martini, chatting at a quarter after five.", "prompt": "\"Vivid visual prompt"}, "506": {"lyric": " Twist of lime, coke on the side.", "prompt": "\"Vivid visual prompt"}, "513": {"lyric": " The brother loved to highlight.", "prompt": "Sharp-suited man wearing sunglasses and an expensive watch, striding confidently down the street while the sun reflects off the highlights in his hair."}, "522": {"lyric": " Had a Ph.D. in street strut.", "prompt": "\"Vivid visual prompt"}, "528": {"lyric": " They called him the jackal.", "prompt": "Broad-shouldered silhouette in an $800 Italian suit, standing against a backdrop of gold coins, a diamond-encrusted dollar sign, and a distant city skyline."}, "543": {"lyric": " He was big mac daddy, super black style, and a diamonds in the back Cadillac.", "prompt": "\"Vivid visual prompt"}, "558": {"lyric": " Fur line boards, white wall wheels, cruise control, built for speed, rum on everything.", "prompt": "\"Vivid Visual Prompt"}, "577": {"lyric": " And the stereophonic speakers, though he really didn't need them, when they called him the jackal.", "prompt": "A man in an $800 Italian suit, with manicured fingers, a deep voice and a shoe that always shines, leaning against a Cadillac with white wall wheels and fur lined boards."}, "604": {"lyric": " Jackal, jackal, jackal.", "prompt": "Vividly-colored suit jacket draped over a sleek black silhouette of a large cat with its tail curved in a question mark shape."}, "795": {"lyric": " Fly boy was in the buttermilk, hard, living fast, living large, six foot four, not an ounce of fat.", "prompt": "A sharply dressed man with a slick smile, hands tucked in his pockets and the sun glinting off a gold chain around his neck."}, "834": {"lyric": " When women ask, is you a frown cat?", "prompt": "Visual of a tall, broad-shouldered man dressed in an $800 Italian suit with long, manicured fingers and a white, deep voice, illuminated in a bright golden light, surrounded by a swirl of chocolate."}, "842": {"lyric": " He said, I did, I'm one in that.", "prompt": "Sharp-suited man in a Cadillac with fur-lined boards and white wall wheels, a diamond in the back, and a twist of lime in his drink."}, "855": {"lyric": " And in case you hadn't known, they called me the jackal.", "prompt": "A man in an $800 Italian suit, white, with manicured hands and shining shoes, confidently striding down the street with a fur-lined board and white wall wheels."}, "898": {"lyric": " Served an 18-year bid for Rikers Island, and they hid him in the state penitentiary.", "prompt": "A tall, broad-shouldered silhouette of a man in an $800 Italian suit, with manicured hands and shining shoes, standing in the center of a bright spotlight."}, "922": {"lyric": " Said the charge was grand loss.", "prompt": "Vividly detailed portrait of a man in an extravagant suit and hat, standing in a dramatic pose with a diamond-encrusted cane, a hint of mischief in his eyes."}, "928": {"lyric": " That was 1975.", "prompt": "A sleek, tailored Italian suit illuminated by golden light and a pair of glistening shoes to complete the look."}, "936": {"lyric": " And today, if he's still alive, he'll be living in the park.", "prompt": "A tall, lean man in an expensive suit, with manicured hands and a white, deep voice, standing next to a sleek black Cadillac adorned with diamonds and fur-lined boards."}, "953": {"lyric": " The brother who claimed the fame was that they called him the jackal.", "prompt": "A man in a luxurious Italian suit with diamond cufflinks, arms crossed and a sly smile on his face, standing in front of a sleek black Cadillac with fur lined boards and white wall wheels."}, "971": {"lyric": " The jackal.", "prompt": "A tall, sleek, black figure with a fur-lined coat and white-walled wheels, driving a Cadillac with diamond accents and stereophonic speakers."}, "1169": {"lyric": " The jackal.", "prompt": "Vibrant close-up of a man wearing an $800 Italian suit with a logo, his lips pulled into a smirk, eyes twinkling mischievously, a diamond-studded watch glinting in the light."}}, "full_transcript": {"text": " Did I ever tell you about that man who changed my life? The one I thought, oh my lord, when I saw him walking back to that bar, all tall and lean with them broad shoulders, sweet lips. I knew that I had died and gone to chocolate heaven. I had a real deep voice, white, really deep, and this shoe was always shining. Long, slender fingers manicured perfectly. The man wore $800 Italian suits straight from, I don't know, what would they call it, Milan, Rome, some place like that. What was the logo? I said, I got to get next to that man, and I haven't seen him in a long time. I mean, he was so fine. He could get any good girl into trouble. You guys heard him say what? Well, the jackal. The jackal. He sure was fine. Jackal, jackal, jackal. He was fat, black, cat-cooled, like a Friday afternoon martini, chatting at a quarter after five. Twist of lime, coke on the side. The brother loved to highlight. Had a Ph.D. in street strut. They called him the jackal. He was big mac daddy, super black style, and a diamonds in the back Cadillac. Fur line boards, white wall wheels, cruise control, built for speed, rum on everything. And the stereophonic speakers, though he really didn't need them, when they called him the jackal. Jackal, jackal, jackal. Fly boy was in the buttermilk, hard, living fast, living large, six foot four, not an ounce of fat. When women ask, is you a frown cat? He said, I did, I'm one in that. And in case you hadn't known, they called me the jackal. Served an 18-year bid for Rikers Island, and they hid him in the state penitentiary. Said the charge was grand loss. That was 1975. And today, if he's still alive, he'll be living in the park. The brother who claimed the fame was that they called him the jackal. The jackal. The jackal.", "segments": [{"id": 0, "seek": 0, "start": 10.29, "end": 14.15, "text": " Did I ever tell you about that man who changed my life?", "tokens": [50364, 2589, 286, 1562, 980, 291, 466, 300, 587, 567, 3105, 452, 993, 30, 50564], "temperature": 0.0, "avg_logprob": -0.2661414290919448, "compression_ratio": 1.4107142857142858, "no_speech_prob": 0.18681614100933075, "confidence": 0.918, "words": [{"text": "Did", "start": 10.29, "end": 10.49, "confidence": 0.588}, {"text": "I", "start": 10.49, "end": 10.61, "confidence": 0.971}, {"text": "ever", "start": 10.61, "end": 10.77, "confidence": 0.995}, {"text": "tell", "start": 10.77, "end": 11.03, "confidence": 0.993}, {"text": "you", "start": 11.03, "end": 11.23, "confidence": 0.993}, {"text": "about", "start": 11.23, "end": 11.49, "confidence": 0.97}, {"text": "that", "start": 11.49, "end": 11.73, "confidence": 0.93}, {"text": "man", "start": 11.73, "end": 12.17, "confidence": 0.99}, {"text": "who", "start": 12.17, "end": 12.69, "confidence": 0.936}, {"text": "changed", "start": 12.69, "end": 13.31, "confidence": 0.955}, {"text": "my", "start": 13.31, "end": 13.63, "confidence": 0.994}, {"text": "life?", "start": 13.63, "end": 14.15, "confidence": 0.858}]}, {"id": 1, "seek": 0, "start": 14.15, "end": 18.56, "text": " The one I thought, oh my lord, when I saw him walking back to that bar,", "tokens": [50564, 440, 472, 286, 1194, 11, 1954, 452, 15448, 11, 562, 286, 1866, 796, 4494, 646, 281, 300, 2159, 11, 50814], "temperature": 0.0, "avg_logprob": -0.2661414290919448, "compression_ratio": 1.4107142857142858, "no_speech_prob": 0.18681614100933075, "confidence": 0.675, "words": [{"text": "The", "start": 14.15, "end": 14.39, "confidence": 0.226}, {"text": "one", "start": 14.39, "end": 14.61, "confidence": 0.981}, {"text": "I", "start": 14.61, "end": 14.75, "confidence": 0.912}, {"text": "thought,", "start": 14.75, "end": 15.05, "confidence": 0.643}, {"text": "oh", "start": 15.27, "end": 15.69, "confidence": 0.222}, {"text": "my", "start": 15.69, "end": 15.95, "confidence": 0.795}, {"text": "lord,", "start": 16.22, "end": 16.44, "confidence": 0.523}, {"text": "when", "start": 16.52, "end": 16.68, "confidence": 0.803}, {"text": "I", "start": 16.68, "end": 16.82, "confidence": 0.987}, {"text": "saw", "start": 16.82, "end": 16.94, "confidence": 0.987}, {"text": "him", "start": 16.94, "end": 17.14, "confidence": 0.91}, {"text": "walking", "start": 17.14, "end": 17.44, "confidence": 0.676}, {"text": "back", "start": 17.44, "end": 17.8, "confidence": 0.964}, {"text": "to", "start": 17.8, "end": 18.0, "confidence": 0.736}, {"text": "that", "start": 18.0, "end": 18.18, "confidence": 0.945}, {"text": "bar,", "start": 18.18, "end": 18.56, "confidence": 0.658}]}, {"id": 2, "seek": 0, "start": 19.2, "end": 25.08, "text": " all tall and lean with them broad shoulders, sweet lips.", "tokens": [50814, 439, 6764, 293, 11659, 365, 552, 4152, 10245, 11, 3844, 10118, 13, 51114], "temperature": 0.0, "avg_logprob": -0.2661414290919448, "compression_ratio": 1.4107142857142858, "no_speech_prob": 0.18681614100933075, "confidence": 0.603, "words": [{"text": "all", "start": 19.2, "end": 19.64, "confidence": 0.206}, {"text": "tall", "start": 19.64, "end": 20.28, "confidence": 0.99}, {"text": "and", "start": 20.28, "end": 20.64, "confidence": 0.977}, {"text": "lean", "start": 20.64, "end": 20.98, "confidence": 0.981}, {"text": "with", "start": 20.98, "end": 21.2, "confidence": 0.813}, {"text": "them", "start": 21.2, "end": 21.6, "confidence": 0.844}, {"text": "broad", "start": 21.6, "end": 22.38, "confidence": 0.961}, {"text": "shoulders,", "start": 22.38, "end": 23.08, "confidence": 0.263}, {"text": "sweet", "start": 24.18, "end": 24.24, "confidence": 0.616}, {"text": "lips.", "start": 24.24, "end": 25.08, "confidence": 0.648}]}, {"id": 3, "seek": 0, "start": 25.08, "end": 32.74, "text": " I knew that I had died and gone to chocolate heaven.", "tokens": [51114, 286, 2586, 300, 286, 632, 4539, 293, 2780, 281, 6215, 7162, 13, 51514], "temperature": 0.0, "avg_logprob": -0.2661414290919448, "compression_ratio": 1.4107142857142858, "no_speech_prob": 0.18681614100933075, "confidence": 0.748, "words": [{"text": "I", "start": 25.08, "end": 26.0, "confidence": 0.846}, {"text": "knew", "start": 26.0, "end": 27.06, "confidence": 0.78}, {"text": "that", "start": 27.06, "end": 27.64, "confidence": 0.248}, {"text": "I", "start": 27.64, "end": 28.76, "confidence": 0.982}, {"text": "had", "start": 28.76, "end": 28.92, "confidence": 0.968}, {"text": "died", "start": 28.92, "end": 29.8, "confidence": 0.652}, {"text": "and", "start": 29.8, "end": 30.12, "confidence": 0.481}, {"text": "gone", "start": 30.12, "end": 30.9, "confidence": 0.952}, {"text": "to", "start": 30.9, "end": 31.8, "confidence": 0.986}, {"text": "chocolate", "start": 31.8, "end": 32.3, "confidence": 0.875}, {"text": "heaven.", "start": 32.3, "end": 32.74, "confidence": 0.877}]}, {"id": 4, "seek": 2300, "start": 32.74, "end": 52.08, "text": " I had a real deep voice, white, really deep, and this shoe was always shining.", "tokens": [50364, 286, 632, 257, 957, 2452, 3177, 11, 2418, 11, 534, 2452, 11, 293, 341, 12796, 390, 1009, 18269, 13, 51114], "temperature": 0.0, "avg_logprob": -0.2613587234959458, "compression_ratio": 1.3519553072625698, "no_speech_prob": 0.04962265491485596, "confidence": 0.463, "words": [{"text": "I", "start": 32.74, "end": 38.04, "confidence": 0.02}, {"text": "had", "start": 42.93, "end": 43.78, "confidence": 0.656}, {"text": "a", "start": 43.78, "end": 44.08, "confidence": 0.987}, {"text": "real", "start": 44.08, "end": 45.0, "confidence": 0.871}, {"text": "deep", "start": 45.0, "end": 45.72, "confidence": 0.964}, {"text": "voice,", "start": 45.72, "end": 46.78, "confidence": 0.634}, {"text": "white,", "start": 47.32, "end": 47.76, "confidence": 0.243}, {"text": "really", "start": 47.9, "end": 48.2, "confidence": 0.416}, {"text": "deep,", "start": 48.2, "end": 48.66, "confidence": 0.563}, {"text": "and", "start": 49.04, "end": 49.26, "confidence": 0.55}, {"text": "this", "start": 49.26, "end": 49.42, "confidence": 0.087}, {"text": "shoe", "start": 49.42, "end": 49.62, "confidence": 0.653}, {"text": "was", "start": 49.62, "end": 50.16, "confidence": 0.936}, {"text": "always", "start": 50.16, "end": 50.92, "confidence": 0.974}, {"text": "shining.", "start": 50.92, "end": 52.08, "confidence": 0.684}]}, {"id": 5, "seek": 2300, "start": 53.0, "end": 56.32, "text": " Long, slender fingers manicured perfectly.", "tokens": [51114, 8282, 11, 1061, 3216, 7350, 48139, 3831, 6239, 13, 51314], "temperature": 0.0, "avg_logprob": -0.2613587234959458, "compression_ratio": 1.3519553072625698, "no_speech_prob": 0.04962265491485596, "confidence": 0.485, "words": [{"text": "Long,", "start": 53.0, "end": 53.72, "confidence": 0.228}, {"text": "slender", "start": 53.92, "end": 54.26, "confidence": 0.968}, {"text": "fingers", "start": 54.26, "end": 54.84, "confidence": 0.979}, {"text": "manicured", "start": 54.84, "end": 55.68, "confidence": 0.624}, {"text": "perfectly.", "start": 55.68, "end": 56.32, "confidence": 0.283}]}, {"id": 6, "seek": 2300, "start": 56.32, "end": 66.24, "text": " The man wore $800 Italian suits straight from, I don't know, what would they call it, Milan, Rome, some place like that.", "tokens": [51314, 440, 587, 13857, 1848, 14423, 10003, 15278, 2997, 490, 11, 286, 500, 380, 458, 11, 437, 576, 436, 818, 309, 11, 32874, 11, 12043, 11, 512, 1081, 411, 300, 13, 51814], "temperature": 0.0, "avg_logprob": -0.2613587234959458, "compression_ratio": 1.3519553072625698, "no_speech_prob": 0.04962265491485596, "confidence": 0.662, "words": [{"text": "The", "start": 56.32, "end": 56.66, "confidence": 0.111}, {"text": "man", "start": 56.66, "end": 56.86, "confidence": 0.868}, {"text": "wore $800", "start": 56.86, "end": 58.36, "confidence": 0.869}, {"text": "Italian", "start": 58.36, "end": 59.2, "confidence": 0.776}, {"text": "suits", "start": 59.2, "end": 59.72, "confidence": 0.893}, {"text": "straight", "start": 59.72, "end": 60.54, "confidence": 0.751}, {"text": "from,", "start": 60.54, "end": 60.96, "confidence": 0.594}, {"text": "I", "start": 60.96, "end": 61.6, "confidence": 0.736}, {"text": "don't", "start": 61.6, "end": 61.76, "confidence": 0.954}, {"text": "know,", "start": 61.76, "end": 61.9, "confidence": 0.85}, {"text": "what", "start": 62.06, "end": 62.12, "confidence": 0.884}, {"text": "would", "start": 62.12, "end": 62.24, "confidence": 0.747}, {"text": "they", "start": 62.24, "end": 62.38, "confidence": 0.959}, {"text": "call", "start": 62.38, "end": 62.56, "confidence": 0.991}, {"text": "it,", "start": 62.56, "end": 62.82, "confidence": 0.487}, {"text": "Milan,", "start": 63.1, "end": 63.66, "confidence": 0.493}, {"text": "Rome,", "start": 64.22, "end": 65.04, "confidence": 0.439}, {"text": "some", "start": 65.24, "end": 65.44, "confidence": 0.268}, {"text": "place", "start": 65.44, "end": 65.68, "confidence": 0.967}, {"text": "like", "start": 65.68, "end": 66.04, "confidence": 0.991}, {"text": "that.", "start": 66.04, "end": 66.24, "confidence": 0.653}]}, {"id": 7, "seek": 5200, "start": 66.38, "end": 67.6, "text": " What was the logo?", "tokens": [50364, 708, 390, 264, 9699, 30, 50464], "temperature": 0.0, "avg_logprob": -0.197022340236566, "compression_ratio": 1.4102564102564104, "no_speech_prob": 0.03247851878404617, "confidence": 0.248, "words": [{"text": "What", "start": 66.38, "end": 66.64, "confidence": 0.01}, {"text": "was", "start": 66.64, "end": 66.92, "confidence": 0.921}, {"text": "the", "start": 66.92, "end": 67.1, "confidence": 0.776}, {"text": "logo?", "start": 67.1, "end": 67.6, "confidence": 0.361}]}, {"id": 8, "seek": 5200, "start": 69.0, "end": 75.21, "text": " I said, I got to get next to that man, and I haven't seen him in a long time.", "tokens": [50464, 286, 848, 11, 286, 658, 281, 483, 958, 281, 300, 587, 11, 293, 286, 2378, 380, 1612, 796, 294, 257, 938, 565, 13, 50814], "temperature": 0.0, "avg_logprob": -0.197022340236566, "compression_ratio": 1.4102564102564104, "no_speech_prob": 0.03247851878404617, "confidence": 0.662, "words": [{"text": "I", "start": 69.0, "end": 69.16, "confidence": 0.672}, {"text": "said,", "start": 69.16, "end": 69.3, "confidence": 0.476}, {"text": "I", "start": 69.34, "end": 69.38, "confidence": 0.321}, {"text": "got", "start": 69.38, "end": 69.58, "confidence": 0.69}, {"text": "to", "start": 69.58, "end": 69.7, "confidence": 0.995}, {"text": "get", "start": 69.7, "end": 69.86, "confidence": 0.984}, {"text": "next", "start": 69.86, "end": 70.24, "confidence": 0.572}, {"text": "to", "start": 70.24, "end": 70.44, "confidence": 0.995}, {"text": "that", "start": 70.44, "end": 70.6, "confidence": 0.61}, {"text": "man,", "start": 70.6, "end": 70.92, "confidence": 0.14}, {"text": "and", "start": 72.23, "end": 72.71, "confidence": 0.597}, {"text": "I", "start": 72.71, "end": 72.83, "confidence": 0.979}, {"text": "haven't", "start": 72.83, "end": 73.07, "confidence": 0.985}, {"text": "seen", "start": 73.07, "end": 73.33, "confidence": 0.988}, {"text": "him", "start": 73.33, "end": 73.53, "confidence": 0.992}, {"text": "in", "start": 73.53, "end": 73.77, "confidence": 0.986}, {"text": "a", "start": 73.77, "end": 73.93, "confidence": 0.99}, {"text": "long", "start": 73.93, "end": 74.55, "confidence": 0.926}, {"text": "time.", "start": 74.55, "end": 75.21, "confidence": 0.827}]}, {"id": 9, "seek": 5200, "start": 76.9, "end": 79.0, "text": " I mean, he was so fine.", "tokens": [50814, 286, 914, 11, 415, 390, 370, 2489, 13, 50964], "temperature": 0.0, "avg_logprob": -0.197022340236566, "compression_ratio": 1.4102564102564104, "no_speech_prob": 0.03247851878404617, "confidence": 0.345, "words": [{"text": "I", "start": 76.9, "end": 77.12, "confidence": 0.296}, {"text": "mean,", "start": 77.12, "end": 77.36, "confidence": 0.302}, {"text": "he", "start": 77.64, "end": 77.7, "confidence": 0.025}, {"text": "was", "start": 77.7, "end": 77.72, "confidence": 0.975}, {"text": "so", "start": 77.72, "end": 78.24, "confidence": 0.988}, {"text": "fine.", "start": 78.24, "end": 79.0, "confidence": 0.548}]}, {"id": 10, "seek": 5200, "start": 80.02, "end": 82.2, "text": " He could get any good girl into trouble.", "tokens": [50964, 634, 727, 483, 604, 665, 2013, 666, 5253, 13, 51114], "temperature": 0.0, "avg_logprob": -0.197022340236566, "compression_ratio": 1.4102564102564104, "no_speech_prob": 0.03247851878404617, "confidence": 0.71, "words": [{"text": "He", "start": 80.02, "end": 80.24, "confidence": 0.603}, {"text": "could", "start": 80.24, "end": 80.4, "confidence": 0.94}, {"text": "get", "start": 80.4, "end": 80.64, "confidence": 0.948}, {"text": "any", "start": 80.64, "end": 81.0, "confidence": 0.958}, {"text": "good", "start": 81.0, "end": 81.22, "confidence": 0.126}, {"text": "girl", "start": 81.22, "end": 81.44, "confidence": 0.905}, {"text": "into", "start": 81.44, "end": 81.76, "confidence": 0.896}, {"text": "trouble.", "start": 81.76, "end": 82.2, "confidence": 0.935}]}, {"id": 11, "seek": 5200, "start": 84.62, "end": 85.98, "text": " You guys heard him say what?", "tokens": [51114, 509, 1074, 2198, 796, 584, 437, 30, 51264], "temperature": 0.0, "avg_logprob": -0.197022340236566, "compression_ratio": 1.4102564102564104, "no_speech_prob": 0.03247851878404617, "confidence": 0.434, "words": [{"text": "You", "start": 84.62, "end": 84.94, "confidence": 0.069}, {"text": "guys", "start": 84.94, "end": 85.1, "confidence": 0.974}, {"text": "heard", "start": 85.1, "end": 85.26, "confidence": 0.128}, {"text": "him", "start": 85.26, "end": 85.36, "confidence": 0.597}, {"text": "say", "start": 85.36, "end": 85.54, "confidence": 0.972}, {"text": "what?", "start": 85.54, "end": 85.98, "confidence": 0.761}]}, {"id": 12, "seek": 5200, "start": 87.89, "end": 90.95, "text": " Well, the jackal.", "tokens": [51264, 1042, 11, 264, 7109, 304, 13, 51564], "temperature": 0.0, "avg_logprob": -0.197022340236566, "compression_ratio": 1.4102564102564104, "no_speech_prob": 0.03247851878404617, "confidence": 0.496, "words": [{"text": "Well,", "start": 87.89, "end": 88.55, "confidence": 0.345}, {"text": "the", "start": 89.77, "end": 90.03, "confidence": 0.644}, {"text": "jackal.", "start": 90.03, "end": 90.95, "confidence": 0.578}]}, {"id": 13, "seek": 5200, "start": 95.31, "end": 96.17, "text": " The jackal.", "tokens": [51564, 440, 7109, 304, 13, 51714], "temperature": 0.0, "avg_logprob": -0.197022340236566, "compression_ratio": 1.4102564102564104, "no_speech_prob": 0.03247851878404617, "confidence": 0.044, "words": [{"text": "The", "start": 95.31, "end": 95.47, "confidence": 0.094}, {"text": "jackal.", "start": 95.47, "end": 96.17, "confidence": 0.034}]}, {"id": 14, "seek": 7900, "start": 101.87, "end": 104.85, "text": " He sure was fine.", "tokens": [50364, 634, 988, 390, 2489, 13, 50614], "temperature": 0.0, "avg_logprob": -0.22138153422962537, "compression_ratio": 1.4829545454545454, "no_speech_prob": 0.06786339730024338, "confidence": 0.282, "words": [{"text": "He", "start": 101.87, "end": 102.41, "confidence": 0.544}, {"text": "sure", "start": 102.41, "end": 103.09, "confidence": 0.689}, {"text": "was", "start": 103.09, "end": 103.79, "confidence": 0.96}, {"text": "fine.", "start": 103.79, "end": 104.85, "confidence": 0.07}]}, {"id": 15, "seek": 7900, "start": 130.84, "end": 156.9, "text": " Jackal, jackal, jackal.", "tokens": [50614, 4718, 304, 11, 7109, 304, 11, 7109, 304, 13, 50864], "temperature": 0.0, "avg_logprob": -0.22138153422962537, "compression_ratio": 1.4829545454545454, "no_speech_prob": 0.06786339730024338, "confidence": 0.194, "words": [{"text": "Jackal,", "start": 130.84, "end": 131.6, "confidence": 0.038}, {"text": "jackal,", "start": 153.41, "end": 154.21, "confidence": 0.365}, {"text": "jackal.", "start": 155.9, "end": 156.9, "confidence": 0.527}]}, {"id": 16, "seek": 7900, "start": 158.09, "end": 168.51, "text": " He was fat, black, cat-cooled, like a Friday afternoon martini, chatting at a quarter after five.", "tokens": [50864, 634, 390, 4046, 11, 2211, 11, 3857, 12, 28155, 292, 11, 411, 257, 6984, 6499, 12396, 3812, 11, 24654, 412, 257, 6555, 934, 1732, 13, 51264], "temperature": 0.0, "avg_logprob": -0.22138153422962537, "compression_ratio": 1.4829545454545454, "no_speech_prob": 0.06786339730024338, "confidence": 0.484, "words": [{"text": "He", "start": 158.09, "end": 158.9, "confidence": 0.228}, {"text": "was", "start": 161.55, "end": 162.01, "confidence": 0.977}, {"text": "fat,", "start": 162.01, "end": 162.57, "confidence": 0.498}, {"text": "black,", "start": 162.71, "end": 162.95, "confidence": 0.539}, {"text": "cat-cooled,", "start": 163.29, "end": 164.03, "confidence": 0.557}, {"text": "like", "start": 164.09, "end": 164.21, "confidence": 0.858}, {"text": "a", "start": 164.21, "end": 164.43, "confidence": 0.97}, {"text": "Friday", "start": 164.43, "end": 164.69, "confidence": 0.846}, {"text": "afternoon", "start": 164.69, "end": 165.39, "confidence": 0.773}, {"text": "martini,", "start": 165.39, "end": 166.27, "confidence": 0.417}, {"text": "chatting", "start": 166.45, "end": 166.75, "confidence": 0.011}, {"text": "at", "start": 166.75, "end": 167.09, "confidence": 0.594}, {"text": "a", "start": 167.09, "end": 167.31, "confidence": 0.885}, {"text": "quarter", "start": 167.31, "end": 167.49, "confidence": 0.974}, {"text": "after", "start": 167.49, "end": 167.91, "confidence": 0.925}, {"text": "five.", "start": 167.91, "end": 168.51, "confidence": 0.269}]}, {"id": 17, "seek": 7900, "start": 168.59, "end": 170.77, "text": " Twist of lime, coke on the side.", "tokens": [51264, 47016, 295, 22035, 11, 33659, 322, 264, 1252, 13, 51364], "temperature": 0.0, "avg_logprob": -0.22138153422962537, "compression_ratio": 1.4829545454545454, "no_speech_prob": 0.06786339730024338, "confidence": 0.462, "words": [{"text": "Twist", "start": 168.59, "end": 168.95, "confidence": 0.324}, {"text": "of", "start": 168.95, "end": 169.23, "confidence": 0.567}, {"text": "lime,", "start": 169.23, "end": 169.59, "confidence": 0.187}, {"text": "coke", "start": 169.91, "end": 170.03, "confidence": 0.35}, {"text": "on", "start": 170.03, "end": 170.35, "confidence": 0.995}, {"text": "the", "start": 170.35, "end": 170.57, "confidence": 0.992}, {"text": "side.", "start": 170.57, "end": 170.77, "confidence": 0.662}]}, {"id": 18, "seek": 7900, "start": 170.91, "end": 173.25, "text": " The brother loved to highlight.", "tokens": [51364, 440, 3708, 4333, 281, 5078, 13, 51514], "temperature": 0.0, "avg_logprob": -0.22138153422962537, "compression_ratio": 1.4829545454545454, "no_speech_prob": 0.06786339730024338, "confidence": 0.043, "words": [{"text": "The", "start": 170.91, "end": 171.17, "confidence": 0.452}, {"text": "brother", "start": 171.17, "end": 171.49, "confidence": 0.001}, {"text": "loved", "start": 171.49, "end": 171.81, "confidence": 0.002}, {"text": "to", "start": 171.81, "end": 172.43, "confidence": 0.29}, {"text": "highlight.", "start": 172.43, "end": 173.25, "confidence": 0.234}]}, {"id": 19, "seek": 7900, "start": 173.91, "end": 176.05, "text": " Had a Ph.D. in street strut.", "tokens": [51514, 12298, 257, 2623, 13, 35, 13, 294, 4838, 1056, 325, 13, 51614], "temperature": 0.0, "avg_logprob": -0.22138153422962537, "compression_ratio": 1.4829545454545454, "no_speech_prob": 0.06786339730024338, "confidence": 0.596, "words": [{"text": "Had", "start": 173.91, "end": 174.15, "confidence": 0.241}, {"text": "a", "start": 174.15, "end": 174.47, "confidence": 0.99}, {"text": "Ph.D.", "start": 174.47, "end": 175.19, "confidence": 0.671}, {"text": "in", "start": 175.25, "end": 175.39, "confidence": 0.958}, {"text": "street", "start": 175.39, "end": 175.69, "confidence": 0.603}, {"text": "strut.", "start": 175.69, "end": 176.05, "confidence": 0.493}]}, {"id": 20, "seek": 7900, "start": 176.05, "end": 178.83, "text": " They called him the jackal.", "tokens": [51614, 814, 1219, 796, 264, 7109, 304, 13, 51814], "temperature": 0.0, "avg_logprob": -0.22138153422962537, "compression_ratio": 1.4829545454545454, "no_speech_prob": 0.06786339730024338, "confidence": 0.634, "words": [{"text": "They", "start": 176.05, "end": 176.33, "confidence": 0.714}, {"text": "called", "start": 176.33, "end": 176.73, "confidence": 0.988}, {"text": "him", "start": 176.73, "end": 177.47, "confidence": 0.994}, {"text": "the", "start": 177.47, "end": 178.01, "confidence": 0.419}, {"text": "jackal.", "start": 178.01, "end": 178.83, "confidence": 0.519}]}, {"id": 21, "seek": 10800, "start": 180.86, "end": 186.14, "text": " He was big mac daddy, super black style, and a diamonds in the back Cadillac.", "tokens": [50364, 634, 390, 955, 7912, 16785, 11, 1687, 2211, 3758, 11, 293, 257, 22612, 294, 264, 646, 22323, 373, 326, 13, 50614], "temperature": 0.0, "avg_logprob": -0.19320853097098215, "compression_ratio": 1.427027027027027, "no_speech_prob": 0.0454503558576107, "confidence": 0.667, "words": [{"text": "He", "start": 180.86, "end": 181.06, "confidence": 0.367}, {"text": "was", "start": 181.06, "end": 181.4, "confidence": 0.894}, {"text": "big", "start": 181.4, "end": 181.84, "confidence": 0.336}, {"text": "mac", "start": 181.84, "end": 182.26, "confidence": 0.695}, {"text": "daddy,", "start": 182.26, "end": 182.62, "confidence": 0.685}, {"text": "super", "start": 183.0, "end": 183.22, "confidence": 0.863}, {"text": "black", "start": 183.22, "end": 183.56, "confidence": 0.939}, {"text": "style,", "start": 183.56, "end": 184.02, "confidence": 0.569}, {"text": "and", "start": 184.22, "end": 184.28, "confidence": 0.529}, {"text": "a", "start": 184.28, "end": 184.48, "confidence": 0.437}, {"text": "diamonds", "start": 184.48, "end": 184.74, "confidence": 0.731}, {"text": "in", "start": 184.74, "end": 185.04, "confidence": 0.897}, {"text": "the", "start": 185.04, "end": 185.18, "confidence": 0.978}, {"text": "back", "start": 185.18, "end": 185.44, "confidence": 0.96}, {"text": "Cadillac.", "start": 185.44, "end": 186.14, "confidence": 0.688}]}, {"id": 22, "seek": 10800, "start": 186.14, "end": 192.44, "text": " Fur line boards, white wall wheels, cruise control, built for speed, rum on everything.", "tokens": [50614, 11705, 1622, 13293, 11, 2418, 2929, 10046, 11, 17754, 1969, 11, 3094, 337, 3073, 11, 8347, 322, 1203, 13, 50964], "temperature": 0.0, "avg_logprob": -0.19320853097098215, "compression_ratio": 1.427027027027027, "no_speech_prob": 0.0454503558576107, "confidence": 0.688, "words": [{"text": "Fur", "start": 186.14, "end": 186.5, "confidence": 0.468}, {"text": "line", "start": 186.5, "end": 186.84, "confidence": 0.292}, {"text": "boards,", "start": 186.84, "end": 187.4, "confidence": 0.918}, {"text": "white", "start": 187.64, "end": 187.88, "confidence": 0.894}, {"text": "wall", "start": 187.88, "end": 188.16, "confidence": 0.777}, {"text": "wheels,", "start": 188.16, "end": 188.66, "confidence": 0.911}, {"text": "cruise", "start": 188.82, "end": 189.26, "confidence": 0.931}, {"text": "control,", "start": 189.26, "end": 189.84, "confidence": 0.819}, {"text": "built", "start": 190.06, "end": 190.22, "confidence": 0.777}, {"text": "for", "start": 190.22, "end": 190.48, "confidence": 0.969}, {"text": "speed,", "start": 190.48, "end": 190.84, "confidence": 0.693}, {"text": "rum", "start": 191.08, "end": 191.28, "confidence": 0.15}, {"text": "on", "start": 191.28, "end": 191.56, "confidence": 0.732}, {"text": "everything.", "start": 191.56, "end": 192.44, "confidence": 0.706}]}, {"id": 23, "seek": 10800, "start": 192.44, "end": 201.5, "text": " And the stereophonic speakers, though he really didn't need them, when they called him the jackal.", "tokens": [50964, 400, 264, 12730, 5317, 11630, 9518, 11, 1673, 415, 534, 994, 380, 643, 552, 11, 562, 436, 1219, 796, 264, 7109, 304, 13, 51414], "temperature": 0.0, "avg_logprob": -0.19320853097098215, "compression_ratio": 1.427027027027027, "no_speech_prob": 0.0454503558576107, "confidence": 0.632, "words": [{"text": "And", "start": 192.44, "end": 193.6, "confidence": 0.091}, {"text": "the", "start": 193.6, "end": 193.84, "confidence": 0.921}, {"text": "stereophonic", "start": 193.84, "end": 194.54, "confidence": 0.872}, {"text": "speakers,", "start": 194.54, "end": 195.48, "confidence": 0.652}, {"text": "though", "start": 196.02, "end": 196.24, "confidence": 0.771}, {"text": "he", "start": 196.24, "end": 196.4, "confidence": 0.979}, {"text": "really", "start": 196.4, "end": 196.7, "confidence": 0.344}, {"text": "didn't", "start": 196.7, "end": 197.18, "confidence": 0.571}, {"text": "need", "start": 197.18, "end": 197.48, "confidence": 0.911}, {"text": "them,", "start": 197.48, "end": 198.08, "confidence": 0.732}, {"text": "when", "start": 198.82, "end": 198.96, "confidence": 0.581}, {"text": "they", "start": 198.96, "end": 199.24, "confidence": 0.986}, {"text": "called", "start": 199.24, "end": 199.48, "confidence": 0.964}, {"text": "him", "start": 199.48, "end": 200.28, "confidence": 0.901}, {"text": "the", "start": 200.28, "end": 200.74, "confidence": 0.588}, {"text": "jackal.", "start": 200.74, "end": 201.5, "confidence": 0.453}]}, {"id": 24, "seek": 12900, "start": 201.5, "end": 244.9, "text": " Jackal, jackal, jackal.", "tokens": [50364, 4718, 304, 11, 7109, 304, 11, 7109, 304, 13, 51164], "temperature": 0.2, "avg_logprob": -0.2224530265444801, "compression_ratio": 1.2424242424242424, "no_speech_prob": 0.37665075063705444, "confidence": 0.206, "words": [{"text": "Jackal,", "start": 201.5, "end": 201.75, "confidence": 0.037}, {"text": "jackal,", "start": 240.94, "end": 241.84, "confidence": 0.499}, {"text": "jackal.", "start": 243.56, "end": 244.9, "confidence": 0.474}]}, {"id": 25, "seek": 12900, "start": 265.11, "end": 276.98, "text": " Fly boy was in the buttermilk, hard, living fast, living large, six foot four, not an ounce of fat.", "tokens": [51164, 25294, 3237, 390, 294, 264, 5517, 28674, 74, 11, 1152, 11, 2647, 2370, 11, 2647, 2416, 11, 2309, 2671, 1451, 11, 406, 364, 29860, 295, 4046, 13, 51714], "temperature": 0.2, "avg_logprob": -0.2224530265444801, "compression_ratio": 1.2424242424242424, "no_speech_prob": 0.37665075063705444, "confidence": 0.601, "words": [{"text": "Fly", "start": 265.11, "end": 266.71, "confidence": 0.045}, {"text": "boy", "start": 267.97, "end": 268.91, "confidence": 0.398}, {"text": "was", "start": 268.91, "end": 269.35, "confidence": 0.734}, {"text": "in", "start": 269.35, "end": 269.63, "confidence": 0.969}, {"text": "the", "start": 269.63, "end": 269.91, "confidence": 0.989}, {"text": "buttermilk,", "start": 269.91, "end": 271.01, "confidence": 0.727}, {"text": "hard,", "start": 271.57, "end": 271.91, "confidence": 0.362}, {"text": "living", "start": 272.23, "end": 272.41, "confidence": 0.863}, {"text": "fast,", "start": 272.41, "end": 273.19, "confidence": 0.92}, {"text": "living", "start": 273.43, "end": 273.75, "confidence": 0.76}, {"text": "large,", "start": 273.75, "end": 274.43, "confidence": 0.846}, {"text": "six", "start": 274.77, "end": 274.97, "confidence": 0.551}, {"text": "foot", "start": 274.97, "end": 275.33, "confidence": 0.886}, {"text": "four,", "start": 275.33, "end": 275.61, "confidence": 0.337}, {"text": "not", "start": 275.67, "end": 275.97, "confidence": 0.728}, {"text": "an", "start": 275.97, "end": 276.19, "confidence": 0.969}, {"text": "ounce", "start": 276.19, "end": 276.37, "confidence": 0.282}, {"text": "of", "start": 276.37, "end": 276.63, "confidence": 0.96}, {"text": "fat.", "start": 276.63, "end": 276.98, "confidence": 0.73}]}, {"id": 26, "seek": 15600, "start": 277.91, "end": 280.53, "text": " When women ask, is you a frown cat?", "tokens": [50364, 1133, 2266, 1029, 11, 307, 291, 257, 431, 648, 3857, 30, 50514], "temperature": 0.0, "avg_logprob": -0.29100162226979326, "compression_ratio": 1.3988439306358382, "no_speech_prob": 0.6101652979850769, "confidence": 0.7, "words": [{"text": "When", "start": 277.91, "end": 278.09, "confidence": 0.569}, {"text": "women", "start": 278.09, "end": 278.37, "confidence": 0.952}, {"text": "ask,", "start": 278.37, "end": 278.81, "confidence": 0.657}, {"text": "is", "start": 279.15, "end": 279.31, "confidence": 0.297}, {"text": "you", "start": 279.31, "end": 279.49, "confidence": 0.983}, {"text": "a", "start": 279.49, "end": 279.79, "confidence": 0.984}, {"text": "frown", "start": 279.79, "end": 280.11, "confidence": 0.608}, {"text": "cat?", "start": 280.11, "end": 280.53, "confidence": 0.89}]}, {"id": 27, "seek": 15600, "start": 280.71, "end": 283.25, "text": " He said, I did, I'm one in that.", "tokens": [50514, 634, 848, 11, 286, 630, 11, 286, 478, 472, 294, 300, 13, 50764], "temperature": 0.0, "avg_logprob": -0.29100162226979326, "compression_ratio": 1.3988439306358382, "no_speech_prob": 0.6101652979850769, "confidence": 0.465, "words": [{"text": "He", "start": 280.71, "end": 281.01, "confidence": 0.623}, {"text": "said,", "start": 281.01, "end": 281.37, "confidence": 0.669}, {"text": "I", "start": 281.87, "end": 282.01, "confidence": 0.305}, {"text": "did,", "start": 282.01, "end": 282.21, "confidence": 0.415}, {"text": "I'm", "start": 282.45, "end": 282.55, "confidence": 0.789}, {"text": "one", "start": 282.55, "end": 282.79, "confidence": 0.086}, {"text": "in", "start": 282.79, "end": 283.07, "confidence": 0.221}, {"text": "that.", "start": 283.07, "end": 283.25, "confidence": 0.772}]}, {"id": 28, "seek": 15600, "start": 284.94, "end": 296.53, "text": " And in case you hadn't known, they called me the jackal.", "tokens": [50764, 400, 294, 1389, 291, 8782, 380, 2570, 11, 436, 1219, 385, 264, 7109, 304, 13, 51114], "temperature": 0.0, "avg_logprob": -0.29100162226979326, "compression_ratio": 1.3988439306358382, "no_speech_prob": 0.6101652979850769, "confidence": 0.173, "words": [{"text": "And", "start": 284.94, "end": 285.59, "confidence": 0.503}, {"text": "in", "start": 285.59, "end": 285.87, "confidence": 0.907}, {"text": "case", "start": 285.87, "end": 286.13, "confidence": 0.988}, {"text": "you", "start": 286.13, "end": 286.75, "confidence": 0.992}, {"text": "hadn't", "start": 286.75, "end": 287.39, "confidence": 0.503}, {"text": "known,", "start": 287.39, "end": 288.11, "confidence": 0.578}, {"text": "they", "start": 289.52, "end": 289.68, "confidence": 0.017}, {"text": "called", "start": 289.68, "end": 289.88, "confidence": 0.532}, {"text": "me", "start": 289.88, "end": 290.12, "confidence": 0.995}, {"text": "the", "start": 290.12, "end": 290.58, "confidence": 0.002}, {"text": "jackal.", "start": 296.3, "end": 296.53, "confidence": 0.02}]}, {"id": 29, "seek": 15600, "start": 299.46, "end": 307.16, "text": " Served an 18-year bid for Rikers Island, and they hid him in the state penitentiary.", "tokens": [51114, 4210, 937, 364, 2443, 12, 5294, 12957, 337, 497, 1035, 433, 7637, 11, 293, 436, 16253, 796, 294, 264, 1785, 3435, 270, 23012, 822, 13, 51514], "temperature": 0.0, "avg_logprob": -0.29100162226979326, "compression_ratio": 1.3988439306358382, "no_speech_prob": 0.6101652979850769, "confidence": 0.621, "words": [{"text": "Served", "start": 299.46, "end": 300.32, "confidence": 0.086}, {"text": "an", "start": 300.32, "end": 300.6, "confidence": 0.699}, {"text": "18-year", "start": 300.6, "end": 301.72, "confidence": 0.593}, {"text": "bid", "start": 301.72, "end": 302.32, "confidence": 0.761}, {"text": "for", "start": 302.32, "end": 302.78, "confidence": 0.275}, {"text": "Rikers", "start": 302.78, "end": 303.32, "confidence": 0.865}, {"text": "Island,", "start": 303.32, "end": 303.92, "confidence": 0.589}, {"text": "and", "start": 304.06, "end": 304.22, "confidence": 0.556}, {"text": "they", "start": 304.22, "end": 304.46, "confidence": 0.916}, {"text": "hid", "start": 304.46, "end": 304.72, "confidence": 0.478}, {"text": "him", "start": 304.72, "end": 305.08, "confidence": 0.987}, {"text": "in", "start": 305.08, "end": 305.38, "confidence": 0.96}, {"text": "the", "start": 305.38, "end": 305.62, "confidence": 0.969}, {"text": "state", "start": 305.62, "end": 305.92, "confidence": 0.8}, {"text": "penitentiary.", "start": 305.92, "end": 307.16, "confidence": 0.938}]}, {"id": 30, "seek": 15600, "start": 307.4, "end": 309.32, "text": " Said the charge was grand loss.", "tokens": [51514, 26490, 264, 4602, 390, 2697, 4470, 13, 51614], "temperature": 0.0, "avg_logprob": -0.29100162226979326, "compression_ratio": 1.3988439306358382, "no_speech_prob": 0.6101652979850769, "confidence": 0.691, "words": [{"text": "Said", "start": 307.4, "end": 307.64, "confidence": 0.418}, {"text": "the", "start": 307.64, "end": 307.92, "confidence": 0.972}, {"text": "charge", "start": 307.92, "end": 308.26, "confidence": 0.857}, {"text": "was", "start": 308.26, "end": 308.52, "confidence": 0.993}, {"text": "grand", "start": 308.52, "end": 309.0, "confidence": 0.988}, {"text": "loss.", "start": 309.0, "end": 309.32, "confidence": 0.469}]}, {"id": 31, "seek": 18100, "start": 309.32, "end": 312.06, "text": " That was 1975.", "tokens": [50364, 663, 390, 32454, 13, 50514], "temperature": 0.0, "avg_logprob": -0.23998401641845704, "compression_ratio": 1.2661290322580645, "no_speech_prob": 0.874312162399292, "confidence": 0.809, "words": [{"text": "That", "start": 309.32, "end": 309.68, "confidence": 0.608}, {"text": "was", "start": 309.68, "end": 310.34, "confidence": 0.988}, {"text": "1975.", "start": 310.34, "end": 312.06, "confidence": 0.845}]}, {"id": 32, "seek": 18100, "start": 312.06, "end": 316.54, "text": " And today, if he's still alive, he'll be living in the park.", "tokens": [50514, 400, 965, 11, 498, 415, 311, 920, 5465, 11, 415, 603, 312, 2647, 294, 264, 3884, 13, 50764], "temperature": 0.0, "avg_logprob": -0.23998401641845704, "compression_ratio": 1.2661290322580645, "no_speech_prob": 0.874312162399292, "confidence": 0.761, "words": [{"text": "And", "start": 312.06, "end": 312.74, "confidence": 0.39}, {"text": "today,", "start": 312.74, "end": 313.28, "confidence": 0.758}, {"text": "if", "start": 313.48, "end": 313.58, "confidence": 0.984}, {"text": "he's", "start": 313.58, "end": 313.82, "confidence": 0.966}, {"text": "still", "start": 313.82, "end": 314.14, "confidence": 0.991}, {"text": "alive,", "start": 314.14, "end": 314.58, "confidence": 0.949}, {"text": "he'll", "start": 314.86, "end": 314.98, "confidence": 0.31}, {"text": "be", "start": 314.98, "end": 315.1, "confidence": 0.98}, {"text": "living", "start": 315.1, "end": 315.36, "confidence": 0.913}, {"text": "in", "start": 315.36, "end": 315.68, "confidence": 0.986}, {"text": "the", "start": 315.68, "end": 316.0, "confidence": 0.982}, {"text": "park.", "start": 316.0, "end": 316.54, "confidence": 0.79}]}, {"id": 33, "seek": 18100, "start": 317.53, "end": 322.13, "text": " The brother who claimed the fame was that they called him the jackal.", "tokens": [50764, 440, 3708, 567, 12941, 264, 16874, 390, 300, 436, 1219, 796, 264, 7109, 304, 13, 51014], "temperature": 0.0, "avg_logprob": -0.23998401641845704, "compression_ratio": 1.2661290322580645, "no_speech_prob": 0.874312162399292, "confidence": 0.634, "words": [{"text": "The", "start": 317.53, "end": 318.23, "confidence": 0.45}, {"text": "brother", "start": 318.23, "end": 318.55, "confidence": 0.93}, {"text": "who", "start": 318.55, "end": 318.97, "confidence": 0.97}, {"text": "claimed", "start": 318.97, "end": 319.31, "confidence": 0.989}, {"text": "the", "start": 319.31, "end": 319.59, "confidence": 0.68}, {"text": "fame", "start": 319.59, "end": 319.81, "confidence": 0.96}, {"text": "was", "start": 319.81, "end": 320.09, "confidence": 0.904}, {"text": "that", "start": 320.09, "end": 320.25, "confidence": 0.621}, {"text": "they", "start": 320.25, "end": 320.49, "confidence": 0.937}, {"text": "called", "start": 320.49, "end": 320.93, "confidence": 0.835}, {"text": "him", "start": 320.93, "end": 321.41, "confidence": 0.823}, {"text": "the", "start": 321.41, "end": 321.57, "confidence": 0.041}, {"text": "jackal.", "start": 321.57, "end": 322.13, "confidence": 0.656}]}, {"id": 34, "seek": 18100, "start": 323.75, "end": 324.57, "text": " The jackal.", "tokens": [51014, 440, 7109, 304, 13, 51114], "temperature": 0.0, "avg_logprob": -0.23998401641845704, "compression_ratio": 1.2661290322580645, "no_speech_prob": 0.874312162399292, "confidence": 0.062, "words": [{"text": "The", "start": 323.75, "end": 323.91, "confidence": 0.292}, {"text": "jackal.", "start": 323.91, "end": 324.57, "confidence": 0.037}]}, {"id": 35, "seek": 19600, "start": 389.79, "end": 408.18, "text": " The jackal.", "tokens": [50364, 440, 7109, 304, 13, 51514], "temperature": 0.0, "avg_logprob": -0.361208404813494, "compression_ratio": 0.5789473684210527, "no_speech_prob": 0.7812728881835938, "confidence": 0.023, "words": [{"text": "The", "start": 389.79, "end": 390.23, "confidence": 0.061}, {"text": "jackal.", "start": 405.39, "end": 408.18, "confidence": 0.017}]}], "language": "en"}, "duration": 443.1009466496028}
+{
+  "animation": {
+    "keyframes_per_second": 3,
+    "zoom_animation_times": {
+      "00000.00": "1.00",
+      "00035.64": "1.40",
+      "00036.14": "1.00",
+      "00043.79": "1.40",
+      "00044.29": "1.00",
+      "00044.79": "1.40",
+      "00045.29": "1.00",
+      "00046.11": "1.40",
+      "00046.29": "1.12",
+      "00046.46": "1.40",
+      "00046.96": "1.00",
+      "00047.79": "1.40",
+      "00048.29": "1.00",
+      "00048.46": "1.40",
+      "00048.62": "1.14",
+      "00048.79": "1.40",
+      "00048.96": "1.12",
+      "00049.13": "1.40",
+      "00049.63": "1.00",
+      "00050.46": "1.40",
+      "00050.96": "1.00",
+      "00051.13": "1.40",
+      "00051.29": "1.14",
+      "00051.46": "1.40",
+      "00051.96": "1.00",
+      "00053.13": "1.40",
+      "00053.63": "1.00",
+      "00054.13": "1.40",
+      "00054.63": "1.00",
+      "00055.80": "1.40",
+      "00056.30": "1.00",
+      "00056.80": "1.40",
+      "00057.30": "1.00",
+      "00058.12": "1.40",
+      "00058.29": "1.12",
+      "00058.47": "1.40",
+      "00058.97": "1.00",
+      "00059.03": "1.40",
+      "00059.25": "1.05",
+      "00059.47": "1.40",
+      "00059.63": "1.14",
+      "00059.79": "1.40",
+      "00060.29": "1.00",
+      "00060.46": "1.40",
+      "00060.63": "1.14",
+      "00060.79": "1.40",
+      "00061.29": "1.00",
+      "00062.14": "1.40",
+      "00062.30": "1.14",
+      "00062.46": "1.40",
+      "00062.96": "1.00",
+      "00063.14": "1.40",
+      "00063.30": "1.14",
+      "00063.46": "1.40",
+      "00063.96": "1.00",
+      "00065.13": "1.40",
+      "00065.63": "1.00",
+      "00066.13": "1.40",
+      "00066.30": "1.12",
+      "00066.48": "1.40",
+      "00066.98": "1.00",
+      "00067.80": "1.40",
+      "00068.30": "1.00",
+      "00068.80": "1.40",
+      "00069.30": "1.00",
+      "00070.47": "1.40",
+      "00070.97": "1.00",
+      "00071.47": "1.40",
+      "00071.65": "1.12",
+      "00071.82": "1.40",
+      "00072.32": "1.00",
+      "00072.79": "1.40",
+      "00072.97": "1.12",
+      "00073.14": "1.40",
+      "00073.64": "1.00",
+      "00074.14": "1.40",
+      "00074.64": "1.00",
+      "00075.81": "1.40",
+      "00076.31": "1.00",
+      "00076.81": "1.40",
+      "00077.31": "1.00",
+      "00078.48": "1.40",
+      "00078.98": "1.00",
+      "00079.48": "1.40",
+      "00079.98": "1.00",
+      "00080.48": "1.40",
+      "00080.64": "1.14",
+      "00080.81": "1.40",
+      "00080.98": "1.12",
+      "00081.15": "1.40",
+      "00081.65": "1.00",
+      "00083.48": "1.40",
+      "00083.65": "1.12",
+      "00083.82": "1.40",
+      "00084.32": "1.00",
+      "00085.15": "1.40",
+      "00085.65": "1.00",
+      "00085.70": "1.40",
+      "00085.93": "1.05",
+      "00086.15": "1.40",
+      "00086.32": "1.12",
+      "00086.49": "1.40",
+      "00086.99": "1.00",
+      "00088.82": "1.40",
+      "00089.32": "1.00",
+      "00090.14": "1.40",
+      "00090.31": "1.12",
+      "00090.49": "1.40",
+      "00090.99": "1.00",
+      "00091.49": "1.40",
+      "00091.99": "1.00",
+      "00093.16": "1.40",
+      "00093.66": "1.00",
+      "00094.16": "1.40",
+      "00094.32": "1.14",
+      "00094.48": "1.40",
+      "00094.98": "1.00",
+      "00095.48": "1.40",
+      "00095.65": "1.12",
+      "00095.83": "1.40",
+      "00096.33": "1.00",
+      "00096.83": "1.40",
+      "00096.99": "1.14",
+      "00097.15": "1.40",
+      "00097.65": "1.00",
+      "00098.50": "1.40",
+      "00099.00": "1.00",
+      "00099.50": "1.40",
+      "00099.66": "1.14",
+      "00099.82": "1.40",
+      "00100.32": "1.00",
+      "00100.82": "1.40",
+      "00101.00": "1.12",
+      "00101.17": "1.40",
+      "00101.67": "1.00",
+      "00102.49": "1.40",
+      "00102.99": "1.00",
+      "00103.49": "1.40",
+      "00103.67": "1.12",
+      "00103.84": "1.40",
+      "00104.34": "1.00",
+      "00105.16": "1.40",
+      "00105.66": "1.00",
+      "00106.16": "1.40",
+      "00106.34": "1.12",
+      "00106.51": "1.40",
+      "00107.01": "1.00",
+      "00107.49": "1.40",
+      "00107.66": "1.12",
+      "00107.83": "1.40",
+      "00108.33": "1.00",
+      "00108.83": "1.40",
+      "00109.33": "1.00",
+      "00110.50": "1.40",
+      "00111.00": "1.00",
+      "00111.50": "1.40",
+      "00112.00": "1.00",
+      "00113.17": "1.40",
+      "00113.67": "1.00",
+      "00115.50": "1.40",
+      "00115.67": "1.12",
+      "00115.84": "1.40",
+      "00116.34": "1.00",
+      "00116.84": "1.40",
+      "00117.34": "1.00",
+      "00118.17": "1.40",
+      "00118.34": "1.12",
+      "00118.51": "1.40",
+      "00119.01": "1.00",
+      "00120.84": "1.40",
+      "00121.34": "1.00",
+      "00122.51": "1.40",
+      "00123.01": "1.00",
+      "00123.51": "1.40",
+      "00124.01": "1.00",
+      "00125.18": "1.40",
+      "00125.68": "1.00",
+      "00126.18": "1.40",
+      "00126.34": "1.14",
+      "00126.50": "1.40",
+      "00127.00": "1.00",
+      "00127.18": "1.40",
+      "00127.68": "1.00",
+      "00127.85": "1.40",
+      "00128.35": "1.00",
+      "00128.85": "1.40",
+      "00129.35": "1.00",
+      "00130.52": "1.40",
+      "00131.02": "1.00",
+      "00131.84": "1.40",
+      "00132.34": "1.00",
+      "00132.52": "1.40",
+      "00132.68": "1.14",
+      "00132.84": "1.40",
+      "00133.02": "1.12",
+      "00133.19": "1.40",
+      "00133.69": "1.00",
+      "00134.51": "1.40",
+      "00135.01": "1.00",
+      "00135.86": "1.40",
+      "00136.36": "1.00",
+      "00137.18": "1.40",
+      "00137.68": "1.00",
+      "00138.18": "1.40",
+      "00138.68": "1.00",
+      "00139.85": "1.40",
+      "00140.35": "1.00",
+      "00140.85": "1.40",
+      "00141.35": "1.00",
+      "00142.18": "1.40",
+      "00142.35": "1.12",
+      "00142.52": "1.40",
+      "00143.02": "1.00",
+      "00143.52": "1.40",
+      "00143.69": "1.14",
+      "00143.85": "1.40",
+      "00144.35": "1.00",
+      "00144.85": "1.40",
+      "00145.02": "1.12",
+      "00145.19": "1.40",
+      "00145.69": "1.00",
+      "00146.19": "1.40",
+      "00146.36": "1.14",
+      "00146.52": "1.40",
+      "00147.02": "1.00",
+      "00147.52": "1.40",
+      "00147.69": "1.12",
+      "00147.86": "1.40",
+      "00148.36": "1.00",
+      "00149.19": "1.40",
+      "00149.69": "1.00",
+      "00150.19": "1.40",
+      "00150.36": "1.12",
+      "00150.53": "1.40",
+      "00151.03": "1.00",
+      "00151.86": "1.40",
+      "00152.36": "1.00",
+      "00152.86": "1.40",
+      "00153.36": "1.00",
+      "00154.53": "1.40",
+      "00155.03": "1.00",
+      "00155.53": "1.40",
+      "00156.03": "1.00",
+      "00157.20": "1.40",
+      "00157.70": "1.00",
+      "00159.87": "1.40",
+      "00160.37": "1.00",
+      "00160.87": "1.40",
+      "00161.37": "1.00",
+      "00161.87": "1.40",
+      "00162.37": "1.00",
+      "00162.54": "1.40",
+      "00163.04": "1.00",
+      "00163.86": "1.40",
+      "00164.36": "1.00",
+      "00164.54": "1.40",
+      "00164.70": "1.14",
+      "00164.86": "1.40",
+      "00165.04": "1.12",
+      "00165.21": "1.40",
+      "00165.71": "1.00",
+      "00166.53": "1.40",
+      "00167.03": "1.00",
+      "00167.53": "1.40",
+      "00167.71": "1.12",
+      "00167.88": "1.40",
+      "00168.38": "1.00",
+      "00169.20": "1.40",
+      "00169.70": "1.00",
+      "00169.88": "1.40",
+      "00170.04": "1.14",
+      "00170.20": "1.40",
+      "00170.70": "1.00",
+      "00171.87": "1.40",
+      "00172.37": "1.00",
+      "00172.87": "1.40",
+      "00173.37": "1.00",
+      "00174.20": "1.40",
+      "00174.37": "1.12",
+      "00174.54": "1.40",
+      "00175.04": "1.00",
+      "00175.87": "1.40",
+      "00176.37": "1.00",
+      "00176.87": "1.40",
+      "00177.04": "1.12",
+      "00177.21": "1.40",
+      "00177.71": "1.00",
+      "00178.54": "1.40",
+      "00179.04": "1.00",
+      "00179.88": "1.40",
+      "00180.38": "1.00",
+      "00181.21": "1.40",
+      "00181.71": "1.00",
+      "00182.21": "1.40",
+      "00182.38": "1.12",
+      "00182.56": "1.40",
+      "00183.06": "1.00",
+      "00183.88": "1.40",
+      "00184.38": "1.00",
+      "00184.88": "1.40",
+      "00185.38": "1.00",
+      "00186.55": "1.40",
+      "00187.05": "1.00",
+      "00187.55": "1.40",
+      "00188.05": "1.00",
+      "00189.22": "1.40",
+      "00189.72": "1.00",
+      "00190.22": "1.40",
+      "00190.38": "1.14",
+      "00190.54": "1.40",
+      "00191.04": "1.00",
+      "00191.22": "1.40",
+      "00191.38": "1.14",
+      "00191.54": "1.40",
+      "00191.72": "1.12",
+      "00191.89": "1.40",
+      "00192.39": "1.00",
+      "00192.89": "1.40",
+      "00193.39": "1.00",
+      "00194.21": "1.40",
+      "00194.39": "1.12",
+      "00194.56": "1.40",
+      "00195.06": "1.00",
+      "00195.56": "1.40",
+      "00195.72": "1.14",
+      "00195.88": "1.40",
+      "00196.38": "1.00",
+      "00196.56": "1.40",
+      "00196.72": "1.14",
+      "00196.88": "1.40",
+      "00197.06": "1.12",
+      "00197.23": "1.40",
+      "00197.73": "1.00",
+      "00198.55": "1.40",
+      "00199.05": "1.00",
+      "00199.55": "1.40",
+      "00199.73": "1.12",
+      "00199.90": "1.40",
+      "00200.40": "1.00",
+      "00201.22": "1.40",
+      "00201.72": "1.00",
+      "00202.22": "1.40",
+      "00202.40": "1.12",
+      "00202.57": "1.40",
+      "00203.07": "1.00",
+      "00203.89": "1.40",
+      "00204.39": "1.00",
+      "00204.89": "1.40",
+      "00205.06": "1.14",
+      "00205.22": "1.40",
+      "00205.72": "1.00",
+      "00206.56": "1.40",
+      "00207.06": "1.00",
+      "00207.56": "1.40",
+      "00207.73": "1.14",
+      "00207.89": "1.40",
+      "00208.39": "1.00",
+      "00208.89": "1.40",
+      "00209.06": "1.12",
+      "00209.24": "1.40",
+      "00209.74": "1.00",
+      "00210.23": "1.40",
+      "00210.40": "1.14",
+      "00210.56": "1.40",
+      "00211.06": "1.00",
+      "00211.56": "1.40",
+      "00211.73": "1.12",
+      "00211.91": "1.40",
+      "00212.41": "1.00",
+      "00213.23": "1.40",
+      "00213.73": "1.00",
+      "00213.90": "1.40",
+      "00214.06": "1.14",
+      "00214.23": "1.40",
+      "00214.40": "1.12",
+      "00214.58": "1.40",
+      "00215.08": "1.00",
+      "00215.90": "1.40",
+      "00216.40": "1.00",
+      "00216.90": "1.40",
+      "00217.40": "1.00",
+      "00218.57": "1.40",
+      "00219.07": "1.00",
+      "00219.57": "1.40",
+      "00220.07": "1.00",
+      "00221.24": "1.40",
+      "00221.74": "1.00",
+      "00222.24": "1.40",
+      "00222.74": "1.00",
+      "00223.24": "1.40",
+      "00223.40": "1.14",
+      "00223.56": "1.40",
+      "00224.06": "1.00",
+      "00224.91": "1.40",
+      "00225.41": "1.00",
+      "00226.58": "1.40",
+      "00227.08": "1.00",
+      "00227.58": "1.40",
+      "00227.74": "1.14",
+      "00227.90": "1.40",
+      "00228.40": "1.00",
+      "00228.58": "1.40",
+      "00228.74": "1.14",
+      "00228.90": "1.40",
+      "00229.08": "1.12",
+      "00229.25": "1.40",
+      "00229.75": "1.00",
+      "00230.57": "1.40",
+      "00231.07": "1.00",
+      "00231.57": "1.40",
+      "00231.75": "1.12",
+      "00231.92": "1.40",
+      "00232.42": "1.00",
+      "00233.24": "1.40",
+      "00233.74": "1.00",
+      "00234.24": "1.40",
+      "00234.42": "1.12",
+      "00234.59": "1.40",
+      "00235.09": "1.00",
+      "00235.91": "1.40",
+      "00236.41": "1.00",
+      "00236.91": "1.40",
+      "00237.41": "1.00",
+      "00238.24": "1.40",
+      "00238.41": "1.12",
+      "00238.59": "1.40",
+      "00239.09": "1.00",
+      "00239.58": "1.40",
+      "00240.08": "1.00",
+      "00241.26": "1.40",
+      "00241.76": "1.00",
+      "00242.25": "1.40",
+      "00242.75": "1.00",
+      "00243.58": "1.40",
+      "00243.75": "1.12",
+      "00243.93": "1.40",
+      "00244.43": "1.00",
+      "00245.25": "1.40",
+      "00245.75": "1.00",
+      "00246.25": "1.40",
+      "00246.75": "1.00",
+      "00247.92": "1.40",
+      "00248.42": "1.00",
+      "00248.92": "1.40",
+      "00249.42": "1.00",
+      "00250.59": "1.40",
+      "00251.09": "1.00",
+      "00251.59": "1.40",
+      "00252.09": "1.00",
+      "00253.26": "1.40",
+      "00253.76": "1.00",
+      "00254.26": "1.40",
+      "00254.76": "1.00",
+      "00255.58": "1.40",
+      "00255.76": "1.12",
+      "00255.93": "1.40",
+      "00256.43": "1.00",
+      "00256.93": "1.40",
+      "00257.43": "1.00",
+      "00258.25": "1.40",
+      "00258.43": "1.12",
+      "00258.60": "1.40",
+      "00259.10": "1.00",
+      "00259.92": "1.40",
+      "00260.42": "1.00",
+      "00260.60": "1.40",
+      "00260.76": "1.14",
+      "00260.92": "1.40",
+      "00261.42": "1.00",
+      "00262.59": "1.40",
+      "00263.09": "1.00",
+      "00263.59": "1.40",
+      "00264.09": "1.00",
+      "00267.26": "1.40",
+      "00267.42": "1.14",
+      "00267.59": "1.40",
+      "00267.76": "1.12",
+      "00267.94": "1.40",
+      "00268.44": "1.00",
+      "00268.93": "1.40",
+      "00269.43": "1.00",
+      "00270.26": "1.40",
+      "00270.43": "1.12",
+      "00270.61": "1.40",
+      "00271.11": "1.00",
+      "00271.60": "1.40",
+      "00272.10": "1.00",
+      "00272.93": "1.40",
+      "00273.10": "1.12",
+      "00273.28": "1.40",
+      "00273.78": "1.00",
+      "00275.60": "1.40",
+      "00275.77": "1.12",
+      "00275.95": "1.40",
+      "00276.45": "1.00",
+      "00277.27": "1.40",
+      "00277.77": "1.00",
+      "00278.27": "1.40",
+      "00278.77": "1.00",
+      "00279.94": "1.40",
+      "00280.44": "1.00",
+      "00280.94": "1.40",
+      "00281.44": "1.00",
+      "00282.61": "1.40",
+      "00283.11": "1.00",
+      "00283.61": "1.40",
+      "00284.11": "1.00",
+      "00284.93": "1.40",
+      "00285.11": "1.12",
+      "00285.28": "1.40",
+      "00285.78": "1.00",
+      "00286.28": "1.40",
+      "00286.78": "1.00",
+      "00287.28": "1.40",
+      "00287.78": "1.00",
+      "00287.95": "1.40",
+      "00288.45": "1.00",
+      "00288.95": "1.40",
+      "00289.11": "1.14",
+      "00289.27": "1.40",
+      "00289.77": "1.00",
+      "00289.95": "1.40",
+      "00290.11": "1.14",
+      "00290.27": "1.40",
+      "00290.45": "1.12",
+      "00290.62": "1.40",
+      "00291.12": "1.00",
+      "00291.62": "1.40",
+      "00292.12": "1.00",
+      "00292.94": "1.40",
+      "00293.12": "1.12",
+      "00293.29": "1.40",
+      "00293.79": "1.00",
+      "00294.61": "1.40",
+      "00295.11": "1.00",
+      "00295.61": "1.40",
+      "00296.11": "1.00",
+      "00299.28": "1.40",
+      "00299.78": "1.00",
+      "00299.96": "1.40",
+      "00300.46": "1.00",
+      "00300.95": "1.40",
+      "00301.45": "1.00",
+      "00302.63": "1.40",
+      "00303.13": "1.00",
+      "00303.62": "1.40",
+      "00304.12": "1.00",
+      "00304.95": "1.40",
+      "00305.12": "1.12",
+      "00305.30": "1.40",
+      "00305.80": "1.00",
+      "00306.29": "1.40",
+      "00306.46": "1.14",
+      "00306.62": "1.40",
+      "00307.12": "1.00",
+      "00307.62": "1.40",
+      "00308.12": "1.00",
+      "00309.29": "1.40",
+      "00309.79": "1.00",
+      "00310.29": "1.40",
+      "00310.46": "1.12",
+      "00310.64": "1.40",
+      "00311.14": "1.00",
+      "00312.96": "1.40",
+      "00313.46": "1.00",
+      "00314.63": "1.40",
+      "00315.13": "1.00",
+      "00315.63": "1.40",
+      "00316.13": "1.00",
+      "00317.30": "1.40",
+      "00317.80": "1.00",
+      "00318.30": "1.40",
+      "00318.80": "1.00",
+      "00319.30": "1.40",
+      "00319.46": "1.14",
+      "00319.62": "1.40",
+      "00319.80": "1.12",
+      "00319.97": "1.40",
+      "00320.47": "1.00",
+      "00320.97": "1.40",
+      "00321.47": "1.00",
+      "00322.64": "1.40",
+      "00323.14": "1.00",
+      "00323.64": "1.40",
+      "00323.80": "1.14",
+      "00323.96": "1.40",
+      "00324.46": "1.00",
+      "00325.31": "1.40",
+      "00325.81": "1.00",
+      "00326.64": "1.40",
+      "00327.14": "1.00",
+      "00327.63": "1.40",
+      "00328.13": "1.00",
+      "00329.31": "1.40",
+      "00329.81": "1.00",
+      "00329.98": "1.40",
+      "00330.14": "1.14",
+      "00330.30": "1.40",
+      "00330.80": "1.00",
+      "00331.98": "1.40",
+      "00332.48": "1.00",
+      "00332.97": "1.40",
+      "00333.14": "1.14",
+      "00333.30": "1.40",
+      "00333.80": "1.00",
+      "00334.30": "1.40",
+      "00334.47": "1.12",
+      "00334.65": "1.40",
+      "00335.15": "1.00",
+      "00335.64": "1.40",
+      "00335.81": "1.14",
+      "00335.97": "1.40",
+      "00336.47": "1.00",
+      "00337.32": "1.40",
+      "00337.82": "1.00",
+      "00338.31": "1.40",
+      "00338.48": "1.14",
+      "00338.64": "1.40",
+      "00339.14": "1.00",
+      "00339.31": "1.40",
+      "00339.48": "1.14",
+      "00339.64": "1.40",
+      "00339.81": "1.12",
+      "00339.99": "1.40",
+      "00340.49": "1.00",
+      "00341.31": "1.40",
+      "00341.81": "1.00",
+      "00342.31": "1.40",
+      "00342.48": "1.12",
+      "00342.66": "1.40",
+      "00343.16": "1.00",
+      "00343.98": "1.40",
+      "00344.48": "1.00",
+      "00344.98": "1.40",
+      "00345.48": "1.00",
+      "00346.65": "1.40",
+      "00347.15": "1.00",
+      "00347.65": "1.40",
+      "00347.82": "1.12",
+      "00348.00": "1.40",
+      "00348.50": "1.00",
+      "00349.32": "1.40",
+      "00349.82": "1.00",
+      "00350.32": "1.40",
+      "00350.82": "1.00",
+      "00351.32": "1.40",
+      "00351.82": "1.00",
+      "00351.99": "1.40",
+      "00352.49": "1.00",
+      "00352.99": "1.40",
+      "00353.49": "1.00",
+      "00354.66": "1.40",
+      "00355.16": "1.00",
+      "00355.66": "1.40",
+      "00355.82": "1.14",
+      "00355.99": "1.40",
+      "00356.49": "1.00",
+      "00356.66": "1.40",
+      "00356.82": "1.14",
+      "00356.98": "1.40",
+      "00357.16": "1.12",
+      "00357.33": "1.40",
+      "00357.83": "1.00",
+      "00358.33": "1.40",
+      "00358.49": "1.14",
+      "00358.66": "1.40",
+      "00359.16": "1.00",
+      "00359.65": "1.40",
+      "00359.83": "1.12",
+      "00360.00": "1.40",
+      "00360.50": "1.00",
+      "00361.33": "1.40",
+      "00361.83": "1.00",
+      "00362.00": "1.40",
+      "00362.16": "1.14",
+      "00362.32": "1.40",
+      "00362.50": "1.12",
+      "00362.67": "1.40",
+      "00363.17": "1.00",
+      "00364.00": "1.40",
+      "00364.50": "1.00",
+      "00364.99": "1.40",
+      "00365.49": "1.00",
+      "00366.67": "1.40",
+      "00367.17": "1.00",
+      "00367.66": "1.40",
+      "00368.16": "1.00",
+      "00369.34": "1.40",
+      "00369.84": "1.00",
+      "00370.34": "1.40",
+      "00370.50": "1.14",
+      "00370.66": "1.40",
+      "00371.16": "1.00",
+      "00371.66": "1.40",
+      "00371.83": "1.12",
+      "00372.01": "1.40",
+      "00372.51": "1.00",
+      "00373.33": "1.40",
+      "00373.83": "1.00",
+      "00374.33": "1.40",
+      "00374.50": "1.12",
+      "00374.68": "1.40",
+      "00375.18": "1.00",
+      "00376.00": "1.40",
+      "00376.50": "1.00",
+      "00377.00": "1.40",
+      "00377.50": "1.00",
+      "00378.67": "1.40",
+      "00379.17": "1.00",
+      "00379.67": "1.40",
+      "00380.17": "1.00",
+      "00381.34": "1.40",
+      "00381.84": "1.00",
+      "00382.34": "1.40",
+      "00382.84": "1.00",
+      "00383.66": "1.40",
+      "00383.84": "1.12",
+      "00384.01": "1.40",
+      "00384.51": "1.00",
+      "00385.01": "1.40",
+      "00385.51": "1.00",
+      "00386.33": "1.40",
+      "00386.51": "1.12",
+      "00386.68": "1.40",
+      "00387.18": "1.00",
+      "00387.68": "1.40",
+      "00387.84": "1.14",
+      "00388.01": "1.40",
+      "00388.51": "1.00",
+      "00389.00": "1.40",
+      "00389.18": "1.12",
+      "00389.35": "1.40",
+      "00389.85": "1.00",
+      "00390.68": "1.40",
+      "00391.18": "1.00",
+      "00391.67": "1.40",
+      "00392.17": "1.00",
+      "00393.35": "1.40",
+      "00393.85": "1.00",
+      "00394.02": "1.40",
+      "00394.18": "1.14",
+      "00394.34": "1.40",
+      "00394.84": "1.00",
+      "00396.02": "1.40",
+      "00396.52": "1.00",
+      "00397.01": "1.40",
+      "00397.51": "1.00",
+      "00398.69": "1.40",
+      "00399.19": "1.00",
+      "00399.69": "1.40",
+      "00400.19": "1.00",
+      "00401.36": "1.40",
+      "00401.86": "1.00",
+      "00402.36": "1.40",
+      "00402.52": "1.14",
+      "00402.68": "1.40",
+      "00403.18": "1.00",
+      "00403.68": "1.40",
+      "00403.85": "1.12",
+      "00404.03": "1.40",
+      "00404.53": "1.00",
+      "00405.35": "1.40",
+      "00405.85": "1.00",
+      "00406.02": "1.40",
+      "00406.19": "1.14",
+      "00406.35": "1.40",
+      "00406.52": "1.12",
+      "00406.70": "1.40",
+      "00407.20": "1.00",
+      "00408.02": "1.40",
+      "00408.52": "1.00",
+      "00409.02": "1.40",
+      "00409.52": "1.00",
+      "00410.69": "1.40",
+      "00411.19": "1.00",
+      "00411.25": "1.40",
+      "00411.47": "1.05",
+      "00411.69": "1.40",
+      "00412.19": "1.00",
+      "00413.36": "1.40",
+      "00413.86": "1.00",
+      "00414.36": "1.40",
+      "00414.52": "1.14",
+      "00414.69": "1.40",
+      "00415.19": "1.00",
+      "00415.36": "1.40",
+      "00415.52": "1.14",
+      "00415.68": "1.40",
+      "00415.86": "1.12",
+      "00416.03": "1.40",
+      "00416.53": "1.00",
+      "00417.03": "1.40",
+      "00417.53": "1.00",
+      "00418.70": "1.40",
+      "00419.20": "1.00",
+      "00420.03": "1.40",
+      "00420.53": "1.00",
+      "00420.70": "1.40",
+      "00420.86": "1.14",
+      "00421.02": "1.40",
+      "00421.20": "1.12",
+      "00421.37": "1.40",
+      "00421.87": "1.00",
+      "00422.70": "1.40",
+      "00423.20": "1.00",
+      "00423.37": "1.40",
+      "00423.53": "1.14",
+      "00423.69": "1.40",
+      "00424.19": "1.00",
+      "00425.37": "1.40",
+      "00425.87": "1.00",
+      "00426.04": "1.40",
+      "00426.20": "1.14",
+      "00426.36": "1.40",
+      "00426.86": "1.00",
+      "00428.04": "1.40",
+      "00428.54": "1.00",
+      "00429.04": "1.40",
+      "00429.54": "1.00",
+      "00430.71": "1.40",
+      "00431.21": "1.00",
+      "00431.71": "1.40",
+      "00432.21": "1.00",
+      "00433.38": "1.40",
+      "00433.88": "1.00",
+      "00436.05": "1.40",
+      "00436.55": "1.00"
+    }
+  },
+  "estd_bpm": 89.10290948275862,
+  "style": "Pencil Sketch",
+  "full_transcript": {
+    "text": " Did I ever tell you about that man who changed my life? The one I thought, oh my lord, when I saw him walking back to that bar, all tall and lean with them broad shoulders, sweet lips. I knew that I had died and gone to chocolate heaven. I had a real deep voice, white, really deep, and this shoe was always shining. Long, slender fingers manicured perfectly. The man wore $800 Italian suits straight from, I don't know, what would they call it, Milan, Rome, some place like that. What was the logo? I said, I got to get next to that man, and I haven't seen him in a long time. I mean, he was so fine. He could get any good girl into trouble. You guys heard him say what? Well, the jackal. The jackal. He sure was fine. Jackal, jackal, jackal. He was fat, black, cat-cooled, like a Friday afternoon martini, chatting at a quarter after five. Twist of lime, coke on the side. The brother loved to highlight. Had a Ph.D. in street strut. They called him the jackal. He was big mac daddy, super black style, and a diamonds in the back Cadillac. Fur line boards, white wall wheels, cruise control, built for speed, rum on everything. And the stereophonic speakers, though he really didn't need them, when they called him the jackal. Jackal, jackal, jackal. Fly boy was in the buttermilk, hard, living fast, living large, six foot four, not an ounce of fat. When women ask, is you a frown cat? He said, I did, I'm one in that. And in case you hadn't known, they called me the jackal. Served an 18-year bid for Rikers Island, and they hid him in the state penitentiary. Said the charge was grand loss. That was 1975. And today, if he's still alive, he'll be living in the park. The brother who claimed the fame was that they called him the jackal. The jackal. The jackal.",
+    "segments": [
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 10.29,
+        "end": 14.15,
+        "text": " Did I ever tell you about that man who changed my life?",
+        "tokens": [
+          50364,
+          2589,
+          286,
+          1562,
+          980,
+          291,
+          466,
+          300,
+          587,
+          567,
+          3105,
+          452,
+          993,
+          30,
+          50564
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.2661414290919448,
+        "compression_ratio": 1.4107142857142858,
+        "no_speech_prob": 0.18681614100933075,
+        "confidence": 0.918,
+        "words": [
+          {
+            "text": "Did",
+            "start": 10.29,
+            "end": 10.49,
+            "confidence": 0.588
+          },
+          {
+            "text": "I",
+            "start": 10.49,
+            "end": 10.61,
+            "confidence": 0.971
+          },
+          {
+            "text": "ever",
+            "start": 10.61,
+            "end": 10.77,
+            "confidence": 0.995
+          },
+          {
+            "text": "tell",
+            "start": 10.77,
+            "end": 11.03,
+            "confidence": 0.993
+          },
+          {
+            "text": "you",
+            "start": 11.03,
+            "end": 11.23,
+            "confidence": 0.993
+          },
+          {
+            "text": "about",
+            "start": 11.23,
+            "end": 11.49,
+            "confidence": 0.97
+          },
+          {
+            "text": "that",
+            "start": 11.49,
+            "end": 11.73,
+            "confidence": 0.93
+          },
+          {
+            "text": "man",
+            "start": 11.73,
+            "end": 12.17,
+            "confidence": 0.99
+          },
+          {
+            "text": "who",
+            "start": 12.17,
+            "end": 12.69,
+            "confidence": 0.936
+          },
+          {
+            "text": "changed",
+            "start": 12.69,
+            "end": 13.31,
+            "confidence": 0.955
+          },
+          {
+            "text": "my",
+            "start": 13.31,
+            "end": 13.63,
+            "confidence": 0.994
+          },
+          {
+            "text": "life?",
+            "start": 13.63,
+            "end": 14.15,
+            "confidence": 0.858
+          }
+        ],
+        "prompt": "\"Vivid visual prompt"
+      },
+      {
+        "id": 1,
+        "seek": 0,
+        "start": 14.15,
+        "end": 18.56,
+        "text": " The one I thought, oh my lord, when I saw him walking back to that bar,",
+        "tokens": [
+          50564,
+          440,
+          472,
+          286,
+          1194,
+          11,
+          1954,
+          452,
+          15448,
+          11,
+          562,
+          286,
+          1866,
+          796,
+          4494,
+          646,
+          281,
+          300,
+          2159,
+          11,
+          50814
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.2661414290919448,
+        "compression_ratio": 1.4107142857142858,
+        "no_speech_prob": 0.18681614100933075,
+        "confidence": 0.675,
+        "words": [
+          {
+            "text": "The",
+            "start": 14.15,
+            "end": 14.39,
+            "confidence": 0.226
+          },
+          {
+            "text": "one",
+            "start": 14.39,
+            "end": 14.61,
+            "confidence": 0.981
+          },
+          {
+            "text": "I",
+            "start": 14.61,
+            "end": 14.75,
+            "confidence": 0.912
+          },
+          {
+            "text": "thought,",
+            "start": 14.75,
+            "end": 15.05,
+            "confidence": 0.643
+          },
+          {
+            "text": "oh",
+            "start": 15.27,
+            "end": 15.69,
+            "confidence": 0.222
+          },
+          {
+            "text": "my",
+            "start": 15.69,
+            "end": 15.95,
+            "confidence": 0.795
+          },
+          {
+            "text": "lord,",
+            "start": 16.22,
+            "end": 16.44,
+            "confidence": 0.523
+          },
+          {
+            "text": "when",
+            "start": 16.52,
+            "end": 16.68,
+            "confidence": 0.803
+          },
+          {
+            "text": "I",
+            "start": 16.68,
+            "end": 16.82,
+            "confidence": 0.987
+          },
+          {
+            "text": "saw",
+            "start": 16.82,
+            "end": 16.94,
+            "confidence": 0.987
+          },
+          {
+            "text": "him",
+            "start": 16.94,
+            "end": 17.14,
+            "confidence": 0.91
+          },
+          {
+            "text": "walking",
+            "start": 17.14,
+            "end": 17.44,
+            "confidence": 0.676
+          },
+          {
+            "text": "back",
+            "start": 17.44,
+            "end": 17.8,
+            "confidence": 0.964
+          },
+          {
+            "text": "to",
+            "start": 17.8,
+            "end": 18.0,
+            "confidence": 0.736
+          },
+          {
+            "text": "that",
+            "start": 18.0,
+            "end": 18.18,
+            "confidence": 0.945
+          },
+          {
+            "text": "bar,",
+            "start": 18.18,
+            "end": 18.56,
+            "confidence": 0.658
+          }
+        ],
+        "prompt": "Vivid visual of a tall, lean man with broad shoulders, sweet lips, deep voice, and perfectly manicured fingers wearing an $800 Italian suit, walking back to a bar with a logo on the door and a fat, black cat following him."
+      },
+      {
+        "id": 2,
+        "seek": 0,
+        "start": 19.2,
+        "end": 25.08,
+        "text": " all tall and lean with them broad shoulders, sweet lips.",
+        "tokens": [
+          50814,
+          439,
+          6764,
+          293,
+          11659,
+          365,
+          552,
+          4152,
+          10245,
+          11,
+          3844,
+          10118,
+          13,
+          51114
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.2661414290919448,
+        "compression_ratio": 1.4107142857142858,
+        "no_speech_prob": 0.18681614100933075,
+        "confidence": 0.603,
+        "words": [
+          {
+            "text": "all",
+            "start": 19.2,
+            "end": 19.64,
+            "confidence": 0.206
+          },
+          {
+            "text": "tall",
+            "start": 19.64,
+            "end": 20.28,
+            "confidence": 0.99
+          },
+          {
+            "text": "and",
+            "start": 20.28,
+            "end": 20.64,
+            "confidence": 0.977
+          },
+          {
+            "text": "lean",
+            "start": 20.64,
+            "end": 20.98,
+            "confidence": 0.981
+          },
+          {
+            "text": "with",
+            "start": 20.98,
+            "end": 21.2,
+            "confidence": 0.813
+          },
+          {
+            "text": "them",
+            "start": 21.2,
+            "end": 21.6,
+            "confidence": 0.844
+          },
+          {
+            "text": "broad",
+            "start": 21.6,
+            "end": 22.38,
+            "confidence": 0.961
+          },
+          {
+            "text": "shoulders,",
+            "start": 22.38,
+            "end": 23.08,
+            "confidence": 0.263
+          },
+          {
+            "text": "sweet",
+            "start": 24.18,
+            "end": 24.24,
+            "confidence": 0.616
+          },
+          {
+            "text": "lips.",
+            "start": 24.24,
+            "end": 25.08,
+            "confidence": 0.648
+          }
+        ],
+        "prompt": "Tall, lean figure with broad shoulders and sweet lips illuminated by the warm glow of a street lamp."
+      },
+      {
+        "id": 3,
+        "seek": 0,
+        "start": 25.08,
+        "end": 32.74,
+        "text": " I knew that I had died and gone to chocolate heaven.",
+        "tokens": [
+          51114,
+          286,
+          2586,
+          300,
+          286,
+          632,
+          4539,
+          293,
+          2780,
+          281,
+          6215,
+          7162,
+          13,
+          51514
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.2661414290919448,
+        "compression_ratio": 1.4107142857142858,
+        "no_speech_prob": 0.18681614100933075,
+        "confidence": 0.748,
+        "words": [
+          {
+            "text": "I",
+            "start": 25.08,
+            "end": 26.0,
+            "confidence": 0.846
+          },
+          {
+            "text": "knew",
+            "start": 26.0,
+            "end": 27.06,
+            "confidence": 0.78
+          },
+          {
+            "text": "that",
+            "start": 27.06,
+            "end": 27.64,
+            "confidence": 0.248
+          },
+          {
+            "text": "I",
+            "start": 27.64,
+            "end": 28.76,
+            "confidence": 0.982
+          },
+          {
+            "text": "had",
+            "start": 28.76,
+            "end": 28.92,
+            "confidence": 0.968
+          },
+          {
+            "text": "died",
+            "start": 28.92,
+            "end": 29.8,
+            "confidence": 0.652
+          },
+          {
+            "text": "and",
+            "start": 29.8,
+            "end": 30.12,
+            "confidence": 0.481
+          },
+          {
+            "text": "gone",
+            "start": 30.12,
+            "end": 30.9,
+            "confidence": 0.952
+          },
+          {
+            "text": "to",
+            "start": 30.9,
+            "end": 31.8,
+            "confidence": 0.986
+          },
+          {
+            "text": "chocolate",
+            "start": 31.8,
+            "end": 32.3,
+            "confidence": 0.875
+          },
+          {
+            "text": "heaven.",
+            "start": 32.3,
+            "end": 32.74,
+            "confidence": 0.877
+          }
+        ],
+        "prompt": "\"Vivid visual prompt"
+      },
+      {
+        "id": 4,
+        "seek": 2300,
+        "start": 32.74,
+        "end": 52.08,
+        "text": " I had a real deep voice, white, really deep, and this shoe was always shining.",
+        "tokens": [
+          50364,
+          286,
+          632,
+          257,
+          957,
+          2452,
+          3177,
+          11,
+          2418,
+          11,
+          534,
+          2452,
+          11,
+          293,
+          341,
+          12796,
+          390,
+          1009,
+          18269,
+          13,
+          51114
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.2613587234959458,
+        "compression_ratio": 1.3519553072625698,
+        "no_speech_prob": 0.04962265491485596,
+        "confidence": 0.463,
+        "words": [
+          {
+            "text": "I",
+            "start": 32.74,
+            "end": 38.04,
+            "confidence": 0.02
+          },
+          {
+            "text": "had",
+            "start": 42.93,
+            "end": 43.78,
+            "confidence": 0.656
+          },
+          {
+            "text": "a",
+            "start": 43.78,
+            "end": 44.08,
+            "confidence": 0.987
+          },
+          {
+            "text": "real",
+            "start": 44.08,
+            "end": 45.0,
+            "confidence": 0.871
+          },
+          {
+            "text": "deep",
+            "start": 45.0,
+            "end": 45.72,
+            "confidence": 0.964
+          },
+          {
+            "text": "voice,",
+            "start": 45.72,
+            "end": 46.78,
+            "confidence": 0.634
+          },
+          {
+            "text": "white,",
+            "start": 47.32,
+            "end": 47.76,
+            "confidence": 0.243
+          },
+          {
+            "text": "really",
+            "start": 47.9,
+            "end": 48.2,
+            "confidence": 0.416
+          },
+          {
+            "text": "deep,",
+            "start": 48.2,
+            "end": 48.66,
+            "confidence": 0.563
+          },
+          {
+            "text": "and",
+            "start": 49.04,
+            "end": 49.26,
+            "confidence": 0.55
+          },
+          {
+            "text": "this",
+            "start": 49.26,
+            "end": 49.42,
+            "confidence": 0.087
+          },
+          {
+            "text": "shoe",
+            "start": 49.42,
+            "end": 49.62,
+            "confidence": 0.653
+          },
+          {
+            "text": "was",
+            "start": 49.62,
+            "end": 50.16,
+            "confidence": 0.936
+          },
+          {
+            "text": "always",
+            "start": 50.16,
+            "end": 50.92,
+            "confidence": 0.974
+          },
+          {
+            "text": "shining.",
+            "start": 50.92,
+            "end": 52.08,
+            "confidence": 0.684
+          }
+        ],
+        "prompt": "Sharp-suited business man with a sly grin and a diamond-studded gold watch glinting in the sunlight."
+      },
+      {
+        "id": 5,
+        "seek": 2300,
+        "start": 53.0,
+        "end": 56.32,
+        "text": " Long, slender fingers manicured perfectly.",
+        "tokens": [
+          51114,
+          8282,
+          11,
+          1061,
+          3216,
+          7350,
+          48139,
+          3831,
+          6239,
+          13,
+          51314
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.2613587234959458,
+        "compression_ratio": 1.3519553072625698,
+        "no_speech_prob": 0.04962265491485596,
+        "confidence": 0.485,
+        "words": [
+          {
+            "text": "Long,",
+            "start": 53.0,
+            "end": 53.72,
+            "confidence": 0.228
+          },
+          {
+            "text": "slender",
+            "start": 53.92,
+            "end": 54.26,
+            "confidence": 0.968
+          },
+          {
+            "text": "fingers",
+            "start": 54.26,
+            "end": 54.84,
+            "confidence": 0.979
+          },
+          {
+            "text": "manicured",
+            "start": 54.84,
+            "end": 55.68,
+            "confidence": 0.624
+          },
+          {
+            "text": "perfectly.",
+            "start": 55.68,
+            "end": 56.32,
+            "confidence": 0.283
+          }
+        ],
+        "prompt": "Sharp silhouette of a man in an expensive Italian suit with a glowing diamond ring on one of his long, slender manicured fingers."
+      },
+      {
+        "id": 6,
+        "seek": 2300,
+        "start": 56.32,
+        "end": 66.24,
+        "text": " The man wore $800 Italian suits straight from, I don't know, what would they call it, Milan, Rome, some place like that.",
+        "tokens": [
+          51314,
+          440,
+          587,
+          13857,
+          1848,
+          14423,
+          10003,
+          15278,
+          2997,
+          490,
+          11,
+          286,
+          500,
+          380,
+          458,
+          11,
+          437,
+          576,
+          436,
+          818,
+          309,
+          11,
+          32874,
+          11,
+          12043,
+          11,
+          512,
+          1081,
+          411,
+          300,
+          13,
+          51814
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.2613587234959458,
+        "compression_ratio": 1.3519553072625698,
+        "no_speech_prob": 0.04962265491485596,
+        "confidence": 0.662,
+        "words": [
+          {
+            "text": "The",
+            "start": 56.32,
+            "end": 56.66,
+            "confidence": 0.111
+          },
+          {
+            "text": "man",
+            "start": 56.66,
+            "end": 56.86,
+            "confidence": 0.868
+          },
+          {
+            "text": "wore $800",
+            "start": 56.86,
+            "end": 58.36,
+            "confidence": 0.869
+          },
+          {
+            "text": "Italian",
+            "start": 58.36,
+            "end": 59.2,
+            "confidence": 0.776
+          },
+          {
+            "text": "suits",
+            "start": 59.2,
+            "end": 59.72,
+            "confidence": 0.893
+          },
+          {
+            "text": "straight",
+            "start": 59.72,
+            "end": 60.54,
+            "confidence": 0.751
+          },
+          {
+            "text": "from,",
+            "start": 60.54,
+            "end": 60.96,
+            "confidence": 0.594
+          },
+          {
+            "text": "I",
+            "start": 60.96,
+            "end": 61.6,
+            "confidence": 0.736
+          },
+          {
+            "text": "don't",
+            "start": 61.6,
+            "end": 61.76,
+            "confidence": 0.954
+          },
+          {
+            "text": "know,",
+            "start": 61.76,
+            "end": 61.9,
+            "confidence": 0.85
+          },
+          {
+            "text": "what",
+            "start": 62.06,
+            "end": 62.12,
+            "confidence": 0.884
+          },
+          {
+            "text": "would",
+            "start": 62.12,
+            "end": 62.24,
+            "confidence": 0.747
+          },
+          {
+            "text": "they",
+            "start": 62.24,
+            "end": 62.38,
+            "confidence": 0.959
+          },
+          {
+            "text": "call",
+            "start": 62.38,
+            "end": 62.56,
+            "confidence": 0.991
+          },
+          {
+            "text": "it,",
+            "start": 62.56,
+            "end": 62.82,
+            "confidence": 0.487
+          },
+          {
+            "text": "Milan,",
+            "start": 63.1,
+            "end": 63.66,
+            "confidence": 0.493
+          },
+          {
+            "text": "Rome,",
+            "start": 64.22,
+            "end": 65.04,
+            "confidence": 0.439
+          },
+          {
+            "text": "some",
+            "start": 65.24,
+            "end": 65.44,
+            "confidence": 0.268
+          },
+          {
+            "text": "place",
+            "start": 65.44,
+            "end": 65.68,
+            "confidence": 0.967
+          },
+          {
+            "text": "like",
+            "start": 65.68,
+            "end": 66.04,
+            "confidence": 0.991
+          },
+          {
+            "text": "that.",
+            "start": 66.04,
+            "end": 66.24,
+            "confidence": 0.653
+          }
+        ],
+        "prompt": "Vibrant illustration of a sharply dressed man with a sleek Italian suit, standing confidently in front of the skyline of Milan or Rome."
+      },
+      {
+        "id": 7,
+        "seek": 5200,
+        "start": 66.38,
+        "end": 67.6,
+        "text": " What was the logo?",
+        "tokens": [
+          50364,
+          708,
+          390,
+          264,
+          9699,
+          30,
+          50464
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.197022340236566,
+        "compression_ratio": 1.4102564102564104,
+        "no_speech_prob": 0.03247851878404617,
+        "confidence": 0.248,
+        "words": [
+          {
+            "text": "What",
+            "start": 66.38,
+            "end": 66.64,
+            "confidence": 0.01
+          },
+          {
+            "text": "was",
+            "start": 66.64,
+            "end": 66.92,
+            "confidence": 0.921
+          },
+          {
+            "text": "the",
+            "start": 66.92,
+            "end": 67.1,
+            "confidence": 0.776
+          },
+          {
+            "text": "logo?",
+            "start": 67.1,
+            "end": 67.6,
+            "confidence": 0.361
+          }
+        ],
+        "prompt": "\"Vivid visual prompt"
+      },
+      {
+        "id": 8,
+        "seek": 5200,
+        "start": 69.0,
+        "end": 75.21,
+        "text": " I said, I got to get next to that man, and I haven't seen him in a long time.",
+        "tokens": [
+          50464,
+          286,
+          848,
+          11,
+          286,
+          658,
+          281,
+          483,
+          958,
+          281,
+          300,
+          587,
+          11,
+          293,
+          286,
+          2378,
+          380,
+          1612,
+          796,
+          294,
+          257,
+          938,
+          565,
+          13,
+          50814
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.197022340236566,
+        "compression_ratio": 1.4102564102564104,
+        "no_speech_prob": 0.03247851878404617,
+        "confidence": 0.662,
+        "words": [
+          {
+            "text": "I",
+            "start": 69.0,
+            "end": 69.16,
+            "confidence": 0.672
+          },
+          {
+            "text": "said,",
+            "start": 69.16,
+            "end": 69.3,
+            "confidence": 0.476
+          },
+          {
+            "text": "I",
+            "start": 69.34,
+            "end": 69.38,
+            "confidence": 0.321
+          },
+          {
+            "text": "got",
+            "start": 69.38,
+            "end": 69.58,
+            "confidence": 0.69
+          },
+          {
+            "text": "to",
+            "start": 69.58,
+            "end": 69.7,
+            "confidence": 0.995
+          },
+          {
+            "text": "get",
+            "start": 69.7,
+            "end": 69.86,
+            "confidence": 0.984
+          },
+          {
+            "text": "next",
+            "start": 69.86,
+            "end": 70.24,
+            "confidence": 0.572
+          },
+          {
+            "text": "to",
+            "start": 70.24,
+            "end": 70.44,
+            "confidence": 0.995
+          },
+          {
+            "text": "that",
+            "start": 70.44,
+            "end": 70.6,
+            "confidence": 0.61
+          },
+          {
+            "text": "man,",
+            "start": 70.6,
+            "end": 70.92,
+            "confidence": 0.14
+          },
+          {
+            "text": "and",
+            "start": 72.23,
+            "end": 72.71,
+            "confidence": 0.597
+          },
+          {
+            "text": "I",
+            "start": 72.71,
+            "end": 72.83,
+            "confidence": 0.979
+          },
+          {
+            "text": "haven't",
+            "start": 72.83,
+            "end": 73.07,
+            "confidence": 0.985
+          },
+          {
+            "text": "seen",
+            "start": 73.07,
+            "end": 73.33,
+            "confidence": 0.988
+          },
+          {
+            "text": "him",
+            "start": 73.33,
+            "end": 73.53,
+            "confidence": 0.992
+          },
+          {
+            "text": "in",
+            "start": 73.53,
+            "end": 73.77,
+            "confidence": 0.986
+          },
+          {
+            "text": "a",
+            "start": 73.77,
+            "end": 73.93,
+            "confidence": 0.99
+          },
+          {
+            "text": "long",
+            "start": 73.93,
+            "end": 74.55,
+            "confidence": 0.926
+          },
+          {
+            "text": "time.",
+            "start": 74.55,
+            "end": 75.21,
+            "confidence": 0.827
+          }
+        ],
+        "prompt": "\"Vivid visual prompt"
+      },
+      {
+        "id": 9,
+        "seek": 5200,
+        "start": 76.9,
+        "end": 79.0,
+        "text": " I mean, he was so fine.",
+        "tokens": [
+          50814,
+          286,
+          914,
+          11,
+          415,
+          390,
+          370,
+          2489,
+          13,
+          50964
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.197022340236566,
+        "compression_ratio": 1.4102564102564104,
+        "no_speech_prob": 0.03247851878404617,
+        "confidence": 0.345,
+        "words": [
+          {
+            "text": "I",
+            "start": 76.9,
+            "end": 77.12,
+            "confidence": 0.296
+          },
+          {
+            "text": "mean,",
+            "start": 77.12,
+            "end": 77.36,
+            "confidence": 0.302
+          },
+          {
+            "text": "he",
+            "start": 77.64,
+            "end": 77.7,
+            "confidence": 0.025
+          },
+          {
+            "text": "was",
+            "start": 77.7,
+            "end": 77.72,
+            "confidence": 0.975
+          },
+          {
+            "text": "so",
+            "start": 77.72,
+            "end": 78.24,
+            "confidence": 0.988
+          },
+          {
+            "text": "fine.",
+            "start": 78.24,
+            "end": 79.0,
+            "confidence": 0.548
+          }
+        ],
+        "prompt": "\"Vivid visual prompt"
+      },
+      {
+        "id": 10,
+        "seek": 5200,
+        "start": 80.02,
+        "end": 82.2,
+        "text": " He could get any good girl into trouble.",
+        "tokens": [
+          50964,
+          634,
+          727,
+          483,
+          604,
+          665,
+          2013,
+          666,
+          5253,
+          13,
+          51114
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.197022340236566,
+        "compression_ratio": 1.4102564102564104,
+        "no_speech_prob": 0.03247851878404617,
+        "confidence": 0.71,
+        "words": [
+          {
+            "text": "He",
+            "start": 80.02,
+            "end": 80.24,
+            "confidence": 0.603
+          },
+          {
+            "text": "could",
+            "start": 80.24,
+            "end": 80.4,
+            "confidence": 0.94
+          },
+          {
+            "text": "get",
+            "start": 80.4,
+            "end": 80.64,
+            "confidence": 0.948
+          },
+          {
+            "text": "any",
+            "start": 80.64,
+            "end": 81.0,
+            "confidence": 0.958
+          },
+          {
+            "text": "good",
+            "start": 81.0,
+            "end": 81.22,
+            "confidence": 0.126
+          },
+          {
+            "text": "girl",
+            "start": 81.22,
+            "end": 81.44,
+            "confidence": 0.905
+          },
+          {
+            "text": "into",
+            "start": 81.44,
+            "end": 81.76,
+            "confidence": 0.896
+          },
+          {
+            "text": "trouble.",
+            "start": 81.76,
+            "end": 82.2,
+            "confidence": 0.935
+          }
+        ],
+        "prompt": "Vividly detailed portrait of a dapper, sophisticated man with a mischievous twinkle in his eye."
+      },
+      {
+        "id": 11,
+        "seek": 5200,
+        "start": 84.62,
+        "end": 85.98,
+        "text": " You guys heard him say what?",
+        "tokens": [
+          51114,
+          509,
+          1074,
+          2198,
+          796,
+          584,
+          437,
+          30,
+          51264
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.197022340236566,
+        "compression_ratio": 1.4102564102564104,
+        "no_speech_prob": 0.03247851878404617,
+        "confidence": 0.434,
+        "words": [
+          {
+            "text": "You",
+            "start": 84.62,
+            "end": 84.94,
+            "confidence": 0.069
+          },
+          {
+            "text": "guys",
+            "start": 84.94,
+            "end": 85.1,
+            "confidence": 0.974
+          },
+          {
+            "text": "heard",
+            "start": 85.1,
+            "end": 85.26,
+            "confidence": 0.128
+          },
+          {
+            "text": "him",
+            "start": 85.26,
+            "end": 85.36,
+            "confidence": 0.597
+          },
+          {
+            "text": "say",
+            "start": 85.36,
+            "end": 85.54,
+            "confidence": 0.972
+          },
+          {
+            "text": "what?",
+            "start": 85.54,
+            "end": 85.98,
+            "confidence": 0.761
+          }
+        ],
+        "prompt": "Man dressed in an Italian suit standing in front of Italian landmarks such as the Colosseum and Leaning Tower of Pisa."
+      },
+      {
+        "id": 12,
+        "seek": 5200,
+        "start": 87.89,
+        "end": 90.95,
+        "text": " Well, the jackal.",
+        "tokens": [
+          51264,
+          1042,
+          11,
+          264,
+          7109,
+          304,
+          13,
+          51564
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.197022340236566,
+        "compression_ratio": 1.4102564102564104,
+        "no_speech_prob": 0.03247851878404617,
+        "confidence": 0.496,
+        "words": [
+          {
+            "text": "Well,",
+            "start": 87.89,
+            "end": 88.55,
+            "confidence": 0.345
+          },
+          {
+            "text": "the",
+            "start": 89.77,
+            "end": 90.03,
+            "confidence": 0.644
+          },
+          {
+            "text": "jackal.",
+            "start": 90.03,
+            "end": 90.95,
+            "confidence": 0.578
+          }
+        ],
+        "prompt": "A silhouetted figure in an $800 Italian suit with broad shoulders, white shoes, and manicured fingers, backlit by a setting sun."
+      },
+      {
+        "id": 13,
+        "seek": 5200,
+        "start": 95.31,
+        "end": 96.17,
+        "text": " The jackal.",
+        "tokens": [
+          51564,
+          440,
+          7109,
+          304,
+          13,
+          51714
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.197022340236566,
+        "compression_ratio": 1.4102564102564104,
+        "no_speech_prob": 0.03247851878404617,
+        "confidence": 0.044,
+        "words": [
+          {
+            "text": "The",
+            "start": 95.31,
+            "end": 95.47,
+            "confidence": 0.094
+          },
+          {
+            "text": "jackal.",
+            "start": 95.47,
+            "end": 96.17,
+            "confidence": 0.034
+          }
+        ],
+        "prompt": "A tall, sharply dressed man with a slick, black fedora and a white cane, walking confidently through a city street at sunset."
+      },
+      {
+        "id": 14,
+        "seek": 7900,
+        "start": 101.87,
+        "end": 104.85,
+        "text": " He sure was fine.",
+        "tokens": [
+          50364,
+          634,
+          988,
+          390,
+          2489,
+          13,
+          50614
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.22138153422962537,
+        "compression_ratio": 1.4829545454545454,
+        "no_speech_prob": 0.06786339730024338,
+        "confidence": 0.282,
+        "words": [
+          {
+            "text": "He",
+            "start": 101.87,
+            "end": 102.41,
+            "confidence": 0.544
+          },
+          {
+            "text": "sure",
+            "start": 102.41,
+            "end": 103.09,
+            "confidence": 0.689
+          },
+          {
+            "text": "was",
+            "start": 103.09,
+            "end": 103.79,
+            "confidence": 0.96
+          },
+          {
+            "text": "fine.",
+            "start": 103.79,
+            "end": 104.85,
+            "confidence": 0.07
+          }
+        ],
+        "prompt": "Vibrant portrait of a man in a tailored suit with sharp features, diamond accents, and a confident posture with a white cat perched on his shoulder."
+      },
+      {
+        "id": 15,
+        "seek": 7900,
+        "start": 130.84,
+        "end": 156.9,
+        "text": " Jackal, jackal, jackal.",
+        "tokens": [
+          50614,
+          4718,
+          304,
+          11,
+          7109,
+          304,
+          11,
+          7109,
+          304,
+          13,
+          50864
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.22138153422962537,
+        "compression_ratio": 1.4829545454545454,
+        "no_speech_prob": 0.06786339730024338,
+        "confidence": 0.194,
+        "words": [
+          {
+            "text": "Jackal,",
+            "start": 130.84,
+            "end": 131.6,
+            "confidence": 0.038
+          },
+          {
+            "text": "jackal,",
+            "start": 153.41,
+            "end": 154.21,
+            "confidence": 0.365
+          },
+          {
+            "text": "jackal.",
+            "start": 155.9,
+            "end": 156.9,
+            "confidence": 0.527
+          }
+        ],
+        "prompt": "A black cat perched atop a classic Cadillac with white wall tires, fur lined boards, and diamond encrusted rims, gazing out over the city."
+      },
+      {
+        "id": 16,
+        "seek": 7900,
+        "start": 158.09,
+        "end": 168.51,
+        "text": " He was fat, black, cat-cooled, like a Friday afternoon martini, chatting at a quarter after five.",
+        "tokens": [
+          50864,
+          634,
+          390,
+          4046,
+          11,
+          2211,
+          11,
+          3857,
+          12,
+          28155,
+          292,
+          11,
+          411,
+          257,
+          6984,
+          6499,
+          12396,
+          3812,
+          11,
+          24654,
+          412,
+          257,
+          6555,
+          934,
+          1732,
+          13,
+          51264
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.22138153422962537,
+        "compression_ratio": 1.4829545454545454,
+        "no_speech_prob": 0.06786339730024338,
+        "confidence": 0.484,
+        "words": [
+          {
+            "text": "He",
+            "start": 158.09,
+            "end": 158.9,
+            "confidence": 0.228
+          },
+          {
+            "text": "was",
+            "start": 161.55,
+            "end": 162.01,
+            "confidence": 0.977
+          },
+          {
+            "text": "fat,",
+            "start": 162.01,
+            "end": 162.57,
+            "confidence": 0.498
+          },
+          {
+            "text": "black,",
+            "start": 162.71,
+            "end": 162.95,
+            "confidence": 0.539
+          },
+          {
+            "text": "cat-cooled,",
+            "start": 163.29,
+            "end": 164.03,
+            "confidence": 0.557
+          },
+          {
+            "text": "like",
+            "start": 164.09,
+            "end": 164.21,
+            "confidence": 0.858
+          },
+          {
+            "text": "a",
+            "start": 164.21,
+            "end": 164.43,
+            "confidence": 0.97
+          },
+          {
+            "text": "Friday",
+            "start": 164.43,
+            "end": 164.69,
+            "confidence": 0.846
+          },
+          {
+            "text": "afternoon",
+            "start": 164.69,
+            "end": 165.39,
+            "confidence": 0.773
+          },
+          {
+            "text": "martini,",
+            "start": 165.39,
+            "end": 166.27,
+            "confidence": 0.417
+          },
+          {
+            "text": "chatting",
+            "start": 166.45,
+            "end": 166.75,
+            "confidence": 0.011
+          },
+          {
+            "text": "at",
+            "start": 166.75,
+            "end": 167.09,
+            "confidence": 0.594
+          },
+          {
+            "text": "a",
+            "start": 167.09,
+            "end": 167.31,
+            "confidence": 0.885
+          },
+          {
+            "text": "quarter",
+            "start": 167.31,
+            "end": 167.49,
+            "confidence": 0.974
+          },
+          {
+            "text": "after",
+            "start": 167.49,
+            "end": 167.91,
+            "confidence": 0.925
+          },
+          {
+            "text": "five.",
+            "start": 167.91,
+            "end": 168.51,
+            "confidence": 0.269
+          }
+        ],
+        "prompt": "\"Vivid visual prompt"
+      },
+      {
+        "id": 17,
+        "seek": 7900,
+        "start": 168.59,
+        "end": 170.77,
+        "text": " Twist of lime, coke on the side.",
+        "tokens": [
+          51264,
+          47016,
+          295,
+          22035,
+          11,
+          33659,
+          322,
+          264,
+          1252,
+          13,
+          51364
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.22138153422962537,
+        "compression_ratio": 1.4829545454545454,
+        "no_speech_prob": 0.06786339730024338,
+        "confidence": 0.462,
+        "words": [
+          {
+            "text": "Twist",
+            "start": 168.59,
+            "end": 168.95,
+            "confidence": 0.324
+          },
+          {
+            "text": "of",
+            "start": 168.95,
+            "end": 169.23,
+            "confidence": 0.567
+          },
+          {
+            "text": "lime,",
+            "start": 169.23,
+            "end": 169.59,
+            "confidence": 0.187
+          },
+          {
+            "text": "coke",
+            "start": 169.91,
+            "end": 170.03,
+            "confidence": 0.35
+          },
+          {
+            "text": "on",
+            "start": 170.03,
+            "end": 170.35,
+            "confidence": 0.995
+          },
+          {
+            "text": "the",
+            "start": 170.35,
+            "end": 170.57,
+            "confidence": 0.992
+          },
+          {
+            "text": "side.",
+            "start": 170.57,
+            "end": 170.77,
+            "confidence": 0.662
+          }
+        ],
+        "prompt": "\"Vivid visual prompt"
+      },
+      {
+        "id": 18,
+        "seek": 7900,
+        "start": 170.91,
+        "end": 173.25,
+        "text": " The brother loved to highlight.",
+        "tokens": [
+          51364,
+          440,
+          3708,
+          4333,
+          281,
+          5078,
+          13,
+          51514
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.22138153422962537,
+        "compression_ratio": 1.4829545454545454,
+        "no_speech_prob": 0.06786339730024338,
+        "confidence": 0.043,
+        "words": [
+          {
+            "text": "The",
+            "start": 170.91,
+            "end": 171.17,
+            "confidence": 0.452
+          },
+          {
+            "text": "brother",
+            "start": 171.17,
+            "end": 171.49,
+            "confidence": 0.001
+          },
+          {
+            "text": "loved",
+            "start": 171.49,
+            "end": 171.81,
+            "confidence": 0.002
+          },
+          {
+            "text": "to",
+            "start": 171.81,
+            "end": 172.43,
+            "confidence": 0.29
+          },
+          {
+            "text": "highlight.",
+            "start": 172.43,
+            "end": 173.25,
+            "confidence": 0.234
+          }
+        ],
+        "prompt": "Sharp-suited man wearing sunglasses and an expensive watch, striding confidently down the street while the sun reflects off the highlights in his hair."
+      },
+      {
+        "id": 19,
+        "seek": 7900,
+        "start": 173.91,
+        "end": 176.05,
+        "text": " Had a Ph.D. in street strut.",
+        "tokens": [
+          51514,
+          12298,
+          257,
+          2623,
+          13,
+          35,
+          13,
+          294,
+          4838,
+          1056,
+          325,
+          13,
+          51614
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.22138153422962537,
+        "compression_ratio": 1.4829545454545454,
+        "no_speech_prob": 0.06786339730024338,
+        "confidence": 0.596,
+        "words": [
+          {
+            "text": "Had",
+            "start": 173.91,
+            "end": 174.15,
+            "confidence": 0.241
+          },
+          {
+            "text": "a",
+            "start": 174.15,
+            "end": 174.47,
+            "confidence": 0.99
+          },
+          {
+            "text": "Ph.D.",
+            "start": 174.47,
+            "end": 175.19,
+            "confidence": 0.671
+          },
+          {
+            "text": "in",
+            "start": 175.25,
+            "end": 175.39,
+            "confidence": 0.958
+          },
+          {
+            "text": "street",
+            "start": 175.39,
+            "end": 175.69,
+            "confidence": 0.603
+          },
+          {
+            "text": "strut.",
+            "start": 175.69,
+            "end": 176.05,
+            "confidence": 0.493
+          }
+        ],
+        "prompt": "\"Vivid visual prompt"
+      },
+      {
+        "id": 20,
+        "seek": 7900,
+        "start": 176.05,
+        "end": 178.83,
+        "text": " They called him the jackal.",
+        "tokens": [
+          51614,
+          814,
+          1219,
+          796,
+          264,
+          7109,
+          304,
+          13,
+          51814
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.22138153422962537,
+        "compression_ratio": 1.4829545454545454,
+        "no_speech_prob": 0.06786339730024338,
+        "confidence": 0.634,
+        "words": [
+          {
+            "text": "They",
+            "start": 176.05,
+            "end": 176.33,
+            "confidence": 0.714
+          },
+          {
+            "text": "called",
+            "start": 176.33,
+            "end": 176.73,
+            "confidence": 0.988
+          },
+          {
+            "text": "him",
+            "start": 176.73,
+            "end": 177.47,
+            "confidence": 0.994
+          },
+          {
+            "text": "the",
+            "start": 177.47,
+            "end": 178.01,
+            "confidence": 0.419
+          },
+          {
+            "text": "jackal.",
+            "start": 178.01,
+            "end": 178.83,
+            "confidence": 0.519
+          }
+        ],
+        "prompt": "Broad-shouldered silhouette in an $800 Italian suit, standing against a backdrop of gold coins, a diamond-encrusted dollar sign, and a distant city skyline."
+      },
+      {
+        "id": 21,
+        "seek": 10800,
+        "start": 180.86,
+        "end": 186.14,
+        "text": " He was big mac daddy, super black style, and a diamonds in the back Cadillac.",
+        "tokens": [
+          50364,
+          634,
+          390,
+          955,
+          7912,
+          16785,
+          11,
+          1687,
+          2211,
+          3758,
+          11,
+          293,
+          257,
+          22612,
+          294,
+          264,
+          646,
+          22323,
+          373,
+          326,
+          13,
+          50614
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.19320853097098215,
+        "compression_ratio": 1.427027027027027,
+        "no_speech_prob": 0.0454503558576107,
+        "confidence": 0.667,
+        "words": [
+          {
+            "text": "He",
+            "start": 180.86,
+            "end": 181.06,
+            "confidence": 0.367
+          },
+          {
+            "text": "was",
+            "start": 181.06,
+            "end": 181.4,
+            "confidence": 0.894
+          },
+          {
+            "text": "big",
+            "start": 181.4,
+            "end": 181.84,
+            "confidence": 0.336
+          },
+          {
+            "text": "mac",
+            "start": 181.84,
+            "end": 182.26,
+            "confidence": 0.695
+          },
+          {
+            "text": "daddy,",
+            "start": 182.26,
+            "end": 182.62,
+            "confidence": 0.685
+          },
+          {
+            "text": "super",
+            "start": 183.0,
+            "end": 183.22,
+            "confidence": 0.863
+          },
+          {
+            "text": "black",
+            "start": 183.22,
+            "end": 183.56,
+            "confidence": 0.939
+          },
+          {
+            "text": "style,",
+            "start": 183.56,
+            "end": 184.02,
+            "confidence": 0.569
+          },
+          {
+            "text": "and",
+            "start": 184.22,
+            "end": 184.28,
+            "confidence": 0.529
+          },
+          {
+            "text": "a",
+            "start": 184.28,
+            "end": 184.48,
+            "confidence": 0.437
+          },
+          {
+            "text": "diamonds",
+            "start": 184.48,
+            "end": 184.74,
+            "confidence": 0.731
+          },
+          {
+            "text": "in",
+            "start": 184.74,
+            "end": 185.04,
+            "confidence": 0.897
+          },
+          {
+            "text": "the",
+            "start": 185.04,
+            "end": 185.18,
+            "confidence": 0.978
+          },
+          {
+            "text": "back",
+            "start": 185.18,
+            "end": 185.44,
+            "confidence": 0.96
+          },
+          {
+            "text": "Cadillac.",
+            "start": 185.44,
+            "end": 186.14,
+            "confidence": 0.688
+          }
+        ],
+        "prompt": "\"Vivid visual prompt"
+      },
+      {
+        "id": 22,
+        "seek": 10800,
+        "start": 186.14,
+        "end": 192.44,
+        "text": " Fur line boards, white wall wheels, cruise control, built for speed, rum on everything.",
+        "tokens": [
+          50614,
+          11705,
+          1622,
+          13293,
+          11,
+          2418,
+          2929,
+          10046,
+          11,
+          17754,
+          1969,
+          11,
+          3094,
+          337,
+          3073,
+          11,
+          8347,
+          322,
+          1203,
+          13,
+          50964
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.19320853097098215,
+        "compression_ratio": 1.427027027027027,
+        "no_speech_prob": 0.0454503558576107,
+        "confidence": 0.688,
+        "words": [
+          {
+            "text": "Fur",
+            "start": 186.14,
+            "end": 186.5,
+            "confidence": 0.468
+          },
+          {
+            "text": "line",
+            "start": 186.5,
+            "end": 186.84,
+            "confidence": 0.292
+          },
+          {
+            "text": "boards,",
+            "start": 186.84,
+            "end": 187.4,
+            "confidence": 0.918
+          },
+          {
+            "text": "white",
+            "start": 187.64,
+            "end": 187.88,
+            "confidence": 0.894
+          },
+          {
+            "text": "wall",
+            "start": 187.88,
+            "end": 188.16,
+            "confidence": 0.777
+          },
+          {
+            "text": "wheels,",
+            "start": 188.16,
+            "end": 188.66,
+            "confidence": 0.911
+          },
+          {
+            "text": "cruise",
+            "start": 188.82,
+            "end": 189.26,
+            "confidence": 0.931
+          },
+          {
+            "text": "control,",
+            "start": 189.26,
+            "end": 189.84,
+            "confidence": 0.819
+          },
+          {
+            "text": "built",
+            "start": 190.06,
+            "end": 190.22,
+            "confidence": 0.777
+          },
+          {
+            "text": "for",
+            "start": 190.22,
+            "end": 190.48,
+            "confidence": 0.969
+          },
+          {
+            "text": "speed,",
+            "start": 190.48,
+            "end": 190.84,
+            "confidence": 0.693
+          },
+          {
+            "text": "rum",
+            "start": 191.08,
+            "end": 191.28,
+            "confidence": 0.15
+          },
+          {
+            "text": "on",
+            "start": 191.28,
+            "end": 191.56,
+            "confidence": 0.732
+          },
+          {
+            "text": "everything.",
+            "start": 191.56,
+            "end": 192.44,
+            "confidence": 0.706
+          }
+        ],
+        "prompt": "\"Vivid Visual Prompt"
+      },
+      {
+        "id": 23,
+        "seek": 10800,
+        "start": 192.44,
+        "end": 201.5,
+        "text": " And the stereophonic speakers, though he really didn't need them, when they called him the jackal.",
+        "tokens": [
+          50964,
+          400,
+          264,
+          12730,
+          5317,
+          11630,
+          9518,
+          11,
+          1673,
+          415,
+          534,
+          994,
+          380,
+          643,
+          552,
+          11,
+          562,
+          436,
+          1219,
+          796,
+          264,
+          7109,
+          304,
+          13,
+          51414
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.19320853097098215,
+        "compression_ratio": 1.427027027027027,
+        "no_speech_prob": 0.0454503558576107,
+        "confidence": 0.632,
+        "words": [
+          {
+            "text": "And",
+            "start": 192.44,
+            "end": 193.6,
+            "confidence": 0.091
+          },
+          {
+            "text": "the",
+            "start": 193.6,
+            "end": 193.84,
+            "confidence": 0.921
+          },
+          {
+            "text": "stereophonic",
+            "start": 193.84,
+            "end": 194.54,
+            "confidence": 0.872
+          },
+          {
+            "text": "speakers,",
+            "start": 194.54,
+            "end": 195.48,
+            "confidence": 0.652
+          },
+          {
+            "text": "though",
+            "start": 196.02,
+            "end": 196.24,
+            "confidence": 0.771
+          },
+          {
+            "text": "he",
+            "start": 196.24,
+            "end": 196.4,
+            "confidence": 0.979
+          },
+          {
+            "text": "really",
+            "start": 196.4,
+            "end": 196.7,
+            "confidence": 0.344
+          },
+          {
+            "text": "didn't",
+            "start": 196.7,
+            "end": 197.18,
+            "confidence": 0.571
+          },
+          {
+            "text": "need",
+            "start": 197.18,
+            "end": 197.48,
+            "confidence": 0.911
+          },
+          {
+            "text": "them,",
+            "start": 197.48,
+            "end": 198.08,
+            "confidence": 0.732
+          },
+          {
+            "text": "when",
+            "start": 198.82,
+            "end": 198.96,
+            "confidence": 0.581
+          },
+          {
+            "text": "they",
+            "start": 198.96,
+            "end": 199.24,
+            "confidence": 0.986
+          },
+          {
+            "text": "called",
+            "start": 199.24,
+            "end": 199.48,
+            "confidence": 0.964
+          },
+          {
+            "text": "him",
+            "start": 199.48,
+            "end": 200.28,
+            "confidence": 0.901
+          },
+          {
+            "text": "the",
+            "start": 200.28,
+            "end": 200.74,
+            "confidence": 0.588
+          },
+          {
+            "text": "jackal.",
+            "start": 200.74,
+            "end": 201.5,
+            "confidence": 0.453
+          }
+        ],
+        "prompt": "A man in an $800 Italian suit, with manicured fingers, a deep voice and a shoe that always shines, leaning against a Cadillac with white wall wheels and fur lined boards."
+      },
+      {
+        "id": 24,
+        "seek": 12900,
+        "start": 201.5,
+        "end": 244.9,
+        "text": " Jackal, jackal, jackal.",
+        "tokens": [
+          50364,
+          4718,
+          304,
+          11,
+          7109,
+          304,
+          11,
+          7109,
+          304,
+          13,
+          51164
+        ],
+        "temperature": 0.2,
+        "avg_logprob": -0.2224530265444801,
+        "compression_ratio": 1.2424242424242424,
+        "no_speech_prob": 0.37665075063705444,
+        "confidence": 0.206,
+        "words": [
+          {
+            "text": "Jackal,",
+            "start": 201.5,
+            "end": 201.75,
+            "confidence": 0.037
+          },
+          {
+            "text": "jackal,",
+            "start": 240.94,
+            "end": 241.84,
+            "confidence": 0.499
+          },
+          {
+            "text": "jackal.",
+            "start": 243.56,
+            "end": 244.9,
+            "confidence": 0.474
+          }
+        ],
+        "prompt": "Vividly-colored suit jacket draped over a sleek black silhouette of a large cat with its tail curved in a question mark shape."
+      },
+      {
+        "id": 25,
+        "seek": 12900,
+        "start": 265.11,
+        "end": 276.98,
+        "text": " Fly boy was in the buttermilk, hard, living fast, living large, six foot four, not an ounce of fat.",
+        "tokens": [
+          51164,
+          25294,
+          3237,
+          390,
+          294,
+          264,
+          5517,
+          28674,
+          74,
+          11,
+          1152,
+          11,
+          2647,
+          2370,
+          11,
+          2647,
+          2416,
+          11,
+          2309,
+          2671,
+          1451,
+          11,
+          406,
+          364,
+          29860,
+          295,
+          4046,
+          13,
+          51714
+        ],
+        "temperature": 0.2,
+        "avg_logprob": -0.2224530265444801,
+        "compression_ratio": 1.2424242424242424,
+        "no_speech_prob": 0.37665075063705444,
+        "confidence": 0.601,
+        "words": [
+          {
+            "text": "Fly",
+            "start": 265.11,
+            "end": 266.71,
+            "confidence": 0.045
+          },
+          {
+            "text": "boy",
+            "start": 267.97,
+            "end": 268.91,
+            "confidence": 0.398
+          },
+          {
+            "text": "was",
+            "start": 268.91,
+            "end": 269.35,
+            "confidence": 0.734
+          },
+          {
+            "text": "in",
+            "start": 269.35,
+            "end": 269.63,
+            "confidence": 0.969
+          },
+          {
+            "text": "the",
+            "start": 269.63,
+            "end": 269.91,
+            "confidence": 0.989
+          },
+          {
+            "text": "buttermilk,",
+            "start": 269.91,
+            "end": 271.01,
+            "confidence": 0.727
+          },
+          {
+            "text": "hard,",
+            "start": 271.57,
+            "end": 271.91,
+            "confidence": 0.362
+          },
+          {
+            "text": "living",
+            "start": 272.23,
+            "end": 272.41,
+            "confidence": 0.863
+          },
+          {
+            "text": "fast,",
+            "start": 272.41,
+            "end": 273.19,
+            "confidence": 0.92
+          },
+          {
+            "text": "living",
+            "start": 273.43,
+            "end": 273.75,
+            "confidence": 0.76
+          },
+          {
+            "text": "large,",
+            "start": 273.75,
+            "end": 274.43,
+            "confidence": 0.846
+          },
+          {
+            "text": "six",
+            "start": 274.77,
+            "end": 274.97,
+            "confidence": 0.551
+          },
+          {
+            "text": "foot",
+            "start": 274.97,
+            "end": 275.33,
+            "confidence": 0.886
+          },
+          {
+            "text": "four,",
+            "start": 275.33,
+            "end": 275.61,
+            "confidence": 0.337
+          },
+          {
+            "text": "not",
+            "start": 275.67,
+            "end": 275.97,
+            "confidence": 0.728
+          },
+          {
+            "text": "an",
+            "start": 275.97,
+            "end": 276.19,
+            "confidence": 0.969
+          },
+          {
+            "text": "ounce",
+            "start": 276.19,
+            "end": 276.37,
+            "confidence": 0.282
+          },
+          {
+            "text": "of",
+            "start": 276.37,
+            "end": 276.63,
+            "confidence": 0.96
+          },
+          {
+            "text": "fat.",
+            "start": 276.63,
+            "end": 276.98,
+            "confidence": 0.73
+          }
+        ],
+        "prompt": "A sharply dressed man with a slick smile, hands tucked in his pockets and the sun glinting off a gold chain around his neck."
+      },
+      {
+        "id": 26,
+        "seek": 15600,
+        "start": 277.91,
+        "end": 280.53,
+        "text": " When women ask, is you a frown cat?",
+        "tokens": [
+          50364,
+          1133,
+          2266,
+          1029,
+          11,
+          307,
+          291,
+          257,
+          431,
+          648,
+          3857,
+          30,
+          50514
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.29100162226979326,
+        "compression_ratio": 1.3988439306358382,
+        "no_speech_prob": 0.6101652979850769,
+        "confidence": 0.7,
+        "words": [
+          {
+            "text": "When",
+            "start": 277.91,
+            "end": 278.09,
+            "confidence": 0.569
+          },
+          {
+            "text": "women",
+            "start": 278.09,
+            "end": 278.37,
+            "confidence": 0.952
+          },
+          {
+            "text": "ask,",
+            "start": 278.37,
+            "end": 278.81,
+            "confidence": 0.657
+          },
+          {
+            "text": "is",
+            "start": 279.15,
+            "end": 279.31,
+            "confidence": 0.297
+          },
+          {
+            "text": "you",
+            "start": 279.31,
+            "end": 279.49,
+            "confidence": 0.983
+          },
+          {
+            "text": "a",
+            "start": 279.49,
+            "end": 279.79,
+            "confidence": 0.984
+          },
+          {
+            "text": "frown",
+            "start": 279.79,
+            "end": 280.11,
+            "confidence": 0.608
+          },
+          {
+            "text": "cat?",
+            "start": 280.11,
+            "end": 280.53,
+            "confidence": 0.89
+          }
+        ],
+        "prompt": "Visual of a tall, broad-shouldered man dressed in an $800 Italian suit with long, manicured fingers and a white, deep voice, illuminated in a bright golden light, surrounded by a swirl of chocolate."
+      },
+      {
+        "id": 27,
+        "seek": 15600,
+        "start": 280.71,
+        "end": 283.25,
+        "text": " He said, I did, I'm one in that.",
+        "tokens": [
+          50514,
+          634,
+          848,
+          11,
+          286,
+          630,
+          11,
+          286,
+          478,
+          472,
+          294,
+          300,
+          13,
+          50764
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.29100162226979326,
+        "compression_ratio": 1.3988439306358382,
+        "no_speech_prob": 0.6101652979850769,
+        "confidence": 0.465,
+        "words": [
+          {
+            "text": "He",
+            "start": 280.71,
+            "end": 281.01,
+            "confidence": 0.623
+          },
+          {
+            "text": "said,",
+            "start": 281.01,
+            "end": 281.37,
+            "confidence": 0.669
+          },
+          {
+            "text": "I",
+            "start": 281.87,
+            "end": 282.01,
+            "confidence": 0.305
+          },
+          {
+            "text": "did,",
+            "start": 282.01,
+            "end": 282.21,
+            "confidence": 0.415
+          },
+          {
+            "text": "I'm",
+            "start": 282.45,
+            "end": 282.55,
+            "confidence": 0.789
+          },
+          {
+            "text": "one",
+            "start": 282.55,
+            "end": 282.79,
+            "confidence": 0.086
+          },
+          {
+            "text": "in",
+            "start": 282.79,
+            "end": 283.07,
+            "confidence": 0.221
+          },
+          {
+            "text": "that.",
+            "start": 283.07,
+            "end": 283.25,
+            "confidence": 0.772
+          }
+        ],
+        "prompt": "Sharp-suited man in a Cadillac with fur-lined boards and white wall wheels, a diamond in the back, and a twist of lime in his drink."
+      },
+      {
+        "id": 28,
+        "seek": 15600,
+        "start": 284.94,
+        "end": 296.53,
+        "text": " And in case you hadn't known, they called me the jackal.",
+        "tokens": [
+          50764,
+          400,
+          294,
+          1389,
+          291,
+          8782,
+          380,
+          2570,
+          11,
+          436,
+          1219,
+          385,
+          264,
+          7109,
+          304,
+          13,
+          51114
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.29100162226979326,
+        "compression_ratio": 1.3988439306358382,
+        "no_speech_prob": 0.6101652979850769,
+        "confidence": 0.173,
+        "words": [
+          {
+            "text": "And",
+            "start": 284.94,
+            "end": 285.59,
+            "confidence": 0.503
+          },
+          {
+            "text": "in",
+            "start": 285.59,
+            "end": 285.87,
+            "confidence": 0.907
+          },
+          {
+            "text": "case",
+            "start": 285.87,
+            "end": 286.13,
+            "confidence": 0.988
+          },
+          {
+            "text": "you",
+            "start": 286.13,
+            "end": 286.75,
+            "confidence": 0.992
+          },
+          {
+            "text": "hadn't",
+            "start": 286.75,
+            "end": 287.39,
+            "confidence": 0.503
+          },
+          {
+            "text": "known,",
+            "start": 287.39,
+            "end": 288.11,
+            "confidence": 0.578
+          },
+          {
+            "text": "they",
+            "start": 289.52,
+            "end": 289.68,
+            "confidence": 0.017
+          },
+          {
+            "text": "called",
+            "start": 289.68,
+            "end": 289.88,
+            "confidence": 0.532
+          },
+          {
+            "text": "me",
+            "start": 289.88,
+            "end": 290.12,
+            "confidence": 0.995
+          },
+          {
+            "text": "the",
+            "start": 290.12,
+            "end": 290.58,
+            "confidence": 0.002
+          },
+          {
+            "text": "jackal.",
+            "start": 296.3,
+            "end": 296.53,
+            "confidence": 0.02
+          }
+        ],
+        "prompt": "A man in an $800 Italian suit, white, with manicured hands and shining shoes, confidently striding down the street with a fur-lined board and white wall wheels."
+      },
+      {
+        "id": 29,
+        "seek": 15600,
+        "start": 299.46,
+        "end": 307.16,
+        "text": " Served an 18-year bid for Rikers Island, and they hid him in the state penitentiary.",
+        "tokens": [
+          51114,
+          4210,
+          937,
+          364,
+          2443,
+          12,
+          5294,
+          12957,
+          337,
+          497,
+          1035,
+          433,
+          7637,
+          11,
+          293,
+          436,
+          16253,
+          796,
+          294,
+          264,
+          1785,
+          3435,
+          270,
+          23012,
+          822,
+          13,
+          51514
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.29100162226979326,
+        "compression_ratio": 1.3988439306358382,
+        "no_speech_prob": 0.6101652979850769,
+        "confidence": 0.621,
+        "words": [
+          {
+            "text": "Served",
+            "start": 299.46,
+            "end": 300.32,
+            "confidence": 0.086
+          },
+          {
+            "text": "an",
+            "start": 300.32,
+            "end": 300.6,
+            "confidence": 0.699
+          },
+          {
+            "text": "18-year",
+            "start": 300.6,
+            "end": 301.72,
+            "confidence": 0.593
+          },
+          {
+            "text": "bid",
+            "start": 301.72,
+            "end": 302.32,
+            "confidence": 0.761
+          },
+          {
+            "text": "for",
+            "start": 302.32,
+            "end": 302.78,
+            "confidence": 0.275
+          },
+          {
+            "text": "Rikers",
+            "start": 302.78,
+            "end": 303.32,
+            "confidence": 0.865
+          },
+          {
+            "text": "Island,",
+            "start": 303.32,
+            "end": 303.92,
+            "confidence": 0.589
+          },
+          {
+            "text": "and",
+            "start": 304.06,
+            "end": 304.22,
+            "confidence": 0.556
+          },
+          {
+            "text": "they",
+            "start": 304.22,
+            "end": 304.46,
+            "confidence": 0.916
+          },
+          {
+            "text": "hid",
+            "start": 304.46,
+            "end": 304.72,
+            "confidence": 0.478
+          },
+          {
+            "text": "him",
+            "start": 304.72,
+            "end": 305.08,
+            "confidence": 0.987
+          },
+          {
+            "text": "in",
+            "start": 305.08,
+            "end": 305.38,
+            "confidence": 0.96
+          },
+          {
+            "text": "the",
+            "start": 305.38,
+            "end": 305.62,
+            "confidence": 0.969
+          },
+          {
+            "text": "state",
+            "start": 305.62,
+            "end": 305.92,
+            "confidence": 0.8
+          },
+          {
+            "text": "penitentiary.",
+            "start": 305.92,
+            "end": 307.16,
+            "confidence": 0.938
+          }
+        ],
+        "prompt": "A tall, broad-shouldered silhouette of a man in an $800 Italian suit, with manicured hands and shining shoes, standing in the center of a bright spotlight."
+      },
+      {
+        "id": 30,
+        "seek": 15600,
+        "start": 307.4,
+        "end": 309.32,
+        "text": " Said the charge was grand loss.",
+        "tokens": [
+          51514,
+          26490,
+          264,
+          4602,
+          390,
+          2697,
+          4470,
+          13,
+          51614
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.29100162226979326,
+        "compression_ratio": 1.3988439306358382,
+        "no_speech_prob": 0.6101652979850769,
+        "confidence": 0.691,
+        "words": [
+          {
+            "text": "Said",
+            "start": 307.4,
+            "end": 307.64,
+            "confidence": 0.418
+          },
+          {
+            "text": "the",
+            "start": 307.64,
+            "end": 307.92,
+            "confidence": 0.972
+          },
+          {
+            "text": "charge",
+            "start": 307.92,
+            "end": 308.26,
+            "confidence": 0.857
+          },
+          {
+            "text": "was",
+            "start": 308.26,
+            "end": 308.52,
+            "confidence": 0.993
+          },
+          {
+            "text": "grand",
+            "start": 308.52,
+            "end": 309.0,
+            "confidence": 0.988
+          },
+          {
+            "text": "loss.",
+            "start": 309.0,
+            "end": 309.32,
+            "confidence": 0.469
+          }
+        ],
+        "prompt": "Vividly detailed portrait of a man in an extravagant suit and hat, standing in a dramatic pose with a diamond-encrusted cane, a hint of mischief in his eyes."
+      },
+      {
+        "id": 31,
+        "seek": 18100,
+        "start": 309.32,
+        "end": 312.06,
+        "text": " That was 1975.",
+        "tokens": [
+          50364,
+          663,
+          390,
+          32454,
+          13,
+          50514
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.23998401641845704,
+        "compression_ratio": 1.2661290322580645,
+        "no_speech_prob": 0.874312162399292,
+        "confidence": 0.809,
+        "words": [
+          {
+            "text": "That",
+            "start": 309.32,
+            "end": 309.68,
+            "confidence": 0.608
+          },
+          {
+            "text": "was",
+            "start": 309.68,
+            "end": 310.34,
+            "confidence": 0.988
+          },
+          {
+            "text": "1975.",
+            "start": 310.34,
+            "end": 312.06,
+            "confidence": 0.845
+          }
+        ],
+        "prompt": "A sleek, tailored Italian suit illuminated by golden light and a pair of glistening shoes to complete the look."
+      },
+      {
+        "id": 32,
+        "seek": 18100,
+        "start": 312.06,
+        "end": 316.54,
+        "text": " And today, if he's still alive, he'll be living in the park.",
+        "tokens": [
+          50514,
+          400,
+          965,
+          11,
+          498,
+          415,
+          311,
+          920,
+          5465,
+          11,
+          415,
+          603,
+          312,
+          2647,
+          294,
+          264,
+          3884,
+          13,
+          50764
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.23998401641845704,
+        "compression_ratio": 1.2661290322580645,
+        "no_speech_prob": 0.874312162399292,
+        "confidence": 0.761,
+        "words": [
+          {
+            "text": "And",
+            "start": 312.06,
+            "end": 312.74,
+            "confidence": 0.39
+          },
+          {
+            "text": "today,",
+            "start": 312.74,
+            "end": 313.28,
+            "confidence": 0.758
+          },
+          {
+            "text": "if",
+            "start": 313.48,
+            "end": 313.58,
+            "confidence": 0.984
+          },
+          {
+            "text": "he's",
+            "start": 313.58,
+            "end": 313.82,
+            "confidence": 0.966
+          },
+          {
+            "text": "still",
+            "start": 313.82,
+            "end": 314.14,
+            "confidence": 0.991
+          },
+          {
+            "text": "alive,",
+            "start": 314.14,
+            "end": 314.58,
+            "confidence": 0.949
+          },
+          {
+            "text": "he'll",
+            "start": 314.86,
+            "end": 314.98,
+            "confidence": 0.31
+          },
+          {
+            "text": "be",
+            "start": 314.98,
+            "end": 315.1,
+            "confidence": 0.98
+          },
+          {
+            "text": "living",
+            "start": 315.1,
+            "end": 315.36,
+            "confidence": 0.913
+          },
+          {
+            "text": "in",
+            "start": 315.36,
+            "end": 315.68,
+            "confidence": 0.986
+          },
+          {
+            "text": "the",
+            "start": 315.68,
+            "end": 316.0,
+            "confidence": 0.982
+          },
+          {
+            "text": "park.",
+            "start": 316.0,
+            "end": 316.54,
+            "confidence": 0.79
+          }
+        ],
+        "prompt": "A tall, lean man in an expensive suit, with manicured hands and a white, deep voice, standing next to a sleek black Cadillac adorned with diamonds and fur-lined boards."
+      },
+      {
+        "id": 33,
+        "seek": 18100,
+        "start": 317.53,
+        "end": 322.13,
+        "text": " The brother who claimed the fame was that they called him the jackal.",
+        "tokens": [
+          50764,
+          440,
+          3708,
+          567,
+          12941,
+          264,
+          16874,
+          390,
+          300,
+          436,
+          1219,
+          796,
+          264,
+          7109,
+          304,
+          13,
+          51014
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.23998401641845704,
+        "compression_ratio": 1.2661290322580645,
+        "no_speech_prob": 0.874312162399292,
+        "confidence": 0.634,
+        "words": [
+          {
+            "text": "The",
+            "start": 317.53,
+            "end": 318.23,
+            "confidence": 0.45
+          },
+          {
+            "text": "brother",
+            "start": 318.23,
+            "end": 318.55,
+            "confidence": 0.93
+          },
+          {
+            "text": "who",
+            "start": 318.55,
+            "end": 318.97,
+            "confidence": 0.97
+          },
+          {
+            "text": "claimed",
+            "start": 318.97,
+            "end": 319.31,
+            "confidence": 0.989
+          },
+          {
+            "text": "the",
+            "start": 319.31,
+            "end": 319.59,
+            "confidence": 0.68
+          },
+          {
+            "text": "fame",
+            "start": 319.59,
+            "end": 319.81,
+            "confidence": 0.96
+          },
+          {
+            "text": "was",
+            "start": 319.81,
+            "end": 320.09,
+            "confidence": 0.904
+          },
+          {
+            "text": "that",
+            "start": 320.09,
+            "end": 320.25,
+            "confidence": 0.621
+          },
+          {
+            "text": "they",
+            "start": 320.25,
+            "end": 320.49,
+            "confidence": 0.937
+          },
+          {
+            "text": "called",
+            "start": 320.49,
+            "end": 320.93,
+            "confidence": 0.835
+          },
+          {
+            "text": "him",
+            "start": 320.93,
+            "end": 321.41,
+            "confidence": 0.823
+          },
+          {
+            "text": "the",
+            "start": 321.41,
+            "end": 321.57,
+            "confidence": 0.041
+          },
+          {
+            "text": "jackal.",
+            "start": 321.57,
+            "end": 322.13,
+            "confidence": 0.656
+          }
+        ],
+        "prompt": "A man in a luxurious Italian suit with diamond cufflinks, arms crossed and a sly smile on his face, standing in front of a sleek black Cadillac with fur lined boards and white wall wheels."
+      },
+      {
+        "id": 34,
+        "seek": 18100,
+        "start": 323.75,
+        "end": 324.57,
+        "text": " The jackal.",
+        "tokens": [
+          51014,
+          440,
+          7109,
+          304,
+          13,
+          51114
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.23998401641845704,
+        "compression_ratio": 1.2661290322580645,
+        "no_speech_prob": 0.874312162399292,
+        "confidence": 0.062,
+        "words": [
+          {
+            "text": "The",
+            "start": 323.75,
+            "end": 323.91,
+            "confidence": 0.292
+          },
+          {
+            "text": "jackal.",
+            "start": 323.91,
+            "end": 324.57,
+            "confidence": 0.037
+          }
+        ],
+        "prompt": "A tall, sleek, black figure with a fur-lined coat and white-walled wheels, driving a Cadillac with diamond accents and stereophonic speakers."
+      },
+      {
+        "id": 35,
+        "seek": 19600,
+        "start": 389.79,
+        "end": 408.18,
+        "text": " The jackal.",
+        "tokens": [
+          50364,
+          440,
+          7109,
+          304,
+          13,
+          51514
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.361208404813494,
+        "compression_ratio": 0.5789473684210527,
+        "no_speech_prob": 0.7812728881835938,
+        "confidence": 0.023,
+        "words": [
+          {
+            "text": "The",
+            "start": 389.79,
+            "end": 390.23,
+            "confidence": 0.061
+          },
+          {
+            "text": "jackal.",
+            "start": 405.39,
+            "end": 408.18,
+            "confidence": 0.017
+          }
+        ],
+        "prompt": "Vibrant close-up of a man wearing an $800 Italian suit with a logo, his lips pulled into a smirk, eyes twinkling mischievously, a diamond-studded watch glinting in the light."
+      }
+    ],
+    "language": "en"
+  },
+  "duration": 443.1009466496028
+}

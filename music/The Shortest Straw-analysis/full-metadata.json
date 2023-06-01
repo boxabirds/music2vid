@@ -1,1 +1,3765 @@
-{"animation": {"keyframes_per_second": 3, "keyframe_zoom_animations": "0: (1.03), 2: (1.40), 3: (1.40), 4: (1.20), 5: (1.10), 6: (1.03), 7: (1.40), 8: (1.20), 9: (1.10), 10: (1.03), 13: (1.40), 14: (1.20), 15: (1.10), 16: (1.03), 17: (1.40), 18: (1.20), 19: (1.40), 20: (1.20), 21: (1.10), 22: (1.40), 23: (1.20), 24: (1.10), 25: (1.03), 28: (1.40), 29: (1.20), 30: (1.10), 31: (1.40), 32: (1.20), 33: (1.40), 34: (1.40), 35: (1.20), 36: (1.10), 37: (1.03), 38: (1.40), 39: (1.20), 40: (1.10), 41: (1.03), 42: (1.40), 43: (1.20), 44: (1.10), 45: (1.03), 48: (1.40), 49: (1.20), 50: (1.40), 51: (1.20), 52: (1.10), 53: (1.03), 55: (1.40), 56: (1.20), 57: (1.10), 58: (1.03), 59: (1.40), 60: (1.20), 61: (1.10), 62: (1.03), 63: (1.40), 64: (1.20), 65: (1.10), 66: (1.40), 67: (1.20), 68: (1.10), 69: (1.03), 74: (1.40), 75: (1.20), 76: (1.40), 77: (1.40), 78: (1.20), 79: (1.10), 80: (1.03), 85: (1.40), 86: (1.40), 87: (1.40), 88: (1.20), 89: (1.10), 90: (1.40), 91: (1.20), 92: (1.10), 93: (1.03), 94: (1.40), 95: (1.20), 96: (1.10), 97: (1.40), 98: (1.40), 99: (1.40), 100: (1.20), 101: (1.10), 102: (1.40), 103: (1.40), 104: (1.20), 105: (1.10), 106: (1.03), 110: (1.40), 111: (1.20), 112: (1.40), 113: (1.20), 114: (1.40), 115: (1.40), 116: (1.20), 117: (1.40), 118: (1.40), 119: (1.40), 120: (1.40), 121: (1.20), 122: (1.10), 123: (1.40), 124: (1.40), 125: (1.40), 126: (1.20), 127: (1.10), 128: (1.03), 134: (1.40), 135: (1.20), 136: (1.40), 137: (1.20), 138: (1.40), 139: (1.20), 140: (1.10), 141: (1.03), 159: (1.40), 160: (1.20), 161: (1.10), 162: (1.03), 166: (1.40), 167: (1.20), 168: (1.40), 169: (1.40), 170: (1.20), 171: (1.10), 172: (1.03), 173: (1.40), 174: (1.20), 175: (1.10), 176: (1.03), 178: (1.40), 179: (1.20), 180: (1.10), 181: (1.40), 182: (1.20), 183: (1.10), 184: (1.40), 185: (1.20), 186: (1.40), 187: (1.20), 188: (1.10), 189: (1.03), 193: (1.40), 194: (1.20), 195: (1.10), 196: (1.40), 197: (1.20), 198: (1.10), 199: (1.03), 201: (1.40), 202: (1.40), 203: (1.40), 204: (1.20), 205: (1.10), 206: (1.40), 207: (1.20), 208: (1.10), 209: (1.03), 211: (1.40), 212: (1.20), 213: (1.10), 214: (1.03), 215: (1.40), 216: (1.40), 217: (1.20), 218: (1.10), 219: (1.03), 220: (1.40), 221: (1.40), 222: (1.20), 223: (1.10), 224: (1.40), 225: (1.20), 226: (1.10), 227: (1.03), 239: (1.40), 240: (1.40), 241: (1.20), 242: (1.40), 243: (1.40), 244: (1.40), 245: (1.40), 246: (1.40), 247: (1.20), 248: (1.10), 249: (1.03), 250: (1.40), 251: (1.20), 252: (1.10), 253: (1.40), 254: (1.20), 255: (1.40), 256: (1.20), 257: (1.10), 258: (1.03), 278: (1.40), 279: (1.20), 280: (1.10), 281: (1.03), 282: (1.40), 283: (1.20), 284: (1.10), 285: (1.40), 286: (1.20), 287: (1.40), 288: (1.20), 289: (1.10), 290: (1.03), 297: (1.40), 298: (1.20), 299: (1.10), 300: (1.03), 301: (1.40), 302: (1.20), 303: (1.10), 304: (1.40), 305: (1.20), 306: (1.10), 307: (1.40), 308: (1.20), 309: (1.40), 310: (1.20), 311: (1.40), 312: (1.20), 313: (1.10), 314: (1.40), 315: (1.20), 316: (1.10), 317: (1.40), 318: (1.40), 319: (1.40), 320: (1.40), 321: (1.20), 322: (1.40), 323: (1.40), 324: (1.20), 325: (1.40), 326: (1.20), 327: (1.10), 328: (1.03), 330: (1.40), 331: (1.40), 332: (1.20), 333: (1.40), 334: (1.20), 335: (1.40), 336: (1.20), 337: (1.40), 338: (1.20), 339: (1.40), 340: (1.20), 341: (1.10), 342: (1.03), 347: (1.40), 348: (1.20), 349: (1.40), 350: (1.20), 351: (1.10), 352: (1.40), 353: (1.20), 354: (1.10), 355: (1.03), 357: (1.40), 358: (1.40), 359: (1.40), 360: (1.20), 361: (1.10), 362: (1.03), 363: (1.40), 364: (1.40), 365: (1.40), 366: (1.20), 367: (1.40), 368: (1.20), 369: (1.40), 370: (1.40), 371: (1.20), 372: (1.40), 373: (1.20), 374: (1.40), 375: (1.40), 376: (1.20), 377: (1.10), 378: (1.40), 379: (1.20), 380: (1.40), 381: (1.20), 382: (1.40), 383: (1.20), 384: (1.10), 385: (1.40), 386: (1.20), 387: (1.40), 388: (1.40), 389: (1.20), 390: (1.40), 391: (1.20), 392: (1.40), 393: (1.40), 394: (1.40), 395: (1.20), 396: (1.40), 397: (1.20), 398: (1.10), 399: (1.03), 403: (1.40), 404: (1.20), 405: (1.40), 406: (1.20), 407: (1.10), 408: (1.03), 413: (1.40), 414: (1.20), 415: (1.40), 416: (1.20), 417: (1.10), 418: (1.03), 419: (1.40), 420: (1.40), 421: (1.20), 422: (1.10), 423: (1.40), 424: (1.40), 425: (1.20), 426: (1.10), 427: (1.03), 433: (1.40), 434: (1.20), 435: (1.10), 436: (1.03), 438: (1.40), 439: (1.20), 440: (1.10), 441: (1.03), 444: (1.40), 445: (1.20), 446: (1.40), 447: (1.20), 448: (1.40), 449: (1.40), 450: (1.20), 451: (1.10), 452: (1.03), 455: (1.40), 456: (1.40), 457: (1.20), 458: (1.10), 459: (1.03), 460: (1.40), 461: (1.40), 462: (1.40), 463: (1.40), 464: (1.20), 465: (1.10), 466: (1.40), 467: (1.40), 468: (1.20), 469: (1.10), 470: (1.03), 471: (1.40), 472: (1.20), 473: (1.10), 474: (1.03), 476: (1.40), 477: (1.40), 478: (1.40), 479: (1.20), 480: (1.10), 481: (1.03), 482: (1.40), 483: (1.20), 484: (1.10), 485: (1.03), 486: (1.40), 487: (1.20), 488: (1.10), 489: (1.03), 494: (1.40), 495: (1.40), 496: (1.40), 497: (1.20), 498: (1.10), 499: (1.40), 500: (1.40), 501: (1.40), 502: (1.20), 503: (1.10), 504: (1.03), 505: (1.40), 506: (1.20), 507: (1.10), 508: (1.03), 514: (1.40), 515: (1.20), 516: (1.10), 517: (1.03), 518: (1.40), 519: (1.20), 520: (1.10), 521: (1.40), 522: (1.20), 523: (1.10), 524: (1.03), 527: (1.40), 528: (1.20), 529: (1.10), 530: (1.03), 531: (1.40), 532: (1.20), 533: (1.40), 534: (1.20), 535: (1.10), 536: (1.03), 543: (1.40), 544: (1.20), 545: (1.40), 546: (1.40), 547: (1.20), 548: (1.40), 549: (1.40), 550: (1.20), 551: (1.40), 552: (1.40), 553: (1.20), 554: (1.10), 555: (1.03), 556: (1.40), 557: (1.40), 558: (1.20), 559: (1.10), 560: (1.40), 561: (1.20), 562: (1.40), 563: (1.20), 564: (1.40), 565: (1.40), 566: (1.20), 567: (1.40), 568: (1.20), 569: (1.40), 570: (1.40), 571: (1.40), 572: (1.40), 573: (1.40), 574: (1.40), 575: (1.40), 576: (1.20), 577: (1.40), 578: (1.20), 579: (1.10), 580: (1.03), 586: (1.40), 587: (1.40), 588: (1.20), 589: (1.10), 590: (1.03), 591: (1.40), 592: (1.20), 593: (1.10), 594: (1.40), 595: (1.40), 596: (1.20), 597: (1.40), 598: (1.40), 599: (1.20), 600: (1.40), 601: (1.20), 602: (1.10), 603: (1.40), 604: (1.20), 605: (1.40), 606: (1.20), 607: (1.40), 608: (1.40), 609: (1.40), 610: (1.40), 611: (1.20), 612: (1.10), 613: (1.03), 614: (1.40), 615: (1.40), 616: (1.20), 617: (1.10), 618: (1.03), 620: (1.40), 621: (1.40), 622: (1.40), 623: (1.40), 624: (1.20), 625: (1.10), 626: (1.40), 627: (1.40), 628: (1.20), 629: (1.40), 630: (1.20), 631: (1.40), 632: (1.20), 633: (1.40), 634: (1.20), 635: (1.40), 636: (1.20), 637: (1.10), 638: (1.03), 642: (1.40), 643: (1.40), 644: (1.20), 645: (1.10), 646: (1.40), 647: (1.20), 648: (1.10), 649: (1.40), 650: (1.20), 651: (1.40), 652: (1.40), 653: (1.20), 654: (1.10), 655: (1.03), 656: (1.40), 657: (1.40), 658: (1.40), 659: (1.40), 660: (1.40), 661: (1.20), 662: (1.10), 663: (1.03), 664: (1.40), 665: (1.20), 666: (1.10), 667: (1.03), 669: (1.40), 670: (1.20), 671: (1.10), 672: (1.03), 674: (1.40), 675: (1.20), 676: (1.40), 677: (1.20), 678: (1.40), 679: (1.40), 680: (1.40), 681: (1.20), 682: (1.40), 683: (1.20), 684: (1.10), 685: (1.40), 686: (1.20), 687: (1.10), 688: (1.03), 692: (1.40), 693: (1.20), 694: (1.10), 695: (1.40), 696: (1.20), 697: (1.10), 698: (1.03), 702: (1.40), 703: (1.20), 704: (1.10), 705: (1.03), 707: (1.40), 708: (1.20), 709: (1.40), 710: (1.20), 711: (1.10), 712: (1.40), 713: (1.40), 714: (1.40), 715: (1.20), 716: (1.10), 717: (1.40), 718: (1.20), 719: (1.10), 720: (1.03), 726: (1.40), 727: (1.20), 728: (1.10), 729: (1.40), 730: (1.40), 731: (1.20), 732: (1.40), 733: (1.20), 734: (1.40), 735: (1.40), 736: (1.20), 737: (1.10), 738: (1.40), 739: (1.40), 740: (1.40), 741: (1.20), 742: (1.10), 743: (1.40), 744: (1.40), 745: (1.20), 746: (1.40), 747: (1.40), 748: (1.20), 749: (1.40), 750: (1.40), 751: (1.40), 752: (1.40), 753: (1.20), 754: (1.10), 755: (1.03), 757: (1.40), 758: (1.20), 759: (1.10), 760: (1.40), 761: (1.20), 762: (1.40), 763: (1.20), 764: (1.10), 765: (1.03), 767: (1.40), 768: (1.20), 769: (1.10), 770: (1.03), 771: (1.40), 772: (1.20), 773: (1.10), 774: (1.03), 777: (1.40), 778: (1.20), 779: (1.10), 780: (1.40), 781: (1.20), 782: (1.10), 783: (1.03), 784: (1.40), 785: (1.20), 786: (1.40), 787: (1.20), 788: (1.10), 789: (1.03), 792: (1.40), 793: (1.20), 794: (1.10), 795: (1.40), 796: (1.40), 797: (1.20), 798: (1.40), 799: (1.20), 800: (1.10), 801: (1.03), 804: (1.40), 805: (1.20), 806: (1.10), 807: (1.03), 815: (1.40), 816: (1.20), 817: (1.10), 818: (1.03), 824: (1.40), 825: (1.20), 826: (1.10), 827: (1.40), 828: (1.40), 829: (1.20), 830: (1.40), 831: (1.20), 832: (1.10), 833: (1.03), 842: (1.40), 843: (1.20), 844: (1.10), 845: (1.40), 846: (1.20), 847: (1.10), 848: (1.40), 849: (1.40), 850: (1.40), 851: (1.20), 852: (1.40), 853: (1.40), 854: (1.40), 855: (1.40), 856: (1.20), 857: (1.10), 858: (1.03), 859: (1.40), 860: (1.20), 861: (1.10), 862: (1.03), 863: (1.40), 864: (1.20), 865: (1.10), 866: (1.40), 867: (1.40), 868: (1.20), 869: (1.10), 870: (1.03), 871: (1.40), 872: (1.20), 873: (1.10), 874: (1.40), 875: (1.20), 876: (1.10), 877: (1.40), 878: (1.20), 879: (1.10), 880: (1.40), 881: (1.40), 882: (1.20), 883: (1.40), 884: (1.40), 885: (1.20), 886: (1.40), 887: (1.40), 888: (1.40), 889: (1.20), 890: (1.10), 891: (1.03), 894: (1.40), 895: (1.40), 896: (1.20), 897: (1.10), 898: (1.40), 899: (1.40), 900: (1.40), 901: (1.20), 902: (1.10), 903: (1.40), 904: (1.20), 905: (1.10), 906: (1.03), 911: (1.40), 912: (1.20), 913: (1.10), 914: (1.40), 915: (1.40), 916: (1.40), 917: (1.20), 918: (1.10), 919: (1.03), 921: (1.40), 922: (1.20), 923: (1.10), 924: (1.40), 925: (1.40), 926: (1.20), 927: (1.40), 928: (1.40), 929: (1.40), 930: (1.40), 931: (1.20), 932: (1.40), 933: (1.20), 934: (1.10), 935: (1.03), 937: (1.40), 938: (1.20), 939: (1.10), 940: (1.40), 941: (1.40), 942: (1.20), 943: (1.10), 944: (1.03), 945: (1.40), 946: (1.20), 947: (1.40), 948: (1.20), 949: (1.40), 950: (1.40), 951: (1.20), 952: (1.10), 953: (1.03), 955: (1.40), 956: (1.20), 957: (1.10), 958: (1.40), 959: (1.20), 960: (1.40), 961: (1.20), 962: (1.40), 963: (1.40), 964: (1.40), 965: (1.20), 966: (1.40), 967: (1.20), 968: (1.40), 969: (1.40), 970: (1.20), 971: (1.40), 972: (1.20), 973: (1.10), 974: (1.03), 978: (1.40), 979: (1.20), 980: (1.10), 981: (1.03), 982: (1.40), 983: (1.40), 984: (1.20), 985: (1.40), 986: (1.20), 987: (1.10), 988: (1.40), 989: (1.40), 990: (1.40), 991: (1.40), 992: (1.20), 993: (1.40), 994: (1.20), 995: (1.40), 996: (1.40), 997: (1.40), 998: (1.20), 999: (1.10), 1000: (1.40), 1001: (1.40), 1002: (1.20), 1003: (1.10), 1004: (1.03), 1007: (1.40), 1008: (1.20), 1009: (1.10), 1010: (1.40), 1011: (1.20), 1012: (1.10), 1013: (1.03), 1028: (1.40), 1029: (1.40), 1030: (1.20), 1031: (1.10), 1032: (1.03), 1035: (1.40), 1036: (1.20), 1037: (1.40), 1038: (1.20), 1039: (1.10), 1040: (1.03), 1041: (1.40), 1042: (1.40), 1043: (1.20), 1044: (1.10), 1045: (1.03), 1048: (1.40), 1049: (1.40), 1050: (1.40), 1051: (1.20), 1052: (1.40), 1053: (1.40), 1054: (1.20), 1055: (1.10), 1056: (1.03), 1059: (1.40), 1060: (1.40), 1061: (1.40), 1062: (1.40), 1063: (1.20), 1064: (1.40), 1065: (1.20), 1066: (1.10), 1067: (1.40), 1068: (1.20), 1069: (1.10), 1070: (1.40), 1071: (1.20), 1072: (1.40), 1073: (1.20), 1074: (1.40), 1075: (1.20), 1076: (1.10), 1077: (1.40), 1078: (1.20), 1079: (1.10), 1080: (1.40), 1081: (1.20), 1082: (1.40), 1083: (1.20), 1084: (1.40), 1085: (1.40), 1086: (1.20), 1087: (1.10), 1088: (1.03), 1090: (1.40), 1091: (1.20), 1092: (1.40), 1093: (1.20), 1094: (1.10), 1095: (1.40), 1096: (1.40), 1097: (1.40), 1098: (1.40), 1099: (1.40), 1100: (1.20), 1101: (1.40), 1102: (1.20), 1103: (1.10), 1104: (1.40), 1105: (1.20), 1106: (1.10), 1107: (1.40), 1108: (1.40), 1109: (1.20), 1110: (1.40), 1111: (1.20), 1112: (1.10), 1113: (1.03), 1115: (1.40), 1116: (1.20), 1117: (1.10), 1118: (1.40), 1119: (1.40), 1120: (1.20), 1121: (1.10), 1122: (1.40), 1123: (1.40), 1124: (1.20), 1125: (1.10), 1126: (1.03), 1127: (1.40), 1128: (1.20), 1129: (1.40), 1130: (1.20), 1131: (1.10), 1132: (1.40), 1133: (1.20), 1134: (1.10), 1135: (1.03), 1136: (1.40), 1137: (1.20), 1138: (1.40), 1139: (1.40), 1140: (1.20), 1141: (1.10), 1142: (1.03), 1149: (1.40), 1150: (1.20), 1151: (1.40), 1152: (1.20), 1153: (1.40), 1154: (1.20), 1155: (1.10), 1156: (1.40), 1157: (1.20), 1158: (1.40), 1159: (1.20), 1160: (1.10), 1161: (1.03)"}, "estd_bpm": 143.5546875, "style": "Mystic", "keyframes": {"0": {"prompt": "Gloomy atmosphere of despair, disarray and injustice."}, "198": {"lyric": " Suspicion is your name, your honesty to pay, Predictability to say, it's not her.", "prompt": "Person being pulled down by a rope made of straw while surrounded by a group of onlookers pointing their accusing fingers."}, "218": {"lyric": " We touch modern day, Determination, decay, The place, disarray, disfigure.", "prompt": "A person in a downward spiral, their hands bound by rope as they are pulled further down towards an ominous abyss."}, "237": {"lyric": " The public eyes, despise, define, commonplace, Unanity, faith, or taste, unanity.", "prompt": "A person holding a straw with the other end tied around their wrist, being forced to draw it and accept the consequences."}, "258": {"lyric": " Dappening, painstaking, reckoning, This will echo in the spring.", "prompt": "A person standing alone in a barren landscape, their arms outstretched and a single straw floating away in the wind."}, "320": {"lyric": " Shortest straw, talents, liberty, down by law, Living infamy, rapure, law.", "prompt": "Person being pulled by a rope tied to their hands, with a giant straw looming above them."}, "347": {"lyric": " We jump right in through shortest straw, This shortest straw has been pulled for you.", "prompt": "A person in the foreground, looking back with fear and anguish at a straw in the middle of a path they have been forced to take."}, "372": {"lyric": " Pulled for you.", "prompt": "\"Vivid visual prompt"}, "382": {"lyric": " Pulled for you.", "prompt": "A person in a dark room, being pulled into a bright light by a rope made of straw."}, "393": {"lyric": " Pulled for you.", "prompt": "\"Vivid visual prompt"}, "399": {"lyric": " Shortest straw has been pulled for you.", "prompt": "A figure being yanked downward with a rope around their neck, surrounded by a crowd of people jeering."}, "448": {"lyric": " Deaccusations lie, discrimination lie, Your inner self do die, intruding.", "prompt": "A person with their arms and legs bound, being pulled along by an invisible force."}, "469": {"lyric": " Doubt sunk itself in you, it's to the talents though, No living guess to do deluding.", "prompt": "Person struggling to break free from a rope shaped like a straw."}, "485": {"lyric": " A mass hysteria, a manualvania, Reveal dementia, free me all.", "prompt": "A massive hand reaching out from a dark sky, pulling a straw from a group of people below, their expressions displaying fear and anxiety."}, "510": {"lyric": " Secretly, silently, certainly, Inverted though you will be.", "prompt": "Person tied to a chair, struggling to free themselves as a short straw is pulled away."}, "572": {"lyric": " Shortest straw, talents, liberty, down by law, Living infamy, rapure, law.", "prompt": "Person being pulled by a rope made of straw, struggling against it in a state of despair."}, "598": {"lyric": " We jump right in through shortest straw, This shortest straw has been pulled for you.", "prompt": "A straw being tugged down, with a gripping hand, until the straw is completely pulled out."}, "623": {"lyric": " Pulled for you.", "prompt": "\"Vivid visual prompt"}, "634": {"lyric": " Pulled for you.", "prompt": "A person being pulled by an invisible force, with their hands bound behind their back and an expression of despair on their face."}, "644": {"lyric": " Pulled for you.", "prompt": "\"Vivid visual prompt"}, "652": {"lyric": " Shortest straw has been pulled for you.", "prompt": "A figure with a noose around their neck, being pulled up as if they are being hanged, with a short piece of straw held in their hand."}, "844": {"lyric": " Shortest straw.", "prompt": "A person tied up in a rope, struggling to break out, with a straw hovering in the background."}, "852": {"lyric": " Pulled for you.", "prompt": "\"Vivid visual prompt"}, "856": {"lyric": " Shortest straw.", "prompt": "A figure with arms tied behind their back being dragged along by an invisible force."}, "863": {"lyric": " Pulled for you.", "prompt": "\"Vivid visual prompt"}, "872": {"lyric": " Pulled for you.", "prompt": "\"Vivid visual prompt"}, "877": {"lyric": " Shortest straw has been pulled for you.", "prompt": "A figure with tightly bound hands, struggling to reach a pile of straw, in front of a wall of accusers and onlookers."}, "936": {"lyric": " Behind you hands are tied, don't be ostracized.", "prompt": "A person standing in the center of a tight circle of people, struggling to break free, hands tied behind their back."}, "947": {"lyric": " No hell is multiplied, avenging.", "prompt": "A figure in a tattered cloak walking away from a giant straw with a sign on it reading \"PULLED FOR YOU\"."}, "956": {"lyric": " The fall has begun, oppression damaged done.", "prompt": "A figure with their hands tied behind their back, a black rope tied to a red flag, and a stark white egg with a serpentlike figure peeking out."}, "964": {"lyric": " No money turned to none, to nothing.", "prompt": "A person being pulled by a rope, straining against it as it tightens around their neck."}, "976": {"lyric": " The origin yours not there, viewers disappear.", "prompt": "A person being pulled away from a group of people, their arms outstretched and a noose tightening around their neck."}, "986": {"lyric": " The liars crystal clear, deep in the egg.", "prompt": "A person standing in the middle of a dark room, with a single long straw in their hand, illuminated by a single spotlight."}, "997": {"lyric": " Channels red, one word said.", "prompt": "A hand with a rope tied around its wrist being pulled by an unseen force."}, "1004": {"lyric": " Blacklist dead, when for that y'all make you dead.", "prompt": "A tightrope stretched between two cliffs, with a person walking along it in the middle, being pulled by a group of people on either side."}, "1059": {"lyric": " Shortest straw.", "prompt": "A figure with their hands tied behind their back, struggling against a mountain of straw that's slowly collapsing on top of them."}, "1065": {"lyric": " Talents liberty, done by law.", "prompt": "A person in a dark room, their arms bound together with a rope that is unraveling, while the figure of a menacing figure looms in the background."}, "1075": {"lyric": " Living infamy, rubbed you raw.", "prompt": "A person being pulled into a deep, dark abyss by a rope made of straw."}, "1083": {"lyric": " We jump right in through shortest", "prompt": "Person with their arms and legs tied together, being pulled in opposite directions."}, "1092": {"lyric": " Shortest straw.", "prompt": "A person standing in a dark room, surrounded by an array of ropes hanging from the ceiling, illuminated by a single spotlight - the shortest rope pulled towards them."}, "1095": {"lyric": " This shortest straw has been pulled for you.", "prompt": "A person standing in a dark alley, their hands tied behind their back, being pulled away by an unseen force."}, "1110": {"lyric": " Pulled for you.", "prompt": "\"Vivid visual prompt"}}, "full_transcript": {"text": " Suspicion is your name, your honesty to pay, Predictability to say, it's not her. We touch modern day, Determination, decay, The place, disarray, disfigure. The public eyes, despise, define, commonplace, Unanity, faith, or taste, unanity. Dappening, painstaking, reckoning, This will echo in the spring. Shortest straw, talents, liberty, down by law, Living infamy, rapure, law. We jump right in through shortest straw, This shortest straw has been pulled for you. Pulled for you. Pulled for you. Pulled for you. Shortest straw has been pulled for you. Deaccusations lie, discrimination lie, Your inner self do die, intruding. Doubt sunk itself in you, it's to the talents though, No living guess to do deluding. A mass hysteria, a manualvania, Reveal dementia, free me all. Secretly, silently, certainly, Inverted though you will be. Shortest straw, talents, liberty, down by law, Living infamy, rapure, law. We jump right in through shortest straw, This shortest straw has been pulled for you. Pulled for you. Pulled for you. Pulled for you. Shortest straw has been pulled for you. Shortest straw. Pulled for you. Shortest straw. Pulled for you. Pulled for you. Shortest straw has been pulled for you. Behind you hands are tied, don't be ostracized. No hell is multiplied, avenging. The fall has begun, oppression damaged done. No money turned to none, to nothing. The origin yours not there, viewers disappear. The liars crystal clear, deep in the egg. Channels red, one word said. Blacklist dead, when for that y'all make you dead. Shortest straw. Talents liberty, done by law. Living infamy, rubbed you raw. We jump right in through shortest Shortest straw. This shortest straw has been pulled for you. Pulled for you.", "segments": [{"id": 0, "seek": 0, "start": 66.04, "end": 71.8, "text": " Suspicion is your name, your honesty to pay, Predictability to say, it's not her.", "tokens": [50364, 9545, 79, 18899, 307, 428, 1315, 11, 428, 26839, 281, 1689, 11, 430, 24945, 2310, 281, 584, 11, 309, 311, 406, 720, 13, 50714], "temperature": 0.0, "avg_logprob": -0.5479699159279848, "compression_ratio": 1.460122699386503, "no_speech_prob": 0.5604534149169922, "confidence": 0.478, "words": [{"text": "Suspicion", "start": 66.04, "end": 66.62, "confidence": 0.747}, {"text": "is", "start": 66.62, "end": 67.02, "confidence": 0.967}, {"text": "your", "start": 67.02, "end": 67.34, "confidence": 0.975}, {"text": "name,", "start": 67.34, "end": 67.6, "confidence": 0.63}, {"text": "your", "start": 67.88, "end": 68.04, "confidence": 0.827}, {"text": "honesty", "start": 68.04, "end": 68.54, "confidence": 0.966}, {"text": "to", "start": 68.54, "end": 68.96, "confidence": 0.278}, {"text": "pay,", "start": 68.96, "end": 69.22, "confidence": 0.322}, {"text": "Predictability", "start": 69.48, "end": 70.22, "confidence": 0.235}, {"text": "to", "start": 70.22, "end": 70.64, "confidence": 0.81}, {"text": "say,", "start": 70.64, "end": 70.94, "confidence": 0.479}, {"text": "it's", "start": 71.1, "end": 71.34, "confidence": 0.47}, {"text": "not", "start": 71.34, "end": 71.44, "confidence": 0.414}, {"text": "her.", "start": 71.44, "end": 71.8, "confidence": 0.232}]}, {"id": 1, "seek": 0, "start": 72.58, "end": 78.16, "text": " We touch modern day, Determination, decay, The place, disarray, disfigure.", "tokens": [50714, 492, 2557, 4363, 786, 11, 4237, 966, 2486, 11, 21039, 11, 440, 1081, 11, 717, 2284, 320, 11, 717, 20646, 540, 13, 51014], "temperature": 0.0, "avg_logprob": -0.5479699159279848, "compression_ratio": 1.460122699386503, "no_speech_prob": 0.5604534149169922, "confidence": 0.289, "words": [{"text": "We", "start": 72.58, "end": 72.82, "confidence": 0.211}, {"text": "touch", "start": 72.82, "end": 73.12, "confidence": 0.168}, {"text": "modern", "start": 73.12, "end": 73.8, "confidence": 0.857}, {"text": "day,", "start": 73.8, "end": 74.2, "confidence": 0.583}, {"text": "Determination,", "start": 74.32, "end": 75.24, "confidence": 0.115}, {"text": "decay,", "start": 75.74, "end": 75.82, "confidence": 0.305}, {"text": "The", "start": 75.98, "end": 76.14, "confidence": 0.124}, {"text": "place,", "start": 76.14, "end": 76.42, "confidence": 0.103}, {"text": "disarray,", "start": 76.54, "end": 77.46, "confidence": 0.888}, {"text": "disfigure.", "start": 77.58, "end": 78.16, "confidence": 0.319}]}, {"id": 2, "seek": 0, "start": 79.06, "end": 84.96, "text": " The public eyes, despise, define, commonplace, Unanity, faith, or taste, unanity.", "tokens": [51014, 440, 1908, 2575, 11, 4887, 908, 11, 6964, 11, 2689, 6742, 11, 1156, 282, 507, 11, 4522, 11, 420, 3939, 11, 517, 282, 507, 13, 51364], "temperature": 0.0, "avg_logprob": -0.5479699159279848, "compression_ratio": 1.460122699386503, "no_speech_prob": 0.5604534149169922, "confidence": 0.309, "words": [{"text": "The", "start": 79.06, "end": 79.28, "confidence": 0.407}, {"text": "public", "start": 79.28, "end": 79.7, "confidence": 0.975}, {"text": "eyes,", "start": 79.7, "end": 80.1, "confidence": 0.195}, {"text": "despise,", "start": 80.12, "end": 80.72, "confidence": 0.33}, {"text": "define,", "start": 80.98, "end": 81.28, "confidence": 0.097}, {"text": "commonplace,", "start": 81.84, "end": 82.32, "confidence": 0.29}, {"text": "Unanity,", "start": 82.64, "end": 82.98, "confidence": 0.112}, {"text": "faith,", "start": 82.98, "end": 83.4, "confidence": 0.621}, {"text": "or", "start": 83.4, "end": 83.68, "confidence": 0.77}, {"text": "taste,", "start": 83.68, "end": 83.92, "confidence": 0.773}, {"text": "unanity.", "start": 84.2, "end": 84.96, "confidence": 0.478}]}, {"id": 3, "seek": 2000, "start": 85.94, "end": 92.48, "text": " Dappening, painstaking, reckoning, This will echo in the spring.", "tokens": [50364, 413, 1746, 4559, 11, 1822, 372, 2456, 11, 16374, 16638, 11, 639, 486, 14300, 294, 264, 5587, 13, 50714], "temperature": 0.0, "avg_logprob": -0.45530232787132263, "compression_ratio": 1.480263157894737, "no_speech_prob": 0.48477837443351746, "confidence": 0.172, "words": [{"text": "Dappening,", "start": 85.94, "end": 87.72, "confidence": 0.025}, {"text": "painstaking,", "start": 88.06, "end": 89.26, "confidence": 0.758}, {"text": "reckoning,", "start": 89.7, "end": 90.5, "confidence": 0.399}, {"text": "This", "start": 90.64, "end": 90.84, "confidence": 0.007}, {"text": "will", "start": 90.84, "end": 91.1, "confidence": 0.164}, {"text": "echo", "start": 91.1, "end": 91.48, "confidence": 0.045}, {"text": "in", "start": 91.48, "end": 91.82, "confidence": 0.359}, {"text": "the", "start": 91.82, "end": 91.98, "confidence": 0.921}, {"text": "spring.", "start": 91.98, "end": 92.48, "confidence": 0.348}]}, {"id": 4, "seek": 2000, "start": 106.73, "end": 115.09, "text": " Shortest straw, talents, liberty, down by law, Living infamy, rapure, law.", "tokens": [50714, 16881, 377, 10099, 11, 19933, 11, 22849, 11, 760, 538, 2101, 11, 18824, 1536, 7804, 11, 5099, 540, 11, 2101, 13, 51164], "temperature": 0.0, "avg_logprob": -0.45530232787132263, "compression_ratio": 1.480263157894737, "no_speech_prob": 0.48477837443351746, "confidence": 0.23, "words": [{"text": "Shortest", "start": 106.73, "end": 107.71, "confidence": 0.039}, {"text": "straw,", "start": 107.71, "end": 108.53, "confidence": 0.031}, {"text": "talents,", "start": 108.99, "end": 109.37, "confidence": 0.395}, {"text": "liberty,", "start": 109.47, "end": 110.45, "confidence": 0.28}, {"text": "down", "start": 110.71, "end": 110.79, "confidence": 0.484}, {"text": "by", "start": 110.79, "end": 111.01, "confidence": 0.921}, {"text": "law,", "start": 111.01, "end": 111.83, "confidence": 0.671}, {"text": "Living", "start": 112.43, "end": 112.81, "confidence": 0.087}, {"text": "infamy,", "start": 112.81, "end": 113.95, "confidence": 0.573}, {"text": "rapure,", "start": 114.07, "end": 114.67, "confidence": 0.215}, {"text": "law.", "start": 114.83, "end": 115.09, "confidence": 0.261}]}, {"id": 5, "seek": 2000, "start": 115.67, "end": 122.07, "text": " We jump right in through shortest straw, This shortest straw has been pulled for you.", "tokens": [51164, 492, 3012, 558, 294, 807, 31875, 10099, 11, 639, 31875, 10099, 575, 668, 7373, 337, 291, 13, 51514], "temperature": 0.0, "avg_logprob": -0.45530232787132263, "compression_ratio": 1.480263157894737, "no_speech_prob": 0.48477837443351746, "confidence": 0.352, "words": [{"text": "We", "start": 115.67, "end": 115.97, "confidence": 0.348}, {"text": "jump", "start": 115.97, "end": 116.27, "confidence": 0.019}, {"text": "right", "start": 116.27, "end": 116.83, "confidence": 0.379}, {"text": "in", "start": 116.83, "end": 117.09, "confidence": 0.543}, {"text": "through", "start": 117.09, "end": 117.43, "confidence": 0.914}, {"text": "shortest", "start": 117.43, "end": 117.87, "confidence": 0.022}, {"text": "straw,", "start": 117.87, "end": 118.45, "confidence": 0.255}, {"text": "This", "start": 119.05, "end": 119.21, "confidence": 0.068}, {"text": "shortest", "start": 119.21, "end": 119.61, "confidence": 0.982}, {"text": "straw", "start": 119.61, "end": 119.99, "confidence": 0.994}, {"text": "has", "start": 119.99, "end": 120.29, "confidence": 0.911}, {"text": "been", "start": 120.29, "end": 120.69, "confidence": 0.997}, {"text": "pulled", "start": 120.69, "end": 121.15, "confidence": 0.912}, {"text": "for", "start": 121.15, "end": 121.61, "confidence": 0.984}, {"text": "you.", "start": 121.61, "end": 122.07, "confidence": 0.46}]}, {"id": 6, "seek": 4300, "start": 124.13, "end": 125.89, "text": " Pulled for you.", "tokens": [50414, 15074, 292, 337, 291, 13, 50564], "temperature": 0.0, "avg_logprob": -0.3519436273819361, "compression_ratio": 1.6357615894039734, "no_speech_prob": 0.5249100923538208, "confidence": 0.092, "words": [{"text": "Pulled", "start": 124.13, "end": 125.13, "confidence": 0.013}, {"text": "for", "start": 125.13, "end": 125.41, "confidence": 0.67}, {"text": "you.", "start": 125.41, "end": 125.89, "confidence": 0.244}]}, {"id": 7, "seek": 4300, "start": 127.5, "end": 129.3, "text": " Pulled for you.", "tokens": [50564, 15074, 292, 337, 291, 13, 50714], "temperature": 0.0, "avg_logprob": -0.3519436273819361, "compression_ratio": 1.6357615894039734, "no_speech_prob": 0.5249100923538208, "confidence": 0.051, "words": [{"text": "Pulled", "start": 127.5, "end": 128.68, "confidence": 0.006}, {"text": "for", "start": 128.68, "end": 128.88, "confidence": 0.107}, {"text": "you.", "start": 128.88, "end": 129.3, "confidence": 0.3}]}, {"id": 8, "seek": 4300, "start": 130.93, "end": 132.59, "text": " Pulled for you.", "tokens": [50714, 15074, 292, 337, 291, 13, 50864], "temperature": 0.0, "avg_logprob": -0.3519436273819361, "compression_ratio": 1.6357615894039734, "no_speech_prob": 0.5249100923538208, "confidence": 0.034, "words": [{"text": "Pulled", "start": 130.93, "end": 132.13, "confidence": 0.002}, {"text": "for", "start": 132.13, "end": 132.31, "confidence": 0.053}, {"text": "you.", "start": 132.31, "end": 132.59, "confidence": 0.393}]}, {"id": 9, "seek": 4300, "start": 132.95, "end": 136.79, "text": " Shortest straw has been pulled for you.", "tokens": [50864, 16881, 377, 10099, 575, 668, 7373, 337, 291, 13, 51064], "temperature": 0.0, "avg_logprob": -0.3519436273819361, "compression_ratio": 1.6357615894039734, "no_speech_prob": 0.5249100923538208, "confidence": 0.225, "words": [{"text": "Shortest", "start": 132.95, "end": 134.51, "confidence": 0.044}, {"text": "straw", "start": 134.51, "end": 134.69, "confidence": 0.117}, {"text": "has", "start": 134.69, "end": 135.07, "confidence": 0.049}, {"text": "been", "start": 135.07, "end": 135.47, "confidence": 0.989}, {"text": "pulled", "start": 135.47, "end": 135.77, "confidence": 0.939}, {"text": "for", "start": 135.77, "end": 136.23, "confidence": 0.97}, {"text": "you.", "start": 136.23, "end": 136.79, "confidence": 0.386}]}, {"id": 10, "seek": 4300, "start": 149.23, "end": 155.31, "text": " Deaccusations lie, discrimination lie, Your inner self do die, intruding.", "tokens": [51064, 1346, 326, 1149, 763, 4544, 11, 15973, 4544, 11, 2260, 7284, 2698, 360, 978, 11, 17467, 33703, 13, 51364], "temperature": 0.0, "avg_logprob": -0.3519436273819361, "compression_ratio": 1.6357615894039734, "no_speech_prob": 0.5249100923538208, "confidence": 0.316, "words": [{"text": "Deaccusations", "start": 149.23, "end": 150.91, "confidence": 0.189}, {"text": "lie,", "start": 150.91, "end": 151.35, "confidence": 0.157}, {"text": "discrimination", "start": 151.55, "end": 152.49, "confidence": 0.435}, {"text": "lie,", "start": 152.49, "end": 152.89, "confidence": 0.468}, {"text": "Your", "start": 153.11, "end": 153.27, "confidence": 0.103}, {"text": "inner", "start": 153.27, "end": 153.51, "confidence": 0.92}, {"text": "self", "start": 153.51, "end": 153.85, "confidence": 0.947}, {"text": "do", "start": 153.85, "end": 154.19, "confidence": 0.357}, {"text": "die,", "start": 154.19, "end": 154.61, "confidence": 0.759}, {"text": "intruding.", "start": 154.71, "end": 155.31, "confidence": 0.259}]}, {"id": 11, "seek": 4300, "start": 156.21, "end": 161.67, "text": " Doubt sunk itself in you, it's to the talents though, No living guess to do deluding.", "tokens": [51364, 13200, 4517, 40564, 2564, 294, 291, 11, 309, 311, 281, 264, 19933, 1673, 11, 883, 2647, 2041, 281, 360, 1103, 33703, 13, 51714], "temperature": 0.0, "avg_logprob": -0.3519436273819361, "compression_ratio": 1.6357615894039734, "no_speech_prob": 0.5249100923538208, "confidence": 0.209, "words": [{"text": "Doubt", "start": 156.21, "end": 156.51, "confidence": 0.139}, {"text": "sunk", "start": 156.51, "end": 156.71, "confidence": 0.0}, {"text": "itself", "start": 156.71, "end": 157.21, "confidence": 0.184}, {"text": "in", "start": 157.21, "end": 157.55, "confidence": 0.916}, {"text": "you,", "start": 157.55, "end": 157.83, "confidence": 0.544}, {"text": "it's", "start": 158.03, "end": 158.19, "confidence": 0.761}, {"text": "to", "start": 158.19, "end": 158.31, "confidence": 0.237}, {"text": "the", "start": 158.31, "end": 158.57, "confidence": 0.935}, {"text": "talents", "start": 158.57, "end": 159.05, "confidence": 0.588}, {"text": "though,", "start": 159.05, "end": 159.41, "confidence": 0.36}, {"text": "No", "start": 159.61, "end": 159.77, "confidence": 0.023}, {"text": "living", "start": 159.77, "end": 160.07, "confidence": 0.802}, {"text": "guess", "start": 160.07, "end": 160.53, "confidence": 0.649}, {"text": "to", "start": 160.53, "end": 160.77, "confidence": 0.278}, {"text": "do", "start": 160.77, "end": 161.13, "confidence": 0.092}, {"text": "deluding.", "start": 161.13, "end": 161.67, "confidence": 0.112}]}, {"id": 12, "seek": 7000, "start": 161.67, "end": 168.61, "text": " A mass hysteria, a manualvania, Reveal dementia, free me all.", "tokens": [50364, 316, 2758, 35915, 654, 11, 257, 9688, 47542, 11, 1300, 303, 304, 31734, 11, 1737, 385, 439, 13, 50714], "temperature": 0.0, "avg_logprob": -0.2389414740390465, "compression_ratio": 1.3611111111111112, "no_speech_prob": 0.08366073668003082, "confidence": 0.26, "words": [{"text": "A", "start": 161.67, "end": 163.03, "confidence": 0.05}, {"text": "mass", "start": 163.03, "end": 163.33, "confidence": 0.532}, {"text": "hysteria,", "start": 163.33, "end": 164.37, "confidence": 0.805}, {"text": "a", "start": 164.63, "end": 164.73, "confidence": 0.901}, {"text": "manualvania,", "start": 164.73, "end": 165.91, "confidence": 0.119}, {"text": "Reveal", "start": 166.19, "end": 166.49, "confidence": 0.17}, {"text": "dementia,", "start": 166.49, "end": 167.45, "confidence": 0.59}, {"text": "free", "start": 167.73, "end": 167.99, "confidence": 0.037}, {"text": "me", "start": 167.99, "end": 168.25, "confidence": 0.092}, {"text": "all.", "start": 168.25, "end": 168.61, "confidence": 0.499}]}, {"id": 13, "seek": 7000, "start": 169.85, "end": 176.25, "text": " Secretly, silently, certainly, Inverted though you will be.", "tokens": [50714, 7400, 356, 11, 40087, 11, 3297, 11, 682, 18537, 1673, 291, 486, 312, 13, 51064], "temperature": 0.0, "avg_logprob": -0.2389414740390465, "compression_ratio": 1.3611111111111112, "no_speech_prob": 0.08366073668003082, "confidence": 0.573, "words": [{"text": "Secretly,", "start": 169.85, "end": 171.25, "confidence": 0.664}, {"text": "silently,", "start": 171.71, "end": 172.57, "confidence": 0.839}, {"text": "certainly,", "start": 173.29, "end": 174.13, "confidence": 0.668}, {"text": "Inverted", "start": 174.47, "end": 174.85, "confidence": 0.153}, {"text": "though", "start": 174.85, "end": 175.15, "confidence": 0.688}, {"text": "you", "start": 175.15, "end": 175.45, "confidence": 0.99}, {"text": "will", "start": 175.45, "end": 175.73, "confidence": 0.974}, {"text": "be.", "start": 175.73, "end": 176.25, "confidence": 0.538}]}, {"id": 14, "seek": 7000, "start": 190.53, "end": 198.83, "text": " Shortest straw, talents, liberty, down by law, Living infamy, rapure, law.", "tokens": [51064, 16881, 377, 10099, 11, 19933, 11, 22849, 11, 760, 538, 2101, 11, 18824, 1536, 7804, 11, 5099, 540, 11, 2101, 13, 51514], "temperature": 0.0, "avg_logprob": -0.2389414740390465, "compression_ratio": 1.3611111111111112, "no_speech_prob": 0.08366073668003082, "confidence": 0.133, "words": [{"text": "Shortest", "start": 190.53, "end": 191.45, "confidence": 0.03}, {"text": "straw,", "start": 191.45, "end": 192.29, "confidence": 0.055}, {"text": "talents,", "start": 192.69, "end": 193.09, "confidence": 0.335}, {"text": "liberty,", "start": 193.27, "end": 194.07, "confidence": 0.614}, {"text": "down", "start": 194.41, "end": 194.47, "confidence": 0.36}, {"text": "by", "start": 194.47, "end": 194.71, "confidence": 0.914}, {"text": "law,", "start": 194.71, "end": 195.57, "confidence": 0.706}, {"text": "Living", "start": 196.13, "end": 196.47, "confidence": 0.082}, {"text": "infamy,", "start": 196.47, "end": 197.59, "confidence": 0.216}, {"text": "rapure,", "start": 197.77, "end": 198.35, "confidence": 0.015}, {"text": "law.", "start": 198.55, "end": 198.83, "confidence": 0.091}]}, {"id": 15, "seek": 9300, "start": 199.37, "end": 205.87, "text": " We jump right in through shortest straw, This shortest straw has been pulled for you.", "tokens": [50364, 492, 3012, 558, 294, 807, 31875, 10099, 11, 639, 31875, 10099, 575, 668, 7373, 337, 291, 13, 50714], "temperature": 0.8, "avg_logprob": -0.11466639896608749, "compression_ratio": 2.0352941176470587, "no_speech_prob": 0.2606484591960907, "confidence": 0.184, "words": [{"text": "We", "start": 199.37, "end": 199.63, "confidence": 0.553}, {"text": "jump", "start": 199.63, "end": 199.99, "confidence": 0.0}, {"text": "right", "start": 199.99, "end": 200.53, "confidence": 0.353}, {"text": "in", "start": 200.53, "end": 200.77, "confidence": 0.566}, {"text": "through", "start": 200.77, "end": 201.13, "confidence": 0.869}, {"text": "shortest", "start": 201.13, "end": 201.59, "confidence": 0.001}, {"text": "straw,", "start": 201.59, "end": 202.23, "confidence": 0.052}, {"text": "This", "start": 202.73, "end": 202.91, "confidence": 0.051}, {"text": "shortest", "start": 202.91, "end": 203.23, "confidence": 0.955}, {"text": "straw", "start": 203.23, "end": 203.69, "confidence": 0.873}, {"text": "has", "start": 203.69, "end": 204.05, "confidence": 0.789}, {"text": "been", "start": 204.05, "end": 204.37, "confidence": 0.989}, {"text": "pulled", "start": 204.37, "end": 204.87, "confidence": 0.951}, {"text": "for", "start": 204.87, "end": 205.31, "confidence": 0.983}, {"text": "you.", "start": 205.31, "end": 205.87, "confidence": 0.487}]}, {"id": 16, "seek": 9300, "start": 207.81, "end": 209.55, "text": " Pulled for you.", "tokens": [50714, 15074, 292, 337, 291, 13, 50914], "temperature": 0.8, "avg_logprob": -0.11466639896608749, "compression_ratio": 2.0352941176470587, "no_speech_prob": 0.2606484591960907, "confidence": 0.091, "words": [{"text": "Pulled", "start": 207.81, "end": 208.87, "confidence": 0.01}, {"text": "for", "start": 208.87, "end": 209.13, "confidence": 0.564}, {"text": "you.", "start": 209.13, "end": 209.55, "confidence": 0.316}]}, {"id": 17, "seek": 9300, "start": 211.21, "end": 212.97, "text": " Pulled for you.", "tokens": [50914, 15074, 292, 337, 291, 13, 51064], "temperature": 0.8, "avg_logprob": -0.11466639896608749, "compression_ratio": 2.0352941176470587, "no_speech_prob": 0.2606484591960907, "confidence": 0.091, "words": [{"text": "Pulled", "start": 211.21, "end": 212.39, "confidence": 0.019}, {"text": "for", "start": 212.39, "end": 212.53, "confidence": 0.157}, {"text": "you.", "start": 212.53, "end": 212.97, "confidence": 0.339}]}, {"id": 18, "seek": 9300, "start": 214.64, "end": 216.25, "text": " Pulled for you.", "tokens": [51064, 15074, 292, 337, 291, 13, 51214], "temperature": 0.8, "avg_logprob": -0.11466639896608749, "compression_ratio": 2.0352941176470587, "no_speech_prob": 0.2606484591960907, "confidence": 0.013, "words": [{"text": "Pulled", "start": 214.64, "end": 215.65, "confidence": 0.002}, {"text": "for", "start": 215.65, "end": 216.23, "confidence": 0.005}, {"text": "you.", "start": 216.23, "end": 216.25, "confidence": 0.135}]}, {"id": 19, "seek": 9300, "start": 217.45, "end": 220.47, "text": " Shortest straw has been pulled for you.", "tokens": [51214, 16881, 377, 10099, 575, 668, 7373, 337, 291, 13, 51414], "temperature": 0.8, "avg_logprob": -0.11466639896608749, "compression_ratio": 2.0352941176470587, "no_speech_prob": 0.2606484591960907, "confidence": 0.577, "words": [{"text": "Shortest", "start": 217.45, "end": 218.11, "confidence": 0.293}, {"text": "straw", "start": 218.11, "end": 218.37, "confidence": 0.76}, {"text": "has", "start": 218.37, "end": 218.71, "confidence": 0.866}, {"text": "been", "start": 218.71, "end": 219.05, "confidence": 0.995}, {"text": "pulled", "start": 219.05, "end": 219.45, "confidence": 0.876}, {"text": "for", "start": 219.45, "end": 219.91, "confidence": 0.984}, {"text": "you.", "start": 219.91, "end": 220.47, "confidence": 0.382}]}, {"id": 20, "seek": 11400, "start": 281.3, "end": 282.72, "text": " Shortest straw.", "tokens": [50364, 16881, 377, 10099, 13, 50464], "temperature": 0.0, "avg_logprob": -0.23545226230416247, "compression_ratio": 1.7625, "no_speech_prob": 0.22289875149726868, "confidence": 0.01, "words": [{"text": "Shortest", "start": 281.3, "end": 282.24, "confidence": 0.011}, {"text": "straw.", "start": 282.24, "end": 282.72, "confidence": 0.01}]}, {"id": 21, "seek": 11400, "start": 284.08, "end": 285.34, "text": " Pulled for you.", "tokens": [50464, 15074, 292, 337, 291, 13, 50564], "temperature": 0.0, "avg_logprob": -0.23545226230416247, "compression_ratio": 1.7625, "no_speech_prob": 0.22289875149726868, "confidence": 0.156, "words": [{"text": "Pulled", "start": 284.08, "end": 284.86, "confidence": 0.042}, {"text": "for", "start": 284.86, "end": 285.14, "confidence": 0.538}, {"text": "you.", "start": 285.14, "end": 285.34, "confidence": 0.308}]}, {"id": 22, "seek": 11400, "start": 285.34, "end": 286.34, "text": " Shortest straw.", "tokens": [50564, 16881, 377, 10099, 13, 50664], "temperature": 0.0, "avg_logprob": -0.23545226230416247, "compression_ratio": 1.7625, "no_speech_prob": 0.22289875149726868, "confidence": 0.001, "words": [{"text": "Shortest", "start": 285.34, "end": 286.32, "confidence": 0.0}, {"text": "straw.", "start": 286.32, "end": 286.34, "confidence": 0.002}]}, {"id": 23, "seek": 11400, "start": 287.75, "end": 288.69, "text": " Pulled for you.", "tokens": [50664, 15074, 292, 337, 291, 13, 50764], "temperature": 0.0, "avg_logprob": -0.23545226230416247, "compression_ratio": 1.7625, "no_speech_prob": 0.22289875149726868, "confidence": 0.018, "words": [{"text": "Pulled", "start": 287.75, "end": 288.37, "confidence": 0.003}, {"text": "for", "start": 288.37, "end": 288.45, "confidence": 0.008}, {"text": "you.", "start": 288.45, "end": 288.69, "confidence": 0.145}]}, {"id": 24, "seek": 11400, "start": 290.67, "end": 292.21, "text": " Pulled for you.", "tokens": [50764, 15074, 292, 337, 291, 13, 50864], "temperature": 0.0, "avg_logprob": -0.23545226230416247, "compression_ratio": 1.7625, "no_speech_prob": 0.22289875149726868, "confidence": 0.095, "words": [{"text": "Pulled", "start": 290.67, "end": 291.77, "confidence": 0.02}, {"text": "for", "start": 291.77, "end": 291.93, "confidence": 0.225}, {"text": "you.", "start": 291.93, "end": 292.21, "confidence": 0.294}]}, {"id": 25, "seek": 11400, "start": 292.27, "end": 296.53, "text": " Shortest straw has been pulled for you.", "tokens": [50864, 16881, 377, 10099, 575, 668, 7373, 337, 291, 13, 51064], "temperature": 0.0, "avg_logprob": -0.23545226230416247, "compression_ratio": 1.7625, "no_speech_prob": 0.22289875149726868, "confidence": 0.234, "words": [{"text": "Shortest", "start": 292.27, "end": 294.11, "confidence": 0.007}, {"text": "straw", "start": 294.11, "end": 294.37, "confidence": 0.468}, {"text": "has", "start": 294.37, "end": 294.69, "confidence": 0.598}, {"text": "been", "start": 294.69, "end": 295.07, "confidence": 0.995}, {"text": "pulled", "start": 295.07, "end": 295.53, "confidence": 0.943}, {"text": "for", "start": 295.53, "end": 296.07, "confidence": 0.989}, {"text": "you.", "start": 296.07, "end": 296.53, "confidence": 0.433}]}, {"id": 26, "seek": 11400, "start": 312.1, "end": 315.44, "text": " Behind you hands are tied, don't be ostracized.", "tokens": [51064, 20475, 291, 2377, 366, 9601, 11, 500, 380, 312, 44024, 326, 1602, 13, 51264], "temperature": 0.0, "avg_logprob": -0.23545226230416247, "compression_ratio": 1.7625, "no_speech_prob": 0.22289875149726868, "confidence": 0.453, "words": [{"text": "Behind", "start": 312.1, "end": 312.7, "confidence": 0.092}, {"text": "you", "start": 312.7, "end": 312.98, "confidence": 0.729}, {"text": "hands", "start": 312.98, "end": 313.3, "confidence": 0.654}, {"text": "are", "start": 313.3, "end": 313.66, "confidence": 0.283}, {"text": "tied,", "start": 313.66, "end": 313.94, "confidence": 0.695}, {"text": "don't", "start": 314.14, "end": 314.36, "confidence": 0.172}, {"text": "be", "start": 314.36, "end": 314.62, "confidence": 0.919}, {"text": "ostracized.", "start": 314.62, "end": 315.44, "confidence": 0.674}]}, {"id": 27, "seek": 11400, "start": 315.54, "end": 317.78, "text": " No hell is multiplied, avenging.", "tokens": [51264, 883, 4921, 307, 17207, 11, 18469, 3249, 13, 51414], "temperature": 0.0, "avg_logprob": -0.23545226230416247, "compression_ratio": 1.7625, "no_speech_prob": 0.22289875149726868, "confidence": 0.154, "words": [{"text": "No", "start": 315.54, "end": 315.86, "confidence": 0.038}, {"text": "hell", "start": 315.86, "end": 316.04, "confidence": 0.212}, {"text": "is", "start": 316.04, "end": 316.22, "confidence": 0.157}, {"text": "multiplied,", "start": 316.22, "end": 317.12, "confidence": 0.271}, {"text": "avenging.", "start": 317.38, "end": 317.78, "confidence": 0.151}]}, {"id": 28, "seek": 11400, "start": 318.76, "end": 321.46, "text": " The fall has begun, oppression damaged done.", "tokens": [51414, 440, 2100, 575, 16009, 11, 27337, 14080, 1096, 13, 51564], "temperature": 0.0, "avg_logprob": -0.23545226230416247, "compression_ratio": 1.7625, "no_speech_prob": 0.22289875149726868, "confidence": 0.058, "words": [{"text": "The", "start": 318.76, "end": 319.0, "confidence": 0.376}, {"text": "fall", "start": 319.0, "end": 319.34, "confidence": 0.438}, {"text": "has", "start": 319.34, "end": 319.64, "confidence": 0.006}, {"text": "begun,", "start": 319.64, "end": 320.36, "confidence": 0.594}, {"text": "oppression", "start": 320.62, "end": 320.96, "confidence": 0.234}, {"text": "damaged", "start": 320.96, "end": 321.44, "confidence": 0.054}, {"text": "done.", "start": 321.44, "end": 321.46, "confidence": 0.001}]}, {"id": 29, "seek": 11400, "start": 321.46, "end": 324.3, "text": " No money turned to none, to nothing.", "tokens": [51564, 883, 1460, 3574, 281, 6022, 11, 281, 1825, 13, 51714], "temperature": 0.0, "avg_logprob": -0.23545226230416247, "compression_ratio": 1.7625, "no_speech_prob": 0.22289875149726868, "confidence": 0.117, "words": [{"text": "No", "start": 321.46, "end": 322.2, "confidence": 0.008}, {"text": "money", "start": 322.2, "end": 322.54, "confidence": 0.84}, {"text": "turned", "start": 322.54, "end": 322.92, "confidence": 0.0}, {"text": "to", "start": 322.92, "end": 323.3, "confidence": 0.85}, {"text": "none,", "start": 323.3, "end": 323.58, "confidence": 0.122}, {"text": "to", "start": 323.82, "end": 323.9, "confidence": 0.901}, {"text": "nothing.", "start": 323.9, "end": 324.3, "confidence": 0.419}]}, {"id": 30, "seek": 14100, "start": 325.28, "end": 328.42, "text": " The origin yours not there, viewers disappear.", "tokens": [50364, 440, 4957, 6342, 406, 456, 11, 8499, 11596, 13, 50564], "temperature": 0.0, "avg_logprob": -0.39591590033637153, "compression_ratio": 1.4666666666666666, "no_speech_prob": 0.08295002579689026, "confidence": 0.112, "words": [{"text": "The", "start": 325.28, "end": 325.68, "confidence": 0.068}, {"text": "origin", "start": 325.68, "end": 325.98, "confidence": 0.071}, {"text": "yours", "start": 325.98, "end": 326.3, "confidence": 0.075}, {"text": "not", "start": 326.3, "end": 326.64, "confidence": 0.31}, {"text": "there,", "start": 326.64, "end": 327.0, "confidence": 0.488}, {"text": "viewers", "start": 327.14, "end": 327.48, "confidence": 0.001}, {"text": "disappear.", "start": 327.48, "end": 328.42, "confidence": 0.36}]}, {"id": 31, "seek": 14100, "start": 328.68, "end": 331.2, "text": " The liars crystal clear, deep in the egg.", "tokens": [50564, 440, 375, 685, 13662, 1850, 11, 2452, 294, 264, 3777, 13, 50714], "temperature": 0.0, "avg_logprob": -0.39591590033637153, "compression_ratio": 1.4666666666666666, "no_speech_prob": 0.08295002579689026, "confidence": 0.282, "words": [{"text": "The", "start": 328.68, "end": 328.96, "confidence": 0.044}, {"text": "liars", "start": 328.96, "end": 329.32, "confidence": 0.34}, {"text": "crystal", "start": 329.32, "end": 329.78, "confidence": 0.874}, {"text": "clear,", "start": 329.78, "end": 330.2, "confidence": 0.567}, {"text": "deep", "start": 330.4, "end": 330.6, "confidence": 0.682}, {"text": "in", "start": 330.6, "end": 330.9, "confidence": 0.621}, {"text": "the", "start": 330.9, "end": 331.06, "confidence": 0.144}, {"text": "egg.", "start": 331.06, "end": 331.2, "confidence": 0.102}]}, {"id": 32, "seek": 14100, "start": 332.43, "end": 334.71, "text": " Channels red, one word said.", "tokens": [50714, 761, 969, 1625, 2182, 11, 472, 1349, 848, 13, 50864], "temperature": 0.0, "avg_logprob": -0.39591590033637153, "compression_ratio": 1.4666666666666666, "no_speech_prob": 0.08295002579689026, "confidence": 0.254, "words": [{"text": "Channels", "start": 332.43, "end": 333.11, "confidence": 0.399}, {"text": "red,", "start": 333.11, "end": 333.73, "confidence": 0.511}, {"text": "one", "start": 334.27, "end": 334.49, "confidence": 0.604}, {"text": "word", "start": 334.49, "end": 334.69, "confidence": 0.045}, {"text": "said.", "start": 334.69, "end": 334.71, "confidence": 0.099}]}, {"id": 33, "seek": 14100, "start": 334.71, "end": 338.67, "text": " Blacklist dead, when for that y'all make you dead.", "tokens": [50864, 4076, 8264, 3116, 11, 562, 337, 300, 288, 6, 336, 652, 291, 3116, 13, 51064], "temperature": 0.0, "avg_logprob": -0.39591590033637153, "compression_ratio": 1.4666666666666666, "no_speech_prob": 0.08295002579689026, "confidence": 0.31, "words": [{"text": "Blacklist", "start": 334.71, "end": 336.41, "confidence": 0.413}, {"text": "dead,", "start": 336.41, "end": 336.75, "confidence": 0.504}, {"text": "when", "start": 336.91, "end": 337.07, "confidence": 0.183}, {"text": "for", "start": 337.07, "end": 337.25, "confidence": 0.002}, {"text": "that", "start": 337.25, "end": 337.45, "confidence": 0.132}, {"text": "y'all", "start": 337.45, "end": 337.77, "confidence": 0.674}, {"text": "make", "start": 337.77, "end": 337.99, "confidence": 0.791}, {"text": "you", "start": 337.99, "end": 338.29, "confidence": 0.884}, {"text": "dead.", "start": 338.29, "end": 338.67, "confidence": 0.398}]}, {"id": 34, "seek": 14100, "start": 352.93, "end": 353.97, "text": " Shortest straw.", "tokens": [51064, 16881, 377, 10099, 13, 51164], "temperature": 0.0, "avg_logprob": -0.39591590033637153, "compression_ratio": 1.4666666666666666, "no_speech_prob": 0.08295002579689026, "confidence": 0.005, "words": [{"text": "Shortest", "start": 352.93, "end": 353.87, "confidence": 0.003}, {"text": "straw.", "start": 353.87, "end": 353.97, "confidence": 0.008}]}, {"id": 35, "seek": 14100, "start": 354.95, "end": 357.91, "text": " Talents liberty, done by law.", "tokens": [51164, 10516, 791, 22849, 11, 1096, 538, 2101, 13, 51364], "temperature": 0.0, "avg_logprob": -0.39591590033637153, "compression_ratio": 1.4666666666666666, "no_speech_prob": 0.08295002579689026, "confidence": 0.234, "words": [{"text": "Talents", "start": 354.95, "end": 355.69, "confidence": 0.052}, {"text": "liberty,", "start": 355.69, "end": 356.51, "confidence": 0.189}, {"text": "done", "start": 356.73, "end": 357.05, "confidence": 0.559}, {"text": "by", "start": 357.05, "end": 357.27, "confidence": 0.992}, {"text": "law.", "start": 357.27, "end": 357.91, "confidence": 0.406}]}, {"id": 36, "seek": 14100, "start": 358.45, "end": 360.97, "text": " Living infamy, rubbed you raw.", "tokens": [51364, 18824, 1536, 7804, 11, 5915, 2883, 291, 8936, 13, 51514], "temperature": 0.0, "avg_logprob": -0.39591590033637153, "compression_ratio": 1.4666666666666666, "no_speech_prob": 0.08295002579689026, "confidence": 0.126, "words": [{"text": "Living", "start": 358.45, "end": 359.03, "confidence": 0.157}, {"text": "infamy,", "start": 359.03, "end": 360.23, "confidence": 0.065}, {"text": "rubbed", "start": 360.35, "end": 360.69, "confidence": 0.042}, {"text": "you", "start": 360.69, "end": 360.83, "confidence": 0.661}, {"text": "raw.", "start": 360.83, "end": 360.97, "confidence": 0.393}]}, {"id": 37, "seek": 14100, "start": 360.97, "end": 363.97, "text": " We jump right in through shortest", "tokens": [51514, 492, 3012, 558, 294, 807, 31875, 10099, 13, 51664], "temperature": 0.0, "avg_logprob": -0.39591590033637153, "compression_ratio": 1.4666666666666666, "no_speech_prob": 0.08295002579689026, "confidence": 0.025, "words": [{"text": "We", "start": 360.97, "end": 362.15, "confidence": 0.127}, {"text": "jump", "start": 362.15, "end": 362.49, "confidence": 0.001}, {"text": "right", "start": 362.49, "end": 363.07, "confidence": 0.483}, {"text": "in", "start": 363.07, "end": 363.33, "confidence": 0.252}, {"text": "through", "start": 363.33, "end": 363.65, "confidence": 0.634}, {"text": "shortest", "start": 363.65, "end": 363.97, "confidence": 0.002}]}, {"id": 38, "seek": 16700, "start": 364.07, "end": 364.75, "text": " Shortest straw.", "tokens": [50364, 16881, 377, 10099, 13, 50464], "temperature": 0.0, "avg_logprob": -0.17562994003295898, "compression_ratio": 1.2459016393442623, "no_speech_prob": 0.2343432903289795, "confidence": 0.005, "words": [{"text": "Shortest", "start": 364.07, "end": 364.49, "confidence": 0.001}, {"text": "straw.", "start": 364.49, "end": 364.75, "confidence": 0.02}]}, {"id": 39, "seek": 16700, "start": 365.13, "end": 368.43, "text": " This shortest straw has been pulled for you.", "tokens": [50464, 639, 31875, 10099, 575, 668, 7373, 337, 291, 13, 50664], "temperature": 0.0, "avg_logprob": -0.17562994003295898, "compression_ratio": 1.2459016393442623, "no_speech_prob": 0.2343432903289795, "confidence": 0.445, "words": [{"text": "This", "start": 365.13, "end": 365.49, "confidence": 0.587}, {"text": "shortest", "start": 365.49, "end": 365.85, "confidence": 0.013}, {"text": "straw", "start": 365.85, "end": 366.23, "confidence": 0.903}, {"text": "has", "start": 366.23, "end": 366.53, "confidence": 0.957}, {"text": "been", "start": 366.53, "end": 366.87, "confidence": 0.998}, {"text": "pulled", "start": 366.87, "end": 367.39, "confidence": 0.863}, {"text": "for", "start": 367.39, "end": 367.87, "confidence": 0.871}, {"text": "you.", "start": 367.87, "end": 368.43, "confidence": 0.377}]}, {"id": 40, "seek": 16700, "start": 369.86, "end": 370.96, "text": " Pulled for you.", "tokens": [50664, 15074, 292, 337, 291, 13, 50764], "temperature": 0.0, "avg_logprob": -0.17562994003295898, "compression_ratio": 1.2459016393442623, "no_speech_prob": 0.2343432903289795, "confidence": 0.08, "words": [{"text": "Pulled", "start": 369.86, "end": 370.4, "confidence": 0.022}, {"text": "for", "start": 370.4, "end": 370.6, "confidence": 0.082}, {"text": "you.", "start": 370.6, "end": 370.96, "confidence": 0.285}]}], "language": "en"}, "duration": 395.3475918367347}
+{
+  "animation": {
+    "keyframes_per_second": 3,
+    "zoom_animation_times": {
+      "00000.00": "1.00",
+      "00000.49": "1.40",
+      "00000.66": "1.12",
+      "00000.84": "1.40",
+      "00001.34": "1.00",
+      "00002.23": "1.40",
+      "00002.73": "1.00",
+      "00004.09": "1.40",
+      "00004.59": "1.00",
+      "00005.67": "1.40",
+      "00005.85": "1.10",
+      "00006.04": "1.40",
+      "00006.54": "1.00",
+      "00007.13": "1.40",
+      "00007.63": "1.00",
+      "00009.13": "1.40",
+      "00009.63": "1.00",
+      "00010.01": "1.40",
+      "00010.51": "1.00",
+      "00010.98": "1.40",
+      "00011.10": "1.21",
+      "00011.22": "1.40",
+      "00011.72": "1.00",
+      "00012.54": "1.40",
+      "00013.04": "1.00",
+      "00013.77": "1.40",
+      "00014.27": "1.00",
+      "00015.72": "1.40",
+      "00016.22": "1.00",
+      "00016.58": "1.40",
+      "00017.08": "1.00",
+      "00018.30": "1.40",
+      "00018.80": "1.00",
+      "00019.60": "1.40",
+      "00020.10": "1.00",
+      "00020.87": "1.40",
+      "00021.37": "1.00",
+      "00021.73": "1.40",
+      "00022.23": "1.00",
+      "00024.36": "1.40",
+      "00024.86": "1.00",
+      "00025.22": "1.40",
+      "00025.44": "1.05",
+      "00025.66": "1.40",
+      "00026.16": "1.00",
+      "00028.00": "1.40",
+      "00028.24": "1.03",
+      "00028.47": "1.40",
+      "00028.68": "1.07",
+      "00028.89": "1.40",
+      "00029.39": "1.00",
+      "00029.95": "1.40",
+      "00030.45": "1.00",
+      "00031.25": "1.40",
+      "00031.75": "1.00",
+      "00032.11": "1.40",
+      "00032.33": "1.05",
+      "00032.55": "1.40",
+      "00032.75": "1.08",
+      "00032.95": "1.40",
+      "00033.45": "1.00",
+      "00033.81": "1.40",
+      "00034.03": "1.05",
+      "00034.25": "1.40",
+      "00034.75": "1.00",
+      "00036.39": "1.40",
+      "00036.89": "1.00",
+      "00037.27": "1.40",
+      "00037.49": "1.05",
+      "00037.71": "1.40",
+      "00037.92": "1.07",
+      "00038.13": "1.40",
+      "00038.63": "1.00",
+      "00038.78": "1.40",
+      "00039.00": "1.05",
+      "00039.22": "1.40",
+      "00039.32": "1.23",
+      "00039.43": "1.40",
+      "00039.65": "1.05",
+      "00039.87": "1.40",
+      "00040.37": "1.00",
+      "00040.73": "1.40",
+      "00040.94": "1.07",
+      "00041.15": "1.40",
+      "00041.37": "1.05",
+      "00041.59": "1.40",
+      "00042.09": "1.00",
+      "00044.61": "1.40",
+      "00044.83": "1.05",
+      "00045.05": "1.40",
+      "00045.55": "1.00",
+      "00045.67": "1.40",
+      "00046.17": "1.00",
+      "00052.85": "1.40",
+      "00053.35": "1.00",
+      "00055.01": "1.40",
+      "00055.51": "1.00",
+      "00055.87": "1.40",
+      "00056.06": "1.08",
+      "00056.26": "1.40",
+      "00056.76": "1.00",
+      "00057.52": "1.40",
+      "00058.02": "1.00",
+      "00059.05": "1.40",
+      "00059.55": "1.00",
+      "00060.19": "1.40",
+      "00060.69": "1.00",
+      "00061.18": "1.40",
+      "00061.68": "1.00",
+      "00062.00": "1.40",
+      "00062.50": "1.00",
+      "00064.04": "1.40",
+      "00064.54": "1.00",
+      "00065.06": "1.40",
+      "00065.56": "1.00",
+      "00066.90": "1.40",
+      "00067.07": "1.12",
+      "00067.24": "1.40",
+      "00067.29": "1.33",
+      "00067.34": "1.40",
+      "00067.84": "1.00",
+      "00068.52": "1.40",
+      "00069.02": "1.00",
+      "00070.15": "1.40",
+      "00070.65": "1.00",
+      "00071.38": "1.40",
+      "00071.59": "1.07",
+      "00071.80": "1.40",
+      "00072.30": "1.00",
+      "00073.03": "1.40",
+      "00073.22": "1.08",
+      "00073.42": "1.40",
+      "00073.92": "1.00",
+      "00074.65": "1.40",
+      "00075.15": "1.00",
+      "00079.55": "1.40",
+      "00079.75": "1.08",
+      "00079.95": "1.40",
+      "00080.16": "1.07",
+      "00080.36": "1.40",
+      "00080.57": "1.07",
+      "00080.78": "1.40",
+      "00080.98": "1.08",
+      "00081.18": "1.40",
+      "00081.37": "1.08",
+      "00081.57": "1.40",
+      "00081.75": "1.12",
+      "00081.92": "1.40",
+      "00082.42": "1.00",
+      "00083.22": "1.40",
+      "00083.72": "1.00",
+      "00084.06": "1.40",
+      "00084.56": "1.00",
+      "00084.87": "1.40",
+      "00085.37": "1.00",
+      "00092.55": "1.40",
+      "00093.05": "1.00",
+      "00093.86": "1.40",
+      "00094.36": "1.00",
+      "00094.67": "1.40",
+      "00095.17": "1.00",
+      "00095.48": "1.40",
+      "00095.98": "1.00",
+      "00098.73": "1.40",
+      "00099.23": "1.00",
+      "00100.19": "1.40",
+      "00100.69": "1.00",
+      "00101.05": "1.40",
+      "00101.55": "1.00",
+      "00102.33": "1.40",
+      "00102.54": "1.07",
+      "00102.75": "1.40",
+      "00103.25": "1.00",
+      "00103.63": "1.40",
+      "00104.13": "1.00",
+      "00104.49": "1.40",
+      "00104.99": "1.00",
+      "00105.56": "1.40",
+      "00105.66": "1.23",
+      "00105.77": "1.40",
+      "00105.99": "1.05",
+      "00106.21": "1.40",
+      "00106.31": "1.23",
+      "00106.42": "1.40",
+      "00106.53": "1.21",
+      "00106.65": "1.40",
+      "00106.87": "1.05",
+      "00107.09": "1.40",
+      "00107.31": "1.05",
+      "00107.53": "1.40",
+      "00108.03": "1.00",
+      "00108.18": "1.40",
+      "00108.68": "1.00",
+      "00109.92": "1.40",
+      "00110.03": "1.23",
+      "00110.13": "1.40",
+      "00110.63": "1.00",
+      "00110.99": "1.40",
+      "00111.21": "1.05",
+      "00111.43": "1.40",
+      "00111.93": "1.00",
+      "00112.20": "1.40",
+      "00112.70": "1.00",
+      "00112.73": "1.40",
+      "00113.23": "1.00",
+      "00115.66": "1.40",
+      "00116.16": "1.00",
+      "00116.17": "1.40",
+      "00116.67": "1.00",
+      "00117.03": "1.40",
+      "00117.53": "1.00",
+      "00118.75": "1.40",
+      "00118.92": "1.12",
+      "00119.10": "1.40",
+      "00119.60": "1.00",
+      "00119.63": "1.40",
+      "00120.13": "1.00",
+      "00120.74": "1.40",
+      "00120.96": "1.05",
+      "00121.18": "1.40",
+      "00121.39": "1.07",
+      "00121.60": "1.40",
+      "00122.10": "1.00",
+      "00122.25": "1.40",
+      "00122.47": "1.05",
+      "00122.69": "1.40",
+      "00122.90": "1.07",
+      "00123.11": "1.40",
+      "00123.61": "1.00",
+      "00123.97": "1.40",
+      "00124.19": "1.05",
+      "00124.41": "1.40",
+      "00124.62": "1.07",
+      "00124.83": "1.40",
+      "00125.33": "1.00",
+      "00125.69": "1.40",
+      "00126.19": "1.00",
+      "00126.55": "1.40",
+      "00127.05": "1.00",
+      "00127.29": "1.40",
+      "00127.79": "1.00",
+      "00128.27": "1.40",
+      "00128.50": "1.03",
+      "00128.73": "1.40",
+      "00128.93": "1.08",
+      "00129.13": "1.40",
+      "00129.63": "1.00",
+      "00129.99": "1.40",
+      "00130.21": "1.05",
+      "00130.43": "1.40",
+      "00130.64": "1.07",
+      "00130.84": "1.40",
+      "00131.07": "1.05",
+      "00131.29": "1.40",
+      "00131.49": "1.07",
+      "00131.70": "1.40",
+      "00131.82": "1.21",
+      "00131.94": "1.40",
+      "00132.44": "1.00",
+      "00134.30": "1.40",
+      "00134.52": "1.05",
+      "00134.75": "1.40",
+      "00134.84": "1.25",
+      "00134.93": "1.40",
+      "00135.43": "1.00",
+      "00137.49": "1.40",
+      "00137.99": "1.00",
+      "00138.32": "1.40",
+      "00138.82": "1.00",
+      "00139.58": "1.40",
+      "00139.77": "1.08",
+      "00139.97": "1.40",
+      "00140.47": "1.00",
+      "00140.76": "1.40",
+      "00140.98": "1.05",
+      "00141.20": "1.40",
+      "00141.70": "1.00",
+      "00144.06": "1.40",
+      "00144.56": "1.00",
+      "00145.68": "1.40",
+      "00146.18": "1.00",
+      "00147.68": "1.40",
+      "00148.18": "1.00",
+      "00148.54": "1.40",
+      "00149.04": "1.00",
+      "00149.07": "1.40",
+      "00149.22": "1.16",
+      "00149.37": "1.40",
+      "00149.87": "1.00",
+      "00151.42": "1.40",
+      "00151.61": "1.08",
+      "00151.81": "1.40",
+      "00152.31": "1.00",
+      "00153.02": "1.40",
+      "00153.22": "1.08",
+      "00153.41": "1.40",
+      "00153.53": "1.21",
+      "00153.65": "1.40",
+      "00153.73": "1.27",
+      "00153.81": "1.40",
+      "00154.02": "1.07",
+      "00154.23": "1.40",
+      "00154.73": "1.00",
+      "00155.04": "1.40",
+      "00155.25": "1.07",
+      "00155.46": "1.40",
+      "00155.96": "1.00",
+      "00156.69": "1.40",
+      "00157.19": "1.00",
+      "00158.34": "1.40",
+      "00158.53": "1.08",
+      "00158.73": "1.40",
+      "00158.94": "1.07",
+      "00159.15": "1.40",
+      "00159.65": "1.00",
+      "00160.36": "1.40",
+      "00160.86": "1.00",
+      "00161.80": "1.40",
+      "00162.30": "1.00",
+      "00164.44": "1.40",
+      "00164.64": "1.08",
+      "00164.84": "1.40",
+      "00165.04": "1.08",
+      "00165.23": "1.40",
+      "00165.73": "1.00",
+      "00166.05": "1.40",
+      "00166.25": "1.07",
+      "00166.46": "1.40",
+      "00166.66": "1.08",
+      "00166.86": "1.40",
+      "00167.36": "1.00",
+      "00168.11": "1.40",
+      "00168.61": "1.00",
+      "00171.01": "1.40",
+      "00171.51": "1.00",
+      "00172.62": "1.40",
+      "00173.12": "1.00",
+      "00173.43": "1.40",
+      "00173.93": "1.00",
+      "00175.52": "1.40",
+      "00176.02": "1.00",
+      "00176.73": "1.40",
+      "00177.23": "1.00",
+      "00177.54": "1.40",
+      "00178.04": "1.00",
+      "00180.79": "1.40",
+      "00181.29": "1.00",
+      "00181.60": "1.40",
+      "00181.80": "1.08",
+      "00182.00": "1.40",
+      "00182.50": "1.00",
+      "00182.65": "1.40",
+      "00182.75": "1.23",
+      "00182.86": "1.40",
+      "00183.36": "1.00",
+      "00183.46": "1.40",
+      "00183.69": "1.03",
+      "00183.93": "1.40",
+      "00184.43": "1.00",
+      "00185.20": "1.40",
+      "00185.41": "1.07",
+      "00185.62": "1.40",
+      "00186.12": "1.00",
+      "00186.46": "1.40",
+      "00186.96": "1.00",
+      "00187.32": "1.40",
+      "00187.54": "1.05",
+      "00187.76": "1.40",
+      "00187.98": "1.05",
+      "00188.20": "1.40",
+      "00188.70": "1.00",
+      "00188.96": "1.40",
+      "00189.46": "1.00",
+      "00189.50": "1.40",
+      "00189.60": "1.23",
+      "00189.71": "1.40",
+      "00189.82": "1.21",
+      "00189.94": "1.40",
+      "00190.04": "1.23",
+      "00190.15": "1.40",
+      "00190.26": "1.21",
+      "00190.38": "1.40",
+      "00190.59": "1.07",
+      "00190.80": "1.40",
+      "00191.02": "1.05",
+      "00191.24": "1.40",
+      "00191.45": "1.07",
+      "00191.66": "1.40",
+      "00191.88": "1.05",
+      "00192.10": "1.40",
+      "00192.60": "1.00",
+      "00195.12": "1.40",
+      "00195.33": "1.07",
+      "00195.54": "1.40",
+      "00196.04": "1.00",
+      "00196.84": "1.40",
+      "00197.34": "1.00",
+      "00197.72": "1.40",
+      "00197.83": "1.21",
+      "00197.95": "1.40",
+      "00198.04": "1.25",
+      "00198.14": "1.40",
+      "00198.64": "1.00",
+      "00198.81": "1.40",
+      "00199.31": "1.00",
+      "00199.32": "1.40",
+      "00199.82": "1.00",
+      "00199.85": "1.40",
+      "00200.35": "1.00",
+      "00200.74": "1.40",
+      "00201.24": "1.00",
+      "00201.41": "1.40",
+      "00201.91": "1.00",
+      "00202.27": "1.40",
+      "00202.36": "1.25",
+      "00202.45": "1.40",
+      "00202.68": "1.05",
+      "00202.90": "1.40",
+      "00203.00": "1.23",
+      "00203.10": "1.40",
+      "00203.60": "1.00",
+      "00204.43": "1.40",
+      "00204.65": "1.05",
+      "00204.87": "1.40",
+      "00205.37": "1.00",
+      "00206.36": "1.40",
+      "00206.58": "1.05",
+      "00206.80": "1.40",
+      "00207.02": "1.05",
+      "00207.24": "1.40",
+      "00207.45": "1.07",
+      "00207.66": "1.40",
+      "00208.16": "1.00",
+      "00208.52": "1.40",
+      "00208.75": "1.03",
+      "00208.98": "1.40",
+      "00209.18": "1.08",
+      "00209.37": "1.40",
+      "00209.87": "1.00",
+      "00210.26": "1.40",
+      "00210.49": "1.03",
+      "00210.72": "1.40",
+      "00211.22": "1.00",
+      "00211.58": "1.40",
+      "00212.08": "1.00",
+      "00213.72": "1.40",
+      "00213.94": "1.05",
+      "00214.16": "1.40",
+      "00214.66": "1.00",
+      "00215.02": "1.40",
+      "00215.52": "1.00",
+      "00216.32": "1.40",
+      "00216.53": "1.07",
+      "00216.74": "1.40",
+      "00216.94": "1.07",
+      "00217.15": "1.40",
+      "00217.65": "1.00",
+      "00218.48": "1.40",
+      "00218.58": "1.23",
+      "00218.69": "1.40",
+      "00218.91": "1.05",
+      "00219.13": "1.40",
+      "00219.35": "1.05",
+      "00219.57": "1.40",
+      "00219.77": "1.08",
+      "00219.96": "1.40",
+      "00220.46": "1.00",
+      "00221.22": "1.40",
+      "00221.72": "1.00",
+      "00222.87": "1.40",
+      "00223.37": "1.00",
+      "00224.47": "1.40",
+      "00224.97": "1.00",
+      "00225.28": "1.40",
+      "00225.78": "1.00",
+      "00225.91": "1.40",
+      "00226.00": "1.25",
+      "00226.09": "1.40",
+      "00226.30": "1.07",
+      "00226.51": "1.40",
+      "00227.01": "1.00",
+      "00227.32": "1.40",
+      "00227.82": "1.00",
+      "00228.14": "1.40",
+      "00228.64": "1.00",
+      "00230.60": "1.40",
+      "00231.10": "1.00",
+      "00231.41": "1.40",
+      "00231.91": "1.00",
+      "00233.89": "1.40",
+      "00234.39": "1.00",
+      "00235.52": "1.40",
+      "00236.02": "1.00",
+      "00236.33": "1.40",
+      "00236.83": "1.00",
+      "00237.15": "1.40",
+      "00237.34": "1.08",
+      "00237.54": "1.40",
+      "00237.75": "1.07",
+      "00237.96": "1.40",
+      "00238.46": "1.00",
+      "00238.75": "1.40",
+      "00238.86": "1.21",
+      "00238.98": "1.40",
+      "00239.48": "1.00",
+      "00241.67": "1.40",
+      "00242.17": "1.00",
+      "00242.88": "1.40",
+      "00243.08": "1.08",
+      "00243.28": "1.40",
+      "00243.47": "1.08",
+      "00243.67": "1.40",
+      "00244.17": "1.00",
+      "00244.48": "1.40",
+      "00244.60": "1.21",
+      "00244.72": "1.40",
+      "00245.22": "1.00",
+      "00245.71": "1.40",
+      "00245.92": "1.07",
+      "00246.13": "1.40",
+      "00246.33": "1.08",
+      "00246.53": "1.40",
+      "00247.03": "1.00",
+      "00247.39": "1.40",
+      "00247.58": "1.08",
+      "00247.78": "1.40",
+      "00248.28": "1.00",
+      "00248.59": "1.40",
+      "00248.70": "1.23",
+      "00248.80": "1.40",
+      "00248.89": "1.25",
+      "00248.99": "1.40",
+      "00249.20": "1.07",
+      "00249.41": "1.40",
+      "00249.60": "1.08",
+      "00249.80": "1.40",
+      "00250.01": "1.07",
+      "00250.22": "1.40",
+      "00250.42": "1.08",
+      "00250.61": "1.40",
+      "00251.11": "1.00",
+      "00252.05": "1.40",
+      "00252.55": "1.00",
+      "00253.33": "1.40",
+      "00253.55": "1.05",
+      "00253.77": "1.40",
+      "00253.86": "1.25",
+      "00253.96": "1.40",
+      "00254.46": "1.00",
+      "00255.61": "1.40",
+      "00256.11": "1.00",
+      "00256.72": "1.40",
+      "00256.78": "1.31",
+      "00256.84": "1.40",
+      "00257.34": "1.00",
+      "00258.88": "1.40",
+      "00259.38": "1.00",
+      "00259.69": "1.40",
+      "00260.19": "1.00",
+      "00261.29": "1.40",
+      "00261.50": "1.07",
+      "00261.71": "1.40",
+      "00262.21": "1.00",
+      "00263.76": "1.40",
+      "00264.26": "1.00",
+      "00264.94": "1.40",
+      "00265.06": "1.21",
+      "00265.17": "1.40",
+      "00265.67": "1.00",
+      "00265.98": "1.40",
+      "00266.48": "1.00",
+      "00267.87": "1.40",
+      "00268.37": "1.00",
+      "00271.51": "1.40",
+      "00272.01": "1.00",
+      "00274.39": "1.40",
+      "00274.89": "1.00",
+      "00275.60": "1.40",
+      "00275.80": "1.08",
+      "00275.99": "1.40",
+      "00276.20": "1.07",
+      "00276.41": "1.40",
+      "00276.91": "1.00",
+      "00280.52": "1.40",
+      "00281.02": "1.00",
+      "00281.50": "1.40",
+      "00282.00": "1.00",
+      "00282.40": "1.40",
+      "00282.61": "1.07",
+      "00282.82": "1.40",
+      "00283.04": "1.05",
+      "00283.26": "1.40",
+      "00283.47": "1.07",
+      "00283.68": "1.40",
+      "00283.90": "1.05",
+      "00284.12": "1.40",
+      "00284.33": "1.07",
+      "00284.54": "1.40",
+      "00284.76": "1.05",
+      "00284.98": "1.40",
+      "00285.48": "1.00",
+      "00286.26": "1.40",
+      "00286.76": "1.00",
+      "00287.56": "1.40",
+      "00288.06": "1.00",
+      "00288.42": "1.40",
+      "00288.62": "1.07",
+      "00288.83": "1.40",
+      "00289.33": "1.00",
+      "00290.16": "1.40",
+      "00290.66": "1.00",
+      "00291.02": "1.40",
+      "00291.12": "1.23",
+      "00291.22": "1.40",
+      "00291.72": "1.00",
+      "00292.27": "1.40",
+      "00292.77": "1.00",
+      "00293.15": "1.40",
+      "00293.37": "1.05",
+      "00293.59": "1.40",
+      "00293.80": "1.07",
+      "00294.01": "1.40",
+      "00294.23": "1.05",
+      "00294.45": "1.40",
+      "00294.95": "1.00",
+      "00295.10": "1.40",
+      "00295.32": "1.05",
+      "00295.54": "1.40",
+      "00295.74": "1.08",
+      "00295.94": "1.40",
+      "00296.44": "1.00",
+      "00297.91": "1.40",
+      "00298.12": "1.07",
+      "00298.33": "1.40",
+      "00298.83": "1.00",
+      "00299.19": "1.40",
+      "00299.41": "1.05",
+      "00299.63": "1.40",
+      "00299.77": "1.18",
+      "00299.91": "1.40",
+      "00300.41": "1.00",
+      "00300.93": "1.40",
+      "00301.43": "1.00",
+      "00303.35": "1.40",
+      "00303.85": "1.00",
+      "00304.39": "1.40",
+      "00304.60": "1.07",
+      "00304.81": "1.40",
+      "00305.03": "1.05",
+      "00305.25": "1.40",
+      "00305.75": "1.00",
+      "00306.94": "1.40",
+      "00307.44": "1.00",
+      "00307.83": "1.40",
+      "00308.05": "1.05",
+      "00308.27": "1.40",
+      "00308.48": "1.07",
+      "00308.69": "1.40",
+      "00308.91": "1.05",
+      "00309.13": "1.40",
+      "00309.24": "1.21",
+      "00309.36": "1.40",
+      "00309.57": "1.07",
+      "00309.78": "1.40",
+      "00310.28": "1.00",
+      "00310.59": "1.40",
+      "00311.09": "1.00",
+      "00312.12": "1.40",
+      "00312.62": "1.00",
+      "00313.17": "1.40",
+      "00313.38": "1.07",
+      "00313.59": "1.40",
+      "00314.09": "1.00",
+      "00314.79": "1.40",
+      "00315.29": "1.00",
+      "00315.61": "1.40",
+      "00316.11": "1.00",
+      "00316.23": "1.40",
+      "00316.33": "1.25",
+      "00316.42": "1.40",
+      "00316.92": "1.00",
+      "00318.04": "1.40",
+      "00318.54": "1.00",
+      "00319.27": "1.40",
+      "00319.47": "1.08",
+      "00319.67": "1.40",
+      "00320.17": "1.00",
+      "00320.48": "1.40",
+      "00320.68": "1.08",
+      "00320.88": "1.40",
+      "00321.07": "1.08",
+      "00321.27": "1.40",
+      "00321.48": "1.07",
+      "00321.69": "1.40",
+      "00322.19": "1.00",
+      "00322.48": "1.40",
+      "00322.69": "1.07",
+      "00322.90": "1.40",
+      "00323.40": "1.00",
+      "00323.52": "1.40",
+      "00324.02": "1.00",
+      "00325.85": "1.40",
+      "00326.35": "1.00",
+      "00327.05": "1.40",
+      "00327.25": "1.08",
+      "00327.45": "1.40",
+      "00327.95": "1.00",
+      "00328.26": "1.40",
+      "00328.76": "1.00",
+      "00329.07": "1.40",
+      "00329.28": "1.07",
+      "00329.49": "1.40",
+      "00329.69": "1.08",
+      "00329.89": "1.40",
+      "00330.09": "1.07",
+      "00330.30": "1.40",
+      "00330.50": "1.08",
+      "00330.70": "1.40",
+      "00331.20": "1.00",
+      "00331.53": "1.40",
+      "00331.64": "1.23",
+      "00331.74": "1.40",
+      "00331.94": "1.08",
+      "00332.14": "1.40",
+      "00332.64": "1.00",
+      "00333.16": "1.40",
+      "00333.37": "1.07",
+      "00333.58": "1.40",
+      "00334.08": "1.00",
+      "00335.39": "1.40",
+      "00335.89": "1.00",
+      "00336.41": "1.40",
+      "00336.91": "1.00",
+      "00342.54": "1.40",
+      "00342.75": "1.07",
+      "00342.96": "1.40",
+      "00343.46": "1.00",
+      "00344.77": "1.40",
+      "00344.87": "1.23",
+      "00344.98": "1.40",
+      "00345.48": "1.00",
+      "00345.63": "1.40",
+      "00346.13": "1.00",
+      "00346.88": "1.40",
+      "00347.10": "1.05",
+      "00347.32": "1.40",
+      "00347.82": "1.00",
+      "00349.04": "1.40",
+      "00349.25": "1.07",
+      "00349.46": "1.40",
+      "00349.68": "1.05",
+      "00349.90": "1.40",
+      "00350.12": "1.05",
+      "00350.34": "1.40",
+      "00350.54": "1.08",
+      "00350.74": "1.40",
+      "00351.24": "1.00",
+      "00352.90": "1.40",
+      "00353.01": "1.21",
+      "00353.13": "1.40",
+      "00353.23": "1.23",
+      "00353.34": "1.40",
+      "00353.56": "1.05",
+      "00353.78": "1.40",
+      "00354.28": "1.00",
+      "00354.45": "1.40",
+      "00354.55": "1.25",
+      "00354.64": "1.40",
+      "00355.14": "1.00",
+      "00355.52": "1.40",
+      "00356.02": "1.00",
+      "00356.40": "1.40",
+      "00356.90": "1.00",
+      "00357.05": "1.40",
+      "00357.15": "1.25",
+      "00357.24": "1.40",
+      "00357.46": "1.05",
+      "00357.68": "1.40",
+      "00358.18": "1.00",
+      "00358.96": "1.40",
+      "00359.46": "1.00",
+      "00359.82": "1.40",
+      "00360.32": "1.00",
+      "00360.47": "1.40",
+      "00360.97": "1.00",
+      "00361.09": "1.40",
+      "00361.21": "1.21",
+      "00361.33": "1.40",
+      "00361.42": "1.25",
+      "00361.51": "1.40",
+      "00362.01": "1.00",
+      "00363.25": "1.40",
+      "00363.75": "1.00",
+      "00363.90": "1.40",
+      "00364.40": "1.00",
+      "00364.95": "1.40",
+      "00365.12": "1.12",
+      "00365.30": "1.40",
+      "00365.46": "1.14",
+      "00365.62": "1.40",
+      "00365.73": "1.23",
+      "00365.83": "1.40",
+      "00366.04": "1.07",
+      "00366.25": "1.40",
+      "00366.75": "1.00",
+      "00366.94": "1.40",
+      "00367.44": "1.00",
+      "00367.78": "1.40",
+      "00368.28": "1.00",
+      "00368.85": "1.40",
+      "00369.07": "1.05",
+      "00369.29": "1.40",
+      "00369.50": "1.07",
+      "00369.71": "1.40",
+      "00369.81": "1.23",
+      "00369.92": "1.40",
+      "00370.42": "1.00",
+      "00371.45": "1.40",
+      "00371.95": "1.00",
+      "00372.52": "1.40",
+      "00372.68": "1.14",
+      "00372.84": "1.40",
+      "00372.89": "1.33",
+      "00372.94": "1.40",
+      "00373.44": "1.00",
+      "00373.96": "1.40",
+      "00374.06": "1.23",
+      "00374.17": "1.40",
+      "00374.67": "1.00",
+      "00375.42": "1.40",
+      "00375.92": "1.00",
+      "00376.23": "1.40",
+      "00376.73": "1.00",
+      "00377.05": "1.40",
+      "00377.55": "1.00",
+      "00378.65": "1.40",
+      "00378.85": "1.08",
+      "00379.04": "1.40",
+      "00379.25": "1.07",
+      "00379.46": "1.40",
+      "00379.96": "1.00",
+      "00382.71": "1.40",
+      "00383.21": "1.00",
+      "00383.50": "1.40",
+      "00384.00": "1.00",
+      "00384.31": "1.40",
+      "00384.81": "1.00",
+      "00385.13": "1.40",
+      "00385.63": "1.00",
+      "00385.94": "1.40",
+      "00386.44": "1.00"
+    }
+  },
+  "estd_bpm": 143.5546875,
+  "style": "Mystic",
+  "full_transcript": {
+    "text": " Suspicion is your name, your honesty to pay, Predictability to say, it's not her. We touch modern day, Determination, decay, The place, disarray, disfigure. The public eyes, despise, define, commonplace, Unanity, faith, or taste, unanity. Dappening, painstaking, reckoning, This will echo in the spring. Shortest straw, talents, liberty, down by law, Living infamy, rapure, law. We jump right in through shortest straw, This shortest straw has been pulled for you. Pulled for you. Pulled for you. Pulled for you. Shortest straw has been pulled for you. Deaccusations lie, discrimination lie, Your inner self do die, intruding. Doubt sunk itself in you, it's to the talents though, No living guess to do deluding. A mass hysteria, a manualvania, Reveal dementia, free me all. Secretly, silently, certainly, Inverted though you will be. Shortest straw, talents, liberty, down by law, Living infamy, rapure, law. We jump right in through shortest straw, This shortest straw has been pulled for you. Pulled for you. Pulled for you. Pulled for you. Shortest straw has been pulled for you. Shortest straw. Pulled for you. Shortest straw. Pulled for you. Pulled for you. Shortest straw has been pulled for you. Behind you hands are tied, don't be ostracized. No hell is multiplied, avenging. The fall has begun, oppression damaged done. No money turned to none, to nothing. The origin yours not there, viewers disappear. The liars crystal clear, deep in the egg. Channels red, one word said. Blacklist dead, when for that y'all make you dead. Shortest straw. Talents liberty, done by law. Living infamy, rubbed you raw. We jump right in through shortest Shortest straw. This shortest straw has been pulled for you. Pulled for you.",
+    "segments": [
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 66.04,
+        "end": 71.8,
+        "text": " Suspicion is your name, your honesty to pay, Predictability to say, it's not her.",
+        "tokens": [
+          50364,
+          9545,
+          79,
+          18899,
+          307,
+          428,
+          1315,
+          11,
+          428,
+          26839,
+          281,
+          1689,
+          11,
+          430,
+          24945,
+          2310,
+          281,
+          584,
+          11,
+          309,
+          311,
+          406,
+          720,
+          13,
+          50714
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.5479699159279848,
+        "compression_ratio": 1.460122699386503,
+        "no_speech_prob": 0.5604534149169922,
+        "confidence": 0.478,
+        "words": [
+          {
+            "text": "Suspicion",
+            "start": 66.04,
+            "end": 66.62,
+            "confidence": 0.747
+          },
+          {
+            "text": "is",
+            "start": 66.62,
+            "end": 67.02,
+            "confidence": 0.967
+          },
+          {
+            "text": "your",
+            "start": 67.02,
+            "end": 67.34,
+            "confidence": 0.975
+          },
+          {
+            "text": "name,",
+            "start": 67.34,
+            "end": 67.6,
+            "confidence": 0.63
+          },
+          {
+            "text": "your",
+            "start": 67.88,
+            "end": 68.04,
+            "confidence": 0.827
+          },
+          {
+            "text": "honesty",
+            "start": 68.04,
+            "end": 68.54,
+            "confidence": 0.966
+          },
+          {
+            "text": "to",
+            "start": 68.54,
+            "end": 68.96,
+            "confidence": 0.278
+          },
+          {
+            "text": "pay,",
+            "start": 68.96,
+            "end": 69.22,
+            "confidence": 0.322
+          },
+          {
+            "text": "Predictability",
+            "start": 69.48,
+            "end": 70.22,
+            "confidence": 0.235
+          },
+          {
+            "text": "to",
+            "start": 70.22,
+            "end": 70.64,
+            "confidence": 0.81
+          },
+          {
+            "text": "say,",
+            "start": 70.64,
+            "end": 70.94,
+            "confidence": 0.479
+          },
+          {
+            "text": "it's",
+            "start": 71.1,
+            "end": 71.34,
+            "confidence": 0.47
+          },
+          {
+            "text": "not",
+            "start": 71.34,
+            "end": 71.44,
+            "confidence": 0.414
+          },
+          {
+            "text": "her.",
+            "start": 71.44,
+            "end": 71.8,
+            "confidence": 0.232
+          }
+        ],
+        "prompt": "Person being pulled down by a rope made of straw while surrounded by a group of onlookers pointing their accusing fingers."
+      },
+      {
+        "id": 1,
+        "seek": 0,
+        "start": 72.58,
+        "end": 78.16,
+        "text": " We touch modern day, Determination, decay, The place, disarray, disfigure.",
+        "tokens": [
+          50714,
+          492,
+          2557,
+          4363,
+          786,
+          11,
+          4237,
+          966,
+          2486,
+          11,
+          21039,
+          11,
+          440,
+          1081,
+          11,
+          717,
+          2284,
+          320,
+          11,
+          717,
+          20646,
+          540,
+          13,
+          51014
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.5479699159279848,
+        "compression_ratio": 1.460122699386503,
+        "no_speech_prob": 0.5604534149169922,
+        "confidence": 0.289,
+        "words": [
+          {
+            "text": "We",
+            "start": 72.58,
+            "end": 72.82,
+            "confidence": 0.211
+          },
+          {
+            "text": "touch",
+            "start": 72.82,
+            "end": 73.12,
+            "confidence": 0.168
+          },
+          {
+            "text": "modern",
+            "start": 73.12,
+            "end": 73.8,
+            "confidence": 0.857
+          },
+          {
+            "text": "day,",
+            "start": 73.8,
+            "end": 74.2,
+            "confidence": 0.583
+          },
+          {
+            "text": "Determination,",
+            "start": 74.32,
+            "end": 75.24,
+            "confidence": 0.115
+          },
+          {
+            "text": "decay,",
+            "start": 75.74,
+            "end": 75.82,
+            "confidence": 0.305
+          },
+          {
+            "text": "The",
+            "start": 75.98,
+            "end": 76.14,
+            "confidence": 0.124
+          },
+          {
+            "text": "place,",
+            "start": 76.14,
+            "end": 76.42,
+            "confidence": 0.103
+          },
+          {
+            "text": "disarray,",
+            "start": 76.54,
+            "end": 77.46,
+            "confidence": 0.888
+          },
+          {
+            "text": "disfigure.",
+            "start": 77.58,
+            "end": 78.16,
+            "confidence": 0.319
+          }
+        ],
+        "prompt": "A person in a downward spiral, their hands bound by rope as they are pulled further down towards an ominous abyss."
+      },
+      {
+        "id": 2,
+        "seek": 0,
+        "start": 79.06,
+        "end": 84.96,
+        "text": " The public eyes, despise, define, commonplace, Unanity, faith, or taste, unanity.",
+        "tokens": [
+          51014,
+          440,
+          1908,
+          2575,
+          11,
+          4887,
+          908,
+          11,
+          6964,
+          11,
+          2689,
+          6742,
+          11,
+          1156,
+          282,
+          507,
+          11,
+          4522,
+          11,
+          420,
+          3939,
+          11,
+          517,
+          282,
+          507,
+          13,
+          51364
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.5479699159279848,
+        "compression_ratio": 1.460122699386503,
+        "no_speech_prob": 0.5604534149169922,
+        "confidence": 0.309,
+        "words": [
+          {
+            "text": "The",
+            "start": 79.06,
+            "end": 79.28,
+            "confidence": 0.407
+          },
+          {
+            "text": "public",
+            "start": 79.28,
+            "end": 79.7,
+            "confidence": 0.975
+          },
+          {
+            "text": "eyes,",
+            "start": 79.7,
+            "end": 80.1,
+            "confidence": 0.195
+          },
+          {
+            "text": "despise,",
+            "start": 80.12,
+            "end": 80.72,
+            "confidence": 0.33
+          },
+          {
+            "text": "define,",
+            "start": 80.98,
+            "end": 81.28,
+            "confidence": 0.097
+          },
+          {
+            "text": "commonplace,",
+            "start": 81.84,
+            "end": 82.32,
+            "confidence": 0.29
+          },
+          {
+            "text": "Unanity,",
+            "start": 82.64,
+            "end": 82.98,
+            "confidence": 0.112
+          },
+          {
+            "text": "faith,",
+            "start": 82.98,
+            "end": 83.4,
+            "confidence": 0.621
+          },
+          {
+            "text": "or",
+            "start": 83.4,
+            "end": 83.68,
+            "confidence": 0.77
+          },
+          {
+            "text": "taste,",
+            "start": 83.68,
+            "end": 83.92,
+            "confidence": 0.773
+          },
+          {
+            "text": "unanity.",
+            "start": 84.2,
+            "end": 84.96,
+            "confidence": 0.478
+          }
+        ],
+        "prompt": "A person holding a straw with the other end tied around their wrist, being forced to draw it and accept the consequences."
+      },
+      {
+        "id": 3,
+        "seek": 2000,
+        "start": 85.94,
+        "end": 92.48,
+        "text": " Dappening, painstaking, reckoning, This will echo in the spring.",
+        "tokens": [
+          50364,
+          413,
+          1746,
+          4559,
+          11,
+          1822,
+          372,
+          2456,
+          11,
+          16374,
+          16638,
+          11,
+          639,
+          486,
+          14300,
+          294,
+          264,
+          5587,
+          13,
+          50714
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.45530232787132263,
+        "compression_ratio": 1.480263157894737,
+        "no_speech_prob": 0.48477837443351746,
+        "confidence": 0.172,
+        "words": [
+          {
+            "text": "Dappening,",
+            "start": 85.94,
+            "end": 87.72,
+            "confidence": 0.025
+          },
+          {
+            "text": "painstaking,",
+            "start": 88.06,
+            "end": 89.26,
+            "confidence": 0.758
+          },
+          {
+            "text": "reckoning,",
+            "start": 89.7,
+            "end": 90.5,
+            "confidence": 0.399
+          },
+          {
+            "text": "This",
+            "start": 90.64,
+            "end": 90.84,
+            "confidence": 0.007
+          },
+          {
+            "text": "will",
+            "start": 90.84,
+            "end": 91.1,
+            "confidence": 0.164
+          },
+          {
+            "text": "echo",
+            "start": 91.1,
+            "end": 91.48,
+            "confidence": 0.045
+          },
+          {
+            "text": "in",
+            "start": 91.48,
+            "end": 91.82,
+            "confidence": 0.359
+          },
+          {
+            "text": "the",
+            "start": 91.82,
+            "end": 91.98,
+            "confidence": 0.921
+          },
+          {
+            "text": "spring.",
+            "start": 91.98,
+            "end": 92.48,
+            "confidence": 0.348
+          }
+        ],
+        "prompt": "A person standing alone in a barren landscape, their arms outstretched and a single straw floating away in the wind."
+      },
+      {
+        "id": 4,
+        "seek": 2000,
+        "start": 106.73,
+        "end": 115.09,
+        "text": " Shortest straw, talents, liberty, down by law, Living infamy, rapure, law.",
+        "tokens": [
+          50714,
+          16881,
+          377,
+          10099,
+          11,
+          19933,
+          11,
+          22849,
+          11,
+          760,
+          538,
+          2101,
+          11,
+          18824,
+          1536,
+          7804,
+          11,
+          5099,
+          540,
+          11,
+          2101,
+          13,
+          51164
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.45530232787132263,
+        "compression_ratio": 1.480263157894737,
+        "no_speech_prob": 0.48477837443351746,
+        "confidence": 0.23,
+        "words": [
+          {
+            "text": "Shortest",
+            "start": 106.73,
+            "end": 107.71,
+            "confidence": 0.039
+          },
+          {
+            "text": "straw,",
+            "start": 107.71,
+            "end": 108.53,
+            "confidence": 0.031
+          },
+          {
+            "text": "talents,",
+            "start": 108.99,
+            "end": 109.37,
+            "confidence": 0.395
+          },
+          {
+            "text": "liberty,",
+            "start": 109.47,
+            "end": 110.45,
+            "confidence": 0.28
+          },
+          {
+            "text": "down",
+            "start": 110.71,
+            "end": 110.79,
+            "confidence": 0.484
+          },
+          {
+            "text": "by",
+            "start": 110.79,
+            "end": 111.01,
+            "confidence": 0.921
+          },
+          {
+            "text": "law,",
+            "start": 111.01,
+            "end": 111.83,
+            "confidence": 0.671
+          },
+          {
+            "text": "Living",
+            "start": 112.43,
+            "end": 112.81,
+            "confidence": 0.087
+          },
+          {
+            "text": "infamy,",
+            "start": 112.81,
+            "end": 113.95,
+            "confidence": 0.573
+          },
+          {
+            "text": "rapure,",
+            "start": 114.07,
+            "end": 114.67,
+            "confidence": 0.215
+          },
+          {
+            "text": "law.",
+            "start": 114.83,
+            "end": 115.09,
+            "confidence": 0.261
+          }
+        ],
+        "prompt": "Person being pulled by a rope tied to their hands, with a giant straw looming above them."
+      },
+      {
+        "id": 5,
+        "seek": 2000,
+        "start": 115.67,
+        "end": 122.07,
+        "text": " We jump right in through shortest straw, This shortest straw has been pulled for you.",
+        "tokens": [
+          51164,
+          492,
+          3012,
+          558,
+          294,
+          807,
+          31875,
+          10099,
+          11,
+          639,
+          31875,
+          10099,
+          575,
+          668,
+          7373,
+          337,
+          291,
+          13,
+          51514
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.45530232787132263,
+        "compression_ratio": 1.480263157894737,
+        "no_speech_prob": 0.48477837443351746,
+        "confidence": 0.352,
+        "words": [
+          {
+            "text": "We",
+            "start": 115.67,
+            "end": 115.97,
+            "confidence": 0.348
+          },
+          {
+            "text": "jump",
+            "start": 115.97,
+            "end": 116.27,
+            "confidence": 0.019
+          },
+          {
+            "text": "right",
+            "start": 116.27,
+            "end": 116.83,
+            "confidence": 0.379
+          },
+          {
+            "text": "in",
+            "start": 116.83,
+            "end": 117.09,
+            "confidence": 0.543
+          },
+          {
+            "text": "through",
+            "start": 117.09,
+            "end": 117.43,
+            "confidence": 0.914
+          },
+          {
+            "text": "shortest",
+            "start": 117.43,
+            "end": 117.87,
+            "confidence": 0.022
+          },
+          {
+            "text": "straw,",
+            "start": 117.87,
+            "end": 118.45,
+            "confidence": 0.255
+          },
+          {
+            "text": "This",
+            "start": 119.05,
+            "end": 119.21,
+            "confidence": 0.068
+          },
+          {
+            "text": "shortest",
+            "start": 119.21,
+            "end": 119.61,
+            "confidence": 0.982
+          },
+          {
+            "text": "straw",
+            "start": 119.61,
+            "end": 119.99,
+            "confidence": 0.994
+          },
+          {
+            "text": "has",
+            "start": 119.99,
+            "end": 120.29,
+            "confidence": 0.911
+          },
+          {
+            "text": "been",
+            "start": 120.29,
+            "end": 120.69,
+            "confidence": 0.997
+          },
+          {
+            "text": "pulled",
+            "start": 120.69,
+            "end": 121.15,
+            "confidence": 0.912
+          },
+          {
+            "text": "for",
+            "start": 121.15,
+            "end": 121.61,
+            "confidence": 0.984
+          },
+          {
+            "text": "you.",
+            "start": 121.61,
+            "end": 122.07,
+            "confidence": 0.46
+          }
+        ],
+        "prompt": "A person in the foreground, looking back with fear and anguish at a straw in the middle of a path they have been forced to take."
+      },
+      {
+        "id": 6,
+        "seek": 4300,
+        "start": 124.13,
+        "end": 125.89,
+        "text": " Pulled for you.",
+        "tokens": [
+          50414,
+          15074,
+          292,
+          337,
+          291,
+          13,
+          50564
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.3519436273819361,
+        "compression_ratio": 1.6357615894039734,
+        "no_speech_prob": 0.5249100923538208,
+        "confidence": 0.092,
+        "words": [
+          {
+            "text": "Pulled",
+            "start": 124.13,
+            "end": 125.13,
+            "confidence": 0.013
+          },
+          {
+            "text": "for",
+            "start": 125.13,
+            "end": 125.41,
+            "confidence": 0.67
+          },
+          {
+            "text": "you.",
+            "start": 125.41,
+            "end": 125.89,
+            "confidence": 0.244
+          }
+        ],
+        "prompt": "\"Vivid visual prompt"
+      },
+      {
+        "id": 7,
+        "seek": 4300,
+        "start": 127.5,
+        "end": 129.3,
+        "text": " Pulled for you.",
+        "tokens": [
+          50564,
+          15074,
+          292,
+          337,
+          291,
+          13,
+          50714
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.3519436273819361,
+        "compression_ratio": 1.6357615894039734,
+        "no_speech_prob": 0.5249100923538208,
+        "confidence": 0.051,
+        "words": [
+          {
+            "text": "Pulled",
+            "start": 127.5,
+            "end": 128.68,
+            "confidence": 0.006
+          },
+          {
+            "text": "for",
+            "start": 128.68,
+            "end": 128.88,
+            "confidence": 0.107
+          },
+          {
+            "text": "you.",
+            "start": 128.88,
+            "end": 129.3,
+            "confidence": 0.3
+          }
+        ],
+        "prompt": "A person in a dark room, being pulled into a bright light by a rope made of straw."
+      },
+      {
+        "id": 8,
+        "seek": 4300,
+        "start": 130.93,
+        "end": 132.59,
+        "text": " Pulled for you.",
+        "tokens": [
+          50714,
+          15074,
+          292,
+          337,
+          291,
+          13,
+          50864
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.3519436273819361,
+        "compression_ratio": 1.6357615894039734,
+        "no_speech_prob": 0.5249100923538208,
+        "confidence": 0.034,
+        "words": [
+          {
+            "text": "Pulled",
+            "start": 130.93,
+            "end": 132.13,
+            "confidence": 0.002
+          },
+          {
+            "text": "for",
+            "start": 132.13,
+            "end": 132.31,
+            "confidence": 0.053
+          },
+          {
+            "text": "you.",
+            "start": 132.31,
+            "end": 132.59,
+            "confidence": 0.393
+          }
+        ],
+        "prompt": "\"Vivid visual prompt"
+      },
+      {
+        "id": 9,
+        "seek": 4300,
+        "start": 132.95,
+        "end": 136.79,
+        "text": " Shortest straw has been pulled for you.",
+        "tokens": [
+          50864,
+          16881,
+          377,
+          10099,
+          575,
+          668,
+          7373,
+          337,
+          291,
+          13,
+          51064
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.3519436273819361,
+        "compression_ratio": 1.6357615894039734,
+        "no_speech_prob": 0.5249100923538208,
+        "confidence": 0.225,
+        "words": [
+          {
+            "text": "Shortest",
+            "start": 132.95,
+            "end": 134.51,
+            "confidence": 0.044
+          },
+          {
+            "text": "straw",
+            "start": 134.51,
+            "end": 134.69,
+            "confidence": 0.117
+          },
+          {
+            "text": "has",
+            "start": 134.69,
+            "end": 135.07,
+            "confidence": 0.049
+          },
+          {
+            "text": "been",
+            "start": 135.07,
+            "end": 135.47,
+            "confidence": 0.989
+          },
+          {
+            "text": "pulled",
+            "start": 135.47,
+            "end": 135.77,
+            "confidence": 0.939
+          },
+          {
+            "text": "for",
+            "start": 135.77,
+            "end": 136.23,
+            "confidence": 0.97
+          },
+          {
+            "text": "you.",
+            "start": 136.23,
+            "end": 136.79,
+            "confidence": 0.386
+          }
+        ],
+        "prompt": "A figure being yanked downward with a rope around their neck, surrounded by a crowd of people jeering."
+      },
+      {
+        "id": 10,
+        "seek": 4300,
+        "start": 149.23,
+        "end": 155.31,
+        "text": " Deaccusations lie, discrimination lie, Your inner self do die, intruding.",
+        "tokens": [
+          51064,
+          1346,
+          326,
+          1149,
+          763,
+          4544,
+          11,
+          15973,
+          4544,
+          11,
+          2260,
+          7284,
+          2698,
+          360,
+          978,
+          11,
+          17467,
+          33703,
+          13,
+          51364
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.3519436273819361,
+        "compression_ratio": 1.6357615894039734,
+        "no_speech_prob": 0.5249100923538208,
+        "confidence": 0.316,
+        "words": [
+          {
+            "text": "Deaccusations",
+            "start": 149.23,
+            "end": 150.91,
+            "confidence": 0.189
+          },
+          {
+            "text": "lie,",
+            "start": 150.91,
+            "end": 151.35,
+            "confidence": 0.157
+          },
+          {
+            "text": "discrimination",
+            "start": 151.55,
+            "end": 152.49,
+            "confidence": 0.435
+          },
+          {
+            "text": "lie,",
+            "start": 152.49,
+            "end": 152.89,
+            "confidence": 0.468
+          },
+          {
+            "text": "Your",
+            "start": 153.11,
+            "end": 153.27,
+            "confidence": 0.103
+          },
+          {
+            "text": "inner",
+            "start": 153.27,
+            "end": 153.51,
+            "confidence": 0.92
+          },
+          {
+            "text": "self",
+            "start": 153.51,
+            "end": 153.85,
+            "confidence": 0.947
+          },
+          {
+            "text": "do",
+            "start": 153.85,
+            "end": 154.19,
+            "confidence": 0.357
+          },
+          {
+            "text": "die,",
+            "start": 154.19,
+            "end": 154.61,
+            "confidence": 0.759
+          },
+          {
+            "text": "intruding.",
+            "start": 154.71,
+            "end": 155.31,
+            "confidence": 0.259
+          }
+        ],
+        "prompt": "A person with their arms and legs bound, being pulled along by an invisible force."
+      },
+      {
+        "id": 11,
+        "seek": 4300,
+        "start": 156.21,
+        "end": 161.67,
+        "text": " Doubt sunk itself in you, it's to the talents though, No living guess to do deluding.",
+        "tokens": [
+          51364,
+          13200,
+          4517,
+          40564,
+          2564,
+          294,
+          291,
+          11,
+          309,
+          311,
+          281,
+          264,
+          19933,
+          1673,
+          11,
+          883,
+          2647,
+          2041,
+          281,
+          360,
+          1103,
+          33703,
+          13,
+          51714
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.3519436273819361,
+        "compression_ratio": 1.6357615894039734,
+        "no_speech_prob": 0.5249100923538208,
+        "confidence": 0.209,
+        "words": [
+          {
+            "text": "Doubt",
+            "start": 156.21,
+            "end": 156.51,
+            "confidence": 0.139
+          },
+          {
+            "text": "sunk",
+            "start": 156.51,
+            "end": 156.71,
+            "confidence": 0.0
+          },
+          {
+            "text": "itself",
+            "start": 156.71,
+            "end": 157.21,
+            "confidence": 0.184
+          },
+          {
+            "text": "in",
+            "start": 157.21,
+            "end": 157.55,
+            "confidence": 0.916
+          },
+          {
+            "text": "you,",
+            "start": 157.55,
+            "end": 157.83,
+            "confidence": 0.544
+          },
+          {
+            "text": "it's",
+            "start": 158.03,
+            "end": 158.19,
+            "confidence": 0.761
+          },
+          {
+            "text": "to",
+            "start": 158.19,
+            "end": 158.31,
+            "confidence": 0.237
+          },
+          {
+            "text": "the",
+            "start": 158.31,
+            "end": 158.57,
+            "confidence": 0.935
+          },
+          {
+            "text": "talents",
+            "start": 158.57,
+            "end": 159.05,
+            "confidence": 0.588
+          },
+          {
+            "text": "though,",
+            "start": 159.05,
+            "end": 159.41,
+            "confidence": 0.36
+          },
+          {
+            "text": "No",
+            "start": 159.61,
+            "end": 159.77,
+            "confidence": 0.023
+          },
+          {
+            "text": "living",
+            "start": 159.77,
+            "end": 160.07,
+            "confidence": 0.802
+          },
+          {
+            "text": "guess",
+            "start": 160.07,
+            "end": 160.53,
+            "confidence": 0.649
+          },
+          {
+            "text": "to",
+            "start": 160.53,
+            "end": 160.77,
+            "confidence": 0.278
+          },
+          {
+            "text": "do",
+            "start": 160.77,
+            "end": 161.13,
+            "confidence": 0.092
+          },
+          {
+            "text": "deluding.",
+            "start": 161.13,
+            "end": 161.67,
+            "confidence": 0.112
+          }
+        ],
+        "prompt": "Person struggling to break free from a rope shaped like a straw."
+      },
+      {
+        "id": 12,
+        "seek": 7000,
+        "start": 161.67,
+        "end": 168.61,
+        "text": " A mass hysteria, a manualvania, Reveal dementia, free me all.",
+        "tokens": [
+          50364,
+          316,
+          2758,
+          35915,
+          654,
+          11,
+          257,
+          9688,
+          47542,
+          11,
+          1300,
+          303,
+          304,
+          31734,
+          11,
+          1737,
+          385,
+          439,
+          13,
+          50714
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.2389414740390465,
+        "compression_ratio": 1.3611111111111112,
+        "no_speech_prob": 0.08366073668003082,
+        "confidence": 0.26,
+        "words": [
+          {
+            "text": "A",
+            "start": 161.67,
+            "end": 163.03,
+            "confidence": 0.05
+          },
+          {
+            "text": "mass",
+            "start": 163.03,
+            "end": 163.33,
+            "confidence": 0.532
+          },
+          {
+            "text": "hysteria,",
+            "start": 163.33,
+            "end": 164.37,
+            "confidence": 0.805
+          },
+          {
+            "text": "a",
+            "start": 164.63,
+            "end": 164.73,
+            "confidence": 0.901
+          },
+          {
+            "text": "manualvania,",
+            "start": 164.73,
+            "end": 165.91,
+            "confidence": 0.119
+          },
+          {
+            "text": "Reveal",
+            "start": 166.19,
+            "end": 166.49,
+            "confidence": 0.17
+          },
+          {
+            "text": "dementia,",
+            "start": 166.49,
+            "end": 167.45,
+            "confidence": 0.59
+          },
+          {
+            "text": "free",
+            "start": 167.73,
+            "end": 167.99,
+            "confidence": 0.037
+          },
+          {
+            "text": "me",
+            "start": 167.99,
+            "end": 168.25,
+            "confidence": 0.092
+          },
+          {
+            "text": "all.",
+            "start": 168.25,
+            "end": 168.61,
+            "confidence": 0.499
+          }
+        ],
+        "prompt": "A massive hand reaching out from a dark sky, pulling a straw from a group of people below, their expressions displaying fear and anxiety."
+      },
+      {
+        "id": 13,
+        "seek": 7000,
+        "start": 169.85,
+        "end": 176.25,
+        "text": " Secretly, silently, certainly, Inverted though you will be.",
+        "tokens": [
+          50714,
+          7400,
+          356,
+          11,
+          40087,
+          11,
+          3297,
+          11,
+          682,
+          18537,
+          1673,
+          291,
+          486,
+          312,
+          13,
+          51064
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.2389414740390465,
+        "compression_ratio": 1.3611111111111112,
+        "no_speech_prob": 0.08366073668003082,
+        "confidence": 0.573,
+        "words": [
+          {
+            "text": "Secretly,",
+            "start": 169.85,
+            "end": 171.25,
+            "confidence": 0.664
+          },
+          {
+            "text": "silently,",
+            "start": 171.71,
+            "end": 172.57,
+            "confidence": 0.839
+          },
+          {
+            "text": "certainly,",
+            "start": 173.29,
+            "end": 174.13,
+            "confidence": 0.668
+          },
+          {
+            "text": "Inverted",
+            "start": 174.47,
+            "end": 174.85,
+            "confidence": 0.153
+          },
+          {
+            "text": "though",
+            "start": 174.85,
+            "end": 175.15,
+            "confidence": 0.688
+          },
+          {
+            "text": "you",
+            "start": 175.15,
+            "end": 175.45,
+            "confidence": 0.99
+          },
+          {
+            "text": "will",
+            "start": 175.45,
+            "end": 175.73,
+            "confidence": 0.974
+          },
+          {
+            "text": "be.",
+            "start": 175.73,
+            "end": 176.25,
+            "confidence": 0.538
+          }
+        ],
+        "prompt": "Person tied to a chair, struggling to free themselves as a short straw is pulled away."
+      },
+      {
+        "id": 14,
+        "seek": 7000,
+        "start": 190.53,
+        "end": 198.83,
+        "text": " Shortest straw, talents, liberty, down by law, Living infamy, rapure, law.",
+        "tokens": [
+          51064,
+          16881,
+          377,
+          10099,
+          11,
+          19933,
+          11,
+          22849,
+          11,
+          760,
+          538,
+          2101,
+          11,
+          18824,
+          1536,
+          7804,
+          11,
+          5099,
+          540,
+          11,
+          2101,
+          13,
+          51514
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.2389414740390465,
+        "compression_ratio": 1.3611111111111112,
+        "no_speech_prob": 0.08366073668003082,
+        "confidence": 0.133,
+        "words": [
+          {
+            "text": "Shortest",
+            "start": 190.53,
+            "end": 191.45,
+            "confidence": 0.03
+          },
+          {
+            "text": "straw,",
+            "start": 191.45,
+            "end": 192.29,
+            "confidence": 0.055
+          },
+          {
+            "text": "talents,",
+            "start": 192.69,
+            "end": 193.09,
+            "confidence": 0.335
+          },
+          {
+            "text": "liberty,",
+            "start": 193.27,
+            "end": 194.07,
+            "confidence": 0.614
+          },
+          {
+            "text": "down",
+            "start": 194.41,
+            "end": 194.47,
+            "confidence": 0.36
+          },
+          {
+            "text": "by",
+            "start": 194.47,
+            "end": 194.71,
+            "confidence": 0.914
+          },
+          {
+            "text": "law,",
+            "start": 194.71,
+            "end": 195.57,
+            "confidence": 0.706
+          },
+          {
+            "text": "Living",
+            "start": 196.13,
+            "end": 196.47,
+            "confidence": 0.082
+          },
+          {
+            "text": "infamy,",
+            "start": 196.47,
+            "end": 197.59,
+            "confidence": 0.216
+          },
+          {
+            "text": "rapure,",
+            "start": 197.77,
+            "end": 198.35,
+            "confidence": 0.015
+          },
+          {
+            "text": "law.",
+            "start": 198.55,
+            "end": 198.83,
+            "confidence": 0.091
+          }
+        ],
+        "prompt": "Person being pulled by a rope made of straw, struggling against it in a state of despair."
+      },
+      {
+        "id": 15,
+        "seek": 9300,
+        "start": 199.37,
+        "end": 205.87,
+        "text": " We jump right in through shortest straw, This shortest straw has been pulled for you.",
+        "tokens": [
+          50364,
+          492,
+          3012,
+          558,
+          294,
+          807,
+          31875,
+          10099,
+          11,
+          639,
+          31875,
+          10099,
+          575,
+          668,
+          7373,
+          337,
+          291,
+          13,
+          50714
+        ],
+        "temperature": 0.8,
+        "avg_logprob": -0.11466639896608749,
+        "compression_ratio": 2.0352941176470587,
+        "no_speech_prob": 0.2606484591960907,
+        "confidence": 0.184,
+        "words": [
+          {
+            "text": "We",
+            "start": 199.37,
+            "end": 199.63,
+            "confidence": 0.553
+          },
+          {
+            "text": "jump",
+            "start": 199.63,
+            "end": 199.99,
+            "confidence": 0.0
+          },
+          {
+            "text": "right",
+            "start": 199.99,
+            "end": 200.53,
+            "confidence": 0.353
+          },
+          {
+            "text": "in",
+            "start": 200.53,
+            "end": 200.77,
+            "confidence": 0.566
+          },
+          {
+            "text": "through",
+            "start": 200.77,
+            "end": 201.13,
+            "confidence": 0.869
+          },
+          {
+            "text": "shortest",
+            "start": 201.13,
+            "end": 201.59,
+            "confidence": 0.001
+          },
+          {
+            "text": "straw,",
+            "start": 201.59,
+            "end": 202.23,
+            "confidence": 0.052
+          },
+          {
+            "text": "This",
+            "start": 202.73,
+            "end": 202.91,
+            "confidence": 0.051
+          },
+          {
+            "text": "shortest",
+            "start": 202.91,
+            "end": 203.23,
+            "confidence": 0.955
+          },
+          {
+            "text": "straw",
+            "start": 203.23,
+            "end": 203.69,
+            "confidence": 0.873
+          },
+          {
+            "text": "has",
+            "start": 203.69,
+            "end": 204.05,
+            "confidence": 0.789
+          },
+          {
+            "text": "been",
+            "start": 204.05,
+            "end": 204.37,
+            "confidence": 0.989
+          },
+          {
+            "text": "pulled",
+            "start": 204.37,
+            "end": 204.87,
+            "confidence": 0.951
+          },
+          {
+            "text": "for",
+            "start": 204.87,
+            "end": 205.31,
+            "confidence": 0.983
+          },
+          {
+            "text": "you.",
+            "start": 205.31,
+            "end": 205.87,
+            "confidence": 0.487
+          }
+        ],
+        "prompt": "A straw being tugged down, with a gripping hand, until the straw is completely pulled out."
+      },
+      {
+        "id": 16,
+        "seek": 9300,
+        "start": 207.81,
+        "end": 209.55,
+        "text": " Pulled for you.",
+        "tokens": [
+          50714,
+          15074,
+          292,
+          337,
+          291,
+          13,
+          50914
+        ],
+        "temperature": 0.8,
+        "avg_logprob": -0.11466639896608749,
+        "compression_ratio": 2.0352941176470587,
+        "no_speech_prob": 0.2606484591960907,
+        "confidence": 0.091,
+        "words": [
+          {
+            "text": "Pulled",
+            "start": 207.81,
+            "end": 208.87,
+            "confidence": 0.01
+          },
+          {
+            "text": "for",
+            "start": 208.87,
+            "end": 209.13,
+            "confidence": 0.564
+          },
+          {
+            "text": "you.",
+            "start": 209.13,
+            "end": 209.55,
+            "confidence": 0.316
+          }
+        ],
+        "prompt": "\"Vivid visual prompt"
+      },
+      {
+        "id": 17,
+        "seek": 9300,
+        "start": 211.21,
+        "end": 212.97,
+        "text": " Pulled for you.",
+        "tokens": [
+          50914,
+          15074,
+          292,
+          337,
+          291,
+          13,
+          51064
+        ],
+        "temperature": 0.8,
+        "avg_logprob": -0.11466639896608749,
+        "compression_ratio": 2.0352941176470587,
+        "no_speech_prob": 0.2606484591960907,
+        "confidence": 0.091,
+        "words": [
+          {
+            "text": "Pulled",
+            "start": 211.21,
+            "end": 212.39,
+            "confidence": 0.019
+          },
+          {
+            "text": "for",
+            "start": 212.39,
+            "end": 212.53,
+            "confidence": 0.157
+          },
+          {
+            "text": "you.",
+            "start": 212.53,
+            "end": 212.97,
+            "confidence": 0.339
+          }
+        ],
+        "prompt": "A person being pulled by an invisible force, with their hands bound behind their back and an expression of despair on their face."
+      },
+      {
+        "id": 18,
+        "seek": 9300,
+        "start": 214.64,
+        "end": 216.25,
+        "text": " Pulled for you.",
+        "tokens": [
+          51064,
+          15074,
+          292,
+          337,
+          291,
+          13,
+          51214
+        ],
+        "temperature": 0.8,
+        "avg_logprob": -0.11466639896608749,
+        "compression_ratio": 2.0352941176470587,
+        "no_speech_prob": 0.2606484591960907,
+        "confidence": 0.013,
+        "words": [
+          {
+            "text": "Pulled",
+            "start": 214.64,
+            "end": 215.65,
+            "confidence": 0.002
+          },
+          {
+            "text": "for",
+            "start": 215.65,
+            "end": 216.23,
+            "confidence": 0.005
+          },
+          {
+            "text": "you.",
+            "start": 216.23,
+            "end": 216.25,
+            "confidence": 0.135
+          }
+        ],
+        "prompt": "\"Vivid visual prompt"
+      },
+      {
+        "id": 19,
+        "seek": 9300,
+        "start": 217.45,
+        "end": 220.47,
+        "text": " Shortest straw has been pulled for you.",
+        "tokens": [
+          51214,
+          16881,
+          377,
+          10099,
+          575,
+          668,
+          7373,
+          337,
+          291,
+          13,
+          51414
+        ],
+        "temperature": 0.8,
+        "avg_logprob": -0.11466639896608749,
+        "compression_ratio": 2.0352941176470587,
+        "no_speech_prob": 0.2606484591960907,
+        "confidence": 0.577,
+        "words": [
+          {
+            "text": "Shortest",
+            "start": 217.45,
+            "end": 218.11,
+            "confidence": 0.293
+          },
+          {
+            "text": "straw",
+            "start": 218.11,
+            "end": 218.37,
+            "confidence": 0.76
+          },
+          {
+            "text": "has",
+            "start": 218.37,
+            "end": 218.71,
+            "confidence": 0.866
+          },
+          {
+            "text": "been",
+            "start": 218.71,
+            "end": 219.05,
+            "confidence": 0.995
+          },
+          {
+            "text": "pulled",
+            "start": 219.05,
+            "end": 219.45,
+            "confidence": 0.876
+          },
+          {
+            "text": "for",
+            "start": 219.45,
+            "end": 219.91,
+            "confidence": 0.984
+          },
+          {
+            "text": "you.",
+            "start": 219.91,
+            "end": 220.47,
+            "confidence": 0.382
+          }
+        ],
+        "prompt": "A figure with a noose around their neck, being pulled up as if they are being hanged, with a short piece of straw held in their hand."
+      },
+      {
+        "id": 20,
+        "seek": 11400,
+        "start": 281.3,
+        "end": 282.72,
+        "text": " Shortest straw.",
+        "tokens": [
+          50364,
+          16881,
+          377,
+          10099,
+          13,
+          50464
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.23545226230416247,
+        "compression_ratio": 1.7625,
+        "no_speech_prob": 0.22289875149726868,
+        "confidence": 0.01,
+        "words": [
+          {
+            "text": "Shortest",
+            "start": 281.3,
+            "end": 282.24,
+            "confidence": 0.011
+          },
+          {
+            "text": "straw.",
+            "start": 282.24,
+            "end": 282.72,
+            "confidence": 0.01
+          }
+        ],
+        "prompt": "A person tied up in a rope, struggling to break out, with a straw hovering in the background."
+      },
+      {
+        "id": 21,
+        "seek": 11400,
+        "start": 284.08,
+        "end": 285.34,
+        "text": " Pulled for you.",
+        "tokens": [
+          50464,
+          15074,
+          292,
+          337,
+          291,
+          13,
+          50564
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.23545226230416247,
+        "compression_ratio": 1.7625,
+        "no_speech_prob": 0.22289875149726868,
+        "confidence": 0.156,
+        "words": [
+          {
+            "text": "Pulled",
+            "start": 284.08,
+            "end": 284.86,
+            "confidence": 0.042
+          },
+          {
+            "text": "for",
+            "start": 284.86,
+            "end": 285.14,
+            "confidence": 0.538
+          },
+          {
+            "text": "you.",
+            "start": 285.14,
+            "end": 285.34,
+            "confidence": 0.308
+          }
+        ],
+        "prompt": "\"Vivid visual prompt"
+      },
+      {
+        "id": 22,
+        "seek": 11400,
+        "start": 285.34,
+        "end": 286.34,
+        "text": " Shortest straw.",
+        "tokens": [
+          50564,
+          16881,
+          377,
+          10099,
+          13,
+          50664
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.23545226230416247,
+        "compression_ratio": 1.7625,
+        "no_speech_prob": 0.22289875149726868,
+        "confidence": 0.001,
+        "words": [
+          {
+            "text": "Shortest",
+            "start": 285.34,
+            "end": 286.32,
+            "confidence": 0.0
+          },
+          {
+            "text": "straw.",
+            "start": 286.32,
+            "end": 286.34,
+            "confidence": 0.002
+          }
+        ],
+        "prompt": "A figure with arms tied behind their back being dragged along by an invisible force."
+      },
+      {
+        "id": 23,
+        "seek": 11400,
+        "start": 287.75,
+        "end": 288.69,
+        "text": " Pulled for you.",
+        "tokens": [
+          50664,
+          15074,
+          292,
+          337,
+          291,
+          13,
+          50764
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.23545226230416247,
+        "compression_ratio": 1.7625,
+        "no_speech_prob": 0.22289875149726868,
+        "confidence": 0.018,
+        "words": [
+          {
+            "text": "Pulled",
+            "start": 287.75,
+            "end": 288.37,
+            "confidence": 0.003
+          },
+          {
+            "text": "for",
+            "start": 288.37,
+            "end": 288.45,
+            "confidence": 0.008
+          },
+          {
+            "text": "you.",
+            "start": 288.45,
+            "end": 288.69,
+            "confidence": 0.145
+          }
+        ],
+        "prompt": "\"Vivid visual prompt"
+      },
+      {
+        "id": 24,
+        "seek": 11400,
+        "start": 290.67,
+        "end": 292.21,
+        "text": " Pulled for you.",
+        "tokens": [
+          50764,
+          15074,
+          292,
+          337,
+          291,
+          13,
+          50864
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.23545226230416247,
+        "compression_ratio": 1.7625,
+        "no_speech_prob": 0.22289875149726868,
+        "confidence": 0.095,
+        "words": [
+          {
+            "text": "Pulled",
+            "start": 290.67,
+            "end": 291.77,
+            "confidence": 0.02
+          },
+          {
+            "text": "for",
+            "start": 291.77,
+            "end": 291.93,
+            "confidence": 0.225
+          },
+          {
+            "text": "you.",
+            "start": 291.93,
+            "end": 292.21,
+            "confidence": 0.294
+          }
+        ],
+        "prompt": "\"Vivid visual prompt"
+      },
+      {
+        "id": 25,
+        "seek": 11400,
+        "start": 292.27,
+        "end": 296.53,
+        "text": " Shortest straw has been pulled for you.",
+        "tokens": [
+          50864,
+          16881,
+          377,
+          10099,
+          575,
+          668,
+          7373,
+          337,
+          291,
+          13,
+          51064
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.23545226230416247,
+        "compression_ratio": 1.7625,
+        "no_speech_prob": 0.22289875149726868,
+        "confidence": 0.234,
+        "words": [
+          {
+            "text": "Shortest",
+            "start": 292.27,
+            "end": 294.11,
+            "confidence": 0.007
+          },
+          {
+            "text": "straw",
+            "start": 294.11,
+            "end": 294.37,
+            "confidence": 0.468
+          },
+          {
+            "text": "has",
+            "start": 294.37,
+            "end": 294.69,
+            "confidence": 0.598
+          },
+          {
+            "text": "been",
+            "start": 294.69,
+            "end": 295.07,
+            "confidence": 0.995
+          },
+          {
+            "text": "pulled",
+            "start": 295.07,
+            "end": 295.53,
+            "confidence": 0.943
+          },
+          {
+            "text": "for",
+            "start": 295.53,
+            "end": 296.07,
+            "confidence": 0.989
+          },
+          {
+            "text": "you.",
+            "start": 296.07,
+            "end": 296.53,
+            "confidence": 0.433
+          }
+        ],
+        "prompt": "A figure with tightly bound hands, struggling to reach a pile of straw, in front of a wall of accusers and onlookers."
+      },
+      {
+        "id": 26,
+        "seek": 11400,
+        "start": 312.1,
+        "end": 315.44,
+        "text": " Behind you hands are tied, don't be ostracized.",
+        "tokens": [
+          51064,
+          20475,
+          291,
+          2377,
+          366,
+          9601,
+          11,
+          500,
+          380,
+          312,
+          44024,
+          326,
+          1602,
+          13,
+          51264
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.23545226230416247,
+        "compression_ratio": 1.7625,
+        "no_speech_prob": 0.22289875149726868,
+        "confidence": 0.453,
+        "words": [
+          {
+            "text": "Behind",
+            "start": 312.1,
+            "end": 312.7,
+            "confidence": 0.092
+          },
+          {
+            "text": "you",
+            "start": 312.7,
+            "end": 312.98,
+            "confidence": 0.729
+          },
+          {
+            "text": "hands",
+            "start": 312.98,
+            "end": 313.3,
+            "confidence": 0.654
+          },
+          {
+            "text": "are",
+            "start": 313.3,
+            "end": 313.66,
+            "confidence": 0.283
+          },
+          {
+            "text": "tied,",
+            "start": 313.66,
+            "end": 313.94,
+            "confidence": 0.695
+          },
+          {
+            "text": "don't",
+            "start": 314.14,
+            "end": 314.36,
+            "confidence": 0.172
+          },
+          {
+            "text": "be",
+            "start": 314.36,
+            "end": 314.62,
+            "confidence": 0.919
+          },
+          {
+            "text": "ostracized.",
+            "start": 314.62,
+            "end": 315.44,
+            "confidence": 0.674
+          }
+        ],
+        "prompt": "A person standing in the center of a tight circle of people, struggling to break free, hands tied behind their back."
+      },
+      {
+        "id": 27,
+        "seek": 11400,
+        "start": 315.54,
+        "end": 317.78,
+        "text": " No hell is multiplied, avenging.",
+        "tokens": [
+          51264,
+          883,
+          4921,
+          307,
+          17207,
+          11,
+          18469,
+          3249,
+          13,
+          51414
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.23545226230416247,
+        "compression_ratio": 1.7625,
+        "no_speech_prob": 0.22289875149726868,
+        "confidence": 0.154,
+        "words": [
+          {
+            "text": "No",
+            "start": 315.54,
+            "end": 315.86,
+            "confidence": 0.038
+          },
+          {
+            "text": "hell",
+            "start": 315.86,
+            "end": 316.04,
+            "confidence": 0.212
+          },
+          {
+            "text": "is",
+            "start": 316.04,
+            "end": 316.22,
+            "confidence": 0.157
+          },
+          {
+            "text": "multiplied,",
+            "start": 316.22,
+            "end": 317.12,
+            "confidence": 0.271
+          },
+          {
+            "text": "avenging.",
+            "start": 317.38,
+            "end": 317.78,
+            "confidence": 0.151
+          }
+        ],
+        "prompt": "A figure in a tattered cloak walking away from a giant straw with a sign on it reading \"PULLED FOR YOU\"."
+      },
+      {
+        "id": 28,
+        "seek": 11400,
+        "start": 318.76,
+        "end": 321.46,
+        "text": " The fall has begun, oppression damaged done.",
+        "tokens": [
+          51414,
+          440,
+          2100,
+          575,
+          16009,
+          11,
+          27337,
+          14080,
+          1096,
+          13,
+          51564
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.23545226230416247,
+        "compression_ratio": 1.7625,
+        "no_speech_prob": 0.22289875149726868,
+        "confidence": 0.058,
+        "words": [
+          {
+            "text": "The",
+            "start": 318.76,
+            "end": 319.0,
+            "confidence": 0.376
+          },
+          {
+            "text": "fall",
+            "start": 319.0,
+            "end": 319.34,
+            "confidence": 0.438
+          },
+          {
+            "text": "has",
+            "start": 319.34,
+            "end": 319.64,
+            "confidence": 0.006
+          },
+          {
+            "text": "begun,",
+            "start": 319.64,
+            "end": 320.36,
+            "confidence": 0.594
+          },
+          {
+            "text": "oppression",
+            "start": 320.62,
+            "end": 320.96,
+            "confidence": 0.234
+          },
+          {
+            "text": "damaged",
+            "start": 320.96,
+            "end": 321.44,
+            "confidence": 0.054
+          },
+          {
+            "text": "done.",
+            "start": 321.44,
+            "end": 321.46,
+            "confidence": 0.001
+          }
+        ],
+        "prompt": "A figure with their hands tied behind their back, a black rope tied to a red flag, and a stark white egg with a serpentlike figure peeking out."
+      },
+      {
+        "id": 29,
+        "seek": 11400,
+        "start": 321.46,
+        "end": 324.3,
+        "text": " No money turned to none, to nothing.",
+        "tokens": [
+          51564,
+          883,
+          1460,
+          3574,
+          281,
+          6022,
+          11,
+          281,
+          1825,
+          13,
+          51714
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.23545226230416247,
+        "compression_ratio": 1.7625,
+        "no_speech_prob": 0.22289875149726868,
+        "confidence": 0.117,
+        "words": [
+          {
+            "text": "No",
+            "start": 321.46,
+            "end": 322.2,
+            "confidence": 0.008
+          },
+          {
+            "text": "money",
+            "start": 322.2,
+            "end": 322.54,
+            "confidence": 0.84
+          },
+          {
+            "text": "turned",
+            "start": 322.54,
+            "end": 322.92,
+            "confidence": 0.0
+          },
+          {
+            "text": "to",
+            "start": 322.92,
+            "end": 323.3,
+            "confidence": 0.85
+          },
+          {
+            "text": "none,",
+            "start": 323.3,
+            "end": 323.58,
+            "confidence": 0.122
+          },
+          {
+            "text": "to",
+            "start": 323.82,
+            "end": 323.9,
+            "confidence": 0.901
+          },
+          {
+            "text": "nothing.",
+            "start": 323.9,
+            "end": 324.3,
+            "confidence": 0.419
+          }
+        ],
+        "prompt": "A person being pulled by a rope, straining against it as it tightens around their neck."
+      },
+      {
+        "id": 30,
+        "seek": 14100,
+        "start": 325.28,
+        "end": 328.42,
+        "text": " The origin yours not there, viewers disappear.",
+        "tokens": [
+          50364,
+          440,
+          4957,
+          6342,
+          406,
+          456,
+          11,
+          8499,
+          11596,
+          13,
+          50564
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.39591590033637153,
+        "compression_ratio": 1.4666666666666666,
+        "no_speech_prob": 0.08295002579689026,
+        "confidence": 0.112,
+        "words": [
+          {
+            "text": "The",
+            "start": 325.28,
+            "end": 325.68,
+            "confidence": 0.068
+          },
+          {
+            "text": "origin",
+            "start": 325.68,
+            "end": 325.98,
+            "confidence": 0.071
+          },
+          {
+            "text": "yours",
+            "start": 325.98,
+            "end": 326.3,
+            "confidence": 0.075
+          },
+          {
+            "text": "not",
+            "start": 326.3,
+            "end": 326.64,
+            "confidence": 0.31
+          },
+          {
+            "text": "there,",
+            "start": 326.64,
+            "end": 327.0,
+            "confidence": 0.488
+          },
+          {
+            "text": "viewers",
+            "start": 327.14,
+            "end": 327.48,
+            "confidence": 0.001
+          },
+          {
+            "text": "disappear.",
+            "start": 327.48,
+            "end": 328.42,
+            "confidence": 0.36
+          }
+        ],
+        "prompt": "A person being pulled away from a group of people, their arms outstretched and a noose tightening around their neck."
+      },
+      {
+        "id": 31,
+        "seek": 14100,
+        "start": 328.68,
+        "end": 331.2,
+        "text": " The liars crystal clear, deep in the egg.",
+        "tokens": [
+          50564,
+          440,
+          375,
+          685,
+          13662,
+          1850,
+          11,
+          2452,
+          294,
+          264,
+          3777,
+          13,
+          50714
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.39591590033637153,
+        "compression_ratio": 1.4666666666666666,
+        "no_speech_prob": 0.08295002579689026,
+        "confidence": 0.282,
+        "words": [
+          {
+            "text": "The",
+            "start": 328.68,
+            "end": 328.96,
+            "confidence": 0.044
+          },
+          {
+            "text": "liars",
+            "start": 328.96,
+            "end": 329.32,
+            "confidence": 0.34
+          },
+          {
+            "text": "crystal",
+            "start": 329.32,
+            "end": 329.78,
+            "confidence": 0.874
+          },
+          {
+            "text": "clear,",
+            "start": 329.78,
+            "end": 330.2,
+            "confidence": 0.567
+          },
+          {
+            "text": "deep",
+            "start": 330.4,
+            "end": 330.6,
+            "confidence": 0.682
+          },
+          {
+            "text": "in",
+            "start": 330.6,
+            "end": 330.9,
+            "confidence": 0.621
+          },
+          {
+            "text": "the",
+            "start": 330.9,
+            "end": 331.06,
+            "confidence": 0.144
+          },
+          {
+            "text": "egg.",
+            "start": 331.06,
+            "end": 331.2,
+            "confidence": 0.102
+          }
+        ],
+        "prompt": "A person standing in the middle of a dark room, with a single long straw in their hand, illuminated by a single spotlight."
+      },
+      {
+        "id": 32,
+        "seek": 14100,
+        "start": 332.43,
+        "end": 334.71,
+        "text": " Channels red, one word said.",
+        "tokens": [
+          50714,
+          761,
+          969,
+          1625,
+          2182,
+          11,
+          472,
+          1349,
+          848,
+          13,
+          50864
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.39591590033637153,
+        "compression_ratio": 1.4666666666666666,
+        "no_speech_prob": 0.08295002579689026,
+        "confidence": 0.254,
+        "words": [
+          {
+            "text": "Channels",
+            "start": 332.43,
+            "end": 333.11,
+            "confidence": 0.399
+          },
+          {
+            "text": "red,",
+            "start": 333.11,
+            "end": 333.73,
+            "confidence": 0.511
+          },
+          {
+            "text": "one",
+            "start": 334.27,
+            "end": 334.49,
+            "confidence": 0.604
+          },
+          {
+            "text": "word",
+            "start": 334.49,
+            "end": 334.69,
+            "confidence": 0.045
+          },
+          {
+            "text": "said.",
+            "start": 334.69,
+            "end": 334.71,
+            "confidence": 0.099
+          }
+        ],
+        "prompt": "A hand with a rope tied around its wrist being pulled by an unseen force."
+      },
+      {
+        "id": 33,
+        "seek": 14100,
+        "start": 334.71,
+        "end": 338.67,
+        "text": " Blacklist dead, when for that y'all make you dead.",
+        "tokens": [
+          50864,
+          4076,
+          8264,
+          3116,
+          11,
+          562,
+          337,
+          300,
+          288,
+          6,
+          336,
+          652,
+          291,
+          3116,
+          13,
+          51064
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.39591590033637153,
+        "compression_ratio": 1.4666666666666666,
+        "no_speech_prob": 0.08295002579689026,
+        "confidence": 0.31,
+        "words": [
+          {
+            "text": "Blacklist",
+            "start": 334.71,
+            "end": 336.41,
+            "confidence": 0.413
+          },
+          {
+            "text": "dead,",
+            "start": 336.41,
+            "end": 336.75,
+            "confidence": 0.504
+          },
+          {
+            "text": "when",
+            "start": 336.91,
+            "end": 337.07,
+            "confidence": 0.183
+          },
+          {
+            "text": "for",
+            "start": 337.07,
+            "end": 337.25,
+            "confidence": 0.002
+          },
+          {
+            "text": "that",
+            "start": 337.25,
+            "end": 337.45,
+            "confidence": 0.132
+          },
+          {
+            "text": "y'all",
+            "start": 337.45,
+            "end": 337.77,
+            "confidence": 0.674
+          },
+          {
+            "text": "make",
+            "start": 337.77,
+            "end": 337.99,
+            "confidence": 0.791
+          },
+          {
+            "text": "you",
+            "start": 337.99,
+            "end": 338.29,
+            "confidence": 0.884
+          },
+          {
+            "text": "dead.",
+            "start": 338.29,
+            "end": 338.67,
+            "confidence": 0.398
+          }
+        ],
+        "prompt": "A tightrope stretched between two cliffs, with a person walking along it in the middle, being pulled by a group of people on either side."
+      },
+      {
+        "id": 34,
+        "seek": 14100,
+        "start": 352.93,
+        "end": 353.97,
+        "text": " Shortest straw.",
+        "tokens": [
+          51064,
+          16881,
+          377,
+          10099,
+          13,
+          51164
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.39591590033637153,
+        "compression_ratio": 1.4666666666666666,
+        "no_speech_prob": 0.08295002579689026,
+        "confidence": 0.005,
+        "words": [
+          {
+            "text": "Shortest",
+            "start": 352.93,
+            "end": 353.87,
+            "confidence": 0.003
+          },
+          {
+            "text": "straw.",
+            "start": 353.87,
+            "end": 353.97,
+            "confidence": 0.008
+          }
+        ],
+        "prompt": "A figure with their hands tied behind their back, struggling against a mountain of straw that's slowly collapsing on top of them."
+      },
+      {
+        "id": 35,
+        "seek": 14100,
+        "start": 354.95,
+        "end": 357.91,
+        "text": " Talents liberty, done by law.",
+        "tokens": [
+          51164,
+          10516,
+          791,
+          22849,
+          11,
+          1096,
+          538,
+          2101,
+          13,
+          51364
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.39591590033637153,
+        "compression_ratio": 1.4666666666666666,
+        "no_speech_prob": 0.08295002579689026,
+        "confidence": 0.234,
+        "words": [
+          {
+            "text": "Talents",
+            "start": 354.95,
+            "end": 355.69,
+            "confidence": 0.052
+          },
+          {
+            "text": "liberty,",
+            "start": 355.69,
+            "end": 356.51,
+            "confidence": 0.189
+          },
+          {
+            "text": "done",
+            "start": 356.73,
+            "end": 357.05,
+            "confidence": 0.559
+          },
+          {
+            "text": "by",
+            "start": 357.05,
+            "end": 357.27,
+            "confidence": 0.992
+          },
+          {
+            "text": "law.",
+            "start": 357.27,
+            "end": 357.91,
+            "confidence": 0.406
+          }
+        ],
+        "prompt": "A person in a dark room, their arms bound together with a rope that is unraveling, while the figure of a menacing figure looms in the background."
+      },
+      {
+        "id": 36,
+        "seek": 14100,
+        "start": 358.45,
+        "end": 360.97,
+        "text": " Living infamy, rubbed you raw.",
+        "tokens": [
+          51364,
+          18824,
+          1536,
+          7804,
+          11,
+          5915,
+          2883,
+          291,
+          8936,
+          13,
+          51514
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.39591590033637153,
+        "compression_ratio": 1.4666666666666666,
+        "no_speech_prob": 0.08295002579689026,
+        "confidence": 0.126,
+        "words": [
+          {
+            "text": "Living",
+            "start": 358.45,
+            "end": 359.03,
+            "confidence": 0.157
+          },
+          {
+            "text": "infamy,",
+            "start": 359.03,
+            "end": 360.23,
+            "confidence": 0.065
+          },
+          {
+            "text": "rubbed",
+            "start": 360.35,
+            "end": 360.69,
+            "confidence": 0.042
+          },
+          {
+            "text": "you",
+            "start": 360.69,
+            "end": 360.83,
+            "confidence": 0.661
+          },
+          {
+            "text": "raw.",
+            "start": 360.83,
+            "end": 360.97,
+            "confidence": 0.393
+          }
+        ],
+        "prompt": "A person being pulled into a deep, dark abyss by a rope made of straw."
+      },
+      {
+        "id": 37,
+        "seek": 14100,
+        "start": 360.97,
+        "end": 363.97,
+        "text": " We jump right in through shortest",
+        "tokens": [
+          51514,
+          492,
+          3012,
+          558,
+          294,
+          807,
+          31875,
+          10099,
+          13,
+          51664
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.39591590033637153,
+        "compression_ratio": 1.4666666666666666,
+        "no_speech_prob": 0.08295002579689026,
+        "confidence": 0.025,
+        "words": [
+          {
+            "text": "We",
+            "start": 360.97,
+            "end": 362.15,
+            "confidence": 0.127
+          },
+          {
+            "text": "jump",
+            "start": 362.15,
+            "end": 362.49,
+            "confidence": 0.001
+          },
+          {
+            "text": "right",
+            "start": 362.49,
+            "end": 363.07,
+            "confidence": 0.483
+          },
+          {
+            "text": "in",
+            "start": 363.07,
+            "end": 363.33,
+            "confidence": 0.252
+          },
+          {
+            "text": "through",
+            "start": 363.33,
+            "end": 363.65,
+            "confidence": 0.634
+          },
+          {
+            "text": "shortest",
+            "start": 363.65,
+            "end": 363.97,
+            "confidence": 0.002
+          }
+        ],
+        "prompt": "Person with their arms and legs tied together, being pulled in opposite directions."
+      },
+      {
+        "id": 38,
+        "seek": 16700,
+        "start": 364.07,
+        "end": 364.75,
+        "text": " Shortest straw.",
+        "tokens": [
+          50364,
+          16881,
+          377,
+          10099,
+          13,
+          50464
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.17562994003295898,
+        "compression_ratio": 1.2459016393442623,
+        "no_speech_prob": 0.2343432903289795,
+        "confidence": 0.005,
+        "words": [
+          {
+            "text": "Shortest",
+            "start": 364.07,
+            "end": 364.49,
+            "confidence": 0.001
+          },
+          {
+            "text": "straw.",
+            "start": 364.49,
+            "end": 364.75,
+            "confidence": 0.02
+          }
+        ],
+        "prompt": "A person standing in a dark room, surrounded by an array of ropes hanging from the ceiling, illuminated by a single spotlight - the shortest rope pulled towards them."
+      },
+      {
+        "id": 39,
+        "seek": 16700,
+        "start": 365.13,
+        "end": 368.43,
+        "text": " This shortest straw has been pulled for you.",
+        "tokens": [
+          50464,
+          639,
+          31875,
+          10099,
+          575,
+          668,
+          7373,
+          337,
+          291,
+          13,
+          50664
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.17562994003295898,
+        "compression_ratio": 1.2459016393442623,
+        "no_speech_prob": 0.2343432903289795,
+        "confidence": 0.445,
+        "words": [
+          {
+            "text": "This",
+            "start": 365.13,
+            "end": 365.49,
+            "confidence": 0.587
+          },
+          {
+            "text": "shortest",
+            "start": 365.49,
+            "end": 365.85,
+            "confidence": 0.013
+          },
+          {
+            "text": "straw",
+            "start": 365.85,
+            "end": 366.23,
+            "confidence": 0.903
+          },
+          {
+            "text": "has",
+            "start": 366.23,
+            "end": 366.53,
+            "confidence": 0.957
+          },
+          {
+            "text": "been",
+            "start": 366.53,
+            "end": 366.87,
+            "confidence": 0.998
+          },
+          {
+            "text": "pulled",
+            "start": 366.87,
+            "end": 367.39,
+            "confidence": 0.863
+          },
+          {
+            "text": "for",
+            "start": 367.39,
+            "end": 367.87,
+            "confidence": 0.871
+          },
+          {
+            "text": "you.",
+            "start": 367.87,
+            "end": 368.43,
+            "confidence": 0.377
+          }
+        ],
+        "prompt": "A person standing in a dark alley, their hands tied behind their back, being pulled away by an unseen force."
+      },
+      {
+        "id": 40,
+        "seek": 16700,
+        "start": 369.86,
+        "end": 370.96,
+        "text": " Pulled for you.",
+        "tokens": [
+          50664,
+          15074,
+          292,
+          337,
+          291,
+          13,
+          50764
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.17562994003295898,
+        "compression_ratio": 1.2459016393442623,
+        "no_speech_prob": 0.2343432903289795,
+        "confidence": 0.08,
+        "words": [
+          {
+            "text": "Pulled",
+            "start": 369.86,
+            "end": 370.4,
+            "confidence": 0.022
+          },
+          {
+            "text": "for",
+            "start": 370.4,
+            "end": 370.6,
+            "confidence": 0.082
+          },
+          {
+            "text": "you.",
+            "start": 370.6,
+            "end": 370.96,
+            "confidence": 0.285
+          }
+        ],
+        "prompt": "\"Vivid visual prompt"
+      }
+    ],
+    "language": "en"
+  },
+  "duration": 395.3475918367347
+}

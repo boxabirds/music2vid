@@ -28,7 +28,6 @@ def generate_pulses(pulse_duration, pulse_amplitude, value_at_rest, times_in_sec
                 # insert a partial pulse decay keyframe between the two pulses
                 pulse_end_key = format_timestamp(time_in_sec + pulse_gap / 2)
                 result[pulse_end_key] = PULSE_FORMAT.format(1.0 + pulse_amplitude - pulse_amplitude * (pulse_gap / pulse_duration) )
-                print(f"Adding partial pulse decay keyframe at {pulse_end_key} with value {result[pulse_end_key]}")
             else:
                 pulse_end_key = format_timestamp(time_in_sec + pulse_duration)
                 result[pulse_end_key] = PULSE_FORMAT.format(value_at_rest)

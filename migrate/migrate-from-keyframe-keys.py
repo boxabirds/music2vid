@@ -1,5 +1,5 @@
-# before this script is run, the zoom parameters and full-metadata.json files contain references to keyframes.
-# we need to abstract that to store timestamps 
+# before this script is run, the animation prompts are stored with respect to keyframes. We need to abstract that
+# away so that the animation prompts are stored with respect to time. This script does that.
 import json
 import glob
 import argparse
@@ -21,8 +21,23 @@ def remove_quotes(s):
         return s[1:-2]
     return s
 
-parser = argparse.ArgumentParser(description="Migrate text files associated with mp3 files")
-parser.add_argument("--input", required=True, help="Location of the mp3 files")
+
+def find_nearest_keyframe_prompt(metadata, timestamp: float, kfps: int):
+    # create a keyframe based on timestamp
+    estd_keyframe = int(timestamp * kfps)
+
+    # we are mapping a course keyframe value to a realtime timestamp so there could be rounding error. So check each of these in order and return the first one that exists: metadata["keyframes"][str(estd_keyframe)], metadata["keyframes"][str(estd_keyframe-1)], metadata["keyframes"][str(estd_keyframe+1)]
+    for key in [str(estd_keyframe), str(estd_keyframe-1), str(estd_keyframe+1)]:
+        if key in metadata["keyframes"]:
+            return metadata["keyframes"][key]["prompt"]
+
+    # if none of the keyframes exist, return None
+    print(f"ERROR: could not find keyframe for timestamp '{timestamp}': {estd_keyframe}+/-1")
+    return None
+
+
+parser = argparse.ArgumentParser(description="Migrate prompt section of the full-metadata.json file from keyframe-based to time-based.")
+parser.add_argument("--input", required=True, help="Location of the mp3 files with analysis folders containing full-metadata.json files.")
 args = parser.parse_args()
 input_folder = Path(args.input)
 
@@ -32,52 +47,15 @@ for mp3_file in mp3_files:
     mp3_stem = mp3_file.stem
     analysis_folder = input_folder / f"{mp3_stem}-analysis"
 
-    zoom_path = analysis_folder / f"{mp3_stem}-keyframe-zoom.json"
-    prompts_raw_path = analysis_folder / f"{mp3_stem}-visual-prompts.json"
-    full_transcript_path = analysis_folder / f"{mp3_stem}-medium.json"
-    transcript_frame_timings_raw_path = analysis_folder / f"{mp3_stem}-lyrics-medium.txt"
-    metadata_path = analysis_folder / "metadata.json"
     full_metadata_path = analysis_folder / "full-metadata.json"
+    full_metadata = json.loads(read_file(full_metadata_path))
 
-    zoom = read_file(zoom_path)
-    prompts_raw = read_file(prompts_raw_path)
-    full_transcript = read_file(full_transcript_path)
-    transcript_frame_timings_raw = read_file(transcript_frame_timings_raw_path)
-    estd_bpm = read_file(metadata_path)
+    # the frame rate used for the keyframes is defined in the metadata file itself
+    kfps = full_metadata["animation"]["keyframes_per_second"]
 
-    zoom_data = json.loads(zoom)
-    prompts_raw_lines = prompts_raw.splitlines()
-    style_match = re.search(r'"style":\s*"(.*?)",', prompts_raw_lines[0])
-    style = style_match.group(1) if style_match else None
-    prompts = {int(line.split(": ")[0]): line.split(": ")[1] for line in prompts_raw_lines[1:]}
-    print(f"prompts:\n {prompts}")
-    full_transcript_data = json.loads(full_transcript)
-    transcript_frame_timings = {}
-    for line in transcript_frame_timings_raw.splitlines():
-        try:
-            key, value = line.split(": ")
-            transcript_frame_timings[int(key)] = value
-        except ValueError:
-            # Skip lines that don't contain a colon separator
-            continue
-        except KeyError:
-            # Skip missing keys
-            continue
-    estd_bpm_data = json.loads(estd_bpm)
+    for line in full_metadata["full_transcript"]["segments"]:
+        prompt = find_nearest_keyframe_prompt(full_metadata, line["start"], kfps)
+        line["prompt"] = prompt
 
-    keyframes = OrderedDict()
-    keyframes[0] = {"prompt": remove_quotes(prompts[0])}  # Add the first entry manually
-
-    for key in prompts.keys():
-        if key in transcript_frame_timings:
-            keyframes[key] = {"lyric": remove_quotes(transcript_frame_timings[key]), "prompt": remove_quotes(prompts[key])}
-
-    full_metadata = {
-        "animation": zoom_data,
-        "estd_bpm": estd_bpm_data["tempo"],
-        "style": style,
-        "keyframes": keyframes,
-        "full_transcript": full_transcript_data
-    }
-
+    del full_metadata["keyframes"]
     write_file(full_metadata_path, json.dumps(full_metadata, indent=2))

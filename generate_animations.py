@@ -5,17 +5,25 @@ import numpy as np
 from typing import List
 import soundfile as sf
 from tqdm import tqdm
+from lib import time_based_pulses
+import json
 
 
-def convert_to_wav(mp3_file_path: Path, wav_file_path: Path):
-    sound = AudioSegment.from_mp3(mp3_file_path)
-    sound.export(wav_file_path, format="wav")
+def ensure_wav_conversion_exists(mp3_file_path: Path, wav_file_path: Path):
+    # skip if the wav file already exists
+    if wav_file_path.exists():
+        print(f"Skipping {mp3_file_path} because {wav_file_path} already exists.")
+    else:
+        sound = AudioSegment.from_mp3(mp3_file_path)
+        sound.export(wav_file_path, format="wav")
 
 
 def calculate_onsets(wav_file_path: Path, debug_generate_onset_clicks = True) -> np.ndarray:
     """
     Calculate significant onset times in a given audio file.
 
+    Onsets are the beginning of a rapid change in volume -- someone starts speaking or a drum hit. 
+    We want to reflect this visually with an increase in zoom speed. 
     This function calculates the onsets in an audio file, filters out the ones below a given
     percentile threshold, and returns the significant onset times as a NumPy array.
 
@@ -58,7 +66,7 @@ def calculate_onsets(wav_file_path: Path, debug_generate_onset_clicks = True) ->
     return significant_onset_times
 
 
-def generate_and_save_key_frame_strings(analsys_dir_path: Path, mp3_file:Path, times_in_sec: np.ndarray, pulse_boost=0.4, pulse_duration_in_sec=0.5):
+def generate_animations_from_onsets(analsys_dir_path: Path, mp3_file:Path, times_in_sec: np.ndarray, pulse_boost=0.4, pulse_duration_in_sec=0.5):
     # pulse_boost: how much amplitude a pulse adds to the base zoom value
     # pulse_duration_in_sec: how long a pulse lasts in seconds before returning back to the base zoom value
 
@@ -67,36 +75,19 @@ def generate_and_save_key_frame_strings(analsys_dir_path: Path, mp3_file:Path, t
     metadata_path = analsys_dir_path / "full-metadata.json"
 
     # TODO do other animations as well like rotation and translation
-
-    for time_in_sec in times_in_sec:
-        key_frame_number = int(np.ceil(time_in_sec * kfps))
-        kf[key_frame_number] = f"{1 + pulse:.2f}"
-        
-        if key_frame_number + 1 < num_keyframes:
-            kf[key_frame_number + 1] = f"{1 + pulse / 2:.2f}"
-        
-        if key_frame_number + 2 < num_keyframes:
-            kf[key_frame_number + 2] = f"{1 + pulse / 4:.2f}"
-        
-        if key_frame_number + 3 < num_keyframes:
-            kf[key_frame_number + 3] = BASE_ZOOM
-
-    # Generate the final key frame string
-    zoom_timings = ", ".join(f"{key}: ({value})" for key, value in zt.items())
+    timings_string = time_based_pulses.generate_pulses(pulse_duration_in_sec, pulse_boost, 1.0, times_in_sec)
 
     # read in the metadata file
     with open(metadata_path, "r") as f:
         metadata = json.load(f)
     
-    # remove the old entry for keyframe zoom animations
+    # remove the old entry for keyframe zoom animations if there is one
     del metadata["animation"]["keyframe_zoom_animations"]
-    metadata["animation"]["zoom_animation_times"] = zoom_timings
+    metadata["animation"]["zoom_animation_times"] = timings_string
 
     # now write the metadata file back out
     with open(metadata_path, "w") as f:
         json.dump(metadata, f, indent=4)
-        
-
 
 # take a folder through command line argument "--input" and iterate through it finding all mp3 files. 
 # each mp3 has a corresponding analysis folder named "<songname>-analysis" in the same location. 
@@ -108,9 +99,9 @@ def generate_and_save_key_frame_strings(analsys_dir_path: Path, mp3_file:Path, t
 import argparse
 from pathlib import Path
 
-def main(input_folder: Path, kfps:int):
+def main(input_folder: Path):
     # Iterate through the input folder and find all MP3 files
-    for mp3_file in tqdm(input_folder.glob("*.mp3"), desc="keyframe timings => deforum zoom animation strings..."):
+    for mp3_file in tqdm(input_folder.glob("*.mp3"), desc="detecting pulses and creating zoom animations for them..."):
         print(f"{mp3_file.stem} ")
         # Locate the corresponding analysis folder and drum stems file
         analysis_folder = mp3_file.parent / (mp3_file.stem + "-analysis")
@@ -118,20 +109,19 @@ def main(input_folder: Path, kfps:int):
 
         # Convert the drum stems file to WAV format
         drum_stems_wav = analysis_folder / (mp3_file.stem + "-drums.wav")
-        convert_to_wav(drum_stems_file, drum_stems_wav)
+        ensure_wav_conversion_exists(drum_stems_file, drum_stems_wav)
 
         # Calculate the onsets for the WAV file
         onsets = calculate_onsets(drum_stems_wav)
 
         # Convert the onsets into a Disco-compatible keyframe string
-        generate_and_save_key_frame_strings(analysis_folder, mp3_file, onsets, kfps)
+        generate_animations_from_onsets(analysis_folder, mp3_file, onsets)
 
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Process MP3 files and generate Disco-compatible keyframe strings.")
+    parser = argparse.ArgumentParser(description="Take a folder of MP3 files and add zoom animations to the corresponding analysis/full-metadta.json file based on drum beats.")
     parser.add_argument("--input", type=Path, required=True, help="Input folder containing MP3 files.")
-    parser.add_argument("--kfps", type=int, help="Keyframes per second used in deforum", default=3)
     args = parser.parse_args()
 
-    main(args.input, args.kfps)
+    main(args.input)
