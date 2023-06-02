@@ -323,6 +323,12 @@ def generate_interpolated_video_combinations( batch_config_path:Path, compositio
         generate_interpolated_video_combination( composition_dir_name, combination_path, mp3_path, batch_size, recursion_depth )
 
 
+def exponential_decay_interpolation( image_dest_dir_path: Path, first_image_path: Path, last_image_path:Path, num_interpolations:int):
+  # take two images and generate a series of interpolations between them
+  # for exponential decay interpolation, the interpolation is always against the most recently interpolated image and the last image
+  pass
+
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument('--batch-config', type=str, required=True, help='the configuration used to generate the images contains a list of compositions to process. E.g. "full-length-dpm-0.6.json"')

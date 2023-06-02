@@ -5,6 +5,7 @@ import re
 from tqdm import tqdm
 import time
 from PIL import Image, ImageDraw, ImageFont
+from lib.time_based_pulses import convert_pulses_to_disco_frames
 
 from collections import namedtuple
 Pos = namedtuple('Pos', ['x', 'y'])
@@ -509,12 +510,20 @@ for composition_file_name in compositions:
     # read analysis data into a json object 
     music_metadata = json.loads(music_metadata)
 
-    zoom = music_metadata['animation']['keyframe_zoom_animations']
+    zoom = convert_pulses_to_disco_frames( music_metadata['animation']['zoom_animation_times'], kfps)
+    print(f"zoom as string: {zoom}")
     # style is appended to the end of every prompt to present a consistent style
     style = music_metadata['style']
     prompts:Dict[int,str] = {}
-    for key, value in music_metadata['keyframes'].items():
-        prompts[int(key)] = value['prompt']
+    # we start the video off with an image of the overall composition e.g. "Vibrant colors, dynamic movement, and infectious energy of a jazzy, hip-hop night at Birdland."
+    prompts[0] = music_metadata['visual_description']
+    for segment in music_metadata['full_transcript']['segments']:
+        # convert the start time to a frame number
+        keyframe =  int(np.ceil(float(segment['start']) * kfps))
+        prompts[keyframe] = segment['prompt']
+
+    # print out the prompts for debugging
+    print(f"prompts: {prompts}")
 
     duration = music_metadata['duration']
     max_frames = calculate_max_frames(duration, kfps, num_keyframes_override)
