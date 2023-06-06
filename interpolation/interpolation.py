@@ -10,6 +10,7 @@ import os
 from typing import Generator, Iterable, List, Optional
 import ffmpeg
 import re
+from PIL import Image
 
 import tensorflow as tf
 import tensorflow_hub as hub
@@ -51,14 +52,31 @@ def get_average_render_time():
     return sum(render_data) / len(render_data) if length > 0 else 0
 
 
-def load_image(image_path: Path):
-  """Returns an image with shape [height, width, num_channels], with pixels in [0..1] range, and type np.float32."""
+def read_image(image_path: Path):
+  # Returns an image with shape [height, width, num_channels], with pixels in [0..1] range, and type np.float32.
   image_data = tf.io.read_file(str(image_path))
 
   image = tf.io.decode_image(image_data, channels=3)
   image_numpy = tf.cast(image, dtype=tf.float32).numpy()
   return image_numpy / _UINT8_MAX_F
 
+
+def write_image(filename: str, image: np.ndarray) -> None:
+  """Writes a float32 3-channel RGB ndarray image, with colors in range [0..1].
+
+  Args:
+    filename: The output filename to save.
+    image: A float32 3-channel (RGB) ndarray with colors in the [0..1] range.
+  """
+  image_in_uint8_range = np.clip(image * _UINT8_MAX_F, 0.0, _UINT8_MAX_F)
+  image_in_uint8 = (image_in_uint8_range + 0.5).astype(np.uint8)
+
+  extension = os.path.splitext(filename)[1]
+  if extension == '.jpg':
+    image_data = tf.io.encode_jpeg(image_in_uint8)
+  else:
+    image_data = tf.io.encode_png(image_in_uint8)
+  tf.io.write_file(filename, image_data)
 
 def _pad_to_align(x, align):
   """Pads image batch x so width and height divide by align.
@@ -149,6 +167,26 @@ class Interpolator:
       image = tf.image.crop_to_bounding_box(image, **bbox_to_crop)
     return image.numpy()
   
+  def interpolate(self, frame1: np.ndarray, frame2: np.ndarray) -> np.ndarray:
+      """Generates an interpolated frame between the given two frames.
+
+      Args:
+        frame1: First image. Dimensions: (height, width, channels)
+        frame2: Second image. Dimensions: (height, width, channels)
+
+      Returns:
+        The result with dimensions (height, width, channels).
+      """
+      # Add the batch dimension to the input frames
+      x0 = np.expand_dims(frame1, axis=0)
+      x1 = np.expand_dims(frame2, axis=0)
+      
+      # Set the sub-frame time to 0.5 for midpoint interpolation
+      dt = np.array([0.5], dtype=np.float32)
+      
+      # Call the __call__ method with the prepared inputs and return batch result
+      return self(x0, x1, dt)[0]
+  
 def _recursive_generator(
     frame1: np.ndarray, frame2: np.ndarray, num_recursions: int,
     interpolator: Interpolator) -> Generator[np.ndarray, None, None]:
@@ -195,12 +233,12 @@ def interpolate_recursively(
   """
   n = len(frame_paths)
   for i in tqdm(range(1, n), desc="Processing frames", unit="frames"):
-      frame1 = load_image(frame_paths[i - 1])
-      frame2 = load_image(frame_paths[i])
+      frame1 = read_image(frame_paths[i - 1])
+      frame2 = read_image(frame_paths[i])
       yield from _recursive_generator(frame1, frame2,
                                       num_recursions, interpolator)
   # Separately yield the final frame.
-  yield load_image(frame_paths[-1])
+  yield read_image(frame_paths[-1])
 
 def concatenate_videos(batch_video_paths:List[Path], output_file_path:Path):
     video_clips = [VideoFileClip(str(video)) for video in batch_video_paths]
@@ -327,6 +365,18 @@ def exponential_decay_interpolation( image_dest_dir_path: Path, first_image_path
   # take two images and generate a series of interpolations between them
   # for exponential decay interpolation, the interpolation is always against the most recently interpolated image and the last image
   pass
+
+def basic_interpolation( image_dest_dir_path: Path, start_image_path: Path, end_image_path:Path):
+  # take two images and generate one interpolation between them
+  start_frame = read_image(start_image_path)
+  end_frame = read_image(end_image_path)
+
+  interpolator = Interpolator()
+
+  mid_frame = interpolator.interpolate(start_frame, end_frame)
+  # write the interpolated frame to the destination directory
+  write_image(str(image_dest_dir_path / "1.png"), mid_frame)
+
 
 
 if __name__ == "__main__":
